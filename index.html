@@ -1,238 +1,665 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ClawdBot Dashboard</title>
+  <title>ClawdBot Dashboard — Gary Assouline</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     :root {
-      --bg: #0f1117;
-      --surface: #1a1d27;
-      --border: #2a2d3a;
+      --bg: #0d0f18;
+      --surface: #161824;
+      --surface2: #1e2130;
+      --border: #252838;
       --accent: #e5484d;
       --accent2: #3b82f6;
+      --accent3: #8b5cf6;
+      --green: #22c55e;
+      --yellow: #f59e0b;
       --text: #e2e8f0;
       --muted: #64748b;
-      --green: #22c55e;
-      --yellow: #eab308;
+      --radius: 12px;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body {
-      background: var(--bg);
-      color: var(--text);
-      font-family: 'Inter', -apple-system, sans-serif;
-      min-height: 100vh;
-      padding: 24px;
-    }
-    header {
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Inter', sans-serif; min-height: 100vh; }
+
+    /* Layout */
+    .layout { display: flex; min-height: 100vh; }
+    .sidebar {
+      width: 220px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      padding: 24px 16px;
+      position: fixed;
+      top: 0; left: 0; bottom: 0;
       display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 32px;
-      flex-wrap: wrap;
-      gap: 12px;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 10;
     }
-    header h1 { font-size: 1.5rem; font-weight: 700; }
-    header h1 span { color: var(--accent); }
+    .sidebar .logo { font-size: 1.1rem; font-weight: 800; margin-bottom: 24px; padding: 0 8px; }
+    .sidebar .logo span { color: var(--accent); }
+    .nav-item {
+      display: flex; align-items: center; gap: 10px;
+      padding: 9px 12px; border-radius: 8px;
+      font-size: 0.85rem; color: var(--muted);
+      cursor: pointer; transition: all 0.15s;
+      text-decoration: none;
+    }
+    .nav-item:hover, .nav-item.active { background: var(--surface2); color: var(--text); }
+    .nav-item .icon { font-size: 1rem; width: 20px; text-align: center; }
+    .nav-section { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); padding: 12px 12px 4px; }
+    .main { margin-left: 220px; padding: 28px 32px; max-width: 1200px; }
+
+    /* Header */
+    .topbar { display: flex; align-items: center; justify-content: space-between; margin-bottom: 28px; flex-wrap: wrap; gap: 12px; }
+    .topbar h1 { font-size: 1.25rem; font-weight: 700; }
+    .topbar .meta { display: flex; align-items: center; gap: 12px; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 3px rgba(34,197,94,0.2); }
     .updated { font-size: 0.75rem; color: var(--muted); }
-    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-bottom: 24px; }
-    .card {
+    .btn { padding: 7px 14px; border-radius: 8px; font-size: 0.8rem; font-weight: 600; border: none; cursor: pointer; transition: all 0.15s; }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-primary:hover { background: #c73b3f; }
+    .btn-ghost { background: var(--surface2); color: var(--text); border: 1px solid var(--border); }
+    .btn-ghost:hover { background: var(--border); }
+
+    /* KPI Grid */
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin-bottom: 24px; }
+    .kpi {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 20px;
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      position: relative;
+      overflow: hidden;
     }
-    .card .label { font-size: 0.75rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
-    .card .value { font-size: 1.8rem; font-weight: 700; }
-    .card .sub { font-size: 0.8rem; color: var(--muted); margin-top: 4px; }
-    .card.accent { border-color: var(--accent); }
-    .card.accent .value { color: var(--accent); }
-    .card.blue { border-color: var(--accent2); }
-    .card.blue .value { color: var(--accent2); }
-    .card.green { border-color: var(--green); }
-    .card.green .value { color: var(--green); }
-    .wide { grid-column: 1 / -1; }
-    .chart-card { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin-bottom: 24px; }
-    .chart-card h2 { font-size: 1rem; font-weight: 600; margin-bottom: 16px; }
-    .chart-wrap { position: relative; height: 220px; }
-    .section-title { font-size: 1rem; font-weight: 600; margin-bottom: 12px; color: var(--text); }
+    .kpi::after { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; }
+    .kpi.red::after { background: var(--accent); }
+    .kpi.blue::after { background: var(--accent2); }
+    .kpi.purple::after { background: var(--accent3); }
+    .kpi.green::after { background: var(--green); }
+    .kpi .label { font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 10px; }
+    .kpi .value { font-size: 1.75rem; font-weight: 800; line-height: 1; margin-bottom: 6px; }
+    .kpi .sub { font-size: 0.75rem; color: var(--muted); }
+    .kpi.red .value { color: var(--accent); }
+    .kpi.blue .value { color: var(--accent2); }
+    .kpi.purple .value { color: var(--accent3); }
+    .kpi.green .value { color: var(--green); }
+
+    /* Cards */
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; }
+    .card-title { font-size: 0.9rem; font-weight: 700; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+    .card-title .icon { font-size: 1rem; }
+
+    /* Grid layouts */
+    .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .grid-3 { display: grid; grid-template-columns: 2fr 1fr; gap: 16px; margin-bottom: 16px; }
+    .mb16 { margin-bottom: 16px; }
+
+    /* Quick Actions */
+    .actions-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .action-btn {
+      display: flex; flex-direction: column; align-items: center; gap: 8px;
+      padding: 16px 12px;
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.15s;
+      text-align: center;
+    }
+    .action-btn:hover { border-color: var(--accent); background: rgba(229,72,77,0.08); transform: translateY(-1px); }
+    .action-btn .action-icon { font-size: 1.5rem; }
+    .action-btn .action-label { font-size: 0.75rem; font-weight: 600; color: var(--text); }
+    .action-btn .action-sub { font-size: 0.68rem; color: var(--muted); }
+
+    /* Table */
     table { width: 100%; border-collapse: collapse; }
-    th { text-align: left; font-size: 0.72rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; padding: 8px 12px; border-bottom: 1px solid var(--border); }
-    td { padding: 10px 12px; font-size: 0.85rem; border-bottom: 1px solid var(--border); }
+    th { text-align: left; font-size: 0.7rem; color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+    td { padding: 10px 10px; font-size: 0.82rem; border-bottom: 1px solid var(--border); vertical-align: middle; }
     tr:last-child td { border-bottom: none; }
-    .badge {
-      display: inline-block;
-      padding: 2px 8px;
-      border-radius: 20px;
-      font-size: 0.72rem;
-      font-weight: 600;
+    tr:hover td { background: var(--surface2); }
+
+    /* Badges */
+    .badge { display: inline-flex; align-items: center; gap: 4px; padding: 3px 8px; border-radius: 20px; font-size: 0.7rem; font-weight: 600; }
+    .badge.green { background: rgba(34,197,94,0.12); color: var(--green); }
+    .badge.red { background: rgba(229,72,77,0.12); color: var(--accent); }
+    .badge.blue { background: rgba(59,130,246,0.12); color: var(--accent2); }
+    .badge.purple { background: rgba(139,92,246,0.12); color: var(--accent3); }
+    .badge.gray { background: rgba(100,116,139,0.12); color: var(--muted); }
+    .badge.yellow { background: rgba(245,158,11,0.12); color: var(--yellow); }
+
+    /* Chart */
+    .chart-wrap { position: relative; height: 200px; }
+    .chart-wrap-sm { position: relative; height: 150px; }
+
+    /* Progress bar */
+    .progress-bar { height: 6px; background: var(--border); border-radius: 3px; overflow: hidden; margin-top: 8px; }
+    .progress-fill { height: 100%; border-radius: 3px; transition: width 0.5s; }
+
+    /* Sections */
+    .section { display: none; }
+    .section.active { display: block; }
+
+    /* SEO sites list */
+    .site-row { display: flex; align-items: center; justify-content: space-between; padding: 10px 0; border-bottom: 1px solid var(--border); }
+    .site-row:last-child { border-bottom: none; }
+    .site-info { display: flex; align-items: center; gap: 10px; }
+    .site-favicon { width: 20px; height: 20px; border-radius: 4px; background: var(--surface2); display: flex; align-items: center; justify-content: center; font-size: 0.8rem; }
+    .site-name { font-size: 0.85rem; font-weight: 600; }
+    .site-url { font-size: 0.72rem; color: var(--muted); }
+
+    /* RSS items */
+    .rss-item { padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .rss-item:last-child { border-bottom: none; }
+    .rss-title { font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+    .rss-meta { font-size: 0.72rem; color: var(--muted); display: flex; gap: 12px; }
+
+    /* Discover items */
+    .discover-item { padding: 12px 0; border-bottom: 1px solid var(--border); }
+    .discover-item:last-child { border-bottom: none; }
+    .discover-title { font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: var(--accent2); }
+    .discover-meta { font-size: 0.72rem; color: var(--muted); }
+
+    /* Cost breakdown */
+    .cost-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 0.82rem; }
+    .cost-row:last-child { border-bottom: none; }
+    .cost-model { display: flex; align-items: center; gap: 8px; }
+    .cost-dot { width: 8px; height: 8px; border-radius: 50%; }
+
+    /* Cron toggle */
+    .toggle { position: relative; width: 36px; height: 20px; }
+    .toggle input { display: none; }
+    .toggle-slider { position: absolute; inset: 0; background: var(--border); border-radius: 20px; cursor: pointer; transition: 0.2s; }
+    .toggle input:checked + .toggle-slider { background: var(--green); }
+    .toggle-slider::before { content: ''; position: absolute; width: 14px; height: 14px; border-radius: 50%; background: #fff; top: 3px; left: 3px; transition: 0.2s; }
+    .toggle input:checked + .toggle-slider::before { transform: translateX(16px); }
+
+    /* Alert */
+    .alert { padding: 12px 16px; border-radius: 8px; font-size: 0.82rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+    .alert.info { background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); color: #93c5fd; }
+    .alert.warn { background: rgba(245,158,11,0.1); border: 1px solid rgba(245,158,11,0.2); color: #fcd34d; }
+
+    /* Empty */
+    .empty { text-align: center; color: var(--muted); font-size: 0.82rem; padding: 24px; }
+
+    /* Telegram link helper */
+    .tg-link { color: var(--accent2); text-decoration: none; }
+    .tg-link:hover { text-decoration: underline; }
+
+    /* Responsive */
+    @media (max-width: 900px) {
+      .sidebar { display: none; }
+      .main { margin-left: 0; padding: 16px; }
+      .kpi-grid { grid-template-columns: 1fr 1fr; }
+      .grid-2, .grid-3 { grid-template-columns: 1fr; }
+      .actions-grid { grid-template-columns: repeat(2, 1fr); }
     }
-    .badge.ok { background: rgba(34,197,94,0.15); color: var(--green); }
-    .badge.warn { background: rgba(234,179,8,0.15); color: var(--yellow); }
-    .badge.off { background: rgba(100,116,139,0.15); color: var(--muted); }
-    .model-badge {
-      font-size: 0.72rem;
-      padding: 2px 8px;
-      border-radius: 20px;
-      background: rgba(59,130,246,0.15);
-      color: var(--accent2);
+    @media (max-width: 500px) {
+      .kpi-grid { grid-template-columns: 1fr; }
+      .actions-grid { grid-template-columns: 1fr 1fr; }
     }
-    .empty { color: var(--muted); font-size: 0.85rem; padding: 16px 0; text-align: center; }
-    @media (max-width: 600px) { body { padding: 16px; } .card .value { font-size: 1.4rem; } }
   </style>
 </head>
 <body>
-  <header>
-    <h1>🦞 <span>ClawdBot</span> Dashboard</h1>
-    <span class="updated" id="updated-at">Chargement…</span>
-  </header>
+<div class="layout">
 
-  <!-- KPI Cards -->
-  <div class="grid" id="kpi-grid">
-    <div class="card accent">
-      <div class="label">Tokens aujourd'hui</div>
-      <div class="value" id="tokens-today">—</div>
-      <div class="sub" id="tokens-today-sub">—</div>
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <div class="logo">🦞 <span>ClawdBot</span></div>
+    <span class="nav-section">Overview</span>
+    <a class="nav-item active" onclick="showSection('overview', this)">
+      <span class="icon">📊</span> Dashboard
+    </a>
+    <span class="nav-section">Outils</span>
+    <a class="nav-item" onclick="showSection('seo', this)">
+      <span class="icon">🔍</span> SEO
+    </a>
+    <a class="nav-item" onclick="showSection('discover', this)">
+      <span class="icon">✨</span> Google Discover
+    </a>
+    <a class="nav-item" onclick="showSection('veille', this)">
+      <span class="icon">📰</span> Veille / RSS
+    </a>
+    <a class="nav-item" onclick="showSection('automations', this)">
+      <span class="icon">⚡</span> Automatisations
+    </a>
+    <span class="nav-section">Système</span>
+    <a class="nav-item" onclick="showSection('costs', this)">
+      <span class="icon">💰</span> Coûts & Tokens
+    </a>
+    <a class="nav-item" onclick="showSection('sessions', this)">
+      <span class="icon">🧵</span> Sessions
+    </a>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    <div class="topbar">
+      <div>
+        <h1>Bonjour Gary 👋</h1>
+        <div style="font-size:0.78rem;color:var(--muted);margin-top:4px" id="date-display"></div>
+      </div>
+      <div class="meta">
+        <div class="status-dot"></div>
+        <span class="updated" id="updated-at">Chargement…</span>
+        <button class="btn btn-ghost" onclick="load()">↻ Refresh</button>
+      </div>
     </div>
-    <div class="card blue">
-      <div class="label">Sessions actives</div>
-      <div class="value" id="sessions-count">—</div>
-      <div class="sub" id="model-current">—</div>
+
+    <!-- ===== OVERVIEW ===== -->
+    <div class="section active" id="section-overview">
+
+      <!-- KPIs -->
+      <div class="kpi-grid">
+        <div class="kpi red">
+          <div class="label">Tokens (session)</div>
+          <div class="value" id="kpi-tokens">—</div>
+          <div class="sub" id="kpi-tokens-sub">in / out</div>
+        </div>
+        <div class="kpi blue">
+          <div class="label">Modèle actif</div>
+          <div class="value" style="font-size:1rem;padding-top:6px" id="kpi-model">—</div>
+          <div class="sub" id="kpi-context">Contexte —</div>
+        </div>
+        <div class="kpi purple">
+          <div class="label">Automatisations</div>
+          <div class="value" id="kpi-crons">—</div>
+          <div class="sub" id="kpi-crons-sub">actives</div>
+        </div>
+        <div class="kpi green">
+          <div class="label">Coût estimé</div>
+          <div class="value" id="kpi-cost">—</div>
+          <div class="sub">session en cours</div>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="card mb16">
+        <div class="card-title"><span class="icon">⚡</span> Actions rapides</div>
+        <div class="actions-grid">
+          <a class="action-btn" id="action-seo-audit" href="#" onclick="copyCmd('Audite le SEO de reworld.com'); return false;">
+            <div class="action-icon">🔍</div>
+            <div class="action-label">Audit SEO</div>
+            <div class="action-sub">Analyser un site</div>
+          </a>
+          <a class="action-btn" href="#" onclick="copyCmd('Fais-moi un digest RSS de mes sources de veille'); return false;">
+            <div class="action-icon">📰</div>
+            <div class="action-label">Digest RSS</div>
+            <div class="action-sub">Résumé veille</div>
+          </a>
+          <a class="action-btn" href="#" onclick="copyCmd('Analyse les tendances Google Discover de cette semaine'); return false;">
+            <div class="action-icon">✨</div>
+            <div class="action-label">Discover</div>
+            <div class="action-sub">Tendances du moment</div>
+          </a>
+          <a class="action-btn" href="#" onclick="copyCmd('Analyse les concurrents de reworld.com sur les mots-clés principaux'); return false;">
+            <div class="action-icon">🏆</div>
+            <div class="action-label">Concurrents</div>
+            <div class="action-sub">Analyse SEO</div>
+          </a>
+          <a class="action-btn" href="#" onclick="copyCmd('Crée un workflow d\'automatisation pour la veille éditoriale quotidienne'); return false;">
+            <div class="action-icon">🤖</div>
+            <div class="action-label">Nouveau workflow</div>
+            <div class="action-sub">Automatiser</div>
+          </a>
+          <a class="action-btn" href="#" onclick="copyCmd('Donne-moi un rapport de performance audience de cette semaine'); return false;">
+            <div class="action-icon">📈</div>
+            <div class="action-label">Rapport audience</div>
+            <div class="action-sub">Performance</div>
+          </a>
+        </div>
+        <div id="copy-toast" style="display:none;margin-top:12px;padding:8px 12px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);border-radius:8px;font-size:0.78rem;color:var(--green)">
+          ✅ Commande copiée ! Colle-la dans Telegram pour l'exécuter.
+        </div>
+      </div>
+
+      <!-- Charts row -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title"><span class="icon">📊</span> Tokens — 7 derniers jours</div>
+          <div class="chart-wrap"><canvas id="tokenChart"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="icon">💰</span> Coût par modèle</div>
+          <div class="chart-wrap"><canvas id="costChart"></canvas></div>
+        </div>
+      </div>
+
+      <!-- Automations + Sessions -->
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title"><span class="icon">⚡</span> Automatisations actives</div>
+          <div id="overview-crons-list"><div class="empty">Aucune automatisation</div></div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="icon">🧵</span> Sessions</div>
+          <table>
+            <thead><tr><th>Clé</th><th>Modèle</th><th>Tokens</th></tr></thead>
+            <tbody id="overview-sessions-table"><tr><td colspan="3" class="empty">—</td></tr></tbody>
+          </table>
+        </div>
+      </div>
     </div>
-    <div class="card green">
-      <div class="label">Automatisations</div>
-      <div class="value" id="cron-count">—</div>
-      <div class="sub" id="cron-sub">—</div>
+
+    <!-- ===== SEO ===== -->
+    <div class="section" id="section-seo">
+      <div class="alert info">💡 Lance un audit SEO depuis Telegram : <em>"Audite le SEO de [url]"</em></div>
+      <div class="card mb16">
+        <div class="card-title"><span class="icon">🔍</span> Sites suivis</div>
+        <div id="seo-sites-list">
+          <div class="site-row">
+            <div class="site-info">
+              <div class="site-favicon">🌐</div>
+              <div><div class="site-name">reworld.com</div><div class="site-url">Groupe Reworld Media</div></div>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px">
+              <span class="badge gray">Aucun audit</span>
+              <button class="btn btn-ghost" onclick="copyCmd('Audite le SEO de reworld.com')">Auditer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">📋</span> Derniers audits</div>
+        <div id="seo-audits-list"><div class="empty">Aucun audit effectué pour le moment.<br>Lance ton premier audit via Telegram.</div></div>
+      </div>
     </div>
-    <div class="card">
-      <div class="label">Coût estimé (session)</div>
-      <div class="value" id="cost-session">—</div>
-      <div class="sub">input + output tokens</div>
+
+    <!-- ===== DISCOVER ===== -->
+    <div class="section" id="section-discover">
+      <div class="alert info">✨ Google Discover — Suivi des tendances et performances éditoriales</div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title"><span class="icon">📈</span> Actions rapides Discover</div>
+          <div style="display:flex;flex-direction:column;gap:8px">
+            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Analyse les tendances Google Discover de cette semaine en France')">📊 Tendances Discover FR cette semaine</button>
+            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Quels types de contenus performent le mieux sur Google Discover en ce moment ?')">🏆 Formats qui performent</button>
+            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Analyse le potentiel Discover des articles récents de reworld.com')">🔍 Audit Discover Reworld</button>
+            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Donne-moi les meilleures pratiques Google Discover 2026')">📖 Best practices 2026</button>
+            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Quels sujets ont le plus de potentiel Discover cette semaine ?')">💡 Sujets à fort potentiel</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="icon">✨</span> Dernières analyses</div>
+          <div id="discover-list"><div class="empty">Lance une analyse Discover pour voir les résultats ici.</div></div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- Token chart -->
-  <div class="chart-card">
-    <h2>📊 Consommation tokens (7 derniers jours)</h2>
-    <div class="chart-wrap">
-      <canvas id="tokenChart"></canvas>
+    <!-- ===== VEILLE ===== -->
+    <div class="section" id="section-veille">
+      <div class="grid-3">
+        <div>
+          <div class="card mb16">
+            <div class="card-title"><span class="icon">📰</span> Derniers articles</div>
+            <div id="rss-items-list"><div class="empty">Configure tes sources RSS via Telegram :<br><em>"Ajoute ce flux RSS : [url]"</em></div></div>
+          </div>
+        </div>
+        <div>
+          <div class="card mb16">
+            <div class="card-title"><span class="icon">📡</span> Sources</div>
+            <div id="rss-sources-list">
+              <div class="empty" style="font-size:0.78rem">Aucune source configurée</div>
+            </div>
+            <button class="btn btn-ghost" style="width:100%;margin-top:12px" onclick="copyCmd('Ajoute une source RSS à ma veille : ')">+ Ajouter source</button>
+          </div>
+          <div class="card">
+            <div class="card-title"><span class="icon">⚡</span> Actions</div>
+            <div style="display:flex;flex-direction:column;gap:8px">
+              <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Fais-moi un digest de mes flux RSS du jour')">📋 Digest du jour</button>
+              <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Résume les tendances éditoriales de cette semaine')">📊 Tendances semaine</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- Deux colonnes -->
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px;" class="two-col">
-    <!-- Sessions -->
-    <div class="chart-card" style="margin-bottom:0">
-      <h2>🧵 Sessions</h2>
-      <table>
-        <thead><tr><th>Session</th><th>Modèle</th><th>Tokens</th><th>Statut</th></tr></thead>
-        <tbody id="sessions-table"><tr><td colspan="4" class="empty">Chargement…</td></tr></tbody>
-      </table>
+    <!-- ===== AUTOMATISATIONS ===== -->
+    <div class="section" id="section-automations">
+      <div class="alert info">⚡ Gère tes automatisations depuis ici ou via Telegram.</div>
+      <div class="card mb16">
+        <div class="card-title" style="justify-content:space-between">
+          <span><span class="icon">⚡</span> Crons actifs</span>
+          <button class="btn btn-primary" onclick="copyCmd('Crée une nouvelle automatisation : ')">+ Nouveau</button>
+        </div>
+        <table>
+          <thead><tr><th>Nom</th><th>Schedule</th><th>Dernier run</th><th>Statut</th></tr></thead>
+          <tbody id="automations-table"><tr><td colspan="4" class="empty">Aucune automatisation configurée</td></tr></tbody>
+        </table>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">💡</span> Automatisations suggérées</div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+          <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée une automatisation qui me fait un digest RSS chaque matin à 8h')">📰 Digest RSS quotidien 8h</button>
+          <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée une automatisation qui surveille le classement SEO de reworld.com chaque semaine')">🔍 Suivi SEO hebdo</button>
+          <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée une automatisation qui analyse les tendances Discover chaque lundi matin')">✨ Veille Discover lundi</button>
+          <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée un rapport audience hebdomadaire envoyé chaque vendredi')">📈 Rapport audience vendredi</button>
+        </div>
+      </div>
     </div>
-    <!-- Crons -->
-    <div class="chart-card" style="margin-bottom:0">
-      <h2>⚡ Automatisations</h2>
-      <table>
-        <thead><tr><th>Nom</th><th>Schedule</th><th>Statut</th></tr></thead>
-        <tbody id="cron-table"><tr><td colspan="3" class="empty">Chargement…</td></tr></tbody>
-      </table>
+
+    <!-- ===== COÛTS ===== -->
+    <div class="section" id="section-costs">
+      <div class="kpi-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="kpi red">
+          <div class="label">Tokens session</div>
+          <div class="value" id="cost-kpi-tokens">—</div>
+          <div class="sub" id="cost-kpi-tokens-sub">—</div>
+        </div>
+        <div class="kpi green">
+          <div class="label">Coût estimé session</div>
+          <div class="value" id="cost-kpi-session">—</div>
+          <div class="sub">Gemini 2.5 Flash</div>
+        </div>
+        <div class="kpi blue">
+          <div class="label">Cache hit rate</div>
+          <div class="value" id="cost-kpi-cache">—</div>
+          <div class="sub">tokens servis du cache</div>
+        </div>
+      </div>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title"><span class="icon">📊</span> Tokens — 7 jours</div>
+          <div class="chart-wrap"><canvas id="costTokenChart"></canvas></div>
+        </div>
+        <div class="card">
+          <div class="card-title"><span class="icon">💰</span> Tarifs modèles</div>
+          <table>
+            <thead><tr><th>Modèle</th><th>Input /M</th><th>Output /M</th></tr></thead>
+            <tbody>
+              <tr><td><span class="badge green">Gemini 2.5 Flash</span></td><td>$0.15</td><td>$0.60</td></tr>
+              <tr><td><span class="badge blue">Claude Sonnet 4.6</span></td><td>$3.00</td><td>$15.00</td></tr>
+              <tr><td><span class="badge purple">Claude Opus 4.6</span></td><td>$15.00</td><td>$75.00</td></tr>
+              <tr><td><span class="badge gray">Claude Haiku 4.5</span></td><td>$0.80</td><td>$4.00</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <script>
-    async function load() {
-      try {
-        const r = await fetch('./data.json?t=' + Date.now());
-        const d = await r.json();
-        render(d);
-      } catch(e) {
-        document.getElementById('updated-at').textContent = 'Erreur de chargement';
-      }
-    }
+    <!-- ===== SESSIONS ===== -->
+    <div class="section" id="section-sessions">
+      <div class="card">
+        <div class="card-title"><span class="icon">🧵</span> Sessions actives</div>
+        <table>
+          <thead><tr><th>Session</th><th>Modèle</th><th>Tokens In</th><th>Tokens Out</th><th>Contexte</th><th>Statut</th></tr></thead>
+          <tbody id="sessions-full-table"><tr><td colspan="6" class="empty">Chargement…</td></tr></tbody>
+        </table>
+      </div>
+    </div>
 
-    function fmt(n) {
-      if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
-      if (n >= 1000) return (n/1000).toFixed(1) + 'k';
-      return n;
-    }
+  </main>
+</div>
 
-    function render(d) {
-      document.getElementById('updated-at').textContent = 'Mis à jour : ' + new Date(d.updatedAt).toLocaleString('fr-FR');
+<!-- Toast copy -->
+<script>
+let tokenChartInst, costChartInst, costTokenChartInst;
 
-      // KPIs
-      const s = d.session || {};
-      document.getElementById('tokens-today').textContent = fmt((s.tokensIn||0) + (s.tokensOut||0));
-      document.getElementById('tokens-today-sub').textContent = `${fmt(s.tokensIn||0)} in · ${fmt(s.tokensOut||0)} out`;
-      document.getElementById('sessions-count').textContent = d.sessions ? d.sessions.length : '1';
-      document.getElementById('model-current').textContent = s.model || '—';
-      document.getElementById('cron-count').textContent = d.crons ? d.crons.length : '0';
-      document.getElementById('cron-sub').textContent = d.crons && d.crons.length ? d.crons.filter(c=>c.enabled).length + ' actives' : 'Aucune configurée';
+function copyCmd(cmd) {
+  navigator.clipboard.writeText(cmd).catch(() => {});
+  const toast = document.getElementById('copy-toast');
+  if (toast) { toast.style.display = 'block'; setTimeout(() => toast.style.display = 'none', 3000); }
+}
 
-      // Cost estimate (rough)
-      const inputCost = ((s.tokensIn||0) / 1000000) * 0.15;
-      const outputCost = ((s.tokensOut||0) / 1000000) * 0.60;
-      document.getElementById('cost-session').textContent = '$' + (inputCost + outputCost).toFixed(4);
+function showSection(id, el) {
+  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.getElementById('section-' + id).classList.add('active');
+  if (el) el.classList.add('active');
+}
 
-      // Sessions table
-      const st = document.getElementById('sessions-table');
-      if (d.sessions && d.sessions.length) {
-        st.innerHTML = d.sessions.map(s => `
-          <tr>
-            <td>${s.key || '—'}</td>
-            <td><span class="model-badge">${s.model || '—'}</span></td>
-            <td>${fmt((s.tokensIn||0)+(s.tokensOut||0))}</td>
-            <td><span class="badge ok">active</span></td>
-          </tr>`).join('');
-      } else {
-        st.innerHTML = '<tr><td colspan="4" class="empty">Aucune session</td></tr>';
-      }
+function fmt(n) {
+  if (!n) return '0';
+  if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000) return (n/1000).toFixed(1) + 'k';
+  return '' + n;
+}
 
-      // Cron table
-      const ct = document.getElementById('cron-table');
-      if (d.crons && d.crons.length) {
-        ct.innerHTML = d.crons.map(c => `
-          <tr>
-            <td>${c.name || c.id || '—'}</td>
-            <td style="font-size:0.75rem;color:var(--muted)">${c.schedule || '—'}</td>
-            <td><span class="badge ${c.enabled ? 'ok' : 'off'}">${c.enabled ? 'active' : 'off'}</span></td>
-          </tr>`).join('');
-      } else {
-        ct.innerHTML = '<tr><td colspan="3" class="empty">Aucune automatisation</td></tr>';
-      }
+function estimateCost(tokensIn, tokensOut, model) {
+  let rIn = 0.15, rOut = 0.60;
+  if (model && model.includes('sonnet')) { rIn = 3; rOut = 15; }
+  else if (model && model.includes('opus')) { rIn = 15; rOut = 75; }
+  else if (model && model.includes('haiku')) { rIn = 0.80; rOut = 4; }
+  return ((tokensIn/1e6)*rIn + (tokensOut/1e6)*rOut).toFixed(4);
+}
 
-      // Token chart
-      const history = d.tokenHistory || [];
-      const labels = history.map(h => h.date);
-      const values = history.map(h => h.total);
-      const ctx = document.getElementById('tokenChart').getContext('2d');
-      new Chart(ctx, {
-        type: 'bar',
-        data: {
-          labels,
-          datasets: [{
-            label: 'Tokens',
-            data: values,
-            backgroundColor: 'rgba(229,72,77,0.5)',
-            borderColor: '#e5484d',
-            borderWidth: 1,
-            borderRadius: 4,
-          }]
-        },
-        options: {
-          responsive: true,
-          maintainAspectRatio: false,
-          plugins: { legend: { display: false } },
-          scales: {
-            x: { grid: { color: '#2a2d3a' }, ticks: { color: '#64748b' } },
-            y: { grid: { color: '#2a2d3a' }, ticks: { color: '#64748b' } }
-          }
-        }
-      });
-    }
+async function load() {
+  document.getElementById('updated-at').textContent = 'Actualisation…';
+  try {
+    const r = await fetch('./data.json?t=' + Date.now());
+    const d = await r.json();
+    render(d);
+  } catch(e) {
+    document.getElementById('updated-at').textContent = 'Erreur de chargement';
+  }
+}
 
-    load();
-    setInterval(load, 5 * 60 * 1000); // refresh toutes les 5 min
-  </script>
+function render(d) {
+  // Date
+  const now = new Date();
+  document.getElementById('date-display').textContent = now.toLocaleDateString('fr-FR', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  document.getElementById('updated-at').textContent = 'Mis à jour ' + new Date(d.updatedAt).toLocaleTimeString('fr-FR', {hour:'2-digit',minute:'2-digit'});
+
+  const s = d.session || {};
+  const totalTok = (s.tokensIn||0) + (s.tokensOut||0);
+  const modelShort = (s.model||'—').replace('google/','').replace('anthropic/','');
+  const cost = estimateCost(s.tokensIn||0, s.tokensOut||0, s.model||'');
+
+  // Overview KPIs
+  document.getElementById('kpi-tokens').textContent = fmt(totalTok);
+  document.getElementById('kpi-tokens-sub').textContent = fmt(s.tokensIn||0) + ' in · ' + fmt(s.tokensOut||0) + ' out';
+  document.getElementById('kpi-model').textContent = modelShort;
+  const ctx = s.context||0, ctxMax = s.contextMax||200000;
+  document.getElementById('kpi-context').textContent = 'Contexte ' + Math.round(ctx/1000) + 'k/' + Math.round(ctxMax/1000) + 'k (' + Math.round(ctx/ctxMax*100) + '%)';
+  document.getElementById('kpi-crons').textContent = d.crons ? d.crons.filter(c=>c.enabled).length : '0';
+  document.getElementById('kpi-crons-sub').textContent = (d.crons||[]).length + ' total';
+  document.getElementById('kpi-cost').textContent = '$' + cost;
+
+  // Cost page KPIs
+  document.getElementById('cost-kpi-tokens').textContent = fmt(totalTok);
+  document.getElementById('cost-kpi-tokens-sub').textContent = fmt(s.tokensIn||0) + ' in · ' + fmt(s.tokensOut||0) + ' out';
+  document.getElementById('cost-kpi-session').textContent = '$' + cost;
+  document.getElementById('cost-kpi-cache').textContent = s.cacheHit ? s.cacheHit + '%' : '—';
+
+  // Token chart
+  const history = d.tokenHistory || [];
+  const labels = history.map(h => h.date);
+  const vals = history.map(h => h.total);
+  if (tokenChartInst) tokenChartInst.destroy();
+  tokenChartInst = new Chart(document.getElementById('tokenChart').getContext('2d'), {
+    type: 'bar',
+    data: { labels, datasets: [{ data: vals, backgroundColor: 'rgba(229,72,77,0.5)', borderColor: '#e5484d', borderWidth: 1, borderRadius: 4 }] },
+    options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales: { x:{grid:{color:'#252838'},ticks:{color:'#64748b'}}, y:{grid:{color:'#252838'},ticks:{color:'#64748b'}} } }
+  });
+  if (costTokenChartInst) costTokenChartInst.destroy();
+  costTokenChartInst = new Chart(document.getElementById('costTokenChart').getContext('2d'), {
+    type: 'line',
+    data: { labels, datasets: [{ data: vals, borderColor: '#e5484d', backgroundColor: 'rgba(229,72,77,0.1)', tension: 0.4, fill: true, pointRadius: 3 }] },
+    options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales: { x:{grid:{color:'#252838'},ticks:{color:'#64748b'}}, y:{grid:{color:'#252838'},ticks:{color:'#64748b'}} } }
+  });
+
+  // Cost donut
+  const models = d.modelBreakdown || [{ model: modelShort, cost: parseFloat(cost) }];
+  if (costChartInst) costChartInst.destroy();
+  costChartInst = new Chart(document.getElementById('costChart').getContext('2d'), {
+    type: 'doughnut',
+    data: {
+      labels: models.map(m => m.model),
+      datasets: [{ data: models.map(m => m.cost || 0.0001), backgroundColor: ['#e5484d','#3b82f6','#8b5cf6','#22c55e'], borderWidth: 0 }]
+    },
+    options: { responsive:true, maintainAspectRatio:false, cutout:'65%', plugins: { legend: { position:'bottom', labels: { color:'#64748b', boxWidth:10, padding:12 } } } }
+  });
+
+  // Overview crons
+  const cronList = document.getElementById('overview-crons-list');
+  if (d.crons && d.crons.length) {
+    cronList.innerHTML = d.crons.map(c => `
+      <div class="site-row">
+        <div class="site-info">
+          <div class="site-favicon">⚡</div>
+          <div><div class="site-name">${c.name||c.id||'—'}</div><div class="site-url">${c.schedule||'—'}</div></div>
+        </div>
+        <span class="badge ${c.enabled?'green':'gray'}">${c.enabled?'active':'off'}</span>
+      </div>`).join('');
+  } else {
+    cronList.innerHTML = '<div class="empty">Aucune automatisation configurée</div>';
+  }
+
+  // Automations table
+  const autTable = document.getElementById('automations-table');
+  if (d.crons && d.crons.length) {
+    autTable.innerHTML = d.crons.map(c => `
+      <tr>
+        <td>${c.name||c.id||'—'}</td>
+        <td style="color:var(--muted);font-size:0.78rem">${c.schedule||'—'}</td>
+        <td style="color:var(--muted);font-size:0.78rem">${c.lastRun||'Jamais'}</td>
+        <td><span class="badge ${c.enabled?'green':'gray'}">${c.enabled?'active':'off'}</span></td>
+      </tr>`).join('');
+  } else {
+    autTable.innerHTML = '<tr><td colspan="4" class="empty">Aucune automatisation</td></tr>';
+  }
+
+  // Sessions tables
+  const sessions = d.sessions || [];
+  const ovSt = document.getElementById('overview-sessions-table');
+  const fullSt = document.getElementById('sessions-full-table');
+  if (sessions.length) {
+    ovSt.innerHTML = sessions.map(s => `
+      <tr>
+        <td style="font-size:0.78rem">${s.key||'—'}</td>
+        <td><span class="badge blue">${(s.model||'—').replace('google/','').replace('anthropic/','')}</span></td>
+        <td>${fmt((s.tokensIn||0)+(s.tokensOut||0))}</td>
+      </tr>`).join('');
+    fullSt.innerHTML = sessions.map(s => `
+      <tr>
+        <td style="font-size:0.78rem">${s.key||'—'}</td>
+        <td><span class="badge blue">${(s.model||'—').replace('google/','').replace('anthropic/','')}</span></td>
+        <td>${fmt(s.tokensIn||0)}</td>
+        <td>${fmt(s.tokensOut||0)}</td>
+        <td>${s.context ? Math.round(s.context/1000)+'k' : '—'}</td>
+        <td><span class="badge green">active</span></td>
+      </tr>`).join('');
+  } else {
+    ovSt.innerHTML = '<tr><td colspan="3" class="empty">—</td></tr>';
+    fullSt.innerHTML = '<tr><td colspan="6" class="empty">Aucune session</td></tr>';
+  }
+
+  // RSS items
+  const rssEl = document.getElementById('rss-items-list');
+  if (d.rssItems && d.rssItems.length) {
+    rssEl.innerHTML = d.rssItems.map(i => `
+      <div class="rss-item">
+        <div class="rss-title">${i.title}</div>
+        <div class="rss-meta"><span>${i.source}</span><span>${i.date}</span></div>
+      </div>`).join('');
+  }
+}
+
+load();
+setInterval(load, 5 * 60 * 1000);
+</script>
 </body>
 </html>

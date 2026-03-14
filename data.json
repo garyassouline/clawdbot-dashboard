@@ -1,21 +1,35 @@
 {
-  "updatedAt": "2026-03-14T16:15:00.000Z",
+  "updatedAt": "2026-03-14T16:18:00.000Z",
   "session": {
     "model": "google/gemini-2.5-flash",
     "tokensIn": 1000,
     "tokensOut": 438,
     "context": 55000,
-    "contextMax": 200000
+    "contextMax": 200000,
+    "cacheHit": 98
   },
   "sessions": [
     {
       "key": "agent:main:main",
-      "model": "gemini-2.5-flash",
+      "model": "google/gemini-2.5-flash",
       "tokensIn": 1000,
-      "tokensOut": 438
+      "tokensOut": 438,
+      "context": 55000
     }
   ],
-  "crons": [],
+  "crons": [
+    {
+      "id": "8e3c0da8-c9b2-434a-91a5-76ce2c3ff19a",
+      "name": "Dashboard update",
+      "schedule": "Toutes les heures",
+      "enabled": true,
+      "lastRun": "Jamais"
+    }
+  ],
+  "modelBreakdown": [
+    { "model": "Gemini 2.5 Flash", "cost": 0.0004 }
+  ],
+  "rssItems": [],
   "tokenHistory": [
     { "date": "08/03", "total": 0 },
     { "date": "09/03", "total": 0 },
