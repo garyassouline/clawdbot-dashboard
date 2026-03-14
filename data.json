@@ -1,0 +1,28 @@
+{
+  "updatedAt": "2026-03-14T16:15:00.000Z",
+  "session": {
+    "model": "google/gemini-2.5-flash",
+    "tokensIn": 1000,
+    "tokensOut": 438,
+    "context": 55000,
+    "contextMax": 200000
+  },
+  "sessions": [
+    {
+      "key": "agent:main:main",
+      "model": "gemini-2.5-flash",
+      "tokensIn": 1000,
+      "tokensOut": 438
+    }
+  ],
+  "crons": [],
+  "tokenHistory": [
+    { "date": "08/03", "total": 0 },
+    { "date": "09/03", "total": 0 },
+    { "date": "10/03", "total": 0 },
+    { "date": "11/03", "total": 0 },
+    { "date": "12/03", "total": 0 },
+    { "date": "13/03", "total": 0 },
+    { "date": "14/03", "total": 1438 }
+  ]
+}
