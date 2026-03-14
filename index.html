@@ -7,6 +7,20 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     :root {
+      --bg: #f4f6fa;
+      --surface: #ffffff;
+      --surface2: #f0f2f8;
+      --border: #e2e6f0;
+      --accent: #e5484d;
+      --accent2: #3b82f6;
+      --accent3: #8b5cf6;
+      --green: #16a34a;
+      --yellow: #d97706;
+      --text: #111827;
+      --muted: #6b7280;
+      --radius: 12px;
+    }
+    [data-theme="dark"] {
       --bg: #0d0f18;
       --surface: #161824;
       --surface2: #1e2130;
@@ -18,10 +32,9 @@
       --yellow: #f59e0b;
       --text: #e2e8f0;
       --muted: #64748b;
-      --radius: 12px;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Inter', sans-serif; min-height: 100vh; }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, 'Inter', sans-serif; min-height: 100vh; transition: background 0.2s, color 0.2s; }
 
     /* Layout */
     .layout { display: flex; min-height: 100vh; }
@@ -246,6 +259,7 @@
         <div class="status-dot"></div>
         <span class="updated" id="updated-at">Chargement…</span>
         <button class="btn btn-ghost" onclick="load()">↻ Refresh</button>
+        <button class="btn btn-ghost" id="theme-toggle" onclick="toggleTheme()" title="Changer de thème">🌙</button>
       </div>
     </div>
 
@@ -443,39 +457,118 @@
 
     <!-- ===== COÛTS ===== -->
     <div class="section" id="section-costs">
-      <div class="kpi-grid" style="grid-template-columns:repeat(3,1fr)">
+      <!-- KPIs globaux -->
+      <div class="kpi-grid" style="grid-template-columns:repeat(4,1fr)">
         <div class="kpi red">
-          <div class="label">Tokens session</div>
+          <div class="label">Tokens totaux</div>
           <div class="value" id="cost-kpi-tokens">—</div>
           <div class="sub" id="cost-kpi-tokens-sub">—</div>
         </div>
         <div class="kpi green">
-          <div class="label">Coût estimé session</div>
-          <div class="value" id="cost-kpi-session">—</div>
-          <div class="sub">Gemini 2.5 Flash</div>
+          <div class="label">Coût total estimé</div>
+          <div class="value" id="cost-kpi-total">—</div>
+          <div class="sub">Gemini + Claude cumulé</div>
         </div>
         <div class="kpi blue">
           <div class="label">Cache hit rate</div>
           <div class="value" id="cost-kpi-cache">—</div>
           <div class="sub">tokens servis du cache</div>
         </div>
+        <div class="kpi purple">
+          <div class="label">Économies cache</div>
+          <div class="value" id="cost-kpi-savings">—</div>
+          <div class="sub">vs sans cache</div>
+        </div>
       </div>
+
+      <!-- Breakdown Gemini vs Claude -->
+      <div class="grid-2" style="margin-bottom:16px">
+        <!-- Gemini -->
+        <div class="card">
+          <div class="card-title" style="justify-content:space-between">
+            <span><span class="icon">✨</span> Google Gemini</span>
+            <span class="badge green">Modèle par défaut</span>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px">
+            <div style="background:var(--surface2);border-radius:8px;padding:12px">
+              <div style="font-size:0.7rem;color:var(--muted);margin-bottom:4px">TOKENS SESSION</div>
+              <div style="font-size:1.2rem;font-weight:700;color:var(--green)" id="gemini-tokens">—</div>
+            </div>
+            <div style="background:var(--surface2);border-radius:8px;padding:12px">
+              <div style="font-size:0.7rem;color:var(--muted);margin-bottom:4px">COÛT ESTIMÉ</div>
+              <div style="font-size:1.2rem;font-weight:700;color:var(--green)" id="gemini-cost">—</div>
+            </div>
+          </div>
+          <table>
+            <thead><tr><th>Modèle</th><th>Input /M</th><th>Output /M</th><th>Usage</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><span class="badge green">Gemini 2.5 Flash</span></td>
+                <td>$0.15</td><td>$0.60</td>
+                <td><span class="badge green" id="gemini-flash-usage">actif</span></td>
+              </tr>
+              <tr>
+                <td><span class="badge blue">Gemini 2.5 Pro</span></td>
+                <td>$1.25</td><td>$10.00</td>
+                <td><span class="badge gray">—</span></td>
+              </tr>
+              <tr>
+                <td><span class="badge gray">Gemini 3 Flash</span></td>
+                <td>~gratuit</td><td>~gratuit</td>
+                <td><span class="badge gray">preview</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Claude -->
+        <div class="card">
+          <div class="card-title" style="justify-content:space-between">
+            <span><span class="icon">🧠</span> Anthropic Claude</span>
+            <span class="badge gray">Tâches complexes</span>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px">
+            <div style="background:var(--surface2);border-radius:8px;padding:12px">
+              <div style="font-size:0.7rem;color:var(--muted);margin-bottom:4px">TOKENS SESSION</div>
+              <div style="font-size:1.2rem;font-weight:700;color:var(--accent2)" id="claude-tokens">—</div>
+            </div>
+            <div style="background:var(--surface2);border-radius:8px;padding:12px">
+              <div style="font-size:0.7rem;color:var(--muted);margin-bottom:4px">COÛT ESTIMÉ</div>
+              <div style="font-size:1.2rem;font-weight:700;color:var(--accent2)" id="claude-cost">—</div>
+            </div>
+          </div>
+          <table>
+            <thead><tr><th>Modèle</th><th>Input /M</th><th>Output /M</th><th>Usage</th></tr></thead>
+            <tbody>
+              <tr>
+                <td><span class="badge gray">Haiku 4.5</span></td>
+                <td>$0.80</td><td>$4.00</td>
+                <td><span class="badge gray">—</span></td>
+              </tr>
+              <tr>
+                <td><span class="badge blue">Sonnet 4.6</span></td>
+                <td>$3.00</td><td>$15.00</td>
+                <td><span class="badge yellow" id="claude-sonnet-usage">complexe</span></td>
+              </tr>
+              <tr>
+                <td><span class="badge purple">Opus 4.6</span></td>
+                <td>$15.00</td><td>$75.00</td>
+                <td><span class="badge gray">sur demande</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Graphiques -->
       <div class="grid-2">
         <div class="card">
           <div class="card-title"><span class="icon">📊</span> Tokens — 7 jours</div>
           <div class="chart-wrap"><canvas id="costTokenChart"></canvas></div>
         </div>
         <div class="card">
-          <div class="card-title"><span class="icon">💰</span> Tarifs modèles</div>
-          <table>
-            <thead><tr><th>Modèle</th><th>Input /M</th><th>Output /M</th></tr></thead>
-            <tbody>
-              <tr><td><span class="badge green">Gemini 2.5 Flash</span></td><td>$0.15</td><td>$0.60</td></tr>
-              <tr><td><span class="badge blue">Claude Sonnet 4.6</span></td><td>$3.00</td><td>$15.00</td></tr>
-              <tr><td><span class="badge purple">Claude Opus 4.6</span></td><td>$15.00</td><td>$75.00</td></tr>
-              <tr><td><span class="badge gray">Claude Haiku 4.5</span></td><td>$0.80</td><td>$4.00</td></tr>
-            </tbody>
-          </table>
+          <div class="card-title"><span class="icon">💰</span> Répartition Gemini vs Claude</div>
+          <div class="chart-wrap"><canvas id="costSplitChart"></canvas></div>
         </div>
       </div>
     </div>
@@ -496,7 +589,26 @@
 
 <!-- Toast copy -->
 <script>
-let tokenChartInst, costChartInst, costTokenChartInst;
+let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst;
+
+function toggleTheme() {
+  const html = document.documentElement;
+  const isDark = html.getAttribute('data-theme') === 'dark';
+  html.setAttribute('data-theme', isDark ? '' : 'dark');
+  document.getElementById('theme-toggle').textContent = isDark ? '🌙' : '☀️';
+  localStorage.setItem('theme', isDark ? 'light' : 'dark');
+}
+// Init theme from storage (default: light)
+(function() {
+  const saved = localStorage.getItem('theme') || 'light';
+  if (saved === 'dark') {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.addEventListener('DOMContentLoaded', () => {
+      const btn = document.getElementById('theme-toggle');
+      if (btn) btn.textContent = '☀️';
+    });
+  }
+})();
 
 function copyCmd(cmd) {
   navigator.clipboard.writeText(cmd).catch(() => {});
@@ -561,8 +673,33 @@ function render(d) {
   // Cost page KPIs
   document.getElementById('cost-kpi-tokens').textContent = fmt(totalTok);
   document.getElementById('cost-kpi-tokens-sub').textContent = fmt(s.tokensIn||0) + ' in · ' + fmt(s.tokensOut||0) + ' out';
-  document.getElementById('cost-kpi-session').textContent = '$' + cost;
   document.getElementById('cost-kpi-cache').textContent = s.cacheHit ? s.cacheHit + '%' : '—';
+
+  // Gemini vs Claude breakdown
+  const mb = d.modelBreakdown || [];
+  const geminiModels = mb.filter(m => m.model && m.model.toLowerCase().includes('gemini'));
+  const claudeModels = mb.filter(m => m.model && (m.model.toLowerCase().includes('claude') || m.model.toLowerCase().includes('sonnet') || m.model.toLowerCase().includes('haiku') || m.model.toLowerCase().includes('opus')));
+  // fallback: attribute all to gemini if no breakdown
+  const geminiTok = geminiModels.reduce((a,m) => a + (m.tokensIn||0)+(m.tokensOut||0), 0) || totalTok;
+  const claudeTok = claudeModels.reduce((a,m) => a + (m.tokensIn||0)+(m.tokensOut||0), 0);
+  const geminiCost = geminiModels.reduce((a,m) => a + (m.cost||0), 0) || parseFloat(cost);
+  const claudeCost = claudeModels.reduce((a,m) => a + (m.cost||0), 0);
+  const totalCost = geminiCost + claudeCost;
+
+  document.getElementById('cost-kpi-total').textContent = '$' + totalCost.toFixed(4);
+  document.getElementById('gemini-tokens').textContent = fmt(geminiTok);
+  document.getElementById('gemini-cost').textContent = '$' + geminiCost.toFixed(4);
+  document.getElementById('claude-tokens').textContent = claudeTok ? fmt(claudeTok) : '0';
+  document.getElementById('claude-cost').textContent = '$' + claudeCost.toFixed(4);
+
+  // Savings estimate (cache hit)
+  if (s.cacheHit) {
+    const cachedTokens = totalTok * (s.cacheHit / 100);
+    const savings = (cachedTokens / 1e6) * 0.15;
+    document.getElementById('cost-kpi-savings').textContent = '$' + savings.toFixed(4);
+  } else {
+    document.getElementById('cost-kpi-savings').textContent = '—';
+  }
 
   // Token chart
   const history = d.tokenHistory || [];
@@ -581,17 +718,53 @@ function render(d) {
     options: { responsive:true, maintainAspectRatio:false, plugins:{legend:{display:false}}, scales: { x:{grid:{color:'#252838'},ticks:{color:'#64748b'}}, y:{grid:{color:'#252838'},ticks:{color:'#64748b'}} } }
   });
 
-  // Cost donut
+  // Cost donut (overview)
   const models = d.modelBreakdown || [{ model: modelShort, cost: parseFloat(cost) }];
   if (costChartInst) costChartInst.destroy();
-  costChartInst = new Chart(document.getElementById('costChart').getContext('2d'), {
-    type: 'doughnut',
-    data: {
-      labels: models.map(m => m.model),
-      datasets: [{ data: models.map(m => m.cost || 0.0001), backgroundColor: ['#e5484d','#3b82f6','#8b5cf6','#22c55e'], borderWidth: 0 }]
-    },
-    options: { responsive:true, maintainAspectRatio:false, cutout:'65%', plugins: { legend: { position:'bottom', labels: { color:'#64748b', boxWidth:10, padding:12 } } } }
-  });
+  if (document.getElementById('costChart')) {
+    costChartInst = new Chart(document.getElementById('costChart').getContext('2d'), {
+      type: 'doughnut',
+      data: {
+        labels: models.map(m => m.model),
+        datasets: [{ data: models.map(m => m.cost || 0.0001), backgroundColor: ['#e5484d','#3b82f6','#8b5cf6','#22c55e'], borderWidth: 0 }]
+      },
+      options: { responsive:true, maintainAspectRatio:false, cutout:'65%', plugins: { legend: { position:'bottom', labels: { color:'#6b7280', boxWidth:10, padding:12 } } } }
+    });
+  }
+
+  // Gemini vs Claude split chart
+  if (costSplitChartInst) costSplitChartInst.destroy();
+  if (document.getElementById('costSplitChart')) {
+    costSplitChartInst = new Chart(document.getElementById('costSplitChart').getContext('2d'), {
+      type: 'doughnut',
+      data: {
+        labels: ['Gemini (Google)', 'Claude (Anthropic)'],
+        datasets: [{
+          data: [geminiCost || 0.0001, claudeCost || 0.0001],
+          backgroundColor: ['#22c55e', '#3b82f6'],
+          borderWidth: 0
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        cutout: '65%',
+        plugins: {
+          legend: { position: 'bottom', labels: { color: '#6b7280', boxWidth: 10, padding: 12 } },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) {
+                const val = ctx.parsed;
+                const total = ctx.dataset.data.reduce((a,b) => a+b, 0);
+                const pct = Math.round(val/total*100);
+                return ` $${val.toFixed(4)} (${pct}%)`;
+              }
+            }
+          }
+        }
+      }
+    });
+  }
 
   // Overview crons
   const cronList = document.getElementById('overview-crons-list');
