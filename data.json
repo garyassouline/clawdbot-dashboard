@@ -1,42 +1,26 @@
 {
-  "updatedAt": "2026-03-14T16:18:00.000Z",
-  "session": {
+  "timestamp": "2026-03-14T18:16:00+01:00",
+  "session_status": {
+    "time": "Saturday, March 14th, 2026 — 6:16 PM (Europe/Paris)",
     "model": "google/gemini-2.5-flash",
-    "tokensIn": 1000,
-    "tokensOut": 438,
-    "context": 55000,
-    "contextMax": 200000,
-    "cacheHit": 98
+    "tokens_in": 16000,
+    "tokens_out": 185
   },
-  "sessions": [
-    {
-      "key": "agent:main:main",
-      "model": "google/gemini-2.5-flash",
-      "tokensIn": 1000,
-      "tokensOut": 438,
-      "context": 55000
-    }
-  ],
-  "crons": [
+  "cron_jobs": [
     {
       "id": "8e3c0da8-c9b2-434a-91a5-76ce2c3ff19a",
       "name": "Dashboard update",
-      "schedule": "Toutes les heures",
       "enabled": true,
-      "lastRun": "Jamais"
+      "schedule": "every 3600000ms",
+      "nextRunAtMs": 1773508604934
     }
   ],
-  "modelBreakdown": [
-    { "model": "Gemini 2.5 Flash", "cost": 0.0004 }
-  ],
-  "rssItems": [],
-  "tokenHistory": [
-    { "date": "08/03", "total": 0 },
-    { "date": "09/03", "total": 0 },
-    { "date": "10/03", "total": 0 },
-    { "date": "11/03", "total": 0 },
-    { "date": "12/03", "total": 0 },
-    { "date": "13/03", "total": 0 },
-    { "date": "14/03", "total": 1438 }
+  "sessions": [
+    {
+      "key": "agent:main:cron:8e3c0da8-c9b2-434a-91a5-76ce2c3ff19a",
+      "label": "Cron: Dashboard update",
+      "model": "gemini-2.5-flash",
+      "updatedAt": 1773508605058
+    }
   ]
 }
