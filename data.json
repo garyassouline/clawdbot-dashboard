@@ -1,10 +1,14 @@
 {
-  "timestamp": "2026-03-14T18:16:00+01:00",
+  "timestamp": "2026-03-14 22:16:00 Europe/Paris",
   "session_status": {
-    "time": "Saturday, March 14th, 2026 — 6:16 PM (Europe/Paris)",
+    "time": "Saturday, March 14th, 2026 — 10:16 PM (Europe/Paris)",
     "model": "google/gemini-2.5-flash",
-    "tokens_in": 16000,
-    "tokens_out": 185
+    "tokens_in": "67k",
+    "tokens_out": "263",
+    "cache_hit": "19%",
+    "cache_cached": "16k",
+    "cache_new": "0",
+    "context": "18k/1.0m (2%)"
   },
   "cron_jobs": [
     {
@@ -12,15 +16,16 @@
       "name": "Dashboard update",
       "enabled": true,
       "schedule": "every 3600000ms",
-      "nextRunAtMs": 1773508604934
+      "last_run_status": "error",
+      "next_run_at_ms": 1773523004952
     }
   ],
   "sessions": [
     {
       "key": "agent:main:cron:8e3c0da8-c9b2-434a-91a5-76ce2c3ff19a",
-      "label": "Cron: Dashboard update",
+      "display_name": "Cron: Dashboard update",
       "model": "gemini-2.5-flash",
-      "updatedAt": 1773508605058
+      "total_tokens": 17590
     }
   ]
 }
