@@ -408,21 +408,54 @@
 
     <!-- ===== DISCOVER ===== -->
     <div class="section" id="section-discover">
-      <div class="alert info">✨ Google Discover — Suivi des tendances et performances éditoriales</div>
+      <div class="topbar" style="margin-bottom:16px">
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <select id="disc-site-filter" class="btn btn-ghost" onchange="renderDiscover()">
+            <option value="all">Tous les sites</option>
+          </select>
+          <select id="disc-range-filter" class="btn btn-ghost" onchange="renderDiscover()">
+            <option value="1">Dernières 24h</option>
+            <option value="7" selected>7 derniers jours</option>
+            <option value="28">28 derniers jours</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="kpi-grid" id="disc-kpis">
+        <div class="kpi blue">
+          <div class="label">Clics Discover</div>
+          <div class="value" id="disc-total-clicks">—</div>
+        </div>
+        <div class="kpi purple">
+          <div class="label">Impressions</div>
+          <div class="value" id="disc-total-impressions">—</div>
+        </div>
+        <div class="kpi green">
+          <div class="label">CTR Moyen</div>
+          <div class="value" id="disc-avg-ctr">—</div>
+        </div>
+        <div class="kpi red">
+          <div class="label">Top Articles</div>
+          <div class="value" id="disc-count-pages">—</div>
+        </div>
+      </div>
+
+      <div class="card mb16">
+        <div class="card-title"><span class="icon">📈</span> Évolution des clics</div>
+        <div class="chart-wrap"><canvas id="disc-main-chart"></canvas></div>
+      </div>
+
       <div class="grid-2">
         <div class="card">
-          <div class="card-title"><span class="icon">📈</span> Actions rapides Discover</div>
-          <div style="display:flex;flex-direction:column;gap:8px">
-            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Analyse les tendances Google Discover de cette semaine en France')">📊 Tendances Discover FR cette semaine</button>
-            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Quels types de contenus performent le mieux sur Google Discover en ce moment ?')">🏆 Formats qui performent</button>
-            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Analyse le potentiel Discover des articles récents de reworld.com')">🔍 Audit Discover Reworld</button>
-            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Donne-moi les meilleures pratiques Google Discover 2026')">📖 Best practices 2026</button>
-            <button class="btn btn-ghost" style="text-align:left" onclick="copyCmd('Quels sujets ont le plus de potentiel Discover cette semaine ?')">💡 Sujets à fort potentiel</button>
-          </div>
+          <div class="card-title"><span class="icon">🏆</span> Top 10 Articles Performance</div>
+          <table style="font-size:0.75rem">
+            <thead><tr><th>Page</th><th style="text-align:right">Clics</th><th style="text-align:right">CTR</th></tr></thead>
+            <tbody id="disc-top-pages"></tbody>
+          </table>
         </div>
         <div class="card">
-          <div class="card-title"><span class="icon">✨</span> Dernières analyses</div>
-          <div id="discover-list"><div class="empty">Lance une analyse Discover pour voir les résultats ici.</div></div>
+          <div class="card-title"><span class="icon">🔍</span> Répartition par site</div>
+          <div class="chart-wrap-sm"><canvas id="disc-pie-chart"></canvas></div>
         </div>
       </div>
     </div>
@@ -645,6 +678,92 @@ function copyCmd(cmd) {
     toast.style.display = 'block'; 
     setTimeout(() => toast.style.display = 'none', 3000); 
   }
+}
+
+function initDiscoverFilters() {
+    const sel = document.getElementById('disc-site-filter');
+    if (sel.options.length > 1) return;
+    const sites = Object.keys(globalData.discoverAdvanced.sites || {});
+    sites.forEach(s => {
+        const opt = document.createElement('option');
+        opt.value = s; opt.textContent = s;
+        sel.appendChild(opt);
+    });
+}
+
+function renderDiscover() {
+    const site = document.getElementById('disc-site-filter').value;
+    const range = document.getElementById('disc-range-filter').value;
+    const adv = globalData.discoverAdvanced.sites;
+    
+    let totalClicks = 0, totalImps = 0, allDaily = {}, siteSplit = {}, pages = [];
+
+    Object.keys(adv).forEach(s => {
+        if (site !== 'all' && s !== site) return;
+        const p = adv[s].periods[range];
+        if (!p) return;
+
+        totalClicks += p.totalClicks;
+        totalImps += p.totalImpressions;
+        siteSplit[s] = p.totalClicks;
+        
+        p.daily.forEach(d => {
+            if (!allDaily[d.date]) allDaily[d.date] = 0;
+            allDaily[d.date] += d.clicks;
+        });
+        
+        pages = pages.concat(p.topPages.map(pg => ({...pg, site: s})));
+    });
+
+    document.getElementById('disc-total-clicks').textContent = fmt(totalClicks);
+    document.getElementById('disc-total-impressions').textContent = fmt(totalImps);
+    document.getElementById('disc-avg-ctr').textContent = (totalImps > 0 ? (totalClicks/totalImps*100).toFixed(2) : 0) + '%';
+    
+    pages.sort((a,b) => b.clicks - a.clicks);
+    const top10 = pages.slice(0, 10);
+    document.getElementById('disc-count-pages').textContent = pages.length;
+
+    document.getElementById('disc-top-pages').innerHTML = top10.map(p => `
+        <tr>
+            <td style="max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap" title="${p.url}">
+                <span style="font-size:0.6rem;color:var(--muted)">${p.site}</span><br>${p.url.split('/').pop() || p.url}
+            </td>
+            <td style="text-align:right;font-weight:600">${fmt(p.clicks)}</td>
+            <td style="text-align:right">${(p.ctr*100).toFixed(1)}%</td>
+        </tr>
+    `).join('') || '<tr><td colspan="3" class="empty">Aucune donnée</td></tr>';
+
+    // Graphs
+    const dates = Object.keys(allDaily).sort();
+    if (discMainChart) discMainChart.destroy();
+    discMainChart = new Chart(document.getElementById('disc-main-chart').getContext('2d'), {
+        type: 'line',
+        data: {
+            labels: dates.map(d => d.split('-').slice(1).join('/')),
+            datasets: [{
+                label: 'Clics Discover',
+                data: dates.map(d => allDaily[d]),
+                borderColor: '#3b82f6',
+                backgroundColor: 'rgba(59,130,246,0.1)',
+                fill: true, tension: 0.3
+            }]
+        },
+        options: { responsive:true, maintainAspectRatio:false, scales:{x:{grid:{color:'#252838'}},y:{grid:{color:'#252838'}}} }
+    });
+
+    if (discPieChart) discPieChart.destroy();
+    discPieChart = new Chart(document.getElementById('disc-pie-chart').getContext('2d'), {
+        type: 'doughnut',
+        data: {
+            labels: Object.keys(siteSplit),
+            datasets: [{
+                data: Object.values(siteSplit),
+                backgroundColor: ['#e5484d','#3b82f6','#8b5cf6','#22c55e'],
+                borderWidth: 0
+            }]
+        },
+        options: { responsive:true, maintainAspectRatio:false, cutout:'70%', plugins:{legend:{position:'right',labels:{boxWidth:10,color:'#6b7280'}}} }
+    });
 }
 
 function toggleSidebar() {
