@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T01:16:58.190Z",
+  "updatedAt": "2026-03-15T01:17:40.052Z",
   "seoAudits": [],
   "rssItems": [
     {
@@ -77,6 +77,12 @@
     {
       "date": "15/03",
       "total": 12000
+    }
+  ],
+  "alerts": [
+    {
+      "type": "info",
+      "message": "Certaines automatisations n'ont pas encore tourné."
     }
   ]
 }
