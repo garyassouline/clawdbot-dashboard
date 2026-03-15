@@ -1,0 +1,718 @@
+CREATE
+LAST|Lfr|"Julie Caron"
+LAST|Dfr|"rédacteur en chef"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P569|+1990-05-19T00:00:00Z/11
+CREATE
+LAST|Lfr|"Lahéla Bouaziz"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Elodie Le Gall"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Inès REAL"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"ines-real-8a976589"
+CREATE
+LAST|Lfr|"Maude Sebaihi"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Louise Gonzalez"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Joséphine De Rubercy"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Laura Willinger"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Anaïs Moine"
+LAST|Dfr|"rédacteur en chef"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"anaismoine"
+LAST|P569|+1991-05-23T00:00:00Z/11
+CREATE
+LAST|Lfr|"Marie Rougeot"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/28335"
+LAST|P6634|"marie-rougeot-darmon-4b67121b3"
+LAST|P569|+2000-02-29T00:00:00Z/11
+CREATE
+LAST|Lfr|"Mélissa Sekkal"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/msekkal"
+LAST|P6634|"melissa-sekkal"
+CREATE
+LAST|Lfr|"Pierre-Guillaume LIGDAMIS"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/pgligdamis"
+LAST|P6634|"pierre-guillaume-ligdamis"
+LAST|P569|+1997-03-15T00:00:00Z/11
+CREATE
+LAST|Lfr|"Marie Lacombe"
+LAST|Dfr|"rédacteur en chef"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.beaute-test.com/mag/author/mlacombe"
+LAST|P569|+1993-10-02T00:00:00Z/11
+CREATE
+LAST|Lfr|"Jordane Guignon"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/auteurs-jordane_guignon"
+LAST|P569|+2009-04-05T00:00:00Z/11
+CREATE
+LAST|Lfr|"Mathilde Campos"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/27183"
+LAST|P6634|"mathildecampos"
+CREATE
+LAST|Lfr|"Justine LINET"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.beaute-test.com/mag/author/jlinet"
+LAST|P6634|"justine-linet-661497208"
+LAST|P569|+2003-10-09T00:00:00Z/11
+CREATE
+LAST|Lfr|"Tiffany Szadek"
+LAST|Dfr|"rédacteur en chef"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"tiffany-szadek"
+LAST|P569|+1994-04-06T00:00:00Z/11
+CREATE
+LAST|Lfr|"Sanila Riffay"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/sanila-riffay"
+LAST|P973|"https://www.sanilariffay.com/"
+LAST|P569|+2002-11-09T00:00:00Z/11
+CREATE
+LAST|Lfr|"Laura D’Angelo"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"laura-d-angelo-57585a91"
+CREATE
+LAST|Lfr|"Carla Biancarelli"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/carla-biancarelli"
+LAST|P569|+1997-07-10T00:00:00Z/11
+CREATE
+LAST|Lfr|"chloé maurin"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/auteurs-chloe_maurin/"
+CREATE
+LAST|Lfr|"Julie Lefebvre"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/julie-lefebvre"
+LAST|P973|"https://www.bibamagazine.fr/auteur/jlefebvre"
+LAST|P6634|"julie-lefebvre-4231781a0"
+LAST|P569|+2001-06-15T00:00:00Z/11
+CREATE
+LAST|Lfr|"Allison Pujol"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/apujol"
+LAST|P973|"https://www.aufeminin.com/author/1337"
+LAST|P569|+1991-10-30T00:00:00Z/11
+CREATE
+LAST|Lfr|"Elisabeth Sall"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/esall"
+LAST|P973|"https://x.com/ElisabethSall"
+LAST|P6634|"elisabeth-sall-544ba8b3"
+LAST|P569|+1990-12-30T00:00:00Z/11
+CREATE
+LAST|Lfr|"Mathieu Bonis"
+LAST|Dfr|"rédacteur en chef"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.modesettravaux.fr/auteur/mbonis"
+LAST|P6634|"mathieu-bonis-26415696"
+LAST|P569|+1981-09-29T00:00:00Z/11
+CREATE
+LAST|Lfr|"Ava Skoupsky"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/askoupsky"
+LAST|P973|"https://www.psychologies.com/auteur/a-skoupsky"
+LAST|P973|"https://www.bibamagazine.fr/auteur/ava-skoupsky"
+LAST|P973|"https://www.mariefrance.fr/auteur/askoupsky/"
+LAST|P973|"https://avaskoupskyjournalisme.my.canva.site/"
+LAST|P569|+1994-08-18T00:00:00Z/11
+CREATE
+LAST|Lfr|"Fostine Carracillo"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.mariefrance.fr/auteur/fcarracillo"
+LAST|P973|"https://www.marmiton.org/author/27638"
+LAST|P973|"https://www.lejournaldelamaison.fr/auteur/fcarracillo"
+LAST|P973|"https://www.maison-travaux.fr/auteur/fcarracillo"
+LAST|P569|+1996-06-11T00:00:00Z/11
+CREATE
+LAST|Lfr|"Shanour Kargayan"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.mariefrance.fr/auteur/shanourkargayan"
+LAST|P973|"https://www.lejournaldelamaison.fr/auteur/skargayan"
+LAST|P973|"https://www.maison-travaux.fr/auteur/shanoukargayan"
+LAST|P973|"https://monjardinmamaison.maison-travaux.fr/auteur/kargayan"
+LAST|P6634|"shanourkargayan"
+LAST|P569|+1995-01-08T00:00:00Z/11
+CREATE
+LAST|Lfr|"Sally Jane Northcote"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.melty.fr/auteur/snorthcote"
+LAST|P973|"https://www.nextplz.fr/auteur/sally-jane-northcote"
+LAST|P6634|"sally-jane-northcote-912800a4"
+LAST|P569|+1992-07-02T00:00:00Z/11
+CREATE
+LAST|Lfr|"Alexandra Belooussova"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/alexandra-beloousova"
+LAST|P6634|"alexandra-belooussova-60342a170"
+LAST|P569|+1998-08-05T00:00:00Z/11
+CREATE
+LAST|Lfr|"julie pacheco"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.nextplz.fr/auteur/julie-pacheco"
+LAST|P6634|"julie-pacheco-671295159"
+LAST|P569|+1991-07-27T00:00:00Z/11
+CREATE
+LAST|Lfr|"Inès Aitlhaj"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.lejournaldelamaison.fr/auteur/inesaitlhaj"
+LAST|P973|"https://www.maison-travaux.fr/auteur/inesaitljaj"
+LAST|P973|"https://monjardinmamaison.maison-travaux.fr/auteur/iaitlhaj"
+LAST|P973|"https://www.marmiton.org/author/28394"
+LAST|P569|+2000-02-07T00:00:00Z/11
+CREATE
+LAST|Lfr|"Maureen Peron"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.melty.fr/auteur/maureen-m"
+LAST|P973|"https://www.nextplz.fr/auteur/maureen-peron"
+LAST|P569|+1994-04-20T00:00:00Z/11
+CREATE
+LAST|Lfr|"Elodie Charrière"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/elodie-charriere"
+LAST|P973|"https://www.bibamagazine.fr/auteur/elodie-charriere"
+LAST|P973|"https://www.closermag.fr/auteur/elodie-charriere"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/e-charriere"
+LAST|P6634|"elodie-charrière-2525a01a4"
+LAST|P569|+1998-07-09T00:00:00Z/11
+CREATE
+LAST|Lfr|"Adrien Bariller"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Maria Julia Garcia"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Jean RAMIÈRE"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Céline Cossa"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/28025"
+LAST|P6634|"c%C3%A9line-cossa-92103820"
+LAST|P569|+1984-04-16T00:00:00Z/11
+CREATE
+LAST|Lfr|"Roxane Mirambet"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.lejournaldelamaison.fr/auteur/rmirambet"
+LAST|P973|"https://www.maison-travaux.fr/auteur/rmirambet"
+LAST|P973|"https://www.mariefrance.fr/auteur/roxanemirambet"
+LAST|P569|+0004-03-15T00:00:00Z/11
+CREATE
+LAST|Lfr|"Arnaud Swiac"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.mariefrance.fr/auteur/aswiac"
+LAST|P973|"https://www.marmiton.org/author/28405"
+LAST|P569|+1984-12-04T00:00:00Z/11
+CREATE
+LAST|Lfr|"Aline Dizon"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P569|+1983-01-22T00:00:00Z/11
+CREATE
+LAST|Lfr|"Loïc Droubaix"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Rita SANTOURIAN"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/27698"
+LAST|P973|"https://www.maison-travaux.fr/auteur/rsantourian"
+LAST|P973|"https://www.autoplus.fr/auteur/rsantourian"
+LAST|P973|"https://monjardinmamaison.maison-travaux.fr/auteur/rsantourian"
+LAST|P569|+1984-07-29T00:00:00Z/11
+CREATE
+LAST|Lfr|"Tess Bodelot"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/tess-bodelot"
+LAST|P6634|"tess-bodelot-10b1891b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+LAST|P569|+2001-12-02T00:00:00Z/11
+CREATE
+LAST|Lfr|"Marie Hervichon"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/28406"
+LAST|P569|+1995-02-03T00:00:00Z/11
+CREATE
+LAST|Lfr|"Doriane Kiniali"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/27757"
+CREATE
+LAST|Lfr|"Natacha Rivalan"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/489"
+LAST|P973|"https://www.closermag.fr/auteur/nrivalan"
+LAST|P973|"https://www.beaute-test.com/mag/author/nrivalan"
+LAST|P569|+2008-01-01T00:00:00Z/11
+CREATE
+LAST|Lfr|"Elisabeth Sall"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/esall"
+LAST|P973|"https://x.com/ElisabethSall"
+LAST|P6634|"elisabeth-sall-544ba8b3"
+LAST|P569|+1990-12-30T00:00:00Z/11
+CREATE
+LAST|Lfr|"Enrica A"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.netmums.com/authors/enrica-agusklumper"
+CREATE
+LAST|Lfr|"Shana Lyès"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/shana-lyes"
+LAST|P973|"https://www.shanalyes.com/"
+LAST|P6634|"shana-lyes"
+LAST|P569|+1996-11-21T00:00:00Z/11
+CREATE
+LAST|Lfr|"Simon Suzeau"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.mariefrance.fr/auteur/suzeausimon"
+LAST|P569|+1987-10-19T00:00:00Z/11
+CREATE
+LAST|Lfr|"Myriam Reynaud"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/28222"
+LAST|P6634|"myriam-bouchama-reynaud-0488a8263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+LAST|P569|+2000-05-07T00:00:00Z/11
+CREATE
+LAST|Lfr|"Jean-Sebastien Champeau"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Inès Guiza"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/28344"
+LAST|P569|+1998-02-26T00:00:00Z/11
+CREATE
+LAST|Lfr|"Marion Ottaviani"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.netmums.com/authors/marion-ottaviani"
+LAST|P569|+1993-02-13T00:00:00Z/11
+CREATE
+LAST|Lfr|"Grib Borremans"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://monjardinmamaison.maison-travaux.fr/auteur/apetit"
+CREATE
+LAST|Lfr|"Emmanuelle Devriese"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/28287"
+LAST|P569|+1998-12-11T00:00:00Z/11
+CREATE
+LAST|Lfr|"Margot IODICE"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.marmiton.org/author/27739"
+LAST|P973|"https://www.lejournaldelamaison.fr/auteur/miodice"
+LAST|P973|"https://www.maison-travaux.fr/auteur/miodice"
+LAST|P569|+1993-02-21T00:00:00Z/11
+CREATE
+LAST|Lfr|"Katherine Mabalay"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.netmums.com/authors/katherine-mabalay"
+LAST|P6634|"katherine-mabalay"
+LAST|P569|+2000-04-16T00:00:00Z/11
+CREATE
+LAST|Lfr|"Marie GODART"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.netmums.com/authors/marie-godart"
+LAST|P6634|"mrgdt"
+CREATE
+LAST|Lfr|"Jessica Ferret"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/27282"
+LAST|P6634|"jessica-ferret-b0349a46"
+LAST|P569|+1989-04-26T00:00:00Z/11
+CREATE
+LAST|Lfr|"Alexandre Brunet"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"alexandre-brunet-7b1383108"
+CREATE
+LAST|Lfr|"Gaston Cuny"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P569|+1999-08-19T00:00:00Z/11
+CREATE
+LAST|Lfr|"Fiona Maherault"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Alexandre Mathiot"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.phonandroid.com/author/alexandremathiot"
+LAST|P569|+1990-12-10T00:00:00Z/11
+CREATE
+LAST|Lfr|"Noémie Sadoun Uzan"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://paroledemamans.com/auteur/nsadoun"
+CREATE
+LAST|Lfr|"Soraya Idbouja"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.pleinevie.fr/auteur/sidbouja"
+LAST|P6634|"soraya-idbouja"
+LAST|P569|+1994-02-27T00:00:00Z/11
+CREATE
+LAST|Lfr|"Agathe de Fougerolles"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/27316"
+LAST|P569|+1993-11-28T00:00:00Z/11
+CREATE
+LAST|Lfr|"Hugo Pellegrin"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/27313"
+LAST|P973|"https://m3tamorph.substack.com/?utm_campaign=profile_chips"
+LAST|P6634|"hugo-pellegrin-2a049a83"
+LAST|P569|+1992-09-30T00:00:00Z/11
+CREATE
+LAST|Lfr|"Solweig Ély"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.mariefrance.fr/auteur/elysolweig"
+LAST|P973|"https://www.marmiton.org/author/28404"
+LAST|P973|"https://chemins-de-vies.fr"
+LAST|P569|+1980-01-25T00:00:00Z/11
+CREATE
+LAST|Lfr|"Pierre FOURNIER"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/28051"
+LAST|P569|+1993-08-17T00:00:00Z/11
+CREATE
+LAST|Lfr|"Celine GERBIER"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://paroledemamans.com/auteur/cgerbier"
+CREATE
+LAST|Lfr|"Quentin Pannaud"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.autojournal.fr/auteur/qpannaud"
+LAST|P973|"https://www.autoplus.fr/auteur/qpannaud"
+LAST|P973|"https://nomansland-urbex.com/"
+LAST|P6634|"quentinpannaud"
+LAST|P569|+1998-02-22T00:00:00Z/11
+CREATE
+LAST|Lfr|"Marie Lizak"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.autoplus.fr/auteur/mlizak1"
+CREATE
+LAST|Lfr|"Hugo Taupin"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.sportauto.fr/auteur/htaupin"
+CREATE
+LAST|Lfr|"Hugo Quintal"
+LAST|Dfr|"journaliste"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.sportauto.fr/auteur/hquintal"
+LAST|P973|"https://www.autojournal.fr/auteur/hquintal"
+LAST|P569|+1999-04-17T00:00:00Z/11
+CREATE
+LAST|Lfr|"Natacha Rivalan"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/489"
+LAST|P973|"https://www.closermag.fr/auteur/nrivalan"
+LAST|P973|"https://www.beaute-test.com/mag/author/nrivalan"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/nrivalan"
+LAST|P569|+2008-01-01T00:00:00Z/11
+CREATE
+LAST|Lfr|"Dubois M"
+LAST|Dfr|"Journaliste pour Reworld Media"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.autojournal.fr/auteur/qdubois"
+LAST|P6634|"quentin-dubois-437980151"
+LAST|P569|+1996-11-27T00:00:00Z/11
+CREATE
+LAST|Lfr|"Duchemin M"
+LAST|Dfr|"Journaliste pour Reworld Media"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.autoplus.fr/auteur/mduchemin"
+LAST|P569|+1995-04-15T00:00:00Z/11
+CREATE
+LAST|Lfr|"Dewet M"
+LAST|Dfr|"Rédacteur d'Auto Plus, Sport Auto et l'Auto-Journal, mais aussi vidéaste et monteur si besoin ! Amoureux de toutes les voitures, du monospace familiale à la supercar complètement aberrante. N'hésitez pas non plus à nous découvrir en vidéo sur la chaîne YouTube d'Auto Plus et sur les réseaux sociaux !"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+CREATE
+LAST|Lfr|"Alice Boucher"
+LAST|Dfr|"journaliste pour Closer et Télé Star"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.closermag.fr/auteur/aboucher"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/aboucher"
+LAST|P569|+2001-03-06T00:00:00Z/11
+CREATE
+LAST|Lfr|"Berdah F"
+LAST|Dfr|"Journaliste pour Reworld Media"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.closermag.fr/auteur/emie-berdah"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/emie-berdah"
+LAST|P569|+2000-02-07T00:00:00Z/11
+CREATE
+LAST|Lfr|"M F"
+LAST|Dfr|"Journaliste pour Reworld Media"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.closermag.fr/auteur/coraline-m"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/c-m"
+LAST|P6634|"coralinemercier16"
+CREATE
+LAST|Lfr|"Binet F"
+LAST|Dfr|"Journaliste pour Nextplz"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.nextplz.fr/auteur/noelle-binet"
+LAST|P973|"https://x.com/Noellebinet"
+LAST|P569|+1992-01-02T00:00:00Z/11
+CREATE
+LAST|Lfr|"Carlesimo F"
+LAST|Dfr|"Journaliste et coordinatrice éditoriale"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.closermag.fr/auteur/lou-ducreux"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/clara-c"
+LAST|P973|"https://x.com/ClaraCarlesimo"
+LAST|P6634|"clara-carlesimo-6a252355"
+LAST|P569|+1993-05-17T00:00:00Z/11
+CREATE
+LAST|Lfr|"Hagopian F"
+LAST|Dfr|"Journaliste pour melty"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
