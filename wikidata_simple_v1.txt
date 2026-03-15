@@ -1,0 +1,86 @@
+CREATE|Lfr|"Julie Caron"|Dfr|"Rédactrice en chef de aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Lahéla Bouaziz"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Elodie Le Gall"|Dfr|"Journaliste pour aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Inès REAL"|Dfr|"Chef de rubrique pour aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Maude Sebaihi"|Dfr|"Journaliste chez aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Louise Gonzalez"|Dfr|"Journaliste chez aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Joséphine De Rubercy"|Dfr|"Journaliste chez aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Laura Willinger"|Dfr|"Journaliste chez aufeminin.com"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Anaïs Moine"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Marie Rougeot"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Mélissa Sekkal"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Pierre-Guillaume LIGDAMIS"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Marie Lacombe"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Jordane Guignon"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Mathilde Campos"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Justine LINET"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Tiffany Szadek"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Sanila Riffay"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Laura D’Angelo"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Carla Biancarelli"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"chloé maurin"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Julie Lefebvre"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Allison Pujol"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Elisabeth Sall"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Mathieu Bonis"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Ava Skoupsky"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Fostine Carracillo"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Shanour Kargayan"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Sally Jane Northcote"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Alexandra Belooussova"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"julie pacheco"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Inès Aitlhaj"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Maureen Peron"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Elodie Charrière"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Adrien Bariller"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Maria Julia Garcia"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Jean RAMIÈRE"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Céline Cossa"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Roxane Mirambet"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Arnaud Swiac"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Aline Dizon"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Loïc Droubaix"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Rita SANTOURIAN"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Tess Bodelot"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Marie Hervichon"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Doriane Kiniali"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Natacha Rivalan"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Elisabeth Sall"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Enrica A"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Shana Lyès"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Simon Suzeau"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Myriam Reynaud"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Jean-Sebastien Champeau"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Inès Guiza"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Marion Ottaviani"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Grib Borremans"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Emmanuelle Devriese"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Margot IODICE"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Katherine Mabalay"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Marie GODART"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Jessica Ferret"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Alexandre Brunet"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Gaston Cuny"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Fiona Maherault"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Alexandre Mathiot"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Noémie Sadoun Uzan"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Soraya Idbouja"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Agathe de Fougerolles"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Hugo Pellegrin"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Solweig Ély"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Pierre FOURNIER"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Celine GERBIER"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Quentin Pannaud"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Marie Lizak"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Hugo Taupin"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Hugo Quintal"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Natacha Rivalan"|Dfr|"Journaliste pour Reworld Media"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Dubois M"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Duchemin M"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Dewet M"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Boucher F"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Berdah F"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"M F"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Binet F"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Carlesimo F"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
+CREATE|Lfr|"Hagopian F"|Dfr|"Journaliste pour Q18415186"|P31|Q5|P106|Q1930187|P108|Q18415186
