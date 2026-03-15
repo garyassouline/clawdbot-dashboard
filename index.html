@@ -474,56 +474,7 @@
         </div>
       </div>
 
-      <!-- Discover Suggestions (IA) -->
-      <div class="card mb16">
-        <div class="card-title" style="justify-content:space-between">
-          <span><span class="icon">💡</span> Opportunités de Rédaction (IA)</span>
-          <span class="badge blue">Basé sur tes cartons récents</span>
-        </div>
-        <div id="discover-suggestions-container" style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
-          <div class="empty">Analyse des performances en cours...</div>
-        </div>
-      </div>
-
-      <!-- Quick Actions -->
-      <div class="card mb16">
-        <div class="card-title"><span class="icon">⚡</span> Actions rapides</div>
-        <div class="actions-grid">
-          <a class="action-btn" id="action-seo-audit" href="#" onclick="copyCmd('Audite le SEO de reworld.com'); return false;">
-            <div class="action-icon">🔍</div>
-            <div class="action-label">Audit SEO</div>
-            <div class="action-sub">Analyser un site</div>
-          </a>
-          <a class="action-btn" href="#" onclick="copyCmd('Fais-moi un digest RSS de mes sources de veille'); return false;">
-            <div class="action-icon">📰</div>
-            <div class="action-label">Digest RSS</div>
-            <div class="action-sub">Résumé veille</div>
-          </a>
-          <a class="action-btn" href="#" onclick="copyCmd('Analyse les tendances Google Discover de cette semaine'); return false;">
-            <div class="action-icon">✨</div>
-            <div class="action-label">Discover</div>
-            <div class="action-sub">Tendances du moment</div>
-          </a>
-          <a class="action-btn" href="#" onclick="copyCmd('Analyse les concurrents de reworld.com sur les mots-clés principaux'); return false;">
-            <div class="action-icon">🏆</div>
-            <div class="action-label">Concurrents</div>
-            <div class="action-sub">Analyse SEO</div>
-          </a>
-          <a class="action-btn" href="#" onclick="copyCmd('Crée un workflow d\'automatisation pour la veille éditoriale quotidienne'); return false;">
-            <div class="action-icon">🤖</div>
-            <div class="action-label">Nouveau workflow</div>
-            <div class="action-sub">Automatiser</div>
-          </a>
-          <a class="action-btn" href="#" onclick="copyCmd('Donne-moi un rapport de performance audience de cette semaine'); return false;">
-            <div class="action-icon">📈</div>
-            <div class="action-label">Rapport audience</div>
-            <div class="action-sub">Performance</div>
-          </a>
-        </div>
-        <!-- Toast moved to global fixed position -->
-      </div>
-
-      <!-- Charts row -->
+      <!-- Discover Chart -->
       <div class="card mb16">
         <div class="card-title"><span class="icon">✨</span> Clics Discover (4 sites) — 7 derniers jours</div>
         <div class="chart-wrap"><canvas id="discoverChart"></canvas></div>
@@ -623,6 +574,17 @@
       <div class="card mb16">
         <div class="card-title"><span class="icon">📈</span> Évolution des clics</div>
         <div class="chart-wrap"><canvas id="disc-main-chart"></canvas></div>
+      </div>
+
+      <!-- Discover Suggestions (IA) -->
+      <div class="card mb16">
+        <div class="card-title" style="justify-content:space-between">
+          <span><span class="icon">💡</span> Opportunités de Rédaction (IA)</span>
+          <span class="badge blue">Basé sur tes cartons récents</span>
+        </div>
+        <div id="discover-suggestions-container" style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div class="empty">Analyse des performances en cours...</div>
+        </div>
       </div>
 
       <div class="grid-2">
