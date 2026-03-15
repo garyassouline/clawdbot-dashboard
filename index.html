@@ -903,8 +903,8 @@ function copyCmd(cmd) {
 
 function initDiscoverFilters() {
     const sel = document.getElementById('disc-site-filter');
-    if (sel.options.length > 1) return;
-    const sites = Object.keys(globalData.discoverAdvanced.sites || {});
+    if (!sel || (sel.options && sel.options.length > 1)) return;
+    const sites = Object.keys(globalData?.discoverAdvanced?.sites || {});
     sites.forEach(s => {
         const opt = document.createElement('option');
         opt.value = s; opt.textContent = s;
@@ -913,8 +913,14 @@ function initDiscoverFilters() {
 }
 
 function renderDiscover() {
-    if (!globalData || !globalData.discoverAdvanced || !globalData.discoverAdvanced.sites) return;
-    const site = document.getElementById('disc-site-filter').value;
+    if (!globalData?.discoverAdvanced?.sites) return;
+    const siteFilter = document.getElementById('disc-site-filter');
+    const rangeFilter = document.getElementById('disc-range-filter');
+    if (!siteFilter || !rangeFilter) return;
+    
+    const site = siteFilter.value;
+    const range = rangeFilter.value;
+    const adv = globalData.discoverAdvanced.sites;
     const range = document.getElementById('disc-range-filter').value;
     const adv = globalData.discoverAdvanced.sites;
     
@@ -1032,13 +1038,14 @@ async function load() {
 }
 
 function render(d) {
+  if (!d) return;
   try {
     // Date
     const now = new Date();
     const dateDisplay = document.getElementById('date-display');
     const updatedAt = document.getElementById('updated-at');
     if (dateDisplay) dateDisplay.textContent = now.toLocaleDateString('fr-FR', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
-    if (updatedAt) updatedAt.textContent = 'Mis à jour ' + new Date(d.updatedAt).toLocaleTimeString('fr-FR', {hour:'2-digit',minute:'2-digit'});
+    if (updatedAt && d.updatedAt) updatedAt.textContent = 'Mis à jour ' + new Date(d.updatedAt).toLocaleTimeString('fr-FR', {hour:'2-digit',minute:'2-digit'});
 
     const s = d.session || {};
     const totalTok = (s.tokensIn||0) + (s.tokensOut||0);
@@ -1120,8 +1127,8 @@ function render(d) {
 
   // Mission Control / Agent Squad
   const squad = document.getElementById('agent-squad-container');
-  if (squad && d.crons) {
-    const agents = d.crons.filter(c => c.name && c.name.startsWith('Agent:'));
+  if (squad && d.crons && Array.isArray(d.crons)) {
+    const agents = d.crons.filter(c => c && c.name && c.name.startsWith('Agent:'));
     const icons = { 'Discover-Pulse': '🛰️', 'SEO-Watcher': '🔍', 'Revenue-Ops': '💰', 'RSS-Distiller': '📰' };
     squad.innerHTML = `
       <div class="agent-voxel">
