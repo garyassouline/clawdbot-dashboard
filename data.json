@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T18:40:45.533Z",
+  "updatedAt": "2026-03-15T19:13:00.645Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "0%",
-    "ram": "17%",
+    "cpu": "15%",
+    "ram": "20%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T18:40:45.533Z",
+      "ts": "2026-03-15T19:13:00.645Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1929,20 +1929,20 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 2140766,
-    "tokensOut": 335,
+    "tokensIn": 8648423,
+    "tokensOut": 4398,
     "cacheHit": 33,
-    "context": 709114,
+    "context": 964188,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 2140766,
-      "tokensOut": 335,
-      "cacheRead": 351920,
+      "tokensIn": 8648423,
+      "tokensOut": 4398,
+      "cacheRead": 475367,
       "cacheWrite": 0,
-      "cost": 6.5328990000000005
+      "cost": 26.153849099999995
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1981,8 +1981,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 2140766,
-      "tokensOut": 335
+      "tokensIn": 8648423,
+      "tokensOut": 4398
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -2067,13 +2067,13 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 926569
+      "total": 1181643
     }
   ],
   "alerts": [
     {
       "type": "warn",
-      "message": "Budget quotidien dépassé : $8.51"
+      "message": "Budget quotidien dépassé : $28.13"
     },
     {
       "type": "info",
