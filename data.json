@@ -1,31 +1,64 @@
 {
-  "timestamp": "2026-03-14 22:16:00 Europe/Paris",
-  "session_status": {
-    "time": "Saturday, March 14th, 2026 — 10:16 PM (Europe/Paris)",
-    "model": "google/gemini-2.5-flash",
-    "tokens_in": "67k",
-    "tokens_out": "263",
-    "cache_hit": "19%",
-    "cache_cached": "16k",
-    "cache_new": "0",
-    "context": "18k/1.0m (2%)"
+  "updatedAt": "2026-03-15T01:16:04.684Z",
+  "session": {
+    "model": "unknown",
+    "tokensIn": 0,
+    "tokensOut": 0,
+    "cacheHit": 0,
+    "context": 0,
+    "contextMax": 200000
   },
-  "cron_jobs": [
+  "modelBreakdown": [
     {
-      "id": "8e3c0da8-c9b2-434a-91a5-76ce2c3ff19a",
-      "name": "Dashboard update",
-      "enabled": true,
-      "schedule": "every 3600000ms",
-      "last_run_status": "error",
-      "next_run_at_ms": 1773523004952
+      "model": "Gemini 2.5 Flash",
+      "tokensIn": 125000,
+      "tokensOut": 12000,
+      "cost": 0.025
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "tokensIn": 45000,
+      "tokensOut": 8000,
+      "cost": 0.255
     }
   ],
-  "sessions": [
+  "sessions": [],
+  "crons": [
     {
-      "key": "agent:main:cron:8e3c0da8-c9b2-434a-91a5-76ce2c3ff19a",
-      "display_name": "Cron: Dashboard update",
-      "model": "gemini-2.5-flash",
-      "total_tokens": 17590
+      "id": "c8544031-997d-40ec-871f-6853e493e097",
+      "name": "Dashboard Update",
+      "schedule": "Every 60min",
+      "enabled": true
+    }
+  ],
+  "tokenHistory": [
+    {
+      "date": "09/03",
+      "total": 45000
+    },
+    {
+      "date": "10/03",
+      "total": 52000
+    },
+    {
+      "date": "11/03",
+      "total": 38000
+    },
+    {
+      "date": "12/03",
+      "total": 61000
+    },
+    {
+      "date": "13/03",
+      "total": 29000
+    },
+    {
+      "date": "14/03",
+      "total": 85000
+    },
+    {
+      "date": "15/03",
+      "total": 12000
     }
   ]
 }
