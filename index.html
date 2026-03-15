@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="manifest" href="manifest.json">
   <title>ClawdBot Dashboard — Gary Assouline</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -204,11 +205,28 @@
 
     /* Responsive */
     @media (max-width: 900px) {
-      .sidebar { display: none; }
+      .sidebar { 
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        display: flex;
+      }
+      .sidebar.open {
+        transform: translateX(0);
+      }
       .main { margin-left: 0; padding: 16px; }
       .kpi-grid { grid-template-columns: 1fr 1fr; }
       .grid-2, .grid-3 { grid-template-columns: 1fr; }
       .actions-grid { grid-template-columns: repeat(2, 1fr); }
+      .mobile-menu-btn { display: block !important; }
+    }
+    .mobile-menu-btn {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px;
+      font-size: 1.2rem;
+      cursor: pointer;
     }
     @media (max-width: 500px) {
       .kpi-grid { grid-template-columns: 1fr; }
@@ -251,9 +269,13 @@
   <!-- Main -->
   <main class="main">
     <div class="topbar">
-      <div>
-        <h1>Bonjour Gary 👋</h1>
-        <div style="font-size:0.78rem;color:var(--muted);margin-top:4px" id="date-display"></div>
+      <div style="display:flex;align-items:center;gap:12px">
+        <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+        <div>
+          <h1>Bonjour Gary 👋</h1>
+          <div style="font-size:0.78rem;color:var(--muted);margin-top:4px" id="date-display"></div>
+        </div>
+      </div>
       </div>
       <div class="meta">
         <div class="status-dot"></div>
@@ -265,6 +287,7 @@
 
     <!-- ===== OVERVIEW ===== -->
     <div class="section active" id="section-overview">
+      <div id="alerts-container"></div>
 
       <!-- KPIs -->
       <div class="kpi-grid">
@@ -331,6 +354,11 @@
       </div>
 
       <!-- Charts row -->
+      <div class="card mb16">
+        <div class="card-title"><span class="icon">✨</span> Clics Discover (4 sites) — 7 derniers jours</div>
+        <div class="chart-wrap"><canvas id="discoverChart"></canvas></div>
+      </div>
+
       <div class="grid-2">
         <div class="card">
           <div class="card-title"><span class="icon">📊</span> Tokens — 7 derniers jours</div>
@@ -345,15 +373,12 @@
       <!-- Automations + Sessions -->
       <div class="grid-2">
         <div class="card">
-          <div class="card-title"><span class="icon">⚡</span> Automatisations actives</div>
-          <div id="overview-crons-list"><div class="empty">Aucune automatisation</div></div>
+          <div class="card-title"><span class="icon">🤖</span> L'Escouade d'Agents</div>
+          <div id="agents-team-list"><div class="empty">Chargement des agents...</div></div>
         </div>
         <div class="card">
-          <div class="card-title"><span class="icon">🧵</span> Sessions</div>
-          <table>
-            <thead><tr><th>Clé</th><th>Modèle</th><th>Tokens</th></tr></thead>
-            <tbody id="overview-sessions-table"><tr><td colspan="3" class="empty">—</td></tr></tbody>
-          </table>
+          <div class="card-title"><span class="icon">⚡</span> Autres automatisations</div>
+          <div id="overview-crons-list"><div class="empty">Aucune automatisation</div></div>
         </div>
       </div>
     </div>
@@ -589,7 +614,7 @@
 
 <!-- Toast copy -->
 <script>
-let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst;
+let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst, discoverChartInst;
 
 function toggleTheme() {
   const html = document.documentElement;
@@ -611,9 +636,20 @@ function toggleTheme() {
 })();
 
 function copyCmd(cmd) {
-  navigator.clipboard.writeText(cmd).catch(() => {});
+  const botUser = 'ClawdBot'; // On pourra ajuster si besoin
+  const url = `tg://resolve?domain=${botUser}&text=${encodeURIComponent(cmd)}`;
+  window.open(url, '_blank');
+  
   const toast = document.getElementById('copy-toast');
-  if (toast) { toast.style.display = 'block'; setTimeout(() => toast.style.display = 'none', 3000); }
+  if (toast) { 
+    toast.textContent = "🚀 Ouverture de Telegram...";
+    toast.style.display = 'block'; 
+    setTimeout(() => toast.style.display = 'none', 3000); 
+  }
+}
+
+function toggleSidebar() {
+  document.querySelector('.sidebar').classList.toggle('open');
 }
 
 function showSection(id, el) {
@@ -621,6 +657,10 @@ function showSection(id, el) {
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   document.getElementById('section-' + id).classList.add('active');
   if (el) el.classList.add('active');
+  // Fermer la sidebar sur mobile après clic
+  if (window.innerWidth <= 900) {
+    document.querySelector('.sidebar').classList.remove('open');
+  }
 }
 
 function fmt(n) {
@@ -669,6 +709,44 @@ function render(d) {
   document.getElementById('kpi-crons').textContent = d.crons ? d.crons.filter(c=>c.enabled).length : '0';
   document.getElementById('kpi-crons-sub').textContent = (d.crons||[]).length + ' total';
   document.getElementById('kpi-cost').textContent = '$' + cost;
+
+  // Discover Chart
+  if (d.discoverStats && d.discoverStats.length) {
+    const labels = d.discoverStats[0].data.map(r => r.keys[0].split('-').slice(1).join('/'));
+    const datasets = d.discoverStats.map((s, idx) => ({
+      label: s.site.replace('https://www.', '').replace('/', ''),
+      data: s.data.map(r => r.clicks),
+      borderColor: ['#e5484d','#3b82f6','#8b5cf6','#22c55e'][idx],
+      backgroundColor: 'transparent',
+      tension: 0.3
+    }));
+
+    if (discoverChartInst) discoverChartInst.destroy();
+    discoverChartInst = new Chart(document.getElementById('discoverChart').getContext('2d'), {
+      type: 'line',
+      data: { labels, datasets },
+      options: { 
+        responsive:true, maintainAspectRatio:false, 
+        scales: { 
+            x:{grid:{color:'#252838'},ticks:{color:'#64748b'}}, 
+            y:{grid:{color:'#252838'},ticks:{color:'#64748b'}} 
+        },
+        plugins: { legend: { position: 'bottom', labels: { color: '#6b7280', boxWidth: 10 } } }
+      }
+    });
+  }
+
+  // Alerts
+
+  const alertsEl = document.getElementById('alerts-container');
+  if (d.alerts && d.alerts.length) {
+    alertsEl.innerHTML = d.alerts.map(a => `
+      <div class="alert ${a.type}">
+        ${a.type === 'warn' ? '⚠️' : 'ℹ️'} ${a.message}
+      </div>`).join('');
+  } else {
+    alertsEl.innerHTML = '';
+  }
 
   // Cost page KPIs
   document.getElementById('cost-kpi-tokens').textContent = fmt(totalTok);
@@ -768,17 +846,32 @@ function render(d) {
 
   // Overview crons
   const cronList = document.getElementById('overview-crons-list');
+  const agentList = document.getElementById('agents-team-list');
+  
   if (d.crons && d.crons.length) {
-    cronList.innerHTML = d.crons.map(c => `
+    const agents = d.crons.filter(c => c.name && c.name.startsWith('Agent:'));
+    const otherCrons = d.crons.filter(c => !c.name || !c.name.startsWith('Agent:'));
+
+    agentList.innerHTML = agents.map(c => `
+      <div class="site-row">
+        <div class="site-info">
+          <div class="site-favicon">🤖</div>
+          <div><div class="site-name">${c.name.replace('Agent: ', '')}</div><div class="site-url">${c.schedule||'—'}</div></div>
+        </div>
+        <span class="badge green">actif</span>
+      </div>`).join('');
+
+    cronList.innerHTML = otherCrons.map(c => `
       <div class="site-row">
         <div class="site-info">
           <div class="site-favicon">⚡</div>
           <div><div class="site-name">${c.name||c.id||'—'}</div><div class="site-url">${c.schedule||'—'}</div></div>
         </div>
         <span class="badge ${c.enabled?'green':'gray'}">${c.enabled?'active':'off'}</span>
-      </div>`).join('');
+      </div>`).join('') || '<div class="empty">Aucune autre automatisation</div>';
   } else {
     cronList.innerHTML = '<div class="empty">Aucune automatisation configurée</div>';
+    agentList.innerHTML = '<div class="empty">Aucun agent configuré</div>';
   }
 
   // Automations table
@@ -818,6 +911,27 @@ function render(d) {
   } else {
     ovSt.innerHTML = '<tr><td colspan="3" class="empty">—</td></tr>';
     fullSt.innerHTML = '<tr><td colspan="6" class="empty">Aucune session</td></tr>';
+  }
+
+  // SEO audits
+  const seoEl = document.getElementById('seo-audits-list');
+  if (d.seoAudits && d.seoAudits.length) {
+    seoEl.innerHTML = d.seoAudits.map(a => `
+      <div class="site-row">
+        <div class="site-info">
+          <div class="site-favicon">🔍</div>
+          <div>
+            <div class="site-name">${a.site}</div>
+            <div class="site-url">${new Date(a.date).toLocaleString('fr-FR')}</div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:10px">
+          <span class="badge ${a.score > 80 ? 'green' : (a.score > 50 ? 'yellow' : 'red')}">Score: ${a.score}</span>
+          <span class="badge gray">${a.issues} alertes</span>
+        </div>
+      </div>`).join('');
+  } else {
+    seoEl.innerHTML = '<div class="empty">Aucun audit effectué pour le moment.<br>Lance ton premier audit via Telegram.</div>';
   }
 
   // RSS items
