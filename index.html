@@ -278,6 +278,9 @@
     .suggestion-parent { font-size: 0.7rem; color: var(--muted); margin-bottom: 6px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 700; }
     .suggestion-title { font-size: 1rem; font-weight: 800; margin-bottom: 10px; color: var(--text); line-height: 1.3; }
     .suggestion-hook { font-size: 0.85rem; color: var(--muted); line-height: 1.5; flex: 1; }
+    .suggestion-sources { margin-top: 10px; display: flex; flex-wrap: wrap; gap: 8px; }
+    .suggestion-sources a { font-size: 0.7rem; color: var(--accent2); text-decoration: none; background: rgba(59,130,246,0.05); padding: 2px 6px; border-radius: 4px; border: 1px solid rgba(59,130,246,0.1); }
+    .suggestion-sources a:hover { background: rgba(59,130,246,0.1); }
     .suggestion-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }
 
     /* Competitor articles grid */
@@ -1370,6 +1373,11 @@ function renderSuggestions(d) {
       <div class="suggestion-parent">Rebond sur : ${s.parent}</div>
       <div class="suggestion-title">${s.title}</div>
       <div class="suggestion-hook">${s.hook}</div>
+      ${s.sources && s.sources.length ? `
+        <div class="suggestion-sources">
+          ${s.sources.map(src => `<a href="${src.url}" target="_blank" rel="noopener">🔗 ${src.title}</a>`).join('')}
+        </div>
+      ` : ''}
       <div class="suggestion-meta">
         <span class="badge purple">${s.site}</span>
         <button class="btn btn-ghost" style="padding:4px 10px;font-size:0.75rem;font-weight:700" onclick="copyCmd('Rédige-moi un plan détaillé pour cet article Discover : ${s.title}')">Planifier</button>
