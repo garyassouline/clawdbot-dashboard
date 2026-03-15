@@ -1,0 +1,11 @@
+CREATE
+LAST|Lfr|"Elisabeth Sall"
+LAST|Len|"Elisabeth Sall"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/esall"
+LAST|P2002|"ElisabethSall"
+LAST|P6634|"elisabeth-sall-544ba8b3"
+LAST|P569|+1990-12-30T00:00:00Z/11
