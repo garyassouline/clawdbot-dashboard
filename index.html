@@ -204,6 +204,20 @@
     .tg-link { color: var(--accent2); text-decoration: none; }
     .tg-link:hover { text-decoration: underline; }
 
+    /* Discover suggestions */
+    .suggestion-card {
+      background: var(--surface2);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 12px;
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent2);
+    }
+    .suggestion-parent { font-size: 0.7rem; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.05em; }
+    .suggestion-title { font-size: 0.95rem; font-weight: 700; margin-bottom: 8px; color: var(--text); }
+    .suggestion-hook { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
+    .suggestion-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; }
+
     /* Competitor articles */
     .comp-article {
       display: flex; gap: 12px; padding: 12px 0;
@@ -365,6 +379,17 @@
           <div class="label">Coût estimé</div>
           <div class="value" id="kpi-cost">—</div>
           <div class="sub">session en cours</div>
+        </div>
+      </div>
+
+      <!-- Discover Suggestions (IA) -->
+      <div class="card mb16">
+        <div class="card-title" style="justify-content:space-between">
+          <span><span class="icon">💡</span> Opportunités de Rédaction (IA)</span>
+          <span class="badge blue">Basé sur tes cartons récents</span>
+        </div>
+        <div id="discover-suggestions-container" style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+          <div class="empty">Analyse des performances en cours...</div>
         </div>
       </div>
 
@@ -1187,6 +1212,7 @@ function render(d) {
   renderVeille(d);
   initCompetitorFilters(d);
   renderCompetitorArticles();
+  renderSuggestions(d);
 }
 
 function initCompetitorFilters(d) {
@@ -1198,6 +1224,28 @@ function initCompetitorFilters(d) {
     opt.value = s; opt.textContent = s;
     sel.appendChild(opt);
   });
+}
+
+function renderSuggestions(d) {
+  const container = document.getElementById('discover-suggestions-container');
+  if (!container) return;
+  const sugs = d.discoverSuggestions || [];
+  if (!sugs.length) {
+    container.innerHTML = '<div class="empty" style="grid-column: span 2">Aucune suggestion disponible.</div>';
+    return;
+  }
+  
+  container.innerHTML = sugs.map(s => `
+    <div class="suggestion-card">
+      <div class="suggestion-parent">Rebond sur : ${s.parent}</div>
+      <div class="suggestion-title">${s.title}</div>
+      <div class="suggestion-hook">${s.hook}</div>
+      <div class="suggestion-meta">
+        <span class="badge purple">${s.site}</span>
+        <button class="btn btn-ghost" style="padding:4px 8px;font-size:0.7rem" onclick="copyCmd('Rédige-moi un plan détaillé pour cet article Discover : ${s.title}')">Planifier</button>
+      </div>
+    </div>
+  `).join('');
 }
 
 function renderCompetitorArticles() {
