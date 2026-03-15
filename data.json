@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T20:15:36.297Z",
+  "updatedAt": "2026-03-15T21:15:37.931Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "5%",
-    "ram": "21%",
+    "cpu": "9.5%",
+    "ram": "20%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T20:15:36.297Z",
+      "ts": "2026-03-15T21:15:37.931Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1929,20 +1929,20 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 515677,
-    "tokensOut": 179,
+    "tokensIn": 4665619,
+    "tokensOut": 2574,
     "cacheHit": 33,
-    "context": 1025688,
+    "context": 1039139,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 515677,
-      "tokensOut": 179,
-      "cacheRead": 510011,
+      "tokensIn": 4665619,
+      "tokensOut": 2574,
+      "cacheRead": 518368,
       "cacheWrite": 0,
-      "cost": 1.7027193
+      "cost": 14.190977400000003
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1981,8 +1981,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 515677,
-      "tokensOut": 179
+      "tokensIn": 4665619,
+      "tokensOut": 2574
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -2067,16 +2067,88 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 1243143
+      "total": 1256594
     }
   ],
   "alerts": [
+    {
+      "type": "warn",
+      "message": "Budget quotidien dépassé : $16.17"
+    },
     {
       "type": "info",
       "message": "Certaines automatisations n'ont pas encore tourné."
     }
   ],
   "competitorArticles": [
+    {
+      "title": "“Elle met mal à l'aise” : cette petite phrase est la préférée des manipulateurs pour semer la confusion en toute discrétion, selon une psy",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/petite-phrase-preferee-manipulateur-semer-confusion-discretion-psy-589514?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 21:04:02 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Pas facile de neutraliser un manipulateur. Il lui suffit parfois de vous poser une simple question pour vous déstabiliser."
+    },
+    {
+      "title": "Pendant des années je cachais mes addictions derrière mon métier d’infirmière… voici le déclic qui a changé ma vie",
+      "link": "https://www.topsante.com/medecine/addictions/temoignage-voici-comment-je-me-suis-enfin-liberee-de-toutes-mes-addictions-879492",
+      "pubDate": "Sun, 15 Mar 2026 21:00:51 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Alcool, cannabis, médicaments… Pendant des années, Sandra a mené une double vie. Infirmière irréprochable le jour, elle sombrait chaque soir dans ses addictions. Jusqu’au jour où un diagnostic médical"
+    },
+    {
+      "title": "Ces 8 tue-l'amour éteignent toute forme d'intimité dans la chambre et sous la couette !",
+      "link": "https://www.doctissimo.fr/sexualite/desir-et-plaisir-sexuel/ces-8-tue-lamour-atomisent-toute-forme-dintimite-dans-la-chambre-sous-la-couette-331671.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 21:00:26 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Même quand elle est pleine de promesse, une nouvelle relation peut rapidement être stoppée par certains détails dans la chambre à coucher. Voici 8 \"icks\" à désamorcer d’urgence si vous souhaitez concr"
+    },
+    {
+      "title": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRW92dVFKZVZ4c2YwUmoxTk5yZnF1WEx0NENhaUkxRV93MFFocGlDbWJFdWhIV3RLT1VzTV9WaEVSQ2pHZEpXTmwtNVdlMXYzUlJkYVBpOXlzeERDZm1MZnY0WXJIOFNEaW1zaXBmRHdxQUVhSTNRNndyeTF5clltbnc3WFZxWU1oa1c0VDBubGQtREp4ZW1RSGdLcHg0VmQzdlR0ZWtrcmVGa3diRFgwN1dRYlJoRlhRa3dGdUZKcV9fQmF5NlRiZkZxdHhYZzZIcHFKM3dtckVrUy1CY0E?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 20:56:25 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
+    },
+    {
+      "title": "Voici l'enseigne de supermarché réellement la moins chère selon 60 M de consommateurs",
+      "link": "https://www.topsante.com/actualites/voici-lenseigne-de-supermarche-reellement-la-moins-chere-selon-60-m-de-consommateurs-952885",
+      "pubDate": "Sun, 15 Mar 2026 20:44:18 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "En pleine flambée des prix, 60 Millions de consommateurs a passé au crible les caisses de 90 supermarchés français. Une enseigne se détache nettement, avec des écarts qui pèsent sur chaque panier."
+    },
+    {
+      "title": "Ces 4 comportements provoquent des conflits sans que vous vous en rendiez compte",
+      "link": "https://www.doctissimo.fr/psychologie/vivre-avec-les-autres/disputes/4-comportements-qui-provoquent-conflits-sans-que-vous-vous-en-rendiez-compte-331654.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 20:30:49 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Les conflits au sein des relations de couple sont souvent inévitables. Cependant, certains comportements adoptés inconsciemment peuvent en être la source principale. Identifier et comprendre ces attit"
+    },
     {
       "title": "Taboues par le passé, ces pratiques sexuelles séduisent de plus en plus de Français, d’après cette enquête",
       "link": "https://www.psychologies.com/couple/sexualite/Taboues-passe-pratiques-sexuelles-seduisent-Francais-enquete-586424?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2326,6 +2398,17 @@
       "snippet": "Pendant 14 jours, Alexa Mellardo a intégré des protéines à chaque repas en espérant calmer ses fringales et stabiliser son appétit. Elle raconte comment cela a changé son quotidien et quels sont les e"
     },
     {
+      "title": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR1I3OHVXSHRpaVJFT0hJMTZ3c2VMOWY5T0pqbG5tYWt5bXdDNjVyNjBJWlhxTGptemxoNzVrU1JBWVU1bWJ4WWxRWDlvWW5pYWtkWXYySFRVcjRyTW5ndzQwQzRfMXJQbi0zalRXTjRYbkFCdndqaWllLXNsaUxCMlBlNGVNSjRWTzNteDNxVktIaXA5emV1S2ljb0xlRWRXRFMzXzZpV01tWW01WDJ0Ul80QkE5LWdLWXdtOXNsdkFvUjM5OVB2UTFtZjB3eVFISTcw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 18:03:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ?  ELLE"
+    },
+    {
       "title": "Le bouboupisme séduit de nombreux couples : les secrets de cette pratique qui permet d’atteindre de nouveaux sommets de plaisir",
       "link": "https://www.psychologies.com/Couple/Sexualite/bouboupisme-seduit-couples-secrets-pratique-atteindre-nouveaux-sommets-plaisir-411822?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 18:01:40 +0000",
@@ -2335,17 +2418,6 @@
         "aufeminin.com"
       ],
       "snippet": "Le bouboupisme est une pratique sexuelle très répandue mais dont on parle peu. Pourtant, elle permet d’augmenter le plaisir sexuel intensément. En êtes-vous déjà adepte sans le savoir ? Et comment vou"
-    },
-    {
-      "title": "Cœur, cerveau et cancer : vous devriez manger ce légume courant au moins trois fois par semaine",
-      "link": "https://www.doctissimo.fr/nutrition/fruits-et-legumes/coeur-cerveau-et-cancer-vous-devriez-manger-ce-legume-courant-au-moins-trois-fois-par-semaine-741681.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 18:00:56 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Longtemps relégué en garniture, le brocoli revient au premier plan dans les études sur le cœur, le cerveau et plusieurs cancers. Faut‑il vraiment en mettre au menu au moins trois fois par semaine ?"
     },
     {
       "title": "Oscars 2026 : le menu gastronomique servi par le chef Wolfgang Puck pour le gratin d’Hollywood - Cosmopolitan.fr",
@@ -2370,41 +2442,6 @@
       "snippet": "Après l’annonce de la mort de Bruno Salomone, ce 15 mars, Hélène de Fougerolles a brisé le silence. A nos confrères de chez Paris Match, l’actrice s’est exprimée sur la maladie contre laquelle le comé"
     },
     {
-      "title": "Non, le mode \"chaleur tournante\" du four n'est pas le plus adapté pour les quiches et tartes",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/non-le-mode-chaleur-tournante-du-four-nest-pas-le-plus-adapte-pour-les-quiches-et-tartes-952866",
-      "pubDate": "Sun, 15 Mar 2026 17:44:17 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Pâte de quiche molle, fond de tarte à moitié cru : votre four n’est pas forcément en cause. Le bon mode, bien réglé, change tout pour la cuisson du dessous."
-    },
-    {
-      "title": "Une jonquille contre le cancer : la mobilisation nationale qui fait fleurir l’espoir",
-      "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/recherche-contre-le-cancer/une-jonquille-contre-le-cancer-la-mobilisation-nationale-qui-fait-fleurir-lespoir-742739.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 17:30:39 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Chaque printemps, une fleur jaune devient le symbole d’un combat collectif. Du 10 au 22 mars 2026, l’Institut Curie relance sa grande campagne nationale « Une Jonquille contre le cancer », une mobilis"
-    },
-    {
-      "title": "Résultat d'Arnaud Robinet aux municipales 2026 à Reims : le maire peut-il réitérer une victoire directe sous la bannière Horizons ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPcUhCeFRYa3dMM3FMVkNpRVdVVG9BWnJFVDM4U2VTOTljYXRpUVA4SWgwQW9BcVRlbGVqS21iTFRaNnpBX0d4VU0xMkVHNGc5Z1ZHeWxwc3Y1UjZOaWMtVVRRdjF1UWg0bURmcXotcXdJMm9MbUZEcjllWlpxUUd2RUQ2bXBPaXFidS1Bd3IzeV9UdEVfd1h4MXRvMVpvQnNfUG12UTI2WjlJTHNZVi1RNjA1WDNTamIwaFlkUndJZHdhOGxkTG9zTkpCVExGYlpkYm1PcjVEcVJDdkxPaFNNUkJjMzhzTXVqZ0F0NmFBcXM2anpXS2c?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 17:27:04 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat d'Arnaud Robinet aux municipales 2026 à Reims : le maire peut-il réitérer une victoire directe sous la bannière Horizons ?  Linternaute.com"
-    },
-    {
       "title": "Oubliez la marche et le yoga : selon une étude, cette habitude simple peut rajeunir votre cerveau de 10 ans",
       "link": "https://www.psychologies.com/bien-etre/forme/Oubliez-la-marche-et-le-yoga-selon-une-etude-cette-habitude-simple-peut-rajeunir-votre-cerveau-de-10-ans-624985?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 17:02:10 +0000",
@@ -2414,18 +2451,6 @@
         "aufeminin.com"
       ],
       "snippet": "Et si une simple habitude du quotidien pouvait ralentir le vieillissement du cerveau ? Une étude récente suggère qu’elle pourrait même lui faire gagner plusieurs années."
-    },
-    {
-      "title": "Accusé d’être \"pire qu’un beignet\", ce poisson est pourtant un excellent choix pour notre santé, selon une diététicienne : et personne ne pense à en acheter",
-      "link": "https://www.topsante.com/nutrition_et_recettes/accuse-detre-pire-quun-beignet-ce-poisson-est-pourtant-un-excellent-choix-pour-notre-sante-selon-une-dieteticienne-et-personne-ne-pense-a-en-acheter-952656",
-      "pubDate": "Sun, 15 Mar 2026 17:01:26 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Accusé d’être « pire qu’un beignet », le tilapia est pourtant un excellent choix pour notre santé. Une diététicienne vante ses vrais atouts et des idées pour le cuisiner."
     },
     {
       "title": "Selon la science, voici l’heure précise à laquelle vous devriez arrêter de manger pour protéger votre cœur et votre sommeil !",
@@ -2529,18 +2554,6 @@
       "snippet": "À la télévision ou dans la réalité, de nombreuses femmes reconnaissent leur attrait pour ceux que l’on appelle les mauvais garçons. Mais d’où vient cet intérêt ?"
     },
     {
-      "title": "Résultats des municipales avant 20 heures : que trouve-t-on exactement en ligne sur le premier tour des élections ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZlFMRW8zNGNadW0tUFB4RF9aWTRXbnV5UkRGTS1xQVlOeTN4azc3N2ZDVldFZkNNenhjeXF3aExJbFJ0YUhlVFlFS3JqZGFNUUsyRnBydktDRWw5UGFtckVURnJrZjZsN2d2Z3hXSnN0Rk9SUDJtM1pXTjBDczVlZDQ5VDRudzNucVNTOWdncUlCLXZPYzVvUkl1ekJTbjFzeTFIZ0t5cXBmQ2xHbUJ1SUFrMnBtQkY3OU1TZE1TdVd6ekhNRlJZU3FmTkl1VEZvMzBRVHkwWlpjYWtZLVU3NXJfLUU0Y1hWV29mZGZUUnkxaktXUEdzZDRHRU9SUQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 15:31:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultats des municipales avant 20 heures : que trouve-t-on exactement en ligne sur le premier tour des élections ?  Linternaute.com"
-    },
-    {
       "title": "Si vous aimez les thrillers inspirés d’histoires vraies, ce film sur l’évasion d’Alcatraz est un incontournable - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYkhueHhrU1U5a0tldlcyODVRYWdFSUdWRGdyd0RYLTBMcDlvNE5sTlRwdUhEeGVTc2VTWlJaQUI1aDJNSUwwa1pqeFVQTzIxTVdRYW1BVFA2U0VqaTliS1VYY0RjcjVxMUwzVTExU1lwVk1sZmRKS29YRGpmYzdreUJPQndDRXdGakFPUjNqTlY5TnQ4NlJKQjZPSmpGOHozQnhDTGxaT1dXejZoZkNwSDdOZ2xVSjlnaUFtLXlKTTltUXcy?oc=5",
       "pubDate": "Sun, 15 Mar 2026 15:13:00 GMT",
@@ -2550,18 +2563,6 @@
         "aufeminin.com"
       ],
       "snippet": "Si vous aimez les thrillers inspirés d’histoires vraies, ce film sur l’évasion d’Alcatraz est un incontournable  Cosmopolitan.fr"
-    },
-    {
-      "title": "Résultat de Catherine Trautmann aux municipales 2026 à Strasbourg : l'ancienne édile va-t-elle revenir 25 ans plus tard ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQXRDaXN6aXhMcU13bFB0cmZfWjdnbFpJVERfTUpPbUVhM0lPdWljdXpBVWItZkpqV3ZONHFnRUttamFIazFVZTViX3dyUE81ci1ycXJqY2EyM3lTNzBUdGJrSDJTekhYdjZndmxpTzhtc1FPekZacTdSSnNpQ2FsMVpPZjVEZHhNLXMyVmpOM3VnMUVfVUNMNE1HeVJXSUtZa3Bmc051SjI5NnNOSDctY1BTZ2FmbFZMU2xOQXE5UENHRHlhcTVvYjk5RG45V0xIT2I0clpxOC12aG5xSGJoNjRTUndHT2JGRldhc2NERjVjdkxYZ0hnZURPblhwMUI0SkJwQQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 15:11:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Catherine Trautmann aux municipales 2026 à Strasbourg : l'ancienne édile va-t-elle revenir 25 ans plus tard ?  Linternaute.com"
     },
     {
       "title": "Les personnes qui font le ménage \"à la va-vite\" ne sont pas négligentes, elles ont cette qualité rare, selon les psys",
@@ -2672,17 +2673,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Disneyland Paris : on a testé l’attraction La Reine des Neiges en avant-première  ELLE"
-    },
-    {
-      "title": "Les gens socialement intelligents n'abordent jamais ces 3 sujets de conversation",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/gens-socialement-intelligents-abordent-jamais-sujets-conversation-598920?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 13:04:48 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "En société, les personnes dotées d’une intelligence relationnelle se distinguent par leur discours. Elles savent aborder les sujets adaptés et évitent subtilement ceux qui font grincer des dents."
     },
     {
       "title": "Taux de participation aux municipales à 12h : c'est tombé, un premier chiffre qui en dit long sur ces élections - Linternaute.com",
@@ -2863,6 +2853,18 @@
       "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
     },
     {
+      "title": "Programme TV Culinaire du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXVuMmo4VGI2dnlwWW9HT3BiNnVwNjZzRFY3TnZjTVB4TmpWTVA2N3kxMHlGdkh2WDBwWDBxUFA5VHVEckQ0VkJSR25QOVdzeXVsQTZaM09GdlVTbUNfNTRjS1dHQkZ4MkVLLTVRYmE1bVh3cy04MlRoR1pYcVo2TUdlUXZlNms?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:39:37 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Culinaire du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
       "title": "aspirateur - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ZXN1ZGhLUjRyVFU0Q05oLUp6TFY0eExtaTJTT3F2RUxVb3lpRG5wMXRXYWU1R3pFakxnSXM1RTBxTlRFMjdRa0EyclpsRzVZQlVGRlRCeXhRSWUxSm5Z?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:30:04 GMT",
@@ -2874,6 +2876,42 @@
       "snippet": "aspirateur  Femme Actuelle"
     },
     {
+      "title": "Programme TV5MONDE du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUWtvNFdwVlBuRHRxQ3JpZ1JqU3FaOVA0cUpRbS1KcVpvZGNUQ2F4dmlET095QTdUZllxbUQ4ajQ0QzRHMHpLbGJKc1c0cmN5SlJHZHRUUGNxWE4waVVoREtKazhRcncwWFZBNjdMRjRBNFZ5bnBBbGF5Yll4Y0F5OS0tY2Y?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:09:27 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV5MONDE du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Proximus du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHBONnFDWTNnX0wxYXVTeTlwVmYtVHV1eUdmS19yQ1JBMGo3MUxpNVVKLVpudElFb2xmQ1dkOU93M3BrUmd1YlJFMWE4V2hiTHYzVDZOTEM1T2tCS2xsQ2RubEVrUkR2NWxPVjZjZkItSmJaLUdqMEplbTdXU1RacjRkSnY?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:03:50 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Proximus du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Bouygues du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcVFxUGhZbFc0dGxzRkRYdHJBeTNVTVlYSWZOcFZPZWJUVE5Ed1pJUjdNRGVXQnUzc1VHNU8xRWtFYVhnWlpiWUpuTjA5SFFESXlJU3VpVXh0ZVdXcHhiLUFJeGoxdnJUamlLT0dBbmE4WXZqMUpYSGRVaHZwcVFpeDRYeHQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:03:38 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Bouygues du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
       "title": "Wordle : Le Mot du jour gratuit - 15 mars 2026 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaDNJUHBRWmtnX3I2Q1V0RjIwQTZxOFlnbWR5dEJ1S241cjh3Zl9HWDc2b18tSVFlMjVXZHcybm1ETkVoWm53RjEzYkNpTlVoMTQ4QTNqa3FwWjVPU1IwS3N0N1IwTk9ranYzQkFVcGpJbGZHcnp6X253NTdOSFl5dE56MTRoTHZwNjB4bXZNbDFGd2Q3dVBiYWlDY1VHZ1FUZm9adXBPY1BMLTA2LXlSM194Z1Q?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:00:00 GMT",
@@ -2883,40 +2921,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Wordle : Le Mot du jour gratuit - 15 mars 2026  Notre Temps"
-    },
-    {
-      "title": "Programme TV Urbains du vendredi 27 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUU2bm5Ma2pNZ3BmZEQ5SjczQlVBbGZ1Q2E2bFVYWUVxSWkwYm9wVXVqMVNObEk5MUs0LUJvY3VYQzRyN2FCWXo1SldaZE5ld3lTZ1g5TVZLeG1ia2lJcFZHb0JEX0NFdHJ3NzhpbGhvOGNkcWlwa3FMbzVWYVhSSTZmekhsbFFHeFZwekhQUlo?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 21:13:56 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Urbains du vendredi 27 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Qui a gagné le plus d’Oscars ? - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5yN2lEM0RjRkJsQnBKM0ZFaEdlYVpHek9seVo1UnBTYzVBdWRyck1aRDJhUV9EbmlLT3dSUWNPaGZMUEI4TWk3a214RFR4NExRamM4T05mNUhYNWY0WmZOckhDXzB5UEZBWjdzcTV5c2NjZDNvcktJ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 20:58:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Qui a gagné le plus d’Oscars ?  ELLE"
-    },
-    {
-      "title": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV3RueGc4SkdiYnhhNllkdWdNVWdXdWpIQ0FMS1VBTEE1R1FaRVBpLVYtT2tUOXJsVFRlU0M5TEJiNjhKaDVrN3Q2RE96YWxXLThzN3d0cHVYVVdOYVFVVkp5QjgzY19rZHN6UWZIY0I3OWhTeGpQTVB0SlBiX0FxQ2N3allJdzMwN3I3bGZrWGtQOU9UazRNWjJBbDBIaHJTNkVWYTRBSmVWMmM3dllUOXVGcnRpY1lONkxSTVhlQXBvQThmekxkOXFmSHEtclhHZ3RFenRNdko?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 20:46:17 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars  Femme Actuelle"
     },
     {
       "title": "Oreillers : la méthode efficace pour les laver en profondeur sans les abîmer",
