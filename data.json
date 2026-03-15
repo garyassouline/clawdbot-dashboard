@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T21:15:37.931Z",
+  "updatedAt": "2026-03-15T22:15:33.668Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "9.5%",
-    "ram": "20%",
+    "cpu": "19%",
+    "ram": "21%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T21:15:37.931Z",
+      "ts": "2026-03-15T22:15:33.668Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1929,28 +1929,28 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 4665619,
-    "tokensOut": 2574,
-    "cacheHit": 33,
-    "context": 1039139,
+    "tokensIn": 114728,
+    "tokensOut": 35,
+    "cacheHit": 32,
+    "context": 107283,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 4665619,
-      "tokensOut": 2574,
-      "cacheRead": 518368,
+      "tokensIn": 114728,
+      "tokensOut": 35,
+      "cacheRead": 49864,
       "cacheWrite": 0,
-      "cost": 14.190977400000003
+      "cost": 0.3596682
     },
     {
       "model": "gemini-3.1-pro-preview",
-      "tokensIn": 403200,
-      "tokensOut": 5210,
-      "cacheRead": 309503,
+      "tokensIn": 637402,
+      "tokensOut": 8613,
+      "cacheRead": 496935,
       "cacheWrite": 0,
-      "cost": 1.3806009
+      "cost": 2.1904815
     },
     {
       "model": "claude-sonnet-4-6",
@@ -1981,11 +1981,17 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 4665619,
-      "tokensOut": 2574
+      "tokensIn": 114728,
+      "tokensOut": 35
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
+      "model": "gemini-3.1-pro-preview",
+      "tokensIn": 234202,
+      "tokensOut": 3403
+    },
+    {
+      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:7916267c-22cb-4b6c-b04b-da675692ab99",
       "model": "gemini-3.1-pro-preview",
       "tokensIn": 187025,
       "tokensOut": 2006
@@ -2067,20 +2073,27 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 1256594
+      "total": 375411
     }
   ],
   "alerts": [
-    {
-      "type": "warn",
-      "message": "Budget quotidien dépassé : $16.17"
-    },
     {
       "type": "info",
       "message": "Certaines automatisations n'ont pas encore tourné."
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Voici la technique ultime pour déstabiliser quelqu'un qui dit : \"t’es trop bête pour comprendre\"",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/technique-ultime-destabiliser-te-dit-bete-comprendre-605426?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 22:01:21 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Marre de ravaler ta fierté face aux remarques méprisantes ? Cette réplique subtile change complètement la dynamique, sans hausser le ton ni t’écraser."
+    },
     {
       "title": "“Elle met mal à l'aise” : cette petite phrase est la préférée des manipulateurs pour semer la confusion en toute discrétion, selon une psy",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/petite-phrase-preferee-manipulateur-semer-confusion-discretion-psy-589514?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2398,17 +2411,6 @@
       "snippet": "Pendant 14 jours, Alexa Mellardo a intégré des protéines à chaque repas en espérant calmer ses fringales et stabiliser son appétit. Elle raconte comment cela a changé son quotidien et quels sont les e"
     },
     {
-      "title": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ? - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR1I3OHVXSHRpaVJFT0hJMTZ3c2VMOWY5T0pqbG5tYWt5bXdDNjVyNjBJWlhxTGptemxoNzVrU1JBWVU1bWJ4WWxRWDlvWW5pYWtkWXYySFRVcjRyTW5ndzQwQzRfMXJQbi0zalRXTjRYbkFCdndqaWllLXNsaUxCMlBlNGVNSjRWTzNteDNxVktIaXA5emV1S2ljb0xlRWRXRFMzXzZpV01tWW01WDJ0Ul80QkE5LWdLWXdtOXNsdkFvUjM5OVB2UTFtZjB3eVFISTcw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 18:03:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ?  ELLE"
-    },
-    {
       "title": "Le bouboupisme séduit de nombreux couples : les secrets de cette pratique qui permet d’atteindre de nouveaux sommets de plaisir",
       "link": "https://www.psychologies.com/Couple/Sexualite/bouboupisme-seduit-couples-secrets-pratique-atteindre-nouveaux-sommets-plaisir-411822?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 18:01:40 +0000",
@@ -2531,16 +2533,15 @@
       "snippet": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars  ELLE"
     },
     {
-      "title": "Résultats des municipales : à quelle heure sont-ils donnés ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTFh3TTllNEhWd1h5ZWpQejRrVmxUS2F0UElwb2dyS2VYZW5NeTBFSEJFaEtyamFUVmUwcnBKdGY4VXNXM24tLXhQOFE1cHhsdVdfWFVveEJPQmNlWjBTNlhPaWFnSmJYRHpwRjJLMGpFWGE0R1VBeFducnVnU09LTzNMVjJ4OUhJVGFubFp3eUpIUGpmeWdsZkV1NVV0S29XQ3pnQ3dFTEtCeWNVZWNNNG1ndw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 16:06:11 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
+      "title": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRnlUNmVqa1MtMEhyUVUyZ3hPLVZqSHFPcTlDX2s5ektTMy1faWJNckp3MUd4UDJ5ZmdHQWdraWZwQk42c0dVdDV4UWEyX3NDb2M0THhWTmtrYmgzSzFUZkJ3RXNCdzZBZC1NUHE1NlFzemozSV9Xc3oxaGNkMndzZXhLcXBualJkbUt2TG5oRlFHa19JUXNLaXRESW11a2ZKaC1PTnh2UWRHY1RlZzRIU3ptVHRWYTVLQV9DTE56MzBRYnRVa0tlR0RINTdnTThZdllxajZxWQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:07:41 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
       "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
+        "mariefrance.fr"
       ],
-      "snippet": "Résultats des municipales : à quelle heure sont-ils donnés ?  Linternaute.com"
+      "snippet": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham  ELLE"
     },
     {
       "title": "“Tombée amoureuse d’un bad boy” : ces 2 traits de personnalité vous poussent à faire les mauvais choix en amour, selon la science",
@@ -2631,17 +2632,6 @@
       "snippet": "\"Explosif\" : ce film d'action futuriste avec Alan Ritchson et Dennis Quaid s'impose dans le top Netflix  Cosmopolitan.fr"
     },
     {
-      "title": "Ce détail physique aide les femmes à se sentir plus attirantes, selon la science",
-      "link": "https://www.psychologies.com/beaute/image-de-soi/detail-physique-aide-femmes-sentir-plus-attirantes-science-624617?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 14:04:50 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "La façon dont nous habillons nos corps nous aide à mieux les accepter et, d'après une nouvelle étude, certains changements physiques pourraient jouer un rôle particulier."
-    },
-    {
       "title": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdS04cExyY2kyNTJHeGdNSkhhb2RHNTA3Q2hiMjVnN3Q2UEF1VEdzeEk2dUlPX2M3bU9EMURqQkZlelNYTlpjaUxQY056VFZpMXdWTkdHeDFhYndaMnpOQVVHcmU5TDdZTzdPZ3FEaUItYzduXzBPaVhDRmhqU0J6WG43ckpmekc4anRSQjBiT2hPRTFzWTFpZzNxbUNYYVB5Qnhfb18ybTVjQnM0cVNUSU5HMXBpZ0Nra0N3Tm5pSlRZQVVvSFc1cmhkOTFGNW52SDFWc1U3R1dHTTJnbmdXemE5SUI?oc=5",
       "pubDate": "Sun, 15 Mar 2026 14:00:00 GMT",
@@ -2675,18 +2665,6 @@
       "snippet": "Disneyland Paris : on a testé l’attraction La Reine des Neiges en avant-première  ELLE"
     },
     {
-      "title": "Taux de participation aux municipales à 12h : c'est tombé, un premier chiffre qui en dit long sur ces élections - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNY09LbS01YU1zWnl3U0xxRWFIQ283ZzNQUVJvaGZTejV4b0EwX1ctQnJzdGIwcWNld25TNEFqaWZPRmxQSVZoTVFJN0JQWXAtNWl3Mm84dHNJa3czS24zaEc4TVdQSXZjeml0cVJMNURKOXlnU3Ftekw4YWRyNnJJcTJkUFY3bi15THlWN0c3bVdQTEZlVU1vWnFHZDNURktlSjQ1VTRiZGxLd2Nrdk0wN1ZJSDNZWTJNV09iMUxnNlpIVFZCTmpVb2laQko3QjlJbVpVQzlNR09ib2ZrOWpLRjFKSGdnNXJaOVE?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 11:55:02 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Taux de participation aux municipales à 12h : c'est tombé, un premier chiffre qui en dit long sur ces élections  Linternaute.com"
-    },
-    {
       "title": "Si Lisbonne n'entre pas dans votre budget, sachez que cette ville portugaise est la moins chère d’Europe en 2026 - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOHhkYlNfcFozSTBLR3dBdE9PY2VLcEsxTXVGd0hRWWtLOEdfM2tuT3FXckpOWkZaVjZCckM5aUVCZjdGSThYYXB3MlhleklrcG9BSl9uOUp3UkowY1daS1FyMTJtRzRfZkN3amw5QkRXS2JaTko0U2wtTUZBMi00UzVDajhmaWJkVmVLdzYxcVFjempaWlBrQ3dyU0JUcnp6ZkJHYjBvYlhHYjEzZDkwa210N3ZfMDV2VUdfUXZjaFZLVVp4QU5HYmVxM05NNnZBS1FZcGdYOU1iSU5JWFpGV05fNUZmUQ?oc=5",
       "pubDate": "Sun, 15 Mar 2026 10:00:00 GMT",
@@ -2718,6 +2696,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer  ELLE"
+    },
+    {
+      "title": "Programme RMC Sport Access 2 du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcG9wNTU5M3FTR2NaMExKbkZOZWtHM3Z3Zkx6T0FIaHQtUHk3Mnk3NmNJN2ZzenotMHhaVUVxME8zN2cwZjlKQzVicXZZMDBQWnBOMXpaaWdVaE5lM0U1MFZ5NncybXhfbGpCUXhzYjRmY01GMHNtdURLbGJBTmswSFIyRnFTZDR6NWlPdUdYVHVidw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 09:02:09 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme RMC Sport Access 2 du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "« Buffy contre les vampires » : le reboot de la série culte finalement annulé - ELLE",
@@ -2762,6 +2752,18 @@
         "aufeminin.com"
       ],
       "snippet": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Programme TV Patinage du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRzNuaGcwandFZG1nX1ZHRW5vaHh0aGVtczBtSWZPUnZfWjhHRzkzWXloSmJqMEFNQktQSjlpOXdSX2VFWDZrYUtrU01paTA4YkpzSzlZazYtcVZBb0NBbThYc1RqOHR0UlU3NVp1Z3hrZ1F4ck0ycUhDMWl4SnZBemI2UjdaVDhS?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 06:07:43 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Patinage du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "Programme TV Pornographique du samedi 28 mars 2026 - Linternaute.com",
@@ -2853,6 +2855,18 @@
       "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
     },
     {
+      "title": "Programme TV Opera du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOGlqSnRKY0pFSXZjZXNhdnlYMmFtZjVwVGFBMjRmYTJTOE9hZHVKLUQxamNSVkZIR1BfU0ozZm9VeVVMSmExRmkya282RFd4N3dRWjNzLWdKZDJ4T3NVb2ZCTjNvRm5fNmxFREYxNWFHOWZURm1EdWFCc1pNZnlOY1RLeVc?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 00:52:19 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Opera du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
       "title": "Programme TV Culinaire du samedi 28 mars 2026 - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXVuMmo4VGI2dnlwWW9HT3BiNnVwNjZzRFY3TnZjTVB4TmpWTVA2N3kxMHlGdkh2WDBwWDBxUFA5VHVEckQ0VkJSR25QOVdzeXVsQTZaM09GdlVTbUNfNTRjS1dHQkZ4MkVLLTVRYmE1bVh3cy04MlRoR1pYcVo2TUdlUXZlNms?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:39:37 GMT",
@@ -2876,18 +2890,6 @@
       "snippet": "aspirateur  Femme Actuelle"
     },
     {
-      "title": "Programme TV5MONDE du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUWtvNFdwVlBuRHRxQ3JpZ1JqU3FaOVA0cUpRbS1KcVpvZGNUQ2F4dmlET095QTdUZllxbUQ4ajQ0QzRHMHpLbGJKc1c0cmN5SlJHZHRUUGNxWE4waVVoREtKazhRcncwWFZBNjdMRjRBNFZ5bnBBbGF5Yll4Y0F5OS0tY2Y?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:09:27 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV5MONDE du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
       "title": "Programme TV Proximus du samedi 28 mars 2026 - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHBONnFDWTNnX0wxYXVTeTlwVmYtVHV1eUdmS19yQ1JBMGo3MUxpNVVKLVpudElFb2xmQ1dkOU93M3BrUmd1YlJFMWE4V2hiTHYzVDZOTEM1T2tCS2xsQ2RubEVrUkR2NWxPVjZjZkItSmJaLUdqMEplbTdXU1RacjRkSnY?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:03:50 GMT",
@@ -2898,18 +2900,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Programme TV Proximus du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Programme TV Bouygues du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOcVFxUGhZbFc0dGxzRkRYdHJBeTNVTVlYSWZOcFZPZWJUVE5Ed1pJUjdNRGVXQnUzc1VHNU8xRWtFYVhnWlpiWUpuTjA5SFFESXlJU3VpVXh0ZVdXcHhiLUFJeGoxdnJUamlLT0dBbmE4WXZqMUpYSGRVaHZwcVFpeDRYeHQ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:03:38 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Bouygues du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "Wordle : Le Mot du jour gratuit - 15 mars 2026 - Notre Temps",
@@ -2965,6 +2955,18 @@
         "pleinevie.fr"
       ],
       "snippet": "Une étude majeure publiée dans la revue scientifique Nature révèle que le vieillissement des patients reprogramme les cellules cancéreuses du poumon, les rendant plus agressives. Une découverte qui in"
+    },
+    {
+      "title": "Programme TV Politique du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMFBTRWR0anhwUHh2Zi1VYlNTekdGT05IRll6VDFCMk1WVU9IcURDTmtiekhnQzktcFJPSDE0cjhOWFFiSWVIZGUyeUsyblNjZXdhS0NHbHNVLUJEaEM5Q2tTWFlyNVROOUFwOGc5czNzeFBiQjdJeU8xOUlIeFBMZ3hSYnhsaGJSNE5oeFdiT2RXbWFCczNLcw?oc=5",
+      "pubDate": "Fri, 13 Mar 2026 23:12:43 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Politique du vendredi 27 mars 2026  Linternaute.com"
     }
   ],
   "competitorFeedsMeta": [
