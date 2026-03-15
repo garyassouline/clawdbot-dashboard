@@ -1,0 +1,31 @@
+CREATE
+LAST|Lfr|"Benjamin Dewet"
+LAST|Len|"Benjamin Dewet"
+LAST|Dfr|"Rédacteur d'Auto Plus, Sport Auto et l'Auto-Journal, mais aussi vidéaste et monteur si besoin ! Amoureux de toutes les voitures, du monospace familiale à la ..."
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+
+CREATE
+LAST|Lfr|"Noëlle Binet"
+LAST|Len|"Noëlle Binet"
+LAST|Dfr|"Journaliste pour Nextplz"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.nextplz.fr/auteur/noelle-binet"
+LAST|P2002|"Noellebinet"
+LAST|P569|+1992-01-02T00:00:00Z/11
+
+CREATE
+LAST|Lfr|"Clara Carlesimo"
+LAST|Len|"Clara Carlesimo"
+LAST|Dfr|"Journaliste et coordinatrice éditoriale"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.closermag.fr/auteur/lou-ducreux"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/clara-c"
+LAST|P6634|""
+LAST|P2002|"ClaraCarlesimo"
+LAST|P569|+1993-05-17T00:00:00Z/11
