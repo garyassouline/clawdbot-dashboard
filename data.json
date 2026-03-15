@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T14:05:54.297Z",
+  "updatedAt": "2026-03-15T14:09:20.625Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "0%",
-    "ram": "25%",
+    "cpu": "5%",
+    "ram": "23%",
     "disk": "9%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T14:05:54.297Z",
+      "ts": "2026-03-15T14:09:20.625Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1658,6 +1658,17 @@
       "snippet": "La plupart des personnes ne mangent pas assez de poisson. Pourtant, il est recommandé d'en consommer à raison de deux fois par semaine. Si vous manquez d'inspiration, testez cette recette de notre jou"
     },
     {
+      "title": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdS04cExyY2kyNTJHeGdNSkhhb2RHNTA3Q2hiMjVnN3Q2UEF1VEdzeEk2dUlPX2M3bU9EMURqQkZlelNYTlpjaUxQY056VFZpMXdWTkdHeDFhYndaMnpOQVVHcmU5TDdZTzdPZ3FEaUItYzduXzBPaVhDRmhqU0J6WG43ckpmekc4anRSQjBiT2hPRTFzWTFpZzNxbUNYYVB5Qnhfb18ybTVjQnM0cVNUSU5HMXBpZ0Nra0N3Tm5pSlRZQVVvSFc1cmhkOTFGNW52SDFWc1U3R1dHTTJnbmdXemE5SUI?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 14:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices  Cosmopolitan.fr"
+    },
+    {
       "title": "Mort de Bruno Salomone : que devient Eric Collado, son partenaire avec Jean Dujardin dans les Nous Ç Nous ?",
       "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-que-devient-eric-collado-son-partenaire-avec-jean-dujardin-dans-les-nous-c-nous-3623968",
       "pubDate": "Sun, 15 Mar 2026 13:53:55 +0000",
@@ -2082,17 +2093,6 @@
         "aufeminin.com"
       ],
       "snippet": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026  Cosmopolitan.fr"
-    },
-    {
-      "title": "Ben Attal fiancé à Thylane Blondeau, Frédéric Lopez trouve refuge, Meghan Markle et sa fille - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGZtWFBBd0dtZ1VSV2tCUE91d2hyTHZrV05WbWZPUFZwVU94MUI2WEFCZEJwQTNESGtwVnNFWkh4dl9NamdiUERxUjdncHNSbEExYVB0c3liQmYySDF5UFE3YVlGRVQ5S05sN2ctdzdocGlTQlBBaGdLMG11U0o5dGh6UzBOMEItSHcxM2c0QVV4V3QxQUc1QjhyeER5N0JtX2FZWHlrY0FlN05wYUNWZG9OQ3ZPUjBZbllFLVBTSkVWWExUSjRlN2lR?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 06:30:15 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Ben Attal fiancé à Thylane Blondeau, Frédéric Lopez trouve refuge, Meghan Markle et sa fille  Cosmopolitan.fr"
     },
     {
       "title": "Programme TV Pornographique du samedi 28 mars 2026 - Linternaute.com",

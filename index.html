@@ -913,6 +913,7 @@ function initDiscoverFilters() {
 }
 
 function renderDiscover() {
+    if (!globalData || !globalData.discoverAdvanced || !globalData.discoverAdvanced.sites) return;
     const site = document.getElementById('disc-site-filter').value;
     const range = document.getElementById('disc-range-filter').value;
     const adv = globalData.discoverAdvanced.sites;
@@ -1018,42 +1019,56 @@ function estimateCost(tokensIn, tokensOut, model) {
 }
 
 async function load() {
-  document.getElementById('updated-at').textContent = 'Actualisation…';
+  const statusEl = document.getElementById('updated-at');
+  if (statusEl) statusEl.textContent = 'Actualisation…';
   try {
-    const r = await fetch('./data.json?t=' + Date.now());
+    const r = await fetch('./data.json?cb=' + Date.now());
     const d = await r.json();
     render(d);
   } catch(e) {
-    document.getElementById('updated-at').textContent = 'Erreur de chargement';
+    if (statusEl) statusEl.textContent = 'Erreur: ' + e.message;
+    console.error("Load error:", e);
   }
 }
 
 function render(d) {
-  // Date
-  const now = new Date();
-  document.getElementById('date-display').textContent = now.toLocaleDateString('fr-FR', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
-  document.getElementById('updated-at').textContent = 'Mis à jour ' + new Date(d.updatedAt).toLocaleTimeString('fr-FR', {hour:'2-digit',minute:'2-digit'});
+  try {
+    // Date
+    const now = new Date();
+    const dateDisplay = document.getElementById('date-display');
+    const updatedAt = document.getElementById('updated-at');
+    if (dateDisplay) dateDisplay.textContent = now.toLocaleDateString('fr-FR', {weekday:'long',day:'numeric',month:'long',year:'numeric'});
+    if (updatedAt) updatedAt.textContent = 'Mis à jour ' + new Date(d.updatedAt).toLocaleTimeString('fr-FR', {hour:'2-digit',minute:'2-digit'});
 
-  const s = d.session || {};
-  const totalTok = (s.tokensIn||0) + (s.tokensOut||0);
-  const modelShort = (s.model||'—').replace('google/','').replace('anthropic/','');
-  // Use real total cost from modelBreakdown (includes cache pricing)
-  const realTotalCost = (d.modelBreakdown || []).reduce((sum, m) => sum + (m.cost || 0), 0);
-  const cost = realTotalCost.toFixed(4);
+    const s = d.session || {};
+    const totalTok = (s.tokensIn||0) + (s.tokensOut||0);
+    const modelShort = (s.model||'—').replace('google/','').replace('anthropic/','');
+    // Use real total cost from modelBreakdown (includes cache pricing)
+    const realTotalCost = (d.modelBreakdown || []).reduce((sum, m) => sum + (m.cost || 0), 0);
+    const cost = realTotalCost.toFixed(4);
 
-  // Overview KPIs
-  document.getElementById('kpi-tokens').textContent = fmt(totalTok);
-  document.getElementById('kpi-tokens-sub').textContent = fmt(s.tokensIn||0) + ' in · ' + fmt(s.tokensOut||0) + ' out';
-  document.getElementById('kpi-model').textContent = modelShort;
-  const ctx = s.context||0, ctxMax = s.contextMax||200000;
-  document.getElementById('kpi-context').textContent = 'Contexte ' + Math.round(ctx/1000) + 'k/' + Math.round(ctxMax/1000) + 'k (' + Math.round(ctx/ctxMax*100) + '%)';
-  document.getElementById('kpi-crons').textContent = d.crons ? d.crons.filter(c=>c.enabled).length : '0';
-  document.getElementById('kpi-crons-sub').textContent = (d.crons||[]).length + ' total';
-  document.getElementById('kpi-cost').textContent = '$' + cost;
+    // Overview KPIs
+    const kpiTokens = document.getElementById('kpi-tokens');
+    if (kpiTokens) kpiTokens.textContent = fmt(totalTok);
+    const kpiTokensSub = document.getElementById('kpi-tokens-sub');
+    if (kpiTokensSub) kpiTokensSub.textContent = fmt(s.tokensIn||0) + ' in · ' + fmt(s.tokensOut||0) + ' out';
+    const kpiModel = document.getElementById('kpi-model');
+    if (kpiModel) kpiModel.textContent = modelShort;
+    
+    const ctx = s.context||0, ctxMax = s.contextMax||200000;
+    const kpiContext = document.getElementById('kpi-context');
+    if (kpiContext) kpiContext.textContent = 'Contexte ' + Math.round(ctx/1000) + 'k/' + Math.round(ctxMax/1000) + 'k (' + Math.round(ctx/ctxMax*100) + '%)';
+    
+    const kpiCost = document.getElementById('kpi-cost');
+    if (kpiCost) kpiCost.textContent = '$' + cost;
 
-  globalData = d;
-  initDiscoverFilters();
-  renderDiscover();
+    globalData = d;
+    try { initDiscoverFilters(); } catch(e) { console.error("initDiscoverFilters error", e); }
+    try { renderDiscover(); } catch(e) { console.error("renderDiscover error", e); }
+    try { renderVeille(d); } catch(e) { console.error("renderVeille error", e); }
+    try { initCompetitorFilters(d); } catch(e) { console.error("initCompetitorFilters error", e); }
+    try { renderCompetitorArticles(); } catch(e) { console.error("renderCompetitorArticles error", e); }
+    try { renderSuggestions(d); } catch(e) { console.error("renderSuggestions error", e); }
 
   // Discover Chart
   if (d.discoverStats && d.discoverStats.length) {
@@ -1346,21 +1361,21 @@ function render(d) {
       </div>`).join('');
   }
 
-  // System Logs
-  const logsEl = document.getElementById('system-logs-container');
-  if (logsEl && d.recentLogs) {
-    logsEl.innerHTML = d.recentLogs.map(l => `
-      <div class="log-entry ${l.type}">
-        <span style="color:#3b82f6">></span> ${l.msg}
-      </div>
-    `).join('') || '<div class="empty">Aucun log récent</div>';
-  }
+    // System Logs
+    const logsEl = document.getElementById('system-logs-container');
+    if (logsEl && d.recentLogs) {
+      logsEl.innerHTML = d.recentLogs.map(l => `
+        <div class="log-entry ${l.type}">
+          <span style="color:#3b82f6">></span> ${l.msg}
+        </div>
+      `).join('') || '<div class="empty">Aucun log récent</div>';
+    }
 
-  // Veille / Discover Pulse + Competitor RSS
-  renderVeille(d);
-  initCompetitorFilters(d);
-  renderCompetitorArticles();
-  renderSuggestions(d);
+  } catch(e) {
+    console.error("Critical Render Error:", e);
+    const updatedAt = document.getElementById('updated-at');
+    if (updatedAt) updatedAt.textContent = 'Erreur: ' + e.message;
+  }
 }
 
 function initCompetitorFilters(d) {
