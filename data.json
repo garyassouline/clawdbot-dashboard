@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T16:15:34.636Z",
+  "updatedAt": "2026-03-15T17:15:35.469Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -13,7 +13,7 @@
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T16:15:34.635Z",
+      "ts": "2026-03-15T17:15:35.468Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1492,20 +1492,20 @@
   "rssItems": [],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 449438,
-    "tokensOut": 33,
+    "tokensIn": 454298,
+    "tokensOut": 39,
     "cacheHit": 33,
-    "context": 445345,
+    "context": 447737,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 449438,
-      "tokensOut": 33,
-      "cacheRead": 220572,
+      "tokensIn": 454298,
+      "tokensOut": 39,
+      "cacheRead": 220534,
       "cacheWrite": 0,
-      "cost": 1.4149805999999998
+      "cost": 1.4296392
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1544,8 +1544,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 449438,
-      "tokensOut": 33
+      "tokensIn": 454298,
+      "tokensOut": 39
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -1624,7 +1624,7 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 627402
+      "total": 629794
     }
   ],
   "alerts": [
@@ -1634,6 +1634,143 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Oubliez la marche et le yoga : selon une étude, cette habitude simple peut rajeunir votre cerveau de 10 ans",
+      "link": "https://www.psychologies.com/bien-etre/forme/Oubliez-la-marche-et-le-yoga-selon-une-etude-cette-habitude-simple-peut-rajeunir-votre-cerveau-de-10-ans-624985?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 17:02:10 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Et si une simple habitude du quotidien pouvait ralentir le vieillissement du cerveau ? Une étude récente suggère qu’elle pourrait même lui faire gagner plusieurs années."
+    },
+    {
+      "title": "Accusé d’être \"pire qu’un beignet\", ce poisson est pourtant un excellent choix pour notre santé, selon une diététicienne : et personne ne pense à en acheter",
+      "link": "https://www.topsante.com/nutrition_et_recettes/accuse-detre-pire-quun-beignet-ce-poisson-est-pourtant-un-excellent-choix-pour-notre-sante-selon-une-dieteticienne-et-personne-ne-pense-a-en-acheter-952656",
+      "pubDate": "Sun, 15 Mar 2026 17:01:26 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Accusé d’être « pire qu’un beignet », le tilapia est pourtant un excellent choix pour notre santé. Une diététicienne vante ses vrais atouts et des idées pour le cuisiner."
+    },
+    {
+      "title": "Calcium : voici les 15 meilleurs aliments pour renforcer vos os et vos dents sans boire de lait",
+      "link": "https://www.doctissimo.fr/nutrition/nutriments/mineraux/calcium-voici-les-15-meilleurs-aliments-pour-renforcer-vos-os-et-vos-dents-sans-boire-de-lait-742209.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 17:00:11 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dès 30 ans, la masse osseuse diminue silencieusement et augmente le risque de fractures. Quels aliments riches en calcium privilégier pour soutenir vos os et votre énergie ?"
+    },
+    {
+      "title": "Selon la science, voici l’heure précise à laquelle vous devriez arrêter de manger pour protéger votre cœur et votre sommeil !",
+      "link": "https://www.medisite.fr/sante-au-quotidien-selon-la-science-voici-lheure-precise-a-laquelle-vous-devriez-arreter-de-manger-pour-proteger-votre-coeur-et-votre-sommeil.5717296",
+      "pubDate": "Sun, 15 Mar 2026 18:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Vous voulez protéger votre coeur et votre sommeil ? Voici à quelle heure il faut dîner, et pas après selon la science. A la clé, une stabilité de la glycémie nocturne, un sommeil réparateur et une dim"
+    },
+    {
+      "title": "Mort de Bruno Salomone : \"Mon frère…\", Jean Dujardin sort du silence avec un message cryptique",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-mon-frere-jean-dujardin-sort-du-silence-avec-un-message-cryptique-3623999",
+      "pubDate": "Sun, 15 Mar 2026 16:55:19 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Après l’annonce de la mort de Bruno Salomone, ce dimanche 15 mars, Jean Dujardin est sorti du silence. Sur Instagram, l’acteur français a écrit un message cryptique, un message très profond…."
+    },
+    {
+      "title": "Ces 10 moments de malaise ont perturbé les Oscars - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbNIBpAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbA?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:51:17 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Ces 10 moments de malaise ont perturbé les Oscars  Linternaute.com"
+    },
+    {
+      "title": "Peut-on congeler des aliments dans du papier aluminium ?",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-des-aliments-dans-du-papier-aluminium-952864",
+      "pubDate": "Sun, 15 Mar 2026 16:41:26 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Entre inquiétudes sur l’aluminium et envie de réduire le plastique, nos congélateurs sont souvent remplis de feuilles d’alu. Mais certains aliments rendent ce geste bien moins anodin."
+    },
+    {
+      "title": "\"Je suis diététicienne et voici comment rendre votre fish n'chips plus sain\"",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/je-suis-dieteticienne-et-voici-comment-rendre-votre-fish-nchips-plus-sain-952862",
+      "pubDate": "Sun, 15 Mar 2026 16:32:04 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Plat culte venu d’Angleterre, le fish and chips s’est invité dans nos week-ends français avec son lot de calories. Une diététicienne détaille comment le rendre plus sain sans gâcher le plaisir."
+    },
+    {
+      "title": "Vous ne savez pas quel fruit manger en mars ? Une nutritionniste recommande particulièrement ces 9 choix",
+      "link": "https://www.topsante.com/nutrition_et_recettes/vous-ne-savez-pas-quel-fruit-manger-en-mars-une-nutritionniste-recommande-particulierement-ces-9-choix-952118",
+      "pubDate": "Sun, 15 Mar 2026 16:30:32 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Mars bouscule vos habitudes au rayon fruits, entre agrumes, kiwis et premières fraises. Une nutritionniste y sélectionne 9 alliés de saison aux effets ciblés, parfois inattendus."
+    },
+    {
+      "title": "Mascara : pourquoi ce geste quotidien vieillit votre regard après 40 ans et l'astuce de Ruby Mazuel pour le remplacer",
+      "link": "https://www.doctissimo.fr/beaute/maquillage/maquillage-des-yeux/mascara-pourquoi-ce-geste-quotidien-vieillit-votre-regard-apres-40-ans-et-lastuce-de-ruby-mazuel-pour-le-remplacer-742327.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 16:30:21 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dans les coulisses des défilés automne-hiver 2027, Ruby Mazuel a banni le mascara pour signer des regards étonnamment frais après 40 ans. Son micro-geste, quasi invisible, promet un effet lift éclatan"
+    },
+    {
+      "title": "Fini le fond de teint : ce soin Garnier à la vitamine C et SPF50 sublime votre peau pour moins de 12€ !",
+      "link": "https://www.closermag.fr/shopping/fini-le-fond-de-teint-ce-soin-garnier-a-la-vitamine-c-et-spf50-sublime-votre-peau-pour-moins-de-12e-3623682",
+      "pubDate": "Sun, 15 Mar 2026 16:30:11 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Entre soin visage et maquillage léger, ce fluide teinté SPF50+ cartonne en ce moment sur Amazon. Il faut dire que sa promesse est plus qu'alléchante puisqu'il unifie le teint, hydrate et protège la pe"
+    },
+    {
+      "title": "Flavie Flament à l’âge de 13 ans : \"Je ne suis plus surprise\", ses confidences sur l’affaire Epstein et le lien avec son agression",
+      "link": "https://www.closermag.fr/people/flavie-flament-a-lage-de-13-ans-je-ne-suis-plus-surprise-ses-confidences-sur-laffaire-epstein-et-le-lien-avec-son-agression-3623997",
+      "pubDate": "Sun, 15 Mar 2026 16:21:33 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Ancienne aniamtrice de Télématin, Flavie Flament était sur T18 le 15 mars pour l'émission \"Mes pures Questions\". Elle a évoqué son viol et a fait un lien entre son histoire et l'affaire Epstein."
+    },
     {
       "title": "Selon un ingénieure en nutrition il y a une eau à privilégier pour prendre soin de votre foie",
       "link": "https://www.topsante.com/nutrition_et_recettes/selon-un-ingenieure-en-nutrition-il-y-a-une-eau-a-privilegier-pour-prendre-soin-de-votre-foie-952860",
@@ -1656,6 +1793,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham  ELLE"
+    },
+    {
+      "title": "Résultats des municipales : à quelle heure sont-ils donnés ? - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTFh3TTllNEhWd1h5ZWpQejRrVmxUS2F0UElwb2dyS2VYZW5NeTBFSEJFaEtyamFUVmUwcnBKdGY4VXNXM24tLXhQOFE1cHhsdVdfWFVveEJPQmNlWjBTNlhPaWFnSmJYRHpwRjJLMGpFWGE0R1VBeFducnVnU09LTzNMVjJ4OUhJVGFubFp3eUpIUGpmeWdsZkV1NVV0S29XQ3pnQ3dFTEtCeWNVZWNNNG1ndw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:06:11 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultats des municipales : à quelle heure sont-ils donnés ?  Linternaute.com"
     },
     {
       "title": "“Tombée amoureuse d’un bad boy” : ces 2 traits de personnalité vous poussent à faire les mauvais choix en amour, selon la science",
@@ -1712,6 +1861,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Après la mort de Bruno Salomone, Patrick Sébastien dévoile une émouvante attention préparée pour son ami avant sa disparition. Un geste touchant qui illustre leur longue amitié."
+    },
+    {
+      "title": "Résultats des municipales avant 20 heures : que trouve-t-on exactement en ligne sur le premier tour des élections ? - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZlFMRW8zNGNadW0tUFB4RF9aWTRXbnV5UkRGTS1xQVlOeTN4azc3N2ZDVldFZkNNenhjeXF3aExJbFJ0YUhlVFlFS3JqZGFNUUsyRnBydktDRWw5UGFtckVURnJrZjZsN2d2Z3hXSnN0Rk9SUDJtM1pXTjBDczVlZDQ5VDRudzNucVNTOWdncUlCLXZPYzVvUkl1ekJTbjFzeTFIZ0t5cXBmQ2xHbUJ1SUFrMnBtQkY3OU1TZE1TdVd6ekhNRlJZU3FmTkl1VEZvMzBRVHkwWlpjYWtZLVU3NXJfLUU0Y1hWV29mZGZUUnkxaktXUEdzZDRHRU9SUQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 15:31:00 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultats des municipales avant 20 heures : que trouve-t-on exactement en ligne sur le premier tour des élections ?  Linternaute.com"
     },
     {
       "title": "Vêtements de sport : ces coupes envahissent la rue et remplacent votre jean sans que vous l’ayez vu venir",
@@ -1826,6 +1987,17 @@
       "snippet": "Comme de nombreux autres citoyens français, Sarah Knafo a voté dans le cadre du premier tour des élections municipales le dimanche 15 mars 2025 à Paris. Cependant, la candidate à la Mairie de Paris a "
     },
     {
+      "title": "Victoria Beckham célébrée pour son rôle de mère par son époux David Beckham en plein conflit familial - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPSENRVFNUN2NGdW9nZHphNkhJVW1QRHZsY2xDcjc2OXFvYUh1SUJuWVNJLUFxVm5tMTdRSjRSVnRKRWZTaEhxYlh6YmJXTG1SbUFTNUNiY3dEVEJLaWNGZjBGMGFRNUtSWmVjWTVXOE9oS3RYUXlGalp6Vk5rUWxfVWFvUjh4SVlxOC1FM25WUHF0UXppZktZWWlMMmdkNjVZQTZfclFoc1lLWnExUjJjcDFnM0pHSzhpT3FoSWFsRnNnWHNYWTRIWFYxWHB0OFpIQ2xiMHhfbUtWNWJ5ZFlmUm4yaXljdnZ3ZWJtTVdnN1Q?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 14:34:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Victoria Beckham célébrée pour son rôle de mère par son époux David Beckham en plein conflit familial  ELLE"
+    },
+    {
       "title": "Crêpes maison : ces gestes à éviter absolument selon une diététicienne",
       "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/crepes-maison-ces-gestes-a-eviter-absolument-selon-une-dieteticienne-742033.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 14:30:36 +0000",
@@ -1870,28 +2042,6 @@
       "snippet": "Gel nettoyant ou crème purifiante : quelles différences et quel soin choisir selon son type de peau  ELLE"
     },
     {
-      "title": "\"Notre petit trésor\" : Clarisse Agbégnénou a accouché de son deuxième enfant - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbFhqSW5yTTljQ2VsanNRU19WRFNYRXc0RWxIekwtbnNrNm5CYml1REktTVNqSXJubEtYYmFNRWQyeDlZQTNGSzJfQWdxQzFyVDlYWnRMd19tYS1XMThqUUZOcGJ4TmwydEtldWFzUmQzdmFvU1BCdlJuZGdfN0dURHpKdXNPeTUtakdja1pYZG93ZzVBaEtrTk5CYUtnamRFbW9EbjdmMjJLVFgwbFJ6YTZXN0U2N0tyZUlUVUkta25fQQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 14:12:15 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Notre petit trésor\" : Clarisse Agbégnénou a accouché de son deuxième enfant  Femme Actuelle"
-    },
-    {
-      "title": "Iris Mittenaere et Antoine Dupont : gros câlin et larmes de joie, le couple a fêté dignement la victoire des Bleus contre l’Angleterre (Photos)",
-      "link": "https://www.closermag.fr/people/iris-mittenaere-et-antoine-dupont-gros-calin-et-larmes-de-joie-le-couple-a-fete-dignement-la-victoire-des-bleus-contre-langleterre-photos-3623978",
-      "pubDate": "Sun, 15 Mar 2026 14:10:19 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Le 14 mars, Iris Mittenaere et Antoine Dupont se sont pris dans les bras après la victoire des Bleus lors du tournoi des Six nations. Un moment d'émotion."
-    },
-    {
       "title": "\"Explosif\" : ce film d'action futuriste avec Alan Ritchson et Dennis Quaid s'impose dans le top Netflix - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQa05aX2VUaDlpVkpRTnkxbmtkTGpYUi1IYjdBUlI5cGVBNEFVdEEzU0NHZ2VidThmMFZNaWV1VmJtZmhLekp5ZWpTSnFncm50dEszNkd4V3NLRUpqUzlMbUpzUnRfTmdzby1YWFNqVDVNeHlmR1RxVWJQZUVERzItT0gwWllBTmlHaHhaNjVXV1lVTHFJOVRWVjhvUmpqbFRaaUg4X0xsWi1hajFSRy1XVDJQVm9VVnhkNVoyLVR4THNtNldUb25nZEdOQUFzX2hJa2JKTkxR?oc=5",
       "pubDate": "Sun, 15 Mar 2026 14:07:00 GMT",
@@ -1914,18 +2064,6 @@
       "snippet": "La façon dont nous habillons nos corps nous aide à mieux les accepter et, d'après une nouvelle étude, certains changements physiques pourraient jouer un rôle particulier."
     },
     {
-      "title": "\"Je prépare ce plat au saumon chaque semaine : voici pourquoi vous devriez en faire autant\"",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/je-prepare-ce-plat-au-saumon-chaque-semaine-voici-pourquoi-vous-devriez-en-faire-autant-952651",
-      "pubDate": "Sun, 15 Mar 2026 14:02:30 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "La plupart des personnes ne mangent pas assez de poisson. Pourtant, il est recommandé d'en consommer à raison de deux fois par semaine. Si vous manquez d'inspiration, testez cette recette de notre jou"
-    },
-    {
       "title": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdS04cExyY2kyNTJHeGdNSkhhb2RHNTA3Q2hiMjVnN3Q2UEF1VEdzeEk2dUlPX2M3bU9EMURqQkZlelNYTlpjaUxQY056VFZpMXdWTkdHeDFhYndaMnpOQVVHcmU5TDdZTzdPZ3FEaUItYzduXzBPaVhDRmhqU0J6WG43ckpmekc4anRSQjBiT2hPRTFzWTFpZzNxbUNYYVB5Qnhfb18ybTVjQnM0cVNUSU5HMXBpZ0Nra0N3Tm5pSlRZQVVvSFc1cmhkOTFGNW52SDFWc1U3R1dHTTJnbmdXemE5SUI?oc=5",
       "pubDate": "Sun, 15 Mar 2026 14:00:00 GMT",
@@ -1937,40 +2075,6 @@
       "snippet": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices  Cosmopolitan.fr"
     },
     {
-      "title": "Mort de Bruno Salomone : que devient Eric Collado, son partenaire avec Jean Dujardin dans les Nous Ç Nous ?",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-que-devient-eric-collado-son-partenaire-avec-jean-dujardin-dans-les-nous-c-nous-3623968",
-      "pubDate": "Sun, 15 Mar 2026 13:53:55 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Mort le dimanche 15 mars 2026 à l'âge de seulement 55 ans, Bruno Salomone avait débuté sa carrière dans les années 90 aux côtés de Jean Dujardin. Avec Eric Collado, il formait alors la troupe des Nous"
-    },
-    {
-      "title": "Ce beurre salé est le seul à avoir décroché une médaille d’or au Salon de l’agriculture : c'est le meilleur de France",
-      "link": "https://www.topsante.com/nutrition_et_recettes/ce-beurre-sale-est-le-seul-a-avoir-decroche-une-medaille-dor-au-salon-de-lagriculture-cest-le-meilleur-de-france-952854",
-      "pubDate": "Sun, 15 Mar 2026 13:42:23 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Au Salon de l’Agriculture, un seul beurre de baratte salé a décroché l’or et le titre officieux de meilleur de France. Derrière cette médaille rare, une laiterie bretonne au savoir-faire millimétré."
-    },
-    {
-      "title": "Mort de Bruno Salomone : ce trouble psychique dont il était atteint",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-ce-trouble-psychique-dont-il-etait-atteint-3623972",
-      "pubDate": "Sun, 15 Mar 2026 13:31:34 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "L’acteur Bruno Salomone est mort à 55 ans. Connu pour Fais pas ci, fais pas ça, il souffrait depuis des années d’un trouble psychique méconnu qui affectait fortement son quotidien."
-    },
-    {
       "title": "Courir détruit-il vraiment les genoux ? Le Dr Gérald Kierzek lève le voile sur cette idée reçue",
       "link": "https://www.doctissimo.fr/forme/faire-du-sport/sports-individuels/courir/courir-abime-t-il-les-genoux-ce-que-dit-la-science-selon-le-dr-gerald-kierzek-386566.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 13:31:30 +0000",
@@ -1980,18 +2084,6 @@
         "aufeminin.com"
       ],
       "snippet": "Avec le retour des beaux jours, de nombreux Français replongent dans la course à pied, entre envie de bouger et promesse de bien-être. Mais une inquiétude persiste : courir abîme-t-il vraiment les gen"
-    },
-    {
-      "title": "Gastro ou intoxication alimentaire ? Un médecin dévoile le signe clé pour faire la différence",
-      "link": "https://www.topsante.com/medecine/gastro-ou-intoxication-alimentaire-un-medecin-devoile-le-signe-cle-pour-faire-la-difference-952624",
-      "pubDate": "Sun, 15 Mar 2026 13:30:33 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Vomissements et diarrhée peuvent cacher une simple gastro-entérite ou une intoxication alimentaire plus sournoise. Un médecin généraliste livre ses repères pour ne pas se tromper."
     },
     {
       "title": "Les gens socialement intelligents n'abordent jamais ces 3 sujets de conversation",
@@ -2016,29 +2108,6 @@
       "snippet": "Bruno Salomone, figure de Fais pas ci, fais pas ça, s’est éteint ce dimanche 15 mars à 55 ans après une longue maladie, selon son agent. De ses débuts à ses rôles cultes, son parcours singulier contin"
     },
     {
-      "title": "Peut-on congeler des crevettes ?",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-des-crevettes-952852",
-      "pubDate": "Sun, 15 Mar 2026 12:41:15 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Après un plateau de fruits de mer, il reste souvent un bol de crevettes sur la table. Faut-il vraiment les jeter ou existe-t-il un moyen sûr de les congeler ?"
-    },
-    {
-      "title": "Nike relance ses courses de nuit 100 % femmes : ce rendez-vous nocturne que toutes les runneuses voudront vivre en 2026",
-      "link": "https://www.doctissimo.fr/forme/faire-du-sport/sports-individuels/courir/nike-relance-ses-courses-de-nuit-100-femmes-ce-rendez-vous-nocturne-que-toutes-les-runneuses-voudront-vivre-en-2026-742690.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 12:30:08 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "De Londres à Mumbai, le Nike After Dark Tour 2026 transforme la course de nuit 100 % féminine en scène géante d’empowerment. Mais que révèle cette tournée du nouveau visage des runneuses, jusqu’en Fra"
-    },
-    {
       "title": "Acné, rougeurs… Cette astuce maquillage permet de les neutraliser sans charger le teint - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQQWl1X09VRHVWTGZMclVjMG9hVWlWQjhnY3lOMXRuRHMxQ204S3JsQ2JXTFRnUzB3U29PLUVWV2ZaRW5lbE1lUFVkS0hjc3V4SGlxWGROcHdJa24yNDNvR0VXbXlrUUItSUk2M3FUSWdUYUZIdEhVd0N0cktQS3NmSVVzaWxiWFhQVzNUMnh3TkYyeENOQWlDQnEtYTVBTjVsMUkySWs4cWpRaTVMLTEyTWFmX015eUItaHNMbjVlZVJMQzB3UlFjZ0t6S0RZRXdUTTVZRjZn?oc=5",
       "pubDate": "Sun, 15 Mar 2026 12:21:00 GMT",
@@ -2059,17 +2128,6 @@
         "aufeminin.com"
       ],
       "snippet": "Comment réagir lorsque quelqu’un nous manque de respect ? Quelle est la limite à ne pas dépasser ? L'erreur à ne pas commettre ? Réponses."
-    },
-    {
-      "title": "Cancer de la prostate : ce gène discret explique pourquoi certaines tumeurs résistent à la chimiothérapie",
-      "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/cancer-de-la-prostate/cancer-de-la-prostate-ce-gene-discret-explique-pourquoi-certaines-tumeurs-resistent-a-la-chimiotherapie-742176.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 12:00:03 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Pourquoi certains cancers de la prostate résistent-ils soudain à la chimiothérapie par taxanes ? En 2026, une équipe de Weill Cornell pointe un gène, FOXJ1, au cœur du mécanisme."
     },
     {
       "title": "Taux de participation aux municipales à 12h : c'est tombé, un premier chiffre qui en dit long sur ces élections - Linternaute.com",
@@ -2106,17 +2164,6 @@
       "snippet": "On dit que l’on est la somme des 5 personnes qui nous entourent. La science va plus loin en expliquant le réel impact des proches sur la personnalité."
     },
     {
-      "title": "\"Je ne supportais plus de voir son nez\" : le TOC du couple peut s’immiscer dans votre vie amoureuse et détruire votre quotidien, alerte une psy",
-      "link": "https://www.psychologies.com/couple/vie-de-couple/TOC-couple-immiscer-vie-amoureuse-detruire-quotidien-psy-561640?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 10:04:25 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Si les TOC ne manquent pas de visibilité, ils sont souvent caricaturés et associés aux comportements liés à l’hygiène ou à l’ordre. Mais ce ne sont pas les seules causes de souffrances. Parfois, c'est"
-    },
-    {
       "title": "Si Lisbonne n'entre pas dans votre budget, sachez que cette ville portugaise est la moins chère d’Europe en 2026 - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOHhkYlNfcFozSTBLR3dBdE9PY2VLcEsxTXVGd0hRWWtLOEdfM2tuT3FXckpOWkZaVjZCckM5aUVCZjdGSThYYXB3MlhleklrcG9BSl9uOUp3UkowY1daS1FyMTJtRzRfZkN3amw5QkRXS2JaTko0U2wtTUZBMi00UzVDajhmaWJkVmVLdzYxcVFjempaWlBrQ3dyU0JUcnp6ZkJHYjBvYlhHYjEzZDkwa210N3ZfMDV2VUdfUXZjaFZLVVp4QU5HYmVxM05NNnZBS1FZcGdYOU1iSU5JWFpGV05fNUZmUQ?oc=5",
       "pubDate": "Sun, 15 Mar 2026 10:00:00 GMT",
@@ -2128,29 +2175,6 @@
       "snippet": "Si Lisbonne n'entre pas dans votre budget, sachez que cette ville portugaise est la moins chère d’Europe en 2026  Cosmopolitan.fr"
     },
     {
-      "title": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdG5UOHlSd21MTHRidTFzTTZTSlIxbzZCazcxTkdmRUk4Y1QyRlZuU1QtU1lyQWFLeUVVWTBBMGFMaDB2ZVM5U0NrYzJJTFdmODRnRUM5SjNRcmJUMUVsaHhBQ0JCeC1RXzJGV2lxRjgtel9JYnZBazBqclR4U3FRM0xvVUJOT1BKd3JyUk5oUkZtRVVRMkpXSGtUcngtenlkSWVMcUE2Y3dZX3VYYndLam5WWjMwNURpQV9PX1M5U1VIaHRYczJ6aDhHRi0xVlZfcmFtV3FnM05NSExLU2R1OFEtRzdwRlpsOVVLUGFGQ1g?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 09:32:00 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres  Femme Actuelle"
-    },
-    {
-      "title": "Cécile Vassas - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hU280U1FDc1V0ck9VaGtwYzVvUHJHQVRVeWRybVlJX3NSeHNMODNKbmpuNFRVMTF0NWNONXlXa3NHMDRlbVFTX25tTHMtRW80RU5HNzBWc1RBWHVsdVpNWEppSXN5a2dJMFlXYXA0TnlCbzhTV1E?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 09:12:27 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Cécile Vassas  Linternaute.com"
-    },
-    {
       "title": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMjZrSHBrRmhXZzZUb3ZnS1FkZ2xDMnYzZHlBT25VNlU0LTBpYVlRMnpjTHdTUmQxckM2Q0xCLVZXcnJiMHVDQ1RnSk9iQlpEUTN4UFVJbVhrM3NZakxtekR1OTBhR05RUTNOWjJndDBXMXJTVVBFZDQxZVRtNkpOaFRxeC1Mc1BDT2dfQkw4SGxiM3hzeTFTOXhzR0stX3kzWHZIdTl0OENPbXJVaGp1d19DTzBuaWMzdmJhdGlwU2l2eS14bG9kWTUwYWQtLVJGT0tqZGtqTklhTG51?oc=5",
       "pubDate": "Sun, 15 Mar 2026 09:04:00 GMT",
@@ -2160,6 +2184,17 @@
         "mariefrance.fr"
       ],
       "snippet": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer  ELLE"
+    },
+    {
+      "title": "« Buffy contre les vampires » : le reboot de la série culte finalement annulé - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObkV1QlpOcXJWenFjU1FhUGJIaEhXTTExdy1PMVQ1ZG1oOUs5RWZTOWFidElkSkFSaHVQMHU3a3FWdTF2Z0Z0RjRINVFYNVlNT2hvV3YyaXJpSTcxZTgyQWNZaTVHaFBOZG9ZT0lhanFlQmYwZV8xVU5wRTFSV3NIRGNVNTgzeUY4VDZmVkZOb2R1UEpYeGs0Q2w1bElHTV8wM0w2c1JrazlYQWpNTEd1NW9LWFY?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 08:59:11 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "« Buffy contre les vampires » : le reboot de la série culte finalement annulé  ELLE"
     },
     {
       "title": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs - Notre Temps",
@@ -2196,15 +2231,26 @@
       "snippet": "Programme TV Pornographique du samedi 28 mars 2026  Linternaute.com"
     },
     {
-      "title": "Premier tour des municipales, suspense maximum dans les grandes villes - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWkFOSjVIYnA0UTA4R1dGa1dKZ1Bzd3FaeEUyY1RUVXFfSTBqSkp2VlZrN2x3TmFlcDBnWDdOV2FYWUxFdTJaYjdJMjJyWFJBNTNLZUJmTzVINnNFMjRBV09oYlJqOE1YWWRQWlNIQnVKS0ZkRWV4Z3hKYVpvMzBwREYybHNXM291LVpIQlhWRkgza1NPcG1HT3hXUUs0bC0wWElEOF9FRjNXOURRMU9SdkxR?oc=5",
+      "title": "Expos, sorties: les 10 sorties culture et nature à faire en mars - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQnZfY0otTlRNTC02Sm1NYWRGTTdaVzUyZmpWTG1wT0ZwZDJoeE5MZk9oQ1Q3Wm45ZlpWb1FRSmJ2bmxPUW1VNjNRNU0za1lCenpBcXBhWDFMb20xbmRya2dUbk1WOG5uUkhSd2RGbE1BSHMwdkgxQ0sxUkFlUWUtcmUyNWxPdFlacEJvWmloempjQ3IySjVZZERvd1ZKZDNlaTlxVldhemhId3dDem5pTlpR?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 05:01:07 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Expos, sorties: les 10 sorties culture et nature à faire en mars  Notre Temps"
+    },
+    {
+      "title": "Premier tour des municipales: timide participation à mi-journée, suspense dans les grandes villes - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQS2NYdjNBVFpvSUpBLXl2Nm8tWjMwQnYyU1lydjk5S0x2YnNHSFlxYjBoSldaMmNEN05meEJXdVFxd1lVS0tLQ1I2MjltSjI2dWNlYTNmZ0pUZWNfR3pYdUdtdllzODV1ZVdMT3ZXQTNfX3VkX3A4ckpUV01RYTBKUVlSUUhkN0Z1MFlteFhaZDhVX0tnMjZrN2VzTjF4VmxfQmdRMHBITzZYRnJHSGQ2VWNha3ZYek9ESDBsaGtGVGdIQ3RvODR4dkFSMEF2ZGkyWEpmTA?oc=5",
       "pubDate": "Sun, 15 Mar 2026 04:21:11 GMT",
       "source": "notretemps.com",
       "icon": "🕰️",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Premier tour des municipales, suspense maximum dans les grandes villes  Notre Temps"
+      "snippet": "Premier tour des municipales: timide participation à mi-journée, suspense dans les grandes villes  Notre Temps"
     },
     {
       "title": "Horoscope du dimanche 15 mars 2026 pour tous les signes astrologiques - ELLE",
@@ -2262,40 +2308,6 @@
       "snippet": "Mots fléchés gratuits - Force 1 - 15 mars 2026 Grille n°3885  Notre Temps"
     },
     {
-      "title": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNFpZOXlWcXhOSW42WGdyZHNkWUFPZVZyYzNQanhTU2F4UGRoMHZBSC1ZNjY1VDFLNDFidWpWZWY5RUVCZ3VWQ2JGQ3RETF9ZVzBrb2tqX2tKWFBnTjFmeXBnQ1lmZGJ6ODZxN0gtVXRFLUlmVTczMDZybXdHWjgwTkxQOGFWUU9RT2RTdV9xOE1UWS1wS3lRb2o1bnlZV3hKekh3ZGpFNFZxb29Hbm5YWXdJOWhXdXNBRHFxbHJ3?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 02:06:05 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
-    },
-    {
-      "title": "Programme TV Culinaire du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXVuMmo4VGI2dnlwWW9HT3BiNnVwNjZzRFY3TnZjTVB4TmpWTVA2N3kxMHlGdkh2WDBwWDBxUFA5VHVEckQ0VkJSR25QOVdzeXVsQTZaM09GdlVTbUNfNTRjS1dHQkZ4MkVLLTVRYmE1bVh3cy04MlRoR1pYcVo2TUdlUXZlNms?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:39:37 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Culinaire du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "aspirateur - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ZXN1ZGhLUjRyVFU0Q05oLUp6TFY0eExtaTJTT3F2RUxVb3lpRG5wMXRXYWU1R3pFakxnSXM1RTBxTlRFMjdRa0EyclpsRzVZQlVGRlRCeXhRSWUxSm5Z?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:30:04 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "aspirateur  Femme Actuelle"
-    },
-    {
       "title": "Programme TV Orange du samedi 28 mars 2026 - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEViSXR5VzA5R3ZsaDJqLVZuMDBha25EaEoyVVJ3SG5oTDNqUnNxaWxybnY5MjZCTjVxQ2JHams5TmIxRldBSk1sTUdXaENrZGgxUlJORjRKN3haYmlwdjdpcUxmcUtBOWtqRXpCQ0pZb0dyWm9uR1Q1b01PSUZ6UW5B?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:05:35 GMT",
@@ -2306,18 +2318,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Programme TV Orange du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Programme TV Proximus du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHBONnFDWTNnX0wxYXVTeTlwVmYtVHV1eUdmS19yQ1JBMGo3MUxpNVVKLVpudElFb2xmQ1dkOU93M3BrUmd1YlJFMWE4V2hiTHYzVDZOTEM1T2tCS2xsQ2RubEVrUkR2NWxPVjZjZkItSmJaLUdqMEplbTdXU1RacjRkSnY?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:03:50 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Proximus du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "Wordle : Le Mot du jour gratuit - 15 mars 2026 - Notre Temps",
@@ -2354,17 +2354,6 @@
       "snippet": "Qui a gagné le plus d’Oscars ?  ELLE"
     },
     {
-      "title": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV3RueGc4SkdiYnhhNllkdWdNVWdXdWpIQ0FMS1VBTEE1R1FaRVBpLVYtT2tUOXJsVFRlU0M5TEJiNjhKaDVrN3Q2RE96YWxXLThzN3d0cHVYVVdOYVFVVkp5QjgzY19rZHN6UWZIY0I3OWhTeGpQTVB0SlBiX0FxQ2N3allJdzMwN3I3bGZrWGtQOU9UazRNWjJBbDBIaHJTNkVWYTRBSmVWMmM3dllUOXVGcnRpY1lONkxSTVhlQXBvQThmekxkOXFmSHEtclhHZ3RFenRNdko?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 20:46:17 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars  Femme Actuelle"
-    },
-    {
       "title": "Son couple, ses lunettes... La vie secrète de Fabien Galthié : Toujours sur Linternaute.com - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVk1femx4S0tWRE5GMlNzaDFkLV9hdy1udGpzSHZxMHVjM0FwaW1sLTVvNWlfWGQtdmVWazRWUlh5bEVDMURnWkxEQzJ0b2h2RWJ2ZWtGZjJ3ZnRacm9FRFZRQ3ZoZlM2dHlpR2xfMmpvdEIyb250d1VjRkJjaG9BTm9rOUhjUk5YQXpCTk9OM29CR0xYaTl3S1lVYVpsQWQ3WVQtU2UzdWp5WV9JT0N6Vkg1OG9uTjIwTGlwX0dOVGlpV1MweTM1aEdLWEV2MFl6RmJEUGM2aDE?oc=5",
       "pubDate": "Sat, 14 Mar 2026 19:45:02 GMT",
@@ -2375,28 +2364,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Son couple, ses lunettes... La vie secrète de Fabien Galthié : Toujours sur Linternaute.com  Linternaute.com"
-    },
-    {
-      "title": "\"Je croyais que j’étais seule\" : Laëtitia Milot se confie sur son combat contre l’endométriose - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNnR0c3Zid0U0RUNkQnZ2YVFzNEFqSjV5SmZyLTRLMlQ3eXlTTDlSUlNrWmg2T0QxemlXM0VvSlU3N2x4aEEtZzhCZVhOUEtEUjlkUHozU1RIX1hVYkN6b2VRYlFKVlh3Zmh6MUpNQWJ5WDQ0SWxjbmdFeGxDVm9ZWFpTa1pSbXBVVEFOVTN3RENSNUtKeDIxdVlPZnZaX0I1aXhVa3lvUU8yRnJTVGRNTWpfM2dId0x2ZkhXNXlLQjh0MjFXZ2VPSnFpVjhWQWtQVVB5Y1Qxbw?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 19:31:07 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Je croyais que j’étais seule\" : Laëtitia Milot se confie sur son combat contre l’endométriose  Femme Actuelle"
-    },
-    {
-      "title": "Cette crème réparatrice vendue toutes les 7 secondes en Corée promet jusqu’à 120 heures d’hydratation - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMzl4Q1pLSDJyWi1zYWo5SUlNb3IxS2lGT3hLd2lreTA5SmdPeC1wV2RlbkE4VUJCRnBIUGJUc3FXdXg1Ry1ERFo0Qkc0aXE3S0ItTE9UbjlrWGY2UkZxYXIxM3BtWWRmSEJQbnVzb2pQZDhDOGZTRy1samhHTXlwdVdZbW9VZjVpbXRyRVB5VkFCNkp5Y1lmUzZxdkJQb0htdERUREltMUVNRnFhSFVINHVUbTlKV0ZtZ18xdFN2VFRfbnNVV045U0JrRDRSTE52bU41d01kbEQ1T0EyWmI3ejlpcHo0dC1pYkE?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 19:03:49 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Cette crème réparatrice vendue toutes les 7 secondes en Corée promet jusqu’à 120 heures d’hydratation  ELLE"
     },
     {
       "title": "A la veille des municipales, des dizaines de milliers de manifestants contre le le \"fascisme\" et la guerre - Notre Temps",
@@ -2421,28 +2388,6 @@
       "snippet": "F1 : Alexandra Saint Mleux, Lily Muni He... qui partage la vie des stars des paddocks en 2026 ?  Cosmopolitan.fr"
     },
     {
-      "title": "\"Il y a beaucoup d’amour, beaucoup d’affection\" : Enrico Macias se confie sur sa relation avec ses petits-enfants - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOR0R2Y2tfMGxwYnhhbWkteFNlSndSY2xZcFVsb3hNMnUwNGdXUUNnUUEyUmdDYWpKRVY3UGdRaS0wXzVoc2daZWlSRHhVZGZMbGlqaWt5YWwzeTYxR3V3NVZzdWtjaGNXRFRZWWNoYU5fTHVOTmJSUUUxZXNnMDlHVnY4eE1HZlJtR3p1aEJIR0JqcXY2NGRHNFpLU3JtcEJOc2NGUEN6MEFNSHdsZ0FaZUczcjhkUE9aQU9QVDRHdjRJRTYxeE9yOGFXbFJ6YXBIbUtrSGlubUZoNkloZ3NNQjZzOElWMGpDRW92Z1dRUQ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 17:45:46 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Il y a beaucoup d’amour, beaucoup d’affection\" : Enrico Macias se confie sur sa relation avec ses petits-enfants  Femme Actuelle"
-    },
-    {
-      "title": "Je me suis habillée pareil tous les jours pendant un mois : ce que j’en ai appris - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR3VKUzZmVEgtaWRHeDhCT3lpQ1FrVWdUd1Y1WU55cDI0TTFQNGw4ZHpYZVdoZGlXenJ2WThJeXVSNmZ2THBBMGF1X3JNSFJmaFhWbGpWVzdtS0o4UG5oWVpHRVZMbEtBd2RjZ2RBRElXUTNjMWFTMkhNTUhVUW1WbEFSNEtOb2dYa0pWeWlFYXRJb3NLUkxOVnROd0UwZlFQaC1aaThLTk1vLVlMdFo4UFFnbXd6QWdMVkRVSkZQX2NGUVRu?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 17:00:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Je me suis habillée pareil tous les jours pendant un mois : ce que j’en ai appris  ELLE"
-    },
-    {
       "title": "Oreillers : la méthode efficace pour les laver en profondeur sans les abîmer",
       "link": "https://www.medisite.fr/sante-au-quotidien-oreillers-la-methode-efficace-pour-les-laver-en-profondeur-sans-les-abimer.5717299.112.html",
       "pubDate": "Sat, 14 Mar 2026 18:00:00 +0100",
@@ -2452,28 +2397,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Laver les taies d’oreiller ne pose pas de problème, il suffit de les passer en machine. Mais les oreillers, comment faire ? Découvrez la méthode de nettoyage professionnelle, de la température idéale "
-    },
-    {
-      "title": "\"Entre la vie et la mort\" : Angélique Angarni-Filopon fait une confidence bouleversante sur la santé de son oncle après son élimination de DALS - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQQmtiZ2tDR214TlIzVVFvSW9VV3gtUDEzS2VMYjQ2N2N0M2g4NGQ2RnBua0ZqeTBfS2FuSG02QUFpVFBnN3pLRWhxS3Iydm96NGcta2xtWVpCYkxHem5jY0NvWWFJLWlIMXV4X1lHcVJtRWVJQ0hxaW0wZXIza1l2bGhLbzBQNXVudkpTUno2d1hjVm8wdDljaE1EN3JtUEJac044RjZFOWZYT3lDXzdTa0lzYjFZbzVUZkt0OFBnZ21hWkJhQnJhQndxblZ3ZWNYLVJFdEdCVUpLSFo4dElrRzkxaTZxTkNVNzZaREZWdk1QZmxkNWYyOUt0My0zT3o3U1FDXzJabmZkTjNWamRJSm15Q1h3VHdoUlFz?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 16:50:08 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Entre la vie et la mort\" : Angélique Angarni-Filopon fait une confidence bouleversante sur la santé de son oncle après son élimination de DALS  Femme Actuelle"
-    },
-    {
-      "title": "Cookies nuage : la recette à la texture ultra aérienne - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMEJHN1ZkcER3eVRDZlBQRmlvWVBuWDRQSC1qY0tYUnJUQkdEalp3RXNleDV2Q29KV2ZvZWg5NW5ONnZvV3ZUT01zMGI2SllZVW5GUm51RmJaQXRuMUZCcUxTVXFaUTEwS2R0bGdURVFxdkowVW1vY09NTkdFd2hTOE5GZE05dUNFOTNhY3hNcGg4NW4yYm5RRGI2REkyd1dmUmdySWtyb2RqN3ZvaENUMU1wZGlTVWRC?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 16:17:00 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Cookies nuage : la recette à la texture ultra aérienne  Femme Actuelle"
     },
     {
       "title": "Stress, anxiété : ces 5 signaux corporels qui montrent que vous craquez sans le savoir",
