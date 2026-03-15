@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T14:00:19.946Z",
+  "updatedAt": "2026-03-15T14:01:14.525Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "9.5%",
+    "cpu": "5%",
     "ram": "24%",
     "disk": "9%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T14:00:19.946Z",
+      "ts": "2026-03-15T14:01:14.525Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
