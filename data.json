@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T01:17:40.052Z",
+  "updatedAt": "2026-03-15T01:23:32.373Z",
   "seoAudits": [],
   "rssItems": [
     {
@@ -46,6 +46,30 @@
       "id": "c8544031-997d-40ec-871f-6853e493e097",
       "name": "Dashboard Update",
       "schedule": "Every 60min",
+      "enabled": true
+    },
+    {
+      "id": "305da3df-3470-469f-9015-21481ae2699b",
+      "name": "Agent: Discover-Pulse Check",
+      "schedule": "Every 240min",
+      "enabled": true
+    },
+    {
+      "id": "2c9e47f6-6073-4025-92cc-a8bac840662f",
+      "name": "Agent: RSS-Distiller Daily",
+      "schedule": "0 8 * * *",
+      "enabled": true
+    },
+    {
+      "id": "2c6b3e6c-b5d3-4e36-80f1-2412159b9541",
+      "name": "Agent: Revenue-Ops Weekly",
+      "schedule": "0 10 * * 1",
+      "enabled": true
+    },
+    {
+      "id": "8fc57595-1caa-4b4b-9a28-5526f359e3ac",
+      "name": "Agent: SEO-Watcher Audit",
+      "schedule": "Every 4320min",
       "enabled": true
     }
   ],
