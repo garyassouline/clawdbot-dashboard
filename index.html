@@ -409,6 +409,9 @@
     <a class="nav-item" onclick="showSection('automations', this)">
       <span class="icon">⚡</span> Automatisations
     </a>
+    <a class="nav-item" onclick="showSection('wikidata', this)">
+      <span class="icon">🗝️</span> Wikidata
+    </a>
     <span class="nav-section">Système</span>
     <a class="nav-item" onclick="showSection('costs', this)">
       <span class="icon">💰</span> Coûts & Système
@@ -690,6 +693,47 @@
           <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée une automatisation qui surveille le classement SEO de reworld.com chaque semaine')">🔍 Suivi SEO hebdo</button>
           <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée une automatisation qui analyse les tendances Discover chaque lundi matin')">✨ Veille Discover lundi</button>
           <button class="btn btn-ghost" style="text-align:left;padding:12px" onclick="copyCmd('Crée un rapport audience hebdomadaire envoyé chaque vendredi')">📈 Rapport audience vendredi</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ===== WIKIDATA ===== -->
+    <div class="section" id="section-wikidata">
+      <div class="alert info">🗝️ Suivi en temps réel des fiches journalistes sur Wikidata.</div>
+      
+      <div class="kpi-grid" style="grid-template-columns:repeat(3,1fr);margin-bottom:16px">
+        <div class="kpi green">
+          <div class="label">Fiches Validées</div>
+          <div class="value" id="wd-kpi-valid">—</div>
+        </div>
+        <div class="kpi red">
+          <div class="label">En attente / Supprimées</div>
+          <div class="value" id="wd-kpi-pending">—</div>
+        </div>
+        <div class="kpi blue">
+          <div class="label">Total Traité</div>
+          <div class="value" id="wd-kpi-total">—</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-title" style="justify-content:space-between">
+          <span><span class="icon">📋</span> État de soumission des fiches (Batch 86)</span>
+          <button class="btn btn-ghost" onclick="load()">Mettre à jour</button>
+        </div>
+        <div id="wikidata-status-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Nom du Journaliste</th>
+                <th>QID / Wikidata</th>
+                <th>Statut</th>
+              </tr>
+            </thead>
+            <tbody id="wikidata-table-body">
+              <tr><td colspan="3" class="empty">Chargement des données Wikidata...</td></tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </div>
@@ -1074,6 +1118,7 @@ function render(d) {
     try { initCompetitorFilters(d); } catch(e) { console.error("initCompetitorFilters error", e); }
     try { renderCompetitorArticles(); } catch(e) { console.error("renderCompetitorArticles error", e); }
     try { renderSuggestions(d); } catch(e) { console.error("renderSuggestions error", e); }
+    try { renderWikidata(d); } catch(e) { console.error("renderWikidata error", e); }
 
   // Discover Chart
   if (d.discoverStats && d.discoverStats.length) {
@@ -1570,6 +1615,39 @@ function renderVeille(d) {
   html += '</div>';
 
   container.innerHTML = html;
+}
+
+function renderWikidata(d) {
+  const tableBody = document.getElementById('wikidata-table-body');
+  if (!tableBody || !d.wikidataStatus) return;
+
+  let valid = 0;
+  let pending = 0;
+
+  tableBody.innerHTML = d.wikidataStatus.map(p => {
+    const isValid = p.status.includes('Validé');
+    if (isValid) valid++; else pending++;
+
+    return `
+      <tr>
+        <td style="font-weight: 600;">${p.name}</td>
+        <td>
+          ${p.qid ? `<a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" class="tg-link">${p.qid}</a>` : '<span style="color:var(--muted)">—</span>'}
+        </td>
+        <td>
+          <span class="badge ${isValid ? 'green' : 'gray'}">${p.status}</span>
+        </td>
+      </tr>
+    `;
+  }).join('') || '<tr><td colspan="3" class="empty">Aucune donnée Wikidata</td></tr>';
+
+  const vEl = document.getElementById('wd-kpi-valid');
+  const pEl = document.getElementById('wd-kpi-pending');
+  const tEl = document.getElementById('wd-kpi-total');
+
+  if (vEl) vEl.textContent = valid;
+  if (pEl) pEl.textContent = pending;
+  if (tEl) tEl.textContent = d.wikidataStatus.length;
 }
 
 load();
