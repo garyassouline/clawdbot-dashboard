@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T02:15:40.677Z",
+  "updatedAt": "2026-03-15T03:15:33.578Z",
   "discoverAdvanced": {
     "updatedAt": "2026-03-15T01:43:21.558Z",
     "sites": {
@@ -1274,12 +1274,6 @@
       "enabled": true
     },
     {
-      "id": "8de65975-e410-4d47-8d7a-953ef40198ae",
-      "name": "System: Brain Backup",
-      "schedule": "0 4 * * *",
-      "enabled": true
-    },
-    {
       "id": "305da3df-3470-469f-9015-21481ae2699b",
       "name": "Agent: Discover-Pulse Check",
       "schedule": "Every 240min",
@@ -1289,6 +1283,12 @@
       "id": "2c9e47f6-6073-4025-92cc-a8bac840662f",
       "name": "Agent: RSS-Distiller Daily",
       "schedule": "0 8 * * *",
+      "enabled": true
+    },
+    {
+      "id": "8de65975-e410-4d47-8d7a-953ef40198ae",
+      "name": "System: Brain Backup",
+      "schedule": "0 4 * * *",
       "enabled": true
     },
     {
