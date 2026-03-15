@@ -922,7 +922,9 @@ function render(d) {
   const s = d.session || {};
   const totalTok = (s.tokensIn||0) + (s.tokensOut||0);
   const modelShort = (s.model||'—').replace('google/','').replace('anthropic/','');
-  const cost = estimateCost(s.tokensIn||0, s.tokensOut||0, s.model||'');
+  // Use real total cost from modelBreakdown (includes cache pricing)
+  const realTotalCost = (d.modelBreakdown || []).reduce((sum, m) => sum + (m.cost || 0), 0);
+  const cost = realTotalCost.toFixed(4);
 
   // Overview KPIs
   document.getElementById('kpi-tokens').textContent = fmt(totalTok);
@@ -976,36 +978,45 @@ function render(d) {
     alertsEl.innerHTML = '';
   }
 
-  // Cost page KPIs
-  document.getElementById('cost-kpi-tokens').textContent = fmt(totalTok);
-  document.getElementById('cost-kpi-tokens-sub').textContent = fmt(s.tokensIn||0) + ' in · ' + fmt(s.tokensOut||0) + ' out';
-  document.getElementById('cost-kpi-cache').textContent = s.cacheHit ? s.cacheHit + '%' : '—';
+  // Cost page KPIs - use real aggregated data from all sessions
+  const mb = d.modelBreakdown || [];
+  const allTokIn = mb.reduce((a,m) => a + (m.tokensIn||0), 0);
+  const allTokOut = mb.reduce((a,m) => a + (m.tokensOut||0), 0);
+  const allCacheRead = mb.reduce((a,m) => a + (m.cacheRead||0), 0);
+  const allCacheWrite = mb.reduce((a,m) => a + (m.cacheWrite||0), 0);
+  const allTokTotal = allTokIn + allTokOut;
+  
+  document.getElementById('cost-kpi-tokens').textContent = fmt(allTokTotal);
+  document.getElementById('cost-kpi-tokens-sub').textContent = fmt(allTokIn) + ' in · ' + fmt(allTokOut) + ' out · ' + fmt(allCacheRead) + ' cache';
+  const cacheRate = allCacheRead > 0 ? Math.round(allCacheRead / (allTokIn + allCacheRead + allCacheWrite) * 100) : 0;
+  document.getElementById('cost-kpi-cache').textContent = cacheRate ? cacheRate + '%' : '—';
 
   // Gemini vs Claude breakdown
-  const mb = d.modelBreakdown || [];
   const geminiModels = mb.filter(m => m.model && m.model.toLowerCase().includes('gemini'));
   const claudeModels = mb.filter(m => m.model && (m.model.toLowerCase().includes('claude') || m.model.toLowerCase().includes('sonnet') || m.model.toLowerCase().includes('haiku') || m.model.toLowerCase().includes('opus')));
-  // fallback: attribute all to gemini if no breakdown
-  const geminiTok = geminiModels.reduce((a,m) => a + (m.tokensIn||0)+(m.tokensOut||0), 0) || totalTok;
-  const claudeTok = claudeModels.reduce((a,m) => a + (m.tokensIn||0)+(m.tokensOut||0), 0);
-  const geminiCost = geminiModels.reduce((a,m) => a + (m.cost||0), 0) || parseFloat(cost);
+  const geminiTok = geminiModels.reduce((a,m) => a + (m.tokensIn||0)+(m.tokensOut||0), 0);
+  const claudeTok = claudeModels.reduce((a,m) => a + (m.tokensIn||0)+(m.tokensOut||0)+(m.cacheRead||0)+(m.cacheWrite||0), 0);
+  const geminiCost = geminiModels.reduce((a,m) => a + (m.cost||0), 0);
   const claudeCost = claudeModels.reduce((a,m) => a + (m.cost||0), 0);
   const totalCost = geminiCost + claudeCost;
 
-  document.getElementById('cost-kpi-total').textContent = '$' + totalCost.toFixed(4);
+  document.getElementById('cost-kpi-total').textContent = '$' + totalCost.toFixed(2);
   document.getElementById('gemini-tokens').textContent = fmt(geminiTok);
   document.getElementById('gemini-cost').textContent = '$' + geminiCost.toFixed(4);
   document.getElementById('claude-tokens').textContent = claudeTok ? fmt(claudeTok) : '0';
-  document.getElementById('claude-cost').textContent = '$' + claudeCost.toFixed(4);
+  document.getElementById('claude-cost').textContent = '$' + claudeCost.toFixed(2);
 
-  // Savings estimate (cache hit)
-  if (s.cacheHit) {
-    const cachedTokens = totalTok * (s.cacheHit / 100);
-    const savings = (cachedTokens / 1e6) * 0.15;
-    document.getElementById('cost-kpi-savings').textContent = '$' + savings.toFixed(4);
-  } else {
-    document.getElementById('cost-kpi-savings').textContent = '—';
-  }
+  // Savings estimate: what it would have cost without cache (cache_read priced as full input)
+  const claudeRates = { 'claude-opus-4-6': 15.00, 'claude-sonnet-4-6': 3.00, 'claude-haiku-4-5': 0.80 };
+  const cacheReadRates = { 'claude-opus-4-6': 1.50, 'claude-sonnet-4-6': 0.30, 'claude-haiku-4-5': 0.08 };
+  let totalSavings = 0;
+  claudeModels.forEach(m => {
+    const fullRate = claudeRates[m.model] || 3.00;
+    const cacheReadRate = cacheReadRates[m.model] || 0.30;
+    const cr = m.cacheRead || 0;
+    totalSavings += (cr / 1e6) * (fullRate - cacheReadRate);
+  });
+  document.getElementById('cost-kpi-savings').textContent = totalSavings > 0 ? '$' + totalSavings.toFixed(2) : '—';
 
   // Token chart
   const history = d.tokenHistory || [];

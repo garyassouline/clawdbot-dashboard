@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T10:26:04.930Z",
+  "updatedAt": "2026-03-15T10:34:54.725Z",
   "veilleBriefs": [
     {
       "date": "2026-03-15T09:21:00Z",
@@ -1312,41 +1312,44 @@
   "rssItems": [],
   "session": {
     "model": "claude-opus-4-6",
-    "tokensIn": 8,
-    "tokensOut": 811,
-    "cacheHit": 50,
-    "context": 73482,
+    "tokensIn": 3,
+    "tokensOut": 8,
+    "cacheHit": 0,
+    "context": 94167,
     "contextMax": 200000
   },
   "modelBreakdown": [
     {
       "model": "claude-opus-4-6",
-      "tokensIn": 8,
-      "tokensOut": 811,
-      "cacheRead": 73264,
-      "cost": 0.060945
+      "tokensIn": 3,
+      "tokensOut": 8,
+      "cacheRead": 0,
+      "cacheWrite": 94164,
+      "cost": 1.76622
     },
     {
       "model": "claude-sonnet-4-6",
-      "tokensIn": 38,
-      "tokensOut": 13355,
-      "cacheRead": 656680,
-      "cost": 0.200439
+      "tokensIn": 25,
+      "tokensOut": 9093,
+      "cacheRead": 435917,
+      "cacheWrite": 64951,
+      "cost": 0.51081135
     },
     {
       "model": "gemini-2.5-flash",
-      "tokensIn": 938082,
-      "tokensOut": 12558,
-      "cacheRead": 583994,
-      "cost": 0.1482471
+      "tokensIn": 469041,
+      "tokensOut": 6279,
+      "cacheRead": 291997,
+      "cacheWrite": 0,
+      "cost": 0.0850734375
     }
   ],
   "sessions": [
     {
       "key": "main",
       "model": "claude-opus-4-6",
-      "tokensIn": 8,
-      "tokensOut": 811
+      "tokensIn": 3,
+      "tokensOut": 8
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -1355,19 +1358,7 @@
       "tokensOut": 4262
     },
     {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:0606da0d-6dd0-42dd-a3ee-15dd671d1be8",
-      "model": "claude-sonnet-4-6",
-      "tokensIn": 13,
-      "tokensOut": 4262
-    },
-    {
       "key": "cron:2c9e47f6-6073-4025-92cc-a8bac840662f",
-      "model": "gemini-2.5-flash",
-      "tokensIn": 469041,
-      "tokensOut": 6279
-    },
-    {
-      "key": "cron:2c9e47f6-6073-4025-92cc-a8bac840662f:run:292f9df4-63f7-40a7-a106-fbfd55e69633",
       "model": "gemini-2.5-flash",
       "tokensIn": 469041,
       "tokensOut": 6279
@@ -1426,7 +1417,7 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 319078
+      "total": 233920
     }
   ],
   "alerts": [
@@ -1436,6 +1427,17 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Le réflexe de Babinski : un indice précieux du fonctionnement du système nerveux",
+      "link": "https://www.doctissimo.fr/bebe/eveil-de-bebe/le-reflexe-de-babinski-un-indice-precieux-du-fonctionnement-du-systeme-nerveux-742094.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 10:30:42 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Le signe de Babinski est un réflexe essentiel évalué lors des examens neurologiques. Ce phénomène, qui se manifeste par un mouvement distinct du gros orteil, offre des informations cruciales sur l'éta"
+    },
     {
       "title": "\"Je ne supportais plus de voir son nez\" : le TOC du couple peut s’immiscer dans votre vie amoureuse et détruire votre quotidien, alerte une psy",
       "link": "https://www.psychologies.com/couple/vie-de-couple/TOC-couple-immiscer-vie-amoureuse-detruire-quotidien-psy-561640?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2067,17 +2069,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars  Femme Actuelle"
-    },
-    {
-      "title": "Gauche ou droite ? Le côté du lit que vous choisissez en révèle (beaucoup) sur vous",
-      "link": "https://www.doctissimo.fr/psychologie/mieux-se-connaitre/gauche-droite-le-cote-du-lit-que-vous-choisissez-revele-beaucoup-sur-vous-334009.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sat, 14 Mar 2026 20:30:28 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Le choix du côté du lit ne serait pas aussi anodin qu'il n'y paraît. Une étude récente menée aux États-Unis suggère que cette préférence pourrait révéler certains traits de votre personnalité. Découvr"
     },
     {
       "title": "\"Je croyais que j’étais seule\" : Laëtitia Milot se confie sur son combat contre l’endométriose - Femme Actuelle",
