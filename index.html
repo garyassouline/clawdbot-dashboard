@@ -4,6 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
   <title>ClawdBot Dashboard — Gary Assouline</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
@@ -267,6 +268,11 @@
       .actions-grid { grid-template-columns: repeat(2, 1fr); }
       .mobile-menu-btn { display: block !important; }
     }
+    .sidebar-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.4); z-index: 9;
+    }
+    .sidebar.open ~ .sidebar-overlay { display: block; }
     .mobile-menu-btn {
       display: none;
       background: var(--surface);
@@ -285,6 +291,8 @@
 <body>
 <div class="layout">
 
+  <!-- Sidebar overlay (mobile) -->
+  <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
   <!-- Sidebar -->
   <aside class="sidebar">
     <div class="logo">🦞 <span>ClawdBot</span></div>
@@ -395,9 +403,7 @@
             <div class="action-sub">Performance</div>
           </a>
         </div>
-        <div id="copy-toast" style="display:none;margin-top:12px;padding:8px 12px;background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);border-radius:8px;font-size:0.78rem;color:var(--green)">
-          ✅ Commande copiée ! Colle-la dans Telegram pour l'exécuter.
-        </div>
+        <!-- Toast moved to global fixed position -->
       </div>
 
       <!-- Charts row -->
@@ -427,6 +433,15 @@
           <div class="card-title"><span class="icon">⚡</span> Autres automatisations</div>
           <div id="overview-crons-list"><div class="empty">Aucune automatisation</div></div>
         </div>
+      </div>
+
+      <!-- Sessions overview -->
+      <div class="card" style="margin-top:16px">
+        <div class="card-title"><span class="icon">🧵</span> Sessions récentes</div>
+        <table>
+          <thead><tr><th>Session</th><th>Modèle</th><th>Tokens</th></tr></thead>
+          <tbody id="overview-sessions-table"><tr><td colspan="3" class="empty">—</td></tr></tbody>
+        </table>
       </div>
     </div>
 
@@ -536,6 +551,9 @@
 
       <!-- Briefs list -->
       <div id="veille-briefs-container"></div>
+
+      <!-- RSS items (hidden container for JS compat) -->
+      <div id="rss-items-list" style="display:none"></div>
 
       <!-- Competitor Articles -->
       <div style="margin-top:20px">
@@ -724,6 +742,11 @@
     </div>
 
   </main>
+</div>
+
+<!-- Global toast -->
+<div id="copy-toast" style="display:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);padding:10px 20px;background:var(--surface);border:1px solid var(--green);border-radius:10px;font-size:0.82rem;color:var(--green);box-shadow:0 4px 20px rgba(0,0,0,0.2);z-index:999;transition:opacity 0.3s">
+  🚀 Ouverture de Telegram…
 </div>
 
 <!-- Toast copy -->

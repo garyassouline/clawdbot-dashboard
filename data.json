@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T10:16:13.269Z",
+  "updatedAt": "2026-03-15T10:26:04.930Z",
   "veilleBriefs": [
     {
       "date": "2026-03-15T09:21:00Z",
@@ -1309,46 +1309,82 @@
     }
   },
   "seoAudits": [],
-  "rssItems": [
-    {
-      "title": "Google Discover : Nouvelles règles 2026",
-      "source": "SEO Journal",
-      "date": "Il y a 2h"
-    },
-    {
-      "title": "Facebook change son algorithme de distribution",
-      "source": "Social Media Today",
-      "date": "Il y a 5h"
-    },
-    {
-      "title": "Tendances programmatiques Q1 2026",
-      "source": "AdExchanger",
-      "date": "Hier"
-    }
-  ],
+  "rssItems": [],
   "session": {
-    "model": "unknown",
-    "tokensIn": 0,
-    "tokensOut": 0,
-    "cacheHit": 0,
-    "context": 0,
+    "model": "claude-opus-4-6",
+    "tokensIn": 8,
+    "tokensOut": 811,
+    "cacheHit": 50,
+    "context": 73482,
     "contextMax": 200000
   },
   "modelBreakdown": [
     {
-      "model": "Gemini 2.5 Flash",
-      "tokensIn": 125000,
-      "tokensOut": 12000,
-      "cost": 0.025
+      "model": "claude-opus-4-6",
+      "tokensIn": 8,
+      "tokensOut": 811,
+      "cacheRead": 73264,
+      "cost": 0.060945
     },
     {
-      "model": "Claude Sonnet 4.6",
-      "tokensIn": 45000,
-      "tokensOut": 8000,
-      "cost": 0.255
+      "model": "claude-sonnet-4-6",
+      "tokensIn": 38,
+      "tokensOut": 13355,
+      "cacheRead": 656680,
+      "cost": 0.200439
+    },
+    {
+      "model": "gemini-2.5-flash",
+      "tokensIn": 938082,
+      "tokensOut": 12558,
+      "cacheRead": 583994,
+      "cost": 0.1482471
     }
   ],
-  "sessions": [],
+  "sessions": [
+    {
+      "key": "main",
+      "model": "claude-opus-4-6",
+      "tokensIn": 8,
+      "tokensOut": 811
+    },
+    {
+      "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
+      "model": "claude-sonnet-4-6",
+      "tokensIn": 13,
+      "tokensOut": 4262
+    },
+    {
+      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:0606da0d-6dd0-42dd-a3ee-15dd671d1be8",
+      "model": "claude-sonnet-4-6",
+      "tokensIn": 13,
+      "tokensOut": 4262
+    },
+    {
+      "key": "cron:2c9e47f6-6073-4025-92cc-a8bac840662f",
+      "model": "gemini-2.5-flash",
+      "tokensIn": 469041,
+      "tokensOut": 6279
+    },
+    {
+      "key": "cron:2c9e47f6-6073-4025-92cc-a8bac840662f:run:292f9df4-63f7-40a7-a106-fbfd55e69633",
+      "model": "gemini-2.5-flash",
+      "tokensIn": 469041,
+      "tokensOut": 6279
+    },
+    {
+      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:687f6460-4c8f-4108-872d-f70077899479",
+      "model": "claude-sonnet-4-6",
+      "tokensIn": 12,
+      "tokensOut": 4831
+    },
+    {
+      "key": "telegram:slash:2125035372",
+      "model": "claude-opus-4-6",
+      "tokensIn": 0,
+      "tokensOut": 0
+    }
+  ],
   "crons": [
     {
       "id": "c8544031-997d-40ec-871f-6853e493e097",
@@ -1389,32 +1425,8 @@
   ],
   "tokenHistory": [
     {
-      "date": "09/03",
-      "total": 45000
-    },
-    {
-      "date": "10/03",
-      "total": 52000
-    },
-    {
-      "date": "11/03",
-      "total": 38000
-    },
-    {
-      "date": "12/03",
-      "total": 61000
-    },
-    {
-      "date": "13/03",
-      "total": 29000
-    },
-    {
-      "date": "14/03",
-      "total": 85000
-    },
-    {
-      "date": "15/03",
-      "total": 12000
+      "date": "03/15",
+      "total": 319078
     }
   ],
   "alerts": [
@@ -1614,6 +1626,17 @@
         "aufeminin.com"
       ],
       "snippet": "Interagir avec une personne toxique peut être déstabilisant et épuisant. Mais réagir avec intelligence permet de se protéger et de gérer ces situations."
+    },
+    {
+      "title": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ? - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRm1KZXRBUEd4Rm9NR1RTUDZueEFrZWVTZmlBM2llNWtZWTNoTlFubjRsUmFLV1Q4TW81bUN0aUJxWUVfdzFQc0diTGxEUGlJYXlOVHNDZS1LWFRDNlRDbTNUYVhHTWw0RHhiVS1pbV9GekNUcTZaSE5nSmxFaHRLRkpXUXZhLTNJOHgtQnVQMFRZMTRIT2VxVEhUai1UZ0hXQjFDTmUzRWpMWjV2YnNhYldmTkRjSEY3Q3JqSEYwdktzRzc0bU1QYUhCWnJVZw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 08:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ?  Cosmopolitan.fr"
     },
     {
       "title": "\"Je m’en veux\" : après avoir critiqué Benjamin Lavernhe, Laurent Ruquier fait son mea culpa",
@@ -2198,17 +2221,6 @@
         "mariefrance.fr"
       ],
       "snippet": "\"Je suis amoureuse\" : Lucie Bernardoni se confie sur sa vie sentimentale  Femme Actuelle"
-    },
-    {
-      "title": "Pourquoi ce thriller sur une disparition familiale nous fascine jusqu’au bout - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQ0hBN21odHMwRXl1NnFQT3FHRWhOZHZhdjNrRTlQREJMRWMzeUVpU2huVklkTkNIRlVMWEl3UDFMZ2NNWjY5b1VuQ2tqb0k1bGhVSzlmR1prZmVPdVRvYkZFamFuazU3emQwUFZPNjVBZnRzcklrRjlUQkV4QWdocjR5WVphMXpEdTNEN1JEZXFnSHhGSTZqQmFMOXJjaUFxZEJvY2ZXYWxVVW56QmZ4bFVuNHVsUGlFWE9CYmZmT2REeTBxdU1hMUVqcTlBdEJtczNpUnZDZjlGNFUwdnpRSG9jcw?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 14:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Pourquoi ce thriller sur une disparition familiale nous fascine jusqu’au bout  Cosmopolitan.fr"
     },
     {
       "title": "Le top 3 des destinations préférées des Français pour Pâques cette année - Cosmopolitan.fr",
