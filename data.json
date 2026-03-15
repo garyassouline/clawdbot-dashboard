@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T15:15:33.915Z",
+  "updatedAt": "2026-03-15T16:15:34.636Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "15%",
-    "ram": "28%",
+    "cpu": "0%",
+    "ram": "34%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T15:15:33.915Z",
+      "ts": "2026-03-15T16:15:34.635Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1492,20 +1492,20 @@
   "rssItems": [],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 355460,
-    "tokensOut": 35,
+    "tokensIn": 449438,
+    "tokensOut": 33,
     "cacheHit": 33,
-    "context": 349916,
+    "context": 445345,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 355460,
-      "tokensOut": 35,
-      "cacheRead": 172131,
+      "tokensIn": 449438,
+      "tokensOut": 33,
+      "cacheRead": 220572,
       "cacheWrite": 0,
-      "cost": 1.1185443000000002
+      "cost": 1.4149805999999998
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1544,8 +1544,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 355460,
-      "tokensOut": 35
+      "tokensIn": 449438,
+      "tokensOut": 33
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -1624,7 +1624,7 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 531973
+      "total": 627402
     }
   ],
   "alerts": [
@@ -1634,6 +1634,119 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Selon un ingénieure en nutrition il y a une eau à privilégier pour prendre soin de votre foie",
+      "link": "https://www.topsante.com/nutrition_et_recettes/selon-un-ingenieure-en-nutrition-il-y-a-une-eau-a-privilegier-pour-prendre-soin-de-votre-foie-952860",
+      "pubDate": "Sun, 15 Mar 2026 16:11:33 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Après un repas trop gras, beaucoup parlent de « crise de foie » et se tournent vers des boissons détox spectaculaires. Une ingénieure en nutrition révèle pourtant qu'un autre type d'eau, plus discret,"
+    },
+    {
+      "title": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRnlUNmVqa1MtMEhyUVUyZ3hPLVZqSHFPcTlDX2s5ektTMy1faWJNckp3MUd4UDJ5ZmdHQWdraWZwQk42c0dVdDV4UWEyX3NDb2M0THhWTmtrYmgzSzFUZkJ3RXNCdzZBZC1NUHE1NlFzemozSV9Xc3oxaGNkMndzZXhLcXBualJkbUt2TG5oRlFHa19JUXNLaXRESW11a2ZKaC1PTnh2UWRHY1RlZzRIU3ptVHRWYTVLQV9DTE56MzBRYnRVa0tlR0RINTdnTThZdllxajZxWQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:07:41 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham  ELLE"
+    },
+    {
+      "title": "“Tombée amoureuse d’un bad boy” : ces 2 traits de personnalité vous poussent à faire les mauvais choix en amour, selon la science",
+      "link": "https://www.psychologies.com/moi/se-connaitre/bad-boy-2-traits-personnalite-mauvais-choix-amour-science-590505?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 16:03:07 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "À la télévision ou dans la réalité, de nombreuses femmes reconnaissent leur attrait pour ceux que l’on appelle les mauvais garçons. Mais d’où vient cet intérêt ?"
+    },
+    {
+      "title": "Mort de Bruno Salomone : \"Ils se sont relayés à son chevet\", le rôle de Jean Dujardin dans les dernières heures de son ami dévoilé",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-ils-se-sont-relayes-a-son-chevet-le-role-de-jean-dujardin-dans-les-dernieres-heures-de-son-ami-devoile-3623995",
+      "pubDate": "Sun, 15 Mar 2026 16:02:20 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Après l’annonce de la mort de Bruno Salomone, Patrick Sébastien s’est exprimé à nos confrères de Paris Match, ce 15 mars. L’animateur a notamment révélé le rôle qu’a eu Jean Dujardin lors des derniers"
+    },
+    {
+      "title": "Déclin cognitif : pourquoi ce test de l’horloge est un outil de dépistage crucial pour la santé du cerveau",
+      "link": "https://www.doctissimo.fr/sante/maladies/maladies-neurologiques/alzheimer/test-de-lhorloge-outil-simple-pour-detecter-les-signes-de-demence-comme-alzheimer/cf2e6a_ar.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 16:00:53 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dans le parcours complexe du dépistage des troubles cognitifs chez la personne âgée, un outil simple a su traverser les décennies : le test de l’horloge. Dessiner un cercle, y inscrire des chiffres, p"
+    },
+    {
+      "title": "Il y a 2 vinaigrettes à éviter au supermarché selon une diététicienne",
+      "link": "https://www.topsante.com/nutrition_et_recettes/il-y-a-2-vinaigrettes-a-eviter-au-supermarche-selon-une-dieteticienne-952858",
+      "pubDate": "Sun, 15 Mar 2026 15:34:28 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Au supermarché, une simple salade peut se transformer en bombe d’additifs sans que vous le sachiez. Une diététicienne alerte sur deux profils de vinaigrettes à éviter."
+    },
+    {
+      "title": "Mort de Bruno Salomone : \"Je savais qu’il était malade\", cette tendre attention préparée par Patrick Sébastien juste avant sa disparition",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-je-savais-quil-etait-malade-cette-tendre-attention-preparee-par-patrick-sebastien-juste-avant-sa-disparition-3623989",
+      "pubDate": "Sun, 15 Mar 2026 15:31:33 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Après la mort de Bruno Salomone, Patrick Sébastien dévoile une émouvante attention préparée pour son ami avant sa disparition. Un geste touchant qui illustre leur longue amitié."
+    },
+    {
+      "title": "Vêtements de sport : ces coupes envahissent la rue et remplacent votre jean sans que vous l’ayez vu venir",
+      "link": "https://www.doctissimo.fr/forme/faire-du-sport/fitness/accessoire-de-fitness/vetements-de-sport-ces-coupes-envahissent-la-rue-et-remplacent-votre-jean-sans-que-vous-layez-vu-venir-742027.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 15:30:51 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "En 2026, leggings à taille en V et pantalons de survêtement quittent la salle pour s’imposer au bureau comme dans la rue. Entre chiffres record et silhouettes plus travaillées, le sportswear redéfinit"
+    },
+    {
+      "title": "Vous pouvez manger du chocolat au lait si vous choisissez ces 2 tablettes jugées les plus saines par 60 millions de consommateurs",
+      "link": "https://www.topsante.com/nutrition_et_recettes/vous-pouvez-manger-du-chocolat-au-lait-si-vous-choisissez-ces-2-tablettes-jugees-les-plus-saines-par-60-millions-de-consommateurs-952116",
+      "pubDate": "Sun, 15 Mar 2026 15:30:22 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Chaque Français croque 6,4 kg de chocolat par an, mais le chocolat au lait reste épinglé pour son excès de sucre. Un test de 60 Millions de consommateurs révèle deux tablettes qui changent la donne po"
+    },
+    {
+      "title": "Si vous aimez les thrillers inspirés d’histoires vraies, ce film sur l’évasion d’Alcatraz est un incontournable - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYkhueHhrU1U5a0tldlcyODVRYWdFSUdWRGdyd0RYLTBMcDlvNE5sTlRwdUhEeGVTc2VTWlJaQUI1aDJNSUwwa1pqeFVQTzIxTVdRYW1BVFA2U0VqaTliS1VYY0RjcjVxMUwzVTExU1lwVk1sZmRKS29YRGpmYzdreUJPQndDRXdGakFPUjNqTlY5TnQ4NlJKQjZPSmpGOHozQnhDTGxaT1dXejZoZkNwSDdOZ2xVSjlnaUFtLXlKTTltUXcy?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 15:13:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Si vous aimez les thrillers inspirés d’histoires vraies, ce film sur l’évasion d’Alcatraz est un incontournable  Cosmopolitan.fr"
+    },
     {
       "title": "Flavie Flament : \"Une équipe qui vit un peu en décalé\", l’animatrice ne garde pas un super souvenir de son passage dans Télématin",
       "link": "https://www.closermag.fr/people/flavie-flament-une-equipe-qui-vit-un-peu-en-decale-lanimatrice-ne-garde-pas-un-super-souvenir-de-son-passage-dans-telematin-3623952",
@@ -1881,28 +1994,6 @@
       "snippet": "Vomissements et diarrhée peuvent cacher une simple gastro-entérite ou une intoxication alimentaire plus sournoise. Un médecin généraliste livre ses repères pour ne pas se tromper."
     },
     {
-      "title": "Installé dans les Cévennes, Frédéric Lopez (Un dimanche à la campagne) ne fait pas de mystère : \"ça pose une question\"",
-      "link": "https://www.closermag.fr/people/installe-dans-les-cevennes-frederic-lopez-un-dimanche-a-la-campagne-ne-fait-pas-de-mystere-ca-pose-une-question-3621819",
-      "pubDate": "Sun, 15 Mar 2026 13:30:01 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Présentateur historique de l'émission Un dimanche à la campagne sur France 2, Frédéric Lopez a également été l'incarnation de Rendez-vous en terre inconnue sur la même chaîne. Aujourd'hui installé dan"
-    },
-    {
-      "title": "Bruno Salomone : de quoi est mort l’acteur de Fais pas ci, fais pas ça, à l’âge de 55 ans ?",
-      "link": "https://www.closermag.fr/people/bruno-salomone-de-quoi-est-mort-lacteur-de-fais-pas-ci-fais-pas-ca-a-lage-de-55-ans-3623961",
-      "pubDate": "Sun, 15 Mar 2026 13:24:06 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "L’acteur et humoriste Bruno Salomone est décédé ce 15 mars à 55 ans, et son agent a révélé les circonstances de sa disparition."
-    },
-    {
       "title": "Les gens socialement intelligents n'abordent jamais ces 3 sujets de conversation",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/gens-socialement-intelligents-abordent-jamais-sujets-conversation-598920?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 13:04:48 +0000",
@@ -1970,18 +2061,6 @@
       "snippet": "Comment réagir lorsque quelqu’un nous manque de respect ? Quelle est la limite à ne pas dépasser ? L'erreur à ne pas commettre ? Réponses."
     },
     {
-      "title": "Attention, ces 4 sauces au supermarché sont pires qu'un dessert, alertent des diététiciens : \"C'est alarmant\"",
-      "link": "https://www.topsante.com/beaute_soins/medecine_esthetique/techniques_minceur/attention-ces-4-sauces-populaires-font-plus-grossir-quun-dessert-entier-alertent-les-dieteticiens-952576",
-      "pubDate": "Sun, 15 Mar 2026 12:00:34 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Ketchup, sauce barbecue, mayonnaise… et si le vrai frein à votre perte de poids se cachait dans ces condiments du quotidien ? Des experts révèlent comment ils alourdissent vos assiettes sans que vous "
-    },
-    {
       "title": "Cancer de la prostate : ce gène discret explique pourquoi certaines tumeurs résistent à la chimiothérapie",
       "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/cancer-de-la-prostate/cancer-de-la-prostate-ce-gene-discret-explique-pourquoi-certaines-tumeurs-resistent-a-la-chimiotherapie-742176.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 12:00:03 +0000",
@@ -2005,18 +2084,6 @@
       "snippet": "Taux de participation aux municipales à 12h : c'est tombé, un premier chiffre qui en dit long sur ces élections  Linternaute.com"
     },
     {
-      "title": "Burrata : voici comment bien la conserver et la garder fraîche plus longtemps",
-      "link": "https://www.topsante.com/nutrition_et_recettes/burrata-voici-comment-bien-la-conserver-et-la-garder-fraiche-plus-longtemps-952848",
-      "pubDate": "Sun, 15 Mar 2026 11:48:29 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Fromage ultra-frais au cœur coulant, la burrata ne supporte ni les écarts de température ni les dîners qui s’éternisent. Où la placer au frigo, combien de temps la garder sans danger ?"
-    },
-    {
       "title": "Les personnes qui ont été rejetées durant l’enfance ont ces 3 traits de personnalité, selon la science",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-rejetees-enfance-3-traits-personnalite-science-591246?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 11:36:38 +0000",
@@ -2026,40 +2093,6 @@
         "aufeminin.com"
       ],
       "snippet": "Outre des difficultés à sociabiliser durant l’enfance puis à l’âge adulte, l’expérience du rejet pourrait jouer un rôle important dans la construction de notre personnalité, notamment dans ses aspects"
-    },
-    {
-      "title": "Envie d’un dessert sans pic de glycémie ? Voici la recette idéale, selon les nutritionnistes",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/envie-dun-dessert-sans-pic-de-glycemie-la-recette-ideale-selon-les-nutritionnistes-373906.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 11:30:36 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Vous évitez les desserts pour contrôler votre glycémie ? Bonne nouvelle : selon des experts en nutrition, cette recette gourmande permet de se faire plaisir sans provoquer de pic de sucre. Facile à pr"
-    },
-    {
-      "title": "Il faut se méfier de ce pain italien, plus calorique que la baguette, alerte une diététicienne",
-      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/il-faut-se-mefier-de-ce-pain-italien-plus-calorique-que-la-baguette-alerte-une-dieteticienne-952454",
-      "pubDate": "Sun, 15 Mar 2026 11:29:42 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Dans un restaurant Italien, vous ne pouvez pas résister à la focaccia ? Ce pain originaire de la région de la Ligurie remporte en effet beaucoup de succès dans les menus des restaurateurs. Mais côté l"
-    },
-    {
-      "title": "Cholestérol : ces 8 règles peuvent faire baisser votre taux naturellement",
-      "link": "https://www.doctissimo.fr/sante/cholesterol/cholesterol-ces-8-regles-peuvent-faire-baisser-votre-taux-naturellement-741684.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 11:15:09 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Vous présentez un taux de cholestérol élevé ? Bonne nouvelle : huit règles simples du quotidien peuvent déjà améliorer vos résultats, sans bouleverser votre quotidien."
     },
     {
       "title": "\"Qui se ressemble s'assemble\" : la science confirme qu'avoir les bonnes personnes autour de soi peut changer la personnalité",
@@ -2127,17 +2160,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer  ELLE"
-    },
-    {
-      "title": "Stations-service prises d'assaut : vous n’êtes pas fou, votre cerveau obéit simplement à ce réflexe primitif méconnu",
-      "link": "https://www.psychologies.com/actualites/sciences-et-sante/Stations-service-prises-dassaut-vous-netes-pas-fou-votre-cerveau-obeit-simplement-a-ce-reflexe-primitif-meconnu-624978?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 09:02:51 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Files interminables, jerricans remplis... la France stocke l'essence comme si la fin du monde arrivait. Le coupable ? Un réflexe primal de survie."
     },
     {
       "title": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs - Notre Temps",
@@ -2251,6 +2273,18 @@
       "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
     },
     {
+      "title": "Programme TV Culinaire du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXVuMmo4VGI2dnlwWW9HT3BiNnVwNjZzRFY3TnZjTVB4TmpWTVA2N3kxMHlGdkh2WDBwWDBxUFA5VHVEckQ0VkJSR25QOVdzeXVsQTZaM09GdlVTbUNfNTRjS1dHQkZ4MkVLLTVRYmE1bVh3cy04MlRoR1pYcVo2TUdlUXZlNms?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:39:37 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Culinaire du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
       "title": "aspirateur - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ZXN1ZGhLUjRyVFU0Q05oLUp6TFY0eExtaTJTT3F2RUxVb3lpRG5wMXRXYWU1R3pFakxnSXM1RTBxTlRFMjdRa0EyclpsRzVZQlVGRlRCeXhRSWUxSm5Z?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:30:04 GMT",
@@ -2260,18 +2294,6 @@
         "mariefrance.fr"
       ],
       "snippet": "aspirateur  Femme Actuelle"
-    },
-    {
-      "title": "Programme TV5MONDE du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUWtvNFdwVlBuRHRxQ3JpZ1JqU3FaOVA0cUpRbS1KcVpvZGNUQ2F4dmlET095QTdUZllxbUQ4ajQ0QzRHMHpLbGJKc1c0cmN5SlJHZHRUUGNxWE4waVVoREtKazhRcncwWFZBNjdMRjRBNFZ5bnBBbGF5Yll4Y0F5OS0tY2Y?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:09:27 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV5MONDE du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "Programme TV Orange du samedi 28 mars 2026 - Linternaute.com",
@@ -2432,6 +2454,17 @@
       "snippet": "Laver les taies d’oreiller ne pose pas de problème, il suffit de les passer en machine. Mais les oreillers, comment faire ? Découvrez la méthode de nettoyage professionnelle, de la température idéale "
     },
     {
+      "title": "\"Entre la vie et la mort\" : Angélique Angarni-Filopon fait une confidence bouleversante sur la santé de son oncle après son élimination de DALS - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQQmtiZ2tDR214TlIzVVFvSW9VV3gtUDEzS2VMYjQ2N2N0M2g4NGQ2RnBua0ZqeTBfS2FuSG02QUFpVFBnN3pLRWhxS3Iydm96NGcta2xtWVpCYkxHem5jY0NvWWFJLWlIMXV4X1lHcVJtRWVJQ0hxaW0wZXIza1l2bGhLbzBQNXVudkpTUno2d1hjVm8wdDljaE1EN3JtUEJac044RjZFOWZYT3lDXzdTa0lzYjFZbzVUZkt0OFBnZ21hWkJhQnJhQndxblZ3ZWNYLVJFdEdCVUpLSFo4dElrRzkxaTZxTkNVNzZaREZWdk1QZmxkNWYyOUt0My0zT3o3U1FDXzJabmZkTjNWamRJSm15Q1h3VHdoUlFz?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 16:50:08 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"Entre la vie et la mort\" : Angélique Angarni-Filopon fait une confidence bouleversante sur la santé de son oncle après son élimination de DALS  Femme Actuelle"
+    },
+    {
       "title": "Cookies nuage : la recette à la texture ultra aérienne - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMEJHN1ZkcER3eVRDZlBQRmlvWVBuWDRQSC1qY0tYUnJUQkdEalp3RXNleDV2Q29KV2ZvZWg5NW5ONnZvV3ZUT01zMGI2SllZVW5GUm51RmJaQXRuMUZCcUxTVXFaUTEwS2R0bGdURVFxdkowVW1vY09NTkdFd2hTOE5GZE05dUNFOTNhY3hNcGg4NW4yYm5RRGI2REkyd1dmUmdySWtyb2RqN3ZvaENUMU1wZGlTVWRC?oc=5",
       "pubDate": "Sat, 14 Mar 2026 16:17:00 GMT",
@@ -2441,39 +2474,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Cookies nuage : la recette à la texture ultra aérienne  Femme Actuelle"
-    },
-    {
-      "title": "Emma Heming lance une initiative touchante pour Bruce Willis : « Nous voulons faire avancer la recherche - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbllsUzJGaWNfbDh2WDVCT2JtVGx2M1ZocHJmY05CeUtZRU84OU5PM1pJbFdvdldERVVlejdISm4xQXBwWWtzUWY5SlRTY0huN01seEh3dGE4QW5pSFhuUnZVZnVwX0EtV3pvbGU5UWxmZktjVkVObFlsQVphTU1uTldXbXE4RFVTVDRtT3BxRTdETTRnQzVYYTQxdWljamREalpqZ3hBRDVVWXZJSkQ5VFpWakFQYmtlNFF1ZFpkZXFPc1NTNGMyUEhsVUpFYlRpZHhqamlBb05scUwtV2J0UUs0UktzaUh6MXRWbnh1QQ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 16:01:04 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Emma Heming lance une initiative touchante pour Bruce Willis : « Nous voulons faire avancer la recherche  ELLE"
-    },
-    {
-      "title": "Vintage ou fast fashion ? L'astuce pour ne plus se faire avoir sur Vinted - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcXV0eEs0RmhxaXZDS0lGdXFrWkpuMnFvZDA5dW5fRWpNTnl1RVZGb3JWS1hvVG83WGVTQWpNSkpSTTNHZTVVT3dZNEI4dWpFYVRkUGF2TDBOSkdyN01haWNXMEg5VllOTWp0elRjejhyVXowUFZJV1poMUhoM2h3UUIxM2NGZ1dPY0NvZUg3RDBjM1gtbUlJbS1Sbm9GTWxYWTJpcnlselh5czQ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 16:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Vintage ou fast fashion ? L'astuce pour ne plus se faire avoir sur Vinted  Cosmopolitan.fr"
-    },
-    {
-      "title": "Dans cette commune de l’Oise, le port du casque est désormais obligatoire pour les utilisateurs de trottinettes - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOX2dNSnJOeVpMZVY2OXlfVlAwTUtua01LVlBKa2pRVG9RQl9zMkV3Y3RPNmU3TnZYLVQyTXVBZFBTQm43MXM4NlU4ZGhYWUxfdC1RdkRqSVZSbXhOTkNlZUppV1hmaG85UUNuRTU1VFJ1eWZ5dXdVdFNlX1RNTzZZZ29WZTQzUEtheWM0QVdHNXVmZ0JaUE1KdnBrazNiQW13THV1aThrTEs2MDd0dFZGQVNGMVNmRXN6TS0tRWNieHhwbUFnbVVLdXVISVQweGtyTUt3bTRLUG5HQzdqd24xUzJZXzR0Q2hEeXFMeUxJN0VuLWM?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 15:39:13 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Dans cette commune de l’Oise, le port du casque est désormais obligatoire pour les utilisateurs de trottinettes  Femme Actuelle"
     },
     {
       "title": "Stress, anxiété : ces 5 signaux corporels qui montrent que vous craquez sans le savoir",
