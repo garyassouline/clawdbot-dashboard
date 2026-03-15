@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T17:41:25.828Z",
+  "updatedAt": "2026-03-15T18:14:54.994Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "20%",
-    "ram": "36%",
+    "cpu": "61.9%",
+    "ram": "37%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T17:41:25.827Z",
+      "ts": "2026-03-15T18:14:54.993Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1495,454 +1495,23 @@
   },
   "seoAudits": [],
   "rssItems": [],
-  "wikidataStatus": [
-    {
-      "name": "Julie Caron",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Lahéla Bouaziz",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Elodie Le Gall",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Inès REAL",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Maude Sebaihi",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Louise Gonzalez",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Joséphine De Rubercy",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Laura Willinger",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Anaïs Moine",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Marie Rougeot",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Mélissa Sekkal",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Pierre-Guillaume LIGDAMIS",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Marie Lacombe",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Jordane Guignon",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Mathilde Campos",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Justine LINET",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Tiffany Szadek",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Sanila Riffay",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Laura D’Angelo",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Carla Biancarelli",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "chloé maurin",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Julie Lefebvre",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Allison Pujol",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Elisabeth Sall",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Mathieu Bonis",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Ava Skoupsky",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Fostine Carracillo",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Shanour Kargayan",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Sally Jane Northcote",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Alexandra Belooussova",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "julie pacheco",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Inès Aitlhaj",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Maureen Peron",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Elodie Charrière",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Adrien Bariller",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Maria Julia Garcia",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Jean RAMIÈRE",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Céline Cossa",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Roxane Mirambet",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Arnaud Swiac",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Aline Dizon",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Loïc Droubaix",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Rita SANTOURIAN",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Tess Bodelot",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Marie Hervichon",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Doriane Kiniali",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Natacha Rivalan",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Elisabeth Sall",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Enrica A",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Shana Lyès",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Simon Suzeau",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Myriam Reynaud",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Jean-Sebastien Champeau",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Inès Guiza",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Marion Ottaviani",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Grib Borremans",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Emmanuelle Devriese",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Margot IODICE",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Katherine Mabalay",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Marie GODART",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Jessica Ferret",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Alexandre Brunet",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Gaston Cuny",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Fiona Maherault",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Alexandre Mathiot",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Noémie Sadoun Uzan",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Soraya Idbouja",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Agathe de Fougerolles",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Hugo Pellegrin",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Solweig Ély",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Pierre FOURNIER",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Celine GERBIER",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Quentin Pannaud",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Marie Lizak",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Hugo Taupin",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Hugo Quintal",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Natacha Rivalan",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Dubois M",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Duchemin M",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Dewet M",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Boucher F",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Berdah F",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "M F",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Binet F",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Carlesimo F",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "name": "Hagopian F",
-      "status": "⚠️ Erreur API",
-      "error": "Expecting value: line 1 column 1 (char 0)"
-    }
-  ],
+  "wikidataStatus": [],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 1400081,
-    "tokensOut": 651,
+    "tokensIn": 654231,
+    "tokensOut": 641,
     "cacheHit": 33,
-    "context": 559453,
+    "context": 646461,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 1400081,
-      "tokensOut": 651,
-      "cacheRead": 277731,
+      "tokensIn": 654231,
+      "tokensOut": 641,
+      "cacheRead": 319110,
       "cacheWrite": 0,
-      "cost": 4.2933273
+      "cost": 2.068041
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1981,8 +1550,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 1400081,
-      "tokensOut": 651
+      "tokensIn": 654231,
+      "tokensOut": 641
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -2067,14 +1636,10 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 776908
+      "total": 863916
     }
   ],
   "alerts": [
-    {
-      "type": "warn",
-      "message": "Budget quotidien dépassé : $6.27"
-    },
     {
       "type": "info",
       "message": "Certaines automatisations n'ont pas encore tourné."
