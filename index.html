@@ -454,7 +454,6 @@
         </div>
       </div>
 
-      <!-- KPIs -->
       <div class="kpi-grid">
         <div class="kpi red">
           <div class="label">Tokens (session)</div>
@@ -466,12 +465,12 @@
           <div class="value" style="font-size:1rem;padding-top:6px" id="kpi-model">—</div>
           <div class="sub" id="kpi-context">Contexte —</div>
         </div>
-        <div class="kpi purple">
-          <div class="label">Automatisations</div>
-          <div class="value" id="kpi-crons">—</div>
-          <div class="sub" id="kpi-crons-sub">actives</div>
-        </div>
         <div class="kpi green">
+          <div class="label">CA Estimé (7j)</div>
+          <div class="value" id="kpi-revenue">—</div>
+          <div class="sub">basé sur RPM moyens</div>
+        </div>
+        <div class="kpi purple">
           <div class="label">Coût estimé</div>
           <div class="value" id="kpi-cost">—</div>
           <div class="sub">session en cours</div>
@@ -1125,6 +1124,21 @@ function render(d) {
         `;
       }).join('')}
     `;
+  }
+
+  // Revenue calculation based on RPM and impressions (last 7 days)
+  if (d.rpmRates && d.discoverAdvanced && d.discoverAdvanced.sites) {
+    let totalRevenue = 0;
+    Object.keys(d.rpmRates).forEach(siteId => {
+        const siteData = d.discoverAdvanced.sites[siteId];
+        if (siteData && siteData.periods && siteData.periods['7']) {
+            const imps = siteData.periods['7'].totalImpressions || 0;
+            const rpm = d.rpmRates[siteId] || 0;
+            totalRevenue += (imps / 1000) * rpm;
+        }
+    });
+    const revEl = document.getElementById('kpi-revenue');
+    if (revEl) revEl.textContent = totalRevenue.toLocaleString('fr-FR', { style: 'currency', currency: 'EUR', minimumFractionDigits: 0, maximumFractionDigits: 0 });
   }
 
   // Cost page KPIs - use real aggregated data from all sessions
