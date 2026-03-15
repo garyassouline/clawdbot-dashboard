@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T18:37:49.107Z",
+  "updatedAt": "2026-03-15T18:38:44.955Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -13,7 +13,7 @@
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T18:37:49.106Z",
+      "ts": "2026-03-15T18:38:44.955Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1929,20 +1929,20 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 3541900,
-    "tokensOut": 3199,
+    "tokensIn": 1426914,
+    "tokensOut": 132,
     "cacheHit": 33,
-    "context": 708832,
+    "context": 708859,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 3541900,
-      "tokensOut": 3199,
-      "cacheRead": 351941,
+      "tokensIn": 1426914,
+      "tokensOut": 132,
+      "cacheRead": 351939,
       "cacheWrite": 0,
-      "cost": 10.7792673
+      "cost": 4.3883037
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1981,8 +1981,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 3541900,
-      "tokensOut": 3199
+      "tokensIn": 1426914,
+      "tokensOut": 132
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -2067,13 +2067,13 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 926287
+      "total": 926314
     }
   ],
   "alerts": [
     {
       "type": "warn",
-      "message": "Budget quotidien dépassé : $12.76"
+      "message": "Budget quotidien dépassé : $6.36"
     },
     {
       "type": "info",
