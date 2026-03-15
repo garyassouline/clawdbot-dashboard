@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T12:25:33.224Z",
+  "updatedAt": "2026-03-15T13:15:33.977Z",
   "discoverSuggestions": [
     {
       "site": "mariefrance.fr",
@@ -1374,20 +1374,20 @@
   "rssItems": [],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 1310749,
-    "tokensOut": 1043,
+    "tokensIn": 1327533,
+    "tokensOut": 1744,
     "cacheHit": 33,
-    "context": 525671,
+    "context": 660063,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 1310749,
-      "tokensOut": 1043,
-      "cacheRead": 261390,
+      "tokensIn": 1327533,
+      "tokensOut": 1744,
+      "cacheRead": 327506,
       "cacheWrite": 0,
-      "cost": 4.026309
+      "cost": 4.1070108
     },
     {
       "model": "claude-sonnet-4-6",
@@ -1418,8 +1418,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 1310749,
-      "tokensOut": 1043
+      "tokensIn": 1327533,
+      "tokensOut": 1744
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -1492,7 +1492,7 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 665424
+      "total": 799816
     }
   ],
   "alerts": [
@@ -1502,6 +1502,84 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Les gens socialement intelligents n'abordent jamais ces 3 sujets de conversation",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/gens-socialement-intelligents-abordent-jamais-sujets-conversation-598920?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 13:04:48 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "En société, les personnes dotées d’une intelligence relationnelle se distinguent par leur discours. Elles savent aborder les sujets adaptés et évitent subtilement ceux qui font grincer des dents."
+    },
+    {
+      "title": "Thomas Ramos, star des Bleus : de quelle maladie souffre Sophie, la femme de l’arrière du XV de France ?",
+      "link": "https://www.closermag.fr/people/thomas-ramos-star-des-bleus-de-quelle-maladie-souffre-sophie-la-femme-de-larriere-du-xv-de-france-3623953",
+      "pubDate": "Sun, 15 Mar 2026 12:53:14 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Thomas Ramos est marié à Sophie, atteinte d’une maladie invisible au quotidien, une cause pour laquelle il s’engage activement."
+    },
+    {
+      "title": "Bruno Salomone : le comédien de \"Fais pas ci, fais pas ça\", est décédé à 55 ans",
+      "link": "https://www.doctissimo.fr/sante/sante-au-quotidien/bruno-salomone-le-comedien-de-fais-pas-ci-fais-pas-ca-est-decede-a-55-ans-742763.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 12:50:04 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Bruno Salomone, figure de Fais pas ci, fais pas ça, s’est éteint ce dimanche 15 mars à 55 ans après une longue maladie, selon son agent. De ses débuts à ses rôles cultes, son parcours singulier contin"
+    },
+    {
+      "title": "Bruno Salomone : le comédien est décédé à l’âge de 55 ans",
+      "link": "https://www.closermag.fr/people/bruno-salomone-le-comedien-est-decede-a-lage-de-55-ans-3623957",
+      "pubDate": "Sun, 15 Mar 2026 12:47:08 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "L'acteur Bruno Salomone est décédé ce dimanche 15 mars à l’âge de 55 ans, après un long combat contre la maladie."
+    },
+    {
+      "title": "Peut-on congeler des crevettes ?",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-des-crevettes-952852",
+      "pubDate": "Sun, 15 Mar 2026 12:41:15 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Après un plateau de fruits de mer, il reste souvent un bol de crevettes sur la table. Faut-il vraiment les jeter ou existe-t-il un moyen sûr de les congeler ?"
+    },
+    {
+      "title": "Quel est le salaire du maire de Bordeaux ?",
+      "link": "https://www.closermag.fr/actualites/quel-est-le-salaire-du-maire-de-bordeaux-3623654",
+      "pubDate": "Sun, 15 Mar 2026 12:30:33 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le maire de Bordeaux ne figure pas parmi les édiles les mieux rémunérés des grandes villes françaises. Pierre Hurmic a fait le choix d’une indemnité inférieure au plafond légal, avec un cumul qui rest"
+    },
+    {
+      "title": "Nike relance ses courses de nuit 100 % femmes : ce rendez-vous nocturne que toutes les runneuses voudront vivre en 2026",
+      "link": "https://www.doctissimo.fr/forme/faire-du-sport/sports-individuels/courir/nike-relance-ses-courses-de-nuit-100-femmes-ce-rendez-vous-nocturne-que-toutes-les-runneuses-voudront-vivre-en-2026-742690.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 12:30:08 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "De Londres à Mumbai, le Nike After Dark Tour 2026 transforme la course de nuit 100 % féminine en scène géante d’empowerment. Mais que révèle cette tournée du nouveau visage des runneuses, jusqu’en Fra"
+    },
     {
       "title": "Quand quelqu’un vous parle mal, ne commettez jamais cette erreur qui risque de vous coûter cher, alerte cet expert",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/parle-mal-erreur-couter-cher-expert-599157?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -1773,37 +1851,16 @@
       "snippet": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres  Femme Actuelle"
     },
     {
-      "title": "Marathon : pistolet de massage et bottes de compression, le combo gagnant pour ne plus avoir les jambes en feu",
-      "link": "https://www.doctissimo.fr/forme/faire-du-sport/sports-individuels/courir/marathon-pistolet-de-massage-et-bottes-de-compression-le-combo-gagnant-pour-ne-plus-avoir-les-jambes-en-feu-741572.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 09:30:27 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
+      "title": "Cécile Vassas - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hU280U1FDc1V0ck9VaGtwYzVvUHJHQVRVeWRybVlJX3NSeHNMODNKbmpuNFRVMTF0NWNONXlXa3NHMDRlbVFTX25tTHMtRW80RU5HNzBWc1RBWHVsdVpNWEppSXN5a2dJMFlXYXA0TnlCbzhTV1E?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 09:12:27 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
       "competes": [
-        "aufeminin.com"
+        "mariefrance.fr",
+        "pleinevie.fr"
       ],
-      "snippet": "À peine la médaille autour du cou, la saison des marathons laisse des jambes en bois et une fatigue tenace. Quels produits peuvent vraiment changer vos lendemains de course sans exploser votre budget "
-    },
-    {
-      "title": "Clémentine Célarié atteinte d’un cancer : pourquoi elle a \"trinqué au champagne\" après sa première chimiothérapie",
-      "link": "https://www.closermag.fr/people/clementine-celarie-atteinte-dun-cancer-pourquoi-elle-a-trinque-au-champagne-apres-sa-premiere-chimiotherapie-3623922",
-      "pubDate": "Sun, 15 Mar 2026 09:22:58 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Présente sur le plateau de l'émission Quelle époque ! le samedi 14 mars 2026 sur France 2, Clémentine Célarié a été interrogée au sujet de son cancer par Léa Salamé. La comédienne a alors révélé pourq"
-    },
-    {
-      "title": "\"J’ai le droit d’avoir eu peur\" : critiquée pour son appel à l’aide depuis Dubaï, Élodie Gossuin sort du silence",
-      "link": "https://www.closermag.fr/people/jai-le-droit-davoir-eu-peur-critiquee-pour-son-appel-a-laide-depuis-dubai-elodie-gossuin-sort-du-silence-3623918",
-      "pubDate": "Sun, 15 Mar 2026 09:08:55 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Sur Quelle époque !, Élodie Gossuin se confie sur la peur et l’angoisse qu’elle a vécues lors de son séjour cauchemardesque à Dubaï."
+      "snippet": "Cécile Vassas  Linternaute.com"
     },
     {
       "title": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer - ELLE",
@@ -1840,40 +1897,6 @@
       "snippet": "Le café du matin est un rituel sacré pour beaucoup. Mais déguster cette boisson au saut du lit serait une erreur, selon un expert en nutrition. Voici comment optimiser ses effets sur l’énergie et la c"
     },
     {
-      "title": "\"Retire ton doigt de mon visage !\" : nouvelles révélations sur la dispute entre Meghan Markle et le prince William",
-      "link": "https://www.closermag.fr/royautes/retire-ton-doigt-de-mon-visage-nouvelles-revelations-sur-la-dispute-entre-meghan-markle-et-le-prince-william-3623916",
-      "pubDate": "Sun, 15 Mar 2026 08:52:17 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "L'auteur royal Tom Bower a récemment publié un nouveau le livre dans lequel il relate une altercation survenue en 2018 entre Meghan Markle et le prince William, ce que le porte-parole de l'actrice a a"
-    },
-    {
-      "title": "Un chef remplace la planche de charcuterie par du poisson en conserve : voici les trois variétés qu'il préfère",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/un-chef-remplace-la-planche-de-charcuterie-par-du-poisson-en-conserve-voici-les-trois-varietes-quil-prefere-952649",
-      "pubDate": "Sun, 15 Mar 2026 08:34:47 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Longtemps cantonné au sandwich de secours, le poisson en conserve devient l'ingrédient fétiche de chefs en quête de simplicité. Nous vous présentons ici quatre façons de les présenter pour épater vos "
-    },
-    {
-      "title": "\"Temptation bundling\" : voici (enfin) l'astuce imparable pour vaincre la procrastination sans effort",
-      "link": "https://www.doctissimo.fr/psychologie/developpement-personnel/temptation-bundling-lastuce-pour-vaincre-la-procrastination-sans-effort-334361.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 08:30:33 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Vous remettez toujours tout à plus tard ? La procrastination peut être un vrai frein au quotidien. Et si la solution était d’associer plaisir et productivité ? Découvrez le \"temptation bundling\", une "
-    },
-    {
       "title": "Face aux personnes toxiques, les esprits les plus brillants adoptent cette stratégie pour se protéger",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-toxiques-esprits-brillants-strategie-proteger-579244?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 08:07:53 +0000",
@@ -1883,6 +1906,17 @@
         "aufeminin.com"
       ],
       "snippet": "Interagir avec une personne toxique peut être déstabilisant et épuisant. Mais réagir avec intelligence permet de se protéger et de gérer ces situations."
+    },
+    {
+      "title": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ? - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRm1KZXRBUEd4Rm9NR1RTUDZueEFrZWVTZmlBM2llNWtZWTNoTlFubjRsUmFLV1Q4TW81bUN0aUJxWUVfdzFQc0diTGxEUGlJYXlOVHNDZS1LWFRDNlRDbTNUYVhHTWw0RHhiVS1pbV9GekNUcTZaSE5nSmxFaHRLRkpXUXZhLTNJOHgtQnVQMFRZMTRIT2VxVEhUai1UZ0hXQjFDTmUzRWpMWjV2YnNhYldmTkRjSEY3Q3JqSEYwdktzRzc0bU1QYUhCWnJVZw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 08:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ?  Cosmopolitan.fr"
     },
     {
       "title": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs - Notre Temps",
@@ -1916,17 +1950,6 @@
         "aufeminin.com"
       ],
       "snippet": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026  Cosmopolitan.fr"
-    },
-    {
-      "title": "Contrairement à ce qu’ils laissent penser, ces comportements n’ont rien à voir avec la gentillesse, selon cette neuropsy",
-      "link": "https://www.psychologies.com/Moi/Moi-et-les-autres/Contrairement-laissent-penser-comportements-rien-a-voir-gentillesse-neuropsy-580006?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 06:04:13 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Il est difficile de distinguer la gentillesse sincère de l'hypocrisie. Un autre trait de caractère brouille également les pistes."
     },
     {
       "title": "Programme TV Pornographique du samedi 28 mars 2026 - Linternaute.com",
@@ -2051,18 +2074,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Programme TV5MONDE du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Programme TV Telenet du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVAwWExMTVoyU1hMYWs4VnZUSmt2VWhYVG1ncDAzZzlBaWtNMzFHYkVDWmpneTJwSUpyTjZOa0J5djFEZjE4TW05ZldFdTVPWXVjaXNJd25JOFJOMjFWRVozd1VXaTFUQUc5SmFrRWp0SzJobG1UaF9uOEUyeHhjV3p3WQ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:05:36 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Telenet du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "Programme TV Orange du samedi 28 mars 2026 - Linternaute.com",
@@ -2190,6 +2201,17 @@
       "snippet": "F1 : Alexandra Saint Mleux, Lily Muni He... qui partage la vie des stars des paddocks en 2026 ?  Cosmopolitan.fr"
     },
     {
+      "title": "\"Il y a beaucoup d’amour, beaucoup d’affection\" : Enrico Macias se confie sur sa relation avec ses petits-enfants - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOR0R2Y2tfMGxwYnhhbWkteFNlSndSY2xZcFVsb3hNMnUwNGdXUUNnUUEyUmdDYWpKRVY3UGdRaS0wXzVoc2daZWlSRHhVZGZMbGlqaWt5YWwzeTYxR3V3NVZzdWtjaGNXRFRZWWNoYU5fTHVOTmJSUUUxZXNnMDlHVnY4eE1HZlJtR3p1aEJIR0JqcXY2NGRHNFpLU3JtcEJOc2NGUEN6MEFNSHdsZ0FaZUczcjhkUE9aQU9QVDRHdjRJRTYxeE9yOGFXbFJ6YXBIbUtrSGlubUZoNkloZ3NNQjZzOElWMGpDRW92Z1dRUQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 17:45:46 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"Il y a beaucoup d’amour, beaucoup d’affection\" : Enrico Macias se confie sur sa relation avec ses petits-enfants  Femme Actuelle"
+    },
+    {
       "title": "Je me suis habillée pareil tous les jours pendant un mois : ce que j’en ai appris - ELLE",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR3VKUzZmVEgtaWRHeDhCT3lpQ1FrVWdUd1Y1WU55cDI0TTFQNGw4ZHpYZVdoZGlXenJ2WThJeXVSNmZ2THBBMGF1X3JNSFJmaFhWbGpWVzdtS0o4UG5oWVpHRVZMbEtBd2RjZ2RBRElXUTNjMWFTMkhNTUhVUW1WbEFSNEtOb2dYa0pWeWlFYXRJb3NLUkxOVnROd0UwZlFQaC1aaThLTk1vLVlMdFo4UFFnbXd6QWdMVkRVSkZQX2NGUVRu?oc=5",
       "pubDate": "Sat, 14 Mar 2026 17:00:00 GMT",
@@ -2278,6 +2300,17 @@
       "snippet": "Le stress et l’anxiété sont souvent vicieux et nous épuisent sans que nous en ayons conscience. Mais notre corps exprime souvent ce que notre esprit tente d&#039;ignorer. Voici cinq micro-gestes incon"
     },
     {
+      "title": "Les manucures du printemps : lesquelles sont in, lesquelles sont out ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdGdneWd4dy1ZenhyaE9jMUttT0hETnVoT2RwaFdEMUtUSjQ1LThmZnZvVWRKel9VQ1QwVjN1QUJLaWlicFEyYW5BYkNweDFpSHpIVWl3WDZ2MWZfQ0xIR3YyWGZXMDh2NUpqU3RtbGFQQWZaLWlrRURiQ05xQ2lyTHl6TDRGWjl3a1Z5QlU1dUM1WjQ2NmxUN0FDTkpvRHFwZmtoY1Jya3Q1YUE?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 14:30:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Les manucures du printemps : lesquelles sont in, lesquelles sont out ?  ELLE"
+    },
+    {
       "title": "Maya Hawke dévoile les conseils de ses parents Uma Thurman et Ethan Hawke pour gérer sa notoriété - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaGhQRU5hS1ZUNngwV2ZEOUFjSndIU1pBMzdhdzZLX1dkcVA2TDNtTnR3aHhsRElPa2JlOUZIcFJLR0M4MS1NYUlKeXFiOE1zQmR1aTg1WnZyRS1tZGRiLXRQaTB0dXNwR09RRTRIZEFuMXdCaUtLTG1Ta2lZWUhuWWtvdzBvRnRVUlNHZ1NNazdUd3VtSU9PYU9BOUV2MGQ0b0UzZVhtRVNfeS05R0owWFcyTGY3WnVtRzlwcUlrRWZOczNqUVU2S2JrM1hiZmxBUG43VDZFRDF1djlIMnFSclhNN3JRdXBzTnhN?oc=5",
       "pubDate": "Sat, 14 Mar 2026 14:29:00 GMT",
@@ -2300,17 +2333,6 @@
       "snippet": "\"Je suis amoureuse\" : Lucie Bernardoni se confie sur sa vie sentimentale  Femme Actuelle"
     },
     {
-      "title": "Pourquoi ce thriller sur une disparition familiale nous fascine jusqu’au bout - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQ0hBN21odHMwRXl1NnFQT3FHRWhOZHZhdjNrRTlQREJMRWMzeUVpU2huVklkTkNIRlVMWEl3UDFMZ2NNWjY5b1VuQ2tqb0k1bGhVSzlmR1prZmVPdVRvYkZFamFuazU3emQwUFZPNjVBZnRzcklrRjlUQkV4QWdocjR5WVphMXpEdTNEN1JEZXFnSHhGSTZqQmFMOXJjaUFxZEJvY2ZXYWxVVW56QmZ4bFVuNHVsUGlFWE9CYmZmT2REeTBxdU1hMUVqcTlBdEJtczNpUnZDZjlGNFUwdnpRSG9jcw?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 14:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Pourquoi ce thriller sur une disparition familiale nous fascine jusqu’au bout  Cosmopolitan.fr"
-    },
-    {
       "title": "Le top 3 des destinations préférées des Français pour Pâques cette année - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPXzY2dlhqZEF2TnBxaTVYRnF2dFF5VzlWQ0ZJcDlLMklwRXdQTTNWSFFEOVVTSDdiSnhmQXA4R2hjZ01HbWQ4bkhtcG54cFZDanVJUndRQndKd3lveEhqSW1OcGp3eGg4ZThTRDlKR3UyQmtMZ0dSNFpuSnJQYkFUcGMxd2V4d3NFRGlOSXJHYVlzV3BmbFdjUnZmTGRTd1R0RUFtNTh2OEtHVDU1MGlCSXJERQ?oc=5",
       "pubDate": "Sat, 14 Mar 2026 14:00:00 GMT",
@@ -2320,28 +2342,6 @@
         "aufeminin.com"
       ],
       "snippet": "Le top 3 des destinations préférées des Français pour Pâques cette année  Cosmopolitan.fr"
-    },
-    {
-      "title": "Voici la recette de pâtes mon beau-père italien qui a changé ma vie - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORU1LbzBaZHJTcTF1eno5R3h5MDk2NUJEU1U4b19uU0RZVUJEaE9ZTVJTZ2U4Y2w0SVVsRHVxV1dlUl95RHNvOEJFdHVENHVqcE5XMHAtY2pWeGtMSFFKaVJTaHpJS1djX1Bsckp1djdpMG9ENFBiRXlnb2FiQXF4Qnp1QWpjTTZINGJRRFVnVjc2Mnd5M3RsSXBpZ3hJa2hvSEQ2RUdmWjgtZVk4eS1IQkJpMlExbkhWVXlxYno4bDAwUzhNNldwRjlqeVNBWS04cHd5cnN3T3VUcFNqWEM1Q2FJenlHZTNUX1pkYjV5WQ?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 13:00:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Voici la recette de pâtes mon beau-père italien qui a changé ma vie  ELLE"
-    },
-    {
-      "title": "Danse avec les stars : blessée, Laure Manaudou risque d'être disqualifiée - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORTB1MENtbWM0V212YTZpV3dnOWI2SHN4djJFMTgzMTk2Z1dDNnpBSUM2Y0dPdnU4U216N3hobzJtcDNCS2JXSExScF9LU1Btc1JoRS1HeUxUVjE0eDJIV1Z6YkEwYk5KM1RqeFN0dm1kejRhRUpKbXZISWRmdzg5bFNpUkwtRzZQYm5XT09iOW9zOHNSLUY5ODdpMVh3Z2dVcDAyTkZoYTNmeU1RYzJsRUNOWWdvTENkQXQ5VG5MNA?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 12:48:15 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Danse avec les stars : blessée, Laure Manaudou risque d'être disqualifiée  Femme Actuelle"
     },
     {
       "title": "Muscles : 7 aliments les plus riches en leucine à consommer impérativement après 50 ans",
