@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T10:08:13.470Z",
+  "updatedAt": "2026-03-15T10:13:45.191Z",
   "veilleBriefs": [
     {
       "date": "2026-03-15T09:21:00Z",
@@ -1421,6 +1421,964 @@
     {
       "type": "info",
       "message": "Certaines automatisations n'ont pas encore tourné."
+    }
+  ],
+  "competitorArticles": [
+    {
+      "title": "\"Je ne supportais plus de voir son nez\" : le TOC du couple peut s’immiscer dans votre vie amoureuse et détruire votre quotidien, alerte une psy",
+      "link": "https://www.psychologies.com/couple/vie-de-couple/TOC-couple-immiscer-vie-amoureuse-detruire-quotidien-psy-561640?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 10:04:25 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Si les TOC ne manquent pas de visibilité, ils sont souvent caricaturés et associés aux comportements liés à l’hygiène ou à l’ordre. Mais ce ne sont pas les seules causes de souffrances. Parfois, c'est"
+    },
+    {
+      "title": "\"J'ai amélioré ma santé intestinale depuis que je prends cet aliment chaque jour\"",
+      "link": "https://www.topsante.com/nutrition_et_recettes/jai-ameliore-ma-sante-intestinale-depuis-que-je-prends-cet-aliment-chaque-jour-952842",
+      "pubDate": "Sun, 15 Mar 2026 10:04:23 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "En France, nous tournons autour de 20 g de fibres par jour, bien loin des 30 g recommandés pour une santé intestinale optimale. Je raconte comment ce simple cap quotidien a changé mon ventre, mon éner"
+    },
+    {
+      "title": "Si Lisbonne n'entre pas dans votre budget, sachez que cette ville portugaise est la moins chère d’Europe en 2026 - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNOHhkYlNfcFozSTBLR3dBdE9PY2VLcEsxTXVGd0hRWWtLOEdfM2tuT3FXckpOWkZaVjZCckM5aUVCZjdGSThYYXB3MlhleklrcG9BSl9uOUp3UkowY1daS1FyMTJtRzRfZkN3amw5QkRXS2JaTko0U2wtTUZBMi00UzVDajhmaWJkVmVLdzYxcVFjempaWlBrQ3dyU0JUcnp6ZkJHYjBvYlhHYjEzZDkwa210N3ZfMDV2VUdfUXZjaFZLVVp4QU5HYmVxM05NNnZBS1FZcGdYOU1iSU5JWFpGV05fNUZmUQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 10:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Si Lisbonne n'entre pas dans votre budget, sachez que cette ville portugaise est la moins chère d’Europe en 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "\"On a roulé toute la nuit\" : Élodie Gossuin raconte son extraction de Dubaï pendant les attaques au Moyen-Orient",
+      "link": "https://www.closermag.fr/people/on-a-roule-toute-la-nuit-elodie-gossuin-raconte-son-extraction-de-dubai-pendant-les-attaques-au-moyen-orient-3623926",
+      "pubDate": "Sun, 15 Mar 2026 09:52:55 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Sur Quelle époque ! le 14 mars, Élodie Gossuin se confie et révèle comment elle a réussi à rentrer en France après son périple à Dubaï."
+    },
+    {
+      "title": "Dany Boon : sa villa belge ultra-prisée - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNV3RENkRTUXgxTF9qZ1dZamlzWUxBdmdlb3ZkdXlKUnNSaHhTNERCenVTQkJMVU0ta3oyRUVjUFYtbkVmM1lSZC1jaVltdTV2TVdFZ2UtOU1wdkt5UUZYNjBpdVZub0wtb0hSNHdHbXNLeE93Q0dSMEVhcUdRV1lDWmJfb2NNd3dxRlJyRndjQzE4YUZLYkJIV0JkZ2E5eHlOaXVwT3cwMmhLNEtTMFlPQW55VkZUWENMcWxr?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 09:35:50 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dany Boon : sa villa belge ultra-prisée  Cosmopolitan.fr"
+    },
+    {
+      "title": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdG5UOHlSd21MTHRidTFzTTZTSlIxbzZCazcxTkdmRUk4Y1QyRlZuU1QtU1lyQWFLeUVVWTBBMGFMaDB2ZVM5U0NrYzJJTFdmODRnRUM5SjNRcmJUMUVsaHhBQ0JCeC1RXzJGV2lxRjgtel9JYnZBazBqclR4U3FRM0xvVUJOT1BKd3JyUk5oUkZtRVVRMkpXSGtUcngtenlkSWVMcUE2Y3dZX3VYYndLam5WWjMwNURpQV9PX1M5U1VIaHRYczJ6aDhHRi0xVlZfcmFtV3FnM05NSExLU2R1OFEtRzdwRlpsOVVLUGFGQ1g?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 09:32:00 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres  Femme Actuelle"
+    },
+    {
+      "title": "Marathon : pistolet de massage et bottes de compression, le combo gagnant pour ne plus avoir les jambes en feu",
+      "link": "https://www.doctissimo.fr/forme/faire-du-sport/sports-individuels/courir/marathon-pistolet-de-massage-et-bottes-de-compression-le-combo-gagnant-pour-ne-plus-avoir-les-jambes-en-feu-741572.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 09:30:27 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "À peine la médaille autour du cou, la saison des marathons laisse des jambes en bois et une fatigue tenace. Quels produits peuvent vraiment changer vos lendemains de course sans exploser votre budget "
+    },
+    {
+      "title": "Clémentine Célarié atteinte d’un cancer : pourquoi elle a \"trinqué au champagne\" après sa première chimiothérapie",
+      "link": "https://www.closermag.fr/people/clementine-celarie-atteinte-dun-cancer-pourquoi-elle-a-trinque-au-champagne-apres-sa-premiere-chimiotherapie-3623922",
+      "pubDate": "Sun, 15 Mar 2026 09:22:58 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Présente sur le plateau de l'émission Quelle époque ! le samedi 14 mars 2026 sur France 2, Clémentine Célarié a été interrogée au sujet de son cancer par Léa Salamé. La comédienne a alors révélé pourq"
+    },
+    {
+      "title": "\"J’ai le droit d’avoir eu peur\" : critiquée pour son appel à l’aide depuis Dubaï, Élodie Gossuin sort du silence",
+      "link": "https://www.closermag.fr/people/jai-le-droit-davoir-eu-peur-critiquee-pour-son-appel-a-laide-depuis-dubai-elodie-gossuin-sort-du-silence-3623918",
+      "pubDate": "Sun, 15 Mar 2026 09:08:55 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Sur Quelle époque !, Élodie Gossuin se confie sur la peur et l’angoisse qu’elle a vécues lors de son séjour cauchemardesque à Dubaï."
+    },
+    {
+      "title": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNMjZrSHBrRmhXZzZUb3ZnS1FkZ2xDMnYzZHlBT25VNlU0LTBpYVlRMnpjTHdTUmQxckM2Q0xCLVZXcnJiMHVDQ1RnSk9iQlpEUTN4UFVJbVhrM3NZakxtekR1OTBhR05RUTNOWjJndDBXMXJTVVBFZDQxZVRtNkpOaFRxeC1Mc1BDT2dfQkw4SGxiM3hzeTFTOXhzR0stX3kzWHZIdTl0OENPbXJVaGp1d19DTzBuaWMzdmJhdGlwU2l2eS14bG9kWTUwYWQtLVJGT0tqZGtqTklhTG51?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 09:04:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer  ELLE"
+    },
+    {
+      "title": "Stations-service prises d'assaut : vous n’êtes pas fou, votre cerveau obéit simplement à ce réflexe primitif méconnu",
+      "link": "https://www.psychologies.com/actualites/sciences-et-sante/Stations-service-prises-dassaut-vous-netes-pas-fou-votre-cerveau-obeit-simplement-a-ce-reflexe-primitif-meconnu-624978?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 09:02:51 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Files interminables, jerricans remplis... la France stocke l'essence comme si la fin du monde arrivait. Le coupable ? Un réflexe primal de survie."
+    },
+    {
+      "title": "Une nutritionniste révèle la \"règle des 45 minutes\" que tout buveur de café devrait suivre.",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/une-nutritionniste-revele-la-regle-des-45-minutes-que-tout-buveur-de-cafe-devrait-suivre-952760",
+      "pubDate": "Sun, 15 Mar 2026 09:02:38 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Le café du matin est un rituel sacré pour beaucoup. Mais déguster cette boisson au saut du lit serait une erreur, selon un expert en nutrition. Voici comment optimiser ses effets sur l’énergie et la c"
+    },
+    {
+      "title": "\"Retire ton doigt de mon visage !\" : nouvelles révélations sur la dispute entre Meghan Markle et le prince William",
+      "link": "https://www.closermag.fr/royautes/retire-ton-doigt-de-mon-visage-nouvelles-revelations-sur-la-dispute-entre-meghan-markle-et-le-prince-william-3623916",
+      "pubDate": "Sun, 15 Mar 2026 08:52:17 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "L'auteur royal Tom Bower a récemment publié un nouveau le livre dans lequel il relate une altercation survenue en 2018 entre Meghan Markle et le prince William, ce que le porte-parole de l'actrice a a"
+    },
+    {
+      "title": "Un chef remplace la planche de charcuterie par du poisson en conserve : voici les trois variétés qu'il préfère",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/un-chef-remplace-la-planche-de-charcuterie-par-du-poisson-en-conserve-voici-les-trois-varietes-quil-prefere-952649",
+      "pubDate": "Sun, 15 Mar 2026 08:34:47 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Longtemps cantonné au sandwich de secours, le poisson en conserve devient l'ingrédient fétiche de chefs en quête de simplicité. Nous vous présentons ici quatre façons de les présenter pour épater vos "
+    },
+    {
+      "title": "\"Temptation bundling\" : voici (enfin) l'astuce imparable pour vaincre la procrastination sans effort",
+      "link": "https://www.doctissimo.fr/psychologie/developpement-personnel/temptation-bundling-lastuce-pour-vaincre-la-procrastination-sans-effort-334361.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 08:30:33 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Vous remettez toujours tout à plus tard ? La procrastination peut être un vrai frein au quotidien. Et si la solution était d’associer plaisir et productivité ? Découvrez le \"temptation bundling\", une "
+    },
+    {
+      "title": "Toute personne ayant un taux de cholestérol élevé est invitée à manger ce poisson",
+      "link": "https://www.topsante.com/nutrition_et_recettes/regimes_alimentaires/regime_anti_cholesterol/toute-personne-ayant-un-taux-de-cholesterol-eleve-est-invitee-a-manger-ce-poisson-952715",
+      "pubDate": "Sun, 15 Mar 2026 08:11:42 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Selon des experts en nutrition, plusieurs ajustements alimentaires peuvent aider à réduire un taux de cholestérol élevé et ainsi diminuer les risques cardiovasculaires."
+    },
+    {
+      "title": "Face aux personnes toxiques, les esprits les plus brillants adoptent cette stratégie pour se protéger",
+      "link": "https://www.psychologies.com/moi/se-connaitre/personnes-toxiques-esprits-brillants-strategie-proteger-579244?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 08:07:53 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Interagir avec une personne toxique peut être déstabilisant et épuisant. Mais réagir avec intelligence permet de se protéger et de gérer ces situations."
+    },
+    {
+      "title": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ? - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRm1KZXRBUEd4Rm9NR1RTUDZueEFrZWVTZmlBM2llNWtZWTNoTlFubjRsUmFLV1Q4TW81bUN0aUJxWUVfdzFQc0diTGxEUGlJYXlOVHNDZS1LWFRDNlRDbTNUYVhHTWw0RHhiVS1pbV9GekNUcTZaSE5nSmxFaHRLRkpXUXZhLTNJOHgtQnVQMFRZMTRIT2VxVEhUai1UZ0hXQjFDTmUzRWpMWjV2YnNhYldmTkRjSEY3Q3JqSEYwdktzRzc0bU1QYUhCWnJVZw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 08:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ?  Cosmopolitan.fr"
+    },
+    {
+      "title": "\"Je m’en veux\" : après avoir critiqué Benjamin Lavernhe, Laurent Ruquier fait son mea culpa",
+      "link": "https://www.closermag.fr/people/je-men-veux-apres-avoir-critique-benjamin-lavernhe-laurent-ruquier-fait-son-mea-culpa-3623911",
+      "pubDate": "Sun, 15 Mar 2026 07:59:09 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Sur T18, Laurent Ruquier fait un mea culpa cash et revient sans détour sur ses paroles, ne mâchant pas ses mots devant les téléspectateurs."
+    },
+    {
+      "title": "\"J’ai été une très mauvaise mère\" : Élodie Gossuin revient sur son voyage en famille à Dubaï pendant les attaques au Moyen-Orient",
+      "link": "https://www.closermag.fr/people/jai-ete-une-tres-mauvaise-mere-elodie-gossuin-revient-sur-son-voyage-en-famille-a-dubai-pendant-les-attaques-au-moyen-orient-3623907",
+      "pubDate": "Sun, 15 Mar 2026 07:39:33 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Invitée dans l’émission Quelle époque !, Élodie Gossuin se confie sur ses vacances cauchemardesques à Dubaï."
+    },
+    {
+      "title": "Petit-déjeuner anti-cholestérol : les 5 conseils essentiels de notre diététicienne",
+      "link": "https://www.doctissimo.fr/sante/cholesterol/alimentation-et-menus-anti-cholesterol/alimentation-anti-cholesterol/petit-dejeuner-anti-cholesterol-5-conseils-essentiels-dune-dieteticienne-330588.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 07:30:10 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Vous avez du cholestérol et ne savez pas quoi manger le matin ? Alexandra Murcier, diététicienne-nutritionniste, dévoile les meilleurs choix alimentaires pour un petit-déjeuner sain et bénéfique pour "
+    },
+    {
+      "title": "Une association alerte : cet aliment populaire au petit-déjeuner serait \"tout aussi mauvais pour la santé que les céréales au chocolat\"",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/une-association-alerte-cet-aliment-populaire-au-petit-dejeuner-serait-tout-aussi-mauvais-pour-la-sante-que-les-cereales-au-chocolat-952670",
+      "pubDate": "Sun, 15 Mar 2026 07:08:57 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Une étude de l'association britannique Which? révèle que certains mueslis de supermarché affichent un profil nutritionnel aussi médiocre que des céréales chocolatées."
+    },
+    {
+      "title": "Les psys sont formels : si vous observez ces 7 signes, votre relation est en train de s'essouffler (et comment y remédier)",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/relationnel/signes-votre-relation-est-en-train-de-sessouffler-et-comment-y-remedier-624948?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 07:03:08 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Quand l’amour ne se termine pas par une rupture brutale mais par un lent effritement, il peut être difficile de savoir si la relation traverse simplement une phase, ou si elle est réellement en train "
+    },
+    {
+      "title": "Comment sécuriser son extérieur sans se ruiner ? La caméra Ring Outdoor Plus passe à 54,99€ pour une durée limitée",
+      "link": "https://www.closermag.fr/shopping/comment-securiser-son-exterieur-sans-se-ruiner-la-camera-ring-outdoor-plus-passe-a-5499e-pour-une-duree-limitee-3623147",
+      "pubDate": "Sun, 15 Mar 2026 07:00:57 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La surveillance de son jardin ou de son entrée devient plus accessible avec cette promotion sur la caméra extérieure Ring Outdoor Camera Plus à l'occasion des Ventes Flash de Printemps Amazon. Avec sa"
+    },
+    {
+      "title": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026 - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX05Rb3J0VFR2Nk4wS1JEUVF4VFpSREFOcC1OZUI1VGN5ZjhsdjAxWjYzUDJENzRCOWFyNUExVnJzcDZoLTJIY3JYRVBlTVFTb0lKSm5Qbkh0SnRSWG4tNWc1eWdIbVBhRWNQNHgyXzJfUFFpam9ZZjB1aWRscXduMnJEUFNJcnRIMnEyNUd3T0NpRUx4NVZXV0piQmV6YVBsektUZE5pLXV3NTU3dTZkcEctWHFtN2cxZTlmN3ZtOVFTOUE?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 07:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Cuisson à la vapeur : comment préserver les propriétés des pommes de terre, des carottes et des oignons",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/cuisson-a-la-vapeur-comment-preserver-les-proprietes-des-pommes-de-terre-des-carottes-et-des-oignons-952840",
+      "pubDate": "Sun, 15 Mar 2026 06:47:55 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Cuisson vapeur pommes de terre carottes oignons : quelques minutes suffisent pour tout changer dans l’assiette. Entre temps de cuisson, découpes et nutriments préservés, ce guide détaille les bons réf"
+    },
+    {
+      "title": "Quel est le salaire du maire de Marseille ?",
+      "link": "https://www.closermag.fr/actualites/quel-est-le-salaire-du-maire-de-marseille-3623642",
+      "pubDate": "Sun, 15 Mar 2026 06:30:19 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le maire de Marseille perçoit une indemnité d’environ 8 817,06 euros brut par mois, soit environ 7 120,08 euros net mensuels. Ce montant correspond à la rémunération actuelle de l’édile de la cité pho"
+    },
+    {
+      "title": "Café : ce nombre de tasses par jour que vous devriez viser pour éloigner dépression et anxiété",
+      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/cafe/cafe-et-sante/cafe-ce-nombre-de-tasses-par-jour-que-vous-devriez-viser-pour-eloigner-depression-et-anxiete-742461.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 06:30:02 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Et si votre pause café influençait votre moral ? Une immense étude a suivi 461 586 Britanniques pendant plus de 13 ans pour interroger le lien entre tasses quotidiennes et santé mentale. Les résultats"
+    },
+    {
+      "title": "Contrairement à ce qu’ils laissent penser, ces comportements n’ont rien à voir avec la gentillesse, selon cette neuropsy",
+      "link": "https://www.psychologies.com/Moi/Moi-et-les-autres/Contrairement-laissent-penser-comportements-rien-a-voir-gentillesse-neuropsy-580006?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 06:04:13 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Il est difficile de distinguer la gentillesse sincère de l'hypocrisie. Un autre trait de caractère brouille également les pistes."
+    },
+    {
+      "title": "Selon 5 podologues, voici la meilleure chaussure de marche : il s'agit de la marque ...",
+      "link": "https://www.topsante.com/medecine/sante_des_mains_et_des_pieds/douleur_aux_pieds/selon-5-podologues-voici-la-meilleure-chaussure-de-marche-il-sagit-de-la-marque-952647",
+      "pubDate": "Sun, 15 Mar 2026 05:49:25 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Près d’un tiers des Français ont les pieds plats et finissent leurs journées de marche avec des douleurs. Cinq podologues s’accordent ainsi sur la basket idéale."
+    },
+    {
+      "title": "Programme TV Pornographique du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQT1BnZWlUQzE3eVBDN0V4WXpHell0RHlvWDlWaXBUQVVObUVRb0xmaFVRLThJcWpGS0h4ZENEUTA4OER2dGtxaEk4VlhkM21tVE9fZG50MTJKSXRod0Ftd2dYT3VYb09ZY1lsZWlKN3FCbE1zX2NER3RSVWxfQzVTeVFtdzFMbU5vVk1EbXNlNzM?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 05:37:35 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Pornographique du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Fini les fringales : ce sandwich sain est le secret des nutritionnistes pour un matin plein d'énergie",
+      "link": "https://www.doctissimo.fr/nutrition/manger-equilibre/petit-dejeuner-equilibre/fini-les-fringales-ce-sandwich-sain-est-le-secret-des-nutritionnistes-pour-un-matin-plein-denergie-741547.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 05:30:45 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Validé par des experts en nutrition, ce sandwich de petit-déjeuner sain promet de bousculer le duo café-croissant. Quels atouts cachés lui permettent de tenir jusqu’au déjeuner ?"
+    },
+    {
+      "title": "Le fruit numéro 1 pour consommer assez de fibres alimentaires chaque jour",
+      "link": "https://www.topsante.com/nutrition_et_recettes/les_bons_aliments/fruits_et_legumes/le-fruit-numero-1-pour-consommer-assez-de-fibres-alimentaires-chaque-jour-952537",
+      "pubDate": "Sun, 15 Mar 2026 05:00:28 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Une diététicienne américaine nous confie son astuce pour atteindre le quota de 30 g de fibres par jour : manger des framboises sans modération !"
+    },
+    {
+      "title": "Les personnes qui ne se sentent pas en accord avec leurs valeurs ne se mentent pas à elles-mêmes, elles ont cette qualité rare, selon la science",
+      "link": "https://www.psychologies.com/moi/se-connaitre/personne-pas-accord-valeurs-mentent-pas-qualite-rare-science-624743?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 04:54:44 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Entre les valeurs que l'on défend et l'intégralité de nos pensées et de nos comportements, il arrive que certains décalages nous hantent. Mais ils ne sont pas forcément le signe d'un manque d'authenti"
+    },
+    {
+      "title": "Équilibre hormonal : pourquoi manger 30 g de protéines au réveil change radicalement la santé des femmes",
+      "link": "https://www.doctissimo.fr/nutrition/nutriments/proteines/equilibre-hormonal-pourquoi-manger-30-g-de-proteines-au-reveil-change-radicalement-la-sante-des-femmes-742254.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 04:38:18 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Sur TikTok, un même rituel revient dans les assiettes des femmes : un petit-déjeuner chargé en protéines. De Berlin à Paris, médecins et nutritionnistes y voient un levier discret pour apaiser les mon"
+    },
+    {
+      "title": "Premier tour des municipales, suspense maximum dans les grandes villes - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWkFOSjVIYnA0UTA4R1dGa1dKZ1Bzd3FaeEUyY1RUVXFfSTBqSkp2VlZrN2x3TmFlcDBnWDdOV2FYWUxFdTJaYjdJMjJyWFJBNTNLZUJmTzVINnNFMjRBV09oYlJqOE1YWWRQWlNIQnVKS0ZkRWV4Z3hKYVpvMzBwREYybHNXM291LVpIQlhWRkgza1NPcG1HT3hXUUs0bC0wWElEOF9FRjNXOURRMU9SdkxR?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 04:21:11 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Premier tour des municipales, suspense maximum dans les grandes villes  Notre Temps"
+    },
+    {
+      "title": "Horoscope du dimanche 15 mars 2026 pour tous les signes astrologiques - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE93N1QyYjI2R1FnNC1LblRBbFI2MHM2UmQwUHdKNVhZTjFRY2VvcEwxUkhfYXpRQVdvS1hXaVN5dzRJX08ta0RFXy1VRXVLZ0VHMGRfM3hUTldGWi1tQ0Z5b3pRY3ZpMzZwX3JHeTZhZzA5M19VYlJMV1RKNTM0NFd1b25ORnZVbERyVHlMaTZoQmUyQTZhUHlLT2paejVmR2QwOGJxY2RNNE15SlFHYklIbURmNUZ5N09ndTFhYw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 04:05:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Horoscope du dimanche 15 mars 2026 pour tous les signes astrologiques  ELLE"
+    },
+    {
+      "title": "“Tout le reste est superflu” : voici les 3 seuls et uniques besoins de l'être humain pour être heureux, selon les psys",
+      "link": "https://www.psychologies.com/moi/se-connaitre/3-seuls-uniques-besoins-etre-humain-etre-heureux-psys-581258?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 04:02:50 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Que nous faut-il pour enfin parvenir à être vraiment heureux ? Si chacun pouvait avoir sa propre réponse au regard de ses objectifs de vie et de son expérience, il semblerait que trois critères soient"
+    },
+    {
+      "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
+      "link": "https://www.medisite.fr/maladies-incontinence-une-nouvelle-technique-revolutionnaire-actuellement-a-lessai.5717301.42.html",
+      "pubDate": "Sun, 15 Mar 2026 04:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "L’incontinence urinaire masculine, souvent consécutive à une chirurgie de la prostate, pourrait bientôt être traitée grâce à l’implant automatisé UroActive, une innovation actuellement testée en Franc"
+    },
+    {
+      "title": "Mots fléchés gratuits - Force 3 - 15 mars 2026 Grille n°3884 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXJDSU1EU1l5WEYyblB0TVgtNkFGVFdfNURaNkpPUmx1Y3V3RC1veWNxWlkyeXR5cFgzUnBPWEY1QjFSNmJITGpQOWs1YmZTRmhSTG1iQUlrc3dBQkgyWTZvLUVsWVlKRjdpWkRrdDZhUXllZmJnWjJCUXhCM3lZTmltOTJadDBBaWgxdUkzUnlPbHROeUtqWmVBN3FJODY1bm9pSGpPMlhKRnZTYnBrZl96WFdYWXEzdXhacjRR?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 02:06:09 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots fléchés gratuits - Force 3 - 15 mars 2026 Grille n°3884  Notre Temps"
+    },
+    {
+      "title": "Mots fléchés gratuits - Force 2 - 15 mars 2026 Grille n°3885 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObW1mczJlY3VXTFFTaTdRTDlIM1VIMzNadFlJeDM2SDBIMUREWC1lQzFoX1BWSzFnUjVVblB1VUw3bFBWYTRmSjM1a3ZUNGlVbWotWDBsRWt5cEJka2Y3TFh6UEVva1VYR09acHVsWE9MY2s1T2dpTzJVMjA5djZyckF3dTJ0eUZkVlhhT0R5T19Ca01WNFZDZGh2c3lBRnpta2U2b2FDbmRWS29QU3lXdGQ3ZFE3WmRmLUxyWmFn?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 02:06:08 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots fléchés gratuits - Force 2 - 15 mars 2026 Grille n°3885  Notre Temps"
+    },
+    {
+      "title": "Mots fléchés gratuits - Force 1 - 15 mars 2026 Grille n°3885 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQaWVRMUFiQXNWTlUzaGdUTk1TQnY2VEFMblJfX1FnZGE1dFZYSkxLSEwwMHNfYU1kVE9ENWJDTmZndllSbFZzRlB0ZnhNOGdnLTJxRVM3cHRmN3ltcHgtX1hrOXNpVDdpTFduV1hUcGR3ZzFxcjRneFZ2aVFjUFBjcThqeERhMVJyZmpKQnl2M254ak1wd0JmMUw5eDFQT01GVS1qdWlJbnp4dzZhQzZ4QkZ4V0hqU0xTbWtKeGt3?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 02:06:07 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots fléchés gratuits - Force 1 - 15 mars 2026 Grille n°3885  Notre Temps"
+    },
+    {
+      "title": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNFpZOXlWcXhOSW42WGdyZHNkWUFPZVZyYzNQanhTU2F4UGRoMHZBSC1ZNjY1VDFLNDFidWpWZWY5RUVCZ3VWQ2JGQ3RETF9ZVzBrb2tqX2tKWFBnTjFmeXBnQ1lmZGJ6ODZxN0gtVXRFLUlmVTczMDZybXdHWjgwTkxQOGFWUU9RT2RTdV9xOE1UWS1wS3lRb2o1bnlZV3hKekh3ZGpFNFZxb29Hbm5YWXdJOWhXdXNBRHFxbHJ3?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 02:06:05 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
+    },
+    {
+      "title": "Programme TV Culinaire du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXVuMmo4VGI2dnlwWW9HT3BiNnVwNjZzRFY3TnZjTVB4TmpWTVA2N3kxMHlGdkh2WDBwWDBxUFA5VHVEckQ0VkJSR25QOVdzeXVsQTZaM09GdlVTbUNfNTRjS1dHQkZ4MkVLLTVRYmE1bVh3cy04MlRoR1pYcVo2TUdlUXZlNms?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:39:37 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Culinaire du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "aspirateur - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ZXN1ZGhLUjRyVFU0Q05oLUp6TFY0eExtaTJTT3F2RUxVb3lpRG5wMXRXYWU1R3pFakxnSXM1RTBxTlRFMjdRa0EyclpsRzVZQlVGRlRCeXhRSWUxSm5Z?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:30:04 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "aspirateur  Femme Actuelle"
+    },
+    {
+      "title": "Programme TV5MONDE du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOUWtvNFdwVlBuRHRxQ3JpZ1JqU3FaOVA0cUpRbS1KcVpvZGNUQ2F4dmlET095QTdUZllxbUQ4ajQ0QzRHMHpLbGJKc1c0cmN5SlJHZHRUUGNxWE4waVVoREtKazhRcncwWFZBNjdMRjRBNFZ5bnBBbGF5Yll4Y0F5OS0tY2Y?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:09:27 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV5MONDE du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Telenet du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTVAwWExMTVoyU1hMYWs4VnZUSmt2VWhYVG1ncDAzZzlBaWtNMzFHYkVDWmpneTJwSUpyTjZOa0J5djFEZjE4TW05ZldFdTVPWXVjaXNJd25JOFJOMjFWRVozd1VXaTFUQUc5SmFrRWp0SzJobG1UaF9uOEUyeHhjV3p3WQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:05:36 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Telenet du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Orange du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMEViSXR5VzA5R3ZsaDJqLVZuMDBha25EaEoyVVJ3SG5oTDNqUnNxaWxybnY5MjZCTjVxQ2JHams5TmIxRldBSk1sTUdXaENrZGgxUlJORjRKN3haYmlwdjdpcUxmcUtBOWtqRXpCQ0pZb0dyWm9uR1Q1b01PSUZ6UW5B?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:05:35 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Orange du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Proximus du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHBONnFDWTNnX0wxYXVTeTlwVmYtVHV1eUdmS19yQ1JBMGo3MUxpNVVKLVpudElFb2xmQ1dkOU93M3BrUmd1YlJFMWE4V2hiTHYzVDZOTEM1T2tCS2xsQ2RubEVrUkR2NWxPVjZjZkItSmJaLUdqMEplbTdXU1RacjRkSnY?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:03:50 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Proximus du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Numericable Belux du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWxhMUFQQVI3UDQycC1qTVkyUXJwMU52Vjd1YWpVcG16OXpCajgtUm5IbllOMm1SMUp6MWVGdjJhMVNYZkdqX1pLbUU5b19OZndoakI2bWZUc2wxTzQ5NlRJZzhweUJkejNsRjhKREM4TmZQaW9RNkoySGdnQm1vejdvRVRrREstTTR3Q2lfaEw?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:03:19 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Numericable Belux du samedi 28 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Wordle : Le Mot du jour gratuit - 15 mars 2026 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaDNJUHBRWmtnX3I2Q1V0RjIwQTZxOFlnbWR5dEJ1S241cjh3Zl9HWDc2b18tSVFlMjVXZHcybm1ETkVoWm53RjEzYkNpTlVoMTQ4QTNqa3FwWjVPU1IwS3N0N1IwTk9ranYzQkFVcGpJbGZHcnp6X253NTdOSFl5dE56MTRoTHZwNjB4bXZNbDFGd2Q3dVBiYWlDY1VHZ1FUZm9adXBPY1BMLTA2LXlSM194Z1Q?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:00:00 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Wordle : Le Mot du jour gratuit - 15 mars 2026  Notre Temps"
+    },
+    {
+      "title": "Ce petit geste facial trahit les narcissiques et permet de les repérer en quelques secondes, selon une étude",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres/geste-facial-precis-identifier-narcissique-quelques-secondes-chercheurs-559584?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sat, 14 Mar 2026 22:09:39 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Si les personnalités narcissiques sont généralement décrites par le biais de certains comportements et certaines paroles, d’autres signes visuels peuvent être révélateurs."
+    },
+    {
+      "title": "Programme TV Urbains du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdUU2bm5Ma2pNZ3BmZEQ5SjczQlVBbGZ1Q2E2bFVYWUVxSWkwYm9wVXVqMVNObEk5MUs0LUJvY3VYQzRyN2FCWXo1SldaZE5ld3lTZ1g5TVZLeG1ia2lJcFZHb0JEX0NFdHJ3NzhpbGhvOGNkcWlwa3FMbzVWYVhSSTZmekhsbFFHeFZwekhQUlo?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 21:13:56 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Urbains du vendredi 27 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Vous avez moins d’une relation sexuelle par semaine ? Un risque de 70% de mourir dans les 5 ans...",
+      "link": "https://www.doctissimo.fr/sexualite/desir-et-plaisir-sexuel/sexualite-epanouie/moins-dune-relation-sexuelle-par-semaine-risque-de-70-de-mourir-dans-les-5-ans-332360.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sat, 14 Mar 2026 21:00:04 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Selon une récente étude, la fréquence des relations sexuelles est corrélée chez la femme à son risque de mortalité. Une donnée qui diverge chez les hommes, mais qui s’explique par plusieurs théories."
+    },
+    {
+      "title": "Qui a gagné le plus d’Oscars ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5yN2lEM0RjRkJsQnBKM0ZFaEdlYVpHek9seVo1UnBTYzVBdWRyck1aRDJhUV9EbmlLT3dSUWNPaGZMUEI4TWk3a214RFR4NExRamM4T05mNUhYNWY0WmZOckhDXzB5UEZBWjdzcTV5c2NjZDNvcktJ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 20:58:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Qui a gagné le plus d’Oscars ?  ELLE"
+    },
+    {
+      "title": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPV3RueGc4SkdiYnhhNllkdWdNVWdXdWpIQ0FMS1VBTEE1R1FaRVBpLVYtT2tUOXJsVFRlU0M5TEJiNjhKaDVrN3Q2RE96YWxXLThzN3d0cHVYVVdOYVFVVkp5QjgzY19rZHN6UWZIY0I3OWhTeGpQTVB0SlBiX0FxQ2N3allJdzMwN3I3bGZrWGtQOU9UazRNWjJBbDBIaHJTNkVWYTRBSmVWMmM3dllUOXVGcnRpY1lONkxSTVhlQXBvQThmekxkOXFmSHEtclhHZ3RFenRNdko?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 20:46:17 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars  Femme Actuelle"
+    },
+    {
+      "title": "Gauche ou droite ? Le côté du lit que vous choisissez en révèle (beaucoup) sur vous",
+      "link": "https://www.doctissimo.fr/psychologie/mieux-se-connaitre/gauche-droite-le-cote-du-lit-que-vous-choisissez-revele-beaucoup-sur-vous-334009.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sat, 14 Mar 2026 20:30:28 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Le choix du côté du lit ne serait pas aussi anodin qu'il n'y paraît. Une étude récente menée aux États-Unis suggère que cette préférence pourrait révéler certains traits de votre personnalité. Découvr"
+    },
+    {
+      "title": "\"Je croyais que j’étais seule\" : Laëtitia Milot se confie sur son combat contre l’endométriose - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNnR0c3Zid0U0RUNkQnZ2YVFzNEFqSjV5SmZyLTRLMlQ3eXlTTDlSUlNrWmg2T0QxemlXM0VvSlU3N2x4aEEtZzhCZVhOUEtEUjlkUHozU1RIX1hVYkN6b2VRYlFKVlh3Zmh6MUpNQWJ5WDQ0SWxjbmdFeGxDVm9ZWFpTa1pSbXBVVEFOVTN3RENSNUtKeDIxdVlPZnZaX0I1aXhVa3lvUU8yRnJTVGRNTWpfM2dId0x2ZkhXNXlLQjh0MjFXZ2VPSnFpVjhWQWtQVVB5Y1Qxbw?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 19:31:07 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"Je croyais que j’étais seule\" : Laëtitia Milot se confie sur son combat contre l’endométriose  Femme Actuelle"
+    },
+    {
+      "title": "A la veille des municipales, des dizaines de milliers de manifestants contre le le \"fascisme\" et la guerre - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaUgydE83c2FfcVFoeDlrZnZRT0hGeHlhRnFLOWdrWFBpdTJrODJvNlRZT052d3pweXYxenliaGNrM2s2b1l1cXExZWF1cjNPUlhSczlubUQxVzFDNGdSRFd3cVNSMGRIcmlFVjY1d3NQVUVIV1p2RkNMQnJJNVJvS3Z0dGlZNTlpRGYtY2t3dnFNR2pSRXl0TDUyV3dFa1UxdXR3OWxoc3k1azkwc1RTck5iV05sLUs2WmN2My1XS1FDd08yckJlNVBqVElhbC1Rdmx1X2dySVFuZw?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 18:51:11 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "A la veille des municipales, des dizaines de milliers de manifestants contre le le \"fascisme\" et la guerre  Notre Temps"
+    },
+    {
+      "title": "F1 : Alexandra Saint Mleux, Lily Muni He... qui partage la vie des stars des paddocks en 2026 ? - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQU83dDJDZlRxSFl1VkplYXBoaXl6Ukpid0RPaEdiVkNtLWlEUndHVjVWMk9fd19IaHpvdEVZOHp4RGdMbXFZRzFhM3VManhLWWIxaEZFS29zQTlOaXlodUwyMWdHeDNCMDVlX0hVbUcyNlloRzhTZ2tQWGU2M205MXN6cFdCRFNDZlRUZ2EzYzItdmVoY3NLYQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 18:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "F1 : Alexandra Saint Mleux, Lily Muni He... qui partage la vie des stars des paddocks en 2026 ?  Cosmopolitan.fr"
+    },
+    {
+      "title": "Je me suis habillée pareil tous les jours pendant un mois : ce que j’en ai appris - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQR3VKUzZmVEgtaWRHeDhCT3lpQ1FrVWdUd1Y1WU55cDI0TTFQNGw4ZHpYZVdoZGlXenJ2WThJeXVSNmZ2THBBMGF1X3JNSFJmaFhWbGpWVzdtS0o4UG5oWVpHRVZMbEtBd2RjZ2RBRElXUTNjMWFTMkhNTUhVUW1WbEFSNEtOb2dYa0pWeWlFYXRJb3NLUkxOVnROd0UwZlFQaC1aaThLTk1vLVlMdFo4UFFnbXd6QWdMVkRVSkZQX2NGUVRu?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 17:00:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Je me suis habillée pareil tous les jours pendant un mois : ce que j’en ai appris  ELLE"
+    },
+    {
+      "title": "Oreillers : la méthode efficace pour les laver en profondeur sans les abîmer",
+      "link": "https://www.medisite.fr/sante-au-quotidien-oreillers-la-methode-efficace-pour-les-laver-en-profondeur-sans-les-abimer.5717299.112.html",
+      "pubDate": "Sat, 14 Mar 2026 18:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Laver les taies d’oreiller ne pose pas de problème, il suffit de les passer en machine. Mais les oreillers, comment faire ? Découvrez la méthode de nettoyage professionnelle, de la température idéale "
+    },
+    {
+      "title": "Cookies nuage : la recette à la texture ultra aérienne - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMEJHN1ZkcER3eVRDZlBQRmlvWVBuWDRQSC1qY0tYUnJUQkdEalp3RXNleDV2Q29KV2ZvZWg5NW5ONnZvV3ZUT01zMGI2SllZVW5GUm51RmJaQXRuMUZCcUxTVXFaUTEwS2R0bGdURVFxdkowVW1vY09NTkdFd2hTOE5GZE05dUNFOTNhY3hNcGg4NW4yYm5RRGI2REkyd1dmUmdySWtyb2RqN3ZvaENUMU1wZGlTVWRC?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 16:17:00 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Cookies nuage : la recette à la texture ultra aérienne  Femme Actuelle"
+    },
+    {
+      "title": "Emma Heming lance une initiative touchante pour Bruce Willis : « Nous voulons faire avancer la recherche - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQbllsUzJGaWNfbDh2WDVCT2JtVGx2M1ZocHJmY05CeUtZRU84OU5PM1pJbFdvdldERVVlejdISm4xQXBwWWtzUWY5SlRTY0huN01seEh3dGE4QW5pSFhuUnZVZnVwX0EtV3pvbGU5UWxmZktjVkVObFlsQVphTU1uTldXbXE4RFVTVDRtT3BxRTdETTRnQzVYYTQxdWljamREalpqZ3hBRDVVWXZJSkQ5VFpWakFQYmtlNFF1ZFpkZXFPc1NTNGMyUEhsVUpFYlRpZHhqamlBb05scUwtV2J0UUs0UktzaUh6MXRWbnh1QQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 16:01:04 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Emma Heming lance une initiative touchante pour Bruce Willis : « Nous voulons faire avancer la recherche  ELLE"
+    },
+    {
+      "title": "Vintage ou fast fashion ? L'astuce pour ne plus se faire avoir sur Vinted - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcXV0eEs0RmhxaXZDS0lGdXFrWkpuMnFvZDA5dW5fRWpNTnl1RVZGb3JWS1hvVG83WGVTQWpNSkpSTTNHZTVVT3dZNEI4dWpFYVRkUGF2TDBOSkdyN01haWNXMEg5VllOTWp0elRjejhyVXowUFZJV1poMUhoM2h3UUIxM2NGZ1dPY0NvZUg3RDBjM1gtbUlJbS1Sbm9GTWxYWTJpcnlselh5czQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 16:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Vintage ou fast fashion ? L'astuce pour ne plus se faire avoir sur Vinted  Cosmopolitan.fr"
+    },
+    {
+      "title": "Dans cette commune de l’Oise, le port du casque est désormais obligatoire pour les utilisateurs de trottinettes - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOX2dNSnJOeVpMZVY2OXlfVlAwTUtua01LVlBKa2pRVG9RQl9zMkV3Y3RPNmU3TnZYLVQyTXVBZFBTQm43MXM4NlU4ZGhYWUxfdC1RdkRqSVZSbXhOTkNlZUppV1hmaG85UUNuRTU1VFJ1eWZ5dXdVdFNlX1RNTzZZZ29WZTQzUEtheWM0QVdHNXVmZ0JaUE1KdnBrazNiQW13THV1aThrTEs2MDd0dFZGQVNGMVNmRXN6TS0tRWNieHhwbUFnbVVLdXVISVQweGtyTUt3bTRLUG5HQzdqd24xUzJZXzR0Q2hEeXFMeUxJN0VuLWM?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 15:39:13 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Dans cette commune de l’Oise, le port du casque est désormais obligatoire pour les utilisateurs de trottinettes  Femme Actuelle"
+    },
+    {
+      "title": "Pourquoi ce thriller psychologique noté 4/5 intrigue les lectrices dès les premières pages ? - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOMTlaejBmUTJxdjNzd19Tc2N5aHlDMTk2NWk0MWtyWmxNUjJsclZ2MVR2aVNFOEY5RjdVX29ubkwtN1dieXVscU9qbXZPajN2MWJnUXZ2MkM4RTdaYVZ2ZFN5NXBOakpIT2l6ZTJxSHN4aXJFaDVzQVVqMWUyUXVFM0NXZnFnY19xMDVzZ056dEtqSm9mRmRYUDJWVXA0bnlqTk40R0MwM19TemVyMDh2Yzl4RjZQNGQzZ2FTZkV0WWtKMjd4cU9SeWFWR0VlLUxyS1hoaWxWdmNQYlQ3WVctbHdCc3lYaC1HaElz?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 15:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Pourquoi ce thriller psychologique noté 4/5 intrigue les lectrices dès les premières pages ?  Cosmopolitan.fr"
+    },
+    {
+      "title": "Stress, anxiété : ces 5 signaux corporels qui montrent que vous craquez sans le savoir",
+      "link": "https://www.medisite.fr/psycho-stress-anxiete-ces-5-signaux-corporels-qui-montrent-que-vous-craquez-sans-le-savoir.5717293.107.html",
+      "pubDate": "Sat, 14 Mar 2026 16:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Le stress et l’anxiété sont souvent vicieux et nous épuisent sans que nous en ayons conscience. Mais notre corps exprime souvent ce que notre esprit tente d&#039;ignorer. Voici cinq micro-gestes incon"
+    },
+    {
+      "title": "Maya Hawke dévoile les conseils de ses parents Uma Thurman et Ethan Hawke pour gérer sa notoriété - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPaGhQRU5hS1ZUNngwV2ZEOUFjSndIU1pBMzdhdzZLX1dkcVA2TDNtTnR3aHhsRElPa2JlOUZIcFJLR0M4MS1NYUlKeXFiOE1zQmR1aTg1WnZyRS1tZGRiLXRQaTB0dXNwR09RRTRIZEFuMXdCaUtLTG1Ta2lZWUhuWWtvdzBvRnRVUlNHZ1NNazdUd3VtSU9PYU9BOUV2MGQ0b0UzZVhtRVNfeS05R0owWFcyTGY3WnVtRzlwcUlrRWZOczNqUVU2S2JrM1hiZmxBUG43VDZFRDF1djlIMnFSclhNN3JRdXBzTnhN?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 14:29:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Maya Hawke dévoile les conseils de ses parents Uma Thurman et Ethan Hawke pour gérer sa notoriété  ELLE"
+    },
+    {
+      "title": "\"Je suis amoureuse\" : Lucie Bernardoni se confie sur sa vie sentimentale - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcUhiMlAzanRiWjJZbjU0WHU4bkt6MFhDVlhxeTUwZXFlSUd0VFJ5Y1pENzdScXFnM2dyT0xxNXQxVW5ibk5FMFBWUmNQUkhwMkpsR3JvQUxKbkJFMUN0MVROZWpzczdKRTVYdUQtQUR5VmJVZm1GSl9EVlFnYVNLSndyYi12d1MxRmtsYks3eXNrZHIzOS1xV25ETFdsZ0QzeEpYQW1yZ19tdnl3dEdBZHNtbjJpaFN3ZXNwZQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 14:22:59 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"Je suis amoureuse\" : Lucie Bernardoni se confie sur sa vie sentimentale  Femme Actuelle"
+    },
+    {
+      "title": "Le top 3 des destinations préférées des Français pour Pâques cette année - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPXzY2dlhqZEF2TnBxaTVYRnF2dFF5VzlWQ0ZJcDlLMklwRXdQTTNWSFFEOVVTSDdiSnhmQXA4R2hjZ01HbWQ4bkhtcG54cFZDanVJUndRQndKd3lveEhqSW1OcGp3eGg4ZThTRDlKR3UyQmtMZ0dSNFpuSnJQYkFUcGMxd2V4d3NFRGlOSXJHYVlzV3BmbFdjUnZmTGRTd1R0RUFtNTh2OEtHVDU1MGlCSXJERQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 14:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Le top 3 des destinations préférées des Français pour Pâques cette année  Cosmopolitan.fr"
+    },
+    {
+      "title": "Voici la recette de pâtes mon beau-père italien qui a changé ma vie - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxORU1LbzBaZHJTcTF1eno5R3h5MDk2NUJEU1U4b19uU0RZVUJEaE9ZTVJTZ2U4Y2w0SVVsRHVxV1dlUl95RHNvOEJFdHVENHVqcE5XMHAtY2pWeGtMSFFKaVJTaHpJS1djX1Bsckp1djdpMG9ENFBiRXlnb2FiQXF4Qnp1QWpjTTZINGJRRFVnVjc2Mnd5M3RsSXBpZ3hJa2hvSEQ2RUdmWjgtZVk4eS1IQkJpMlExbkhWVXlxYno4bDAwUzhNNldwRjlqeVNBWS04cHd5cnN3T3VUcFNqWEM1Q2FJenlHZTNUX1pkYjV5WQ?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 13:00:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Voici la recette de pâtes mon beau-père italien qui a changé ma vie  ELLE"
+    },
+    {
+      "title": "Danse avec les stars : blessée, Laure Manaudou risque d'être disqualifiée - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORTB1MENtbWM0V212YTZpV3dnOWI2SHN4djJFMTgzMTk2Z1dDNnpBSUM2Y0dPdnU4U216N3hobzJtcDNCS2JXSExScF9LU1Btc1JoRS1HeUxUVjE0eDJIV1Z6YkEwYk5KM1RqeFN0dm1kejRhRUpKbXZISWRmdzg5bFNpUkwtRzZQYm5XT09iOW9zOHNSLUY5ODdpMVh3Z2dVcDAyTkZoYTNmeU1RYzJsRUNOWWdvTENkQXQ5VG5MNA?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 12:48:15 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Danse avec les stars : blessée, Laure Manaudou risque d'être disqualifiée  Femme Actuelle"
+    },
+    {
+      "title": "Doja Cat révèle être atteinte d’un trouble de la personnalité : « Je suis en thérapie » - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVFqVmZIX1JKVDNJV3drM25ZdzFLaS1lcWd6WUVLNU5jSEg2cS1KLVl2dkZlUG9qb0ZhbW13N1pTcDhOOFYzcm5HbzVvMmxGcklUUnd2YV9wN2VuRjExQ2oyb285djd6dm5xcVB0aUMxRGpJaWVULXFvX04xck9tXzF2UVVqMVg3OU13ME5VeU8yd0t1clF3Ym12WWFHN2NZMUNBMFcySWh4VWtOXzg2dHVrazFiZnZWaVM2Q0w2a0lMRmxCSnNQMFlJcWlCRmtDVEhRbHhn?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 12:17:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Doja Cat révèle être atteinte d’un trouble de la personnalité : « Je suis en thérapie »  ELLE"
+    },
+    {
+      "title": "Maud Ankaoua: \"La réussite, ce n’est pas une question de volonté mais de motivation\" - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDNjWGNtWUtkcTgyeTNhbUZ1blUwdmJZMkZGTDhjNzg5Sl8zSFJmWnJOR21BUmRrenc1QU9WeTJpaWFzQlBmUnJRSi1fai1tVUtVMGhRZHhzeTBGUkFsel9hMTVSYmtYaE9iVXMyU1h5OURpcUR3LTJPNHdsNmFncFUwdmlhU1I1dnpxRFh2aGswZ1RqVzdNdnhZVEJGQTdGd1VtOXExX25LSkcxZkFkY0I4Z3FhRjhaSlhDRTJiQlF3akEtaGRiUXl3bHk3anY5QV91T2ptUzg?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 11:46:05 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Maud Ankaoua: \"La réussite, ce n’est pas une question de volonté mais de motivation\"  Notre Temps"
+    },
+    {
+      "title": "Muscles : 7 aliments les plus riches en leucine à consommer impérativement après 50 ans",
+      "link": "https://www.medisite.fr/sante-muscles-7-aliments-les-plus-riches-en-leucine-a-consommer-imperativement-apres-50-ans.5717294.917571.html",
+      "pubDate": "Sat, 14 Mar 2026 10:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Avec l’âge, nous perdons en densité musculaire, avec des conséquences fâcheuses sur notre santé. La parade ? La leucine, un acide aminé essentiel pour contrer la fonte musculaire liée à l&#039;âge. Ma"
+    },
+    {
+      "title": "Cancer du poumon : les cellules cancéreuses évoluent avec l'âge et deviennent plus agressive selon une étude",
+      "link": "https://www.medisite.fr/maladies-cancer-du-poumon-les-cellules-cancereuses-evoluent-avec-lage-et-deviennent-plus-agressive-selon-une-etude.5717295.42.html",
+      "pubDate": "Sat, 14 Mar 2026 04:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Une étude majeure publiée dans la revue scientifique Nature révèle que le vieillissement des patients reprogramme les cellules cancéreuses du poumon, les rendant plus agressives. Une découverte qui in"
+    },
+    {
+      "title": "A 94 ans, Henri enseigne toujours le judo : ses secrets forme et longévité ! ",
+      "link": "https://www.medisite.fr/la-parole-aux-patients-a-94-ans-henri-enseigne-toujours-le-judo-ses-secrets-forme-et-longevite.5717290.869545.html",
+      "pubDate": "Fri, 13 Mar 2026 16:00:00 +0100",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "À 94 ans, Henri Paternoster compte parmi les vieux judokas de France encore en activité. Depuis 65 ans, ce passionné transmet son amour du judo dans son club de Bougival (Yvelines), aux côtés de son f"
+    }
+  ],
+  "competitorFeedsMeta": [
+    {
+      "site": "femmeactuelle.fr",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "icon": "👩"
+    },
+    {
+      "site": "journaldesfemmes.fr",
+      "competes": [
+        "mariefrance.fr",
+        "aufeminin.com"
+      ],
+      "icon": "📰"
+    },
+    {
+      "site": "closermag.fr",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "icon": "⭐"
+    },
+    {
+      "site": "elle.fr",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "icon": "👗"
+    },
+    {
+      "site": "doctissimo.fr",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "icon": "🏥"
+    },
+    {
+      "site": "psychologies.com",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "icon": "🧠"
+    },
+    {
+      "site": "topsante.com",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "icon": "💊"
+    },
+    {
+      "site": "cosmopolitan.fr",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "icon": "💄"
+    },
+    {
+      "site": "notretemps.com",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "icon": "🕰️"
+    },
+    {
+      "site": "medisite.fr",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "icon": "💉"
+    },
+    {
+      "site": "linternaute.com",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "icon": "🌐"
     }
   ]
 }
