@@ -1,5 +1,88 @@
 {
-  "updatedAt": "2026-03-15T09:15:33.596Z",
+  "updatedAt": "2026-03-15T10:08:13.470Z",
+  "veilleBriefs": [
+    {
+      "date": "2026-03-15T09:21:00Z",
+      "opportunities": [
+        {
+          "rank": 1,
+          "score": "🔥🔥🔥 MAJEUR",
+          "topic": "Isotrétinoïne / acné affiner le nez",
+          "summary": "Rumeur virale sur les réseaux (Kendall Jenner) : le médicament anti-acné (Roaccutane/isotrétinoïne) affinerait le nez. L'ANSM a réagi avec une alerte officielle. Psychologies.com ET notretemps.com y sont déjà. Très fort potentiel Discover : beauté + santé + buzz réseaux + alerte officielle = signal triple.",
+          "angle": "aufeminin.com / mariefrance.fr — article démystification + risques + dermatologue. Titre type : \"Ce médicament contre l'acné pour 'affiner le nez' : l'ANSM tire la sonnette d'alarme\"",
+          "competitors": [
+            "psychologies.com",
+            "notretemps.com",
+            "santemagazine.fr"
+          ],
+          "sites": [
+            "aufeminin.com",
+            "mariefrance.fr"
+          ],
+          "urgence": "haute",
+          "sources": [
+            "https://www.psychologies.com/actualites/sciences-et-sante/Ce-medicament-contre-lacne-utilise-pour-affiner-le-nez-les-autorites-sanitaires-pointent-des-risques-de-troubles-de-lhumeur-624587",
+            "https://www.vidal.fr/actualites/37593-mesusage-de-l-isotretinoine-a-des-fins-esthetiques-l-ansm-reagit-a-la-promotion-sur-les-reseaux-sociaux.html",
+            "https://ansm.sante.fr/actualites/usages-detournes-de-lisotretinoine-a-des-fins-esthetiques-lansm-alerte-sur-des-risques-importants"
+          ]
+        },
+        {
+          "rank": 2,
+          "score": "🔥🔥 FORT",
+          "topic": "Goutte froide en mars 2026 (x2 sur la France)",
+          "summary": "Journaldesfemmes.fr (concurrent direct) déjà bien positionné avec 'Le phénomène de la goutte froide va s'abattre 2 fois sur la France en mars'. La météo extrême = signal Discover historiquement très fort. Window courte.",
+          "angle": "pleinevie.fr / aufeminin.com — météo pratique + ce qu'il faut savoir/préparer. Titre type : \"Goutte froide en mars : 2 épisodes prévus en France, ce que ça signifie vraiment\"",
+          "competitors": [
+            "journaldesfemmes.fr"
+          ],
+          "sites": [
+            "pleinevie.fr",
+            "aufeminin.com"
+          ],
+          "urgence": "haute",
+          "sources": [
+            "https://www.journaldesfemmes.fr/"
+          ]
+        },
+        {
+          "rank": 3,
+          "score": "🔥 MODÉRÉ",
+          "topic": "Maigrir après 50 ans sans régime strict — habitude simple des nutritionnistes",
+          "summary": "Journaldesfemmes.fr en tête avec article fort : 'Après 50 ans, cette habitude simple des nutritionnistes fait perdre du ventre durablement'. Correspond pile au lectorat pleinevie.fr. Tendance santé/nutrition senior persistante.",
+          "angle": "pleinevie.fr — alimentation senior, ventre plat, méthode douce. Titre type : \"Cette habitude quotidienne des nutritionnistes pour perdre du ventre après 50 ans (sans régime)\"",
+          "competitors": [
+            "journaldesfemmes.fr"
+          ],
+          "sites": [
+            "pleinevie.fr"
+          ],
+          "urgence": "normale",
+          "sources": []
+        },
+        {
+          "rank": 4,
+          "score": "🔥 MODÉRÉ",
+          "topic": "Dépenses oubliées / budget ménager",
+          "summary": "Journaldesfemmes.fr : '40% des Français paient pour rien chaque mois'. Type de contenu très fort sur Discover (pratique, chiffre accrocheur, universel).",
+          "angle": "aufeminin.com / pleinevie.fr — budget, finances pratiques. Titre type : \"Ces abonnements que vous payez sans le savoir : comment économiser des centaines d'euros\"",
+          "competitors": [
+            "journaldesfemmes.fr"
+          ],
+          "sites": [
+            "aufeminin.com",
+            "pleinevie.fr"
+          ],
+          "urgence": "normale",
+          "sources": []
+        }
+      ],
+      "context": {
+        "elections_municipales": "Premier tour aujourd'hui — angle potentiel pour sites généralistes mais pas prioritaire pour Reworld Media (audience féminine/lifestyle).",
+        "top_chef_2026": "Closermag.fr actif sur sujet — opportunité celeb/people pour mariefrance ou closermag si Reworld y est.",
+        "aid_el_fitr": "Fin du Ramadan approche — contenu cuisine/famille potentiel sur aufeminin.com"
+      }
+    }
+  ],
   "discoverAdvanced": {
     "updatedAt": "2026-03-15T01:43:21.558Z",
     "sites": {
