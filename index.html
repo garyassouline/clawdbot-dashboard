@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
-  <title>ClawdBot Dashboard — Gary Assouline</title>
+  <title>Mission Control — ClawdBot Gary</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <style>
     :root {
@@ -204,6 +204,60 @@
     .tg-link { color: var(--accent2); text-decoration: none; }
     .tg-link:hover { text-decoration: underline; }
 
+    /* Office 3D / Mission Control Visual */
+    .mission-control {
+      background: linear-gradient(135deg, #161824 0%, #0d0f18 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      height: 280px;
+      margin-bottom: 24px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center; justify-content: center;
+      perspective: 1000px;
+    }
+    .grid-floor {
+      position: absolute; bottom: -50px; width: 200%; height: 200%;
+      background-image: 
+        linear-gradient(rgba(59,130,246,0.1) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59,130,246,0.1) 1px, transparent 1px);
+      background-size: 40px 40px;
+      transform: rotateX(60deg) translateY(-100px);
+      z-index: 1;
+    }
+    .agent-squad {
+      display: flex; gap: 40px; z-index: 2; transform: translateZ(20px);
+    }
+    .agent-voxel {
+      display: flex; flex-direction: column; align-items: center; gap: 12px;
+      transition: transform 0.3s;
+    }
+    .agent-voxel:hover { transform: translateY(-10px) scale(1.1); }
+    .voxel-body {
+      width: 48px; height: 48px; background: var(--accent2);
+      border-radius: 8px; position: relative;
+      box-shadow: 0 10px 30px rgba(59,130,246,0.3);
+      display: flex; align-items: center; justify-content: center; font-size: 1.5rem;
+    }
+    .voxel-body.active { animation: voxel-pulse 2s infinite; }
+    .voxel-body::after {
+      content: ''; position: absolute; bottom: -10px; width: 30px; height: 4px;
+      background: rgba(0,0,0,0.5); border-radius: 50%; filter: blur(4px);
+    }
+    .agent-label { font-size: 0.7rem; font-weight: 700; color: #fff; text-transform: uppercase; letter-spacing: 0.1em; background: rgba(0,0,0,0.5); padding: 2px 8px; border-radius: 4px; }
+    
+    @keyframes voxel-pulse {
+      0% { box-shadow: 0 0 0 0 rgba(59,130,246,0.4); }
+      70% { box-shadow: 0 0 0 15px rgba(59,130,246,0); }
+      100% { box-shadow: 0 0 0 0 rgba(59,130,246,0); }
+    }
+
+    /* Logs viewer */
+    .log-entry { font-family: 'Monaco', 'Consolas', monospace; font-size: 0.72rem; padding: 4px 8px; border-bottom: 1px solid var(--border); }
+    .log-entry.error { color: var(--accent); background: rgba(229,72,77,0.05); }
+    .log-entry.info { color: var(--muted); }
+
     /* Discover suggestions */
     .suggestions-grid {
       display: grid;
@@ -353,10 +407,10 @@
     </a>
     <span class="nav-section">Système</span>
     <a class="nav-item" onclick="showSection('costs', this)">
-      <span class="icon">💰</span> Coûts & Tokens
+      <span class="icon">💰</span> Coûts & Système
     </a>
     <a class="nav-item" onclick="showSection('sessions', this)">
-      <span class="icon">🧵</span> Sessions
+      <span class="icon">🧵</span> Sessions & Logs
     </a>
   </aside>
 
@@ -381,6 +435,20 @@
     <!-- ===== OVERVIEW ===== -->
     <div class="section active" id="section-overview">
       <div id="alerts-container"></div>
+
+      <!-- Mission Control 3D Visual -->
+      <div class="mission-control">
+        <div class="grid-floor"></div>
+        <div class="agent-squad" id="agent-squad-container">
+          <div class="agent-voxel">
+            <div class="voxel-body active">🤖</div>
+            <div class="agent-label">Main</div>
+          </div>
+        </div>
+        <div style="position:absolute; top:20px; left:20px; z-index:3">
+          <span class="badge blue">Mission Control Live</span>
+        </div>
+      </div>
 
       <!-- KPIs -->
       <div class="kpi-grid">
@@ -661,8 +729,30 @@
       </div>
     </div>
 
-    <!-- ===== COÛTS ===== -->
+    <!-- ===== COÛTS & SYSTÈME ===== -->
     <div class="section" id="section-costs">
+      <!-- System Health KPIs -->
+      <div class="card mb16" style="background:linear-gradient(to right, var(--surface), var(--surface2))">
+        <div class="card-title"><span class="icon">🖥️</span> Santé du Serveur Hostinger</div>
+        <div class="kpi-grid" style="grid-template-columns:repeat(3,1fr);margin-bottom:0;border:none">
+          <div class="kpi blue" style="border:none">
+            <div class="label">CPU Usage</div>
+            <div class="value" id="sys-cpu">—</div>
+            <div class="progress-bar"><div class="progress-fill" id="sys-cpu-bar" style="background:var(--accent2)"></div></div>
+          </div>
+          <div class="kpi purple" style="border:none">
+            <div class="label">RAM Usage</div>
+            <div class="value" id="sys-ram">—</div>
+            <div class="progress-bar"><div class="progress-fill" id="sys-ram-bar" style="background:var(--accent3)"></div></div>
+          </div>
+          <div class="kpi green" style="border:none">
+            <div class="label">Espace Disque</div>
+            <div class="value" id="sys-disk">—</div>
+            <div class="sub">Utilisé sur /data</div>
+          </div>
+        </div>
+      </div>
+
       <!-- KPIs globaux -->
       <div class="kpi-grid" style="grid-template-columns:repeat(4,1fr)">
         <div class="kpi red">
@@ -779,14 +869,25 @@
       </div>
     </div>
 
-    <!-- ===== SESSIONS ===== -->
+    <!-- ===== SESSIONS & LOGS ===== -->
     <div class="section" id="section-sessions">
-      <div class="card">
-        <div class="card-title"><span class="icon">🧵</span> Sessions actives</div>
-        <table>
-          <thead><tr><th>Session</th><th>Modèle</th><th>Tokens In</th><th>Tokens Out</th><th>Contexte</th><th>Statut</th></tr></thead>
-          <tbody id="sessions-full-table"><tr><td colspan="6" class="empty">Chargement…</td></tr></tbody>
-        </table>
+      <div class="grid-2">
+        <div class="card">
+          <div class="card-title"><span class="icon">🧵</span> Sessions actives</div>
+          <table>
+            <thead><tr><th>Session</th><th>Modèle</th><th>Tokens In</th><th>Tokens Out</th><th>Contexte</th><th>Statut</th></tr></thead>
+            <tbody id="sessions-full-table"><tr><td colspan="6" class="empty">Chargement…</td></tr></tbody>
+          </table>
+        </div>
+        <div class="card">
+          <div class="card-title" style="justify-content:space-between">
+            <span><span class="icon">📜</span> Console Logs (Système)</span>
+            <span class="badge gray">tail -n 20</span>
+          </div>
+          <div id="system-logs-container" style="background:#0d0f18; border-radius:8px; height:300px; overflow-y:auto; padding:10px; border:1px solid #252838">
+            <div class="empty">Chargement des logs…</div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -1027,6 +1128,39 @@ function render(d) {
     alertsEl.innerHTML = '';
   }
 
+  // System Health
+  const sys = d.systemStats || { cpu: '0%', ram: '0%', disk: '0%' };
+  if (document.getElementById('sys-cpu')) {
+    document.getElementById('sys-cpu').textContent = sys.cpu;
+    document.getElementById('sys-cpu-bar').style.width = sys.cpu;
+    document.getElementById('sys-ram').textContent = sys.ram;
+    document.getElementById('sys-ram-bar').style.width = sys.ram;
+    document.getElementById('sys-disk').textContent = sys.disk;
+  }
+
+  // Mission Control / Agent Squad
+  const squad = document.getElementById('agent-squad-container');
+  if (squad && d.crons) {
+    const agents = d.crons.filter(c => c.name && c.name.startsWith('Agent:'));
+    const icons = { 'Discover-Pulse': '🛰️', 'SEO-Watcher': '🔍', 'Revenue-Ops': '💰', 'RSS-Distiller': '📰' };
+    squad.innerHTML = `
+      <div class="agent-voxel">
+        <div class="voxel-body active">🤖</div>
+        <div class="agent-label">ClawdBot</div>
+      </div>
+      ${agents.map(a => {
+        const name = a.name.replace('Agent: ', '').split(' ')[0];
+        const icon = icons[name] || '🤖';
+        return `
+          <div class="agent-voxel">
+            <div class="voxel-body ${a.enabled ? 'active' : ''}">${icon}</div>
+            <div class="agent-label">${name}</div>
+          </div>
+        `;
+      }).join('')}
+    `;
+  }
+
   // Cost page KPIs - use real aggregated data from all sessions
   const mb = d.modelBreakdown || [];
   const allTokIn = mb.reduce((a,m) => a + (m.tokensIn||0), 0);
@@ -1230,6 +1364,16 @@ function render(d) {
         <div class="rss-title">${i.title}</div>
         <div class="rss-meta"><span>${i.source}</span><span>${i.date}</span></div>
       </div>`).join('');
+  }
+
+  // System Logs
+  const logsEl = document.getElementById('system-logs-container');
+  if (logsEl && d.recentLogs) {
+    logsEl.innerHTML = d.recentLogs.map(l => `
+      <div class="log-entry ${l.type}">
+        <span style="color:#3b82f6">></span> ${l.msg}
+      </div>
+    `).join('') || '<div class="empty">Aucun log récent</div>';
   }
 
   // Veille / Discover Pulse + Competitor RSS
