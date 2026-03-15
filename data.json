@@ -1,5 +1,187 @@
 {
-  "updatedAt": "2026-03-15T01:23:50.610Z",
+  "updatedAt": "2026-03-15T01:32:41.419Z",
+  "discoverStats": [
+    {
+      "site": "https://www.mariefrance.fr/",
+      "data": [
+        {
+          "keys": [
+            "2026-03-08"
+          ],
+          "clicks": 621044,
+          "impressions": 6141196,
+          "ctr": 0.10112753281282669
+        },
+        {
+          "keys": [
+            "2026-03-09"
+          ],
+          "clicks": 403811,
+          "impressions": 3809406,
+          "ctr": 0.10600366566336064
+        },
+        {
+          "keys": [
+            "2026-03-10"
+          ],
+          "clicks": 496609,
+          "impressions": 4596934,
+          "ctr": 0.10803048292622866
+        },
+        {
+          "keys": [
+            "2026-03-11"
+          ],
+          "clicks": 514932,
+          "impressions": 5358931,
+          "ctr": 0.09608856691754382
+        },
+        {
+          "keys": [
+            "2026-03-12"
+          ],
+          "clicks": 296007,
+          "impressions": 3167613,
+          "ctr": 0.0934479685491883
+        }
+      ]
+    },
+    {
+      "site": "https://www.modesettravaux.fr/",
+      "data": [
+        {
+          "keys": [
+            "2026-03-08"
+          ],
+          "clicks": 231277,
+          "impressions": 2879723,
+          "ctr": 0.08031223836459271
+        },
+        {
+          "keys": [
+            "2026-03-09"
+          ],
+          "clicks": 264511,
+          "impressions": 3229996,
+          "ctr": 0.08189205187870202
+        },
+        {
+          "keys": [
+            "2026-03-10"
+          ],
+          "clicks": 234352,
+          "impressions": 3237146,
+          "ctr": 0.07239463403874895
+        },
+        {
+          "keys": [
+            "2026-03-11"
+          ],
+          "clicks": 200521,
+          "impressions": 2564295,
+          "ctr": 0.07819732129103711
+        },
+        {
+          "keys": [
+            "2026-03-12"
+          ],
+          "clicks": 171660,
+          "impressions": 2028163,
+          "ctr": 0.08463816764234433
+        }
+      ]
+    },
+    {
+      "site": "https://www.aufeminin.com/",
+      "data": [
+        {
+          "keys": [
+            "2026-03-08"
+          ],
+          "clicks": 81143,
+          "impressions": 680345,
+          "ctr": 0.11926743049482248
+        },
+        {
+          "keys": [
+            "2026-03-09"
+          ],
+          "clicks": 63272,
+          "impressions": 604389,
+          "ctr": 0.10468754394934389
+        },
+        {
+          "keys": [
+            "2026-03-10"
+          ],
+          "clicks": 66215,
+          "impressions": 694227,
+          "ctr": 0.0953794652181491
+        },
+        {
+          "keys": [
+            "2026-03-11"
+          ],
+          "clicks": 72716,
+          "impressions": 822542,
+          "ctr": 0.08840399639167362
+        },
+        {
+          "keys": [
+            "2026-03-12"
+          ],
+          "clicks": 44322,
+          "impressions": 389985,
+          "ctr": 0.11365052502019309
+        }
+      ]
+    },
+    {
+      "site": "https://www.pleinevie.fr/",
+      "data": [
+        {
+          "keys": [
+            "2026-03-08"
+          ],
+          "clicks": 260245,
+          "impressions": 2791696,
+          "ctr": 0.09322111003490352
+        },
+        {
+          "keys": [
+            "2026-03-09"
+          ],
+          "clicks": 313036,
+          "impressions": 3225922,
+          "ctr": 0.09703768411015518
+        },
+        {
+          "keys": [
+            "2026-03-10"
+          ],
+          "clicks": 329235,
+          "impressions": 2999569,
+          "ctr": 0.1097607689638078
+        },
+        {
+          "keys": [
+            "2026-03-11"
+          ],
+          "clicks": 284160,
+          "impressions": 2883921,
+          "ctr": 0.098532518747913
+        },
+        {
+          "keys": [
+            "2026-03-12"
+          ],
+          "clicks": 155228,
+          "impressions": 1720446,
+          "ctr": 0.09022544154248376
+        }
+      ]
+    }
+  ],
   "seoAudits": [],
   "rssItems": [
     {
@@ -46,6 +228,12 @@
       "id": "c8544031-997d-40ec-871f-6853e493e097",
       "name": "Dashboard Update",
       "schedule": "Every 60min",
+      "enabled": true
+    },
+    {
+      "id": "8de65975-e410-4d47-8d7a-953ef40198ae",
+      "name": "System: Brain Backup",
+      "schedule": "0 4 * * *",
       "enabled": true
     },
     {
