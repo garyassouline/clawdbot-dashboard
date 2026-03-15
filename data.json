@@ -1,187 +1,1230 @@
 {
-  "updatedAt": "2026-03-15T01:40:54.013Z",
-  "discoverStats": [
-    {
-      "site": "https://www.mariefrance.fr/",
-      "data": [
-        {
-          "keys": [
-            "2026-03-08"
-          ],
-          "clicks": 621044,
-          "impressions": 6141196,
-          "ctr": 0.10112753281282669
-        },
-        {
-          "keys": [
-            "2026-03-09"
-          ],
-          "clicks": 403811,
-          "impressions": 3809406,
-          "ctr": 0.10600366566336064
-        },
-        {
-          "keys": [
-            "2026-03-10"
-          ],
-          "clicks": 496609,
-          "impressions": 4596934,
-          "ctr": 0.10803048292622866
-        },
-        {
-          "keys": [
-            "2026-03-11"
-          ],
-          "clicks": 514932,
-          "impressions": 5358931,
-          "ctr": 0.09608856691754382
-        },
-        {
-          "keys": [
-            "2026-03-12"
-          ],
-          "clicks": 296007,
-          "impressions": 3167613,
-          "ctr": 0.0934479685491883
+  "updatedAt": "2026-03-15T01:43:54.535Z",
+  "discoverAdvanced": {
+    "updatedAt": "2026-03-15T01:43:21.558Z",
+    "sites": {
+      "mariefrance.fr": {
+        "url": "https://www.mariefrance.fr/",
+        "periods": {
+          "1": {
+            "totalClicks": 0,
+            "totalImpressions": 0,
+            "avgCtr": 0,
+            "topPages": [],
+            "daily": []
+          },
+          "7": {
+            "totalClicks": 2324801,
+            "totalImpressions": 22961881,
+            "avgCtr": 0.1012461043587849,
+            "topPages": [
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/livret-a-fini-voici-quels-comptes-etat-peut-servir-financer-fonds-defense-1145652.html",
+                "clicks": 398032,
+                "impressions": 3347557,
+                "ctr": 0.11890223228461831
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/impots-2026-noubliez-cocher-case-1pb-declaration-revenus-payer-calcul-1147608.html",
+                "clicks": 314862,
+                "impressions": 2641592,
+                "ctr": 0.11919403147798752
+              },
+              {
+                "url": "https://www.mariefrance.fr/beaute/nivea-creme-bleue-avis-honnete-composition-dermatologue-1088654.html",
+                "clicks": 121984,
+                "impressions": 1880837,
+                "ctr": 0.06485623156073599
+              },
+              {
+                "url": "https://www.mariefrance.fr/vie-pratique/attaque-nucleaire-ne-courez-pas-cave-voici-la-piece-la-plus-sure-de-votre-maison-selon-les-experts-1251375.html",
+                "clicks": 118778,
+                "impressions": 733087,
+                "ctr": 0.1620244254774672
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/porte-avions-charles-de-gaulle-voici-le-salaire-exact-et-les-primes-des-marins-deployes-en-zone-de-guerre-en-2026-1251380.html",
+                "clicks": 109827,
+                "impressions": 1233842,
+                "ctr": 0.0890122073977057
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/guerre-voici-classement-pays-plus-surs-cas-conflit-mondial-2-dentre-eux-europe-1251761.html",
+                "clicks": 100513,
+                "impressions": 517512,
+                "ctr": 0.19422351558997666
+              },
+              {
+                "url": "https://www.mariefrance.fr/jardinage/les-haies-de-thuyas-cest-fini-pourquoi-les-experts-supplient-de-les-arracher-du-jardin-durgence-1252373.html",
+                "clicks": 87762,
+                "impressions": 707845,
+                "ctr": 0.12398477067719628
+              },
+              {
+                "url": "https://www.mariefrance.fr/jardinage/les-haies-de-photinia-cest-fini-cet-arbuste-colore-et-sans-entretien-va-le-remplacer-dans-tous-les-jardins-au-printemps-2026-1252755.html",
+                "clicks": 72452,
+                "impressions": 734821,
+                "ctr": 0.09859816200135815
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/impots-2026-pourquoi-retraites-doivent-imperativement-cocher-case-7ac-cotisent-1251349.html",
+                "clicks": 69247,
+                "impressions": 686262,
+                "ctr": 0.10090461077547642
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/impots-2026-voici-combien-vous-pouvez-verser-a-votre-enfant-sans-alerter-le-fisc-1252717.html",
+                "clicks": 53824,
+                "impressions": 486706,
+                "ctr": 0.11058832231367602
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-03-08",
+                "clicks": 619527,
+                "impressions": 6118484
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 402294,
+                "impressions": 3787070
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 495096,
+                "impressions": 4574678
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 513396,
+                "impressions": 5336240
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 294488,
+                "impressions": 3145409
+              }
+            ]
+          },
+          "28": {
+            "totalClicks": 7783646,
+            "totalImpressions": 78573521,
+            "avgCtr": 0.09906194734483134,
+            "topPages": [
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/livret-a-fini-voici-quels-comptes-etat-peut-servir-financer-fonds-defense-1145652.html",
+                "clicks": 593315,
+                "impressions": 4475514,
+                "ctr": 0.13256913060712133
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/impots-2026-pourquoi-retraites-doivent-imperativement-cocher-case-7ac-cotisent-1251349.html",
+                "clicks": 355895,
+                "impressions": 3241368,
+                "ctr": 0.10979777674117841
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/impots-2026-noubliez-cocher-case-1pb-declaration-revenus-payer-calcul-1147608.html",
+                "clicks": 314862,
+                "impressions": 2641592,
+                "ctr": 0.11919403147798752
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/porte-avions-charles-de-gaulle-voici-le-salaire-exact-et-les-primes-des-marins-deployes-en-zone-de-guerre-en-2026-1251380.html",
+                "clicks": 259249,
+                "impressions": 2499173,
+                "ctr": 0.10373391517914125
+              },
+              {
+                "url": "https://www.mariefrance.fr/mode/shopping-mode/plus-chic-jogging-pantalon-ample-decathlon-sera-partout-printemps-2026-1250253.html",
+                "clicks": 248314,
+                "impressions": 3236535,
+                "ctr": 0.07672217355906857
+              },
+              {
+                "url": "https://www.mariefrance.fr/beaute/nivea-creme-bleue-avis-honnete-composition-dermatologue-1088654.html",
+                "clicks": 228630,
+                "impressions": 3139025,
+                "ctr": 0.07283471778657385
+              },
+              {
+                "url": "https://www.mariefrance.fr/beaute/didier-raoult-acide-hyaluronique-prix-cremes-anti-rides-marque-interpelle-age-1123792.html",
+                "clicks": 208462,
+                "impressions": 2018590,
+                "ctr": 0.10327109517039121
+              },
+              {
+                "url": "https://www.mariefrance.fr/actualite/societe/je-fais-toujours-courses-boulangerie-lidl-magasin-arrete-dacheter-produit-tres-populaire-decouvert-cela-croissant-1220615.html",
+                "clicks": 185766,
+                "impressions": 1090009,
+                "ctr": 0.17042611574766814
+              },
+              {
+                "url": "https://www.mariefrance.fr/vie-pratique/attaque-nucleaire-ne-courez-pas-cave-voici-la-piece-la-plus-sure-de-votre-maison-selon-les-experts-1251375.html",
+                "clicks": 118346,
+                "impressions": 727610,
+                "ctr": 0.1626503209136763
+              },
+              {
+                "url": "https://www.mariefrance.fr/beaute/effet-lift-immediat-numero-1-des-soins-anti-age-cette-creme-de-nuit-vendue-chez-lidl-et-intermarche-stimule-la-production-de-collagene-pendant-que-vous-dormez-1247589.html",
+                "clicks": 107033,
+                "impressions": 2294484,
+                "ctr": 0.046647960935879265
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-02-15",
+                "clicks": 266371,
+                "impressions": 2530659
+              },
+              {
+                "date": "2026-02-16",
+                "clicks": 149175,
+                "impressions": 1787846
+              },
+              {
+                "date": "2026-02-17",
+                "clicks": 138231,
+                "impressions": 1591896
+              },
+              {
+                "date": "2026-02-18",
+                "clicks": 202793,
+                "impressions": 2141179
+              },
+              {
+                "date": "2026-02-19",
+                "clicks": 135689,
+                "impressions": 1526821
+              },
+              {
+                "date": "2026-02-20",
+                "clicks": 119647,
+                "impressions": 1240194
+              },
+              {
+                "date": "2026-02-21",
+                "clicks": 130755,
+                "impressions": 1207930
+              },
+              {
+                "date": "2026-02-22",
+                "clicks": 330955,
+                "impressions": 3345888
+              },
+              {
+                "date": "2026-02-23",
+                "clicks": 268625,
+                "impressions": 3069058
+              },
+              {
+                "date": "2026-02-24",
+                "clicks": 207997,
+                "impressions": 2345377
+              },
+              {
+                "date": "2026-02-25",
+                "clicks": 146277,
+                "impressions": 1526933
+              },
+              {
+                "date": "2026-02-26",
+                "clicks": 153814,
+                "impressions": 1648187
+              },
+              {
+                "date": "2026-02-27",
+                "clicks": 142011,
+                "impressions": 1415780
+              },
+              {
+                "date": "2026-02-28",
+                "clicks": 211988,
+                "impressions": 2407848
+              },
+              {
+                "date": "2026-03-01",
+                "clicks": 242545,
+                "impressions": 3005935
+              },
+              {
+                "date": "2026-03-02",
+                "clicks": 321951,
+                "impressions": 2840782
+              },
+              {
+                "date": "2026-03-03",
+                "clicks": 479440,
+                "impressions": 4851840
+              },
+              {
+                "date": "2026-03-04",
+                "clicks": 384172,
+                "impressions": 3943267
+              },
+              {
+                "date": "2026-03-05",
+                "clicks": 479653,
+                "impressions": 5124154
+              },
+              {
+                "date": "2026-03-06",
+                "clicks": 319557,
+                "impressions": 3201940
+              },
+              {
+                "date": "2026-03-07",
+                "clicks": 772395,
+                "impressions": 7037138
+              },
+              {
+                "date": "2026-03-08",
+                "clicks": 587055,
+                "impressions": 5641772
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 368109,
+                "impressions": 3261769
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 467502,
+                "impressions": 4162683
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 486996,
+                "impressions": 4916314
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 269943,
+                "impressions": 2800331
+              }
+            ]
+          }
         }
-      ]
-    },
-    {
-      "site": "https://www.modesettravaux.fr/",
-      "data": [
-        {
-          "keys": [
-            "2026-03-08"
-          ],
-          "clicks": 231277,
-          "impressions": 2879723,
-          "ctr": 0.08031223836459271
-        },
-        {
-          "keys": [
-            "2026-03-09"
-          ],
-          "clicks": 264511,
-          "impressions": 3229996,
-          "ctr": 0.08189205187870202
-        },
-        {
-          "keys": [
-            "2026-03-10"
-          ],
-          "clicks": 234352,
-          "impressions": 3237146,
-          "ctr": 0.07239463403874895
-        },
-        {
-          "keys": [
-            "2026-03-11"
-          ],
-          "clicks": 200521,
-          "impressions": 2564295,
-          "ctr": 0.07819732129103711
-        },
-        {
-          "keys": [
-            "2026-03-12"
-          ],
-          "clicks": 171660,
-          "impressions": 2028163,
-          "ctr": 0.08463816764234433
+      },
+      "modesettravaux.fr": {
+        "url": "https://www.modesettravaux.fr/",
+        "periods": {
+          "1": {
+            "totalClicks": 0,
+            "totalImpressions": 0,
+            "avgCtr": 0,
+            "topPages": [],
+            "daily": []
+          },
+          "7": {
+            "totalClicks": 1095782,
+            "totalImpressions": 13836892,
+            "avgCtr": 0.07919278404427815,
+            "topPages": [
+              {
+                "url": "https://www.modesettravaux.fr/trucs-et-astuces/fallait-le-savoir/retraite-le-calendrier-precis-de-vos-departs-pour-les-generations-1964-a-1969-173683.html",
+                "clicks": 60184,
+                "impressions": 747073,
+                "ctr": 0.08055973111061436
+              },
+              {
+                "url": "https://www.modesettravaux.fr/trucs-et-astuces/fallait-le-savoir/retraite-des-meres-des-le-1er-septembre-ce-nouveau-calcul-va-booster-votre-future-pension-173439.html",
+                "clicks": 51066,
+                "impressions": 418995,
+                "ctr": 0.12187734937171088
+              },
+              {
+                "url": "https://www.modesettravaux.fr/diy/recup-recyclage/recup-sacs-ikea-3-idees-de-diy-bluffants-et-faciles-a-faire-173414.html",
+                "clicks": 41037,
+                "impressions": 540643,
+                "ctr": 0.07590406238497492
+              },
+              {
+                "url": "https://www.modesettravaux.fr/deco/jardinage-deco/https-www-instagram-com-p-dqce4bfkm_i-132155.html",
+                "clicks": 38706,
+                "impressions": 576483,
+                "ctr": 0.06714161562439828
+              },
+              {
+                "url": "https://www.modesettravaux.fr/deco/jardinage-deco/a-planter-maintenant-cette-vivace-aux-fleurs-bleues-est-un-veritable-aimant-a-abeilles-et-un-bijou-au-jardin-131430.html",
+                "clicks": 35836,
+                "impressions": 543892,
+                "ctr": 0.06588808072190802
+              },
+              {
+                "url": "https://www.modesettravaux.fr/viepratique/animaux/serpents-dans-le-jardin-retirez-immediatement-cet-objet-de-votre-jardin-avant-les-beaux-jours-174272.html",
+                "clicks": 32691,
+                "impressions": 250301,
+                "ctr": 0.13060674947363374
+              },
+              {
+                "url": "https://www.modesettravaux.fr/trucs-et-astuces/fallait-le-savoir/pension-de-reversion-le-nouveau-formulaire-prerempli-qui-va-tout-simplifier-des-mars-2026-173711.html",
+                "clicks": 25239,
+                "impressions": 477258,
+                "ctr": 0.05288334611468011
+              },
+              {
+                "url": "https://www.modesettravaux.fr/passion-diy/recup-vieilles-chemises-cette-idee-couture-geniale-en-fait-une-robe-denfant-en-un-rien-de-temps-173074.html",
+                "clicks": 24805,
+                "impressions": 290708,
+                "ctr": 0.0853261692144695
+              },
+              {
+                "url": "https://www.modesettravaux.fr/diy/recup-recyclage/ne-jetez-plus-vos-taies-doreiller-orphelines-lastuce-geniale-pour-ranger-vos-placards-avec-173023.html",
+                "clicks": 21580,
+                "impressions": 186997,
+                "ctr": 0.11540292090247437
+              },
+              {
+                "url": "https://www.modesettravaux.fr/trucs-et-astuces/brocante/voici-les-vinyles-qui-valent-le-plus-cher-aujourdhui-certains-depassent-100-000-e-173292.html",
+                "clicks": 21104,
+                "impressions": 166438,
+                "ctr": 0.12679796681046396
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-03-08",
+                "clicks": 229998,
+                "impressions": 2859467
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 263159,
+                "impressions": 3208843
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 232990,
+                "impressions": 3215896
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 199261,
+                "impressions": 2543700
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 170374,
+                "impressions": 2008986
+              }
+            ]
+          },
+          "28": {
+            "totalClicks": 4260781,
+            "totalImpressions": 52775362,
+            "avgCtr": 0.08073428278900295,
+            "topPages": [
+              {
+                "url": "https://www.modesettravaux.fr/actualites/bonne-nouvelle-ces-francais-pourront-valider-jusqua-3-trimestres-de-retraite-supplementaires-59530-172543.html",
+                "clicks": 229267,
+                "impressions": 2901180,
+                "ctr": 0.07902543103151131
+              },
+              {
+                "url": "https://www.modesettravaux.fr/viepratique/ils-revaient-dune-retraite-au-soleil-le-portugal-supprime-lavantage-fiscal-59530-172813.html",
+                "clicks": 215534,
+                "impressions": 2232913,
+                "ctr": 0.09652592823813556
+              },
+              {
+                "url": "https://www.modesettravaux.fr/mode/adieu-les-talons-de-10-cm-voici-la-chaussure-ultra-chic-qui-va-envahir-les-rues-au-printemps-2026-172244.html",
+                "clicks": 155619,
+                "impressions": 1952949,
+                "ctr": 0.07968410849438465
+              },
+              {
+                "url": "https://www.modesettravaux.fr/trucs-et-astuces/fallait-le-savoir/passage-a-lheure-dete-2026-decouvrez-le-jour-de-mars-ou-vous-devrez-avancer-votre-montre-dune-heure-171634.html",
+                "clicks": 131951,
+                "impressions": 1287288,
+                "ctr": 0.10250309177122757
+              },
+              {
+                "url": "https://www.modesettravaux.fr/viepratique/elle-a-travaille-32-ans-a-la-sncf-voici-sa-retraite-59530-173125.html",
+                "clicks": 106605,
+                "impressions": 937031,
+                "ctr": 0.11376891479577517
+              },
+              {
+                "url": "https://www.modesettravaux.fr/viepratique/ils-vivent-mieux-quen-france-avec-1-200-e-par-mois-cette-ile-ensoleillee-seduit-de-plus-en-plus-de-retraites-59530-170620.html",
+                "clicks": 102519,
+                "impressions": 1394667,
+                "ctr": 0.07350786962049005
+              },
+              {
+                "url": "https://www.modesettravaux.fr/diy/recup-recyclage/recup-vieux-draps-en-lin-lastuce-geniale-pour-les-recycler-en-10-minutes-171881.html",
+                "clicks": 92349,
+                "impressions": 1353673,
+                "ctr": 0.06822105486332371
+              },
+              {
+                "url": "https://www.modesettravaux.fr/diy/recup-recyclage/recup-sacs-ikea-3-idees-de-diy-bluffants-et-faciles-a-faire-173414.html",
+                "clicks": 75831,
+                "impressions": 1067184,
+                "ctr": 0.0710570998065938
+              },
+              {
+                "url": "https://www.modesettravaux.fr/deco/jardinage-deco/399-e-chez-action-la-petite-lampe-solaire-qui-transforme-vos-soirees-sur-un-mini-balcon-59530-171334.html",
+                "clicks": 75746,
+                "impressions": 1338647,
+                "ctr": 0.056583998619501634
+              },
+              {
+                "url": "https://www.modesettravaux.fr/viepratique/bonne-nouvelle-pour-14-millions-de-retraites-ce-qui-se-prepare-pour-2026-59530-171284.html",
+                "clicks": 64113,
+                "impressions": 729306,
+                "ctr": 0.08790960173096067
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-02-15",
+                "clicks": 169147,
+                "impressions": 2014421
+              },
+              {
+                "date": "2026-02-16",
+                "clicks": 102881,
+                "impressions": 1147861
+              },
+              {
+                "date": "2026-02-17",
+                "clicks": 99074,
+                "impressions": 1200237
+              },
+              {
+                "date": "2026-02-18",
+                "clicks": 110855,
+                "impressions": 1279640
+              },
+              {
+                "date": "2026-02-19",
+                "clicks": 117483,
+                "impressions": 1502349
+              },
+              {
+                "date": "2026-02-20",
+                "clicks": 112925,
+                "impressions": 1433249
+              },
+              {
+                "date": "2026-02-21",
+                "clicks": 130673,
+                "impressions": 1739672
+              },
+              {
+                "date": "2026-02-22",
+                "clicks": 121152,
+                "impressions": 1740213
+              },
+              {
+                "date": "2026-02-23",
+                "clicks": 185758,
+                "impressions": 2326776
+              },
+              {
+                "date": "2026-02-24",
+                "clicks": 170961,
+                "impressions": 2396760
+              },
+              {
+                "date": "2026-02-25",
+                "clicks": 102441,
+                "impressions": 1498929
+              },
+              {
+                "date": "2026-02-26",
+                "clicks": 165310,
+                "impressions": 1870265
+              },
+              {
+                "date": "2026-02-27",
+                "clicks": 175518,
+                "impressions": 2191731
+              },
+              {
+                "date": "2026-02-28",
+                "clicks": 97207,
+                "impressions": 1208599
+              },
+              {
+                "date": "2026-03-01",
+                "clicks": 133204,
+                "impressions": 1803849
+              },
+              {
+                "date": "2026-03-02",
+                "clicks": 182239,
+                "impressions": 2050207
+              },
+              {
+                "date": "2026-03-03",
+                "clicks": 264857,
+                "impressions": 3402372
+              },
+              {
+                "date": "2026-03-04",
+                "clicks": 242041,
+                "impressions": 3153337
+              },
+              {
+                "date": "2026-03-05",
+                "clicks": 186059,
+                "impressions": 2192030
+              },
+              {
+                "date": "2026-03-06",
+                "clicks": 194860,
+                "impressions": 2170111
+              },
+              {
+                "date": "2026-03-07",
+                "clicks": 187331,
+                "impressions": 2026898
+              },
+              {
+                "date": "2026-03-08",
+                "clicks": 213496,
+                "impressions": 2612246
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 245978,
+                "impressions": 2925722
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 212988,
+                "impressions": 2866114
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 180700,
+                "impressions": 2256319
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 155643,
+                "impressions": 1765455
+              }
+            ]
+          }
         }
-      ]
-    },
-    {
-      "site": "https://www.aufeminin.com/",
-      "data": [
-        {
-          "keys": [
-            "2026-03-08"
-          ],
-          "clicks": 81143,
-          "impressions": 680345,
-          "ctr": 0.11926743049482248
-        },
-        {
-          "keys": [
-            "2026-03-09"
-          ],
-          "clicks": 63272,
-          "impressions": 604389,
-          "ctr": 0.10468754394934389
-        },
-        {
-          "keys": [
-            "2026-03-10"
-          ],
-          "clicks": 66215,
-          "impressions": 694227,
-          "ctr": 0.0953794652181491
-        },
-        {
-          "keys": [
-            "2026-03-11"
-          ],
-          "clicks": 72716,
-          "impressions": 822542,
-          "ctr": 0.08840399639167362
-        },
-        {
-          "keys": [
-            "2026-03-12"
-          ],
-          "clicks": 44322,
-          "impressions": 389985,
-          "ctr": 0.11365052502019309
+      },
+      "aufeminin.com": {
+        "url": "https://www.aufeminin.com/",
+        "periods": {
+          "1": {
+            "totalClicks": 0,
+            "totalImpressions": 0,
+            "avgCtr": 0,
+            "topPages": [],
+            "daily": []
+          },
+          "7": {
+            "totalClicks": 323221,
+            "totalImpressions": 3143692,
+            "avgCtr": 0.10281573385687912,
+            "topPages": [
+              {
+                "url": "https://www.aufeminin.com/maquillage/paupieres-tombantes-apres-50-ans-ces-4-astuces-make-up-liftent-et-rajeunissent-instantanement-le-regard-selon-une-maquilleuse-s4108108.html",
+                "clicks": 29909,
+                "impressions": 447873,
+                "ctr": 0.06678009167777472
+              },
+              {
+                "url": "https://www.aufeminin.com/petites-mains-diy-do-it-yourself/terrasse-verte-et-glissante-apres-lhiver-cet-ingredient-a-30-centimes-enleve-mousse-et-algues-en-1-h-sans-frotter-2707255.html",
+                "clicks": 26241,
+                "impressions": 146405,
+                "ctr": 0.17923568184146715
+              },
+              {
+                "url": "https://www.aufeminin.com/enfant/Parcoursup-lyceen-refuse-11-voeux-malgre-moyenne-generale-16/20-mention-Tres-Bien-s2640329.html",
+                "clicks": 22749,
+                "impressions": 175838,
+                "ctr": 0.12937476540906973
+              },
+              {
+                "url": "https://www.aufeminin.com/sports-femme/bras-chauve-souris-apres-50-ans-fini-le-pilates-voici-le-meilleur-circuit-pour-tonifier-et-affiner-ses-bras-s4110929.html",
+                "clicks": 19161,
+                "impressions": 219230,
+                "ctr": 0.0874013593030151
+              },
+              {
+                "url": "https://www.aufeminin.com/dossiers/babybel-emballage-rouge-fromage-composition-s4109908.html",
+                "clicks": 16503,
+                "impressions": 145339,
+                "ctr": 0.11354832495063266
+              },
+              {
+                "url": "https://www.aufeminin.com/astro/astrologie-avant-le-20-mars-2026-ces-2-signes-vont-reprendre-leur-destin-en-main-et-peut-etre-vous-aussi-2709566.html",
+                "clicks": 12353,
+                "impressions": 44818,
+                "ctr": 0.27562586460797
+              },
+              {
+                "url": "https://www.aufeminin.com/maman/enfant/etre-parent/les-enfants-avec-une-intelligence-emotionnelle-superieure-a-la-moyenne-ont-tous-des-parents-qui-appliquent-ces-6-regles-deducation-2708232.html",
+                "clicks": 11299,
+                "impressions": 141247,
+                "ctr": 0.07999461935474736
+              },
+              {
+                "url": "https://www.aufeminin.com/forme/deux-fois-plus-calorique-quun-croissant-cette-viennoiserie-de-boulangerie-est-une-bombe-de-sucre-pour-la-glycemie-2706883.html",
+                "clicks": 10114,
+                "impressions": 63236,
+                "ctr": 0.15994054019862103
+              },
+              {
+                "url": "https://www.aufeminin.com/maman/bacheliere-brillante-28-refus-parcoursup-2708151.html",
+                "clicks": 9725,
+                "impressions": 56289,
+                "ctr": 0.1727691023112864
+              },
+              {
+                "url": "https://www.aufeminin.com/astro/un-vrai-tournant-la-semaine-du-9-mars-2026-sannonce-historique-pour-les-finances-de-3-signes-astro-2707398.html",
+                "clicks": 9352,
+                "impressions": 41064,
+                "ctr": 0.22774206117280343
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-03-08",
+                "clicks": 80188,
+                "impressions": 670347
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 62262,
+                "impressions": 593889
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 65251,
+                "impressions": 683524
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 71948,
+                "impressions": 813463
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 43572,
+                "impressions": 382469
+              }
+            ]
+          },
+          "28": {
+            "totalClicks": 1306368,
+            "totalImpressions": 12355114,
+            "avgCtr": 0.10573500171669804,
+            "topPages": [
+              {
+                "url": "https://www.aufeminin.com/maman/mal-coeur-refuse-chauffeur-bus-sortie-lecole-un-enfant-11-contraint-marcher-6-km-plein-hiver-rentrer-chez-lui-2705266.html",
+                "clicks": 41915,
+                "impressions": 194782,
+                "ctr": 0.21518928853795524
+              },
+              {
+                "url": "https://www.aufeminin.com/beaute/oubliez-leyeliner-le-reverse-cat-eye-est-le-maquillage-anti-age-le-plus-tendance-du-printemps-parfait-pour-les-paupieres-tombantes-2704953.html",
+                "clicks": 30490,
+                "impressions": 406706,
+                "ctr": 0.07496815881742586
+              },
+              {
+                "url": "https://www.aufeminin.com/maquillage/paupieres-tombantes-apres-50-ans-ces-4-astuces-make-up-liftent-et-rajeunissent-instantanement-le-regard-selon-une-maquilleuse-s4108108.html",
+                "clicks": 29828,
+                "impressions": 446801,
+                "ctr": 0.06675902694935777
+              },
+              {
+                "url": "https://www.aufeminin.com/sports-femme/fini-la-marche-a-pied-voici-le-meilleur-exercice-pour-remplacer-les-10-000-pas-par-jour-selon-un-expert-s4106095.html",
+                "clicks": 29566,
+                "impressions": 289943,
+                "ctr": 0.10197176686452165
+              },
+              {
+                "url": "https://www.aufeminin.com/petites-mains-diy-do-it-yourself/terrasse-verte-et-glissante-apres-lhiver-cet-ingredient-a-30-centimes-enleve-mousse-et-algues-en-1-h-sans-frotter-2707255.html",
+                "clicks": 29067,
+                "impressions": 158869,
+                "ctr": 0.18296206308342094
+              },
+              {
+                "url": "https://www.aufeminin.com/societe/news-societe/retraite/elle-part-a-la-retraite-apres-42-ans-de-carriere-chez-leclerc-ses-collegues-lui-offrent-un-hommage-bouleversant-2705941.html",
+                "clicks": 28165,
+                "impressions": 174369,
+                "ctr": 0.16152527112044
+              },
+              {
+                "url": "https://www.aufeminin.com/forme/une-action-anti-cellulite-redoutable-fini-la-natation-laquapalming-est-le-meilleur-sport-pour-se-tonifier-apres-50-ans-2703247.html",
+                "clicks": 27200,
+                "impressions": 324301,
+                "ctr": 0.08387269851156795
+              },
+              {
+                "url": "https://www.aufeminin.com/enfant/Parcoursup-lyceen-refuse-11-voeux-malgre-moyenne-generale-16/20-mention-Tres-Bien-s2640329.html",
+                "clicks": 26889,
+                "impressions": 200886,
+                "ctr": 0.13385203548281116
+              },
+              {
+                "url": "https://www.aufeminin.com/astro/mon-horoscope/un-nouveau-depart-ces-signes-astro-repartent-de-zero-grace-a-la-nouvelle-lune-du-17-fevrier-2701763.html",
+                "clicks": 22891,
+                "impressions": 144775,
+                "ctr": 0.158114315316871
+              },
+              {
+                "url": "https://www.aufeminin.com/societe/dossiers/consommation-3/du-pain-chaud-et-croustillant-cet-employe-lidl-devoile-lheure-exacte-ou-il-faut-passer-au-rayon-boulangerie-2707462.html",
+                "clicks": 22334,
+                "impressions": 182736,
+                "ctr": 0.12222003327204273
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-02-15",
+                "clicks": 79297,
+                "impressions": 572749
+              },
+              {
+                "date": "2026-02-16",
+                "clicks": 68500,
+                "impressions": 549741
+              },
+              {
+                "date": "2026-02-17",
+                "clicks": 43714,
+                "impressions": 387338
+              },
+              {
+                "date": "2026-02-18",
+                "clicks": 41965,
+                "impressions": 386021
+              },
+              {
+                "date": "2026-02-19",
+                "clicks": 17761,
+                "impressions": 235716
+              },
+              {
+                "date": "2026-02-20",
+                "clicks": 17797,
+                "impressions": 206359
+              },
+              {
+                "date": "2026-02-21",
+                "clicks": 22917,
+                "impressions": 261174
+              },
+              {
+                "date": "2026-02-22",
+                "clicks": 29990,
+                "impressions": 333832
+              },
+              {
+                "date": "2026-02-23",
+                "clicks": 32280,
+                "impressions": 298075
+              },
+              {
+                "date": "2026-02-24",
+                "clicks": 41099,
+                "impressions": 454593
+              },
+              {
+                "date": "2026-02-25",
+                "clicks": 42427,
+                "impressions": 426335
+              },
+              {
+                "date": "2026-02-26",
+                "clicks": 53606,
+                "impressions": 519352
+              },
+              {
+                "date": "2026-02-27",
+                "clicks": 65484,
+                "impressions": 676376
+              },
+              {
+                "date": "2026-02-28",
+                "clicks": 66018,
+                "impressions": 491697
+              },
+              {
+                "date": "2026-03-01",
+                "clicks": 40484,
+                "impressions": 290005
+              },
+              {
+                "date": "2026-03-02",
+                "clicks": 46118,
+                "impressions": 365101
+              },
+              {
+                "date": "2026-03-03",
+                "clicks": 54568,
+                "impressions": 563021
+              },
+              {
+                "date": "2026-03-04",
+                "clicks": 59080,
+                "impressions": 577883
+              },
+              {
+                "date": "2026-03-05",
+                "clicks": 56983,
+                "impressions": 611851
+              },
+              {
+                "date": "2026-03-06",
+                "clicks": 59078,
+                "impressions": 635196
+              },
+              {
+                "date": "2026-03-07",
+                "clicks": 52561,
+                "impressions": 499655
+              },
+              {
+                "date": "2026-03-08",
+                "clicks": 78980,
+                "impressions": 653462
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 60573,
+                "impressions": 571303
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 63196,
+                "impressions": 646723
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 69784,
+                "impressions": 780019
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 42108,
+                "impressions": 361537
+              }
+            ]
+          }
         }
-      ]
-    },
-    {
-      "site": "https://www.pleinevie.fr/",
-      "data": [
-        {
-          "keys": [
-            "2026-03-08"
-          ],
-          "clicks": 260245,
-          "impressions": 2791696,
-          "ctr": 0.09322111003490352
-        },
-        {
-          "keys": [
-            "2026-03-09"
-          ],
-          "clicks": 313036,
-          "impressions": 3225922,
-          "ctr": 0.09703768411015518
-        },
-        {
-          "keys": [
-            "2026-03-10"
-          ],
-          "clicks": 329235,
-          "impressions": 2999569,
-          "ctr": 0.1097607689638078
-        },
-        {
-          "keys": [
-            "2026-03-11"
-          ],
-          "clicks": 284160,
-          "impressions": 2883921,
-          "ctr": 0.098532518747913
-        },
-        {
-          "keys": [
-            "2026-03-12"
-          ],
-          "clicks": 155228,
-          "impressions": 1720446,
-          "ctr": 0.09022544154248376
+      },
+      "pleinevie.fr": {
+        "url": "https://www.pleinevie.fr/",
+        "periods": {
+          "1": {
+            "totalClicks": 0,
+            "totalImpressions": 0,
+            "avgCtr": 0,
+            "topPages": [],
+            "daily": []
+          },
+          "7": {
+            "totalClicks": 1334797,
+            "totalImpressions": 13514703,
+            "avgCtr": 0.09876628439411506,
+            "topPages": [
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/on-voyage-on-fait-nos-courses-tout-ca-aux-frais-de-letat-sans-jamais-avoir-travaille-ce-couple-de-retraites-touche-plus-de-1600-euros-par-mois-grace-a-ce-dispositif-de-solidarite-195405.html",
+                "clicks": 188622,
+                "impressions": 1265955,
+                "ctr": 0.14899581738687395
+              },
+              {
+                "url": "https://www.pleinevie.fr/conso-argent/impots/impots-2026-ces-deux-cases-7wj-et-7wi-souvent-oubliees-permettent-aux-seniors-de-reduire-leurs-taxes-de-25-noubliez-pas-de-les-cocher-195755.html",
+                "clicks": 126457,
+                "impressions": 1174131,
+                "ctr": 0.10770263284079885
+              },
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/ce-couple-de-retraites-na-jamais-travaille-de-sa-vie-pourtant-il-touche-une-pension-plus-que-confortable-en-2026-194820.html",
+                "clicks": 106000,
+                "impressions": 894287,
+                "ctr": 0.11853018102689629
+              },
+              {
+                "url": "https://www.pleinevie.fr/vie-quotidienne/volets-roulants-cette-astuce-a-3-ingredients-qui-stoppe-la-salete-et-vous-evite-de-frotter-pendant-des-mois-apres-chaque-pluie-195214.html",
+                "clicks": 59770,
+                "impressions": 609313,
+                "ctr": 0.09809408300824043
+              },
+              {
+                "url": "https://www.pleinevie.fr/conso-argent/rappel-conso-chez-carrefour-intermarche-et-e-leclerc-ne-mangez-plus-cette-charcuterie-cuite-a-risque-de-listeriose-195221.html",
+                "clicks": 41001,
+                "impressions": 389691,
+                "ctr": 0.1052141311962555
+              },
+              {
+                "url": "https://www.pleinevie.fr/loisirs/tourisme/la-limite-des-100-ml-dans-les-bagages-cest-termine-voici-les-aeroports-qui-ont-leve-cette-restriction-en-2026-194927.html",
+                "clicks": 34126,
+                "impressions": 247660,
+                "ctr": 0.13779374949527579
+              },
+              {
+                "url": "https://www.pleinevie.fr/vie-quotidienne/grille-de-barbecue-rouillee-cette-astuce-avec-un-simple-produit-du-placard-la-rend-comme-neuve-en-quelques-minutes-deffort-194359.html",
+                "clicks": 33434,
+                "impressions": 400017,
+                "ctr": 0.08358144778846899
+              },
+              {
+                "url": "https://www.pleinevie.fr/conso-argent/transports/conduite-senior-si-vous-avez-plus-de-65-ans-vous-devez-passer-cet-examen-obligatoire-en-2026-195838.html",
+                "clicks": 31551,
+                "impressions": 249833,
+                "ctr": 0.12628836062489743
+              },
+              {
+                "url": "https://www.pleinevie.fr/conso-argent/transports/cest-officiel-face-a-la-hausse-du-prix-des-carburants-le-gouvernement-exclut-toute-aide-de-letat-pour-le-moment-195294.html",
+                "clicks": 28564,
+                "impressions": 173358,
+                "ctr": 0.1647688598161031
+              },
+              {
+                "url": "https://www.pleinevie.fr/loisirs/celebrites/lucie-lucas-39-ans-vit-avec-onze-personnes-dans-un-habitat-partage-ce-choix-de-vie-fou-au-fin-fond-de-la-campagne-bretonne-195002.html",
+                "clicks": 27643,
+                "impressions": 187182,
+                "ctr": 0.14767979827120128
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-03-08",
+                "clicks": 258856,
+                "impressions": 2770145
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 311353,
+                "impressions": 3201391
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 327741,
+                "impressions": 2977158
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 282783,
+                "impressions": 2863158
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 154064,
+                "impressions": 1702851
+              }
+            ]
+          },
+          "28": {
+            "totalClicks": 5434131,
+            "totalImpressions": 54505720,
+            "avgCtr": 0.09969836193338974,
+            "topPages": [
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/quelle-somme-faut-il-mettre-de-cote-a-la-retraite-pour-etre-a-labri-du-besoin-en-2026-193888.html",
+                "clicks": 251091,
+                "impressions": 3253892,
+                "ctr": 0.07716635954727447
+              },
+              {
+                "url": "https://www.pleinevie.fr/vie-quotidienne/jardin/si-vous-voyez-ces-oeufs-qui-ressemblent-a-des-cailloux-dans-votre-jardin-ny-touchez-pas-ils-appartiennent-a-une-espece-protegee-et-peuvent-vous-valoir-150-000-e-damende-191642.html",
+                "clicks": 250022,
+                "impressions": 1234957,
+                "ctr": 0.20245401256885867
+              },
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/ce-couple-de-retraites-na-jamais-travaille-de-sa-vie-pourtant-il-touche-une-pension-plus-que-confortable-en-2026-194820.html",
+                "clicks": 236322,
+                "impressions": 1895934,
+                "ctr": 0.12464674403222897
+              },
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/virement-agirc-arrco-certains-retraites-vont-recevoir-un-bonus-dautres-subiront-un-gros-prelevement-192093.html",
+                "clicks": 199164,
+                "impressions": 1679332,
+                "ctr": 0.11859715648841325
+              },
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/on-voyage-on-fait-nos-courses-tout-ca-aux-frais-de-letat-sans-jamais-avoir-travaille-ce-couple-de-retraites-touche-plus-de-1600-euros-par-mois-grace-a-ce-dispositif-de-solidarite-195405.html",
+                "clicks": 188622,
+                "impressions": 1265955,
+                "ctr": 0.14899581738687395
+              },
+              {
+                "url": "https://www.pleinevie.fr/conso-argent/impots/impots-2026-ces-deux-cases-7wj-et-7wi-souvent-oubliees-permettent-aux-seniors-de-reduire-leurs-taxes-de-25-noubliez-pas-de-les-cocher-195755.html",
+                "clicks": 126457,
+                "impressions": 1174131,
+                "ctr": 0.10770263284079885
+              },
+              {
+                "url": "https://www.pleinevie.fr/retraite-travail/retraite/retraite-2026-si-vous-etes-nee-cette-annee-precise-votre-depart-est-officiellement-reporte-192174.html",
+                "clicks": 84775,
+                "impressions": 926355,
+                "ctr": 0.09151459213800325
+              },
+              {
+                "url": "https://www.pleinevie.fr/vie-quotidienne/grille-de-barbecue-rouillee-cette-astuce-avec-un-simple-produit-du-placard-la-rend-comme-neuve-en-quelques-minutes-deffort-194359.html",
+                "clicks": 84068,
+                "impressions": 984572,
+                "ctr": 0.0853853247908736
+              },
+              {
+                "url": "https://www.pleinevie.fr/vie-quotidienne/grand-frais-attention-voici-pourquoi-vous-ne-devez-jamais-peser-vos-legumes-vous-meme-dans-ce-magasin-190745.html",
+                "clicks": 81015,
+                "impressions": 459987,
+                "ctr": 0.17612454265011837
+              },
+              {
+                "url": "https://www.pleinevie.fr/vie-quotidienne/je-ne-desherbe-plus-ma-pelouse-ce-dechet-de-cuisine-du-petit-dejeuner-la-transforme-completement-au-printemps-194146.html",
+                "clicks": 76961,
+                "impressions": 881454,
+                "ctr": 0.08731141954089493
+              }
+            ],
+            "daily": [
+              {
+                "date": "2026-02-15",
+                "clicks": 153756,
+                "impressions": 1450375
+              },
+              {
+                "date": "2026-02-16",
+                "clicks": 278852,
+                "impressions": 2210144
+              },
+              {
+                "date": "2026-02-17",
+                "clicks": 339909,
+                "impressions": 2776394
+              },
+              {
+                "date": "2026-02-18",
+                "clicks": 224422,
+                "impressions": 1858446
+              },
+              {
+                "date": "2026-02-19",
+                "clicks": 276383,
+                "impressions": 2309837
+              },
+              {
+                "date": "2026-02-20",
+                "clicks": 272132,
+                "impressions": 2745473
+              },
+              {
+                "date": "2026-02-21",
+                "clicks": 151109,
+                "impressions": 1849288
+              },
+              {
+                "date": "2026-02-22",
+                "clicks": 217961,
+                "impressions": 2376327
+              },
+              {
+                "date": "2026-02-23",
+                "clicks": 200088,
+                "impressions": 2099679
+              },
+              {
+                "date": "2026-02-24",
+                "clicks": 174880,
+                "impressions": 1600052
+              },
+              {
+                "date": "2026-02-25",
+                "clicks": 165007,
+                "impressions": 1503023
+              },
+              {
+                "date": "2026-02-26",
+                "clicks": 131163,
+                "impressions": 1294167
+              },
+              {
+                "date": "2026-02-27",
+                "clicks": 158173,
+                "impressions": 1595336
+              },
+              {
+                "date": "2026-02-28",
+                "clicks": 107862,
+                "impressions": 1355804
+              },
+              {
+                "date": "2026-03-01",
+                "clicks": 238096,
+                "impressions": 2633687
+              },
+              {
+                "date": "2026-03-02",
+                "clicks": 319613,
+                "impressions": 4393559
+              },
+              {
+                "date": "2026-03-03",
+                "clicks": 178642,
+                "impressions": 2277284
+              },
+              {
+                "date": "2026-03-04",
+                "clicks": 111908,
+                "impressions": 1222413
+              },
+              {
+                "date": "2026-03-05",
+                "clicks": 119623,
+                "impressions": 1173820
+              },
+              {
+                "date": "2026-03-06",
+                "clicks": 173603,
+                "impressions": 1689095
+              },
+              {
+                "date": "2026-03-07",
+                "clicks": 227336,
+                "impressions": 2336117
+              },
+              {
+                "date": "2026-03-08",
+                "clicks": 233446,
+                "impressions": 2400251
+              },
+              {
+                "date": "2026-03-09",
+                "clicks": 286986,
+                "impressions": 2861401
+              },
+              {
+                "date": "2026-03-10",
+                "clicks": 303836,
+                "impressions": 2623294
+              },
+              {
+                "date": "2026-03-11",
+                "clicks": 258494,
+                "impressions": 2500651
+              },
+              {
+                "date": "2026-03-12",
+                "clicks": 130851,
+                "impressions": 1369803
+              }
+            ]
+          }
         }
-      ]
+      }
     }
-  ],
+  },
   "seoAudits": [],
   "rssItems": [
     {
