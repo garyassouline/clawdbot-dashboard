@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T05:15:34.025Z",
+  "updatedAt": "2026-03-15T06:15:33.933Z",
   "discoverAdvanced": {
     "updatedAt": "2026-03-15T01:43:21.558Z",
     "sites": {
@@ -1274,15 +1274,15 @@
       "enabled": true
     },
     {
-      "id": "305da3df-3470-469f-9015-21481ae2699b",
-      "name": "Agent: Discover-Pulse Check",
-      "schedule": "Every 240min",
-      "enabled": true
-    },
-    {
       "id": "2c9e47f6-6073-4025-92cc-a8bac840662f",
       "name": "Agent: RSS-Distiller Daily",
       "schedule": "0 8 * * *",
+      "enabled": true
+    },
+    {
+      "id": "305da3df-3470-469f-9015-21481ae2699b",
+      "name": "Agent: Discover-Pulse Check",
+      "schedule": "Every 240min",
       "enabled": true
     },
     {
