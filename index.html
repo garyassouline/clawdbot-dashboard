@@ -1381,7 +1381,7 @@ function render(d) {
   } catch(e) {
     console.error("Critical Render Error:", e);
     const updatedAt = document.getElementById('updated-at');
-    if (updatedAt) updatedAt.textContent = 'Erreur: ' + e.message;
+    if (updatedAt) updatedAt.textContent = 'Erreur JS: ' + e.message + ' at ' + e.stack.split('\n')[0];
   }
 }
 
