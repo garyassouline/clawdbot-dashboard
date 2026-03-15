@@ -235,24 +235,31 @@
     .comp-source-badge { font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; background: var(--surface2); color: var(--muted); }
     .comp-vs-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 10px; }
 
-    /* Veille cards */
-    .veille-date-header { font-size: 0.9rem; font-weight: 700; margin: 20px 0 12px; display: flex; align-items: center; gap: 8px; }
+    /* Veille grid & cards */
+    .veille-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 16px;
+      margin-bottom: 24px;
+    }
+    .veille-date-header { font-size: 0.9rem; font-weight: 700; margin: 20px 0 12px; display: flex; align-items: center; gap: 8px; grid-column: 1 / -1; }
     .veille-date-header:first-child { margin-top: 0; }
     .veille-opp {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 18px 20px;
-      margin-bottom: 12px;
       border-left: 4px solid var(--border);
       transition: border-color 0.2s;
+      display: flex;
+      flex-direction: column;
     }
     .veille-opp.urgence-haute { border-left-color: var(--accent); }
     .veille-opp.urgence-normale { border-left-color: var(--accent2); }
     .veille-opp-header { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; flex-wrap: wrap; }
     .veille-opp-topic { font-size: 0.95rem; font-weight: 700; }
-    .veille-opp-summary { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin-bottom: 10px; }
-    .veille-opp-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+    .veille-opp-summary { font-size: 0.82rem; color: var(--muted); line-height: 1.5; margin-bottom: 10px; flex: 1; }
+    .veille-opp-meta { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: auto; }
     .veille-opp-angle {
       font-size: 0.8rem; background: var(--surface2); border-radius: 8px;
       padding: 10px 14px; margin-top: 10px; line-height: 1.5;
@@ -262,7 +269,7 @@
     .veille-opp-sources { margin-top: 8px; }
     .veille-opp-sources a { font-size: 0.72rem; color: var(--accent2); text-decoration: none; word-break: break-all; }
     .veille-opp-sources a:hover { text-decoration: underline; }
-    .veille-context { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-top: 8px; }
+    .veille-context { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px 20px; margin-top: 8px; grid-column: 1 / -1; }
     .veille-context-title { font-size: 0.82rem; font-weight: 700; margin-bottom: 8px; }
     .veille-context-item { font-size: 0.78rem; color: var(--muted); padding: 4px 0; line-height: 1.4; }
 
@@ -1339,7 +1346,7 @@ function renderVeille(d) {
     return;
   }
 
-  let html = '';
+  let html = '<div class="veille-grid">';
   briefs.forEach(brief => {
     const dateStr = (() => {
       try {
@@ -1392,6 +1399,7 @@ function renderVeille(d) {
       html += '</div>';
     }
   });
+  html += '</div>';
 
   container.innerHTML = html;
 }
