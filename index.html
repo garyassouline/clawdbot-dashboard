@@ -218,22 +218,31 @@
     .suggestion-hook { font-size: 0.82rem; color: var(--muted); line-height: 1.5; }
     .suggestion-meta { display: flex; align-items: center; justify-content: space-between; margin-top: 10px; }
 
-    /* Competitor articles */
-    .comp-article {
-      display: flex; gap: 12px; padding: 12px 0;
-      border-bottom: 1px solid var(--border); align-items: flex-start;
+    /* Competitor articles grid */
+    .comp-articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+      gap: 16px;
     }
-    .comp-article:last-child { border-bottom: none; }
-    .comp-article-icon { font-size: 1.2rem; flex-shrink: 0; width: 28px; text-align: center; padding-top: 2px; }
+    .comp-article {
+      background: var(--surface2);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      display: flex; gap: 12px; padding: 16px;
+      align-items: flex-start;
+      transition: transform 0.15s;
+    }
+    .comp-article:hover { transform: translateY(-2px); border-color: var(--accent2); }
+    .comp-article-icon { font-size: 1.2rem; flex-shrink: 0; width: 28px; text-align: center; }
     .comp-article-body { flex: 1; min-width: 0; }
-    .comp-article-title { font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; }
+    .comp-article-title { font-size: 0.9rem; font-weight: 700; margin-bottom: 6px; line-height: 1.3; }
     .comp-article-title a { color: var(--text); text-decoration: none; }
-    .comp-article-title a:hover { color: var(--accent2); text-decoration: underline; }
-    .comp-article-snippet { font-size: 0.78rem; color: var(--muted); line-height: 1.4; margin-bottom: 6px;
-      overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
-    .comp-article-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-    .comp-source-badge { font-size: 0.7rem; font-weight: 600; padding: 2px 8px; border-radius: 12px; background: var(--surface2); color: var(--muted); }
-    .comp-vs-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 10px; }
+    .comp-article-title a:hover { color: var(--accent2); }
+    .comp-article-snippet { font-size: 0.8rem; color: var(--muted); line-height: 1.4; margin-bottom: 8px;
+      overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+    .comp-article-meta { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin-top: auto; }
+    .comp-source-badge { font-size: 0.7rem; font-weight: 700; padding: 2px 8px; border-radius: 12px; background: var(--surface); border: 1px solid var(--border); color: var(--muted); }
+    .comp-vs-badge { font-size: 0.65rem; padding: 2px 6px; border-radius: 10px; font-weight: 600; }
 
     /* Veille grid & cards */
     .veille-grid {
@@ -1282,7 +1291,7 @@ function renderCompetitorArticles() {
     'modesettravaux.fr': 'blue'
   };
 
-  container.innerHTML = filtered.slice(0, 40).map(a => {
+  container.innerHTML = `<div class="comp-articles-grid">${filtered.slice(0, 40).map(a => {
     const timeAgo = a.pubDate ? (() => {
       const diff = Date.now() - new Date(a.pubDate).getTime();
       const h = Math.floor(diff / 3600000);
@@ -1308,7 +1317,7 @@ function renderCompetitorArticles() {
           </div>
         </div>
       </div>`;
-  }).join('');
+  }).join('')}</div>`;
 }
 
 function renderVeille(d) {
