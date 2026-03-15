@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T11:15:36.008Z",
+  "updatedAt": "2026-03-15T12:15:32.707Z",
   "veilleBriefs": [
     {
       "date": "2026-03-15T09:21:00Z",
@@ -1311,21 +1311,21 @@
   "seoAudits": [],
   "rssItems": [],
   "session": {
-    "model": "claude-opus-4-6",
-    "tokensIn": 3,
-    "tokensOut": 8,
-    "cacheHit": 0,
-    "context": 127191,
-    "contextMax": 200000
+    "model": "gemini-3-flash-preview",
+    "tokensIn": 515754,
+    "tokensOut": 39,
+    "cacheHit": 33,
+    "context": 510998,
+    "contextMax": 1048576
   },
   "modelBreakdown": [
     {
-      "model": "claude-opus-4-6",
-      "tokensIn": 3,
-      "tokensOut": 8,
-      "cacheRead": 0,
-      "cacheWrite": 127188,
-      "cost": 2.38542
+      "model": "gemini-3-flash-preview",
+      "tokensIn": 515754,
+      "tokensOut": 39,
+      "cacheRead": 253067,
+      "cacheWrite": 0,
+      "cost": 1.6237671000000002
     },
     {
       "model": "claude-sonnet-4-6",
@@ -1342,14 +1342,22 @@
       "cacheRead": 291997,
       "cacheWrite": 0,
       "cost": 0.0850734375
+    },
+    {
+      "model": "claude-opus-4-6",
+      "tokensIn": 0,
+      "tokensOut": 0,
+      "cacheRead": 0,
+      "cacheWrite": 0,
+      "cost": 0
     }
   ],
   "sessions": [
     {
       "key": "main",
-      "model": "claude-opus-4-6",
-      "tokensIn": 3,
-      "tokensOut": 8
+      "model": "gemini-3-flash-preview",
+      "tokensIn": 515754,
+      "tokensOut": 39
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -1422,7 +1430,7 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 266944
+      "total": 650751
     }
   ],
   "alerts": [
@@ -1432,6 +1440,119 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Quand quelqu’un vous parle mal, ne commettez jamais cette erreur qui risque de vous coûter cher, alerte cet expert",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/parle-mal-erreur-couter-cher-expert-599157?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 12:08:39 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Comment réagir lorsque quelqu’un nous manque de respect ? Quelle est la limite à ne pas dépasser ? L'erreur à ne pas commettre ? Réponses."
+    },
+    {
+      "title": "Attention, ces 4 sauces au supermarché sont pires qu'un dessert, alertent des diététiciens : \"C'est alarmant\"",
+      "link": "https://www.topsante.com/beaute_soins/medecine_esthetique/techniques_minceur/attention-ces-4-sauces-populaires-font-plus-grossir-quun-dessert-entier-alertent-les-dieteticiens-952576",
+      "pubDate": "Sun, 15 Mar 2026 12:00:34 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Ketchup, sauce barbecue, mayonnaise… et si le vrai frein à votre perte de poids se cachait dans ces condiments du quotidien ? Des experts révèlent comment ils alourdissent vos assiettes sans que vous "
+    },
+    {
+      "title": "Cancer de la prostate : ce gène discret explique pourquoi certaines tumeurs résistent à la chimiothérapie",
+      "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/cancer-de-la-prostate/cancer-de-la-prostate-ce-gene-discret-explique-pourquoi-certaines-tumeurs-resistent-a-la-chimiotherapie-742176.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 12:00:03 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Pourquoi certains cancers de la prostate résistent-ils soudain à la chimiothérapie par taxanes ? En 2026, une équipe de Weill Cornell pointe un gène, FOXJ1, au cœur du mécanisme."
+    },
+    {
+      "title": "\"Quand t’as la tête sous l’eau…\" : Élodie Gossuin sous emprise, elle se livre sur cette relation toxique qu’elle a connue",
+      "link": "https://www.closermag.fr/people/quand-tas-la-tete-sous-leau-elodie-gossuin-sous-emprise-elle-se-livre-sur-cette-relation-toxique-quelle-a-connue-3623945",
+      "pubDate": "Sun, 15 Mar 2026 11:50:14 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Présente sur le plateau de l'émission Quelle époque !, présentée par Léa Salamé le samedi 14 mars 2026 sur France 2, Elodie Gossuin s'est confiée sur sa relation avec l'homme dont elle était \"sous l'e"
+    },
+    {
+      "title": "Burrata : voici comment bien la conserver et la garder fraîche plus longtemps",
+      "link": "https://www.topsante.com/nutrition_et_recettes/burrata-voici-comment-bien-la-conserver-et-la-garder-fraiche-plus-longtemps-952848",
+      "pubDate": "Sun, 15 Mar 2026 11:48:29 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Fromage ultra-frais au cœur coulant, la burrata ne supporte ni les écarts de température ni les dîners qui s’éternisent. Où la placer au frigo, combien de temps la garder sans danger ?"
+    },
+    {
+      "title": "Les personnes qui ont été rejetées durant l’enfance ont ces 3 traits de personnalité, selon la science",
+      "link": "https://www.psychologies.com/moi/se-connaitre/personnes-rejetees-enfance-3-traits-personnalite-science-591246?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 11:36:38 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Outre des difficultés à sociabiliser durant l’enfance puis à l’âge adulte, l’expérience du rejet pourrait jouer un rôle important dans la construction de notre personnalité, notamment dans ses aspects"
+    },
+    {
+      "title": "Envie d’un dessert sans pic de glycémie ? Voici la recette idéale, selon les nutritionnistes",
+      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/envie-dun-dessert-sans-pic-de-glycemie-la-recette-ideale-selon-les-nutritionnistes-373906.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 11:30:36 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Vous évitez les desserts pour contrôler votre glycémie ? Bonne nouvelle : selon des experts en nutrition, cette recette gourmande permet de se faire plaisir sans provoquer de pic de sucre. Facile à pr"
+    },
+    {
+      "title": "Il faut se méfier de ce pain italien, plus calorique que la baguette, alerte une diététicienne",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/il-faut-se-mefier-de-ce-pain-italien-plus-calorique-que-la-baguette-alerte-une-dieteticienne-952454",
+      "pubDate": "Sun, 15 Mar 2026 11:29:42 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Dans un restaurant Italien, vous ne pouvez pas résister à la focaccia ? Ce pain originaire de la région de la Ligurie remporte en effet beaucoup de succès dans les menus des restaurateurs. Mais côté l"
+    },
+    {
+      "title": "Mort d’Ari Boulogne : l’ex-compagne du fils non reconnu d’Alain Delon bientôt jugé pour homicide involontaire",
+      "link": "https://www.closermag.fr/people/mort-dari-boulogne-lex-compagne-du-fils-non-reconnu-dalain-delon-bientot-juge-pour-homicide-involontaire-3623941",
+      "pubDate": "Sun, 15 Mar 2026 11:24:42 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Après le décès tragique d’Ari Boulogne, sa compagne Yasmina S. se retrouve sous les projecteurs et poursuivie pour homicide involontaire."
+    },
+    {
+      "title": "Cholestérol : ces 8 règles peuvent faire baisser votre taux naturellement",
+      "link": "https://www.doctissimo.fr/sante/cholesterol/cholesterol-ces-8-regles-peuvent-faire-baisser-votre-taux-naturellement-741684.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 11:15:09 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Vous présentez un taux de cholestérol élevé ? Bonne nouvelle : huit règles simples du quotidien peuvent déjà améliorer vos résultats, sans bouleverser votre quotidien."
+    },
     {
       "title": "Saumon sauvage ou d’élevage : une diététicienne révèle enfin lequel privilégier pour votre santé et votre budget",
       "link": "https://www.topsante.com/nutrition_et_recettes/saumon-sauvage-ou-delevage-une-dieteticienne-revele-enfin-lequel-privilegier-pour-votre-sante-et-votre-budget-952654",
@@ -1612,18 +1733,6 @@
       "snippet": "Présente sur le plateau de l'émission Quelle époque ! le samedi 14 mars 2026 sur France 2, Clémentine Célarié a été interrogée au sujet de son cancer par Léa Salamé. La comédienne a alors révélé pourq"
     },
     {
-      "title": "Cécile Vassas - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hU280U1FDc1V0ck9VaGtwYzVvUHJHQVRVeWRybVlJX3NSeHNMODNKbmpuNFRVMTF0NWNONXlXa3NHMDRlbVFTX25tTHMtRW80RU5HNzBWc1RBWHVsdVpNWEppSXN5a2dJMFlXYXA0TnlCbzhTV1E?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 09:12:27 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Cécile Vassas  Linternaute.com"
-    },
-    {
       "title": "\"J’ai le droit d’avoir eu peur\" : critiquée pour son appel à l’aide depuis Dubaï, Élodie Gossuin sort du silence",
       "link": "https://www.closermag.fr/people/jai-le-droit-davoir-eu-peur-critiquee-pour-son-appel-a-laide-depuis-dubai-elodie-gossuin-sort-du-silence-3623918",
       "pubDate": "Sun, 15 Mar 2026 09:08:55 +0000",
@@ -1703,18 +1812,6 @@
       "snippet": "Vous remettez toujours tout à plus tard ? La procrastination peut être un vrai frein au quotidien. Et si la solution était d’associer plaisir et productivité ? Découvrez le \"temptation bundling\", une "
     },
     {
-      "title": "Toute personne ayant un taux de cholestérol élevé est invitée à manger ce poisson",
-      "link": "https://www.topsante.com/nutrition_et_recettes/regimes_alimentaires/regime_anti_cholesterol/toute-personne-ayant-un-taux-de-cholesterol-eleve-est-invitee-a-manger-ce-poisson-952715",
-      "pubDate": "Sun, 15 Mar 2026 08:11:42 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Selon des experts en nutrition, plusieurs ajustements alimentaires peuvent aider à réduire un taux de cholestérol élevé et ainsi diminuer les risques cardiovasculaires."
-    },
-    {
       "title": "Face aux personnes toxiques, les esprits les plus brillants adoptent cette stratégie pour se protéger",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-toxiques-esprits-brillants-strategie-proteger-579244?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 08:07:53 +0000",
@@ -1724,62 +1821,6 @@
         "aufeminin.com"
       ],
       "snippet": "Interagir avec une personne toxique peut être déstabilisant et épuisant. Mais réagir avec intelligence permet de se protéger et de gérer ces situations."
-    },
-    {
-      "title": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ? - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRm1KZXRBUEd4Rm9NR1RTUDZueEFrZWVTZmlBM2llNWtZWTNoTlFubjRsUmFLV1Q4TW81bUN0aUJxWUVfdzFQc0diTGxEUGlJYXlOVHNDZS1LWFRDNlRDbTNUYVhHTWw0RHhiVS1pbV9GekNUcTZaSE5nSmxFaHRLRkpXUXZhLTNJOHgtQnVQMFRZMTRIT2VxVEhUai1UZ0hXQjFDTmUzRWpMWjV2YnNhYldmTkRjSEY3Q3JqSEYwdktzRzc0bU1QYUhCWnJVZw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 08:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "La « paille anti-rides » est-elle vraiment le meilleur moyen de prévenir l'apparition des rides des lèvres ?  Cosmopolitan.fr"
-    },
-    {
-      "title": "\"Je m’en veux\" : après avoir critiqué Benjamin Lavernhe, Laurent Ruquier fait son mea culpa",
-      "link": "https://www.closermag.fr/people/je-men-veux-apres-avoir-critique-benjamin-lavernhe-laurent-ruquier-fait-son-mea-culpa-3623911",
-      "pubDate": "Sun, 15 Mar 2026 07:59:09 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Sur T18, Laurent Ruquier fait un mea culpa cash et revient sans détour sur ses paroles, ne mâchant pas ses mots devant les téléspectateurs."
-    },
-    {
-      "title": "\"J’ai été une très mauvaise mère\" : Élodie Gossuin revient sur son voyage en famille à Dubaï pendant les attaques au Moyen-Orient",
-      "link": "https://www.closermag.fr/people/jai-ete-une-tres-mauvaise-mere-elodie-gossuin-revient-sur-son-voyage-en-famille-a-dubai-pendant-les-attaques-au-moyen-orient-3623907",
-      "pubDate": "Sun, 15 Mar 2026 07:39:33 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Invitée dans l’émission Quelle époque !, Élodie Gossuin se confie sur ses vacances cauchemardesques à Dubaï."
-    },
-    {
-      "title": "Petit-déjeuner anti-cholestérol : les 5 conseils essentiels de notre diététicienne",
-      "link": "https://www.doctissimo.fr/sante/cholesterol/alimentation-et-menus-anti-cholesterol/alimentation-anti-cholesterol/petit-dejeuner-anti-cholesterol-5-conseils-essentiels-dune-dieteticienne-330588.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 07:30:10 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Vous avez du cholestérol et ne savez pas quoi manger le matin ? Alexandra Murcier, diététicienne-nutritionniste, dévoile les meilleurs choix alimentaires pour un petit-déjeuner sain et bénéfique pour "
-    },
-    {
-      "title": "Une association alerte : cet aliment populaire au petit-déjeuner serait \"tout aussi mauvais pour la santé que les céréales au chocolat\"",
-      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/une-association-alerte-cet-aliment-populaire-au-petit-dejeuner-serait-tout-aussi-mauvais-pour-la-sante-que-les-cereales-au-chocolat-952670",
-      "pubDate": "Sun, 15 Mar 2026 07:08:57 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Une étude de l'association britannique Which? révèle que certains mueslis de supermarché affichent un profil nutritionnel aussi médiocre que des céréales chocolatées."
     },
     {
       "title": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs - Notre Temps",
@@ -1815,29 +1856,6 @@
       "snippet": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026  Cosmopolitan.fr"
     },
     {
-      "title": "Cuisson à la vapeur : comment préserver les propriétés des pommes de terre, des carottes et des oignons",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/cuisson-a-la-vapeur-comment-preserver-les-proprietes-des-pommes-de-terre-des-carottes-et-des-oignons-952840",
-      "pubDate": "Sun, 15 Mar 2026 06:47:55 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Cuisson vapeur pommes de terre carottes oignons : quelques minutes suffisent pour tout changer dans l’assiette. Entre temps de cuisson, découpes et nutriments préservés, ce guide détaille les bons réf"
-    },
-    {
-      "title": "Café : ce nombre de tasses par jour que vous devriez viser pour éloigner dépression et anxiété",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/cafe/cafe-et-sante/cafe-ce-nombre-de-tasses-par-jour-que-vous-devriez-viser-pour-eloigner-depression-et-anxiete-742461.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 06:30:02 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Et si votre pause café influençait votre moral ? Une immense étude a suivi 461 586 Britanniques pendant plus de 13 ans pour interroger le lien entre tasses quotidiennes et santé mentale. Les résultats"
-    },
-    {
       "title": "Contrairement à ce qu’ils laissent penser, ces comportements n’ont rien à voir avec la gentillesse, selon cette neuropsy",
       "link": "https://www.psychologies.com/Moi/Moi-et-les-autres/Contrairement-laissent-penser-comportements-rien-a-voir-gentillesse-neuropsy-580006?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 06:04:13 +0000",
@@ -1859,28 +1877,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Programme TV Pornographique du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Fini les fringales : ce sandwich sain est le secret des nutritionnistes pour un matin plein d'énergie",
-      "link": "https://www.doctissimo.fr/nutrition/manger-equilibre/petit-dejeuner-equilibre/fini-les-fringales-ce-sandwich-sain-est-le-secret-des-nutritionnistes-pour-un-matin-plein-denergie-741547.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 05:30:45 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Validé par des experts en nutrition, ce sandwich de petit-déjeuner sain promet de bousculer le duo café-croissant. Quels atouts cachés lui permettent de tenir jusqu’au déjeuner ?"
-    },
-    {
-      "title": "Les personnes qui ne se sentent pas en accord avec leurs valeurs ne se mentent pas à elles-mêmes, elles ont cette qualité rare, selon la science",
-      "link": "https://www.psychologies.com/moi/se-connaitre/personne-pas-accord-valeurs-mentent-pas-qualite-rare-science-624743?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 04:54:44 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Entre les valeurs que l'on défend et l'intégralité de nos pensées et de nos comportements, il arrive que certains décalages nous hantent. Mais ils ne sont pas forcément le signe d'un manque d'authenti"
     },
     {
       "title": "Premier tour des municipales, suspense maximum dans les grandes villes - Notre Temps",
@@ -1905,17 +1901,6 @@
       "snippet": "Horoscope du dimanche 15 mars 2026 pour tous les signes astrologiques  ELLE"
     },
     {
-      "title": "“Tout le reste est superflu” : voici les 3 seuls et uniques besoins de l'être humain pour être heureux, selon les psys",
-      "link": "https://www.psychologies.com/moi/se-connaitre/3-seuls-uniques-besoins-etre-humain-etre-heureux-psys-581258?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 04:02:50 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Que nous faut-il pour enfin parvenir à être vraiment heureux ? Si chacun pouvait avoir sa propre réponse au regard de ses objectifs de vie et de son expérience, il semblerait que trois critères soient"
-    },
-    {
       "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
       "link": "https://www.medisite.fr/maladies-incontinence-une-nouvelle-technique-revolutionnaire-actuellement-a-lessai.5717301.42.html",
       "pubDate": "Sun, 15 Mar 2026 04:00:00 +0100",
@@ -1936,6 +1921,17 @@
         "pleinevie.fr"
       ],
       "snippet": "Mots fléchés gratuits - Force 3 - 15 mars 2026 Grille n°3884  Notre Temps"
+    },
+    {
+      "title": "Mots fléchés gratuits - Force 2 - 15 mars 2026 Grille n°3885 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObW1mczJlY3VXTFFTaTdRTDlIM1VIMzNadFlJeDM2SDBIMUREWC1lQzFoX1BWSzFnUjVVblB1VUw3bFBWYTRmSjM1a3ZUNGlVbWotWDBsRWt5cEJka2Y3TFh6UEVva1VYR09acHVsWE9MY2s1T2dpTzJVMjA5djZyckF3dTJ0eUZkVlhhT0R5T19Ca01WNFZDZGh2c3lBRnpta2U2b2FDbmRWS29QU3lXdGQ3ZFE3WmRmLUxyWmFn?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 02:06:08 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots fléchés gratuits - Force 2 - 15 mars 2026 Grille n°3885  Notre Temps"
     },
     {
       "title": "Mots fléchés gratuits - Force 1 - 15 mars 2026 Grille n°3885 - Notre Temps",
@@ -2074,6 +2070,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Samuel Bambi dévoile combien de kilos il a perdus depuis le début de Danse avec les stars  Femme Actuelle"
+    },
+    {
+      "title": "Son couple, ses lunettes... La vie secrète de Fabien Galthié : Toujours sur Linternaute.com - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVk1femx4S0tWRE5GMlNzaDFkLV9hdy1udGpzSHZxMHVjM0FwaW1sLTVvNWlfWGQtdmVWazRWUlh5bEVDMURnWkxEQzJ0b2h2RWJ2ZWtGZjJ3ZnRacm9FRFZRQ3ZoZlM2dHlpR2xfMmpvdEIyb250d1VjRkJjaG9BTm9rOUhjUk5YQXpCTk9OM29CR0xYaTl3S1lVYVpsQWQ3WVQtU2UzdWp5WV9JT0N6Vkg1OG9uTjIwTGlwX0dOVGlpV1MweTM1aEdLWEV2MFl6RmJEUGM2aDE?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 19:45:02 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Son couple, ses lunettes... La vie secrète de Fabien Galthié : Toujours sur Linternaute.com  Linternaute.com"
     },
     {
       "title": "\"Je croyais que j’étais seule\" : Laëtitia Milot se confie sur son combat contre l’endométriose - Femme Actuelle",
@@ -2219,6 +2227,17 @@
       "snippet": "\"Je suis amoureuse\" : Lucie Bernardoni se confie sur sa vie sentimentale  Femme Actuelle"
     },
     {
+      "title": "Pourquoi ce thriller sur une disparition familiale nous fascine jusqu’au bout - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQQ0hBN21odHMwRXl1NnFQT3FHRWhOZHZhdjNrRTlQREJMRWMzeUVpU2huVklkTkNIRlVMWEl3UDFMZ2NNWjY5b1VuQ2tqb0k1bGhVSzlmR1prZmVPdVRvYkZFamFuazU3emQwUFZPNjVBZnRzcklrRjlUQkV4QWdocjR5WVphMXpEdTNEN1JEZXFnSHhGSTZqQmFMOXJjaUFxZEJvY2ZXYWxVVW56QmZ4bFVuNHVsUGlFWE9CYmZmT2REeTBxdU1hMUVqcTlBdEJtczNpUnZDZjlGNFUwdnpRSG9jcw?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 14:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Pourquoi ce thriller sur une disparition familiale nous fascine jusqu’au bout  Cosmopolitan.fr"
+    },
+    {
       "title": "Le top 3 des destinations préférées des Français pour Pâques cette année - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPXzY2dlhqZEF2TnBxaTVYRnF2dFF5VzlWQ0ZJcDlLMklwRXdQTTNWSFFEOVVTSDdiSnhmQXA4R2hjZ01HbWQ4bkhtcG54cFZDanVJUndRQndKd3lveEhqSW1OcGp3eGg4ZThTRDlKR3UyQmtMZ0dSNFpuSnJQYkFUcGMxd2V4d3NFRGlOSXJHYVlzV3BmbFdjUnZmTGRTd1R0RUFtNTh2OEtHVDU1MGlCSXJERQ?oc=5",
       "pubDate": "Sat, 14 Mar 2026 14:00:00 GMT",
@@ -2261,17 +2280,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Doja Cat révèle être atteinte d’un trouble de la personnalité : « Je suis en thérapie »  ELLE"
-    },
-    {
-      "title": "Maud Ankaoua: \"La réussite, ce n’est pas une question de volonté mais de motivation\" - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPZDNjWGNtWUtkcTgyeTNhbUZ1blUwdmJZMkZGTDhjNzg5Sl8zSFJmWnJOR21BUmRrenc1QU9WeTJpaWFzQlBmUnJRSi1fai1tVUtVMGhRZHhzeTBGUkFsel9hMTVSYmtYaE9iVXMyU1h5OURpcUR3LTJPNHdsNmFncFUwdmlhU1I1dnpxRFh2aGswZ1RqVzdNdnhZVEJGQTdGd1VtOXExX25LSkcxZkFkY0I4Z3FhRjhaSlhDRTJiQlF3akEtaGRiUXl3bHk3anY5QV91T2ptUzg?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 11:46:05 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Maud Ankaoua: \"La réussite, ce n’est pas une question de volonté mais de motivation\"  Notre Temps"
     },
     {
       "title": "Muscles : 7 aliments les plus riches en leucine à consommer impérativement après 50 ans",
