@@ -1377,28 +1377,30 @@ function initCompetitorFilters(d) {
 function renderSuggestions(d) {
   const container = document.getElementById('discover-suggestions-container');
   if (!container) return;
-  const sugs = d.discoverSuggestions || [];
-  if (!sugs.length) {
-    container.innerHTML = '<div class="empty" style="grid-column: span 2">Aucune suggestion disponible.</div>';
-    return;
-  }
-  
-  container.innerHTML = `<div class="suggestions-grid">${sugs.map(s => `
-    <div class="suggestion-card">
-      <div class="suggestion-parent">Rebond sur : ${s.parent}</div>
-      <div class="suggestion-title">${s.title}</div>
-      <div class="suggestion-hook">${s.hook}</div>
-      ${s.sources && s.sources.length ? `
-        <div class="suggestion-sources">
-          ${s.sources.map(src => `<a href="${src.url}" target="_blank" rel="noopener">🔗 ${src.title}</a>`).join('')}
+  try {
+    const sugs = d.discoverSuggestions || [];
+    if (!sugs.length) {
+      container.innerHTML = '<div class="empty" style="grid-column: span 2">Aucune suggestion disponible.</div>';
+      return;
+    }
+    
+    container.innerHTML = `<div class="suggestions-grid">${sugs.map(s => `
+      <div class="suggestion-card">
+        <div class="suggestion-parent">Rebond sur : ${s.parent}</div>
+        <div class="suggestion-title">${s.title}</div>
+        <div class="suggestion-hook">${s.hook}</div>
+        ${s.sources && s.sources.length ? `
+          <div class="suggestion-sources">
+            ${s.sources.map(src => `<a href="${src.url}" target="_blank" rel="noopener">🔗 ${src.title}</a>`).join('')}
+          </div>
+        ` : ''}
+        <div class="suggestion-meta">
+          <span class="badge purple">${s.site}</span>
+          <button class="btn btn-ghost" style="padding:4px 10px;font-size:0.75rem;font-weight:700" onclick="copyCmd('Rédige-moi un plan détaillé pour cet article Discover : ${s.title}')">Planifier</button>
         </div>
-      ` : ''}
-      <div class="suggestion-meta">
-        <span class="badge purple">${s.site}</span>
-        <button class="btn btn-ghost" style="padding:4px 10px;font-size:0.75rem;font-weight:700" onclick="copyCmd('Rédige-moi un plan détaillé pour cet article Discover : ${s.title}')">Planifier</button>
       </div>
-    </div>
-  `).join('')}</div>`;
+    `).join('')}</div>`;
+  } catch(e) { console.error("Render Suggestions error:", e); }
 }
 
 function renderCompetitorArticles() {

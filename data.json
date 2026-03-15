@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T14:01:14.525Z",
+  "updatedAt": "2026-03-15T14:05:54.297Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "5%",
-    "ram": "24%",
+    "cpu": "0%",
+    "ram": "25%",
     "disk": "9%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T14:01:14.525Z",
+      "ts": "2026-03-15T14:05:54.297Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1492,20 +1492,20 @@
   "rssItems": [],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 2967928,
-    "tokensOut": 2666,
+    "tokensIn": 378488,
+    "tokensOut": 6,
     "cacheHit": 33,
-    "context": 741772,
+    "context": 731364,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 2967928,
-      "tokensOut": 2666,
-      "cacheRead": 369359,
+      "tokensIn": 378488,
+      "tokensOut": 6,
+      "cacheRead": 352876,
       "cacheWrite": 0,
-      "cost": 9.0545817
+      "cost": 1.2414167999999999
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1544,8 +1544,8 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 2967928,
-      "tokensOut": 2666
+      "tokensIn": 378488,
+      "tokensOut": 6
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
@@ -1624,20 +1624,39 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 923829
+      "total": 913421
     }
   ],
   "alerts": [
-    {
-      "type": "warn",
-      "message": "Budget quotidien dépassé : $10.39"
-    },
     {
       "type": "info",
       "message": "Certaines automatisations n'ont pas encore tourné."
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Ce détail physique aide les femmes à se sentir plus attirantes, selon la science",
+      "link": "https://www.psychologies.com/beaute/image-de-soi/detail-physique-aide-femmes-sentir-plus-attirantes-science-624617?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 14:04:50 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "La façon dont nous habillons nos corps nous aide à mieux les accepter et, d'après une nouvelle étude, certains changements physiques pourraient jouer un rôle particulier."
+    },
+    {
+      "title": "\"Je prépare ce plat au saumon chaque semaine : voici pourquoi vous devriez en faire autant\"",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/je-prepare-ce-plat-au-saumon-chaque-semaine-voici-pourquoi-vous-devriez-en-faire-autant-952651",
+      "pubDate": "Sun, 15 Mar 2026 14:02:30 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "La plupart des personnes ne mangent pas assez de poisson. Pourtant, il est recommandé d'en consommer à raison de deux fois par semaine. Si vous manquez d'inspiration, testez cette recette de notre jou"
+    },
     {
       "title": "Mort de Bruno Salomone : que devient Eric Collado, son partenaire avec Jean Dujardin dans les Nous Ç Nous ?",
       "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-que-devient-eric-collado-son-partenaire-avec-jean-dujardin-dans-les-nous-c-nous-3623968",
@@ -1955,18 +1974,6 @@
       "snippet": "En 2026, de Paris à Los Angeles, Adriana Karembeu et Kylie Jenner remettent les sourcils décolorés au centre du jeu beauté. Look radical, générationnel, mais jusqu’où peut-on l’adopter sans se tromper"
     },
     {
-      "title": "Peut-on congeler du fromage ?",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-du-fromage-2-952846",
-      "pubDate": "Sun, 15 Mar 2026 10:49:05 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Restes de raclette, promos de Comté et fromages qui s’accumulent au frigo : le congélateur semble tentant. Quels fromages y vont vraiment sans ruiner goût et sécurité ?"
-    },
-    {
       "title": "\"Je ne supportais plus de voir son nez\" : le TOC du couple peut s’immiscer dans votre vie amoureuse et détruire votre quotidien, alerte une psy",
       "link": "https://www.psychologies.com/couple/vie-de-couple/TOC-couple-immiscer-vie-amoureuse-detruire-quotidien-psy-561640?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 10:04:25 +0000",
@@ -2009,18 +2016,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres  Femme Actuelle"
-    },
-    {
-      "title": "Cécile Vassas - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hU280U1FDc1V0ck9VaGtwYzVvUHJHQVRVeWRybVlJX3NSeHNMODNKbmpuNFRVMTF0NWNONXlXa3NHMDRlbVFTX25tTHMtRW80RU5HNzBWc1RBWHVsdVpNWEppSXN5a2dJMFlXYXA0TnlCbzhTV1E?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 09:12:27 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Cécile Vassas  Linternaute.com"
     },
     {
       "title": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer - ELLE",
@@ -2076,17 +2071,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs  Notre Temps"
-    },
-    {
-      "title": "Les psys sont formels : si vous observez ces 7 signes, votre relation est en train de s'essouffler (et comment y remédier)",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/relationnel/signes-votre-relation-est-en-train-de-sessouffler-et-comment-y-remedier-624948?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 07:03:08 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Quand l’amour ne se termine pas par une rupture brutale mais par un lent effritement, il peut être difficile de savoir si la relation traverse simplement une phase, ou si elle est réellement en train "
     },
     {
       "title": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026 - Cosmopolitan.fr",
@@ -2198,6 +2182,18 @@
         "pleinevie.fr"
       ],
       "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
+    },
+    {
+      "title": "Programme TV Culinaire du samedi 28 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXVuMmo4VGI2dnlwWW9HT3BiNnVwNjZzRFY3TnZjTVB4TmpWTVA2N3kxMHlGdkh2WDBwWDBxUFA5VHVEckQ0VkJSR25QOVdzeXVsQTZaM09GdlVTbUNfNTRjS1dHQkZ4MkVLLTVRYmE1bVh3cy04MlRoR1pYcVo2TUdlUXZlNms?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 23:39:37 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Culinaire du samedi 28 mars 2026  Linternaute.com"
     },
     {
       "title": "aspirateur - Femme Actuelle",
