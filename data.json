@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T10:34:54.725Z",
+  "updatedAt": "2026-03-15T11:15:36.008Z",
   "veilleBriefs": [
     {
       "date": "2026-03-15T09:21:00Z",
@@ -1315,7 +1315,7 @@
     "tokensIn": 3,
     "tokensOut": 8,
     "cacheHit": 0,
-    "context": 94167,
+    "context": 127191,
     "contextMax": 200000
   },
   "modelBreakdown": [
@@ -1324,8 +1324,8 @@
       "tokensIn": 3,
       "tokensOut": 8,
       "cacheRead": 0,
-      "cacheWrite": 94164,
-      "cost": 1.76622
+      "cacheWrite": 127188,
+      "cost": 2.38542
     },
     {
       "model": "claude-sonnet-4-6",
@@ -1390,6 +1390,11 @@
       "enabled": true
     },
     {
+      "id": "6d3047ba-911e-4e08-bd7f-2cef4837a3d8",
+      "name": "Alibaba Coding Plan - Restock Buy",
+      "enabled": true
+    },
+    {
       "id": "8de65975-e410-4d47-8d7a-953ef40198ae",
       "name": "System: Brain Backup",
       "schedule": "0 4 * * *",
@@ -1417,7 +1422,7 @@
   "tokenHistory": [
     {
       "date": "03/15",
-      "total": 233920
+      "total": 266944
     }
   ],
   "alerts": [
@@ -1427,6 +1432,85 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Saumon sauvage ou d’élevage : une diététicienne révèle enfin lequel privilégier pour votre santé et votre budget",
+      "link": "https://www.topsante.com/nutrition_et_recettes/saumon-sauvage-ou-delevage-une-dieteticienne-revele-enfin-lequel-privilegier-pour-votre-sante-et-votre-budget-952654",
+      "pubDate": "Sun, 15 Mar 2026 11:12:23 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Le saumon, star des tables françaises, suscite de nombreuses questions quant à son choix. Entre saumon sauvage et d'élevage, lequel privilégier pour allier santé et budget ? La diététicienne Christa B"
+    },
+    {
+      "title": "\"Pour moi, ce n’est pas un accident…\" : Gilbert Montagné revient sur cet épisode qui lui a coûté la vue",
+      "link": "https://www.closermag.fr/people/pour-moi-ce-nest-pas-un-accident-gilbert-montagne-revient-sur-cet-episode-qui-lui-a-coute-la-vue-3623938",
+      "pubDate": "Sun, 15 Mar 2026 11:04:06 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "De passage sur le plateau de l'émission Quelle époque !, présentée par Léa Salamé le samedi 14 mars 2026 sur France 2, le célèbre chanteur Gilbert Montagné est revenu sur le moment où il a perdu la vu"
+    },
+    {
+      "title": "Les 6 meilleurs pains pour une glycémie stable, selon les diététiciens",
+      "link": "https://www.doctissimo.fr/nutrition/aliments-et-boissons/pain/les-6-meilleurs-pains-pour-une-glycemie-stable-selon-les-dieteticiens-741539.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 11:04:04 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Entre baguette blanche et pains complets, le choix influence directement la glycémie et les fringales. Six types de pains à index glycémique bas bousculent les habitudes des diététiciens."
+    },
+    {
+      "title": "\"Qui se ressemble s'assemble\" : la science confirme qu'avoir les bonnes personnes autour de soi peut changer la personnalité",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/ressemble-assemble-science-bonnes-personnes-changer-personnalite-624721?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 11:02:32 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "On dit que l’on est la somme des 5 personnes qui nous entourent. La science va plus loin en expliquant le réel impact des proches sur la personnalité."
+    },
+    {
+      "title": "Après Adriana Karembeu, Kylie Jenner ose ces sourcils décolorés extrêmes : faut-il vraiment s’y mettre en 2026 ?",
+      "link": "https://www.doctissimo.fr/beaute/soins-du-visage/soins-des-sourcils/apres-adriana-karembeu-kylie-jenner-ose-ces-sourcils-decolores-extremes-faut-il-vraiment-sy-mettre-en-2026-742684.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 15 Mar 2026 11:00:35 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "En 2026, de Paris à Los Angeles, Adriana Karembeu et Kylie Jenner remettent les sourcils décolorés au centre du jeu beauté. Look radical, générationnel, mais jusqu’où peut-on l’adopter sans se tromper"
+    },
+    {
+      "title": "Peut-on congeler du fromage ?",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-du-fromage-2-952846",
+      "pubDate": "Sun, 15 Mar 2026 10:49:05 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Restes de raclette, promos de Comté et fromages qui s’accumulent au frigo : le congélateur semble tentant. Quels fromages y vont vraiment sans ruiner goût et sécurité ?"
+    },
+    {
+      "title": "Florent Manaudou en couple avec Elsa Bois ? L’ex-nageur sort du silence pour une très rare mise au point",
+      "link": "https://www.closermag.fr/people/florent-manaudou-en-couple-avec-elsa-bois-lex-nageur-sort-du-silence-pour-une-tres-rare-mise-au-point-3623934",
+      "pubDate": "Sun, 15 Mar 2026 10:48:01 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Florent Manaudou, lassé des rumeurs autour de sa relation avec Elsa Bois, met les choses au clair et envoie un message sans ambiguïté."
+    },
     {
       "title": "Le réflexe de Babinski : un indice précieux du fonctionnement du système nerveux",
       "link": "https://www.doctissimo.fr/bebe/eveil-de-bebe/le-reflexe-de-babinski-un-indice-precieux-du-fonctionnement-du-systeme-nerveux-742094.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -1526,6 +1610,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Présente sur le plateau de l'émission Quelle époque ! le samedi 14 mars 2026 sur France 2, Clémentine Célarié a été interrogée au sujet de son cancer par Léa Salamé. La comédienne a alors révélé pourq"
+    },
+    {
+      "title": "Cécile Vassas - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1hU280U1FDc1V0ck9VaGtwYzVvUHJHQVRVeWRybVlJX3NSeHNMODNKbmpuNFRVMTF0NWNONXlXa3NHMDRlbVFTX25tTHMtRW80RU5HNzBWc1RBWHVsdVpNWEppSXN5a2dJMFlXYXA0TnlCbzhTV1E?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 09:12:27 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Cécile Vassas  Linternaute.com"
     },
     {
       "title": "\"J’ai le droit d’avoir eu peur\" : critiquée pour son appel à l’aide depuis Dubaï, Élodie Gossuin sort du silence",
@@ -1686,6 +1782,17 @@
       "snippet": "Une étude de l'association britannique Which? révèle que certains mueslis de supermarché affichent un profil nutritionnel aussi médiocre que des céréales chocolatées."
     },
     {
+      "title": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMFZFa2p0ZW55M0FRSm4xZUoyX3RJdVoybVZORWVxb0I1NTVVRExYd2lVa0VkT0Q1Zk4zYS1Fc0FVdkRmVWtlUDVpNXJBMWFDVlZ4WHl2YW5iejdxc0owYWU2dnRaWWNnV0pJcEgwS19fakNjemltampWMzJsNDdxSTZyZzNjaFVaQU5OMzg5ZGJ0Zkd6SWYyU1YtbjBuQ3BJNkQza0pzOGY5U0JuNTBCZWhYS3BMVUd3Zms5QkFYTHU?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 07:06:10 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs  Notre Temps"
+    },
+    {
       "title": "Les psys sont formels : si vous observez ces 7 signes, votre relation est en train de s'essouffler (et comment y remédier)",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/relationnel/signes-votre-relation-est-en-train-de-sessouffler-et-comment-y-remedier-624948?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 07:03:08 +0000",
@@ -1695,17 +1802,6 @@
         "aufeminin.com"
       ],
       "snippet": "Quand l’amour ne se termine pas par une rupture brutale mais par un lent effritement, il peut être difficile de savoir si la relation traverse simplement une phase, ou si elle est réellement en train "
-    },
-    {
-      "title": "Comment sécuriser son extérieur sans se ruiner ? La caméra Ring Outdoor Plus passe à 54,99€ pour une durée limitée",
-      "link": "https://www.closermag.fr/shopping/comment-securiser-son-exterieur-sans-se-ruiner-la-camera-ring-outdoor-plus-passe-a-5499e-pour-une-duree-limitee-3623147",
-      "pubDate": "Sun, 15 Mar 2026 07:00:57 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "La surveillance de son jardin ou de son entrée devient plus accessible avec cette promotion sur la caméra extérieure Ring Outdoor Camera Plus à l'occasion des Ventes Flash de Printemps Amazon. Avec sa"
     },
     {
       "title": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026 - Cosmopolitan.fr",
@@ -1731,17 +1827,6 @@
       "snippet": "Cuisson vapeur pommes de terre carottes oignons : quelques minutes suffisent pour tout changer dans l’assiette. Entre temps de cuisson, découpes et nutriments préservés, ce guide détaille les bons réf"
     },
     {
-      "title": "Quel est le salaire du maire de Marseille ?",
-      "link": "https://www.closermag.fr/actualites/quel-est-le-salaire-du-maire-de-marseille-3623642",
-      "pubDate": "Sun, 15 Mar 2026 06:30:19 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Le maire de Marseille perçoit une indemnité d’environ 8 817,06 euros brut par mois, soit environ 7 120,08 euros net mensuels. Ce montant correspond à la rémunération actuelle de l’édile de la cité pho"
-    },
-    {
       "title": "Café : ce nombre de tasses par jour que vous devriez viser pour éloigner dépression et anxiété",
       "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/cafe/cafe-et-sante/cafe-ce-nombre-de-tasses-par-jour-que-vous-devriez-viser-pour-eloigner-depression-et-anxiete-742461.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 06:30:02 +0000",
@@ -1762,18 +1847,6 @@
         "aufeminin.com"
       ],
       "snippet": "Il est difficile de distinguer la gentillesse sincère de l'hypocrisie. Un autre trait de caractère brouille également les pistes."
-    },
-    {
-      "title": "Selon 5 podologues, voici la meilleure chaussure de marche : il s'agit de la marque ...",
-      "link": "https://www.topsante.com/medecine/sante_des_mains_et_des_pieds/douleur_aux_pieds/selon-5-podologues-voici-la-meilleure-chaussure-de-marche-il-sagit-de-la-marque-952647",
-      "pubDate": "Sun, 15 Mar 2026 05:49:25 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Près d’un tiers des Français ont les pieds plats et finissent leurs journées de marche avec des douleurs. Cinq podologues s’accordent ainsi sur la basket idéale."
     },
     {
       "title": "Programme TV Pornographique du samedi 28 mars 2026 - Linternaute.com",
@@ -1799,18 +1872,6 @@
       "snippet": "Validé par des experts en nutrition, ce sandwich de petit-déjeuner sain promet de bousculer le duo café-croissant. Quels atouts cachés lui permettent de tenir jusqu’au déjeuner ?"
     },
     {
-      "title": "Le fruit numéro 1 pour consommer assez de fibres alimentaires chaque jour",
-      "link": "https://www.topsante.com/nutrition_et_recettes/les_bons_aliments/fruits_et_legumes/le-fruit-numero-1-pour-consommer-assez-de-fibres-alimentaires-chaque-jour-952537",
-      "pubDate": "Sun, 15 Mar 2026 05:00:28 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Une diététicienne américaine nous confie son astuce pour atteindre le quota de 30 g de fibres par jour : manger des framboises sans modération !"
-    },
-    {
       "title": "Les personnes qui ne se sentent pas en accord avec leurs valeurs ne se mentent pas à elles-mêmes, elles ont cette qualité rare, selon la science",
       "link": "https://www.psychologies.com/moi/se-connaitre/personne-pas-accord-valeurs-mentent-pas-qualite-rare-science-624743?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 04:54:44 +0000",
@@ -1820,17 +1881,6 @@
         "aufeminin.com"
       ],
       "snippet": "Entre les valeurs que l'on défend et l'intégralité de nos pensées et de nos comportements, il arrive que certains décalages nous hantent. Mais ils ne sont pas forcément le signe d'un manque d'authenti"
-    },
-    {
-      "title": "Équilibre hormonal : pourquoi manger 30 g de protéines au réveil change radicalement la santé des femmes",
-      "link": "https://www.doctissimo.fr/nutrition/nutriments/proteines/equilibre-hormonal-pourquoi-manger-30-g-de-proteines-au-reveil-change-radicalement-la-sante-des-femmes-742254.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 04:38:18 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Sur TikTok, un même rituel revient dans les assiettes des femmes : un petit-déjeuner chargé en protéines. De Berlin à Paris, médecins et nutritionnistes y voient un levier discret pour apaiser les mon"
     },
     {
       "title": "Premier tour des municipales, suspense maximum dans les grandes villes - Notre Temps",
@@ -1886,17 +1936,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Mots fléchés gratuits - Force 3 - 15 mars 2026 Grille n°3884  Notre Temps"
-    },
-    {
-      "title": "Mots fléchés gratuits - Force 2 - 15 mars 2026 Grille n°3885 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObW1mczJlY3VXTFFTaTdRTDlIM1VIMzNadFlJeDM2SDBIMUREWC1lQzFoX1BWSzFnUjVVblB1VUw3bFBWYTRmSjM1a3ZUNGlVbWotWDBsRWt5cEJka2Y3TFh6UEVva1VYR09acHVsWE9MY2s1T2dpTzJVMjA5djZyckF3dTJ0eUZkVlhhT0R5T19Ca01WNFZDZGh2c3lBRnpta2U2b2FDbmRWS29QU3lXdGQ3ZFE3WmRmLUxyWmFn?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 02:06:08 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mots fléchés gratuits - Force 2 - 15 mars 2026 Grille n°3885  Notre Temps"
     },
     {
       "title": "Mots fléchés gratuits - Force 1 - 15 mars 2026 Grille n°3885 - Notre Temps",
@@ -1992,18 +2031,6 @@
       "snippet": "Programme TV Proximus du samedi 28 mars 2026  Linternaute.com"
     },
     {
-      "title": "Programme TV Numericable Belux du samedi 28 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWWxhMUFQQVI3UDQycC1qTVkyUXJwMU52Vjd1YWpVcG16OXpCajgtUm5IbllOMm1SMUp6MWVGdjJhMVNYZkdqX1pLbUU5b19OZndoakI2bWZUc2wxTzQ5NlRJZzhweUJkejNsRjhKREM4TmZQaW9RNkoySGdnQm1vejdvRVRrREstTTR3Q2lfaEw?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:03:19 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Numericable Belux du samedi 28 mars 2026  Linternaute.com"
-    },
-    {
       "title": "Wordle : Le Mot du jour gratuit - 15 mars 2026 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaDNJUHBRWmtnX3I2Q1V0RjIwQTZxOFlnbWR5dEJ1S241cjh3Zl9HWDc2b18tSVFlMjVXZHcybm1ETkVoWm53RjEzYkNpTlVoMTQ4QTNqa3FwWjVPU1IwS3N0N1IwTk9ranYzQkFVcGpJbGZHcnp6X253NTdOSFl5dE56MTRoTHZwNjB4bXZNbDFGd2Q3dVBiYWlDY1VHZ1FUZm9adXBPY1BMLTA2LXlSM194Z1Q?oc=5",
       "pubDate": "Sat, 14 Mar 2026 23:00:00 GMT",
@@ -2013,17 +2040,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Wordle : Le Mot du jour gratuit - 15 mars 2026  Notre Temps"
-    },
-    {
-      "title": "Ce petit geste facial trahit les narcissiques et permet de les repérer en quelques secondes, selon une étude",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres/geste-facial-precis-identifier-narcissique-quelques-secondes-chercheurs-559584?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sat, 14 Mar 2026 22:09:39 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Si les personnalités narcissiques sont généralement décrites par le biais de certains comportements et certaines paroles, d’autres signes visuels peuvent être révélateurs."
     },
     {
       "title": "Programme TV Urbains du vendredi 27 mars 2026 - Linternaute.com",
@@ -2036,17 +2052,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Programme TV Urbains du vendredi 27 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Vous avez moins d’une relation sexuelle par semaine ? Un risque de 70% de mourir dans les 5 ans...",
-      "link": "https://www.doctissimo.fr/sexualite/desir-et-plaisir-sexuel/sexualite-epanouie/moins-dune-relation-sexuelle-par-semaine-risque-de-70-de-mourir-dans-les-5-ans-332360.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sat, 14 Mar 2026 21:00:04 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Selon une récente étude, la fréquence des relations sexuelles est corrélée chez la femme à son risque de mortalité. Une donnée qui diverge chez les hommes, mais qui s’explique par plusieurs théories."
     },
     {
       "title": "Qui a gagné le plus d’Oscars ? - ELLE",
