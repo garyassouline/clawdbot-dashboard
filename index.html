@@ -646,7 +646,8 @@
 
 <!-- Toast copy -->
 <script>
-let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst, discoverChartInst;
+let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst, discoverChartInst, discMainChart, discPieChart;
+let globalData = null;
 
 function toggleTheme() {
   const html = document.documentElement;
@@ -827,6 +828,10 @@ function render(d) {
   document.getElementById('kpi-crons').textContent = d.crons ? d.crons.filter(c=>c.enabled).length : '0';
   document.getElementById('kpi-crons-sub').textContent = (d.crons||[]).length + ' total';
   document.getElementById('kpi-cost').textContent = '$' + cost;
+
+  globalData = d;
+  initDiscoverFilters();
+  renderDiscover();
 
   // Discover Chart
   if (d.discoverStats && d.discoverStats.length) {
