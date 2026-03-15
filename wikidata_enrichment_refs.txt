@@ -1,0 +1,4 @@
+Q138572733|P106|Q1930187|S854|"http://www.billets.ca/spectacle/julie-caron/"|S143|Q8447
+Q138572733|P106|Q1930187|S854|"https://archive.wikiwix.com/cache/20180516031701/http://www.repertoiredesartistesquebecois.org/date.asp?art=2394"|S143|Q8447
+Q138572733|P106|Q1930187|S854|"https://archive.wikiwix.com/cache/20160111012644/http://radarinternational.ca/nos-artistes/julie-caron/bio-julie-caron/"|S143|Q8447
+Q138572733|P106|Q1930187|S854|"https://www.journaldemontreal.com/2017/07/15/javais-deux-reves-etre-humoriste-et-avoir-six-enfants"|S143|Q8447
