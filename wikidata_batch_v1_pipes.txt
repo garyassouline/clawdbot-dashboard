@@ -1,0 +1,1439 @@
+CREATE
+LAST|Lfr|"Julie Caron"
+LAST|Len|"Julie Caron"
+LAST|Dfr|"Rédactrice en chef de aufeminin.com"
+LAST|Den|"Editor-in-chief at aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Julie"
+LAST|P734|"Caron"
+LAST|P569|+1990-05-19T00:00:00Z/11
+LAST|P19|"Lourdes"
+LAST|P106|Q15253558
+LAST|P108|Q18415186
+LAST|P101|"Société, Tourisme, Education"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2023-11-06T00:00:00Z/11
+LAST|P2003|"giuliacck"
+LAST|P6634|"julie-caron-9b063654"
+
+CREATE
+LAST|Lfr|"Lahéla Bouaziz"
+LAST|Len|"Lahéla Bouaziz"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Lahéla"
+LAST|P734|"Bouaziz"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Culture people"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2022-04-25T00:00:00Z/11
+
+CREATE
+LAST|Lfr|"Elodie Le Gall"
+LAST|Len|"Elodie Le Gall"
+LAST|Dfr|"Journaliste pour aufeminin.com"
+LAST|Den|"Journalist for aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Elodie"
+LAST|P734|"Le Gall"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Beauté, bien-être, forme, nutrition"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2020-05-01T00:00:00Z/11
+LAST|P6634|"elodie-le-gall-1a92aaab"
+
+CREATE
+LAST|Lfr|"Inès REAL"
+LAST|Len|"Inès REAL"
+LAST|Dfr|"Chef de rubrique pour aufeminin.com"
+LAST|Den|"Senior Beauty Editor at aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Inès"
+LAST|P734|"REAL"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Beauté, Bien-Être"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2022-04-22T00:00:00Z/11
+LAST|P6634|"https://www.linkedin.com/in/ines-real-8a976589"
+
+CREATE
+LAST|Lfr|"Maude Sebaihi"
+LAST|Len|"Maude Sebaihi"
+LAST|Dfr|"Journaliste chez aufeminin.com"
+LAST|Den|"Journalist at aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Maude"
+LAST|P734|"Sebaihi"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Mode, Lifestyle"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2021-09-21T00:00:00Z/11
+LAST|P2003|"sebaihimaude"
+
+CREATE
+LAST|Lfr|"Louise Gonzalez"
+LAST|Len|"Louise Gonzalez"
+LAST|Dfr|"Journaliste chez aufeminin.com"
+LAST|Den|"Journaliste at aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Louise"
+LAST|P734|"Gonzalez"
+LAST|P19|"Nancy"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Parentalité, société, Education"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2025-03-01T00:00:00Z/11
+LAST|P6634|"louise-gonzalez-75ab26219"
+
+CREATE
+LAST|Lfr|"Joséphine De Rubercy"
+LAST|Len|"Joséphine De Rubercy"
+LAST|Dfr|"Journaliste chez aufeminin.com"
+LAST|Den|"Journalist at aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Joséphine"
+LAST|P734|"De Rubercy"
+LAST|P19|"Paris"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Société, Santé, Parentalité, Psychologie"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2024-03-01T00:00:00Z/11
+LAST|P6634|"joséphine-de-rubercy-5605b3105"
+
+CREATE
+LAST|Lfr|"Laura Willinger"
+LAST|Len|"Laura Willinger"
+LAST|Dfr|"Journaliste chez aufeminin.com"
+LAST|Den|"Journalist at aufeminin.com"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Laura"
+LAST|P734|"Willinger"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Parentalité, Société"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2024-03-03T00:00:00Z/11
+LAST|P6634|"laura-willinger-196121238"
+
+CREATE
+LAST|Lfr|"Anaïs Moine"
+LAST|Len|"Anaïs Moine"
+LAST|Dfr|"rédacteur en chef pour Reworld Media"
+LAST|Den|"rédacteur en chef at Reworld Media"
+LAST|P31|Q5
+LAST|P735|"Anaïs"
+LAST|P734|"Moine"
+LAST|P569|+1991-05-23T00:00:00Z/11
+LAST|P19|"Reims"
+LAST|P106|Q15253558
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2031|+2022-02-01T00:00:00Z/11
+LAST|P6634|"https://www.linkedin.com/in/anaismoine/"
+
+CREATE
+LAST|Lfr|"Marie Rougeot"
+LAST|Len|"Marie Rougeot"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Marie"
+LAST|P734|"Rougeot"
+LAST|P19|"2025-03-03"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q3294503"
+LAST|P2002|"Française"
+LAST|P214|"https://www.linkedin.com/in/marie-rougeot-darmon-4b67121b3/"
+
+CREATE
+LAST|Lfr|"Mélissa Sekkal"
+LAST|Len|"Mélissa Sekkal"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Mélissa"
+LAST|P734|"Sekkal"
+LAST|P19|"2025-04-29"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"melissa.skl"
+LAST|P214|"https://fr.linkedin.com/in/melissa-sekkal"
+
+CREATE
+LAST|Lfr|"Pierre-Guillaume LIGDAMIS"
+LAST|Len|"Pierre-Guillaume LIGDAMIS"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Pierre-Guillaume"
+LAST|P734|"LIGDAMIS"
+LAST|P19|"2021-08-16"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Paris"
+LAST|P2002|"France"
+LAST|P214|"https://www.linkedin.com/in/pierre-guillaume-ligdamis"
+
+CREATE
+LAST|Lfr|"Marie Lacombe"
+LAST|Len|"Marie Lacombe"
+LAST|Dfr|"rédacteur en chef pour Reworld Media"
+LAST|Den|"rédacteur en chef at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Marie"
+LAST|P734|"Lacombe"
+LAST|P19|"2023-12-18"
+LAST|P106|Q15253558
+LAST|P108|Q18415186
+LAST|P101|"Q138573172"
+LAST|P856|"Ecully"
+LAST|P2002|"France"
+LAST|P6634|"marielacombe"
+LAST|P214|"marielacombe1"
+
+CREATE
+LAST|Lfr|"Jordane Guignon"
+LAST|Len|"Jordane Guignon"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Jordane"
+LAST|P734|"Guignon"
+LAST|P19|"2009-04-05"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P2002|"France"
+LAST|P214|"jordaneguignon"
+
+CREATE
+LAST|Lfr|"Mathilde Campos"
+LAST|Len|"Mathilde Campos"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Mathilde"
+LAST|P734|"Campos"
+LAST|P19|"2022-07-04"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q3294503"
+LAST|P2002|"France"
+LAST|P214|"https://fr.linkedin.com/in/mathildecampos"
+
+CREATE
+LAST|Lfr|"Justine LINET"
+LAST|Len|"Justine LINET"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Justine"
+LAST|P734|"LINET"
+LAST|P19|"2024-11-04"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q138573172"
+LAST|P856|"Mainvilliers"
+LAST|P2002|"France"
+LAST|P6634|"https://www.instagram.com/justinelinet/"
+LAST|P214|"https://www.linkedin.com/in/justine-linet-661497208/"
+
+CREATE
+LAST|Lfr|"Tiffany Szadek"
+LAST|Len|"Tiffany Szadek"
+LAST|Dfr|"rédacteur en chef pour Reworld Media"
+LAST|Den|"rédacteur en chef at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Tiffany"
+LAST|P734|"Szadek"
+LAST|P19|"2025-06-30"
+LAST|P106|Q15253558
+LAST|P108|Q18415186
+LAST|P856|"Meaux"
+LAST|P2002|"France"
+LAST|P214|"https://www.linkedin.com/in/tiffany-szadek"
+
+CREATE
+LAST|Lfr|"Sanila Riffay"
+LAST|Len|"Sanila Riffay"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Sanila"
+LAST|P734|"Riffay"
+LAST|P19|"2025-10-20"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Mamoudzou"
+LAST|P2002|"France"
+LAST|P2003|"https://www.sanilariffay.com/"
+LAST|P6634|"sanila.ravenale"
+LAST|P214|"sanila-riffay-713022235"
+
+CREATE
+LAST|Lfr|"Laura D’Angelo"
+LAST|Len|"Laura D’Angelo"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Laura"
+LAST|P734|"D’Angelo"
+LAST|P19|"2023-03-06"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P214|"http://linkedin.com/in/laura-d-angelo-57585a91"
+
+CREATE
+LAST|Lfr|"Carla Biancarelli"
+LAST|Len|"Carla Biancarelli"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Carla"
+LAST|P734|"Biancarelli"
+LAST|P19|"2025-07-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Paris"
+LAST|P2002|"France"
+LAST|P214|"/carla-biancarelli-98b132119"
+
+CREATE
+LAST|Lfr|"chloé maurin"
+LAST|Len|"chloé maurin"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"chloé"
+LAST|P734|"maurin"
+LAST|P19|"2017-02-15"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"chloe.ambre.maurin"
+LAST|P214|"chloemaurin"
+
+CREATE
+LAST|Lfr|"Julie Lefebvre"
+LAST|Len|"Julie Lefebvre"
+LAST|Dfr|"journaliste web pour Reworld Media"
+LAST|Den|"journaliste web at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Julie"
+LAST|P734|"Lefebvre"
+LAST|P19|"2025-02-04, 2025-02-03"
+LAST|P106|Q4773904
+LAST|P108|Q18415186
+LAST|P101|"Q1544126, Q2900915"
+LAST|P856|"Le Mans"
+LAST|P2002|"France"
+LAST|P6634|"https://www.instagram.com/lef_ju/"
+LAST|P214|"https://www.linkedin.com/in/julie-lefebvre-4231781a0/"
+
+CREATE
+LAST|Lfr|"Allison Pujol"
+LAST|Len|"Allison Pujol"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Allison"
+LAST|P734|"Pujol"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Toulouse"
+LAST|P2002|"France"
+LAST|P214|"allison-pujol-386868129"
+
+CREATE
+LAST|Lfr|"Elisabeth Sall"
+LAST|Len|"Elisabeth Sall"
+LAST|Dfr|"journaliste web pour Reworld Media"
+LAST|Den|"journaliste web at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Elisabeth"
+LAST|P734|"Sall"
+LAST|P19|"2024-06-03"
+LAST|P106|Q4773904
+LAST|P108|Q18415186
+LAST|P856|"Paris"
+LAST|P2002|"Française"
+LAST|P4003|"https://x.com/ElisabethSall"
+LAST|P214|"https://www.linkedin.com/in/elisabeth-sall-544ba8b3/"
+
+CREATE
+LAST|Lfr|"Mathieu Bonis"
+LAST|Len|"Mathieu Bonis"
+LAST|Dfr|"rédacteur en chef pour Reworld Media"
+LAST|Den|"rédacteur en chef at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Mathieu"
+LAST|P734|"Bonis"
+LAST|P19|"2022-01-01"
+LAST|P106|Q15253558
+LAST|P108|Q18415186
+LAST|P101|"Q3317892"
+LAST|P856|"Buhl/Bade (Allemagne)"
+LAST|P2002|"Française"
+LAST|P214|"https://fr.linkedin.com/in/mathieu-bonis-26415696"
+
+CREATE
+LAST|Lfr|"Ava Skoupsky"
+LAST|Len|"Ava Skoupsky"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Ava"
+LAST|P734|"Skoupsky"
+LAST|P19|"2021-07-01, 2024-01-01, 2022-11-07, 2025-10-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Rouen"
+LAST|P2002|"Française"
+LAST|P2003|"https://avaskoupskyjournalisme.my.canva.site/"
+LAST|P6634|"avaskoupsky"
+LAST|P214|"ava-skoupsky-journaliste"
+
+CREATE
+LAST|Lfr|"Fostine Carracillo"
+LAST|Len|"Fostine Carracillo"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Fostine"
+LAST|P734|"Carracillo"
+LAST|P19|"2023-09-11, 2023-05-08, 2024-06-04, 2024-03-17"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3294503, Q3223744, Q3278569"
+LAST|P856|"Creil"
+LAST|P2002|"France"
+LAST|P6634|"fo_crcl"
+LAST|P214|"fostine-c-a29a47112"
+
+CREATE
+LAST|Lfr|"Shanour Kargayan"
+LAST|Len|"Shanour Kargayan"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Shanour"
+LAST|P734|"Kargayan"
+LAST|P19|"2025-07-01, 2024-07-31, 2024-08-03, 2024-08-02"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P856|"Paris"
+LAST|P2002|"France"
+LAST|P214|"https://www.linkedin.com/in/shanourkargayan/"
+
+CREATE
+LAST|Lfr|"Sally Jane Northcote"
+LAST|Len|"Sally Jane Northcote"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Sally Jane"
+LAST|P734|"Northcote"
+LAST|P19|"2022-02-19, 2020-06-18"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"St Brieuc"
+LAST|P2002|"France"
+LAST|P213|"https://www.facebook.com/sallyjane.northcotevyhyvz"
+LAST|P214|"https://fr.linkedin.com/in/sally-jane-northcote-912800a4"
+
+CREATE
+LAST|Lfr|"Alexandra Belooussova"
+LAST|Len|"Alexandra Belooussova"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Alexandra"
+LAST|P734|"Belooussova"
+LAST|P19|"2022-09-20"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Neuilly-sur-Seine"
+LAST|P2002|"France"
+LAST|P6634|"thedailysacha"
+LAST|P214|"https://www.linkedin.com/in/alexandra-belooussova-60342a170/"
+
+CREATE
+LAST|Lfr|"julie pacheco"
+LAST|Len|"julie pacheco"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"julie"
+LAST|P734|"pacheco"
+LAST|P19|"2021-02-25"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"tulle"
+LAST|P2002|"france"
+LAST|P2003|"nextplz"
+LAST|P214|"https://www.linkedin.com/in/julie-pacheco-671295159/"
+
+CREATE
+LAST|Lfr|"Inès Aitlhaj"
+LAST|Len|"Inès Aitlhaj"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Inès"
+LAST|P734|"Aitlhaj"
+LAST|P19|"2025-07-01, 2025-07-01, 2025-07-01, 2025-08-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Troyes"
+LAST|P2002|"Française"
+LAST|P214|"www.linkedin.com/in/inès-aitlhaj-bb584429b"
+
+CREATE
+LAST|Lfr|"Maureen Peron"
+LAST|Len|"Maureen Peron"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Maureen"
+LAST|P734|"Peron"
+LAST|P19|"2023-11-20, 2021-07-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q3305289, Q137194268"
+LAST|P856|"Vannes"
+LAST|P2002|"France"
+LAST|P6634|"https://www.instagram.com/maureenmoiramari/"
+LAST|P213|"Maureen Peron"
+LAST|P214|"Maureen Peron"
+
+CREATE
+LAST|Lfr|"Elodie Charrière"
+LAST|Len|"Elodie Charrière"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Elodie"
+LAST|P734|"Charrière"
+LAST|P19|"2023-07-05, 2023-11-01, 2023-03-01, 2023-10-20"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q1544126, Q137186386, Q1674967"
+LAST|P856|"Lyon"
+LAST|P2002|"France"
+LAST|P6634|"saphidy"
+LAST|P214|"https://www.linkedin.com/in/elodie-charrière-2525a01a4/"
+
+CREATE
+LAST|Lfr|"Adrien Bariller"
+LAST|Len|"Adrien Bariller"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Adrien"
+LAST|P734|"Bariller"
+LAST|P19|"2025-06-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2002|"France"
+LAST|P214|"adrien-bariller-a62a333b5"
+
+CREATE
+LAST|Lfr|"Maria Julia Garcia"
+LAST|Len|"Maria Julia Garcia"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Maria Julia"
+LAST|P734|"Garcia"
+LAST|P19|"2024-06-03"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P2002|"France"
+LAST|P214|"julia-garcia-377a413b5"
+
+CREATE
+LAST|Lfr|"Jean RAMIÈRE"
+LAST|Len|"Jean RAMIÈRE"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Jean"
+LAST|P734|"RAMIÈRE"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P214|"néant"
+
+CREATE
+LAST|Lfr|"Céline Cossa"
+LAST|Len|"Céline Cossa"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Céline"
+LAST|P734|"Cossa"
+LAST|P19|"2024-10-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3294503"
+LAST|P856|"Thionville"
+LAST|P2002|"française"
+LAST|P6634|"https://www.instagram.com/blinky_468/"
+LAST|P213|"https://www.facebook.com/celine.cossa"
+LAST|P214|"https://www.linkedin.com/in/c%C3%A9line-cossa-92103820/"
+
+CREATE
+LAST|Lfr|"Roxane Mirambet"
+LAST|Len|"Roxane Mirambet"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Roxane"
+LAST|P734|"Mirambet"
+LAST|P19|"0004-03-15, 2024-03-15, 2025-03-05"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3223744, Q3278569, Q19869389"
+LAST|P856|"Bordeaux"
+LAST|P2002|"Française"
+LAST|P214|"roxane-mirambet-67a500b3"
+
+CREATE
+LAST|Lfr|"Arnaud Swiac"
+LAST|Len|"Arnaud Swiac"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Arnaud"
+LAST|P734|"Swiac"
+LAST|P19|"2023-09-14, 2025-09-04"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3294503"
+LAST|P856|"Compiègne"
+LAST|P2002|"France"
+LAST|P214|"arnaud-swiac"
+
+CREATE
+LAST|Lfr|"Aline Dizon"
+LAST|Len|"Aline Dizon"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Aline"
+LAST|P734|"Dizon"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P856|"Blois"
+LAST|P2002|"France"
+LAST|P214|"aline-dizon-ab7263176"
+
+CREATE
+LAST|Lfr|"Loïc Droubaix"
+LAST|Len|"Loïc Droubaix"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Loïc"
+LAST|P734|"Droubaix"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P214|"loic-droubaix-824455282"
+
+CREATE
+LAST|Lfr|"Rita SANTOURIAN"
+LAST|Len|"Rita SANTOURIAN"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Rita"
+LAST|P734|"SANTOURIAN"
+LAST|P19|"2023-11-15, 2023-11-15, 2023-11-15, 2023-11-15"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3294503, Q3278569, Q2872499, Q3319792"
+LAST|P856|"Paris"
+LAST|P2002|"France"
+LAST|P4003|"RitaSantourian"
+LAST|P6634|"ritasantourian"
+LAST|P213|"rita.santourian"
+LAST|P214|"rita-santourian-296782129"
+
+CREATE
+LAST|Lfr|"Tess Bodelot"
+LAST|Len|"Tess Bodelot"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Tess"
+LAST|P734|"Bodelot"
+LAST|P19|"2026-01-16"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q21191276"
+LAST|P856|"Béthune"
+LAST|P2002|"France"
+LAST|P6634|"https://www.instagram.com/mlle_bodelot?igsh=MWYxM2d0M2ZpZWJiOA%3D%3D&utm_source=qr"
+LAST|P214|"https://www.linkedin.com/in/tess-bodelot-10b1891b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+
+CREATE
+LAST|Lfr|"Marie Hervichon"
+LAST|Len|"Marie Hervichon"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Marie"
+LAST|P734|"Hervichon"
+LAST|P19|"2025-09-17, 2023-09-09"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q3294503, Q14085106"
+LAST|P856|"Saint-Brieuc"
+LAST|P2002|"France"
+LAST|P6634|"marie.namm"
+LAST|P214|"marie-hervichon-878b82b1"
+
+CREATE
+LAST|Lfr|"Doriane Kiniali"
+LAST|Len|"Doriane Kiniali"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Doriane"
+LAST|P734|"Kiniali"
+LAST|P19|"2024-04-02"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P214|"www.linkedin.com/in/doriane-kiniali-936b4511a"
+
+CREATE
+LAST|Lfr|"Natacha Rivalan"
+LAST|Len|"Natacha Rivalan"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Natacha"
+LAST|P734|"Rivalan"
+LAST|P19|"2008-01-01, 2025-04-01, 2024-10-01, 2023-01-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q2870887, Q137186386, Q1674967, Q138573172"
+LAST|P2002|"Française"
+LAST|P214|"xxx"
+
+CREATE
+LAST|Lfr|"Elisabeth Sall"
+LAST|Len|"Elisabeth Sall"
+LAST|Dfr|"journaliste web pour Reworld Media"
+LAST|Den|"journaliste web at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Elisabeth"
+LAST|P734|"Sall"
+LAST|P19|"2024-06-10"
+LAST|P106|Q4773904
+LAST|P108|Q18415186
+LAST|P856|"Paris"
+LAST|P2002|"Française"
+LAST|P4003|"https://x.com/ElisabethSall"
+LAST|P214|"https://www.linkedin.com/in/elisabeth-sall-544ba8b3/"
+
+CREATE
+LAST|Lfr|"Enrica A"
+LAST|Len|"Enrica A"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Enrica"
+LAST|P734|"A"
+LAST|P19|"2025-07-25"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q6999793"
+LAST|P214|"enrica-a-03b0983b6"
+
+CREATE
+LAST|Lfr|"Shana Lyès"
+LAST|Len|"Shana Lyès"
+LAST|Dfr|"journaliste web pour Reworld Media"
+LAST|Den|"journaliste web at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Shana"
+LAST|P734|"Lyès"
+LAST|P19|"2026-03-06"
+LAST|P106|Q4773904
+LAST|P108|Q18415186
+LAST|P856|"Liège"
+LAST|P2002|"Belgique"
+LAST|P2003|"https://www.shanalyes.com/"
+LAST|P6634|"shana.lyes"
+LAST|P213|"https://www.facebook.com/shana.lyes"
+LAST|P214|"https://www.linkedin.com/in/shana-lyes/"
+
+CREATE
+LAST|Lfr|"Simon Suzeau"
+LAST|Len|"Simon Suzeau"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Simon"
+LAST|P734|"Suzeau"
+LAST|P19|"2023-12-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P856|"Nevers"
+LAST|P2002|"France"
+LAST|P6634|"simon.szu"
+LAST|P214|"simon-suzeau-7b4710295"
+
+CREATE
+LAST|Lfr|"Myriam Reynaud"
+LAST|Len|"Myriam Reynaud"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Myriam"
+LAST|P734|"Reynaud"
+LAST|P19|"2025-02-26"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q2870887"
+LAST|P856|"Saint Étienne"
+LAST|P2002|"Française"
+LAST|P214|"https://www.linkedin.com/in/myriam-bouchama-reynaud-0488a8263?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+
+CREATE
+LAST|Lfr|"Jean-Sebastien Champeau"
+LAST|Len|"Jean-Sebastien Champeau"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Jean-Sebastien"
+LAST|P734|"Champeau"
+LAST|P19|"2023-01-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P214|"js-2"
+
+CREATE
+LAST|Lfr|"Inès Guiza"
+LAST|Len|"Inès Guiza"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Inès"
+LAST|P734|"Guiza"
+LAST|P19|"2025-05-02"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3294503"
+LAST|P2002|"France"
+LAST|P4003|"gza_ines"
+LAST|P214|"www.linkedin.com/in/inès-guiza-184b001a9"
+
+CREATE
+LAST|Lfr|"Marion Ottaviani"
+LAST|Len|"Marion Ottaviani"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Marion"
+LAST|P734|"Ottaviani"
+LAST|P19|"2025-11-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q6999793"
+LAST|P856|"Paris"
+LAST|P2002|"France"
+LAST|P214|"marion-ottaviani"
+
+CREATE
+LAST|Lfr|"Grib Borremans"
+LAST|Len|"Grib Borremans"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Grib"
+LAST|P734|"Borremans"
+LAST|P19|"2024-03-17"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3278569"
+LAST|P214|"Non disponible"
+
+CREATE
+LAST|Lfr|"Emmanuelle Devriese"
+LAST|Len|"Emmanuelle Devriese"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Emmanuelle"
+LAST|P734|"Devriese"
+LAST|P19|"2025-04-19"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q2870887"
+LAST|P2002|"France"
+LAST|P4003|"emmadvrs_"
+LAST|P214|"emmanuelle-devriese-102413145"
+
+CREATE
+LAST|Lfr|"Margot IODICE"
+LAST|Len|"Margot IODICE"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Margot"
+LAST|P734|"IODICE"
+LAST|P19|"2024-03-01, 2024-03-01, 2024-03-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Compiègne"
+LAST|P2002|"Française"
+LAST|P214|"www.linkedin.com/in/margot-iodice"
+
+CREATE
+LAST|Lfr|"Katherine Mabalay"
+LAST|Len|"Katherine Mabalay"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Katherine"
+LAST|P734|"Mabalay"
+LAST|P19|"2025-07-14"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P856|"Philippines"
+LAST|P2002|"Philippines"
+LAST|P214|"https://www.linkedin.com/in/katherine-mabalay/"
+
+CREATE
+LAST|Lfr|"Marie GODART"
+LAST|Len|"Marie GODART"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Marie"
+LAST|P734|"GODART"
+LAST|P19|"2025-03-10"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P214|"https://www.linkedin.com/in/mrgdt/"
+
+CREATE
+LAST|Lfr|"Jessica Ferret"
+LAST|Len|"Jessica Ferret"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Jessica"
+LAST|P734|"Ferret"
+LAST|P19|"2022-09-26"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q2870887"
+LAST|P856|"Casablanca"
+LAST|P2002|"France"
+LAST|P214|"https://www.linkedin.com/in/jessica-ferret-b0349a46/"
+
+CREATE
+LAST|Lfr|"Alexandre Brunet"
+LAST|Len|"Alexandre Brunet"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Alexandre"
+LAST|P734|"Brunet"
+LAST|P19|"2025-12-01, 2025-09-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P214|"https://www.linkedin.com/in/alexandre-brunet-7b1383108/"
+
+CREATE
+LAST|Lfr|"Gaston Cuny"
+LAST|Len|"Gaston Cuny"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Gaston"
+LAST|P734|"Cuny"
+LAST|P19|"2024-03-10, 2026-02-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q3202607, Q3493814"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P856|"Colmar"
+LAST|P2002|"Français"
+LAST|P4003|"gaston_cuny"
+LAST|P214|"gaston-cuny-3a2b27204"
+
+CREATE
+LAST|Lfr|"Fiona Maherault"
+LAST|Len|"Fiona Maherault"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Fiona"
+LAST|P734|"Maherault"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P214|"fiona-maherault-vakinski-18129419b"
+
+CREATE
+LAST|Lfr|"Alexandre Mathiot"
+LAST|Len|"Alexandre Mathiot"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Alexandre"
+LAST|P734|"Mathiot"
+LAST|P19|"2023-12-11"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q109041400"
+LAST|P856|"Montbard"
+LAST|P2002|"France"
+LAST|P214|"alexandre-mathiot-144096253"
+
+CREATE
+LAST|Lfr|"Noémie Sadoun Uzan"
+LAST|Len|"Noémie Sadoun Uzan"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Noémie"
+LAST|P734|"Sadoun Uzan"
+LAST|P19|"2023-09-18"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P214|"noémie-sadoun-1827a4142"
+
+CREATE
+LAST|Lfr|"Soraya Idbouja"
+LAST|Len|"Soraya Idbouja"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Soraya"
+LAST|P734|"Idbouja"
+LAST|P19|"2022-01-03"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Sèvres"
+LAST|P2002|"Française"
+LAST|P214|"https://www.linkedin.com/in/soraya-idbouja/"
+
+CREATE
+LAST|Lfr|"Agathe de Fougerolles"
+LAST|Len|"Agathe de Fougerolles"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Agathe"
+LAST|P734|"de Fougerolles"
+LAST|P19|"2022-11-24"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P856|"Paris"
+LAST|P2002|"Française"
+LAST|P214|"agathe-de-fougerolles-479630b9"
+
+CREATE
+LAST|Lfr|"Hugo Pellegrin"
+LAST|Len|"Hugo Pellegrin"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Hugo"
+LAST|P734|"Pellegrin"
+LAST|P19|"2023-01-02"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P2003|"https://m3tamorph.substack.com/?utm_campaign=profile_chips"
+LAST|P214|"https://www.linkedin.com/in/hugo-pellegrin-2a049a83/"
+
+CREATE
+LAST|Lfr|"Solweig Ély"
+LAST|Len|"Solweig Ély"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"16565529d"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Solweig"
+LAST|P734|"Ély"
+LAST|P19|"2024-08-20, 2025-09-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q14085106, Q3294503"
+LAST|P856|"Noisy Le Grand (93)"
+LAST|P2002|"Française"
+LAST|P2003|"https://chemins-de-vies.fr"
+LAST|P4003|"SolweigEly"
+LAST|P6634|"solweigely"
+LAST|P213|"solweig.32"
+LAST|P214|"solweig-ely-993a27196"
+
+CREATE
+LAST|Lfr|"Pierre FOURNIER"
+LAST|Len|"Pierre FOURNIER"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Pierre"
+LAST|P734|"FOURNIER"
+LAST|P19|"2025-10-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q2870887"
+LAST|P856|"Montbrison"
+LAST|P2002|"France"
+LAST|P214|"pierre-fournier42"
+
+CREATE
+LAST|Lfr|"Celine GERBIER"
+LAST|Len|"Celine GERBIER"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Celine"
+LAST|P734|"GERBIER"
+LAST|P19|"2011-09-01"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P6634|"les_papillons_de_celine"
+LAST|P214|"céline-gerbier-56355417"
+
+CREATE
+LAST|Lfr|"Quentin Pannaud"
+LAST|Len|"Quentin Pannaud"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Quentin"
+LAST|P734|"Pannaud"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P856|"Voorburg"
+LAST|P2002|"France"
+LAST|P2003|"https://nomansland-urbex.com/"
+LAST|P213|"https://www.facebook.com/quentinpnnd/"
+LAST|P214|"https://www.linkedin.com/in/quentinpannaud/"
+
+CREATE
+LAST|Lfr|"Marie Lizak"
+LAST|Len|"Marie Lizak"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Marie"
+LAST|P734|"Lizak"
+LAST|P19|"2022-03-02"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P214|"marie-lizak-a76b66a9"
+
+CREATE
+LAST|Lfr|"Hugo Taupin"
+LAST|Len|"Hugo Taupin"
+LAST|Dfr|"journaliste web pour Reworld Media"
+LAST|Den|"journaliste web at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Hugo"
+LAST|P734|"Taupin"
+LAST|P19|"2023-10-03"
+LAST|P106|Q4773904
+LAST|P108|Q18415186
+LAST|P101|"Q3493814"
+LAST|P214|"hugo-taupin-a139b81b6"
+
+CREATE
+LAST|Lfr|"Hugo Quintal"
+LAST|Len|"Hugo Quintal"
+LAST|Dfr|"journaliste pour Reworld Media"
+LAST|Den|"journaliste at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581097
+LAST|P735|"Hugo"
+LAST|P734|"Quintal"
+LAST|P19|"2023-10-02, 2023-10-02"
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P101|"Q3493814, Q3202607"
+LAST|P856|"Vernon"
+LAST|P2002|"Française"
+LAST|P4003|"HugoQuintal_pro"
+LAST|P6634|"https://www.instagram.com/hugo.quintal/"
+LAST|P213|"Hugo Quintal"
+LAST|P214|"hugo-quintal-a4a767178"
+
+CREATE
+LAST|Lfr|"Natacha Rivalan"
+LAST|Len|"Natacha Rivalan"
+LAST|Dfr|"rédacteur pour Reworld Media"
+LAST|Den|"rédacteur at Reworld Media"
+LAST|P31|Q5
+LAST|P21|Q6581072
+LAST|P735|"Natacha"
+LAST|P734|"Rivalan"
+LAST|P19|"2008-01-01, 2025-04-01, 2023-08-01, 2024-10-01"
+LAST|P106|Q333634
+LAST|P108|Q18415186
+LAST|P101|"Q2870887, Q137186386, Q138573172, Q1674967"
+LAST|P2002|"Française"
+LAST|P214|"_"
+
+CREATE
+LAST|Lfr|"Dubois M"
+LAST|Len|"Dubois M"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"reworld media at Q18415186"
+LAST|P31|Q5
+LAST|P735|"Dubois"
+LAST|P734|"M"
+LAST|P569|+2022-02-01T00:00:00Z/11
+LAST|P19|"1996-11-27"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.autojournal.fr/auteur/qdubois"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P4003|"https://www.instagram.com/quentin_dubois7/"
+LAST|P213|"https://www.linkedin.com/in/quentin-dubois-437980151/"
+
+CREATE
+LAST|Lfr|"Duchemin M"
+LAST|Len|"Duchemin M"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"reworld media at Q18415186"
+LAST|P31|Q5
+LAST|P735|"Duchemin"
+LAST|P734|"M"
+LAST|P569|+2025-03-31T00:00:00Z/11
+LAST|P19|"1995-04-15"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.autoplus.fr/auteur/mduchemin"
+LAST|P856|"France"
+LAST|P4003|"maxime_duchemin"
+LAST|P213|"maxime-duchemin-243645144"
+
+CREATE
+LAST|Lfr|"Dewet M"
+LAST|Len|"Dewet M"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"Rédacteur d'Auto Plus, Sport Auto et l'Auto-Journal, mais aussi vidéaste et monteur si besoin ! Amoureux de toutes les voitures, du monospace familiale à la supercar complètement aberrante. N'hésitez pas non plus à nous découvrir en vidéo sur la chaîne YouTube d'Auto Plus et sur les réseaux sociaux !"
+LAST|P31|Q5
+LAST|P735|"Dewet"
+LAST|P734|"M"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P213|"benjamin-dewet-745799240"
+
+CREATE
+LAST|Lfr|"Boucher F"
+LAST|Len|"Boucher F"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"journaliste pour Closer et Télé Star"
+LAST|P31|Q5
+LAST|P735|"Boucher"
+LAST|P734|"F"
+LAST|P19|"2001-03-06"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.closermag.fr/auteur/aboucher, https://www.telestar.fr/liste-auteurs/aboucher"
+LAST|P856|"France"
+LAST|P4003|"alicebcer"
+LAST|P213|"alice-boucher-b19773211"
+
+CREATE
+LAST|Lfr|"Berdah F"
+LAST|Len|"Berdah F"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"reworld media at Q18415186"
+LAST|P31|Q5
+LAST|P735|"Berdah"
+LAST|P734|"F"
+LAST|P19|"2000-02-07"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.closermag.fr/auteur/emie-berdah, https://www.telestar.fr/liste-auteurs/emie-berdah"
+LAST|P856|"France"
+LAST|P213|"emie-berdah-a3638a59"
+
+CREATE
+LAST|Lfr|"M F"
+LAST|Len|"M F"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"reworld media at Q18415186"
+LAST|P31|Q5
+LAST|P735|"M"
+LAST|P734|"F"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.closermag.fr/auteur/coraline-m, https://www.telestar.fr/liste-auteurs/c-m"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P856|"France"
+LAST|P213|"https://www.linkedin.com/in/coralinemercier16"
+
+CREATE
+LAST|Lfr|"Binet F"
+LAST|Len|"Binet F"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"Journaliste pour Nextplz"
+LAST|P31|Q5
+LAST|P735|"Binet"
+LAST|P734|"F"
+LAST|P569|+2023-10-03T00:00:00Z/11
+LAST|P19|"1992-01-02"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.nextplz.fr/auteur/noelle-binet"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P856|"France"
+LAST|P2002|"https://www.instagram.com/noellebiinet/?hl=fr"
+LAST|P2003|"https://x.com/Noellebinet"
+LAST|P4003|"noellebiinet"
+LAST|P6634|"Noelle Binet"
+LAST|P213|"Noelle Binet"
+
+CREATE
+LAST|Lfr|"Carlesimo F"
+LAST|Len|"Carlesimo F"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"Journaliste et coordinatrice éditoriale"
+LAST|P31|Q5
+LAST|P735|"Carlesimo"
+LAST|P734|"F"
+LAST|P19|"1993-05-17"
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P101|"https://www.closermag.fr/auteur/lou-ducreux, https://www.telestar.fr/liste-auteurs/clara-c"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P856|"Française"
+LAST|P2003|"https://x.com/ClaraCarlesimo"
+LAST|P213|"https://www.linkedin.com/in/clara-carlesimo-6a252355/"
+
+CREATE
+LAST|Lfr|"Hagopian F"
+LAST|Len|"Hagopian F"
+LAST|Dfr|"reworld media pour Q18415186"
+LAST|Den|"Journaliste pour melty"
+LAST|P31|Q5
+LAST|P735|"Hagopian"
+LAST|P734|"F"
+LAST|P569|+2014-08-15T00:00:00Z/11
+LAST|P106|"Reworld Media"
+LAST|P108|"Q18415186"
+LAST|P6886|Q150
+LAST|P1412|Q150
+LAST|P213|"Aurélie Hagopian"
