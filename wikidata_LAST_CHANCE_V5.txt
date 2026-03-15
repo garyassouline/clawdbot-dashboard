@@ -1,0 +1,32 @@
+CREATE
+LAST|Lfr|"Elisabeth Sall"
+LAST|Len|"Elisabeth Sall"
+LAST|Dfr|"journaliste web"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.grazia.fr/auteur/esall"
+LAST|P2002|"ElisabethSall"
+LAST|P6634|"elisabeth-sall-544ba8b3"
+
+CREATE
+LAST|Lfr|"Natacha Rivalan"
+LAST|Len|"Natacha Rivalan"
+LAST|Dfr|"rédacteur"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.aufeminin.com/author/489"
+LAST|P973|"https://www.closermag.fr/auteur/nrivalan"
+LAST|P973|"https://www.beaute-test.com/mag/author/nrivalan"
+LAST|P973|"https://www.telestar.fr/liste-auteurs/nrivalan"
+
+CREATE
+LAST|Lfr|"Noëlle Binet"
+LAST|Len|"Noëlle Binet"
+LAST|Dfr|"Journaliste pour Nextplz"
+LAST|P31|Q5
+LAST|P106|Q1930187
+LAST|P108|Q18415186
+LAST|P973|"https://www.nextplz.fr/auteur/noelle-binet"
+LAST|P2002|"Noellebinet"
