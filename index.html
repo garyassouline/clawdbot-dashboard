@@ -7,7 +7,7 @@
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦞</text></svg>">
   <title>Mission Control — ClawdBot Gary</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.174.0/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
   <style>
     :root {
       --bg: #f4f6fa;
@@ -966,6 +966,10 @@ function initThree() {
 }
 
 function renderMissionControl(d) {
+    if (typeof THREE === 'undefined') {
+        console.warn("Three.js not loaded yet...");
+        return;
+    }
     if (!scene) initThree();
     if (!d.crons) return;
 
