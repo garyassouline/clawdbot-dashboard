@@ -1,0 +1,43 @@
+{
+  "updatedAt": "2026-03-16T20:23:34.348Z",
+  "kpis": {
+    "concentration": "84.5%",
+    "lifespan": "18h",
+    "avgCtr": "9.36%",
+    "gapIndex": 0
+  },
+  "champions": [
+    {
+      "url": "https://www.aufeminin.com/voyage/oubliez-la-baie-de-somme-cette-destination-de-bord-de-mer-francaise-est-ideale-pour-paques-top-chef-y-a-meme-installe-ses-cuisines-2709237.html",
+      "clicks": 5431,
+      "impressions": 59428,
+      "ctr": "9.14%"
+    },
+    {
+      "url": "https://www.aufeminin.com/news/rappel-conso-cette-charcuterie-cuite-vendue-chez-carrefour-et-intermarche-en-france-presente-un-risque-de-listeriose-2708199.html",
+      "clicks": 4780,
+      "impressions": 34341,
+      "ctr": "13.92%"
+    },
+    {
+      "url": "https://www.aufeminin.com/petites-mains-diy-do-it-yourself/terrasse-verte-et-glissante-apres-lhiver-cet-ingredient-a-30-centimes-enleve-mousse-et-algues-en-1-h-sans-frotter-2707255.html",
+      "clicks": 2023,
+      "impressions": 10889,
+      "ctr": "18.58%"
+    },
+    {
+      "url": "https://www.aufeminin.com/sports-femme/sport-apres-60-ans-la-methode-run-walk-est-la-plus-efficace-pour-rester-en-bonne-sante-selon-une-coach-s4109618.html",
+      "clicks": 1904,
+      "impressions": 35346,
+      "ctr": "5.39%"
+    },
+    {
+      "url": "https://www.aufeminin.com/sports-femme/v-ups-l-exercice-le-plus-efficace-pour-perdre-du-ventre-selon-une-coach-sportive-il-fait-fondre-la-graisse-s4109387.html",
+      "clicks": 1864,
+      "impressions": 33862,
+      "ctr": "5.50%"
+    }
+  ],
+  "gaps": [],
+  "reco": "🚨 Alerte Dépendance : Ton trafic repose sur trop peu d'articles. Diversifie les angles !"
+}

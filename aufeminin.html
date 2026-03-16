@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💄</text></svg>">
+  <title>CDO Analytics — Aufeminin</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    :root {
+      --bg: #f4f6fa;
+      --surface: #ffffff;
+      --surface2: #f0f2f8;
+      --border: #e2e6f0;
+      --accent: #e5484d;
+      --accent2: #3b82f6;
+      --text: #111827;
+      --muted: #6b7280;
+      --radius: 12px;
+      --pink: #ff4d94;
+    }
+    [data-theme="dark"] {
+      --bg: #0d0f18;
+      --surface: #161824;
+      --surface2: #1e2130;
+      --border: #252838;
+      --text: #e2e8f0;
+      --muted: #64748b;
+    }
+    body { background: var(--bg); color: var(--text); font-family: -apple-system, sans-serif; padding: 20px; }
+    .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 20px; margin-bottom: 20px; }
+    .kpi-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 20px; }
+    .kpi { padding: 15px; border-radius: 10px; border: 1px solid var(--border); background: var(--surface); }
+    .kpi-label { font-size: 0.7rem; color: var(--muted); text-transform: uppercase; }
+    .kpi-value { font-size: 1.5rem; font-weight: 800; margin-top: 5px; }
+    .kpi.alert { border-left: 4px solid var(--accent); }
+    .title { font-size: 1.2rem; font-weight: 700; margin-bottom: 15px; display: flex; align-items: center; gap: 10px; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
+    th { text-align: left; padding: 10px; border-bottom: 1px solid var(--border); color: var(--muted); }
+    td { padding: 10px; border-bottom: 1px solid var(--border); }
+    .badge { padding: 3px 8px; border-radius: 10px; font-size: 0.7rem; font-weight: 600; }
+    .badge-pink { background: rgba(255, 77, 148, 0.1); color: var(--pink); }
+    .chart-container { height: 300px; position: relative; }
+  </style>
+</head>
+<body>
+  <div class="title">💄 CDO Analytics — Aufeminin.com</div>
+  
+  <div class="kpi-grid">
+    <div class="kpi" id="kpi-concentration">
+      <div class="kpi-label">Concentration (Top 10)</div>
+      <div class="kpi-value" id="val-concentration">--%</div>
+    </div>
+    <div class="kpi" id="kpi-lifespan">
+      <div class="kpi-label">Durée Visibilité Moy.</div>
+      <div class="kpi-value" id="val-lifespan">--h</div>
+    </div>
+    <div class="kpi" id="kpi-ctr">
+      <div class="kpi-label">CTR Moyen Discover</div>
+      <div class="kpi-value" id="val-ctr">--%</div>
+    </div>
+    <div class="kpi" id="kpi-gap">
+      <div class="kpi-label">Content Gap Index</div>
+      <div class="kpi-value" id="val-gap">--</div>
+    </div>
+  </div>
+
+  <div class="grid-2" style="display:grid; grid-template-columns: 2fr 1fr; gap: 20px;">
+    <div class="card">
+      <div class="title">🚀 Top Accélérations (J-1 vs J-7)</div>
+      <table id="acceleration-table">
+        <thead>
+          <tr>
+            <th>Article</th>
+            <th>Impressions</th>
+            <th>CTR</th>
+            <th>Tendance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td colspan="4" style="text-align:center; color:var(--muted)">Analyse des données en cours...</td></tr>
+        </tbody>
+      </table>
+    </div>
+    
+    <div class="card">
+      <div class="title">🤖 Recommandation Stratégique</div>
+      <div id="ai-reco" style="font-size:0.9rem; line-height:1.5; color:var(--muted)">
+        En attente de la prochaine analyse quotidienne...
+      </div>
+    </div>
+  </div>
+
+  <script>
+    async function loadCDOData() {
+      try {
+        const r = await fetch('./aufeminin_cdo_analysis.json');
+        const d = await r.json();
+        
+        document.getElementById('val-concentration').textContent = d.kpis.concentration;
+        document.getElementById('val-lifespan').textContent = d.kpis.lifespan;
+        document.getElementById('val-ctr').textContent = d.kpis.avgCtr;
+        document.getElementById('val-gap').textContent = d.kpis.gapIndex;
+        
+        if (parseFloat(d.kpis.concentration) > 80) {
+          document.getElementById('kpi-concentration').classList.add('alert');
+        }
+
+        document.getElementById('ai-reco').textContent = d.reco;
+
+        const tbody = document.getElementById('acceleration-table').querySelector('tbody');
+        tbody.innerHTML = d.champions.map(c => `
+          <tr>
+            <td style="max-width:300px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap">${c.url.split('/').pop()}</td>
+            <td>${c.impressions.toLocaleString()}</td>
+            <td>${c.ctr}</td>
+            <td><span class="badge badge-pink">🔥 Top</span></td>
+          </tr>
+        `).join('');
+
+      } catch(e) { console.error(e); }
+    }
+    loadCDOData();
+  </script>
+</body>
+</html>
