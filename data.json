@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-15T23:15:32.660Z",
+  "updatedAt": "2026-03-16T00:15:32.693Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "13.6%",
+    "cpu": "10%",
     "ram": "19%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-15T23:15:32.660Z",
+      "ts": "2026-03-16T00:15:32.693Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1929,20 +1929,20 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 133582,
+    "tokensIn": 135168,
     "tokensOut": 35,
-    "cacheHit": 32,
-    "context": 125307,
+    "cacheHit": 33,
+    "context": 134410,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 133582,
+      "tokensIn": 135168,
       "tokensOut": 35,
-      "cacheRead": 58461,
+      "cacheRead": 66771,
       "cacheWrite": 0,
-      "cost": 0.41880930000000005
+      "cost": 0.4260603
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1981,7 +1981,7 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 133582,
+      "tokensIn": 135168,
       "tokensOut": 35
     },
     {
@@ -2074,6 +2074,10 @@
     {
       "date": "03/15",
       "total": 393435
+    },
+    {
+      "date": "03/16",
+      "total": 402538
     }
   ],
   "alerts": [
@@ -2084,16 +2088,28 @@
   ],
   "competitorArticles": [
     {
-      "title": "Programme TV Orange du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOR0VKSkMwQ1UzbkNZbWY2MjFLaDFhSEpWQ3JRTGZyR1NKbTBkcjFCYXNJcjJoR1lEUEZtUmRlNXBRUHo1MGRmN283OFRXd3hVTHVkZnpUYWl5WGd6Z3dDQkUyV2tSOWJCUzlZb1dwN1dvVmpuaEVZdEdLM0Y1SnE0U0UxbGw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:02:29 GMT",
+      "title": "Programme TV Proximus du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWHdISmtFSFpFdThnNUVRUGtJNDJncVNwcm41QzN6Qzd6eFl0NVcxeWtjZUZ6Z3hmY2RGWVFDTUUtSUlxSWY0dXlVZ0Zxd0FHSlZkV00yRUtWeHpIeHljRGVzbGFmRXN4ZExMN2JMV3FjYXkxUHAyV1hYTG03aXh3UF9zT1BSXzQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 23:36:39 GMT",
       "source": "linternaute.com",
       "icon": "🌐",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Orange du dimanche 29 mars 2026  Linternaute.com"
+      "snippet": "Programme TV Proximus du dimanche 29 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme TV Numericable Belux du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORGQyNFNRTHRTdFdUOGNHS0tRazU1ZlVycVp0RjdiRndBbHc1VXUxZnp4cHN1NnlLUVJrbzZYU180MHNHa0FqODdCZjV0UVBPZTEyb3k0V1ZjZUVoTUJndmt6elhxZHd5MkFtcmt2bGowTVh0YWRjWS1ud2ZLcFQ3TEIwa01QbWI5TG9Ha3B5QjJDWms?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 23:32:38 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Numericable Belux du dimanche 29 mars 2026  Linternaute.com"
     },
     {
       "title": "Oscars 2026 : les plus beaux looks du tapis rouge - ELLE",
@@ -2173,18 +2189,6 @@
         "pleinevie.fr"
       ],
       "snippet": "En pleine flambée des prix, 60 Millions de consommateurs a passé au crible les caisses de 90 supermarchés français. Une enseigne se détache nettement, avec des écarts qui pèsent sur chaque panier."
-    },
-    {
-      "title": "Résultat de Catherine Trautmann aux municipales 2026 à Strasbourg : quel score pour l'ancienne édile ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNQXRDaXN6aXhMcU13bFB0cmZfWjdnbFpJVERfTUpPbUVhM0lPdWljdXpBVWItZkpqV3ZONHFnRUttamFIazFVZTViX3dyUE81ci1ycXJqY2EyM3lTNzBUdGJrSDJTekhYdjZndmxpTzhtc1FPekZacTdSSnNpQ2FsMVpPZjVEZHhNLXMyVmpOM3VnMUVfVUNMNE1HeVJXSUtZa3Bmc051SjI5NnNOSDctY1BTZ2FmbFZMU2xOQXE5UENHRHlhcTVvYjk5RG45V0xIT2I0clpxOC12aG5xSGJoNjRTUndHT2JGRldhc2NERjVjdkxYZ0hnZURPblhwMUI0SkJwQQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 20:42:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Catherine Trautmann aux municipales 2026 à Strasbourg : quel score pour l'ancienne édile ?  Linternaute.com"
     },
     {
       "title": "Ces 4 comportements provoquent des conflits sans que vous vous en rendiez compte",
@@ -2288,6 +2292,18 @@
         "pleinevie.fr"
       ],
       "snippet": "Oui, vous pouvez mettre le saumon au congélateur, mais un délai précis change tout pour le goût, la sécurité et les oméga‑3. Entre promos et sushis maison, ce guide révèle jusqu’à quand le garder sans"
+    },
+    {
+      "title": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ? - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcFVMOVJHX0lUMElTT1RPRTdtbnRwRnZMSlpvMEV0RUN2cG9BcElNTnZGSG9uOUJTdzdhLVVmYnJPN3BwdldhZENKcHo4SUlUSlNQQ2FsUm8tUHl2UGxSVXNlZExnTWhnQ0ZLNFVsbzdJbzZsVzFFNlRkcmtjdGttQmhlMzJWdGhkcW1mT2sxVHB6czMwdG9WTHMwVE9rd0dIZmlLYW1mb0J6c1RXUENpaFFuOHN0aDdKd3R4U1ZnWmY2dV85U2JkeGU2UGljaXE5a05HcGZuWHZmOUwxdVpOVTNic2VQSG1kSEdjVXg2QXdYYTdER2F2MHdMM09OaG8?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 19:32:00 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ?  Linternaute.com"
     },
     {
       "title": "Verre d'eau sur la table de nuit : le Dr Gérald Kierzek de Doctissimo alerte sur un risque pour votre santé",
@@ -2459,6 +2475,17 @@
       "snippet": "Pendant 14 jours, Alexa Mellardo a intégré des protéines à chaque repas en espérant calmer ses fringales et stabiliser son appétit. Elle raconte comment cela a changé son quotidien et quels sont les e"
     },
     {
+      "title": "\"Je me mettais beaucoup de pression\" : Charlène de Monaco revient sur sa carrière de nageuse - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUUNaTE9CNThScVJiajdQRUxQN2M1bENhRG1UOF9QdjU3eEFkYS1hajJYQWg5MFFRUktMMXh4XzE5UElpSWxYUThKV2dkTWxqQmRLR1dkNk1BV3lwLTVVa0d4ck16VWNMQTlmNnFHNW5ZOUlWMmRRd2k2c2U1bGtBeW1KX211OG1FOG1vdEkwZFJvMHVEQmxxM0xBdE9LMGktTmEyZ3lER2JkVDlBc2Q3dVZBRi16N2wwRzdibXR3ajhoRzJNcWdxcWMxU3g1UEhDMXpBZi1hTQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 18:04:24 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"Je me mettais beaucoup de pression\" : Charlène de Monaco revient sur sa carrière de nageuse  Femme Actuelle"
+    },
+    {
       "title": "Le bouboupisme séduit de nombreux couples : les secrets de cette pratique qui permet d’atteindre de nouveaux sommets de plaisir",
       "link": "https://www.psychologies.com/Couple/Sexualite/bouboupisme-seduit-couples-secrets-pratique-atteindre-nouveaux-sommets-plaisir-411822?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 18:01:40 +0000",
@@ -2570,29 +2597,6 @@
       "snippet": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars  ELLE"
     },
     {
-      "title": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQRnlUNmVqa1MtMEhyUVUyZ3hPLVZqSHFPcTlDX2s5ektTMy1faWJNckp3MUd4UDJ5ZmdHQWdraWZwQk42c0dVdDV4UWEyX3NDb2M0THhWTmtrYmgzSzFUZkJ3RXNCdzZBZC1NUHE1NlFzemozSV9Xc3oxaGNkMndzZXhLcXBualJkbUt2TG5oRlFHa19JUXNLaXRESW11a2ZKaC1PTnh2UWRHY1RlZzRIU3ptVHRWYTVLQV9DTE56MzBRYnRVa0tlR0RINTdnTThZdllxajZxWQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 16:07:41 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Eva Longoria fête ses 51 ans : ce doux message d’amitié de son amie Victoria Beckham  ELLE"
-    },
-    {
-      "title": "Résultats des municipales : à quelle heure sont-ils donnés ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTFh3TTllNEhWd1h5ZWpQejRrVmxUS2F0UElwb2dyS2VYZW5NeTBFSEJFaEtyamFUVmUwcnBKdGY4VXNXM24tLXhQOFE1cHhsdVdfWFVveEJPQmNlWjBTNlhPaWFnSmJYRHpwRjJLMGpFWGE0R1VBeFducnVnU09LTzNMVjJ4OUhJVGFubFp3eUpIUGpmeWdsZkV1NVV0S29XQ3pnQ3dFTEtCeWNVZWNNNG1ndw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 16:06:11 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultats des municipales : à quelle heure sont-ils donnés ?  Linternaute.com"
-    },
-    {
       "title": "“Tombée amoureuse d’un bad boy” : ces 2 traits de personnalité vous poussent à faire les mauvais choix en amour, selon la science",
       "link": "https://www.psychologies.com/moi/se-connaitre/bad-boy-2-traits-personnalite-mauvais-choix-amour-science-590505?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 16:03:07 +0000",
@@ -2657,6 +2661,17 @@
         "aufeminin.com"
       ],
       "snippet": "Pourquoi ce nouveau thriller sur un ex dangereux marque 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Horoscope : l’arrivée du printemps 2026 porte chance à ces deux signes astrologiques - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWJ1M3BOMnhhT0FDSmlvb1lBcmdCZHBKOFdhazYybHVJemJuSWliVXFXUmNhcmJ1UW9ER0xzNklCQjFfRElCSkRnVEpCc094ZWJyXzNRTnRnbE5hYzNVZENoMFFRNFJSZktOdXgxcWJFMXpjdFdBWlhkQlZtczhGQ1NCenA3RTZNNFBFTTFIWEpzcE1QLXBTbVhjZng5MDNpZDdSOGdES2NxN2JtZFUyeXMxOUpEdEkxbXBaOVRRbXpiUkhDWEwtcHdZcm9rR3Fv?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 14:15:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Horoscope : l’arrivée du printemps 2026 porte chance à ces deux signes astrologiques  ELLE"
     },
     {
       "title": "\"Notre petit trésor\" : Clarisse Agbégnénou a accouché de son deuxième enfant - Femme Actuelle",
@@ -2912,17 +2927,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Mots Croisés gratuits - Force 4 - 15 mars 2026 Grille n°1455  Notre Temps"
-    },
-    {
-      "title": "aspirateur - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFA5ZXN1ZGhLUjRyVFU0Q05oLUp6TFY0eExtaTJTT3F2RUxVb3lpRG5wMXRXYWU1R3pFakxnSXM1RTBxTlRFMjdRa0EyclpsRzVZQlVGRlRCeXhRSWUxSm5Z?oc=5",
-      "pubDate": "Sat, 14 Mar 2026 23:30:04 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "aspirateur  Femme Actuelle"
     },
     {
       "title": "Oreillers : la méthode efficace pour les laver en profondeur sans les abîmer",
