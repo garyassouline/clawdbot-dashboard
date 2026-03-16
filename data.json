@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T18:15:42.818Z",
+  "updatedAt": "2026-03-16T19:15:44.051Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "14.3%",
+    "cpu": "9.5%",
     "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T18:15:42.818Z",
+      "ts": "2026-03-16T19:15:44.050Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,118 @@
   ],
   "competitorArticles": [
     {
+      "title": "Au Japon, cette habitude nocturne étonnante renforce les couples",
+      "link": "https://www.psychologies.com/couple/vie-de-couple/au-quotidien/Au-Japon-cette-habitude-nocturne-etonnante-renforce-les-couples-624959?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 19:03:26 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Contrairement aux idées reçues occidentales, dormir séparément ne serait pas un signe d’éloignement dans le couple. Au Japon, cette organisation nocturne est souvent perçue comme un moyen de préserver"
+    },
+    {
+      "title": "\"Ozempic naturel\" : pourquoi la berbérine n'est pas le remède miracle vanté sur TikTok selon la science",
+      "link": "https://www.doctissimo.fr/nutrition/regimes-alimentaires-et-perte-de-poids/les-types-de-regimes/complements-minceur-et-brules-graisses/ozempic-naturel-pourquoi-la-berberine-nest-pas-le-remede-miracle-vante-sur-tiktok-selon-la-science-742803.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 19:00:52 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "La berbérine, souvent présentée comme un substitut naturel à l'Ozempic sur les réseaux sociaux, suscite l'engouement mais aussi l'inquiétude des spécialistes. Ce complément alimentaire, vanté pour ses"
+    },
+    {
+      "title": "Après 50 ans, ce conseil qu'on vous a donné depuis toujours met votre cœur en danger",
+      "link": "https://www.topsante.com/senior/retarder_le_vieillissement/apres-50-ans-ce-conseil-quon-vous-a-donne-depuis-toujours-met-votre-coeur-en-danger-952918",
+      "pubDate": "Mon, 16 Mar 2026 19:00:11 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "À 50 ans, reprendre le sport comme si on avait encore 20 ans peut transformer une bonne résolution en vrai risque pour le cœur. Comment ajuster cardio et intensité sans renoncer aux bénéfices santé ?"
+    },
+    {
+      "title": "La maison typique et la vie simple de Patrik Bruel sur l'île de Ré - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPaHYwQmY4ckpsLW1KNlFlWEt1ZkhobzdfanNYSGdDRzE3aXlLdEswNHpmRzR1Y3pHTnhMMmFPZEZYcTdpeDh5WXdpd1lQdkFkMUV4Mm5zWkZvejBnUnhwWVdNNVl1cHhmcHlxTmdIS2JZM1ZxVktHVTlkRXFrZDhWR3dwS2RTeGFicGpyTVZrajItSkZGa0VYN192VXV0NjF1bl9XZUU2RUlCbUR5UTFCUWZjemltSUhldkp0WHZQcFFsLXBZQi1MQTJqSndTQ1VS?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 19:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "La maison typique et la vie simple de Patrik Bruel sur l'île de Ré  Cosmopolitan.fr"
+    },
+    {
+      "title": "Voici pourquoi c'est une mauvaise idée de mettre son plat au milieu du micro-ondes",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/voici-pourquoi-cest-une-mauvaise-idee-de-mettre-son-plat-au-milieu-du-micro-ondes-953128",
+      "pubDate": "Mon, 16 Mar 2026 18:44:52 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Assiette brûlante sur le bord, centre encore froid : le problème ne vient pas de votre recette. Tout se joue à l’endroit précis où vous posez votre plat."
+    },
+    {
+      "title": "Cancer colorectal : voici les 4 familles d'aliments à privilégier selon une diététicienne pour protéger votre côlon",
+      "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/cancer-colorectal/cancer-colorectal-voici-les-4-familles-daliments-a-privilegier-selon-une-dieteticienne-pour-proteger-votre-colon-743091.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 18:30:28 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Troisième cancer le plus fréquent chez l’homme, le cancer colorectal fait peur.  Mais bonne nouvelle : l’alimentation et l’hygiène de vie jouent un rôle majeur dans la prévention. Focus sur quatre gro"
+    },
+    {
+      "title": "“C’est parti” : après Complément d’enquête, Patrick Sébastien lance son nouveau projet",
+      "link": "https://www.closermag.fr/people/cest-parti-apres-complement-denquete-patrick-sebastien-lance-son-nouveau-projet-3624213",
+      "pubDate": "Mon, 16 Mar 2026 18:30:20 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Écarté de France 2 et toujours en conflit avec la chaîne publique, Patrick Sébastien semble vouloir tourner la page. L’ancien animateur du Plus grand cabaret du monde a annoncé un nouveau projet : la "
+    },
+    {
+      "title": "La banane fait-elle grossir ou aide-t-elle à perdre du poids ? Claire Trommenschlager, diététicienne, tranche la question",
+      "link": "https://www.doctissimo.fr/nutrition/fruits-et-legumes/la-banane-fait-elle-grossir-ou-aide-t-elle-a-perdre-du-poids-claire-trommenschlager-dieteticienne-tranche-la-question-743062.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 18:15:05 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Plus riche en glucides que les autres fruits, la banane traîne souvent une réputation d’aliment qui ferait grossir. À tort ou à raison ? Une diététicienne nutritionniste fait le point."
+    },
+    {
+      "title": "Michelin 2026 : qui a décroché 3 étoiles ? Retrouvez le palmarès complet du célèbre guide gastronomique - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOcmpKZlZXRlk0eFBZVWdMVFI3UHRuY3oza2NxYXdlalZpbHRTNmptQ2ZCTG5KVzhVWTF5c211SEswQ3Jjdm5NdXowXzZ5dkVTQnYxQUd0ajFCUkw2TEVvN0tieVZ0U2xpNllmeWpuc3h4X2ZOYndOVjlzVm9GLWVFa2djZWxoSUFTN0UxZkdnb01ibVNVaTk1UURHUUVaOWpxcllZZXpKRU43RTRUMC1jcnBJaUl4NWVIWm5KU0hLbURSOXN4U1lBVWVQdXN1S1V3cHlYRkYyYjR5T1M5amNXdURIc3hqSTNJSzBWLTl3?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 18:11:55 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Michelin 2026 : qui a décroché 3 étoiles ? Retrouvez le palmarès complet du célèbre guide gastronomique  Femme Actuelle"
+    },
+    {
+      "title": "La Bourse de Paris respire grâce au répit sur le marché pétrolier - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSHMxYlZqVFlZWDFVckk4M2JCQkxnY3hMcnZMT2M4dnhWdmd1WFNiWlZzZGkweUVCOF8zWEg0WVZnWGhFMEFucFVtbkhTLWdwUE5fSFJrUmpucW1TMjduaXBfSFhRT1N5SzNfTW1Bc3RZWnR0cnptRzZqQ3RKcExIYXdXNVNsaGtfdU9WRFdyeTVIVnk3ZFhCOGZhUDdCWXgxVXJZVjBJQWhaMkRJ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 18:06:17 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "La Bourse de Paris respire grâce au répit sur le marché pétrolier  Notre Temps"
+    },
+    {
       "title": "Les personnes qui marchent souvent en regardant le sol partagent ces 3 traits de personnalité, selon la psychologie",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-marchent-souvent-regardant-sol-traits-personnalite-selon-psychologie-587706?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 18:02:58 +0000",
@@ -2332,18 +2444,6 @@
       "snippet": "Sur TikTok, la dermatologue américaine Neera Nathan met en garde contre le gel et la cire à sourcils, accusés de faire tomber les poils. Que révèlent vraiment ces gestes anodins sur la santé de vos so"
     },
     {
-      "title": "\"Je n'ai plus besoin de plaire au monde entier\" : Adriana Karembeu nous révèle comment elle s'est reconstruite après une \"enfance compliquée\"",
-      "link": "https://www.topsante.com/couple_et_sexualite/vie_amoureuse/je-nai-plus-besoin-de-plaire-au-monde-entier-adriana-karembeu-nous-revele-comment-elle-sest-reconstruite-apres-une-enfance-compliquee-953042",
-      "pubDate": "Mon, 16 Mar 2026 16:15:41 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Nous avons rencontré Adriana Karembeu après la parution de son livre, \"Je t'aime parce que je t'aime et voilà tout\" (éd. Leduc). L'ancienne mannequin y livre une enquête sur l'amour dans toutes ses fo"
-    },
-    {
       "title": "\"Vegan + bacon\" : cette philosophie venue de TikTok pourrait transformer votre quotidien",
       "link": "https://www.psychologies.com/actualites/societe/Vegan-bacon-la-tendance-tiktok-pour-en-finir-avec-la-procrastination-624937?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 16:01:48 +0000",
@@ -2353,17 +2453,6 @@
         "aufeminin.com"
       ],
       "snippet": "Et si viser la perfection nous empêchait d’agir ? Sur TikTok, la tendance “vegan + bacon” propose une approche plus souple : changer progressivement, sans attendre d’être irréprochable."
-    },
-    {
-      "title": "Enceinte, elle surprend son mari infidèle et nomme leur fils d'après son premier amour disparu : il est furieux",
-      "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/infidelite/enceinte-elle-surprend-son-mari-infidele-et-nomme-leur-fils-dapres-son-premier-amour-disparu-il-est-furieux-743095.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 16:00:08 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Choisir le prénom de son enfant est un acte important pour tout parent. Mais quand la trahison s'invite au cœur de la grossesse, ce choix peut devenir un acte de résilience, voire de rupture définitiv"
     },
     {
       "title": "Julie Pietri \"jamais rappelée\" pour la tournée Stars 80, elle balance sur la production",
@@ -2377,18 +2466,6 @@
       "snippet": "Chanteuse culte des années 80 grâce au tube Eve lève-toi, Julie Pietri s’est confiée au Parisien sur son absence de la prochaine tournée."
     },
     {
-      "title": "Radis : ce petit légume croquant cache des bienfaits insoupçonnés pour votre foie et votre système immunitaire",
-      "link": "https://www.topsante.com/nutrition_et_recettes/radis-ce-petit-legume-croquant-cache-des-bienfaits-insoupconnes-pour-votre-foie-et-votre-systeme-immunitaire-953090",
-      "pubDate": "Mon, 16 Mar 2026 15:49:37 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Petit invité discret de l'apéro, le radis cache un profil nutritionnel étonnant pour votre foie et votre système immunitaire. Jusqu'où peut-il vraiment aider votre organisme ?"
-    },
-    {
       "title": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0JnWmJzX3ZJVlNJWW56N1pfaHhSdExyNzQ0MzRCZVROemR5ZUFtLUlaODBnajN3YWY4YUNjZTFxT3JoRjBRaXB2aXBkSmJLTDRiVFJvd1pWeEpzbHV5S0hQTkRhWWtDVzlTNzNnX24tNVhISDUyVFlTZE4ybzBUeU1IbHVfUjhYUkhRdHNKTDFQRVlZQlB4VTVpd2Vid0MzREF4MndXcjZZLUJrRERTUEpR?oc=5",
       "pubDate": "Mon, 16 Mar 2026 15:48:30 GMT",
@@ -2398,17 +2475,6 @@
         "aufeminin.com"
       ],
       "snippet": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps  Cosmopolitan.fr"
-    },
-    {
-      "title": "Infarctus et AVC : les experts américains recommandent désormais de traiter le cholestérol dès l’âge de 30 ans",
-      "link": "https://www.doctissimo.fr/sante/cholesterol/cholesterol-et-maladies-cardiovasculaires/infarctus-et-avc-les-experts-americains-recommandent-desormais-de-traiter-le-cholesterol-des-lage-de-30-ans-742821.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 15:36:44 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Aux États-Unis, de nouvelles recommandations de deux sociétés savantes revoient l'importance de la surveillance et de la réduction du cholestérol dès 30 ans. Pourquoi ces seuils inédits pourraient-ils"
     },
     {
       "title": "\"J'ai un projet en cours...\" : après La Chronique des Bridgerton, Julia Quinn parle déjà de son prochain projet littéraire - Cosmopolitan.fr",
@@ -2433,17 +2499,6 @@
       "snippet": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme  Femme Actuelle"
     },
     {
-      "title": "Aux Oscars, Sarah Pidgeon porte la robe Calvin Klein que Carolyn Bessette aurait adorée - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbWZwT1lKLUJkMmZ0cElfdi1UTG90ZmtOS2szRGdXdl9Va0NRMkQ0b25pLWx2dHh2ZnF5azVFVTVUaEFBTUM1Q0ZOZlpJVlFrNE9XVmlybzB5eDAta09hM2dpd0tKS2JPUng0dVhWTDRIb1h2Z0FZcUlOaU9oSy1CLVkxZ1dqRS1Rb0c3T2lhOEI3MTdCWV9Jb2QxNG1CZnkxNG5Xc3ZxTS05VGprcVN6TkVqaUYyeVpZeVJsZ2kzRG43VHlfX2J1TzBfSzhQb1NnMjRlZFdQeEFnNUtxNGZTQUNNazRlMGdXSTVWMQ?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 15:27:55 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Aux Oscars, Sarah Pidgeon porte la robe Calvin Klein que Carolyn Bessette aurait adorée  Cosmopolitan.fr"
-    },
-    {
       "title": "Prix des carburants: le patron d'Intermarché appelle l'État à \"réduire sa marge\" - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT1ZPVTJ5YWZFU05uSGMwNTNHMDhZbW1JRkFwMDJJSTlkVm1VZEZaNjZPVk5scTRDOGlFMkx5VUUzdXRLUS1rRGxZa2JWUGlHaUhDNGJGc0FPX2N0bTJjUE4waHJLYi1QSDE4YzY2WEFIdm1uVDcwcHZhMXEzb2Vva0ViX3hYMVNmOF9rRVVLUjBzTUFpeC10eEVmQlo2RnhoMmp1Q05yS240Uzl0bW44TXIwMk04ZF81UXpnag?oc=5",
       "pubDate": "Mon, 16 Mar 2026 15:21:11 GMT",
@@ -2464,28 +2519,6 @@
         "mariefrance.fr"
       ],
       "snippet": "\"Il s'est marié il n'y a pas très longtemps\" : Bruno Salomone s'est uni avec sa compagne de longue date peu avant son décès  Femme Actuelle"
-    },
-    {
-      "title": "Soldats français blessés en Irak : les secrets de leur rapatriement express dévoilés par un ancien médecin militaire",
-      "link": "https://www.doctissimo.fr/sante/lessentiel-de-la-sante/urgences-et-premiers-secours/soldats-francais-blesses-en-irak-les-secrets-de-leur-rapatriement-express-devoiles-par-un-ancien-medecin-militaire-742862.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 15:15:01 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Samedi, six soldats français blessés par une frappe de drone ont été évacués en urgence vers la France. Mais comment se déroule leur prise en charge médicale ? Un ancien médecin militaire nous dévoile"
-    },
-    {
-      "title": "Mediapart dans le vert pour la quinzième année d'affilée - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNS00NEtmczNhMlBwSUp3a3Y3R3M0RjgtVnlaLWNKcGp1ZU10UzNYcEZpTWg2UWJLbWZUeGdhdzIyVHhvYkFkVk9DUlpZMGJ2TzMxNlRJbU80TDZMU2ZUNWZsUENtZGVLMzdhOHZfd1lZR0ExcFVzbnM4MUtnODZ6Sy04WnV1c0lCcFNMWWtvN0xPZkxXY0dwOWZKTTVKZnN6?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 15:06:17 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mediapart dans le vert pour la quinzième année d'affilée  Notre Temps"
     },
     {
       "title": "Une étude révèle les 3 métiers qui rendent vraiment heureux",
@@ -2543,17 +2576,6 @@
       "snippet": "Et si la clé d’une journée plus légère tenait simplement dans quelques minutes que l’on s’accorde vraiment ?"
     },
     {
-      "title": "Mort de Bruno Salomone : ce rôle surprenant dont il rêvait secrètement",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-ce-role-surprenant-dont-il-revait-secretement-3624192",
-      "pubDate": "Mon, 16 Mar 2026 13:45:55 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Ce 15 mars 2026, Bruno Salomone est décédé des suites d’un cancer, à seulement 55 ans. Invité dans Télématin en février 2025, il avait fait des confidences sur ce rôle qu’il aurait rêvé incarner."
-    },
-    {
       "title": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTDluLTg3TFdoZzViX1ZUbFB4WWYycHM3ZXVTbG5TeWM5XzVwXzBKSDcxOUNpbFpfMUhjUDVtdjhPV0ZYWkdUZTZVNHJoOGprX3RWdjN6UGJzUGl6T1pRUEpmNjRSVUw4UEFEdlE2NWgzSlV6MnE3MFNnSzUxLU1ib2RHeEN4N1NGYVpfMUR6T2pKUTFsS1VkQk42cjF1U2NaeC1kWUp5VnN5QVpwNlhZbmswM0lpbDNzSGRSWQ?oc=5",
       "pubDate": "Mon, 16 Mar 2026 13:22:44 GMT",
@@ -2586,17 +2608,6 @@
         "aufeminin.com"
       ],
       "snippet": "Ce retour en mémoire n’est jamais anodin : notre cerveau tente souvent de nous transmettre un message émotionnel profond."
-    },
-    {
-      "title": "Selon la psychologie, ces 8 phrases trahissent à coup sûr une personne égocentrique",
-      "link": "https://www.psychologies.com/moi/se-connaitre/comportement/psychologie-phrases-trahissent-coup-sur-personnes-egocentriques-57837?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 12:05:24 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Les personnes égocentriques ont une tendance marquée à ramener les conversations à elles-mêmes. Voici les phrases typiques."
     },
     {
       "title": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ? - Femme Actuelle",
@@ -2867,17 +2878,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ?  Linternaute.com"
-    },
-    {
-      "title": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRW92dVFKZVZ4c2YwUmoxTk5yZnF1WEx0NENhaUkxRV93MFFocGlDbWJFdWhIV3RLT1VzTV9WaEVSQ2pHZEpXTmwtNVdlMXYzUlJkYVBpOXlzeERDZm1MZnY0WXJIOFNEaW1zaXBmRHdxQUVhSTNRNndyeTF5clltbnc3WFZxWU1oa1c0VDBubGQtREp4ZW1RSGdLcHg0VmQzdlR0ZWtrcmVGa3diRFgwN1dRYlJoRlhRa3dGdUZKcV9fQmF5NlRiZkZxdHhYZzZIcHFKM3dtckVrUy1CY0E?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 20:56:25 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
     },
     {
       "title": "Selon la science, voici l’heure précise à laquelle vous devriez arrêter de manger pour protéger votre cœur et votre sommeil !",
