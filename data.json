@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T20:47:04.304Z",
+  "updatedAt": "2026-03-16T20:56:32.541Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "14.3%",
+    "cpu": "10%",
     "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T20:47:04.304Z",
+      "ts": "2026-03-16T20:56:32.541Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,18 @@
   ],
   "competitorArticles": [
     {
+      "title": "\"Je suis gastro-entérologue et voici 3 boissons que je consomme quotidiennement pour ma santé intestinale et du foie\"",
+      "link": "https://www.topsante.com/nutrition_et_recettes/je-suis-gastro-enterologue-et-voici-3-boissons-que-je-consomme-quotidiennement-pour-ma-sante-intestinale-et-du-foie-953134",
+      "pubDate": "Mon, 16 Mar 2026 20:46:46 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Chaque jour, le gastro-entérologue Saurabh Sethi mise sur trois boissons très simples pour ménager intestin et foie. Comment les place-t-il dans sa routine sans bouleverser son alimentation ?"
+    },
+    {
       "title": "Mariés au premier regard : Mathieu papa poule, ses adorables clichés avec sa fille Enéa",
       "link": "https://www.closermag.fr/tv_tele_realite/maries-au-premier-regard-mathieu-papa-poule-ses-adorables-cliches-avec-sa-fille-enea-3623139",
       "pubDate": "Mon, 16 Mar 2026 20:30:29 +0000",
@@ -2453,18 +2465,6 @@
       "snippet": "En France, nous buvons chaque jour sans vraiment savoir quelle eau expose le moins notre corps aux microplastiques. Enquêtant sur robinet et bouteilles, 60 Millions de consommateurs remet en cause bie"
     },
     {
-      "title": "Vous avez mal au genou ? Une experte dévoile 3 tests simples à réaliser à la maison pour savoir comment calmer la douleur",
-      "link": "https://www.topsante.com/medecine/vous-avez-mal-au-genou-une-experte-devoile-3-tests-simples-a-realiser-a-la-maison-pour-identifier-dou-vient-votre-douleur-et-comment-la-calmer-953029",
-      "pubDate": "Mon, 16 Mar 2026 17:00:50 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Vous avez les genoux sensibles ? Dans son ouvrage \"Ne massacrez plus vos articulations\", le Dr Marie Perez Siscar, ancienne urgentiste, dévoile trois tests à effectuer de la maison et des exercices si"
-    },
-    {
       "title": "Epilation à lumière pulsée : l'épilateur Braun Silk-expert Pro 5 bénéficie d'une réduction de 41 % (à saisir avant ce soir !)",
       "link": "https://www.closermag.fr/shopping/epilation-a-lumiere-pulsee-lepilateur-braun-silk-expert-pro-5-beneficie-dune-reduction-de-41-a-saisir-avant-ce-soir-3624048",
       "pubDate": "Mon, 16 Mar 2026 17:00:09 +0000",
@@ -2598,6 +2598,18 @@
       "snippet": "Et si la clé d’une journée plus légère tenait simplement dans quelques minutes que l’on s’accorde vraiment ?"
     },
     {
+      "title": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWVNRUTFoRTFMRTNmYndwVnFJcmJ6NzVUZWMzQVhiR1hiNU11cnhzNTlHVUxvWGxPOVJHM2tONjN6bTAybWplejBCYkJzY1VVTnUteFRLQk05YU5mdEtpcWctT3dJQlIyajB6UHg3Q3RSdzVGMlI1U2RNaUtuREx0VlNWQ3VUUmhOcHFUcGR4UGgzVjBMUTNRaEhSeXdyMFFOdUhUSUJyZF9odXFRakFYa0dOV1liREhyVFRmNFZGbnN5VThOakFfTExUWjlsZFU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 13:38:04 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
+    },
+    {
       "title": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTDluLTg3TFdoZzViX1ZUbFB4WWYycHM3ZXVTbG5TeWM5XzVwXzBKSDcxOUNpbFpfMUhjUDVtdjhPV0ZYWkdUZTZVNHJoOGprX3RWdjN6UGJzUGl6T1pRUEpmNjRSVUw4UEFEdlE2NWgzSlV6MnE3MFNnSzUxLU1ib2RHeEN4N1NGYVpfMUR6T2pKUTFsS1VkQk42cjF1U2NaeC1kWUp5VnN5QVpwNlhZbmswM0lpbDNzSGRSWQ?oc=5",
       "pubDate": "Mon, 16 Mar 2026 13:22:44 GMT",
@@ -2652,18 +2664,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
-    },
-    {
-      "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdrT0lPdXRqUHZGNm5nc21jb2FuR3JUYmdGbzhVaGJaaWs1UWJ1bjZoMFRSVlZiekp4aTRoaU1uaVUxZm5kNksyQnZ2UDZjb3VFNE5zWVlibDk2eEJiU1JTUmV0c3RSUHhRVDFGM3pnQmlFVks4SkNRQV9tc1ZYLXoxdXBoZms?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 10:50:42 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Catch du vendredi 27 mars 2026  Linternaute.com"
     },
     {
       "title": "Résultats page [29] : Printemps - ELLE",
