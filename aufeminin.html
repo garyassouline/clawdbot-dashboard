@@ -83,24 +83,24 @@
 
   <div class="bento-grid">
     <div class="bento-card">
-      <div class="label">Discover Trust Score</div>
-      <div class="value" id="trust-score">--/10</div>
-      <div class="trend up">▲ 0.2 (E-E-A-T Signal)</div>
+      <div class="label">CA Estimé (Daily)</div>
+      <div class="value" id="val-revenue" style="color:var(--google-green)">--€</div>
+      <div class="trend up">▲ Basé sur 7.65 RPM</div>
     </div>
     <div class="bento-card">
       <div class="label">CTR Efficiency Index</div>
       <div class="value" id="ctr-index">--%</div>
-      <div class="trend up">▲ 1.4% (vs Group Avg)</div>
+      <div class="trend up">▲ vs Group Avg</div>
     </div>
     <div class="bento-card">
       <div class="label">Content Decay Rate</div>
       <div class="value" id="decay-rate">--h</div>
-      <div class="trend down">▼ 2h (Visibility loss)</div>
+      <div class="trend down">▼ Visibility status</div>
     </div>
     <div class="bento-card" id="kpi-concentration">
       <div class="label">Discover Dependence</div>
       <div class="value" id="dependence">--%</div>
-      <div class="trend down" style="color:var(--google-red)">● High Risk (Top 10 Heavy)</div>
+      <div class="trend down" style="color:var(--google-red)">● Concentration Risk</div>
     </div>
   </div>
 
@@ -121,8 +121,8 @@
               <th>Article Performance</th>
               <th>Impressions</th>
               <th>CTR</th>
+              <th>CA Est.</th>
               <th>Hook Style</th>
-              <th>EEAT</th>
             </tr>
           </thead>
           <tbody id="champions-body">
@@ -165,7 +165,7 @@
         // KPIs
         document.getElementById('ctr-index').textContent = d.kpis.avgCtr;
         document.getElementById('dependence').textContent = d.kpis.concentration;
-        document.getElementById('trust-score').innerHTML = `${d.kpis.trustScore.split('/')[0]}<span style="font-size:0.9rem; color:var(--text-muted)">/10</span>`;
+        document.getElementById('val-revenue').textContent = d.kpis.revenue;
         document.getElementById('decay-rate').textContent = d.kpis.lifespan;
         
         if (parseFloat(d.kpis.concentration) > 80) {
@@ -182,8 +182,8 @@
             </td>
             <td><strong>${c.impressions.toLocaleString()}</strong></td>
             <td><span class="score-pill" style="background:rgba(52,168,83,0.1); color:var(--google-green)">${c.ctr}</span></td>
+            <td><span style="font-weight:600; color:var(--google-green)">${c.revenue}</span></td>
             <td><span class="badge-google">${c.hook}</span></td>
-            <td><span class="badge-google">${c.eeat}</span></td>
           </tr>
         `).join('');
 
