@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T20:24:01.635Z",
+  "updatedAt": "2026-03-16T20:32:40.310Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "14.3%",
+    "cpu": "10%",
     "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T20:24:01.634Z",
+      "ts": "2026-03-16T20:32:40.310Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,28 @@
   ],
   "competitorArticles": [
     {
+      "title": "Mariés au premier regard : Mathieu papa poule, ses adorables clichés avec sa fille Enéa",
+      "link": "https://www.closermag.fr/tv_tele_realite/maries-au-premier-regard-mathieu-papa-poule-ses-adorables-cliches-avec-sa-fille-enea-3623139",
+      "pubDate": "Mon, 16 Mar 2026 20:30:29 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Candidat de la saison 10 de Mariés au premier regard, Mathieu est papa d'une petite fille prénommée Enéa. Sur Instagram, il partage avec bonheur leurs moments de complicité."
+    },
+    {
+      "title": "Sommeil : découvrez les 3 plantes recommandées par le Dr Laure Martinat pour enfin mieux dormir",
+      "link": "https://www.doctissimo.fr/psychologie/problemes-psy/sommeil/comment-mieux-dormir/sommeil-decouvrez-les-3-plantes-recommandees-par-le-dr-laure-martinat-pour-enfin-mieux-dormir-743058.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 20:30:19 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Difficultés à s'endormir, réveils nocturnes ou nuits trop courtes : le sommeil des Français n'a jamais été aussi fragile. Si les solutions naturelles abondent, toutes ne se valent pas. Le Dr Laure Mar"
+    },
+    {
       "title": "“Il lui a demandé…” : Bruno Salomone marié sur son lit d’hôpital, Guillaume de Tonquédec raconte la scène poignante",
       "link": "https://www.closermag.fr/people/il-lui-a-demande-bruno-salomone-marie-sur-son-lit-dhopital-guillaume-de-tonquedec-raconte-la-scene-poignante-3624242",
       "pubDate": "Mon, 16 Mar 2026 20:10:13 +0000",
@@ -2443,17 +2465,6 @@
       "snippet": "Vous avez les genoux sensibles ? Dans son ouvrage \"Ne massacrez plus vos articulations\", le Dr Marie Perez Siscar, ancienne urgentiste, dévoile trois tests à effectuer de la maison et des exercices si"
     },
     {
-      "title": "La charcuterie \"sans nitrites\" est-elle vraiment meilleure ? Une diététicienne rétablit la vérité",
-      "link": "https://www.doctissimo.fr/nutrition/aliments-et-boissons/viandes-et-charcuterie/la-charcuterie-sans-nitrites-est-elle-vraiment-meilleure-une-dieteticienne-retablit-la-verite-743059.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 17:00:10 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Face aux inquiétudes (justifiées) des consommateurs Français sur ces composés, les produits \"sans nitrites\" se multiplient. Mais que contiennent-ils vraiment et sont-ils vraiment meilleurs pour notre "
-    },
-    {
       "title": "Epilation à lumière pulsée : l'épilateur Braun Silk-expert Pro 5 bénéficie d'une réduction de 41 % (à saisir avant ce soir !)",
       "link": "https://www.closermag.fr/shopping/epilation-a-lumiere-pulsee-lepilateur-braun-silk-expert-pro-5-beneficie-dune-reduction-de-41-a-saisir-avant-ce-soir-3624048",
       "pubDate": "Mon, 16 Mar 2026 17:00:09 +0000",
@@ -2530,17 +2541,6 @@
         "mariefrance.fr"
       ],
       "snippet": "En prenant la parole pour défendre les victimes de violences, la reine Camilla a prononcé un discours particulièrement fort. Mais derrière ses mots, certains y voient aussi une référence implicite au "
-    },
-    {
-      "title": "Donald Trump veut changer les colonnes de la Maison Blanche, les architectes ne comptent pas le laisser faire cette fois",
-      "link": "https://www.closermag.fr/people/donald-trump-veut-changer-les-colonnes-de-la-maison-blanche-les-architectes-ne-comptent-pas-le-laisser-faire-cette-fois-3624227",
-      "pubDate": "Mon, 16 Mar 2026 16:20:11 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Après avoir lancé des travaux dans la salle de bal de la Maison Blanche, Donald Trump veut remplacer les colonnes emblématiques qui encadrent la résidence. Mais des architectes s’opposent à ce projet."
     },
     {
       "title": "\"Vegan + bacon\" : cette philosophie venue de TikTok pourrait transformer votre quotidien",
