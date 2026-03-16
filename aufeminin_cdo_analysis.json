@@ -1,44 +1,118 @@
 {
-  "updatedAt": "2026-03-16T21:06:44.183Z",
+  "updatedAt": "2026-03-16T21:26:22.192Z",
   "kpis": {
     "concentration": "84.5%",
-    "lifespan": "18h",
+    "lifespan": "16.4h",
     "avgCtr": "9.36%",
-    "gapIndex": 0
+    "gapIndex": 3,
+    "trustScore": "8.4/10"
   },
   "champions": [
     {
       "url": "https://www.aufeminin.com/voyage/oubliez-la-baie-de-somme-cette-destination-de-bord-de-mer-francaise-est-ideale-pour-paques-top-chef-y-a-meme-installe-ses-cuisines-2709237.html",
       "clicks": 5431,
       "impressions": 59428,
-      "ctr": "9.14%"
+      "ctr": "9.14%",
+      "burnout": "24h",
+      "hook": "Informatif",
+      "eeat": "Haute"
     },
     {
       "url": "https://www.aufeminin.com/news/rappel-conso-cette-charcuterie-cuite-vendue-chez-carrefour-et-intermarche-en-france-presente-un-risque-de-listeriose-2708199.html",
       "clicks": 4780,
       "impressions": 34341,
-      "ctr": "13.92%"
+      "ctr": "13.92%",
+      "burnout": "48h",
+      "hook": "Informatif",
+      "eeat": "Haute"
     },
     {
       "url": "https://www.aufeminin.com/petites-mains-diy-do-it-yourself/terrasse-verte-et-glissante-apres-lhiver-cet-ingredient-a-30-centimes-enleve-mousse-et-algues-en-1-h-sans-frotter-2707255.html",
       "clicks": 2023,
       "impressions": 10889,
-      "ctr": "18.58%"
+      "ctr": "18.58%",
+      "burnout": "48h",
+      "hook": "Informatif",
+      "eeat": "Haute"
     },
     {
       "url": "https://www.aufeminin.com/sports-femme/sport-apres-60-ans-la-methode-run-walk-est-la-plus-efficace-pour-rester-en-bonne-sante-selon-une-coach-s4109618.html",
       "clicks": 1904,
       "impressions": 35346,
-      "ctr": "5.39%"
+      "ctr": "5.39%",
+      "burnout": "12h",
+      "hook": "Informatif",
+      "eeat": "Standard"
     },
     {
       "url": "https://www.aufeminin.com/sports-femme/v-ups-l-exercice-le-plus-efficace-pour-perdre-du-ventre-selon-une-coach-sportive-il-fait-fondre-la-graisse-s4109387.html",
       "clicks": 1864,
       "impressions": 33862,
-      "ctr": "5.50%"
+      "ctr": "5.50%",
+      "burnout": "12h",
+      "hook": "Informatif",
+      "eeat": "Standard"
+    },
+    {
+      "url": "https://www.aufeminin.com/beaute/peau-20-plus-ferme-et-repulpee-cette-creme-au-collagene-elue-meilleur-produit-pharma-2026-rajeunit-visiblement-le-visage-2709790.html",
+      "clicks": 1349,
+      "impressions": 19569,
+      "ctr": "6.89%",
+      "burnout": "12h",
+      "hook": "Informatif",
+      "eeat": "Standard"
+    },
+    {
+      "url": "https://www.aufeminin.com/maman/enfant/ils-sen-sortent-toujours-mieux-pourquoi-les-eleves-riches-en-echec-scolaire-reussissent-plus-que-que-les-eleves-brillants-mais-pauvres-2709715.html",
+      "clicks": 982,
+      "impressions": 5790,
+      "ctr": "16.96%",
+      "burnout": "48h",
+      "hook": "Curiosité",
+      "eeat": "Haute"
+    },
+    {
+      "url": "https://www.aufeminin.com/psycho/linge-sur-chaise-11-signes-intelligence-2707508.html",
+      "clicks": 920,
+      "impressions": 6720,
+      "ctr": "13.69%",
+      "burnout": "48h",
+      "hook": "Informatif",
+      "eeat": "Haute"
+    },
+    {
+      "url": "https://www.aufeminin.com/deco/jardins/pelouse-attention-cette-erreur-courante-lors-de-la-premiere-tonte-en-mars-etouffe-votre-gazon-sous-la-mousse-2709011.html",
+      "clicks": 874,
+      "impressions": 8148,
+      "ctr": "10.73%",
+      "burnout": "24h",
+      "hook": "Informatif",
+      "eeat": "Haute"
+    },
+    {
+      "url": "https://www.aufeminin.com/astro/ce-13-mars-2026-4-signes-du-zodiaque-recoivent-une-benediction-de-lunivers-qui-peut-tout-changer-2709946.html",
+      "clicks": 838,
+      "impressions": 3197,
+      "ctr": "26.21%",
+      "burnout": "48h",
+      "hook": "Informatif",
+      "eeat": "Haute"
     }
   ],
-  "gaps": [],
+  "gaps": [
+    {
+      "topic": "Retraite Mères 2026",
+      "reason": "Angle Aide Sociale ultra-porteur"
+    },
+    {
+      "topic": "Rappel Cristaline",
+      "reason": "Urgence Santé non traitée"
+    },
+    {
+      "topic": "Astro : Vénus en Bélier",
+      "reason": "Verticale à fort CTR"
+    }
+  ],
   "timeSeries": [
     {
       "date": "2026-03-10",
@@ -66,6 +140,36 @@
     }
   ],
   "competitorIntelligence": [
+    {
+      "title": "Yannick Noah dans Mariés au premier regard ? Sa “très jolie relation” avec une candidate révélée",
+      "source": "closermag.fr",
+      "link": "https://www.closermag.fr/people/yannick-noah-dans-maries-au-premier-regard-sa-tres-jolie-relation-avec-une-candidate-revelee-3624245",
+      "potential": "60%"
+    },
+    {
+      "title": "Inspirée de l’échangisme, cette pratique séduit de plus en plus les couples en quête de nouvelles sensations",
+      "source": "psychologies.com",
+      "link": "https://www.psychologies.com/Couple/Sexualite/Inspiree-echangisme-pratique-seduit-couples-quete-sensations-563596?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "potential": "50%"
+    },
+    {
+      "title": "Utiliser l'huile de coco comme lubrifiant ? Le Dr Samuel Salama explique pourquoi c'est une fausse bonne idée",
+      "source": "doctissimo.fr",
+      "link": "https://www.doctissimo.fr/sexualite/sexualite-feminine/utiliser-lhuile-de-coco-comme-lubrifiant-le-dr-samuel-salama-explique-pourquoi-cest-une-fausse-bonne-idee-742877.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "potential": "75%"
+    },
+    {
+      "title": "Un nouvel outil d’IA capable de prescrire un traitement antidépresseur sur mesure (et plus efficace)",
+      "source": "topsante.com",
+      "link": "https://www.topsante.com/medecine/sante_mentale/depression/un-nouvel-outil-dia-capable-de-prescrire-un-traitement-antidepresseur-sur-mesure-et-plus-efficace-952922",
+      "potential": "50%"
+    },
+    {
+      "title": "Municipales 2026 : un maire sortant retrouvé mort, les résultats en cause ?",
+      "source": "closermag.fr",
+      "link": "https://www.closermag.fr/actualites/municipales-2026-un-maire-sortant-retrouve-mort-les-resultats-en-cause-3624218",
+      "potential": "60%"
+    },
     {
       "title": "\"Je suis gastro-entérologue et voici 3 boissons que je consomme quotidiennement pour ma santé intestinale et du foie\"",
       "source": "topsante.com",
@@ -95,25 +199,7 @@
       "source": "cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNanhibGZscVVpamdzbVloREdONEl6RWowMGJiSkNYT29aWmVKNGRFb1lhc1U5cUdQMDNxNUZucjgzSEpRQnp3X3ZZNElFUXJNTkxodHE2S1BTS2pIZjM5SUdENlVxeGxIc0VUXzRTZmNrOGpnYWVocVhSMzVJcGlQaG9GWWl2ZVAwcTNGTmtqUDFrZmlRWk90dE8zSl9kNjU0QW1EUFNRRDlGY0tWa2JoaElRclVjZkpSUXJfNjk5UTgzTU9GUWVZdi1BTi1XRHBBVnQyU1hpNDJMaGhqVnI2MGxFa3NHQnJiTVUwSXhfLUg?oc=5",
       "potential": "60%"
-    },
-    {
-      "title": "\"C'était sans doute la pire semaine\" : Ed Sheeran revient sur le cancer de sa femme, Cherry Seaborn - Cosmopolitan.fr",
-      "source": "cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcnd4em5uQ0ZMeGVnMll2X1Jrb29FVlhUa3dOYl9tbWUwLXN6VzZYNjQwdmFvNmVPZlpxMEhlT3VQSDZHUHJxWUVlZ0laaGF3TndtU1FOeExodjFjel9WQ0g4RUliRzNqX3pzNWhzUVQ3Nk91Rk5XWW1kZFpBWDZKN2tKSjdyRWY3ck5Bd1Z0R01lY19UUS1NQW55R0NVc2sxbF9GZkRNZXJybjY5RVBUaWZNR3ZtUnY4U0l2ZjF1UkFxTEZNMU8yeFAzZXNmTHc?oc=5",
-      "potential": "50%"
-    },
-    {
-      "title": "“Je vais être franc avec toi...” : 3 signes discrets qu’un ami est jaloux de vous, selon les psys",
-      "source": "psychologies.com",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/3-signes-discrets-ami-jaloux-psys-625007?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "potential": "50%"
-    },
-    {
-      "title": "\"Je pensais qu'on allait me retirer des hémorroïdes, et les médecins m'ont annoncé un cancer\"",
-      "source": "topsante.com",
-      "link": "https://www.topsante.com/medecine/cancers/cancer_colorectal/je-pensais-quon-allait-me-retirer-des-hemorroides-et-les-medecins-mont-annonce-un-cancer-952920",
-      "potential": "50%"
     }
   ],
-  "reco": "🚨 Alerte Dépendance : Ton trafic repose sur trop peu d'articles. Diversifie les angles !"
+  "reco": "🚨 ALERTE : Ta dépendance au Top 10 est critique (84.5%). Lance immédiatement 3 articles sur les 'Gaps' identifiés pour ventiler ton trafic."
 }

@@ -221,13 +221,61 @@
             compList.innerHTML = '<div style="font-size:0.8rem; color:var(--text-muted)">Aucune donnée concurrente récente.</div>';
         }
 
+        // Inject KPIs
+        document.getElementById('ctr-index').textContent = d.kpis.avgCtr;
+        document.getElementById('dependence').textContent = d.kpis.concentration;
+        document.getElementById('trust-score').innerHTML = `${d.kpis.trustScore.split('/')[0]}<span style="font-size:0.9rem; color:var(--text-muted)">/10</span>`;
+        document.getElementById('decay-rate').textContent = d.kpis.lifespan;
+
+        // Inject Champions
+        const tbody = document.getElementById('champions-body');
+        tbody.innerHTML = d.champions.map(c => `
+          <tr>
+            <td>
+              <div class="url-cell" title="${c.url}">${c.url.split('/').pop()}</div>
+              <div style="font-size:0.7rem; color:var(--text-muted)">Burnout dans: <strong>${c.burnout}</strong></div>
+            </td>
+            <td><strong>${c.impressions.toLocaleString()}</strong></td>
+            <td><span class="score-pill" style="background:rgba(52,168,83,0.1); color:var(--google-green)">${c.ctr}</span></td>
+            <td><span class="badge-google">${c.hook}</span></td>
+            <td><span class="badge-google">${c.eeat}</span></td>
+          </tr>
+        `).join('');
+
+        // Inject AI Reco
+        const recoBox = document.getElementById('ai-reco-box');
+        recoBox.innerHTML = `
+          <div class="insight-box" style="border-left-color: ${parseFloat(d.kpis.concentration) > 80 ? 'var(--google-red)' : 'var(--google-blue)'}">
+            <div class="insight-header">🎯 Strategic Recommendation</div>
+            <div style="font-size:0.85rem">${d.reco}</div>
+          </div>
+        `;
+
+        // Inject Competitor Intelligence
+        const compList = document.getElementById('competitor-list');
+        if (d.competitorIntelligence && d.competitorIntelligence.length) {
+            compList.innerHTML = d.competitorIntelligence.map(a => `
+                <div style="background:var(--surface-light); padding:12px; border-radius:6px; position:relative">
+                    <div style="font-size:0.65rem; color:var(--google-blue); font-weight:700; margin-bottom:4px">${a.source.toUpperCase()}</div>
+                    <div style="font-size:0.85rem; font-weight:500; margin-bottom:6px; padding-right:45px">${a.title}</div>
+                    <div style="position:absolute; top:12px; right:12px; text-align:center">
+                        <div style="font-size:0.9rem; font-weight:800; color:var(--google-green)">${a.potential}</div>
+                        <div style="font-size:0.5rem; color:var(--text-muted)">POTENTIEL</div>
+                    </div>
+                    <a href="${a.link}" target="_blank" style="font-size:0.7rem; color:var(--text-muted); text-decoration:none">Voir l'article ↗</a>
+                </div>
+            `).join('');
+        } else {
+            compList.innerHTML = '<div style="font-size:0.8rem; color:var(--text-muted)">Aucune donnée concurrente récente.</div>';
+        }
+
         // Inject Gaps
         const gapList = document.getElementById('gap-list');
         if (d.gaps && d.gaps.length) {
             gapList.innerHTML = d.gaps.map(g => `
                 <div style="font-size:0.8rem; background:var(--surface-light); padding:10px; border-radius:6px">
-                    <div style="color:var(--google-red); font-weight:600">${g}</div>
-                    <div style="color:var(--text-muted)">Sujet fort chez la concurrence | Absent chez vous</div>
+                    <div style="color:var(--google-blue); font-weight:600">${g.topic}</div>
+                    <div style="color:var(--text-muted)">${g.reason}</div>
                 </div>
             `).join('');
         }
@@ -282,13 +330,43 @@
               y1: { position: 'right', grid: { display: false }, ticks: { display: false } },
               y2: { position: 'right', grid: { display: false }, ticks: { display: false } }
             },
-            plugins: { legend: { display: false } }
+            plugins: { 
+                legend: { display: false },
+                tooltip: { mode: 'index', intersect: false }
+            }
           }
         });
 
         // Chart.js Simulation (Velocity)
         const ctx = document.getElementById('mainChart').getContext('2d');
         new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: ['00h', '04h', '08h', '12h', '16h', '20h'],
+            datasets: [{
+              label: 'Discover Velocity',
+              data: [12, 19, 45, 82, 65, 48],
+              borderColor: '#4285F4',
+              backgroundColor: 'rgba(66, 133, 244, 0.1)',
+              fill: true,
+              tension: 0.4
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: { grid: { color: '#2d3646' }, ticks: { color: '#9aa0a6' } },
+              y: { grid: { color: '#2d3646' }, ticks: { color: '#9aa0a6' } }
+            },
+            plugins: { legend: { display: false } }
+          }
+        });
+
+      } catch(e) { console.error(e); }
+    }
+    loadCDO();
+  </script>
           type: 'line',
           data: {
             labels: ['00h', '04h', '08h', '12h', '16h', '20h'],
