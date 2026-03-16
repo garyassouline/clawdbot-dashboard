@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T19:35:24.035Z",
+  "updatedAt": "2026-03-16T20:15:43.484Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -13,7 +13,7 @@
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T19:35:24.035Z",
+      "ts": "2026-03-16T20:15:43.484Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,107 @@
   ],
   "competitorArticles": [
     {
+      "title": "“Il lui a demandé…” : Bruno Salomone marié sur son lit d’hôpital, Guillaume de Tonquédec raconte la scène poignante",
+      "link": "https://www.closermag.fr/people/il-lui-a-demande-bruno-salomone-marie-sur-son-lit-dhopital-guillaume-de-tonquedec-raconte-la-scene-poignante-3624242",
+      "pubDate": "Mon, 16 Mar 2026 20:10:13 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Ce 16 mars 2026, au lendemain de la mort de Bruno Salomone, le plateau de C à vous lui rendait hommage. Guillaume de Tonquédec a notamment raconté un moment émouvant de ses derniers instants."
+    },
+    {
+      "title": "Comparée à Lenie, JuJu Fitcats répond : \"Je peux faire mon aventure tranquille, non ?\" - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNanhibGZscVVpamdzbVloREdONEl6RWowMGJiSkNYT29aWmVKNGRFb1lhc1U5cUdQMDNxNUZucjgzSEpRQnp3X3ZZNElFUXJNTkxodHE2S1BTS2pIZjM5SUdENlVxeGxIc0VUXzRTZmNrOGpnYWVocVhSMzVJcGlQaG9GWWl2ZVAwcTNGTmtqUDFrZmlRWk90dE8zSl9kNjU0QW1EUFNRRDlGY0tWa2JoaElRclVjZkpSUXJfNjk5UTgzTU9GUWVZdi1BTi1XRHBBVnQyU1hpNDJMaGhqVnI2MGxFa3NHQnJiTVUwSXhfLUg?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 20:09:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Comparée à Lenie, JuJu Fitcats répond : \"Je peux faire mon aventure tranquille, non ?\"  Cosmopolitan.fr"
+    },
+    {
+      "title": "\"C'était sans doute la pire semaine\" : Ed Sheeran revient sur le cancer de sa femme, Cherry Seaborn - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcnd4em5uQ0ZMeGVnMll2X1Jrb29FVlhUa3dOYl9tbWUwLXN6VzZYNjQwdmFvNmVPZlpxMEhlT3VQSDZHUHJxWUVlZ0laaGF3TndtU1FOeExodjFjel9WQ0g4RUliRzNqX3pzNWhzUVQ3Nk91Rk5XWW1kZFpBWDZKN2tKSjdyRWY3ck5Bd1Z0R01lY19UUS1NQW55R0NVc2sxbF9GZkRNZXJybjY5RVBUaWZNR3ZtUnY4U0l2ZjF1UkFxTEZNMU8yeFAzZXNmTHc?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 20:09:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "\"C'était sans doute la pire semaine\" : Ed Sheeran revient sur le cancer de sa femme, Cherry Seaborn  Cosmopolitan.fr"
+    },
+    {
+      "title": "“Je vais être franc avec toi...” : 3 signes discrets qu’un ami est jaloux de vous, selon les psys",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/3-signes-discrets-ami-jaloux-psys-625007?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 20:06:24 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Un ami qui se ferme quand vous partagez une bonne nouvelle peut cacher bien plus qu’une simple mauvaise humeur. Trois signes de jalousie récurrente permettent de comprendre ce qui se joue."
+    },
+    {
+      "title": "\"Je pensais qu'on allait me retirer des hémorroïdes, et les médecins m'ont annoncé un cancer\"",
+      "link": "https://www.topsante.com/medecine/cancers/cancer_colorectal/je-pensais-quon-allait-me-retirer-des-hemorroides-et-les-medecins-mont-annonce-un-cancer-952920",
+      "pubDate": "Mon, 16 Mar 2026 20:00:56 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "À 66 ans, Jane a mis des mois avant de consulter pour ses crises hémorroïdaires. Mais alors qu'elle pensait subir une opération bénigne, les médecins lui ont découvert un cancer du rectum. Quels signa"
+    },
+    {
+      "title": "Cannabis : comment le THC pourrait fabriquer de faux souvenirs, même à des doses modérées",
+      "link": "https://www.doctissimo.fr/sante/sante-au-quotidien/addictions/cannabis/cannabis-comment-le-thc-pourrait-fabriquer-de-faux-souvenirs-meme-a-des-doses-moderees-742816.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 20:00:15 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "En mars 2026, des chercheurs de Washington State University montrent comment le THC bouscule notre mémoire, bien au-delà du simple oubli. De la soirée entre amis au témoignage en justice, certains sou"
+    },
+    {
+      "title": "Mariés au premier regard : Antonin a présenté Laury à ses parents hors caméras - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOUHFvTzZiNjlJbHBpTWZvakdQQ21nVkNsU1Bra1doWC1BQTROZU5yQWhpQTU5UE1TYmItTEhmX2w3V1FlQ1B2NDluV3NyT0RINlpMdFFsTkMxTVJnbER3ZUxkakwzQmQ2d2xBSkhBRTR1bXc4am1nRWIxMEwxTGhzRXRndnNFT1dtdFc4bTU3ak9IWkJ2N292djltWXZGUkZUbXRrS2d0M25vRzRrXzdKXy0xQUF2VUdRQU5ZQi1OREJodmVOWkJxYnEwalQ4WGNHaHN6MHV3Z2E0Sm96Sms1SVl5dWdiNGRsc0lGcHpB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 20:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Mariés au premier regard : Antonin a présenté Laury à ses parents hors caméras  Cosmopolitan.fr"
+    },
+    {
+      "title": "Voici les 3 produits qui ne se conservent pas si longtemps au congélateur",
+      "link": "https://www.topsante.com/nutrition_et_recettes/voici-les-3-produits-qui-ne-se-conservent-pas-si-longtemps-au-congelateur-953132",
+      "pubDate": "Mon, 16 Mar 2026 19:46:39 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "On glisse épinards, viande hachée et pain au congélateur en pensant les sauver pour plus tard. Pourtant, ces trois produits supportent très mal les longues semaines de froid."
+    },
+    {
+      "title": "« Scarpetta » : la série avec Nicole Kidman aura-t-elle une saison 2 ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNEgwTDVqSVExNWxodzE2cEcxcmhsdzZMalNBamFMWFBtVDgtUGhnWGZLSF8wMVBWbUlpaTJDa3hYUDZfTXp5V1pMa1ZtdU1uU214MHRrOFhJeEtKUG4xUlczRFYyVkNGVTl1eG1lRHEyWnZjVFN5YjVNb2dVY3FPekhvVm9GeFh5TWk2SzRXQWZoeUQ2M191TnlUbzdoakg4ZDBGNmYxTWw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 19:31:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "« Scarpetta » : la série avec Nicole Kidman aura-t-elle une saison 2 ?  ELLE"
+    },
+    {
       "title": "Santé des oreilles : le Dr Kierzek explique pourquoi vous devez absolument désinfecter vos écouteurs chaque jour",
       "link": "https://www.doctissimo.fr/sante/maladies/maladies-orl/audition-maladies-orl/problemes-daudition/sante-des-oreilles-le-dr-kierzek-explique-pourquoi-vous-devez-absolument-desinfecter-vos-ecouteurs-chaque-jour-743055.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 19:30:20 +0000",
@@ -2397,29 +2498,6 @@
       "snippet": "Combien de fois pète-t-on vraiment chaque jour ? Une étude répond  Femme Actuelle"
     },
     {
-      "title": "Maladie de Lyme : le réveil précoce des tiques en mars inquiète les experts, voici les gestes pour s’en protéger",
-      "link": "https://www.doctissimo.fr/sante/maladies/maladies-infectieuses/maladie-de-lyme/maladie-de-lyme-le-reveil-precoce-des-tiques-en-mars-inquiete-les-experts-voici-les-gestes-pour-sen-proteger-742944.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 16:52:44 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Dès le retour des premières douceurs printanières, les tiques sortent de leur léthargie. Autrefois cantonnées aux forêts denses, elles colonisent désormais nos jardins et parcs urbains. Entre risques "
-    },
-    {
-      "title": "\"Le meilleur dessert du monde ne coûte que 6,99 euros\" selon cet expert de la gastronomie",
-      "link": "https://www.topsante.com/nutrition_et_recettes/le-meilleur-dessert-du-monde-ne-coute-que-699-euros-selon-cet-expert-de-la-gastronomie-953116",
-      "pubDate": "Mon, 16 Mar 2026 16:45:56 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Un critique gastronomique assure que le meilleur dessert du monde se trouve au rayon surgelé, pour moins de 7 euros. Comment cette tarte aux framboises Picard a-t-elle conquis autant de foyers françai"
-    },
-    {
       "title": "Brooklyn Beckham en froid avec ses parents : pour la fête des mères, ce message très clair envoyé à Victoria Beckham",
       "link": "https://www.closermag.fr/people/brooklyn-beckham-en-froid-avec-ses-parents-pour-la-fete-des-meres-ce-message-tres-clair-envoye-a-victoria-beckham-3624221",
       "pubDate": "Mon, 16 Mar 2026 16:36:26 +0000",
@@ -2465,29 +2543,6 @@
       "snippet": "Après avoir lancé des travaux dans la salle de bal de la Maison Blanche, Donald Trump veut remplacer les colonnes emblématiques qui encadrent la résidence. Mais des architectes s’opposent à ce projet."
     },
     {
-      "title": "\"La coupe parfaite \" : voici le t-shirt en coton Uniqlo à moins de 15€ qu'Alexandra Saint Mleux porte tout le temps - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxORTc3WDR2UmlJTFJBNVppd21Pd2JVSjBkSXE4VGQzcVpSaTFIN1AzUS1McDRUYnE4LTZ4RDJpRkYwaEJGTDBRQ2xJc2hpQ1Q3enl2bVFzQkR3S0xwWFRaUHpJZVVnZUdoSElFNTUyN0lmaGFwNWpwcC1mTUk1bHByUEw2cVZ6Zi1vY1F6ck5TaGRYRGVPTFZrYUgta1ZxXzBUanFhZ0dQaHIwN3hSb2RBS29nUHVVaHJydmxkem1pNENTMS1tMmpuTzY0azRYS1lvb3Jaa3N5VzFsZkEyd2tMYlllUERCV1ow?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 16:16:52 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "\"La coupe parfaite \" : voici le t-shirt en coton Uniqlo à moins de 15€ qu'Alexandra Saint Mleux porte tout le temps  Cosmopolitan.fr"
-    },
-    {
-      "title": "Un dermatologue alerte sur ces 2 produits cosmétiques qui peuvent \"faire tomber les sourcils\"",
-      "link": "https://www.topsante.com/beaute_soins/un-dermatologue-alerte-sur-ces-2-produits-cosmetiques-qui-peuvent-faire-tomber-les-sourcils-953106",
-      "pubDate": "Mon, 16 Mar 2026 16:16:43 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Sur TikTok, la dermatologue américaine Neera Nathan met en garde contre le gel et la cire à sourcils, accusés de faire tomber les poils. Que révèlent vraiment ces gestes anodins sur la santé de vos so"
-    },
-    {
       "title": "\"Vegan + bacon\" : cette philosophie venue de TikTok pourrait transformer votre quotidien",
       "link": "https://www.psychologies.com/actualites/societe/Vegan-bacon-la-tendance-tiktok-pour-en-finir-avec-la-procrastination-624937?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 16:01:48 +0000",
@@ -2499,39 +2554,6 @@
       "snippet": "Et si viser la perfection nous empêchait d’agir ? Sur TikTok, la tendance “vegan + bacon” propose une approche plus souple : changer progressivement, sans attendre d’être irréprochable."
     },
     {
-      "title": "Julie Pietri \"jamais rappelée\" pour la tournée Stars 80, elle balance sur la production",
-      "link": "https://www.closermag.fr/people/julie-pietri-jamais-rappelee-pour-la-tournee-stars-80-elle-balance-sur-la-production-3624224",
-      "pubDate": "Mon, 16 Mar 2026 15:49:54 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Chanteuse culte des années 80 grâce au tube Eve lève-toi, Julie Pietri s’est confiée au Parisien sur son absence de la prochaine tournée."
-    },
-    {
-      "title": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0JnWmJzX3ZJVlNJWW56N1pfaHhSdExyNzQ0MzRCZVROemR5ZUFtLUlaODBnajN3YWY4YUNjZTFxT3JoRjBRaXB2aXBkSmJLTDRiVFJvd1pWeEpzbHV5S0hQTkRhWWtDVzlTNzNnX24tNVhISDUyVFlTZE4ybzBUeU1IbHVfUjhYUkhRdHNKTDFQRVlZQlB4VTVpd2Vid0MzREF4MndXcjZZLUJrRERTUEpR?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 15:48:30 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps  Cosmopolitan.fr"
-    },
-    {
-      "title": "\"J'ai un projet en cours...\" : après La Chronique des Bridgerton, Julia Quinn parle déjà de son prochain projet littéraire - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSGRRcENBRnFWc2lGSlJQTUF5NU1jVGZsaGk1d2M4b3pOaDdRQUZvSDd1MzNwNHVlejRwQ3BwTUw1LUR0TnpGNTRWR0ZOalBIT0pPRExQLWtZbVZIM1NORmRzZUlwX0poc0pCLTZ3SFRDVUNRQjJjX1M2dFdrNkZnVkFxRFUxazNHbTl5dHRmQmUwdFVNQklPa2VETzNPS09ySUJEb2tmS3hVeThrYjJfQkhsVnpoZGpNcDduNDFNMUZnV0lsSjZURkJULVp0ZDZJMjM1RXhXX1dNdw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 15:31:37 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "\"J'ai un projet en cours...\" : après La Chronique des Bridgerton, Julia Quinn parle déjà de son prochain projet littéraire  Cosmopolitan.fr"
-    },
-    {
       "title": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQ0NPU1lpUFNLWTFyTm8zeTBSMXc2M1lQNGxLa2VsWEw2aVJFV1pnOXlHRkZGV2s3Y1hvTWJyOXFwQWxLMWdIRFlodHdNZnQ4U2RlVkNWRkxyM1NuUU85Q2w2WmNEMTZrcjhlTDJCbGtCZlQtUEVYTWE0dGJLTzlQSUpleVVsVC1QbVUyNXBXZzRIMUJIX093elpMdERXLTNQcVVMcTZ1Skd3aVF3ZDhJNUFTbi1RUFNiNllsT1Q1ckZmR2kySUtMZV9jWUtVaU9fWUl0Zkpac3pjdXZMNld0cmdreEVKd1puWGVYckVoREdieXU5Q0hUNw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 15:29:33 GMT",
@@ -2541,17 +2563,6 @@
         "mariefrance.fr"
       ],
       "snippet": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme  Femme Actuelle"
-    },
-    {
-      "title": "Prix des carburants: le patron d'Intermarché appelle l'État à \"réduire sa marge\" - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT1ZPVTJ5YWZFU05uSGMwNTNHMDhZbW1JRkFwMDJJSTlkVm1VZEZaNjZPVk5scTRDOGlFMkx5VUUzdXRLUS1rRGxZa2JWUGlHaUhDNGJGc0FPX2N0bTJjUE4waHJLYi1QSDE4YzY2WEFIdm1uVDcwcHZhMXEzb2Vva0ViX3hYMVNmOF9rRVVLUjBzTUFpeC10eEVmQlo2RnhoMmp1Q05yS240Uzl0bW44TXIwMk04ZF81UXpnag?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 15:21:11 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Prix des carburants: le patron d'Intermarché appelle l'État à \"réduire sa marge\"  Notre Temps"
     },
     {
       "title": "\"Il s'est marié il n'y a pas très longtemps\" : Bruno Salomone s'est uni avec sa compagne de longue date peu avant son décès - Femme Actuelle",
@@ -2574,17 +2585,6 @@
         "aufeminin.com"
       ],
       "snippet": "Et si le bonheur au travail n’était pas qu’une question de salaire ou de titre ? Selon la psychologie, certains métiers réunissent les conditions idéales pour préserver notre bien-être mental."
-    },
-    {
-      "title": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaDJ1VVlCUmpFU2tRWmRtdTgzMThOOXJkdVBmLWlvTVptbVpKTjYxMkowLV9uejR3VURRTzhoeTJKZGxQNWNSbENkWE0ydHJ3M29JMF9GR0Z0U0JXWHpuMjR0NFBDeDRXNnFXUkxpckNpZVo4dVRhWHRWY0FqdXZmY0g5Ny1pcThmd2ozSTFwWlBqR3ZXWXFmOV9vRUlRTG5vN2poM0FNVjRSZnhJTm9hUG9VWnRYWUFpbU4zRFBZRGp3U3F3YUxteTlvc05hdw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 14:36:14 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM  Notre Temps"
     },
     {
       "title": "Le “quart d’heure pour soi” : l’habitude scientifiquement prouvée pour booster son moral durablement",
@@ -2621,17 +2621,6 @@
       "snippet": "Délai supplémentaire pour inscrire ses voeux sur la plateforme Mon Master  Notre Temps"
     },
     {
-      "title": "Si vous pensez souvent à quelqu’un du passé, votre esprit essaie de vous dire quelque chose selon une psy",
-      "link": "https://www.psychologies.com/moi/se-connaitre/pensez-souvent-quelquun-passe-esprit-essaie-de-vous-dire-quelque-chose-selon-une-psy-615730?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 13:01:39 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Ce retour en mémoire n’est jamais anodin : notre cerveau tente souvent de nous transmettre un message émotionnel profond."
-    },
-    {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNlFCb092QjVDVXRBM25CVUVFYkxvT0xBUFBQSFNqS3MzaXNTVFNwcmlWZVUzTTlOSXkyeUFFQ0l1UE52Q3NEMXlOTW1vT05nazI2NE1BdTVELWN5ajd2c21JODh4dXdwNXBYdXpCQzF3eUl1WllKbTU4SWVXWVhZdUdMWERRbkdtOXIzY1lha1lzRHE5SEd1RnF1eDlIQ2d4YzNxSGFtZ29sQXNJb0QwUDRhc1JHd2VKZ2V6UGlSakFOZkYzQjhCSlJHb3RuSnVxbmY3bTgzdDFnLS1iekVqWmNzODA0NGlIeHkwQ3hCN0l0bE42YUJpR2VaSjM3Z0NZdDd1S0l6MWdMeHNzd3VaUVV1U2RLRkpSN0Ew?oc=5",
       "pubDate": "Mon, 16 Mar 2026 11:27:04 GMT",
@@ -2663,17 +2652,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
-    },
-    {
-      "title": "Résultats page [119] : Netflix - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrZGtXcFhhMVpMRWhKNUFhZGxHSWdrLVdLc2lLSkhkSVBYT2R2c09xajE2RUFZdWRBeEczRjJZb2QtSGJmSEVKWXpUUlo2RktPQjJocw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 10:53:54 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Résultats page [119] : Netflix  ELLE"
     },
     {
       "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
@@ -2710,18 +2688,6 @@
       "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
     },
     {
-      "title": "Programme TV Cirque du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFJQUpjZE14aDN2ZzRDRlY2ZkpPRWw3T3ZFUElydnJONzYyM0pBUkRSdV9MTFlZNVFpLUR0cWlOeVhDWFhFZ2pkOFp3SWRuWVhkc0JRTi11ekUtT2JWNWZKVThyZDVJYUZCWVN0YzZSUDJsOXhXQXBhSEJ4RTFES0ppNW9sdVl0?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 09:01:34 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Cirque du dimanche 29 mars 2026  Linternaute.com"
-    },
-    {
       "title": "8 signes méconnus d'un déséquilibre de votre microbiote intestinal",
       "link": "https://www.medisite.fr/sante-8-signes-meconnus-dun-desequilibre-de-votre-microbiote-intestinal.5717304.917571.html",
       "pubDate": "Mon, 16 Mar 2026 10:00:00 +0100",
@@ -2743,6 +2709,28 @@
         "pleinevie.fr"
       ],
       "snippet": "Jeux paralympiques 2026 : le bilan plus que poussif de la délégation française  Linternaute.com"
+    },
+    {
+      "title": "Un jihadiste jugé par défaut pour le génocide des Yazidis, une première en France - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbkVHT3pNSVkxOHdGNFdTZHFmaFJ6ZVg4cnI5WjZXa19OZjNpazlVanEtV3ZSSVh3RG1md1VLeERNS3hGN0pUVmFfZFNtNjdaZUc4Z3VtWmR0d3hPRTBQVzBZOVJGNTZreTIyaGZCWmx3YXY1RlhnMmtoUG9xREFrdWEtNmh5QlF4VkhFUVB6VlE4SDlsR29lNWZHejhTUzVJTGtBY3ZJcUx6a3Z2TENnMHpEbXlvYlJ6SVlSZXd2MjY?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:36:11 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Un jihadiste jugé par défaut pour le génocide des Yazidis, une première en France  Notre Temps"
+    },
+    {
+      "title": "Le procès par défaut d'un jihadiste pour le génocide des Yazidis, inédit en France, s'est ouvert à Paris - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPR21pVjE4ZjJCeXBTMlFRZkd1Z3phdUY1OHRfTG1xd09iVEZad1JVbGVvWmhkTE1sZFF5ZE5YTmlna1FDYVE0V0wtakJXeldZUEdKZW5teUs2WnBUX2d0WXg2c1U1cVhJWXotS2tiOUtyMjVlWTAwSVh0empvWDVyenlkVGNqeEI2SERLR1ZySXFVSXN2cDN6QnZZd05CbWludUtMbGdXQXAxUGhkY2pXTkFVemU3bGhBcndrSTlBV2RwUGtLODBRQnNpd01pb2tsUEJfVEFua0FSZw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:36:11 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Le procès par défaut d'un jihadiste pour le génocide des Yazidis, inédit en France, s'est ouvert à Paris  Notre Temps"
     },
     {
       "title": "Astro love : les signes qui vont vivre une belle histoire d'amour en mars 2026 - Cosmopolitan.fr",
@@ -2788,6 +2776,18 @@
         "aufeminin.com"
       ],
       "snippet": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Romane Tardy - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tcVJMSUxlcUpSSGtZV3NiODlLdFhSNXRzZThOZ3JFZ1V0RVZ4Z2Z0a2xDcVlJRnN4RjhhZWoxTXp0WElsSGxZb3RIVU9CSGNXdFJIaGt5Q2xLa3N5UjhzbTZFMUQwdXlqVDNKdXIzUW0zX25w?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 04:44:06 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Romane Tardy  Linternaute.com"
     },
     {
       "title": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé? - Notre Temps",
