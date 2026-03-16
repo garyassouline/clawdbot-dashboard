@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T11:15:42.870Z",
+  "updatedAt": "2026-03-16T12:15:44.143Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "14.3%",
+    "cpu": "13.6%",
     "ram": "21%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T11:15:42.870Z",
+      "ts": "2026-03-16T12:15:44.143Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2033,6 +2033,184 @@
   ],
   "competitorArticles": [
     {
+      "title": "Selon la psychologie, ces 8 phrases trahissent à coup sûr une personne égocentrique",
+      "link": "https://www.psychologies.com/moi/se-connaitre/comportement/psychologie-phrases-trahissent-coup-sur-personnes-egocentriques-57837?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 12:05:24 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Les personnes égocentriques ont une tendance marquée à ramener les conversations à elles-mêmes. Voici les phrases typiques."
+    },
+    {
+      "title": "Jean-Michel Aulas candidat à Lyon : quel score pour l’ancien patron de l’OL aux municipales ?",
+      "link": "https://www.closermag.fr/politique/jean-michel-aulas-candidat-a-lyon-quel-score-pour-lancien-patron-de-lol-aux-municipales-3624177",
+      "pubDate": "Mon, 16 Mar 2026 12:05:16 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Donné archi favori des municipales 2026, Jean‑Michel Aulas se heurte à un premier tour bien plus serré que prévu à Lyon. Entre sondages déjoués et alliance de gauche, le second tour s’annonce comme un"
+    },
+    {
+      "title": "Éric Ciotti candidat à Nice : quel score pour le député des Alpes-Maritimes aux municipales ?",
+      "link": "https://www.closermag.fr/politique/eric-ciotti-candidat-a-nice-quel-score-pour-le-depute-des-alpes-maritimes-aux-municipales-3624171",
+      "pubDate": "Mon, 16 Mar 2026 12:01:11 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Au premier tour des municipales 2026 à Nice, le duel Éric Ciotti–Christian Estrosi bouleverse la droite locale. Derrière un score inédit, se joue désormais le sort du second tour."
+    },
+    {
+      "title": "Penser au vin a déjà des effets sur le corps, même avant d'en boire, selon des chercheurs",
+      "link": "https://www.topsante.com/medecine/addictions/des-chercheurs-decouvrent-comment-lalcool-impacte-votre-mental-avant-meme-la-premiere-gorgee-952907",
+      "pubDate": "Mon, 16 Mar 2026 12:00:44 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Une étude menée auprès de 429 jeunes adultes montre que la simple pensée d'un verre de vin, de tequila ou de whisky, suffit à faire basculer l’état d’esprit. Que révèlent ces images mentales sur la fa"
+    },
+    {
+      "title": "Votre cerveau \"surchauffe\" sans eau : le Dr Kierzek explique pourquoi votre humeur dépend d'abord de votre hydratation",
+      "link": "https://www.doctissimo.fr/nutrition/eau/lhydratation-adaptee-a-chacun/votre-cerveau-surchauffe-sans-eau-le-dr-kierzek-explique-pourquoi-votre-humeur-depend-dabord-de-votre-hydratation-742855.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 11:56:53 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Vous vous sentez irritable, fatigué ou incapable de vous concentrer ? Avant de blâmer votre café ou votre nuit de sommeil, regardez votre verre d'eau. Une légère déshydratation suffit à brouiller vos "
+    },
+    {
+      "title": "Vous aimez la burrate ? Voici l'astuce facile du chef Yotam Ottolenghi pour la sublimer en 5 minutes",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/vous-aimez-la-burrate-voici-lastuce-facile-du-chef-yotam-ottolenghi-pour-la-sublimer-en-5-minutes-952982",
+      "pubDate": "Mon, 16 Mar 2026 11:51:30 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "À Londres, Yotam Ottolenghi sert une burrata twistée par des fruits et des épices qui affolent les papilles. En cinq minutes, cette astuce sucré salé transforme vos apéros."
+    },
+    {
+      "title": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ? - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVDFEeXRYLU5ydXF2QjFvYUpmY3ZQZFJIS243RDh4RzVWN3J6RGU3TkNUZDBNVW1hX0ZPczVOeUNnWTQ0cmtqUkJSTnpXUmNrT0R2RDZzamZMT0toa1ZzQ29vcGwxaHAxRnU1amI1MWU4eFp4eE5TRzNRMnlCZUFLaUtVRGtSUEZwWkhmby0wZmxES1BscXZISDJTTXlmUEE1R3o0TzUxMHdxZDVBR3Q2U2NndUt0WldPSUxkOUxvYm9DbjVac3d2QmFrdTFhWE56ZThheFpmWUk?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 11:47:00 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ?  Femme Actuelle"
+    },
+    {
+      "title": "Sarah Knafo candidate à la mairie de Paris : quel score pour la proche d’Éric Zemmour aux municipales ?",
+      "link": "https://www.closermag.fr/politique/sarah-knafo-candidate-a-la-mairie-de-paris-quel-score-pour-la-proche-deric-zemmour-aux-municipales-3624160",
+      "pubDate": "Mon, 16 Mar 2026 11:45:46 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Aux municipales 2026 à Paris, Sarah Knafo franchit de justesse la barre des 10 % et se hisse au second tour face aux poids lourds. Mais ce 10,40 % rebat-il vraiment les cartes pour la droite parisienn"
+    },
+    {
+      "title": "Rachida Dati candidate à la mairie de Paris : quel score pour la maire du 7e arrondissement aux municipales ?",
+      "link": "https://www.closermag.fr/politique/rachida-dati-candidate-a-la-mairie-de-paris-quel-score-pour-la-maire-du-7e-arrondissement-aux-municipales-3624161",
+      "pubDate": "Mon, 16 Mar 2026 11:41:29 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Au premier tour des municipales 2026 à Paris, Rachida Dati affrontait Emmanuel Grégoire pour l’Hôtel de Ville. Son résultat, encore éloigné de la tête, rebat les cartes d’une droite en quête de revanc"
+    },
+    {
+      "title": "Bruno Salomone : l'acteur de Fais pas ci, fais pas ça s'était marié en toute discrétion avant son dernier souffle",
+      "link": "https://www.closermag.fr/people/bruno-salomone-lacteur-de-fais-pas-ci-fais-pas-ca-setait-marie-en-toute-discretion-avant-son-dernier-souffle-3624124",
+      "pubDate": "Mon, 16 Mar 2026 11:38:25 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "À 55 ans, Bruno Salomone s’est éteint en laissant un secret au creux de sa main gauche. Derrière cette alliance toute récente avec Audrey, une histoire bouleversante."
+    },
+    {
+      "title": "Nicolas Sarkozy en procès : quelles sont ses origines ?",
+      "link": "https://www.closermag.fr/people/nicolas-sarkozy-en-proces-quelles-sont-ses-origines-3624115",
+      "pubDate": "Mon, 16 Mar 2026 11:30:10 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Alors que Nicolas Sarkozy se retrouve une nouvelle fois au cœur de l’actualité judiciaire, de nombreux internautes s’interrogent sur son histoire personnelle. L’ancien président de la République possè"
+    },
+    {
+      "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNlFCb092QjVDVXRBM25CVUVFYkxvT0xBUFBQSFNqS3MzaXNTVFNwcmlWZVUzTTlOSXkyeUFFQ0l1UE52Q3NEMXlOTW1vT05nazI2NE1BdTVELWN5ajd2c21JODh4dXdwNXBYdXpCQzF3eUl1WllKbTU4SWVXWVhZdUdMWERRbkdtOXIzY1lha1lzRHE5SEd1RnF1eDlIQ2d4YzNxSGFtZ29sQXNJb0QwUDRhc1JHd2VKZ2V6UGlSakFOZkYzQjhCSlJHb3RuSnVxbmY3bTgzdDFnLS1iekVqWmNzODA0NGlIeHkwQ3hCN0l0bE42YUJpR2VaSjM3Z0NZdDd1S0l6MWdMeHNzd3VaUVV1U2RLRkpSN0Ew?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 11:27:04 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage  Femme Actuelle"
+    },
+    {
+      "title": "\"Excusez-moi, je peux vous poser une question ?\" : les personnes qui engagent facilement la conversation avec des inconnus partagent ces 3 traits de caractère, selon la psychologie",
+      "link": "https://www.psychologies.com/moi/se-connaitre/personnalite/excusez-moi-poser-question-personnes-facilement-conversation-inconnus-traits-caractere-613993?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 11:26:59 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
+    },
+    {
+      "title": "Teyana Taylor bousculée en coulisses des Oscars : la vidéo de son altercation avec la sécurité devient virale",
+      "link": "https://www.closermag.fr/people/teyana-taylor-bousculee-en-coulisses-des-oscars-la-video-de-son-altercation-avec-la-securite-devient-virale-3624139",
+      "pubDate": "Mon, 16 Mar 2026 11:23:55 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Aux Oscars 2026, Teyana Taylor se retrouve filmée en pleine altercation avec un agent de sécurité en coulisses du Dolby Theatre. Que s’est-il passé juste après le sacre de One Battle After Another ?"
+    },
+    {
+      "title": "Adriana Karembeu : ses rares confidences sur Natalia, sa soeur, maman célibataire",
+      "link": "https://www.closermag.fr/people/adriana-karembeu-ses-rares-confidences-sur-natalia-sa-soeur-maman-celibataire-3624121",
+      "pubDate": "Mon, 16 Mar 2026 11:19:14 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Mère de Nina et fille de  ­Zlatica, Adriana Karembeu est aussi la soeur de Natalia. Dans les colonnes de Télé Loisirs, elle a fait de rares confidences sur sa cadette de six ans de moins qu'elle."
+    },
+    {
+      "title": "Ventre gonflé après les légumineuses ? L’astuce d’une nutritionniste pour profiter de leurs bienfaits sans ballonnements",
+      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/ventre-gonfle-apres-les-legumineuses-lastuce-dune-nutritionniste-pour-profiter-de-leurs-bienfaits-sans-ballonnements-741541.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 11:15:52 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "En France, les recommandations officielles encouragent à manger plus de lentilles, de pois chiches et de haricots. Cependant, beaucoup redoutent encore les ballonnements... Que disent vraiment les exp"
+    },
+    {
       "title": "Les personnes qui ont l’impression de passer à côté de leur vie ressentent souvent ces 6 choses",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-limpression-vie-ressentent-choses-624781?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 11:01:34 +0000",
@@ -2042,28 +2220,6 @@
         "aufeminin.com"
       ],
       "snippet": "Chacun de nous peut se poser un jour cette question : Suis-je en train de passer à côté de ma vie ? Voici les six signes qui prouvent que cela peut être vrai, selon une psy."
-    },
-    {
-      "title": "Mort de Bruno Salomone : qui était sa compagne ?",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-qui-etait-sa-compagne-3624107",
-      "pubDate": "Mon, 16 Mar 2026 11:00:45 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Décédé à 55 ans après un long combat contre la maladie, Bruno Salomone laisse derrière lui une carrière marquante. L’acteur partageait aussi sa vie avec une femme restée très discrète, qu’il avait réc"
-    },
-    {
-      "title": "La machine à glaces Ninja CREAMi Swirl est en méga promo, mais il ne reste plus que quelques heures pour en profiter !",
-      "link": "https://www.closermag.fr/shopping/la-machine-a-glaces-ninja-creami-swirl-est-en-mega-promo-mais-il-ne-reste-plus-que-quelques-heures-pour-en-profiter-3624044",
-      "pubDate": "Mon, 16 Mar 2026 11:00:40 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Envie de déguster des glaces à l'italienne, des yaourts glacés, des sorbets ou encore des milkshakes avec le retour des beaux jours ? A l'occasion des Ventes Flash de Printemps, Amazon brade la fameus"
     },
     {
       "title": "Fraises : ce rappel inquiétant chez Grand Frais et Fresh évoque des pesticides, vos fruits sont-ils concernés ?",
@@ -2123,48 +2279,26 @@
       "snippet": "Vous remplissez votre congélateur pour éviter le gaspillage, mais certains aliments y perdent tout. Dix produits du quotidien y font plus de mal que de bien."
     },
     {
-      "title": "Louis Sarkozy candidat à Menton : quel score pour le fils de Nicolas Sarkozy aux municipales ?",
-      "link": "https://www.closermag.fr/politique/louis-sarkozy-candidat-a-menton-quel-score-pour-le-fils-de-nicolas-sarkozy-aux-municipales-3624126",
-      "pubDate": "Mon, 16 Mar 2026 10:46:00 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "Résultats page [119] : Netflix - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrZGtXcFhhMVpMRWhKNUFhZGxHSWdrLVdLc2lLSkhkSVBYT2R2c09xajE2RUFZdWRBeEczRjJZb2QtSGJmSEVKWXpUUlo2RktPQjJocw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 10:53:54 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Avec 18,01 % et une 3e place à Menton, Louis Sarkozy rate la marche du leadership au premier tour. Face au RN en tête, son choix pour le second tour devient crucial."
+      "snippet": "Résultats page [119] : Netflix  ELLE"
     },
     {
-      "title": "Leka II d’Albanie : un mariage chargé d’histoire avec Blerta Celibashi au château de la reine Géraldine",
-      "link": "https://www.closermag.fr/royautes/leka-ii-dalbanie-un-mariage-charge-dhistoire-avec-blerta-celibashi-au-chateau-de-la-reine-geraldine-3624122",
-      "pubDate": "Mon, 16 Mar 2026 10:39:24 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "Résultats page [29] : Printemps - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GNzNheVdMb2NrdUw4SkZrYVZLZ21ic3lhOTdybXdXWGdMMjQ1QUNHbEYwMHNuby1GZTZSMUxrdlkxd2ZpNXlqWkxodkI1bmVBci01dnV3?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 10:37:36 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Le prince héritier Leka II d’Albanie a uni sa vie à Blerta Celibashi au château d’Apponyi, en Slovaquie, l’ancienne demeure de la reine Géraldine. Derrière cette cérémonie intime, un message familial "
-    },
-    {
-      "title": "Mort de Bruno Salomone : avait-il des enfants ?",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-avait-il-des-enfants-3624100",
-      "pubDate": "Mon, 16 Mar 2026 10:30:52 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "L’acteur Bruno Salomone est décédé à 55 ans après une longue maladie. Très populaire auprès du public, il avait souvent incarné des pères de famille à l’écran. Mais dans la vie, l’humoriste avait fait"
-    },
-    {
-      "title": "Mort de Bruno Salomone : le comédien s’était marié peu de temps avant son décès",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-le-comedien-setait-marie-peu-de-temps-avant-son-deces-3624070",
-      "pubDate": "Mon, 16 Mar 2026 10:30:52 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Bruno Salomone, célèbre pour son rôle dans Fais pas ci, fais pas ça, est décédé à 55 ans après une longue maladie. Peu de temps avant sa disparition, il avait épousé sa compagne Audrey."
+      "snippet": "Résultats page [29] : Printemps  ELLE"
     },
     {
       "title": "Ongles : ces manucures que vous portez encore sont déjà has been ce printemps, voici quoi adopter à la place",
@@ -2190,17 +2324,6 @@
       "snippet": "En France, alors que le bonheur recule de 13 points en douze ans, une poignée de personnes semble résister à la morosité. Leur secret tient en 6 habitudes au coucher qui transforment les 30 dernières "
     },
     {
-      "title": "“Un signe avant-coureur” : Alexis Pinturault explique la décision de prendre sa retraite",
-      "link": "https://www.closermag.fr/tv_tele_realite/un-signe-avant-coureur-alexis-pinturault-explique-la-decision-de-prendre-sa-retraite-3624095",
-      "pubDate": "Mon, 16 Mar 2026 10:17:52 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "L’icône du ski français Alexis Pinturault a annoncé qu’il raccrochait les skis à la fin de la saison, mettant un terme à une carrière exceptionnelle marquée par de nombreuses victoires en Coupe du mon"
-    },
-    {
       "title": "\"Elle s'y connaît...\" : le prince William taquine Kate Middleton lors de leur sortie publique - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUjRhdFAwV041c3o0ejRoUUEyamdRT1ltYzU1WDZCNktDSG1rT0FMZVR0TFJ2cUpOZXVRRm8wRUJtY1ZSbjBvMXJMQ2tGMHRzUUQ4SXdfdldhYnQycUlkbGNzMGVrOGd1Si11eEtELS15b2RRbTlKUzhPLWNja2pSY0JDcTczdGs4Rm9ZSUNUQ3hlV0pudTc5Qmhtckl0dWI2dDY1cUY3aHVFenBLeTRKYTF6NURtWTQ0S1dTTzFwbzhnSDhKbVJvb3NNcnkwMlQ0M2o0LXA5RnpIMzctcjlMSTd1Yw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:15:36 GMT",
@@ -2221,17 +2344,6 @@
         "aufeminin.com"
       ],
       "snippet": "Au fil des prises de décision politique et des sorties officielles, la stabilité mentale de Donald Trump laisse libre cours aux interprétations. Le président américain a-t-il vraiment perdu la tête ?"
-    },
-    {
-      "title": "Mort de Bruno Salomone : Frédérique Bel craque et lui rend un hommage poignant, \"Oh putain c’est dur !\"",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-le-message-de-frederique-bel-sur-instagram-ces-mots-quelle-naurait-jamais-voulu-ecrire-3624090",
-      "pubDate": "Mon, 16 Mar 2026 10:09:49 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Le 15 mars 2026, la mort de Bruno Salomone à 55 ans frappe en plein cœur le monde du divertissement français. Sur Instagram, Frédérique Bel, sa partenaire de Fais pas ci, fais pas ça, laisse éclater u"
     },
     {
       "title": "Selon un coiffeur, après 70 ans, la coupe \"trixie cut\" est la plus rajeunissante du printemps 2026",
@@ -2325,18 +2437,6 @@
       "snippet": "Après une rupture amoureuse, tourner la page peut prendre du temps. Mais combien exactement ? Une étude récente apporte enfin une réponse scientifique à cette question que beaucoup se posent."
     },
     {
-      "title": "Programme TV Cirque du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFJQUpjZE14aDN2ZzRDRlY2ZkpPRWw3T3ZFUElydnJONzYyM0pBUkRSdV9MTFlZNVFpLUR0cWlOeVhDWFhFZ2pkOFp3SWRuWVhkc0JRTi11ekUtT2JWNWZKVThyZDVJYUZCWVN0YzZSUDJsOXhXQXBhSEJ4RTFES0ppNW9sdVl0?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 09:01:34 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Cirque du dimanche 29 mars 2026  Linternaute.com"
-    },
-    {
       "title": "Ce prénom féminin chantant venu du latin séduit de plus en plus les jeunes parents",
       "link": "https://www.doctissimo.fr/grossesse/choisir-un-prenom/prenoms-du-sud-europe/ce-prenom-feminin-chantant-venu-du-latin-seduit-de-plus-en-plus-les-jeunes-parents-742786.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 09:00:21 +0000",
@@ -2359,18 +2459,6 @@
       "snippet": "Vous le savez sans doute, votre microbiote est au cœur de votre santé. Mais comment savoir s’il se porte bien ? En restant attentif à ces alertes méconnues qui passent souvent invisibles. Les voici en"
     },
     {
-      "title": "Programme TV Polo du vendredi 27 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcVEyOEdtUjBNMGcwd3dVOXFSbDM3MVF3bUNweXg1ODBOUXIwTGZkSnZwNDlIeVJLTmtKSGRvWHhqTGdCazI1ZERtQ1dEMVZkRFRqQzhWVDIydmJqOUZRbUp0eHFYTi1tcHd2NERUMHo4QXlITW14NU84WE02ZUNUZ2J4eW1Sdw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 08:59:57 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Polo du vendredi 27 mars 2026  Linternaute.com"
-    },
-    {
       "title": "Courir tous les jours : bonne ou mauvaise idée pour la santé ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTjIwM0wxTlhLaGVrTHp6QmFaekhDYWNHdTJNVVBYbGx0RE9sRk1qWTdfVldHUXZzNlk4RWJhVFVkald2Yk1zcWJ2Y1hmLUxtbUtxVk9tNHNEY1BXcUNCanIzaUhFbVJVSGtkMDhzbzRvZ05paldMeGFlRko3eTNGYUpqeVkwSk5QZ2hnVFVIUnlNQnZnc1hxYTB2c21CdFV6T3pXcnh0ZGRRdTZ3YVhiRnZUTnU?oc=5",
       "pubDate": "Mon, 16 Mar 2026 08:58:41 GMT",
@@ -2380,17 +2468,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Courir tous les jours : bonne ou mauvaise idée pour la santé ?  ELLE"
-    },
-    {
-      "title": "“Inapproprié et déplacé” : Nathalie Saint-Cricq s'excuse en direct après avoir comparé Eric Ciotti à Mussolini en pensant que son micro était coupé - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQNWRrcnpfNVhsbVl4RlVXaFZCd19JMm14X0piWWNFdEdhN1FqSjY5N2Q4VWhGbHljd3czdy1OTEhHSm5CMkFYejJoeDkxWk42bVBndUxwdGlWd21iRFVnM0JTUjNodi1Sd3gxZGptU255SkJCd3NHVTJPd09yd2FOSFV0SnBBUGRyV2xxZjVPVnprQzdKV1BTZWxvV3c1THhRTVZFM3dPM3lWNGR6R0RjTk15NnAxUHI3WUlMOUc2TTBjTWFTTFBldUI4cTd0aVh3bUxEQ0YyX295amNZQjZ3TERHY25XZUhqT2E4b184VDlPZUd0WmtXQTB2SWJvaWVmSnNXNkktNm9VdF91MWRRcVk1Z3kxcnR3cG15ck5PMDg?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 08:45:41 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "“Inapproprié et déplacé” : Nathalie Saint-Cricq s'excuse en direct après avoir comparé Eric Ciotti à Mussolini en pensant que son micro était coupé  Femme Actuelle"
     },
     {
       "title": "Cheveux moins denses : ces 5 signes qui doivent vous alerter - ELLE",
@@ -2416,18 +2493,6 @@
       "snippet": "Jeux paralympiques 2026 : le bilan plus que poussif de la délégation française  Linternaute.com"
     },
     {
-      "title": "Les experts en longévité l'affirment : il y a un dessert qui augmente l'espérance de vie et combat les maladies",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/les-experts-en-longevite-laffirment-il-y-a-un-dessert-qui-augmente-lesperance-de-vie-et-combat-les-maladies-952901",
-      "pubDate": "Mon, 16 Mar 2026 08:16:30 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Validé par des experts des zones bleues, un dessert au chocolat noir bouscule nos idées sur la gourmandise. Comment cette recette végétale pourrait-elle peser sur l’espérance de vie ?"
-    },
-    {
       "title": "Center Parcs : ce bracelet Princess Mimi prisé des enfants est rappelé, il pourrait mettre en danger les tout-petits",
       "link": "https://www.doctissimo.fr/nutrition/rappels-de-produits/center-parcs-ce-bracelet-princess-mimi-prise-des-enfants-est-rappele-il-pourrait-mettre-en-danger-les-tout-petits-742775.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 08:15:24 +0000",
@@ -2450,29 +2515,6 @@
       "snippet": "Il suffit parfois d’un mot de travers pour provoquer des réactions émotionnelles fortes chez soi. Nos sentiments sont parfois tellement heurtés qu’il est difficile de trouver une manière intelligente "
     },
     {
-      "title": "Surprise ! Cette infection vaginale très courante serait en fait une IST (et vous devriez la traiter à deux)",
-      "link": "https://www.doctissimo.fr/sante/maladies/maladies-infectieuses/ist/surprise-cette-infection-vaginale-courante-serait-en-fait-une-ist-que-vous-devriez-traiter-a-deux-332870.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 07:30:39 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Selon une nouvelle étude, la vaginose bactérienne qui touche une femme sur trois dans le monde ne serait pas seulement un problème féminin, mais bien une maladie sexuellement transmissible. Une nouvea"
-    },
-    {
-      "title": "Il y a 5 fromages bons pour la ligne selon une nutritionniste anglaise : \"Il n'y a que l'embarras du choix\"",
-      "link": "https://www.topsante.com/minceur/il-y-a-5-fromages-bons-pour-la-ligne-selon-une-nutritionniste-anglaise-il-ny-a-que-lembarras-du-choix-952899",
-      "pubDate": "Mon, 16 Mar 2026 07:19:37 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Entre plaisir et silhouette, le fromage reste souvent accusé à tort. Guidée par la nutritionniste anglaise Rhiannon Lambert, une sélection de cinq fromages change la donne."
-    },
-    {
       "title": "Si vous ne ressentez pas cette émotion dans votre couple, votre sécurité émotionnelle est en danger (et votre sommeil aussi), selon une étude",
       "link": "https://www.psychologies.com/couple/vie-de-couple/au-quotidien/Si-vous-ne-ressentez-pas-cette-emotion-dans-votre-couple-votre-securite-emotionnelle-est-en-danger-et-votre-sommeil-aussi-selon-une-etude-624956?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 07:02:41 +0000",
@@ -2493,17 +2535,6 @@
         "aufeminin.com"
       ],
       "snippet": "Astro love : les signes qui vont vivre une belle histoire d'amour en mars 2026  Cosmopolitan.fr"
-    },
-    {
-      "title": "Beurre de cacahuète : attention aux pièges ! Quelques conseils des experts pour bien le choisir",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/beurre-de-cacahuete-attention-aux-pieges-conseils-des-experts-pour-bien-le-choisir-334006.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 06:30:27 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Aliment tendance, le beurre de cacahuète est partout. Mais toutes les marques se valent-elles ? Comment choisir le meilleur beurre de cacahuète ? Des experts en nutrition nous aiguillent."
     },
     {
       "title": "Valérie Lemercier et son appartement, Kate Middleton en rémission, Frédéric Lopez père attentif - Cosmopolitan.fr",
@@ -2540,7 +2571,7 @@
       "snippet": "Et si le secret du bien-être résidait dans de petits gestes quotidiens ? Les micro-habitudes, faciles à adopter, peuvent transformer durablement notre qualité de vie sans effort colossal."
     },
     {
-      "title": "Anne Hathaway en robe fleurie, Emma Stone sublime en blanc : les plus beaux looks des stars aux Oscars - Cosmopolitan.fr",
+      "title": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026 - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFdNajB4UlpxaTQ3NWN5N194QnBIeEVFYWhjWmM3bTN6VVFDcm9mLWxuX1pJbVVMUnZESEY4aEt5bEMyRUxqa2ZPcmJVUjFTeW5pWmE2ejlQZG03dU43eVFsRXZHMmh3Q0V6YVFOR0N0UWc0dmhkSEEycW5Uc3pDT1kzQW9fTTZWWEptNGNPMUVlVlhJbnRHQkhiMTNuMjdqaVFDZTBMa3F4X0RCd2pnejVfVWF2SnhsVzNJbW1SMUM4NEpaWmVTc3c5TFRNOHNFY2p6enZR?oc=5",
       "pubDate": "Mon, 16 Mar 2026 05:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2548,18 +2579,7 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Anne Hathaway en robe fleurie, Emma Stone sublime en blanc : les plus beaux looks des stars aux Oscars  Cosmopolitan.fr"
-    },
-    {
-      "title": "Les personnes qui manquent d’intelligence émotionnelle abordent constamment ce sujet, selon les psys",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/personnes-manquent-intelligence-emotionnelle-abordent-sujet-psys-607492?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 04:56:59 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Il y a de ces sujets de conversations qui traduisent un manque d'intelligence sans le savoir. On vous en dit plus."
+      "snippet": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026  Cosmopolitan.fr"
     },
     {
       "title": "“Impossible d’y résister !” : la recette réconfortante de cannelloni aux poireaux, chèvre et miel - Femme Actuelle",
@@ -2582,17 +2602,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Horoscope du lundi 16 mars 2026 pour tous les signes astrologiques  ELLE"
-    },
-    {
-      "title": "Les psys sont formels : ces 3 micro-signes prouvent qu'une personne fait semblant de vous apprécier",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/psys-formels-micro-signes-personne-semblant-apprecier-606888?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 04:02:30 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Il y a de ces signes qui prouvent qu’une personne ne vous porte pas dans son cœur. On vous en dit plus."
     },
     {
       "title": "Alzheimer : l'Inserm découvre un coupable inédit dans la maladie",
@@ -2672,6 +2681,18 @@
       "snippet": "Marseille: face au RN, Payan rejette la \"main tendue\" de LFI  Notre Temps"
     },
     {
+      "title": "Résultat municipale 2026 à Choisy-le-Roi (94600) – Résultats du 1er tour [PUBLIE] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV3hRa1VuUTRvU2xTXzFNOElCQjZNa21NUzFLOVZZMWx1RF9jRlZ3QmNDUHJja1l2Zl82VnJqWk43ZHBPb2ZCc1MxNTU1UWo5a0xPOWhOLVFIY1FOWG5QQ0EzQThSbHJrc1NhN0hybGRFSTl1VVUtRmtQWDBEY2lPelJldHRaYlBnN190cDVnQmZ2bkJwLUdqUHdVQXE0bEpXbERkN1JTTEswNmRYVTR4bXNsX1lKZzcxNkVaM0tqU0lUcHlRUGZjN0ZvWUVxSlUtN2xrR1BWUUVRQ2ZPMHc3dXdaNkw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 23:50:15 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat municipale 2026 à Choisy-le-Roi (94600) – Résultats du 1er tour [PUBLIE]  Linternaute.com"
+    },
+    {
       "title": "Wordle : Le Mot du jour gratuit - 16 mars 2026 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUjFwMHBmWHRIczJZc2k5UlZfV2JjMXhXRWJmbHFJRnJicWFPQkhlQkNGVzVwNExhTmhOUXpmLXl0Uld0ZDY5ZUZPRzBlTmc4Xy1xOG5RSGVfeFN1MzRYTmpfblRTM20zM2V3Rms4dmsxaG9wSWFOZnBmangwRlB0ZTZ6eHdBQjBLVXptRE9KaUhtMG83SGhzSmtpc3Bmb181Ym40d2dWSmk0RkRnaF95Y1k3SnY?oc=5",
       "pubDate": "Sun, 15 Mar 2026 23:00:00 GMT",
@@ -2683,15 +2704,16 @@
       "snippet": "Wordle : Le Mot du jour gratuit - 16 mars 2026  Notre Temps"
     },
     {
-      "title": "Oscars 2026 : les plus beaux looks du tapis rouge - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc09fRU1rZXpSa0ppanNIbUxwRHZWYkJZSlhHZnJnWko2Ym43T2k0Q0JFdHdPTi00Z2lnU05CT0ZNYlhoQVVLQTd4c0ZpMGRMdVNGUFBNMGlYbU1HNWdXUGwxTXhodk11S0xaUGZmRTk0VkQ5VDdORFNKSlVyX2tSUUZrVGVac0RDUFVfYjdFR2tMSTMy?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 22:39:47 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
+      "title": "les résultats à Biarritz - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYTNieERWeVkyRjhVMlhBUGN5SVdIMUd1M3hFN3czeWlsZ1o1SG4ybWw4cWFTVy1ueXkxX1paVjYyVFNtdTFfOWM5V2taWURHdVI0TVFURGZsTEtTRzVBRGdNNV9TaEJrR05tbUxPbmJqMHNELTZQMU0taXlMblI0WjZDT244alg4NjBFSW1WcTRpd3VWNDc1aGJWY1pLdkVMNHZNRkVXSWNrNEs3SU01TlVXc203MlhSSzFxZTdlNHVQWG9xd1RYaDllVmlHWk5qeWhRay13VUJPUmFpQWc?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 21:51:01 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
       "competes": [
-        "mariefrance.fr"
+        "mariefrance.fr",
+        "pleinevie.fr"
       ],
-      "snippet": "Oscars 2026 : les plus beaux looks du tapis rouge  ELLE"
+      "snippet": "les résultats à Biarritz  Linternaute.com"
     },
     {
       "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ? - Linternaute.com",
@@ -2706,6 +2728,18 @@
       "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ?  Linternaute.com"
     },
     {
+      "title": "les résultats à Vincennes - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOER3UkttRTNtNlVoNHpwV1Rkcll6SHFIZTFlYTJWZThTS3J0cEEwUTk2cWVBMnVJbUVZYmJKR2J5X2ZVbVFoQ3JYcE00NVRkRk1RenhPU001TGFOLWh2LTNuTEFsT3BxNlhBdFBPZjJPZDhzQkRCOEpBUEM4bUVkZVhFTkR6dlBRbTlnWlE0UHZEZ1ZiWGVuS2VnY2YwWUxCR3BpM1Awa284WnMteFV1V21lYXEyTE9JVHVMdGU2cXlKLWlEUE1BR0cwY0FJd3JEc3NKUEF6ODRoNndmNmlV?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 21:19:18 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "les résultats à Vincennes  Linternaute.com"
+    },
+    {
       "title": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNRW92dVFKZVZ4c2YwUmoxTk5yZnF1WEx0NENhaUkxRV93MFFocGlDbWJFdWhIV3RLT1VzTV9WaEVSQ2pHZEpXTmwtNVdlMXYzUlJkYVBpOXlzeERDZm1MZnY0WXJIOFNEaW1zaXBmRHdxQUVhSTNRNndyeTF5clltbnc3WFZxWU1oa1c0VDBubGQtREp4ZW1RSGdLcHg0VmQzdlR0ZWtrcmVGa3diRFgwN1dRYlJoRlhRa3dGdUZKcV9fQmF5NlRiZkZxdHhYZzZIcHFKM3dtckVrUy1CY0E?oc=5",
       "pubDate": "Sun, 15 Mar 2026 20:56:25 GMT",
@@ -2715,6 +2749,18 @@
         "mariefrance.fr"
       ],
       "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
+    },
+    {
+      "title": "les résultats à Saint-Avold - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVGo4RUFLYkt2UlpuMnJkdVBpWEtpUXFldGlSclk5SmR4WGtEazJfcUlXTzdMZVZ6OXdvemtjRXUzb2hWLU5ET0VxWGdKNUFMT3ByMzBDV1ZTYm5nTUFVeC1tMjVSMFFYTnd6LW5XQl82aTU2allOSXVCemgycFNnNF81NjEtREpqSS13Qkx1WldmRWtwMzJ5emw3R3FBM3JYeVJhSVlFdVUxdjVJT0ViUC03WVNtdXl1UVIzLWN0bnprTF9wN3JEUFoybFhzNDlfTVJGay1YVEtlUkN6QkpMMWV3?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 20:15:55 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "les résultats à Saint-Avold  Linternaute.com"
     },
     {
       "title": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu - Cosmopolitan.fr",
@@ -2771,18 +2817,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Prolongez l'hiver avec cette recette de frittata façon tartiflette (c'est rapide à faire !)  Femme Actuelle"
-    },
-    {
-      "title": "Rania Tounekti - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMmdxY3hrMFMta1M0QUZsREYyZEdnQkFycmwxRHljd09USGw1YlliTkwwYnpXWElDSHBEU3RFMnFHT1ljVFZBd1ZycVVDNjF1UWdsMDlIU0txd0lZOW05eG45Y1lFbGdJdFFBMWZta2ZIUGk5?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 16:42:57 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Rania Tounekti  Linternaute.com"
     },
     {
       "title": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars - ELLE",
@@ -2849,40 +2883,6 @@
         "aufeminin.com"
       ],
       "snippet": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices  Cosmopolitan.fr"
-    },
-    {
-      "title": "\"Je pense à ma mère, aujourd’hui et tous les jours\" : le prince William rend un hommage bouleversant à Lady Diana - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNaEQ3QTRQOUNFUndoMG9oX0Jfb0wxRUs3Vl9qMzFHdlBSNTlEakdLOW5ILUdiS3AzWk85RmRpN1l0SmdXeC1sM054NUk3MHFoX2JUb2RnMVlxV2kyc2dZNUhEcFlMdGg1MUc4V1BIS2VaOXJLUlNhcVpDRDZFeDYzaWFBNldpaFh2bHEzeFNfeGhibTlvamNXR0otdXRtNUcwVVR5UTRoNElDY1dPbEhPV1V0NVloWkN5YjZnU1JjMTNlQllSNVNWdGx2R1E3czVCcWUzMDRjRFhQOWtrMEtzbHBuSFdLYlpkX2N6ZHVvSVE?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 13:43:35 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Je pense à ma mère, aujourd’hui et tous les jours\" : le prince William rend un hommage bouleversant à Lady Diana  Femme Actuelle"
-    },
-    {
-      "title": "Disneyland Paris : on a testé l’attraction La Reine des Neiges en avant-première - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdnRTcVJ2a3d4d1dsTVV2T2JTX3FFdTlGTjZweVJETFdRaGxlMktJaVRWZTAzR2Nhdzdqa3FHM3R0QVhuWkRvWVZNVTRTanVXN2ZIUGUwdGI5YVE2eWdNUnNldmw3YmZVaHcyRlZFTGxzWTl0bnpMMXBYLU9IMUt4eDVBMldXNEFWRWVPdHE5RFpwczUyWEF2MUZqS3dITmRuT1FoUTJKa3ZHUmwwUnJNTkFBN0RZSGVMSjI0?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 13:12:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Disneyland Paris : on a testé l’attraction La Reine des Neiges en avant-première  ELLE"
-    },
-    {
-      "title": "Résultat de LFI aux municipales : un revers cuisant pour le parti de Mélenchon ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPY0k1X1RldjhzclVYbnN1RWFzcHJSVVRiR29JeERJOUxWN2JsUzNmeEZBdG5uUl9qTUM0dUsxXzBVT2lETUNIT1pBMGNtNThnalI0amh5VTFtMTZhZTU0Y2NqU1lVUlBNQUMyVHRGR19hRUY0YWxQcVA4ZWM4aS1tTDhYa2M1S3BXZFVJT0JvM0hYY3A2U1FZalllY1Ayd2J5MWt0MXJMRlIwNGhxYlJXUktzc1R1a2RZdTBsT1VVa0dSR0dhc05peUllLUZvZw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 11:24:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de LFI aux municipales : un revers cuisant pour le parti de Mélenchon ?  Linternaute.com"
     },
     {
       "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
