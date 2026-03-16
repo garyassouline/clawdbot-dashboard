@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T20:23:34.348Z",
+  "updatedAt": "2026-03-16T21:06:44.183Z",
   "kpis": {
     "concentration": "84.5%",
     "lifespan": "18h",
@@ -39,5 +39,81 @@
     }
   ],
   "gaps": [],
+  "timeSeries": [
+    {
+      "date": "2026-03-10",
+      "clics": 19846,
+      "imps": 238466,
+      "ctr": 8.5
+    },
+    {
+      "date": "2026-03-11",
+      "clics": 27288,
+      "imps": 317954,
+      "ctr": 9.1
+    },
+    {
+      "date": "2026-03-12",
+      "clics": 23567,
+      "imps": 264962,
+      "ctr": 9.3
+    },
+    {
+      "date": "2026-03-13",
+      "clics": 24807,
+      "imps": 264962,
+      "ctr": "9.4"
+    }
+  ],
+  "competitorIntelligence": [
+    {
+      "title": "\"Je suis gastro-entérologue et voici 3 boissons que je consomme quotidiennement pour ma santé intestinale et du foie\"",
+      "source": "topsante.com",
+      "link": "https://www.topsante.com/nutrition_et_recettes/je-suis-gastro-enterologue-et-voici-3-boissons-que-je-consomme-quotidiennement-pour-ma-sante-intestinale-et-du-foie-953134",
+      "potential": "65%"
+    },
+    {
+      "title": "Mariés au premier regard : Mathieu papa poule, ses adorables clichés avec sa fille Enéa",
+      "source": "closermag.fr",
+      "link": "https://www.closermag.fr/tv_tele_realite/maries-au-premier-regard-mathieu-papa-poule-ses-adorables-cliches-avec-sa-fille-enea-3623139",
+      "potential": "50%"
+    },
+    {
+      "title": "Sommeil : découvrez les 3 plantes recommandées par le Dr Laure Martinat pour enfin mieux dormir",
+      "source": "doctissimo.fr",
+      "link": "https://www.doctissimo.fr/psychologie/problemes-psy/sommeil/comment-mieux-dormir/sommeil-decouvrez-les-3-plantes-recommandees-par-le-dr-laure-martinat-pour-enfin-mieux-dormir-743058.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "potential": "50%"
+    },
+    {
+      "title": "“Il lui a demandé…” : Bruno Salomone marié sur son lit d’hôpital, Guillaume de Tonquédec raconte la scène poignante",
+      "source": "closermag.fr",
+      "link": "https://www.closermag.fr/people/il-lui-a-demande-bruno-salomone-marie-sur-son-lit-dhopital-guillaume-de-tonquedec-raconte-la-scene-poignante-3624242",
+      "potential": "50%"
+    },
+    {
+      "title": "Comparée à Lenie, JuJu Fitcats répond : \"Je peux faire mon aventure tranquille, non ?\" - Cosmopolitan.fr",
+      "source": "cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNanhibGZscVVpamdzbVloREdONEl6RWowMGJiSkNYT29aWmVKNGRFb1lhc1U5cUdQMDNxNUZucjgzSEpRQnp3X3ZZNElFUXJNTkxodHE2S1BTS2pIZjM5SUdENlVxeGxIc0VUXzRTZmNrOGpnYWVocVhSMzVJcGlQaG9GWWl2ZVAwcTNGTmtqUDFrZmlRWk90dE8zSl9kNjU0QW1EUFNRRDlGY0tWa2JoaElRclVjZkpSUXJfNjk5UTgzTU9GUWVZdi1BTi1XRHBBVnQyU1hpNDJMaGhqVnI2MGxFa3NHQnJiTVUwSXhfLUg?oc=5",
+      "potential": "60%"
+    },
+    {
+      "title": "\"C'était sans doute la pire semaine\" : Ed Sheeran revient sur le cancer de sa femme, Cherry Seaborn - Cosmopolitan.fr",
+      "source": "cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPcnd4em5uQ0ZMeGVnMll2X1Jrb29FVlhUa3dOYl9tbWUwLXN6VzZYNjQwdmFvNmVPZlpxMEhlT3VQSDZHUHJxWUVlZ0laaGF3TndtU1FOeExodjFjel9WQ0g4RUliRzNqX3pzNWhzUVQ3Nk91Rk5XWW1kZFpBWDZKN2tKSjdyRWY3ck5Bd1Z0R01lY19UUS1NQW55R0NVc2sxbF9GZkRNZXJybjY5RVBUaWZNR3ZtUnY4U0l2ZjF1UkFxTEZNMU8yeFAzZXNmTHc?oc=5",
+      "potential": "50%"
+    },
+    {
+      "title": "“Je vais être franc avec toi...” : 3 signes discrets qu’un ami est jaloux de vous, selon les psys",
+      "source": "psychologies.com",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/3-signes-discrets-ami-jaloux-psys-625007?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "potential": "50%"
+    },
+    {
+      "title": "\"Je pensais qu'on allait me retirer des hémorroïdes, et les médecins m'ont annoncé un cancer\"",
+      "source": "topsante.com",
+      "link": "https://www.topsante.com/medecine/cancers/cancer_colorectal/je-pensais-quon-allait-me-retirer-des-hemorroides-et-les-medecins-mont-annonce-un-cancer-952920",
+      "potential": "50%"
+    }
+  ],
   "reco": "🚨 Alerte Dépendance : Ton trafic repose sur trop peu d'articles. Diversifie les angles !"
 }
