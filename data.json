@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T19:15:44.051Z",
+  "updatedAt": "2026-03-16T19:35:24.035Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "9.5%",
+    "cpu": "14.3%",
     "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T19:15:44.050Z",
+      "ts": "2026-03-16T19:35:24.035Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,50 @@
   ],
   "competitorArticles": [
     {
+      "title": "Santé des oreilles : le Dr Kierzek explique pourquoi vous devez absolument désinfecter vos écouteurs chaque jour",
+      "link": "https://www.doctissimo.fr/sante/maladies/maladies-orl/audition-maladies-orl/problemes-daudition/sante-des-oreilles-le-dr-kierzek-explique-pourquoi-vous-devez-absolument-desinfecter-vos-ecouteurs-chaque-jour-743055.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 19:30:20 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Musique, podcast, appels… Il y a plus d’une raison de porter des écouteurs au quotidien. Mais ces dispositifs, aussi discrets soient-ils, peuvent perturber la flore bactérienne de vos oreilles et caus"
+    },
+    {
+      "title": "Chantal Ladesou franche sur son rôle en fauteuil roulant dans Maison de retraite : \"Je l’ai dit aux auteurs...\"",
+      "link": "https://www.closermag.fr/tv_tele_realite/chantal-ladesou-franche-sur-son-role-en-fauteuil-roulant-dans-maison-de-retraite-je-lai-dit-aux-auteurs-3624204",
+      "pubDate": "Mon, 16 Mar 2026 19:30:05 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La série Maison de retraite revient ce lundi 16 mars sur TF1 avec deux nouveaux épisodes. Chantal Ladesou s’y illustre toujours dans la peau de la célèbre Colonelle."
+    },
+    {
+      "title": "Mort de Bruno Salomone : Jean Dujardin a tenu à assister aux avant-premières de son dernier film malgré la douleur",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-jean-dujardin-a-tenu-a-assister-aux-avant-premieres-de-son-dernier-film-malgre-la-douleur-3624240",
+      "pubDate": "Mon, 16 Mar 2026 19:20:03 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition brutale de Bruno Salomone a bouleversé le monde du cinéma. Pourtant, malgré l’immense chagrin qui l’a frappé quelques heures plus tôt, Jean Dujardin a tenu à honorer un engagement profe"
+    },
+    {
+      "title": "Vous souffrez de migraines ? Le passage à l'heure d'été a des conséquences, voici lesquelles - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPVFlkdHZ5cVhXQ3BzZ1VpWWtJWjhrRVRka0tzV0xfa3BQOHN3dTNlaE5jcF8yMnZCWWhqTXRYcUVpTGJISEhsNF9uYlVVWkt0QVMwT2duNkVnaGFSTHFXV1Q3czFkWTh4aF90cldjOXdRNmhOSTF3U0lkcEhnTnFMN3NUcDd1MU11QndFODVqV0s0OW13TUNBNWxjZk9acE14X2dMeWRHOUl4clNYbTBod1NkNWgwQndLNVUxOUFDTDNDOUdfcEtpcTVRLVUySmRCUDRTWEt5VHo?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 19:13:39 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Vous souffrez de migraines ? Le passage à l'heure d'été a des conséquences, voici lesquelles  Femme Actuelle"
+    },
+    {
       "title": "Au Japon, cette habitude nocturne étonnante renforce les couples",
       "link": "https://www.psychologies.com/couple/vie-de-couple/au-quotidien/Au-Japon-cette-habitude-nocturne-etonnante-renforce-les-couples-624959?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 19:03:26 +0000",
@@ -2241,6 +2285,17 @@
       "snippet": "Comment la différence d'âge impacte-t-elle la solidité d'un couple ? Des chercheurs ont mené une étude sur le sujet."
     },
     {
+      "title": "\"Trop sucré\" : voici le croissant à éviter le matin selon cette enquête de 60 millions de consommateurs - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOTJ2VkNfOGhNcWtVdGJGS2IyekxJdjZUQWhFbGJQUUJiWWFtN1hoQnFtaTRuRlpBOHZyd2ZPaXp2eDFQZ1FlZzc0SDY3TkxVcHBjWnZodUpaTTQzZ3ZUcUpEdFBRWTdGMlpQVWlvRHpFdGxFQ2c1UFUtTnRBejExYWxoTlVnV2VaOGJhaExTXzBOUkRiUlNGUDAxRkJUTGtnZDRnd0xpQkJvN1V6Y1BwM05Ja0pRUV9sbkpOVVFYZENjaUtBeXVqWjlwU0xUTkFBRENtTkNB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 17:32:58 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "\"Trop sucré\" : voici le croissant à éviter le matin selon cette enquête de 60 millions de consommateurs  Cosmopolitan.fr"
+    },
+    {
       "title": "Couple : toutes les vérités sont-elles bonnes à dire ? \"Pas n'importe comment\" précise notre psy",
       "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/couple-relation-amoureuse-et-psychologie/faire-durer-son-couple/couple-toutes-les-verites-sont-elles-bonnes-a-dire-pas-nimporte-comment-precise-notre-psy-742940.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 17:30:41 +0000",
@@ -2388,17 +2443,6 @@
       "snippet": "Notre sélection des meilleurs et des pires looks des Oscars 2026 en images : Toujours sur Linternaute.com  Linternaute.com"
     },
     {
-      "title": "Ancien mais très moderne, ce prénom d’origine grecque gagne du terrain en France",
-      "link": "https://www.doctissimo.fr/grossesse/choisir-un-prenom/tendance-prenoms/tendance-des-prenoms-en-france/ancien-mais-tres-moderne-ce-prenom-dorigine-grecque-gagne-du-terrain-en-france-742792.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 16:30:34 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Court, sonore et moderne, ce prénom de quatre lettres s’impose doucement dans les registres d’état civil. Longtemps discret, il séduit aujourd’hui par son caractère mixte et son énergie, porté par une"
-    },
-    {
       "title": "La reine Camilla Parker Bowles envoie un message clair à l’ex-prince Andrew",
       "link": "https://www.closermag.fr/royautes/la-reine-camilla-parker-bowles-envoie-un-message-clair-a-lex-prince-andrew-3624205",
       "pubDate": "Mon, 16 Mar 2026 16:30:01 +0000",
@@ -2543,28 +2587,6 @@
       "snippet": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM  Notre Temps"
     },
     {
-      "title": "Mort de Bruno Salomone : la ville où il résidait envisage un grand hommage à sa mémoire",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-la-ville-ou-il-residait-envisage-un-grand-hommage-a-sa-memoire-3624208",
-      "pubDate": "Mon, 16 Mar 2026 14:34:30 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "La disparition de Bruno Salomone continue de susciter l’émotion : dans la ville où il vivait, le maire sortant Olivier Dosne envisage de lui rendre un hommage à la hauteur de son talent."
-    },
-    {
-      "title": "Brigitte Bardot : après Alain Delon, BB grande oubliée des hommages lors de la cérémonie des Oscars",
-      "link": "https://www.closermag.fr/people/brigitte-bardot-apres-alain-delon-bb-grande-oubliee-des-hommages-lors-de-la-ceremonie-des-oscars-3624199",
-      "pubDate": "Mon, 16 Mar 2026 14:30:49 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Lors de la 98e cérémonie des Oscars, la séquence In Memoriam a provoqué l’incompréhension. Comme l’a relevé la presse internationale, Brigitte Bardot n’y figurait pas."
-    },
-    {
       "title": "Le “quart d’heure pour soi” : l’habitude scientifiquement prouvée pour booster son moral durablement",
       "link": "https://www.psychologies.com/bien-etre/relaxation/Le-quart-dheure-pour-soi-lhabitude-scientifiquement-prouvee-pour-booster-son-moral-durablement-625015?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 14:01:47 +0000",
@@ -2608,17 +2630,6 @@
         "aufeminin.com"
       ],
       "snippet": "Ce retour en mémoire n’est jamais anodin : notre cerveau tente souvent de nous transmettre un message émotionnel profond."
-    },
-    {
-      "title": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ? - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVDFEeXRYLU5ydXF2QjFvYUpmY3ZQZFJIS243RDh4RzVWN3J6RGU3TkNUZDBNVW1hX0ZPczVOeUNnWTQ0cmtqUkJSTnpXUmNrT0R2RDZzamZMT0toa1ZzQ29vcGwxaHAxRnU1amI1MWU4eFp4eE5TRzNRMnlCZUFLaUtVRGtSUEZwWkhmby0wZmxES1BscXZISDJTTXlmUEE1R3o0TzUxMHdxZDVBR3Q2U2NndUt0WldPSUxkOUxvYm9DbjVac3d2QmFrdTFhWE56ZThheFpmWUk?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 11:47:00 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ?  Femme Actuelle"
     },
     {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
@@ -2699,6 +2710,18 @@
       "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
     },
     {
+      "title": "Programme TV Cirque du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFJQUpjZE14aDN2ZzRDRlY2ZkpPRWw3T3ZFUElydnJONzYyM0pBUkRSdV9MTFlZNVFpLUR0cWlOeVhDWFhFZ2pkOFp3SWRuWVhkc0JRTi11ekUtT2JWNWZKVThyZDVJYUZCWVN0YzZSUDJsOXhXQXBhSEJ4RTFES0ppNW9sdVl0?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 09:01:34 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Cirque du dimanche 29 mars 2026  Linternaute.com"
+    },
+    {
       "title": "8 signes méconnus d'un déséquilibre de votre microbiote intestinal",
       "link": "https://www.medisite.fr/sante-8-signes-meconnus-dun-desequilibre-de-votre-microbiote-intestinal.5717304.917571.html",
       "pubDate": "Mon, 16 Mar 2026 10:00:00 +0100",
@@ -2744,17 +2767,6 @@
       "snippet": "Mort de Bruno Salomone : une pluie d’hommages pour l’acteur, dont celui de son ami Jean Dujardin  ELLE"
     },
     {
-      "title": "Valérie Lemercier et son appartement, Kate Middleton en rémission, Frédéric Lopez père attentif - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQlZIVU9lekxlLUJBUUhpd1p0b1hPekowd29xWWdfUlZiQTNuMUtIekVNeW01bjBUc0lheFpLNnJ6N3ZLWURMd0FmTGU4U2VBWndSV1luX3ZaOGdsdUk4aUQzZlVQMVd5SUtZalBuMGVQTnA0eTFwSzRPRkZwbklOVWF4RkdMYUZRX1ZvWUJ4M0NYbTdxWVM2UEtNcl9IU0Y4NXFITXVjbkpjbUxGdDNaamNpbFZyQ1pTZ21wc1NhT2dOLUt6UXM3dUVHQ1VxZw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 06:30:12 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Valérie Lemercier et son appartement, Kate Middleton en rémission, Frédéric Lopez père attentif  Cosmopolitan.fr"
-    },
-    {
       "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : battu et condamné à se retirer pour le second tour ? - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOWmlTYjMweEppY2lrWFE0X25uRGl5aDBpbzFfUGlvU0NOMTg5YmFDbENKcUpBREE5TUM0QTFCc1VNeVBONno0VHlaZ0NyQTlJdXNVVEh4aGpRaC1MUTV0aExsY0tmZmN3M1BCMGlZYXZBLU9fdnRsc1FzbFFjTldUNEY2cS1XOXYyblY4M0U5QWdBalZpRS1OeUxWaF9HYi1FOWpGOXktQzNsNFJFR1NvaFN2cVZkNUotazZSenJtMmV4MkN5UTNabk96ZnBsZE9WelVuYVV0akdXNXctekpOaFBMcnNUeHlDQVk5RFdmbnVNZXp2NEE?oc=5",
       "pubDate": "Mon, 16 Mar 2026 06:27:00 GMT",
@@ -2776,18 +2788,6 @@
         "aufeminin.com"
       ],
       "snippet": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026  Cosmopolitan.fr"
-    },
-    {
-      "title": "Romane Tardy - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tcVJMSUxlcUpSSGtZV3NiODlLdFhSNXRzZThOZ3JFZ1V0RVZ4Z2Z0a2xDcVlJRnN4RjhhZWoxTXp0WElsSGxZb3RIVU9CSGNXdFJIaGt5Q2xLa3N5UjhzbTZFMUQwdXlqVDNKdXIzUW0zX25w?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 04:44:06 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Romane Tardy  Linternaute.com"
     },
     {
       "title": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé? - Notre Temps",
