@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T12:15:44.143Z",
+  "updatedAt": "2026-03-16T13:15:43.375Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "13.6%",
+    "cpu": "14.3%",
     "ram": "21%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T12:15:44.143Z",
+      "ts": "2026-03-16T13:15:43.374Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2033,6 +2033,96 @@
   ],
   "competitorArticles": [
     {
+      "title": "Si vous pensez souvent à quelqu’un du passé, votre esprit essaie de vous dire quelque chose selon une psy",
+      "link": "https://www.psychologies.com/moi/se-connaitre/pensez-souvent-quelquun-passe-esprit-essaie-de-vous-dire-quelque-chose-selon-une-psy-615730?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 13:01:39 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Ce retour en mémoire n’est jamais anodin : notre cerveau tente souvent de nous transmettre un message émotionnel profond."
+    },
+    {
+      "title": "Règles douloureuses : Voici comment 90 mn de sport par semaine peuvent enfin calmer vos crampes",
+      "link": "https://www.doctissimo.fr/sante/maladies/gynecologie/regles/regles-douloureuses-voici-comment-90-mn-de-sport-par-semaine-peuvent-enfin-calmer-vos-crampes-742833.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 13:00:11 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Marre de voir vos journées gâchées par des crampes utérines insupportables ? Face aux règles douloureuses, la science révèle qu'une activité physique ciblée pourrait être aussi efficace que les médica"
+    },
+    {
+      "title": "5 fruits et légumes par jour : voici le ratio précis validé par Harvard pour protéger votre santé.",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/5-fruits-et-legumes-par-jour-voici-le-ratio-precis-valide-par-harvard-pour-proteger-votre-sante-952948",
+      "pubDate": "Mon, 16 Mar 2026 12:46:18 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Une vaste étude internationale précise que la répartition idéale entre les cinq fruits et légumes par jour est de deux portions de fruits et trois de légumes. Cette combinaison serait associée à une r"
+    },
+    {
+      "title": "Peut-on congeler des champignons ?",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-des-champignons-953001",
+      "pubDate": "Mon, 16 Mar 2026 12:44:33 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Trop de champignons qui se gâtent au frigo et un congélateur qui vous tente ? Avant d’y glisser la barquette, quelques règles évitent des poêlées ratées."
+    },
+    {
+      "title": "Mort de Bruno Salomone : quel sera son tout dernier rôle à la télévision ?",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-quel-sera-son-tout-dernier-role-a-la-television-3624170",
+      "pubDate": "Mon, 16 Mar 2026 12:40:32 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Avant sa disparition à 55 ans, Bruno Salomone travaillait encore pour la télévision. L’acteur devrait apparaître une dernière fois dans une série policière diffusée sur France 3."
+    },
+    {
+      "title": "Des nouveaux cheveux en quelques semaines ! Ce sérum capillaire booste la croissance et fortifie",
+      "link": "https://www.closermag.fr/beaute/des-nouveaux-cheveux-en-quelques-semaines-ce-serum-capillaire-booste-la-croissance-et-fortifie-3623670",
+      "pubDate": "Mon, 16 Mar 2026 12:30:37 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Découvrez le sérum fortifiant de Christophe Robin aux peptides d’amarante, le secret pour des cheveux plus forts, denses et pleins de vitalité dès la racine."
+    },
+    {
+      "title": "Cancer du sein : ce fruit d’été pourrait freiner la progression des tumeurs les plus agressives selon une étude",
+      "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/cancer-du-sein/cancer-du-sein-ce-fruit-dete-pourrait-freiner-la-progression-des-tumeurs-les-plus-agressives-selon-une-etude-742838.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 12:30:32 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Une récente étude de Texas A&M suggère que les cerises noires sucrées pourraient ralentir, chez la souris, un cancer du sein triple négatif. Que valent vraiment ces résultats pour les patientes et les"
+    },
+    {
+      "title": "Mort de Bruno Salomone : ce job improbable qu’il avait eu à Disneyland Paris",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-ce-job-improbable-quil-avait-eu-a-disneyland-paris-3624148",
+      "pubDate": "Mon, 16 Mar 2026 12:24:32 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Avant de devenir l’un des visages incontournables de la comédie française, Bruno Salomone a connu des débuts bien loin des plateaux de tournage. Disparu à 55 ans, l’acteur avait exercé un métier pour "
+    },
+    {
       "title": "Selon la psychologie, ces 8 phrases trahissent à coup sûr une personne égocentrique",
       "link": "https://www.psychologies.com/moi/se-connaitre/comportement/psychologie-phrases-trahissent-coup-sur-personnes-egocentriques-57837?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 12:05:24 +0000",
@@ -2089,8 +2179,8 @@
       "snippet": "Vous vous sentez irritable, fatigué ou incapable de vous concentrer ? Avant de blâmer votre café ou votre nuit de sommeil, regardez votre verre d'eau. Une légère déshydratation suffit à brouiller vos "
     },
     {
-      "title": "Vous aimez la burrate ? Voici l'astuce facile du chef Yotam Ottolenghi pour la sublimer en 5 minutes",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/vous-aimez-la-burrate-voici-lastuce-facile-du-chef-yotam-ottolenghi-pour-la-sublimer-en-5-minutes-952982",
+      "title": "Vous aimez la burrata ? Voici l'astuce facile du chef Yotam Ottolenghi pour la sublimer en 5 minutes",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/vous-aimez-la-burrata-voici-lastuce-facile-du-chef-yotam-ottolenghi-pour-la-sublimer-en-5-minutes-952982",
       "pubDate": "Mon, 16 Mar 2026 11:51:30 +0000",
       "source": "topsante.com",
       "icon": "💊",
@@ -2145,17 +2235,6 @@
       "snippet": "À 55 ans, Bruno Salomone s’est éteint en laissant un secret au creux de sa main gauche. Derrière cette alliance toute récente avec Audrey, une histoire bouleversante."
     },
     {
-      "title": "Nicolas Sarkozy en procès : quelles sont ses origines ?",
-      "link": "https://www.closermag.fr/people/nicolas-sarkozy-en-proces-quelles-sont-ses-origines-3624115",
-      "pubDate": "Mon, 16 Mar 2026 11:30:10 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Alors que Nicolas Sarkozy se retrouve une nouvelle fois au cœur de l’actualité judiciaire, de nombreux internautes s’interrogent sur son histoire personnelle. L’ancien président de la République possè"
-    },
-    {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNlFCb092QjVDVXRBM25CVUVFYkxvT0xBUFBQSFNqS3MzaXNTVFNwcmlWZVUzTTlOSXkyeUFFQ0l1UE52Q3NEMXlOTW1vT05nazI2NE1BdTVELWN5ajd2c21JODh4dXdwNXBYdXpCQzF3eUl1WllKbTU4SWVXWVhZdUdMWERRbkdtOXIzY1lha1lzRHE5SEd1RnF1eDlIQ2d4YzNxSGFtZ29sQXNJb0QwUDRhc1JHd2VKZ2V6UGlSakFOZkYzQjhCSlJHb3RuSnVxbmY3bTgzdDFnLS1iekVqWmNzODA0NGlIeHkwQ3hCN0l0bE42YUJpR2VaSjM3Z0NZdDd1S0l6MWdMeHNzd3VaUVV1U2RLRkpSN0Ew?oc=5",
       "pubDate": "Mon, 16 Mar 2026 11:27:04 GMT",
@@ -2176,28 +2255,6 @@
         "aufeminin.com"
       ],
       "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
-    },
-    {
-      "title": "Teyana Taylor bousculée en coulisses des Oscars : la vidéo de son altercation avec la sécurité devient virale",
-      "link": "https://www.closermag.fr/people/teyana-taylor-bousculee-en-coulisses-des-oscars-la-video-de-son-altercation-avec-la-securite-devient-virale-3624139",
-      "pubDate": "Mon, 16 Mar 2026 11:23:55 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Aux Oscars 2026, Teyana Taylor se retrouve filmée en pleine altercation avec un agent de sécurité en coulisses du Dolby Theatre. Que s’est-il passé juste après le sacre de One Battle After Another ?"
-    },
-    {
-      "title": "Adriana Karembeu : ses rares confidences sur Natalia, sa soeur, maman célibataire",
-      "link": "https://www.closermag.fr/people/adriana-karembeu-ses-rares-confidences-sur-natalia-sa-soeur-maman-celibataire-3624121",
-      "pubDate": "Mon, 16 Mar 2026 11:19:14 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Mère de Nina et fille de  ­Zlatica, Adriana Karembeu est aussi la soeur de Natalia. Dans les colonnes de Télé Loisirs, elle a fait de rares confidences sur sa cadette de six ans de moins qu'elle."
     },
     {
       "title": "Ventre gonflé après les légumineuses ? L’astuce d’une nutritionniste pour profiter de leurs bienfaits sans ballonnements",
@@ -2358,18 +2415,6 @@
       "snippet": "Printemps 2026, un coiffeur affirme que la trixie cut serait la coupe courte la plus rajeunissante pour les femmes de plus de 70 ans. Comment ce nouveau pixie revisité change-t-il le volume, l’ovale d"
     },
     {
-      "title": "Aujourd'hui en rémission après son cancer, Kate Middleton a supprimé cette boisson de son quotidien",
-      "link": "https://www.topsante.com/nutrition_et_recettes/aujourdhui-en-remission-apres-son-cancer-kate-middleton-a-supprime-cette-boisson-de-son-quotidien-952909",
-      "pubDate": "Mon, 16 Mar 2026 10:00:46 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Depuis l’annonce de son cancer, Kate Middleton a revu en profondeur sa façon de manger et de boire. Sa nouvelle routine alimentaire intrigue autant qu’elle inspire."
-    },
-    {
       "title": "Cantines des Hauts-de-France : ces pains et brioches servis aux enfants rappelés pour un détail inquiétant dans la mie",
       "link": "https://www.doctissimo.fr/nutrition/rappels-de-produits/cantines-des-hauts-de-france-ces-pains-et-brioches-servis-aux-enfants-rappeles-pour-un-detail-inquietant-dans-la-mie-742779.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 10:00:23 +0000",
@@ -2392,17 +2437,6 @@
       "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
     },
     {
-      "title": "Ces aliments peuvent soulager vos crampes d’estomac et prévenir les récidives - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeE1ZOG03SDgxM1BRRjRRNjFBRU4xdFZja0tFWUlhN3hIbTVWVC1qXzB1elE0QUdMcHg5V21UZmhvZjJRdGNkQUxSbE4wbndCN2RxS2hJVWJKQkxJRGx2ZEp5RUhnQ0d6Y2ZEUDMzV0Q4ZHYxMjc3ZnNTVW9ISk42cUZHVDM1clFINlpTZk43ZWdub0VGT0VhY2xlaGVzNFF2dm15N1hwOGFsTnVnVnBUbERvTm5VbnFCdG00YzY3b2tJOU9XU25oNFExMURWenU5ZE5XQm5JRVMtWkI0dzNTRnl2bw?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 09:46:00 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Ces aliments peuvent soulager vos crampes d’estomac et prévenir les récidives  Femme Actuelle"
-    },
-    {
       "title": "Ces 4 signes montrent que votre partenaire s’attache à une autre personne",
       "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/infidelite/4-signes-que-votre-partenaire-sattache-a-une-autre-personne-331663.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 09:30:48 +0000",
@@ -2414,18 +2448,6 @@
       "snippet": "Votre partenaire semble distant et moins investi dans votre relation ? Voici quatre indices qui pourraient indiquer qu'il ou elle développe des sentiments pour une autre personne."
     },
     {
-      "title": "Au rayon yaourts, il y en un considéré comme l'un des aliments les plus sains au monde : voici lequel",
-      "link": "https://www.topsante.com/nutrition_et_recettes/au-rayon-yaourts-il-y-en-un-considere-comme-lun-des-aliments-les-plus-sains-au-monde-voici-lequel-952912",
-      "pubDate": "Mon, 16 Mar 2026 09:20:10 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Parmi les dizaines de pots alignés en rayon, un yaourt se distingue par ses effets sur le poids, le cœur et le microbiote. Mais mal choisi, il bascule dans la catégorie des desserts ultra-transformés."
-    },
-    {
       "title": "Combien de temps faut-il pour oublier son ex ? La science a tranché",
       "link": "https://www.psychologies.com/couple/crises-divorce/Combien-de-temps-faut-il-pour-oublier-son-ex-La-science-a-tranche-624991?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 09:02:16 +0000",
@@ -2435,17 +2457,6 @@
         "aufeminin.com"
       ],
       "snippet": "Après une rupture amoureuse, tourner la page peut prendre du temps. Mais combien exactement ? Une étude récente apporte enfin une réponse scientifique à cette question que beaucoup se posent."
-    },
-    {
-      "title": "Ce prénom féminin chantant venu du latin séduit de plus en plus les jeunes parents",
-      "link": "https://www.doctissimo.fr/grossesse/choisir-un-prenom/prenoms-du-sud-europe/ce-prenom-feminin-chantant-venu-du-latin-seduit-de-plus-en-plus-les-jeunes-parents-742786.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 09:00:21 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Rare mais en progression, ce prénom à la sonorité internationale puise ses racines dans le latin et évoque la force et la détermination. Porté par des personnalités marquantes et apprécié pour son élé"
     },
     {
       "title": "8 signes méconnus d'un déséquilibre de votre microbiote intestinal",
@@ -2491,17 +2502,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Jeux paralympiques 2026 : le bilan plus que poussif de la délégation française  Linternaute.com"
-    },
-    {
-      "title": "Center Parcs : ce bracelet Princess Mimi prisé des enfants est rappelé, il pourrait mettre en danger les tout-petits",
-      "link": "https://www.doctissimo.fr/nutrition/rappels-de-produits/center-parcs-ce-bracelet-princess-mimi-prise-des-enfants-est-rappele-il-pourrait-mettre-en-danger-les-tout-petits-742775.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 08:15:24 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Un bracelet Princess Mimi vendu dans plusieurs Center Parcs fait l’objet d’un rappel national pour risque d’étouffement chez les tout‑petits. Êtes‑vous concerné par cette alerte jouets et que devez‑vo"
     },
     {
       "title": "Pour ne plus réagir à chaud face à une remarque blessante, utilisez la technique infaillible de cette psy",
@@ -2558,17 +2558,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : battu et condamné à se retirer pour le second tour ?  Linternaute.com"
-    },
-    {
-      "title": "Ces 4 micro-habitudes d’une thérapeute aident à construire une vie plus heureuse et plus saine",
-      "link": "https://www.psychologies.com/moi/se-connaitre/bonheur/4-micro-habitudes-therapeute-aident-construire-vie-heureuse-saine-590731?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 06:08:28 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Et si le secret du bien-être résidait dans de petits gestes quotidiens ? Les micro-habitudes, faciles à adopter, peuvent transformer durablement notre qualité de vie sans effort colossal."
     },
     {
       "title": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026 - Cosmopolitan.fr",
@@ -2693,6 +2682,18 @@
       "snippet": "Résultat municipale 2026 à Choisy-le-Roi (94600) – Résultats du 1er tour [PUBLIE]  Linternaute.com"
     },
     {
+      "title": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNV2gtRUNpaTMyb2NwdWl4R1dYUWVvS0l2WVowQnBRRU5TeE82UVVudHR1N0hxb1Z1eExndXJDS3BoQnQ0WWdyOFR0X1lRSEs1bVlMS2k4RFpkb1pWR1NQZ3BmdTZZUFZwN1JOaTZKdEJ5dUgyMnZja1lGU0IxYkJJNmlpOW85NUUzMmxqSFhBbEdKNEZ6OWpXMzRnaklnOGQ3SW41NVVsa3pfQVFfazQtS1pIVEpRdGtTVF9IMXgyZDdmMi1SeVdoLV93ZHItYTJIaXBDZU1RYWhuamhkY2ZkQ0Z1WC1wRkdUd2pMM1VhU1dabWJfNXBRMkhGVTJ5QQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 23:28:01 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne  Linternaute.com"
+    },
+    {
       "title": "Wordle : Le Mot du jour gratuit - 16 mars 2026 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUjFwMHBmWHRIczJZc2k5UlZfV2JjMXhXRWJmbHFJRnJicWFPQkhlQkNGVzVwNExhTmhOUXpmLXl0Uld0ZDY5ZUZPRzBlTmc4Xy1xOG5RSGVfeFN1MzRYTmpfblRTM20zM2V3Rms4dmsxaG9wSWFOZnBmangwRlB0ZTZ6eHdBQjBLVXptRE9KaUhtMG83SGhzSmtpc3Bmb181Ym40d2dWSmk0RkRnaF95Y1k3SnY?oc=5",
       "pubDate": "Sun, 15 Mar 2026 23:00:00 GMT",
@@ -2716,28 +2717,16 @@
       "snippet": "les résultats à Biarritz  Linternaute.com"
     },
     {
-      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdU1xaWg3b3hOU1hBOGV5WUpBTjFIVlFSNkVqTVBXQTU5TnBqdzMxN0tXS0t6RmlWN2FYMmJRSEpqaXR3dEVLVTE2RmktcHpJSVlPczM1Q1JqampnMDhhbUx0Q3lwWnYwMm0zbTVEeERoX1o1S2hhSndteGFhQTNidktmYkJsdng3ekVqZi1ySEJ2NTRodm5NUTZHZDNPYVpwaUtGY0tYcDlWUjNNb3RrQkpVak9vVzRoOTZMZzRJZ1cwYTgzTXB5bFgyank2NUR1M24wb1lIdi01Um8?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 21:27:00 GMT",
+      "title": "Résultat municipale 2026 à Pontault-Combault (77340) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTTl0cmp2MkY5VGxONmxZYi1NeW1ScVAtV3A3OFV0NW9KM08wNUp4YnR0bWJHb1NLUTdFVVYyeGVVblpiZTZITDJVWTBIN1plTFdjMENBMUZaVlhtSnJQLVNYb3VaUXA1YjJhZHZPSE5rVzVqaEpKUGlac0F5RkdyRVc4MElmMkc4SmRiQmZXZUpwX1lPNGpDNmdmNGFTdFJ4eTRMS2RaR2JFbEdoWmRHRnRWdE96VFpVbW1qNk1xMU1udkNobzZ5MVB3RFg0UFlfR1JXc0VPWEpoYlFqYmhUdGVBVVpiV0VKTmc?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 21:04:19 GMT",
       "source": "linternaute.com",
       "icon": "🌐",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ?  Linternaute.com"
-    },
-    {
-      "title": "les résultats à Vincennes - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNOER3UkttRTNtNlVoNHpwV1Rkcll6SHFIZTFlYTJWZThTS3J0cEEwUTk2cWVBMnVJbUVZYmJKR2J5X2ZVbVFoQ3JYcE00NVRkRk1RenhPU001TGFOLWh2LTNuTEFsT3BxNlhBdFBPZjJPZDhzQkRCOEpBUEM4bUVkZVhFTkR6dlBRbTlnWlE0UHZEZ1ZiWGVuS2VnY2YwWUxCR3BpM1Awa284WnMteFV1V21lYXEyTE9JVHVMdGU2cXlKLWlEUE1BR0cwY0FJd3JEc3NKUEF6ODRoNndmNmlV?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 21:19:18 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "les résultats à Vincennes  Linternaute.com"
+      "snippet": "Résultat municipale 2026 à Pontault-Combault (77340) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
     },
     {
       "title": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone - Femme Actuelle",
@@ -2850,6 +2839,17 @@
         "pleinevie.fr"
       ],
       "snippet": "La ménopause et la périménopause sont souvent synonymes de baisse de libido, un phénomène directement lié à la chute des œstrogènes et de la testostérone. Mais la flamme n&#039;est pas éteinte : nous "
+    },
+    {
+      "title": "\"C'est l'amour de ma vie\" : Didier (L'Amour est dans le pré) annonce être en couple avec une certaine Gisèle - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYjFoSHRzeUEwOUpPa1Z4SEJvc3ZiazhCTHZpc0dYMmJvcUtXQ3F6VFJLTGVrNWFRMG5zbTFqaUxoS2NFUWJVQ0xaMHl1VmxCcHNKN09iejNlZzY1eEhCMnZUNFVManhKeW4wUHZIQi1lZW5pVk9uTXo1ck4zMGdJT3lfMjJzNW14UFhPZGkwRGRhSU9ETHcyNWdTNV90UGFtVHVlZTZrQjctMTJFZl9hM2dzY0F6cExLQ0dwbUlWM0xyNVdyamJRXzRqOWFUTzczMlFXblBqZGxvSTMteXFvdzk0Y1p3YlI5RHc?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 14:56:10 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "\"C'est l'amour de ma vie\" : Didier (L'Amour est dans le pré) annonce être en couple avec une certaine Gisèle  Femme Actuelle"
     },
     {
       "title": "Horoscope : l’arrivée du printemps 2026 porte chance à ces deux signes astrologiques - ELLE",
