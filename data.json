@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T22:15:45.307Z",
+  "updatedAt": "2026-03-16T23:15:45.822Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -13,7 +13,7 @@
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T22:15:45.307Z",
+      "ts": "2026-03-16T23:15:45.822Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2252,6 +2252,17 @@
       "snippet": "On glisse épinards, viande hachée et pain au congélateur en pensant les sauver pour plus tard. Pourtant, ces trois produits supportent très mal les longues semaines de froid."
     },
     {
+      "title": "Aussi confortables que des pantoufles : ces mules minimalistes seront partout cette saison - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV0F5RlZyT1duXzBzalliX2gyVW5UY3ZBUHRYeGpyZi05cTVZOTBUU1owODhJN0dNcUpVaE1JOU9FbmNrdWNiNWxQNDN6THFvbGpRZkhwb2hTUWFRb0JPR2RnMGQyNmNiZjJjYVhCRHM3czhwUy1uZU9za0l4TTJYWm9ISEE4NjJXTVV2Q0pFQVlMNU1TS2p2R1RWdnl4YXJNS2V4b2dJUVRLUElYOFVycUFnM1hpd1AzbFVMWFl5Mkt2X2VxYjgzMVA5MHU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 19:32:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Aussi confortables que des pantoufles : ces mules minimalistes seront partout cette saison  ELLE"
+    },
+    {
       "title": "« Scarpetta » : la série avec Nicole Kidman aura-t-elle une saison 2 ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNEgwTDVqSVExNWxodzE2cEcxcmhsdzZMalNBamFMWFBtVDgtUGhnWGZLSF8wMVBWbUlpaTJDa3hYUDZfTXp5V1pMa1ZtdU1uU214MHRrOFhJeEtKUG4xUlczRFYyVkNGVTl1eG1lRHEyWnZjVFN5YjVNb2dVY3FPekhvVm9GeFh5TWk2SzRXQWZoeUQ2M191TnlUbzdoakg4ZDBGNmYxTWw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 19:31:00 GMT",
@@ -2487,17 +2498,6 @@
       "snippet": "En France, les œufs patientent à température ambiante en plein rayon, loin des frigos. Entre microbiologie et Bruxelles, la raison pourrait surprendre vos habitudes."
     },
     {
-      "title": "Oscars 2026 : où voir les films récompensés ? - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbTlHNW03M3JLcGMxN25qWjQxWWF4WmJzbUE2NDlvbjFaTzh4QUVnS2tDbnFhMDI1bFFfbUNRdG13cHBkNi16ZUVfOVdwNnRZYlRNc0tvN3h5RkRmVFZjMm5GcGx6M25icDJhWnh2MHhKWXBLUnpVVEtHcDJGbHhHZkFTc0taOXdk?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 17:37:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Oscars 2026 : où voir les films récompensés ?  ELLE"
-    },
-    {
       "title": "Les chercheurs sont formels : cet écart d’âge dans le couple augmente de 95 % le risque de rupture",
       "link": "https://www.psychologies.com/couple/vie-de-couple/chercheurs-formels-ecart-age-couple-augmente-risque-rupture-56143?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 17:34:11 +0000",
@@ -2620,6 +2620,17 @@
       "snippet": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme  Femme Actuelle"
     },
     {
+      "title": "Prix des carburants: le patron d'Intermarché appelle l'État à \"réduire sa marge\" - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPT1ZPVTJ5YWZFU05uSGMwNTNHMDhZbW1JRkFwMDJJSTlkVm1VZEZaNjZPVk5scTRDOGlFMkx5VUUzdXRLUS1rRGxZa2JWUGlHaUhDNGJGc0FPX2N0bTJjUE4waHJLYi1QSDE4YzY2WEFIdm1uVDcwcHZhMXEzb2Vva0ViX3hYMVNmOF9rRVVLUjBzTUFpeC10eEVmQlo2RnhoMmp1Q05yS240Uzl0bW44TXIwMk04ZF81UXpnag?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 15:21:11 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Prix des carburants: le patron d'Intermarché appelle l'État à \"réduire sa marge\"  Notre Temps"
+    },
+    {
       "title": "\"Il s'est marié il n'y a pas très longtemps\" : Bruno Salomone s'est uni avec sa compagne de longue date peu avant son décès - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcElPeGdxMTV4c0N0c3M3anRDNUJ4TmhxS2h6NkhwUnlGRzJQRVc0SWYwNl9GODZRdHZwMHJFV1RjY1lnWHlQOWFKeU9ySHA4RkZsU1hWc3JWS0M5c3dwRF9weHdLUERQdmwwX0Q3SXlXOEdraXVpMkNOa0hSdko4OUowUXZtSENJZm1JSXpFMzdQZVJQbF82aTR2TERfTE9yUkNjejRXODhhaGlqYnVxcFd2NWhMZHVpa3VreEU1eFlhTlJfVXBKbmNZUE56N2VWcFhlc1ZLRkV3MEx0dGpSNWc5WkMzb2Ftdm1JbjFjT0VGeFVkTG53YjRyNkVYeXdq?oc=5",
       "pubDate": "Mon, 16 Mar 2026 15:16:33 GMT",
@@ -2641,6 +2652,17 @@
         "pleinevie.fr"
       ],
       "snippet": "Nuit du doute 2026 : la date est connue et dévoilée par la Grande mosquée  Linternaute.com"
+    },
+    {
+      "title": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaDJ1VVlCUmpFU2tRWmRtdTgzMThOOXJkdVBmLWlvTVptbVpKTjYxMkowLV9uejR3VURRTzhoeTJKZGxQNWNSbENkWE0ydHJ3M29JMF9GR0Z0U0JXWHpuMjR0NFBDeDRXNnFXUkxpckNpZVo4dVRhWHRWY0FqdXZmY0g5Ny1pcThmd2ozSTFwWlBqR3ZXWXFmOV9vRUlRTG5vN2poM0FNVjRSZnhJTm9hUG9VWnRYWUFpbU4zRFBZRGp3U3F3YUxteTlvc05hdw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 14:36:14 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM  Notre Temps"
     },
     {
       "title": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
@@ -2665,6 +2687,17 @@
         "pleinevie.fr"
       ],
       "snippet": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
+    },
+    {
+      "title": "Christian Estrosi appelle au front républicain à Nice et à Marseille - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPXzU0aDZtOGdoNjJJUzBSNnRiMGFaMUNHWm1rZkFOdWFXdm9BQmhTWDgtYXhhUHVFT2F3UzNBMHdpNzVrV29CemFEenRQU1dxOVN2WFVJbWdNYS1WMW1sLXpnSWt4eDFkYkJfZk5aZ2pMRERoeWxSZk81S0RremJmMWlKaGlIUmIyVDlpSWpxdk5ZaVNHTmVfYndhMWNFY2ZrVnBBczFRYXJzclZPTThadA?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 12:21:11 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Christian Estrosi appelle au front républicain à Nice et à Marseille  Notre Temps"
     },
     {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
@@ -2802,17 +2835,6 @@
       "snippet": "Romane Tardy  Linternaute.com"
     },
     {
-      "title": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé? - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWkxSTnZ2aHZPU1hDRzR0SFBZZ3pyMjFzUzUzelVTa3JKbmI3NG1UODgyMVcyRHVmRDdIZjVKeXo0aVlBRUtZR250cDlKMjNyX1RmWEpUaUJvdFp0MXdOOFlKWlBISXdxNmVUZjZCMVFNenhPUy16RWdOVFdSQUVUenE5WE1SNVV0NFlvb2lsTVB5a2xFOWdGUFZjRGsyVWpHSkFDdnRLWFJ5UDhCcG45Qkh3amJiWFNJMXVOZXIzdm84R3lnbnExSzRNMk90bUZHMGpfRC1n?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 04:36:04 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé?  Notre Temps"
-    },
-    {
       "title": "“Impossible d’y résister !” : la recette réconfortante de cannelloni aux poireaux, chèvre et miel - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQcTNneUlRb0cybm5GVFZtNHgtYl9FbFZ6US1YeWdpTFZkTW16TEtjT3BaeEhBU0F4RGZDVDg3MlY0VE44U214Tms1VFhzSGI5QVJqcFNNQ2tvQmRMSDNjRmlvTXc2c3lrVHR2a2EwQ2VlR0ZPa251VmJtSTRCRllpUUFUbWdTUzVlWEpBNUF0N0RnN3RXUWx6Q2FpODU0a21sWHRrUUhuQ1VtZmVreGRwV3J5aFFRY0Z4TE0tMTdmVnFUeEgxTTFybXRMM1FnQlE?oc=5",
       "pubDate": "Mon, 16 Mar 2026 04:06:00 GMT",
@@ -2844,28 +2866,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Une étude majeure de l&#039;Inserm publiée début mars révèle le rôle fondamental des tanycytes dans le risque accru d&#039;Alzheimer et ouvre la voie à des thérapies inédites."
-    },
-    {
-      "title": "Mots fléchés gratuits - Force 4 - 16 mars 2026 Grille n°3886 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTDBFSklnUEFBSVIzM19xcjd2SUw3UElPTlExVG1oNEYwWnZyaUxLRmVUaXZGUGs2emh1aU1Cc0ZnVE9rOERxVGhnVlFucV9GUkprU2ZJdDlVN2VhN3VXM29GQmJxZU5qM2tYZ2FqSkhlbjVOYTR5aVhRZW9CSU9VTXByQ2lZUHN6V2VHMkw4UWsxbFJIR1Y4aHo3aFc3cktoTjItMGg5Y1NCV2o4QzlTMDFmLUNQT2J3MW1sSnNn?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:06:13 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mots fléchés gratuits - Force 4 - 16 mars 2026 Grille n°3886  Notre Temps"
-    },
-    {
-      "title": "Marseille: face au RN, Payan rejette la \"main tendue\" de LFI - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVlRjLThtaGgxRHlnUGRaMWNUVFBzM1kwaTVqWUIwNHp4eG5SOFA2ZHBiWEs5SWppUnJhSTZmOE10VGh0VlJ6QnlIRGVwdlVoWm5lbVpOVUQyMHJFd0cySmVWNElvTlZzVHdlenRaakp0T3M2TjNnemtKZG9hRjN4cU9xblB4R01jWTlXUURZdno2eWJ0UmlOblhfRk5LRVpn?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 00:51:10 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Marseille: face au RN, Payan rejette la \"main tendue\" de LFI  Notre Temps"
     },
     {
       "title": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne - Linternaute.com",
