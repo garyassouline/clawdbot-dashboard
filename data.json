@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T20:56:32.541Z",
+  "updatedAt": "2026-03-16T21:07:05.648Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -13,7 +13,7 @@
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T20:56:32.541Z",
+      "ts": "2026-03-16T21:07:05.647Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,62 @@
   ],
   "competitorArticles": [
     {
+      "title": "Yannick Noah dans Mariés au premier regard ? Sa “très jolie relation” avec une candidate révélée",
+      "link": "https://www.closermag.fr/people/yannick-noah-dans-maries-au-premier-regard-sa-tres-jolie-relation-avec-une-candidate-revelee-3624245",
+      "pubDate": "Mon, 16 Mar 2026 21:05:10 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le 23 février dernier, M6 a lancé la dixième saison de Mariés au premier regard. Parmi les candidates de cette édition, les téléspectateurs ont découvert Estell, une jeune femme qui connait très bien "
+    },
+    {
+      "title": "Inspirée de l’échangisme, cette pratique séduit de plus en plus les couples en quête de nouvelles sensations",
+      "link": "https://www.psychologies.com/Couple/Sexualite/Inspiree-echangisme-pratique-seduit-couples-quete-sensations-563596?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 21:03:38 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Pour s'initier en douceur au libertinage et expérimenter une nouvelle façon de faire l'amour, le côte-à-côtisme séduit de nombreux couples."
+    },
+    {
+      "title": "Utiliser l'huile de coco comme lubrifiant ? Le Dr Samuel Salama explique pourquoi c'est une fausse bonne idée",
+      "link": "https://www.doctissimo.fr/sexualite/sexualite-feminine/utiliser-lhuile-de-coco-comme-lubrifiant-le-dr-samuel-salama-explique-pourquoi-cest-une-fausse-bonne-idee-742877.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 21:00:50 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "L’huile de coco peut-elle vraiment être utilisée sur les muqueuses, en tant que lubrifiant naturel ? Si l’idée est de plus en plus évoquée (et partagée) sur les réseaux, qu’en est-il de ses effets dan"
+    },
+    {
+      "title": "Un nouvel outil d’IA capable de prescrire un traitement antidépresseur sur mesure (et plus efficace)",
+      "link": "https://www.topsante.com/medecine/sante_mentale/depression/un-nouvel-outil-dia-capable-de-prescrire-un-traitement-antidepresseur-sur-mesure-et-plus-efficace-952922",
+      "pubDate": "Mon, 16 Mar 2026 21:00:12 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Une étude sur 500 patients montre que ceux ayant reçu un antidépresseur personnalisé sélectionné à l'aide d'un outil d'intelligence artificielle étaient moins susceptibles d'interrompre leur traitemen"
+    },
+    {
+      "title": "Municipales 2026 : un maire sortant retrouvé mort, les résultats en cause ?",
+      "link": "https://www.closermag.fr/actualites/municipales-2026-un-maire-sortant-retrouve-mort-les-resultats-en-cause-3624218",
+      "pubDate": "Mon, 16 Mar 2026 21:00:08 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Choc à Viodos‑Abense‑de‑Bas : le maire sortant a été retrouvé mort au lendemain de sa défaite électorale. Les résultats sont-ils la cause de son suicide ?"
+    },
+    {
       "title": "\"Je suis gastro-entérologue et voici 3 boissons que je consomme quotidiennement pour ma santé intestinale et du foie\"",
       "link": "https://www.topsante.com/nutrition_et_recettes/je-suis-gastro-enterologue-et-voici-3-boissons-que-je-consomme-quotidiennement-pour-ma-sante-intestinale-et-du-foie-953134",
       "pubDate": "Mon, 16 Mar 2026 20:46:46 +0000",
@@ -2431,17 +2487,6 @@
       "snippet": "\"Trop sucré\" : voici le croissant à éviter le matin selon cette enquête de 60 millions de consommateurs  Cosmopolitan.fr"
     },
     {
-      "title": "Couple : toutes les vérités sont-elles bonnes à dire ? \"Pas n'importe comment\" précise notre psy",
-      "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/couple-relation-amoureuse-et-psychologie/faire-durer-son-couple/couple-toutes-les-verites-sont-elles-bonnes-a-dire-pas-nimporte-comment-precise-notre-psy-742940.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 17:30:41 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "L'honnêteté est le socle du couple, mais faut-il pour autant tout se dire au risque de blesser ? Entre désir de transparence et besoin de préserver son jardin secret, le psychologue Pascal Anger nous "
-    },
-    {
       "title": "C’est mon histoire : « J’ai pardonné à mon agresseur » - ELLE",
       "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRVljM3M5UGlwZUhySUxiV0FQYVFwNy15SXdOTXY2UWVCcVlHSFZtUURWODcwbVFLSXZ1b2swYnlaOUhHakNUbFk5NUdJYXpQTm1scGxKSGVZSWIxcTlyM1lYcW5ZeFI2TlBZUi1ERlRnUHZHOEc4SUVGOVoxM016bmFkN0pPN2lJUnBpX0Y0aEkyQUpmU2h4YWE4SkZUdjgzNGp5YU1GR0I?oc=5",
       "pubDate": "Mon, 16 Mar 2026 17:30:00 GMT",
@@ -2451,18 +2496,6 @@
         "mariefrance.fr"
       ],
       "snippet": "C’est mon histoire : « J’ai pardonné à mon agresseur »  ELLE"
-    },
-    {
-      "title": "Il y a une eau meilleure que les autres pour la santé et pour éviter les microplastiques, selon 60 Millions de consommateurs",
-      "link": "https://www.topsante.com/ma_sante_au_quotidien/il-y-a-une-eau-meilleure-que-les-autres-pour-la-sante-et-pour-eviter-les-microplastiques-selon-60-millions-de-consommateurs-953120",
-      "pubDate": "Mon, 16 Mar 2026 17:17:41 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "En France, nous buvons chaque jour sans vraiment savoir quelle eau expose le moins notre corps aux microplastiques. Enquêtant sur robinet et bouteilles, 60 Millions de consommateurs remet en cause bie"
     },
     {
       "title": "Epilation à lumière pulsée : l'épilateur Braun Silk-expert Pro 5 bénéficie d'une réduction de 41 % (à saisir avant ce soir !)",
@@ -2509,17 +2542,6 @@
       "snippet": "Combien de fois pète-t-on vraiment chaque jour ? Une étude répond  Femme Actuelle"
     },
     {
-      "title": "Brooklyn Beckham en froid avec ses parents : pour la fête des mères, ce message très clair envoyé à Victoria Beckham",
-      "link": "https://www.closermag.fr/people/brooklyn-beckham-en-froid-avec-ses-parents-pour-la-fete-des-meres-ce-message-tres-clair-envoye-a-victoria-beckham-3624221",
-      "pubDate": "Mon, 16 Mar 2026 16:36:26 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "La fête des mères n’a pas tout à fait ressemblé à ce qu’on imagine chez les Beckham. Selon plusieurs médias britanniques, Brooklyn Beckham a fait un geste qui n’est pas passé inaperçu."
-    },
-    {
       "title": "Notre sélection des meilleurs et des pires looks des Oscars 2026 en images : Toujours sur Linternaute.com - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMld1OWx3RGI1YXMxUjJYXzRKYnljWHVqRzJaUVNhcjFSandxaE9uX1p4aTZ5Sm9HdUIxQXhTQ1g4V1FBZFg4eTAzX2V6VXp2RHJOSC1XYzZvME54Mno2bFRjXzFlbmQzRTVYSWFxQUcwVnJsYmIyZk5Bd3IzYXFMMGpaUXBubm5xNEdXT0kyZ2NZYzlDdFVCT2Rsa2tsdWU0aEJ0aVk2ZTlhZzZ2T3VhOGxLX2VMVlFUbFJOelN2NVRDRExlU090X0F4Unl5UkhjODdrZzU1bw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 16:32:10 GMT",
@@ -2530,17 +2552,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Notre sélection des meilleurs et des pires looks des Oscars 2026 en images : Toujours sur Linternaute.com  Linternaute.com"
-    },
-    {
-      "title": "La reine Camilla Parker Bowles envoie un message clair à l’ex-prince Andrew",
-      "link": "https://www.closermag.fr/royautes/la-reine-camilla-parker-bowles-envoie-un-message-clair-a-lex-prince-andrew-3624205",
-      "pubDate": "Mon, 16 Mar 2026 16:30:01 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "En prenant la parole pour défendre les victimes de violences, la reine Camilla a prononcé un discours particulièrement fort. Mais derrière ses mots, certains y voient aussi une référence implicite au "
     },
     {
       "title": "\"Vegan + bacon\" : cette philosophie venue de TikTok pourrait transformer votre quotidien",
@@ -2585,29 +2596,6 @@
         "aufeminin.com"
       ],
       "snippet": "Et si le bonheur au travail n’était pas qu’une question de salaire ou de titre ? Selon la psychologie, certains métiers réunissent les conditions idéales pour préserver notre bien-être mental."
-    },
-    {
-      "title": "Le “quart d’heure pour soi” : l’habitude scientifiquement prouvée pour booster son moral durablement",
-      "link": "https://www.psychologies.com/bien-etre/relaxation/Le-quart-dheure-pour-soi-lhabitude-scientifiquement-prouvee-pour-booster-son-moral-durablement-625015?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 14:01:47 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Et si la clé d’une journée plus légère tenait simplement dans quelques minutes que l’on s’accorde vraiment ?"
-    },
-    {
-      "title": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWVNRUTFoRTFMRTNmYndwVnFJcmJ6NzVUZWMzQVhiR1hiNU11cnhzNTlHVUxvWGxPOVJHM2tONjN6bTAybWplejBCYkJzY1VVTnUteFRLQk05YU5mdEtpcWctT3dJQlIyajB6UHg3Q3RSdzVGMlI1U2RNaUtuREx0VlNWQ3VUUmhOcHFUcGR4UGgzVjBMUTNRaEhSeXdyMFFOdUhUSUJyZF9odXFRakFYa0dOV1liREhyVFRmNFZGbnN5VThOakFfTExUWjlsZFU?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 13:38:04 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
     },
     {
       "title": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
@@ -2664,6 +2652,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
+    },
+    {
+      "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdrT0lPdXRqUHZGNm5nc21jb2FuR3JUYmdGbzhVaGJaaWs1UWJ1bjZoMFRSVlZiekp4aTRoaU1uaVUxZm5kNksyQnZ2UDZjb3VFNE5zWVlibDk2eEJiU1JTUmV0c3RSUHhRVDFGM3pnQmlFVks4SkNRQV9tc1ZYLXoxdXBoZms?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 10:50:42 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Catch du vendredi 27 mars 2026  Linternaute.com"
     },
     {
       "title": "Résultats page [29] : Printemps - ELLE",
