@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T13:15:43.375Z",
+  "updatedAt": "2026-03-16T14:15:43.950Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "14.3%",
-    "ram": "21%",
+    "cpu": "10%",
+    "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T13:15:43.374Z",
+      "ts": "2026-03-16T14:15:43.950Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2033,6 +2033,141 @@
   ],
   "competitorArticles": [
     {
+      "title": "Un appel à témoin lancé pour retrouver Savanah, une adolescente disparue près de Dijon depuis deux mois - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNkJVZFdkREdaN0ZPSi1PbUFadkFzX2RheldZRC1WbElXeDB6N3B6ajVNbFd4R2lRZTN2LVU0V1gxRkR4UmdZYUJhZWcyWER6bGVnQWFsTjNHb0x3bTlDV1VXYjh4TmYzRVdpclE4aUcxZVlfS0hkMjQ0SW5ISDhoTEt5bGttVVBIQ19zYmxLQWt4ZDFZYUFKVGg1R2IzcDZGb0hxMlBxUnkxclRLUWhEaTBDNUo1VmVCUFF1WHRqaVBxR1piN3VrZG9kN1o?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 14:11:18 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Un appel à témoin lancé pour retrouver Savanah, une adolescente disparue près de Dijon depuis deux mois  Femme Actuelle"
+    },
+    {
+      "title": "Prenez soin de vous avec les Trésors de la Ruche Lune de Miel®",
+      "link": "https://www.topsante.com/prix_top_sante/prix_top_sante_edition_2025/bien_manger_2025/prenez-soin-de-vous-avec-les-tresors-de-la-ruche-lune-de-miel-952962",
+      "pubDate": "Mon, 16 Mar 2026 14:10:45 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Dans notre quotidien bien rempli, nous avons tous besoin de petits gestes qui nous aident à nous sentir mieux. Qu’il s’agisse de retrouver plus d’énergie, de rendre la digestion plus légère ou de sout"
+    },
+    {
+      "title": "Ce pain à ne pas acheter au supermarché selon une diététicienne : c'est un aliment de base, mais il est mauvais pour la santé cardiaque",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/ce-pain-a-ne-pas-acheter-au-supermarche-selon-une-dieteticienne-cest-un-aliment-de-base-mais-il-est-mauvais-pour-la-sante-cardiaque-952989",
+      "pubDate": "Mon, 16 Mar 2026 14:10:36 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Le sel caché dans certains produits courants du supermarché pourrait contribuer à une consommation élevée et augmenter le risque d’hypertension et de maladies cardiovasculaires."
+    },
+    {
+      "title": "Le “quart d’heure pour soi” : l’habitude scientifiquement prouvée pour booster son moral durablement",
+      "link": "https://www.psychologies.com/bien-etre/relaxation/Le-quart-dheure-pour-soi-lhabitude-scientifiquement-prouvee-pour-booster-son-moral-durablement-625015?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 14:01:47 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Et si la clé d’une journée plus légère tenait simplement dans quelques minutes que l’on s’accorde vraiment ?"
+    },
+    {
+      "title": "Il refuse de laisser mourir son chien : comment ce magnat de la tech a poussé ChatGPT à créer un vaccin anticancer",
+      "link": "https://www.doctissimo.fr/animaux/chien/sante-du-chien/il-refuse-de-laisser-mourir-son-chien-comment-ce-magnat-de-la-tech-a-pousse-chatgpt-a-creer-un-vaccin-anticancer-742827.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 14:00:42 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Condamnée par un cancer des mastocytes, la chienne Rosie n’avait plus que quelques mois à vivre. Jusqu’au jour où son maître, magnat de la tech, a demandé à ChatGPT de l’aider à imaginer un vaccin ARN"
+    },
+    {
+      "title": "Vous ne pourrez plus vous passer de ces 3 astuces pour attendrir des blancs de poulet facilement !",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/vous-ne-pourrez-plus-vous-passer-de-ces-3-astuces-pour-attendrir-des-blancs-de-poulet-facilement-953026",
+      "pubDate": "Mon, 16 Mar 2026 13:46:13 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Blancs de poulet souvent secs malgré toute votre attention ? Trois gestes ultra simples avant cuisson, dont une marinade étonnante, changent radicalement la donne."
+    },
+    {
+      "title": "Mort de Bruno Salomone : ce rôle surprenant dont il rêvait secrètement",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-ce-role-surprenant-dont-il-revait-secretement-3624192",
+      "pubDate": "Mon, 16 Mar 2026 13:45:55 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Ce 15 mars 2026, Bruno Salomone est décédé des suites d’un cancer, à seulement 55 ans. Invité dans Télématin en février 2025, il avait fait des confidences sur ce rôle qu’il aurait rêvé incarner."
+    },
+    {
+      "title": "Chenilles processionnaires du pin : déjà 2600 signalements, comment protéger votre famille de ce danger ?",
+      "link": "https://www.doctissimo.fr/famille/vacances/piqure-dinsecte/chenilles-processionnaires-du-pin-deja-2600-signalements-comment-proteger-votre-famille-de-ce-danger-742830.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 13:32:50 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dès le mois de mars, les chenilles processionnaires envahissent de nouveau nos jardins et forêts. Le problème ? Leurs poils urticants, invisibles à l’oeil nu, peuvent être responsables de graves réact"
+    },
+    {
+      "title": "Mort de Bruno Salomone : Eric Judor partage un tendre souvenir de l’acteur",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-eric-judor-partage-un-tendre-souvenir-de-lacteur-3624132",
+      "pubDate": "Mon, 16 Mar 2026 13:30:32 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition de Bruno Salomone à 55 ans a bouleversé le monde du spectacle. Parmi les nombreux hommages, l’humoriste Éric Judor a partagé un texte émouvant sur leurs débuts sur scène."
+    },
+    {
+      "title": "Délai supplémentaire pour inscrire ses voeux sur la plateforme Mon Master - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ3FPOGx0ZkV1Zk1ZWkh2NGkxNk9SSjBGYnhlUWR3MEdMZmE3VFJRYng3QlVQRGp4TmR6elMwemZEbWJYSDFGaE9rVzBDR0dhaW0yZGZMeTBnUnhNZ0t6T3k4LU9rMlZiSnJtTHFzVFJEOXhNRVhGdl8tR21XM3M1ZlpwNmYtZ0NhQTBaMi1rWkRfbEpsaFNSQlh2RmY5OEpHRDVYUTMyZzdwaFFUc3V6dGNENlVxU1k?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 13:21:17 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Délai supplémentaire pour inscrire ses voeux sur la plateforme Mon Master  Notre Temps"
+    },
+    {
+      "title": "BN, Milka, Twix... ces biscuits populaires reçoivent la note de 0/100 sur Yuka. Pourquoi sont-ils si mal notés ?",
+      "link": "https://www.doctissimo.fr/nutrition/manger-equilibre/gouter-equilibre/bn-milka-twix-ces-biscuits-populaires-recoivent-la-note-de-0-100-sur-yuka-pourquoi-sont-ils-si-mal-notes-742848.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 13:17:15 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Alerte rouge au rayon goûters. Selon une récente publication de la plateforme Yuka, une bonne partie des biscuits que nous achetons à nos enfants (et pour nous-même !) récolterait la note catastrophiq"
+    },
+    {
+      "title": "Iris Mittenaere soutien publiquement Antoine Dupont : ils ne se cachent plus - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQUVZCTDNmWFVZYlhKUlYxc0JsUUVZcTJ3R3lIWU1HSmNOSTVCM2ozXzE4bjRFVXlVVmp2SlNmSjBKNkJyVjZtcHlkMTVXY3ltc2tsZTZ0a20zZ213MjdjRjhiNG5UdW1DNTBGalhQV2dwRUJneUtvMHdxV1ExcXJoamx1WVJ0OHlodl82Qm5IOFZpbFVHcW1ZbUVIMm1YTFpkdExJN28xUUpxZVk3dFk1cmxNZXJUajlTSUlWbWNYdm9lRk5KQ2RyOENOOUU4Ni1KZTdUckhiMUNZOHBXRk4yQVpxS3VwTU91b0h2N2lpZzM?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 13:12:29 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Iris Mittenaere soutien publiquement Antoine Dupont : ils ne se cachent plus  Cosmopolitan.fr"
+    },
+    {
       "title": "Si vous pensez souvent à quelqu’un du passé, votre esprit essaie de vous dire quelque chose selon une psy",
       "link": "https://www.psychologies.com/moi/se-connaitre/pensez-souvent-quelquun-passe-esprit-essaie-de-vous-dire-quelque-chose-selon-une-psy-615730?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 13:01:39 +0000",
@@ -2213,28 +2348,6 @@
       "snippet": "Aux municipales 2026 à Paris, Sarah Knafo franchit de justesse la barre des 10 % et se hisse au second tour face aux poids lourds. Mais ce 10,40 % rebat-il vraiment les cartes pour la droite parisienn"
     },
     {
-      "title": "Rachida Dati candidate à la mairie de Paris : quel score pour la maire du 7e arrondissement aux municipales ?",
-      "link": "https://www.closermag.fr/politique/rachida-dati-candidate-a-la-mairie-de-paris-quel-score-pour-la-maire-du-7e-arrondissement-aux-municipales-3624161",
-      "pubDate": "Mon, 16 Mar 2026 11:41:29 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Au premier tour des municipales 2026 à Paris, Rachida Dati affrontait Emmanuel Grégoire pour l’Hôtel de Ville. Son résultat, encore éloigné de la tête, rebat les cartes d’une droite en quête de revanc"
-    },
-    {
-      "title": "Bruno Salomone : l'acteur de Fais pas ci, fais pas ça s'était marié en toute discrétion avant son dernier souffle",
-      "link": "https://www.closermag.fr/people/bruno-salomone-lacteur-de-fais-pas-ci-fais-pas-ca-setait-marie-en-toute-discretion-avant-son-dernier-souffle-3624124",
-      "pubDate": "Mon, 16 Mar 2026 11:38:25 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "À 55 ans, Bruno Salomone s’est éteint en laissant un secret au creux de sa main gauche. Derrière cette alliance toute récente avec Audrey, une histoire bouleversante."
-    },
-    {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNlFCb092QjVDVXRBM25CVUVFYkxvT0xBUFBQSFNqS3MzaXNTVFNwcmlWZVUzTTlOSXkyeUFFQ0l1UE52Q3NEMXlOTW1vT05nazI2NE1BdTVELWN5ajd2c21JODh4dXdwNXBYdXpCQzF3eUl1WllKbTU4SWVXWVhZdUdMWERRbkdtOXIzY1lha1lzRHE5SEd1RnF1eDlIQ2d4YzNxSGFtZ29sQXNJb0QwUDRhc1JHd2VKZ2V6UGlSakFOZkYzQjhCSlJHb3RuSnVxbmY3bTgzdDFnLS1iekVqWmNzODA0NGlIeHkwQ3hCN0l0bE42YUJpR2VaSjM3Z0NZdDd1S0l6MWdMeHNzd3VaUVV1U2RLRkpSN0Ew?oc=5",
       "pubDate": "Mon, 16 Mar 2026 11:27:04 GMT",
@@ -2324,18 +2437,6 @@
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
     },
     {
-      "title": "Voici les 10 produits à ne jamais congeler !",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/voici-les-10-produits-a-ne-jamais-congeler-952957",
-      "pubDate": "Mon, 16 Mar 2026 10:54:51 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Vous remplissez votre congélateur pour éviter le gaspillage, mais certains aliments y perdent tout. Dix produits du quotidien y font plus de mal que de bien."
-    },
-    {
       "title": "Résultats page [119] : Netflix - ELLE",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBrZGtXcFhhMVpMRWhKNUFhZGxHSWdrLVdLc2lLSkhkSVBYT2R2c09xajE2RUFZdWRBeEczRjJZb2QtSGJmSEVKWXpUUlo2RktPQjJocw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:53:54 GMT",
@@ -2347,6 +2448,18 @@
       "snippet": "Résultats page [119] : Netflix  ELLE"
     },
     {
+      "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdrT0lPdXRqUHZGNm5nc21jb2FuR3JUYmdGbzhVaGJaaWs1UWJ1bjZoMFRSVlZiekp4aTRoaU1uaVUxZm5kNksyQnZ2UDZjb3VFNE5zWVlibDk2eEJiU1JTUmV0c3RSUHhRVDFGM3pnQmlFVks4SkNRQV9tc1ZYLXoxdXBoZms?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 10:50:42 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Catch du vendredi 27 mars 2026  Linternaute.com"
+    },
+    {
       "title": "Résultats page [29] : Printemps - ELLE",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GNzNheVdMb2NrdUw4SkZrYVZLZ21ic3lhOTdybXdXWGdMMjQ1QUNHbEYwMHNuby1GZTZSMUxrdlkxd2ZpNXlqWkxodkI1bmVBci01dnV3?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:37:36 GMT",
@@ -2356,29 +2469,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Résultats page [29] : Printemps  ELLE"
-    },
-    {
-      "title": "Ongles : ces manucures que vous portez encore sont déjà has been ce printemps, voici quoi adopter à la place",
-      "link": "https://www.doctissimo.fr/beaute/soins-du-corps/soins-du-corps-cibles/soins-des-ongles/ongles-ces-manucures-que-vous-portez-encore-sont-deja-has-been-ce-printemps-voici-quoi-adopter-a-la-place-742759.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 10:22:57 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Entre lemon nails éclatants et nudes réchauffés, le printemps 2026 bouscule nos manucures en France. Quels looks d’ongles passent en tête, lesquels sont déjà à oublier ?"
-    },
-    {
-      "title": "Les gens qui vivent le plus heureux en 2026, sont ceux qui adoptent ces 6 habitudes au coucher",
-      "link": "https://www.topsante.com/forme_bien_etre/les-gens-qui-vivent-le-plus-heureux-en-2026-sont-ceux-qui-adoptent-ces-6-habitudes-au-coucher-952939",
-      "pubDate": "Mon, 16 Mar 2026 10:20:14 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "En France, alors que le bonheur recule de 13 points en douze ans, une poignée de personnes semble résister à la morosité. Leur secret tient en 6 habitudes au coucher qui transforment les 30 dernières "
     },
     {
       "title": "\"Elle s'y connaît...\" : le prince William taquine Kate Middleton lors de leur sortie publique - Cosmopolitan.fr",
@@ -2403,29 +2493,6 @@
       "snippet": "Au fil des prises de décision politique et des sorties officielles, la stabilité mentale de Donald Trump laisse libre cours aux interprétations. Le président américain a-t-il vraiment perdu la tête ?"
     },
     {
-      "title": "Selon un coiffeur, après 70 ans, la coupe \"trixie cut\" est la plus rajeunissante du printemps 2026",
-      "link": "https://www.topsante.com/beaute_soins/selon-un-coiffeur-apres-70-ans-la-coupe-trixie-cut-est-la-plus-rajeunissante-du-printemps-2026-952928",
-      "pubDate": "Mon, 16 Mar 2026 10:04:13 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Printemps 2026, un coiffeur affirme que la trixie cut serait la coupe courte la plus rajeunissante pour les femmes de plus de 70 ans. Comment ce nouveau pixie revisité change-t-il le volume, l’ovale d"
-    },
-    {
-      "title": "Cantines des Hauts-de-France : ces pains et brioches servis aux enfants rappelés pour un détail inquiétant dans la mie",
-      "link": "https://www.doctissimo.fr/nutrition/rappels-de-produits/cantines-des-hauts-de-france-ces-pains-et-brioches-servis-aux-enfants-rappeles-pour-un-detail-inquietant-dans-la-mie-742779.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 10:00:23 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Dans les cantines des Hauts-de-France, un rappel vise baguettes, pains et brioches livrés par ToufletBoulanger. Qui est concerné et comment réagir sans paniquer ?"
-    },
-    {
       "title": "La Bourse de Paris reste prudente face au risque géopolitique - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ3BWZVJCd0RiZzhRTVpHVTNZSlRWZWF4MV9KNjlPQ3NOc2twaWFxQVNnT0E2QW44V3JQRG9BenNmVUVsUkN0T2c5N2FiazBOUEd2WmEtbzM4bmFoRjVCR0x2UlN3d1hqRjZzamJScHBjOTNBcUZkZ1NPcWdXbkdXa3FsM0QyUk1IT1N6U3Y1cmMzZ3d4MktuUWcxeE5TTDkwYUZYUW5TOA?oc=5",
       "pubDate": "Mon, 16 Mar 2026 09:51:15 GMT",
@@ -2437,17 +2504,6 @@
       "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
     },
     {
-      "title": "Ces 4 signes montrent que votre partenaire s’attache à une autre personne",
-      "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/infidelite/4-signes-que-votre-partenaire-sattache-a-une-autre-personne-331663.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 09:30:48 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Votre partenaire semble distant et moins investi dans votre relation ? Voici quatre indices qui pourraient indiquer qu'il ou elle développe des sentiments pour une autre personne."
-    },
-    {
       "title": "Combien de temps faut-il pour oublier son ex ? La science a tranché",
       "link": "https://www.psychologies.com/couple/crises-divorce/Combien-de-temps-faut-il-pour-oublier-son-ex-La-science-a-tranche-624991?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 09:02:16 +0000",
@@ -2457,6 +2513,18 @@
         "aufeminin.com"
       ],
       "snippet": "Après une rupture amoureuse, tourner la page peut prendre du temps. Mais combien exactement ? Une étude récente apporte enfin une réponse scientifique à cette question que beaucoup se posent."
+    },
+    {
+      "title": "Programme TV Cirque du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFJQUpjZE14aDN2ZzRDRlY2ZkpPRWw3T3ZFUElydnJONzYyM0pBUkRSdV9MTFlZNVFpLUR0cWlOeVhDWFhFZ2pkOFp3SWRuWVhkc0JRTi11ekUtT2JWNWZKVThyZDVJYUZCWVN0YzZSUDJsOXhXQXBhSEJ4RTFES0ppNW9sdVl0?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 09:01:34 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Cirque du dimanche 29 mars 2026  Linternaute.com"
     },
     {
       "title": "8 signes méconnus d'un déséquilibre de votre microbiote intestinal",
@@ -2515,17 +2583,6 @@
       "snippet": "Il suffit parfois d’un mot de travers pour provoquer des réactions émotionnelles fortes chez soi. Nos sentiments sont parfois tellement heurtés qu’il est difficile de trouver une manière intelligente "
     },
     {
-      "title": "Si vous ne ressentez pas cette émotion dans votre couple, votre sécurité émotionnelle est en danger (et votre sommeil aussi), selon une étude",
-      "link": "https://www.psychologies.com/couple/vie-de-couple/au-quotidien/Si-vous-ne-ressentez-pas-cette-emotion-dans-votre-couple-votre-securite-emotionnelle-est-en-danger-et-votre-sommeil-aussi-selon-une-etude-624956?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 07:02:41 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Une nouvelle étude révèle qu’un sentiment bien précis au sein du couple ne protège pas seulement la relation, il influence aussi la santé mentale, le sommeil et même certains comportements à risque."
-    },
-    {
       "title": "Astro love : les signes qui vont vivre une belle histoire d'amour en mars 2026 - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNck5kMHRySUFuTVpkWDhkSkgxYkZmbUJONFlkZVhZUC1iSGhEbG14X0ZUcHNSSWxPaDR0QzZ3elhqclhVbU82NEQ1RWkyR0Jybkc4SVlxSC1HZGwwZ1ptajFWTU9tRWR2SUV1RHlyWTV0d2Y4cmVBNnpLSUFKaHlYX1lLSVdtVzZxRHpCTEVvcFBvOE1jazZDZjVneFJ3VVkzYlVSYmtZbmFRREVaWVpaYmZqTElWMGJaSWE3bWZYNVZ0SU9VMFhyVlA5bXY2a0duRHY0bFZB?oc=5",
       "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT",
@@ -2560,6 +2617,17 @@
       "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : battu et condamné à se retirer pour le second tour ?  Linternaute.com"
     },
     {
+      "title": "Oscars 2026 : « Une bataille après l’autre », « Sinners », voici les grands gagnants de la soirée - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ25vSnM5a0RiT1ozMUYxV0pXbElGQ2FzT0xXNUU5MDJaaU1BbGc3MGxjVmtzR0laTTBYUTFXTU9FbXZrOWxzTTVxNGtmRGt2N1RNMGJGeXV2YndBMzFaRmE0WVBYczhxQnJubDVxTUpNZXlCMXdQMTBzZi1fOENZZGp6Q1lsaG9UZWlZZXRlVGdkdkti?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 05:20:39 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Oscars 2026 : « Une bataille après l’autre », « Sinners », voici les grands gagnants de la soirée  ELLE"
+    },
+    {
       "title": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026 - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFdNajB4UlpxaTQ3NWN5N194QnBIeEVFYWhjWmM3bTN6VVFDcm9mLWxuX1pJbVVMUnZESEY4aEt5bEMyRUxqa2ZPcmJVUjFTeW5pWmE2ejlQZG03dU43eVFsRXZHMmh3Q0V6YVFOR0N0UWc0dmhkSEEycW5Uc3pDT1kzQW9fTTZWWEptNGNPMUVlVlhJbnRHQkhiMTNuMjdqaVFDZTBMa3F4X0RCd2pnejVfVWF2SnhsVzNJbW1SMUM4NEpaWmVTc3c5TFRNOHNFY2p6enZR?oc=5",
       "pubDate": "Mon, 16 Mar 2026 05:00:00 GMT",
@@ -2569,6 +2637,17 @@
         "aufeminin.com"
       ],
       "snippet": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé? - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWkxSTnZ2aHZPU1hDRzR0SFBZZ3pyMjFzUzUzelVTa3JKbmI3NG1UODgyMVcyRHVmRDdIZjVKeXo0aVlBRUtZR250cDlKMjNyX1RmWEpUaUJvdFp0MXdOOFlKWlBISXdxNmVUZjZCMVFNenhPUy16RWdOVFdSQUVUenE5WE1SNVV0NFlvb2lsTVB5a2xFOWdGUFZjRGsyVWpHSkFDdnRLWFJ5UDhCcG45Qkh3amJiWFNJMXVOZXIzdm84R3lnbnExSzRNMk90bUZHMGpfRC1n?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 04:36:04 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé?  Notre Temps"
     },
     {
       "title": "“Impossible d’y résister !” : la recette réconfortante de cannelloni aux poireaux, chèvre et miel - Femme Actuelle",
@@ -2604,17 +2683,6 @@
       "snippet": "Une étude majeure de l&#039;Inserm publiée début mars révèle le rôle fondamental des tanycytes dans le risque accru d&#039;Alzheimer et ouvre la voie à des thérapies inédites."
     },
     {
-      "title": "Mini fléchés gratuits - 16 mars 2026 Grille n°3284 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQR29XZlEtMlNQY1hKVzRUUUZlYzdFSTJuRmVZS3lmVFVhOUdQOU1MdWRVVkIzVnJ6ckxidzZLZzVBNEROTGpneU9JZUtoSU9tNWxWS2lfdnVzVEoxZ1Z0bnYyZVQtYTdQVFFCd1lGNHVfZWNQVWd1NzBPSlR0ZF9qN1ctZGJ0SVJaX0V5ODF6eXcyLXJ3VVNscGx4czFBa0dyWElpaVZMTXo?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:06:21 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mini fléchés gratuits - 16 mars 2026 Grille n°3284  Notre Temps"
-    },
-    {
       "title": "ifléchés gratuits - Force 1 - 16 mars 2026 Grille n°1507 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFowT3hSWk1mV0xoTFJ2RktMa0d0VS1mWEpBUERPMEVHTmFndVJwNUxpQnNLcDgxajNnQmNsRTNDb3FVYWg0ZFctR3pfcmZQTTlSRUQ3dWtpTEMybHlaeG84Q2xoN0dveGYxRUYyNVJicS1SVEIzSVBLWlZrMVdkNEh4Y0VGX3hYcnNmQ04tUG5tX2RLS1hiUkJrUmNDYXhDN004VG9NRzJ2cm90cEQzbWZBNA?oc=5",
       "pubDate": "Mon, 16 Mar 2026 02:06:14 GMT",
@@ -2637,17 +2705,6 @@
       "snippet": "Mots fléchés gratuits - Force 4 - 16 mars 2026 Grille n°3886  Notre Temps"
     },
     {
-      "title": "Mots fléchés gratuits - Force 3 - 16 mars 2026 Grille n°3885 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOclI5NEhMUHZRa19iYXRKNE9TaS12Tm5IQ205elJvMzRiM2JiVERvY1g5M3NjUjZ0VmtJaC03ODhhZUpWd1hMSEdtaThVZXdZcnkyUF9EMXR6bU5jWlBXSHB3eU5CZTZvZ01TZWhaVU5aV1JmendUSmVlWjlQRE9hbENaRl9RbG5jcG1tUzg4NlF2MzJHQWgycHB2dDhJVHhwVWZzbnlwdTI3MnkxbzI4RF8wV0tVNnVoWEhISWxB?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:06:11 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mots fléchés gratuits - Force 3 - 16 mars 2026 Grille n°3885  Notre Temps"
-    },
-    {
       "title": "Mots fléchés gratuits - Force 2 - 16 mars 2026 Grille n°3886 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLUMzcFFoX2RQN1M4dW5PUlNnQzQ1REtvYWp6M2VFNF9ibFZBV0wyVnhVV2dXbXZwcmtpZ2hFMXRnUzVzb1loajVuS2w1ZlB4emJCVG9BTEVSdHhnbWl0eEpuZlpTZ2tTYmlxWlZHRHRTbnNTdFNGcjBNSTlzM3A4b3dadHBsUjJvUHNqSHRhVUhjcUhsVzFvOFZKNTBIWndVVmNuYkU0bmhmTVlpRUcwZW1LZDBKUHIyZlhQR09R?oc=5",
       "pubDate": "Mon, 16 Mar 2026 02:06:10 GMT",
@@ -2668,18 +2725,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Marseille: face au RN, Payan rejette la \"main tendue\" de LFI  Notre Temps"
-    },
-    {
-      "title": "Résultat municipale 2026 à Choisy-le-Roi (94600) – Résultats du 1er tour [PUBLIE] - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV3hRa1VuUTRvU2xTXzFNOElCQjZNa21NUzFLOVZZMWx1RF9jRlZ3QmNDUHJja1l2Zl82VnJqWk43ZHBPb2ZCc1MxNTU1UWo5a0xPOWhOLVFIY1FOWG5QQ0EzQThSbHJrc1NhN0hybGRFSTl1VVUtRmtQWDBEY2lPelJldHRaYlBnN190cDVnQmZ2bkJwLUdqUHdVQXE0bEpXbERkN1JTTEswNmRYVTR4bXNsX1lKZzcxNkVaM0tqU0lUcHlRUGZjN0ZvWUVxSlUtN2xrR1BWUUVRQ2ZPMHc3dXdaNkw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:50:15 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat municipale 2026 à Choisy-le-Roi (94600) – Résultats du 1er tour [PUBLIE]  Linternaute.com"
     },
     {
       "title": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne - Linternaute.com",
@@ -2705,28 +2750,16 @@
       "snippet": "Wordle : Le Mot du jour gratuit - 16 mars 2026  Notre Temps"
     },
     {
-      "title": "les résultats à Biarritz - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYTNieERWeVkyRjhVMlhBUGN5SVdIMUd1M3hFN3czeWlsZ1o1SG4ybWw4cWFTVy1ueXkxX1paVjYyVFNtdTFfOWM5V2taWURHdVI0TVFURGZsTEtTRzVBRGdNNV9TaEJrR05tbUxPbmJqMHNELTZQMU0taXlMblI0WjZDT244alg4NjBFSW1WcTRpd3VWNDc1aGJWY1pLdkVMNHZNRkVXSWNrNEs3SU01TlVXc203MlhSSzFxZTdlNHVQWG9xd1RYaDllVmlHWk5qeWhRay13VUJPUmFpQWc?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 21:51:01 GMT",
+      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ? - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdU1xaWg3b3hOU1hBOGV5WUpBTjFIVlFSNkVqTVBXQTU5TnBqdzMxN0tXS0t6RmlWN2FYMmJRSEpqaXR3dEVLVTE2RmktcHpJSVlPczM1Q1JqampnMDhhbUx0Q3lwWnYwMm0zbTVEeERoX1o1S2hhSndteGFhQTNidktmYkJsdng3ekVqZi1ySEJ2NTRodm5NUTZHZDNPYVpwaUtGY0tYcDlWUjNNb3RrQkpVak9vVzRoOTZMZzRJZ1cwYTgzTXB5bFgyank2NUR1M24wb1lIdi01Um8?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 21:27:00 GMT",
       "source": "linternaute.com",
       "icon": "🌐",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "les résultats à Biarritz  Linternaute.com"
-    },
-    {
-      "title": "Résultat municipale 2026 à Pontault-Combault (77340) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTTl0cmp2MkY5VGxONmxZYi1NeW1ScVAtV3A3OFV0NW9KM08wNUp4YnR0bWJHb1NLUTdFVVYyeGVVblpiZTZITDJVWTBIN1plTFdjMENBMUZaVlhtSnJQLVNYb3VaUXA1YjJhZHZPSE5rVzVqaEpKUGlac0F5RkdyRVc4MElmMkc4SmRiQmZXZUpwX1lPNGpDNmdmNGFTdFJ4eTRMS2RaR2JFbEdoWmRHRnRWdE96VFpVbW1qNk1xMU1udkNobzZ5MVB3RFg0UFlfR1JXc0VPWEpoYlFqYmhUdGVBVVpiV0VKTmc?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 21:04:19 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat municipale 2026 à Pontault-Combault (77340) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
+      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ?  Linternaute.com"
     },
     {
       "title": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone - Femme Actuelle",
@@ -2740,16 +2773,16 @@
       "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
     },
     {
-      "title": "les résultats à Saint-Avold - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPVGo4RUFLYkt2UlpuMnJkdVBpWEtpUXFldGlSclk5SmR4WGtEazJfcUlXTzdMZVZ6OXdvemtjRXUzb2hWLU5ET0VxWGdKNUFMT3ByMzBDV1ZTYm5nTUFVeC1tMjVSMFFYTnd6LW5XQl82aTU2allOSXVCemgycFNnNF81NjEtREpqSS13Qkx1WldmRWtwMzJ5emw3R3FBM3JYeVJhSVlFdVUxdjVJT0ViUC03WVNtdXl1UVIzLWN0bnprTF9wN3JEUFoybFhzNDlfTVJGay1YVEtlUkN6QkpMMWV3?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 20:15:55 GMT",
+      "title": "Résultat municipale 2026 à Saint-Hilaire-de-Riez (85270) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU3J4bHp1RVMtQ3puWllXMkNQUnRoZmxTRnJIQTNTYjlTbHNIQU1TalM3SEVKU1k5NjNMc0g1OUI5dkdaZ0c5dG56dVhLZWloWkdfTlRpNF9RMFRrT1FmblhaVjhIa1M5dHVkbmx3c1dOWnNsQVBCTUphdUlnMWRla0ZGM1M3ZUZPMUlpeW44dEJtWkdvdmtlZFJ2aHB2bWNhRFY2NTBHYS1jRlFMU2hUWmtoTzNrTzFpdjFoQnZWM3FJOGY3UFVyemRYcV9kaVktLUI0OUk5czg5NHpJZjd6WnNmb29yYmRjUmF1bnZzcw?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 20:51:36 GMT",
       "source": "linternaute.com",
       "icon": "🌐",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "les résultats à Saint-Avold  Linternaute.com"
+      "snippet": "Résultat municipale 2026 à Saint-Hilaire-de-Riez (85270) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
     },
     {
       "title": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu - Cosmopolitan.fr",
@@ -2850,39 +2883,6 @@
         "mariefrance.fr"
       ],
       "snippet": "\"C'est l'amour de ma vie\" : Didier (L'Amour est dans le pré) annonce être en couple avec une certaine Gisèle  Femme Actuelle"
-    },
-    {
-      "title": "Horoscope : l’arrivée du printemps 2026 porte chance à ces deux signes astrologiques - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbWJ1M3BOMnhhT0FDSmlvb1lBcmdCZHBKOFdhazYybHVJemJuSWliVXFXUmNhcmJ1UW9ER0xzNklCQjFfRElCSkRnVEpCc094ZWJyXzNRTnRnbE5hYzNVZENoMFFRNFJSZktOdXgxcWJFMXpjdFdBWlhkQlZtczhGQ1NCenA3RTZNNFBFTTFIWEpzcE1QLXBTbVhjZng5MDNpZDdSOGdES2NxN2JtZFUyeXMxOUpEdEkxbXBaOVRRbXpiUkhDWEwtcHdZcm9rR3Fv?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 14:15:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Horoscope : l’arrivée du printemps 2026 porte chance à ces deux signes astrologiques  ELLE"
-    },
-    {
-      "title": "\"Notre petit trésor\" : Clarisse Agbégnénou a accouché de son deuxième enfant - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbFhqSW5yTTljQ2VsanNRU19WRFNYRXc0RWxIekwtbnNrNm5CYml1REktTVNqSXJubEtYYmFNRWQyeDlZQTNGSzJfQWdxQzFyVDlYWnRMd19tYS1XMThqUUZOcGJ4TmwydEtldWFzUmQzdmFvU1BCdlJuZGdfN0dURHpKdXNPeTUtakdja1pYZG93ZzVBaEtrTk5CYUtnamRFbW9EbjdmMjJLVFgwbFJ6YTZXN0U2N0tyZUlUVUkta25fQQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 14:12:15 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Notre petit trésor\" : Clarisse Agbégnénou a accouché de son deuxième enfant  Femme Actuelle"
-    },
-    {
-      "title": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOdS04cExyY2kyNTJHeGdNSkhhb2RHNTA3Q2hiMjVnN3Q2UEF1VEdzeEk2dUlPX2M3bU9EMURqQkZlelNYTlpjaUxQY056VFZpMXdWTkdHeDFhYndaMnpOQVVHcmU5TDdZTzdPZ3FEaUItYzduXzBPaVhDRmhqU0J6WG43ckpmekc4anRSQjBiT2hPRTFzWTFpZzNxbUNYYVB5Qnhfb18ybTVjQnM0cVNUSU5HMXBpZ0Nra0N3Tm5pSlRZQVVvSFc1cmhkOTFGNW52SDFWc1U3R1dHTTJnbmdXemE5SUI?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 14:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "\"Une intrigue haletante\" : ce thriller psychologique nous plonge dans les années 90 et glace le sang des lectrices  Cosmopolitan.fr"
     },
     {
       "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
