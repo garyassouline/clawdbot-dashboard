@@ -1,11 +1,12 @@
 {
-  "updatedAt": "2026-03-16T21:28:48.618Z",
+  "updatedAt": "2026-03-16T21:50:20.076Z",
   "kpis": {
     "concentration": "84.5%",
     "lifespan": "16.4h",
     "avgCtr": "9.36%",
     "gapIndex": 3,
-    "trustScore": "8.4/10"
+    "trustScore": "8.4/10",
+    "revenue": "2026.96€"
   },
   "champions": [
     {
@@ -13,6 +14,7 @@
       "clicks": 5431,
       "impressions": 59428,
       "ctr": "9.14%",
+      "revenue": "454.62€",
       "burnout": "24h",
       "hook": "Informatif",
       "eeat": "Haute"
@@ -22,6 +24,7 @@
       "clicks": 4780,
       "impressions": 34341,
       "ctr": "13.92%",
+      "revenue": "262.71€",
       "burnout": "48h",
       "hook": "Informatif",
       "eeat": "Haute"
@@ -31,6 +34,7 @@
       "clicks": 2023,
       "impressions": 10889,
       "ctr": "18.58%",
+      "revenue": "83.30€",
       "burnout": "48h",
       "hook": "Informatif",
       "eeat": "Haute"
@@ -40,6 +44,7 @@
       "clicks": 1904,
       "impressions": 35346,
       "ctr": "5.39%",
+      "revenue": "270.40€",
       "burnout": "12h",
       "hook": "Informatif",
       "eeat": "Standard"
@@ -49,6 +54,7 @@
       "clicks": 1864,
       "impressions": 33862,
       "ctr": "5.50%",
+      "revenue": "259.04€",
       "burnout": "12h",
       "hook": "Informatif",
       "eeat": "Standard"
@@ -58,6 +64,7 @@
       "clicks": 1349,
       "impressions": 19569,
       "ctr": "6.89%",
+      "revenue": "149.70€",
       "burnout": "12h",
       "hook": "Informatif",
       "eeat": "Standard"
@@ -67,6 +74,7 @@
       "clicks": 982,
       "impressions": 5790,
       "ctr": "16.96%",
+      "revenue": "44.29€",
       "burnout": "48h",
       "hook": "Curiosité",
       "eeat": "Haute"
@@ -76,6 +84,7 @@
       "clicks": 920,
       "impressions": 6720,
       "ctr": "13.69%",
+      "revenue": "51.41€",
       "burnout": "48h",
       "hook": "Informatif",
       "eeat": "Haute"
@@ -85,6 +94,7 @@
       "clicks": 874,
       "impressions": 8148,
       "ctr": "10.73%",
+      "revenue": "62.33€",
       "burnout": "24h",
       "hook": "Informatif",
       "eeat": "Haute"
@@ -94,6 +104,7 @@
       "clicks": 838,
       "impressions": 3197,
       "ctr": "26.21%",
+      "revenue": "24.46€",
       "burnout": "48h",
       "hook": "Informatif",
       "eeat": "Haute"
@@ -201,5 +212,5 @@
       "potential": "60%"
     }
   ],
-  "reco": "🚨 ALERTE : Ta dépendance au Top 10 est critique (84.5%). Lance immédiatement 3 articles sur les 'Gaps' identifiés pour ventiler ton trafic."
+  "reco": "🚨 ALERTE : Ta dépendance au Top 10 est critique (84.5%). Ton CA de 2026.96€ repose sur trop peu d'articles."
 }
