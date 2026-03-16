@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T21:15:44.844Z",
+  "updatedAt": "2026-03-16T22:15:45.307Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "9.5%",
-    "ram": "22%",
+    "cpu": "19%",
+    "ram": "23%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T21:15:44.844Z",
+      "ts": "2026-03-16T22:15:45.307Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2039,6 +2039,39 @@
   ],
   "competitorArticles": [
     {
+      "title": "“Une tendance croissante” : cette méthode surprenante améliore la qualité du sommeil selon la science",
+      "link": "https://www.psychologies.com/bien-etre/sommeil/methode-surprenante-ameliore-qualite-sommeil-science-588714?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 22:03:06 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Si vous pensiez avoir tout tenté pour améliorer votre sommeil, il y a fort à parier que vous n’avez pas essayé cette méthode originale révélée par une nouvelle étude."
+    },
+    {
+      "title": "Mort de Bruno Salomone : “Une fin de vie très…”, ses derniers instants racontés par ses proches",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-une-fin-de-vie-tres-ses-derniers-instants-racontes-par-ses-proches-3624247",
+      "pubDate": "Mon, 16 Mar 2026 21:53:04 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition de Bruno Salomone, survenue le 15 mars à l’âge de 55 ans, a profondément bouleversé le monde de la télévision française. Invités dans l’émission C à vous ce lundi 16 mars, l’acteur Guil"
+    },
+    {
+      "title": "Astrologie 2026 : ce signe qui pourrait connaître un tournant sentimental le 17 mars",
+      "link": "https://www.closermag.fr/psycho_sexo/astrologie-2026-ce-signe-qui-pourrait-connaitre-un-tournant-sentimental-le-17-mars-3624074",
+      "pubDate": "Mon, 16 Mar 2026 21:45:07 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le 17 mars 2026, les Cancer pourraient bien recevoir une belle surprise côté cœur tout en profitant d’une journée sereine sur tous les autres plans."
+    },
+    {
       "title": "Yannick Noah dans Mariés au premier regard ? Sa “très jolie relation” avec une candidate révélée",
       "link": "https://www.closermag.fr/people/yannick-noah-dans-maries-au-premier-regard-sa-tres-jolie-relation-avec-une-candidate-revelee-3624245",
       "pubDate": "Mon, 16 Mar 2026 21:05:10 +0000",
@@ -2252,6 +2285,17 @@
       "snippet": "La série Maison de retraite revient ce lundi 16 mars sur TF1 avec deux nouveaux épisodes. Chantal Ladesou s’y illustre toujours dans la peau de la célèbre Colonelle."
     },
     {
+      "title": "Aéroports: le trafic du groupe ADP pâtira du conflit au Moyen Orient en mars - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOa3pHTEMxZUJmNTNfbG5BWWZDZVhFZzdBbFhLWnBlamxzU2FwVEdkNlg4UDU2ektsOWlhZE5yLTRMVlA1SV9ydkJCc21TRVVYY1JGWFZUOTJhNFVTWnFSdzdDay1kTmhVSzZpSW5yUThwcUdWMHdKUkJjenBJNDk1NkhWZkY1TF9NN29JZE9qRmJna2FEbjA5emlBbHFSZ0ZkYXlmejlYU3BEN2cxbmFHUjhCeWpuc2h2NlE?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 19:21:14 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Aéroports: le trafic du groupe ADP pâtira du conflit au Moyen Orient en mars  Notre Temps"
+    },
+    {
       "title": "Mort de Bruno Salomone : Jean Dujardin a tenu à assister aux avant-premières de son dernier film malgré la douleur",
       "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-jean-dujardin-a-tenu-a-assister-aux-avant-premieres-de-son-dernier-film-malgre-la-douleur-3624240",
       "pubDate": "Mon, 16 Mar 2026 19:20:03 +0000",
@@ -2342,15 +2386,15 @@
       "snippet": "Troisième cancer le plus fréquent chez l’homme, le cancer colorectal fait peur.  Mais bonne nouvelle : l’alimentation et l’hygiène de vie jouent un rôle majeur dans la prévention. Focus sur quatre gro"
     },
     {
-      "title": "“C’est parti” : après Complément d’enquête, Patrick Sébastien lance son nouveau projet",
-      "link": "https://www.closermag.fr/people/cest-parti-apres-complement-denquete-patrick-sebastien-lance-son-nouveau-projet-3624213",
-      "pubDate": "Mon, 16 Mar 2026 18:30:20 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "Retrouvée momifiée il y a deux siècles, qui était la « Demoiselle de Strasbourg », au coeur du plus vieux cold case français - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxONXdjRzV4U0RjeGxVbktjNTk3OFJJT3JKRDlpMzh6LUZiVzNwbDBGRjY0X0xLdk8xS0JNRXdHOVZnYTdLUi1LUVJsaHdjWnNEZk1IUkVyLVFVR29UQzlhbG9kYi1XRl9GOWFkYl9MNjZlLWh0djY3VGcxdFlTd1pWYlg3QVRWX0xPam45dVJTcGROOGEwbXdsQ0FfQnJyaERLVlFiWE9KMFcwa2U2TkNkU2xkNGlVVDdiOUhibEVGLVNSaDRCQUlrcXJXcE1OSzduMVF4em5LRmFvY0xHeGZMU3d1cEVtLVUzc3BWUmhhbkNSNldFU2IxTGFvRzZoZklUTUpxbjhB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 18:30:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Écarté de France 2 et toujours en conflit avec la chaîne publique, Patrick Sébastien semble vouloir tourner la page. L’ancien animateur du Plus grand cabaret du monde a annoncé un nouveau projet : la "
+      "snippet": "Retrouvée momifiée il y a deux siècles, qui était la « Demoiselle de Strasbourg », au coeur du plus vieux cold case français  ELLE"
     },
     {
       "title": "La banane fait-elle grossir ou aide-t-elle à perdre du poids ? Claire Trommenschlager, diététicienne, tranche la question",
@@ -2373,17 +2417,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Michelin 2026 : qui a décroché 3 étoiles ? Retrouvez le palmarès complet du célèbre guide gastronomique  Femme Actuelle"
-    },
-    {
-      "title": "La Bourse de Paris respire grâce au répit sur le marché pétrolier - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSHMxYlZqVFlZWDFVckk4M2JCQkxnY3hMcnZMT2M4dnhWdmd1WFNiWlZzZGkweUVCOF8zWEg0WVZnWGhFMEFucFVtbkhTLWdwUE5fSFJrUmpucW1TMjduaXBfSFhRT1N5SzNfTW1Bc3RZWnR0cnptRzZqQ3RKcExIYXdXNVNsaGtfdU9WRFdyeTVIVnk3ZFhCOGZhUDdCWXgxVXJZVjBJQWhaMkRJ?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 18:06:17 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "La Bourse de Paris respire grâce au répit sur le marché pétrolier  Notre Temps"
     },
     {
       "title": "Les personnes qui marchent souvent en regardant le sol partagent ces 3 traits de personnalité, selon la psychologie",
@@ -2476,37 +2509,26 @@
       "snippet": "Comment la différence d'âge impacte-t-elle la solidité d'un couple ? Des chercheurs ont mené une étude sur le sujet."
     },
     {
-      "title": "\"Trop sucré\" : voici le croissant à éviter le matin selon cette enquête de 60 millions de consommateurs - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOTJ2VkNfOGhNcWtVdGJGS2IyekxJdjZUQWhFbGJQUUJiWWFtN1hoQnFtaTRuRlpBOHZyd2ZPaXp2eDFQZ1FlZzc0SDY3TkxVcHBjWnZodUpaTTQzZ3ZUcUpEdFBRWTdGMlpQVWlvRHpFdGxFQ2c1UFUtTnRBejExYWxoTlVnV2VaOGJhaExTXzBOUkRiUlNGUDAxRkJUTGtnZDRnd0xpQkJvN1V6Y1BwM05Ja0pRUV9sbkpOVVFYZENjaUtBeXVqWjlwU0xUTkFBRENtTkNB?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 17:32:58 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "\"Trop sucré\" : voici le croissant à éviter le matin selon cette enquête de 60 millions de consommateurs  Cosmopolitan.fr"
-    },
-    {
-      "title": "C’est mon histoire : « J’ai pardonné à mon agresseur » - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRVljM3M5UGlwZUhySUxiV0FQYVFwNy15SXdOTXY2UWVCcVlHSFZtUURWODcwbVFLSXZ1b2swYnlaOUhHakNUbFk5NUdJYXpQTm1scGxKSGVZSWIxcTlyM1lYcW5ZeFI2TlBZUi1ERlRnUHZHOEc4SUVGOVoxM016bmFkN0pPN2lJUnBpX0Y0aEkyQUpmU2h4YWE4SkZUdjgzNGp5YU1GR0I?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 17:30:00 GMT",
+      "title": "Violences sexuelles dans le périscolaire : quelles sont les écoles parisiennes les plus touchées - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNNE5rcHN1eEdsenhMSHZJb1l3LTc0alJCMTJOa2UxUmZnd3cySWNaWUlod0JudjVRLU1jc3lwYzJ6dGIybW9wSnN6YVRzLTdESGNqZC1DSU04dGlVQVpBSVB1QzhqY2oxWFVnTkltZTY1V2Y4aDNTblVrcDI2MktJZ0Fsb3hwY1dzVTM3bi1SbGFVaUhSQjJJV2FTd3VGa0dHSm9jU01MR2QtN01GVk0yQkg3d0pJR05Jbm1aenQ4bzl2ZF9UVUpoWE1xWEpNczNB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 17:04:00 GMT",
       "source": "elle.fr",
       "icon": "👗",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "C’est mon histoire : « J’ai pardonné à mon agresseur »  ELLE"
+      "snippet": "Violences sexuelles dans le périscolaire : quelles sont les écoles parisiennes les plus touchées  ELLE"
     },
     {
-      "title": "Epilation à lumière pulsée : l'épilateur Braun Silk-expert Pro 5 bénéficie d'une réduction de 41 % (à saisir avant ce soir !)",
-      "link": "https://www.closermag.fr/shopping/epilation-a-lumiere-pulsee-lepilateur-braun-silk-expert-pro-5-beneficie-dune-reduction-de-41-a-saisir-avant-ce-soir-3624048",
-      "pubDate": "Mon, 16 Mar 2026 17:00:09 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "Dua Lipa : plus amoureuse que jamais au bras de Callum Turner aux Oscars 2026 - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZEw2d2hIak10cllPNXM5Vm9uSHZPaGVKbTBKTGVOWDhZd0J1NnltdTAtNTJPeEhFNjdiRFQwcEJIZ3RxTWZBNV93cC1mOWtlRTljMmRhNFh6dUxxbHBGb0NoZzFqTzZvV3Brb3RXNnVOMVd4N2N0WHM3UG9oTmhWcnB0SmdQSXhHdWZzdVZ1MUZDVnMxdnRtS1AzaUoxZzkza3BlZFpGYTRXcmxDeFFwM0VDZEpJYk5KVkNUcU1LbXZEaVU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 17:01:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Une peau douce pendant plusieurs mois sans avoir besoin de passer par la case institut ça vous tente ? L’épilation à la lumière pulsée se veut plus accessible en ce moment avec l'épilateur Braun Silk-"
+      "snippet": "Dua Lipa : plus amoureuse que jamais au bras de Callum Turner aux Oscars 2026  ELLE"
     },
     {
       "title": "Hémorroïdes : 5 ingrédients cachés dans les lingettes qui les aggravent",
@@ -2565,6 +2587,28 @@
       "snippet": "Et si viser la perfection nous empêchait d’agir ? Sur TikTok, la tendance “vegan + bacon” propose une approche plus souple : changer progressivement, sans attendre d’être irréprochable."
     },
     {
+      "title": "L'édito de Marie Auffret: Du \"22 à Asnières\" au téléphone portable, une histoire en partage! - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVUlQY29pS3VkT3o4ZC1QaVpiRWJDVlFxaGRjSEpkaGFLUjZHRUtIQnpzdWhUOVgyTmVQZUpjSm41eUlfLXdTOXRvemZYVV9jUkRvbGJVUnA5cjhaY2RSM0hUbTcwUW4zcVFTc3ZVSC10NUxEc0lWeExubVBPekJCeHVnYzhzOFJGd3RkelR2aDVJQ0pUSVp6WTdNb00?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 15:51:05 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "L'édito de Marie Auffret: Du \"22 à Asnières\" au téléphone portable, une histoire en partage!  Notre Temps"
+    },
+    {
+      "title": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0JnWmJzX3ZJVlNJWW56N1pfaHhSdExyNzQ0MzRCZVROemR5ZUFtLUlaODBnajN3YWY4YUNjZTFxT3JoRjBRaXB2aXBkSmJLTDRiVFJvd1pWeEpzbHV5S0hQTkRhWWtDVzlTNzNnX24tNVhISDUyVFlTZE4ybzBUeU1IbHVfUjhYUkhRdHNKTDFQRVlZQlB4VTVpd2Vid0MzREF4MndXcjZZLUJrRERTUEpR?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 15:48:30 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps  Cosmopolitan.fr"
+    },
+    {
       "title": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQQ0NPU1lpUFNLWTFyTm8zeTBSMXc2M1lQNGxLa2VsWEw2aVJFV1pnOXlHRkZGV2s3Y1hvTWJyOXFwQWxLMWdIRFlodHdNZnQ4U2RlVkNWRkxyM1NuUU85Q2w2WmNEMTZrcjhlTDJCbGtCZlQtUEVYTWE0dGJLTzlQSUpleVVsVC1QbVUyNXBXZzRIMUJIX093elpMdERXLTNQcVVMcTZ1Skd3aVF3ZDhJNUFTbi1RUFNiNllsT1Q1ckZmR2kySUtMZV9jWUtVaU9fWUl0Zkpac3pjdXZMNld0cmdreEVKd1puWGVYckVoREdieXU5Q0hUNw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 15:29:33 GMT",
@@ -2587,15 +2631,28 @@
       "snippet": "\"Il s'est marié il n'y a pas très longtemps\" : Bruno Salomone s'est uni avec sa compagne de longue date peu avant son décès  Femme Actuelle"
     },
     {
-      "title": "Une étude révèle les 3 métiers qui rendent vraiment heureux",
-      "link": "https://www.psychologies.com/moi/se-connaitre/bonheur/etude-revele-metiers-rendent-vraiment-heureux-606759?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 14:59:25 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
+      "title": "Nuit du doute 2026 : la date est connue et dévoilée par la Grande mosquée - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZHB6R2NwOGwtMnZTNTNzbzI0cS03YS1aLWJlanB3WE5yUUhEcmh4S1dQNzVvdTFQVFViQzZFZjNZc1VOeTBVYVNOYUZRTk1NWHN1S2RPQUQ3SjlGdjRQYjdmcGs0LUhDQVhmdkxRb0tXQkhqNm1OUW4waU4xN3ZiZmdEZ00ydENfS2ViN25YQm93eTJCblI4SmtpUW16Q1M3Z3JGc0s5UjVWNHlfMWZabEwwVnY5MEJaUFl5ak9peUE3cHRweFd6WDVxOGlyQTV1dW1LcGR1UQ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 14:55:00 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
       "competes": [
-        "aufeminin.com"
+        "mariefrance.fr",
+        "pleinevie.fr"
       ],
-      "snippet": "Et si le bonheur au travail n’était pas qu’une question de salaire ou de titre ? Selon la psychologie, certains métiers réunissent les conditions idéales pour préserver notre bien-être mental."
+      "snippet": "Nuit du doute 2026 : la date est connue et dévoilée par la Grande mosquée  Linternaute.com"
+    },
+    {
+      "title": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNWVNRUTFoRTFMRTNmYndwVnFJcmJ6NzVUZWMzQVhiR1hiNU11cnhzNTlHVUxvWGxPOVJHM2tONjN6bTAybWplejBCYkJzY1VVTnUteFRLQk05YU5mdEtpcWctT3dJQlIyajB6UHg3Q3RSdzVGMlI1U2RNaUtuREx0VlNWQ3VUUmhOcHFUcGR4UGgzVjBMUTNRaEhSeXdyMFFOdUhUSUJyZF9odXFRakFYa0dOV1liREhyVFRmNFZGbnN5VThOakFfTExUWjlsZFU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 13:38:04 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
     },
     {
       "title": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
@@ -2610,17 +2667,6 @@
       "snippet": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
     },
     {
-      "title": "Délai supplémentaire pour inscrire ses voeux sur la plateforme Mon Master - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQ3FPOGx0ZkV1Zk1ZWkh2NGkxNk9SSjBGYnhlUWR3MEdMZmE3VFJRYng3QlVQRGp4TmR6elMwemZEbWJYSDFGaE9rVzBDR0dhaW0yZGZMeTBnUnhNZ0t6T3k4LU9rMlZiSnJtTHFzVFJEOXhNRVhGdl8tR21XM3M1ZlpwNmYtZ0NhQTBaMi1rWkRfbEpsaFNSQlh2RmY5OEpHRDVYUTMyZzdwaFFUc3V6dGNENlVxU1k?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 13:21:17 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Délai supplémentaire pour inscrire ses voeux sur la plateforme Mon Master  Notre Temps"
-    },
-    {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNlFCb092QjVDVXRBM25CVUVFYkxvT0xBUFBQSFNqS3MzaXNTVFNwcmlWZVUzTTlOSXkyeUFFQ0l1UE52Q3NEMXlOTW1vT05nazI2NE1BdTVELWN5ajd2c21JODh4dXdwNXBYdXpCQzF3eUl1WllKbTU4SWVXWVhZdUdMWERRbkdtOXIzY1lha1lzRHE5SEd1RnF1eDlIQ2d4YzNxSGFtZ29sQXNJb0QwUDRhc1JHd2VKZ2V6UGlSakFOZkYzQjhCSlJHb3RuSnVxbmY3bTgzdDFnLS1iekVqWmNzODA0NGlIeHkwQ3hCN0l0bE42YUJpR2VaSjM3Z0NZdDd1S0l6MWdMeHNzd3VaUVV1U2RLRkpSN0Ew?oc=5",
       "pubDate": "Mon, 16 Mar 2026 11:27:04 GMT",
@@ -2632,17 +2678,6 @@
       "snippet": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage  Femme Actuelle"
     },
     {
-      "title": "Tourte retour de Nice blettes et pommes pour 6 personnes - Recettes - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYXhjN2U4X1lLa1NxbTc1U2xyTnFFSHcyUjF2UnZ1OGNsZ2ZiYlFSNmhGdFpydTNNbVdCSHVFcnozUWFnaUMwclFScVhUTGVteU9jWFZjU3RXOVpSS2FnTElOeVdSZ3ZYQkNkdXk3NkdwWk91UlRRYWlYQV9sdlhSRk5oMHJmcG1sMnB3NmZNc3hBQVpGd3BYU0pRZ3FlRGtXRnc?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 10:59:52 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Tourte retour de Nice blettes et pommes pour 6 personnes - Recettes  ELLE"
-    },
-    {
       "title": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLUk3MU1uMFB0LUNNbzRITWJIOXNMcDJHMTAzbWJuMEJSeHhDUWlqS1BsUFpRZlZmQnVFOXUtOWdWZzJVZTVVZ3NIVXNNajNfMExhS2ttTVc2N2tGMDRFd0h1R1FlLS1QQV8tNWVZdWJjbHFBdGdfWWFfS1Z3WExWLW82S2RXa0RNZUtTS1ptR3hPLVR2ZHFEeUh2S1dtYTJsci1mMlhhaS1XaTVQSmNndVZrSnE1SHYwcTF3Zy1VUVdkRnNySnJDOS1GY0Y5WThCX0xYQTNPRXRiOS1mbm9sRw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:55:49 GMT",
@@ -2652,29 +2687,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
-    },
-    {
-      "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdrT0lPdXRqUHZGNm5nc21jb2FuR3JUYmdGbzhVaGJaaWs1UWJ1bjZoMFRSVlZiekp4aTRoaU1uaVUxZm5kNksyQnZ2UDZjb3VFNE5zWVlibDk2eEJiU1JTUmV0c3RSUHhRVDFGM3pnQmlFVks4SkNRQV9tc1ZYLXoxdXBoZms?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 10:50:42 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Catch du vendredi 27 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Résultats page [29] : Printemps - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5GNzNheVdMb2NrdUw4SkZrYVZLZ21ic3lhOTdybXdXWGdMMjQ1QUNHbEYwMHNuby1GZTZSMUxrdlkxd2ZpNXlqWkxodkI1bmVBci01dnV3?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 10:37:36 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Résultats page [29] : Printemps  ELLE"
     },
     {
       "title": "La Bourse de Paris reste prudente face au risque géopolitique - Notre Temps",
@@ -2866,18 +2878,6 @@
         "pleinevie.fr"
       ],
       "snippet": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne  Linternaute.com"
-    },
-    {
-      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdU1xaWg3b3hOU1hBOGV5WUpBTjFIVlFSNkVqTVBXQTU5TnBqdzMxN0tXS0t6RmlWN2FYMmJRSEpqaXR3dEVLVTE2RmktcHpJSVlPczM1Q1JqampnMDhhbUx0Q3lwWnYwMm0zbTVEeERoX1o1S2hhSndteGFhQTNidktmYkJsdng3ekVqZi1ySEJ2NTRodm5NUTZHZDNPYVpwaUtGY0tYcDlWUjNNb3RrQkpVak9vVzRoOTZMZzRJZ1cwYTgzTXB5bFgyank2NUR1M24wb1lIdi01Um8?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 21:27:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ?  Linternaute.com"
     },
     {
       "title": "Selon la science, voici l’heure précise à laquelle vous devriez arrêter de manger pour protéger votre cœur et votre sommeil !",
