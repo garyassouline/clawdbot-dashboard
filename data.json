@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T00:15:32.693Z",
+  "updatedAt": "2026-03-16T01:15:31.467Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "10%",
-    "ram": "19%",
+    "cpu": "9.5%",
+    "ram": "20%",
     "disk": "10%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T00:15:32.693Z",
+      "ts": "2026-03-16T01:15:31.466Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1929,20 +1929,20 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 135168,
+    "tokensIn": 136782,
     "tokensOut": 35,
     "cacheHit": 33,
-    "context": 134410,
+    "context": 135177,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 135168,
+      "tokensIn": 136782,
       "tokensOut": 35,
-      "cacheRead": 66771,
+      "cacheRead": 66731,
       "cacheWrite": 0,
-      "cost": 0.4260603
+      "cost": 0.4308903
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -1981,7 +1981,7 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 135168,
+      "tokensIn": 136782,
       "tokensOut": 35
     },
     {
@@ -2077,7 +2077,7 @@
     },
     {
       "date": "03/16",
-      "total": 402538
+      "total": 403305
     }
   ],
   "alerts": [
@@ -2088,28 +2088,15 @@
   ],
   "competitorArticles": [
     {
-      "title": "Programme TV Proximus du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWHdISmtFSFpFdThnNUVRUGtJNDJncVNwcm41QzN6Qzd6eFl0NVcxeWtjZUZ6Z3hmY2RGWVFDTUUtSUlxSWY0dXlVZ0Zxd0FHSlZkV00yRUtWeHpIeHljRGVzbGFmRXN4ZExMN2JMV3FjYXkxUHAyV1hYTG03aXh3UF9zT1BSXzQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:36:39 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
+      "title": "Premier tour des municipales: le RN s'installe dans le paysage, percée de LFI - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQM3RYTXRBVkRMbk14eGFrcWJSMXhwVnRDb2xrdy13alBmUEY2UHhqODZIM0hLN0NYeGYyQjFncElGRW1lTmx1V1dDZmlBU0h2UTE3SzFwMG9Ha3BvSE9tcVpPREdTRlk5R2JBcFkzLXFSd19aSm84SFo3M0dUanNZOGNVSnJQZm4wSDFDQ01CRl9aRTVzRkN5c0FaSGg4NTBZMmVPbHZ4empsZ0dBVHBMemU4YkRmN1NURHc?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 00:21:06 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
       "competes": [
-        "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Proximus du dimanche 29 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Programme TV Numericable Belux du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORGQyNFNRTHRTdFdUOGNHS0tRazU1ZlVycVp0RjdiRndBbHc1VXUxZnp4cHN1NnlLUVJrbzZYU180MHNHa0FqODdCZjV0UVBPZTEyb3k0V1ZjZUVoTUJndmt6elhxZHd5MkFtcmt2bGowTVh0YWRjWS1ud2ZLcFQ3TEIwa01QbWI5TG9Ha3B5QjJDWms?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:32:38 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Numericable Belux du dimanche 29 mars 2026  Linternaute.com"
+      "snippet": "Premier tour des municipales: le RN s'installe dans le paysage, percée de LFI  Notre Temps"
     },
     {
       "title": "Oscars 2026 : les plus beaux looks du tapis rouge - ELLE",
@@ -2121,6 +2108,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Oscars 2026 : les plus beaux looks du tapis rouge  ELLE"
+    },
+    {
+      "title": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ? - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcFVMOVJHX0lUMElTT1RPRTdtbnRwRnZMSlpvMEV0RUN2cG9BcElNTnZGSG9uOUJTdzdhLVVmYnJPN3BwdldhZENKcHo4SUlUSlNQQ2FsUm8tUHl2UGxSVXNlZExnTWhnQ0ZLNFVsbzdJbzZsVzFFNlRkcmtjdGttQmhlMzJWdGhkcW1mT2sxVHB6czMwdG9WTHMwVE9rd0dIZmlLYW1mb0J6c1RXUENpaFFuOHN0aDdKd3R4U1ZnWmY2dV85U2JkeGU2UGljaXE5a05HcGZuWHZmOUwxdVpOVTNic2VQSG1kSEdjVXg2QXdYYTdER2F2MHdMM09OaG8?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 22:32:00 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ?  Linternaute.com"
     },
     {
       "title": "Voici la technique ultime pour déstabiliser quelqu'un qui dit : \"t’es trop bête pour comprendre\"",
@@ -2292,18 +2291,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Oui, vous pouvez mettre le saumon au congélateur, mais un délai précis change tout pour le goût, la sécurité et les oméga‑3. Entre promos et sushis maison, ce guide révèle jusqu’à quand le garder sans"
-    },
-    {
-      "title": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcFVMOVJHX0lUMElTT1RPRTdtbnRwRnZMSlpvMEV0RUN2cG9BcElNTnZGSG9uOUJTdzdhLVVmYnJPN3BwdldhZENKcHo4SUlUSlNQQ2FsUm8tUHl2UGxSVXNlZExnTWhnQ0ZLNFVsbzdJbzZsVzFFNlRkcmtjdGttQmhlMzJWdGhkcW1mT2sxVHB6czMwdG9WTHMwVE9rd0dIZmlLYW1mb0J6c1RXUENpaFFuOHN0aDdKd3R4U1ZnWmY2dV85U2JkeGU2UGljaXE5a05HcGZuWHZmOUwxdVpOVTNic2VQSG1kSEdjVXg2QXdYYTdER2F2MHdMM09OaG8?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 19:32:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ?  Linternaute.com"
     },
     {
       "title": "Verre d'eau sur la table de nuit : le Dr Gérald Kierzek de Doctissimo alerte sur un risque pour votre santé",
@@ -2584,6 +2571,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Nagui, Jean Dujardin, Jean-Luc Reichmann… : ces célébrités rendent hommage à Bruno Salomone après l’annonce de sa disparition  Femme Actuelle"
+    },
+    {
+      "title": "Rania Tounekti - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMmdxY3hrMFMta1M0QUZsREYyZEdnQkFycmwxRHljd09USGw1YlliTkwwYnpXWElDSHBEU3RFMnFHT1ljVFZBd1ZycVVDNjF1UWdsMDlIU0txd0lZOW05eG45Y1lFbGdJdFFBMWZta2ZIUGk5?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:42:57 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Rania Tounekti  Linternaute.com"
     },
     {
       "title": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars - ELLE",
@@ -2874,17 +2873,6 @@
       "snippet": "Mots coupés gratuits - 15 mars 2026 Grille n°4005  Notre Temps"
     },
     {
-      "title": "Mots fléchés gratuits - Force 4 - 15 mars 2026 Grille n°3885 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnNQLTRSSEJXRy02SS12XzFDWHJ6WXhLaXk2NjZfdzcxRXFRU1NpdTRGaFdtRk41ZTh3eEtMcU1GZVZGQlVoamxHUEhRMHNFbnc4d19BeHU3SkJBTXpOSjFfTlAyMThhaXR6X0QyMHhiOXdPMlRjUFNNVGM1RjBtZ0FUZ3k4UzZqUTcxR2FHM1RqbmVYejh3NmpvQWRCOG10ZkwxbmxfSU9JVHlCMkw3QjlnLW5mZktNUjBIT2JR?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 02:06:10 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mots fléchés gratuits - Force 4 - 15 mars 2026 Grille n°3885  Notre Temps"
-    },
-    {
       "title": "Mots fléchés gratuits - Force 3 - 15 mars 2026 Grille n°3884 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcXJDSU1EU1l5WEYyblB0TVgtNkFGVFdfNURaNkpPUmx1Y3V3RC1veWNxWlkyeXR5cFgzUnBPWEY1QjFSNmJITGpQOWs1YmZTRmhSTG1iQUlrc3dBQkgyWTZvLUVsWVlKRjdpWkRrdDZhUXllZmJnWjJCUXhCM3lZTmltOTJadDBBaWgxdUkzUnlPbHROeUtqWmVBN3FJODY1bm9pSGpPMlhKRnZTYnBrZl96WFdYWXEzdXhacjRR?oc=5",
       "pubDate": "Sun, 15 Mar 2026 02:06:09 GMT",
@@ -2960,6 +2948,18 @@
         "pleinevie.fr"
       ],
       "snippet": "Avec l’âge, nous perdons en densité musculaire, avec des conséquences fâcheuses sur notre santé. La parade ? La leucine, un acide aminé essentiel pour contrer la fonte musculaire liée à l&#039;âge. Ma"
+    },
+    {
+      "title": "Programme TV Escrime du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWllsTnFWOWJzRUM5SDNmNXZ2SG1Sb0NrS2tIazlMTGxpVU0wRmJOYy0xWHBHNlgwN0oyT1BRc0s3MmhsMDdxSTZKdlZzeEpISjNHVVVJUzd4Tk5CVHBqRkRIejYtT0o0LXYwZFpoQWZzb1RWNmtjYUtMZTMxNi1IbzFGMkRFOFdENEE?oc=5",
+      "pubDate": "Sat, 14 Mar 2026 08:43:01 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Escrime du vendredi 27 mars 2026  Linternaute.com"
     },
     {
       "title": "Cancer du poumon : les cellules cancéreuses évoluent avec l'âge et deviennent plus agressive selon une étude",
