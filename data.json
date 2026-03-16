@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T17:15:42.481Z",
+  "updatedAt": "2026-03-16T18:15:42.818Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "13.6%",
+    "cpu": "14.3%",
     "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T17:15:42.480Z",
+      "ts": "2026-03-16T18:15:42.818Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -195,19 +195,25 @@
       "date": "2026-03-16",
       "opportunities": [
         {
-          "topic": "Changement d'heure été 2026",
+          "topic": "Baisse des pensions de retraite en mars 2026 (Mise à jour CSG)",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Journée du sommeil (Impact environnemental : bruit, lumière, chaleur)",
+          "topic": "Nouvelles règles de retraite pour la génération 1961-1971",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Tendances beauté Printemps 2026 : Lemon nails, dentelle",
+          "topic": "Nouvelle taxe sur les petits colis importés",
+          "competitors": [],
+          "sites": [],
+          "sources": []
+        },
+        {
+          "topic": "Symptômes atypiques de crise cardiaque chez la femme",
           "competitors": [],
           "sites": [],
           "sources": []
@@ -2033,6 +2039,130 @@
   ],
   "competitorArticles": [
     {
+      "title": "Les personnes qui marchent souvent en regardant le sol partagent ces 3 traits de personnalité, selon la psychologie",
+      "link": "https://www.psychologies.com/moi/se-connaitre/personnes-marchent-souvent-regardant-sol-traits-personnalite-selon-psychologie-587706?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 18:02:58 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Votre démarche révèle de nombreuses informations sur votre personnalité, votre état d'esprit et même votre état émotionnel."
+    },
+    {
+      "title": "Antoni Calmon, médecin esthétique renommé et apprécié des célébrités, est décédé - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRjU2WnY5eFZvWnVzdDJ4dlBPSHhsNXlwWGpod3Nab1NvT1BJWC1jd2FOOHdaSHFkOU5FekdvYmxtY3VBenE3elAzVFg3QkYzM2NNVGp3dGtaVlpCMUdsd241M0VNaUxsbFI5SFNPTzhhell3WTVvUGMzMkJXWktMUTRxV2c4eXpFckplbTJzQ3N6aVVTdVB2d1B2aU4wbVQ2NjlzVXBMVG9hWUpNYUwzLW1GeUtHRmVRY0RTUGVTR0lvUlNGOWJxcFdB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 18:02:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Antoni Calmon, médecin esthétique renommé et apprécié des célébrités, est décédé  ELLE"
+    },
+    {
+      "title": "\"Je le recommande toujours à mes patients\" : des diététiciens tranchent enfin le débat entre pain complet et pain au seigle à privilégier",
+      "link": "https://www.doctissimo.fr/nutrition/aliments-et-boissons/pain/je-le-recommande-toujours-a-mes-patients-des-dieteticiens-tranchent-enfin-le-debat-entre-pain-complet-et-pain-au-seigle-a-privilegier-741561.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 18:00:31 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Entre pain complet et pain de seigle, les diététiciens passent au crible fibres, index glycémique et satiété. Quel type de pain finira dans votre assiette ?"
+    },
+    {
+      "title": "Bruno Salomone a épousé Audrey, sa compagne de longue date quelques mois avant de mourir - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd2ExQmJZZWdnb3laVllqU0lQbUt5RzQ3WDlyVDJmTXhlS3ZMSlpiNjh2N0wtNHBzMmd1eUpTTm83NXBnaFJpWENHWlN3RFdoX280VmdTQUw5RVQtd014MWNPc1JyVjAzbEtXVDFvYzI5Rmk0ZXk1WC1GVENSLU5uREJoZ2loaVRfblQxMkxjdDZ5MUloUUhkUUhENmJxSEdiQW9Oc0FWb25CVE9tNk9fMzBsYlJGX1ZaTjlDM0FDdHF6UjZNX2Fjb0pVWHU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 18:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Bruno Salomone a épousé Audrey, sa compagne de longue date quelques mois avant de mourir  Cosmopolitan.fr"
+    },
+    {
+      "title": "42 km avec Top Santé [Épisode 3] : Ce poisson en conserve que je mange chaque jour en préparation marathon, recommandé par les nutritionnistes",
+      "link": "https://www.topsante.com/forme_bien_etre/42-km-avec-top-sante-episode-3-ce-poisson-en-conserve-que-je-mange-chaque-jour-en-preparation-marathon-recommande-par-les-nutritionnistes-953040",
+      "pubDate": "Mon, 16 Mar 2026 17:56:23 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "À un mois du marathon, la nutrition devient un véritable levier pour soutenir l’entraînement et optimiser la récupération. En pleine préparation pour les 42 km, j’ai adopté un snack simple, rapide et "
+    },
+    {
+      "title": "Voici pourquoi les œufs ne sont jamais conservés au frais dans les supermarchés en France",
+      "link": "https://www.topsante.com/nutrition_et_recettes/voici-pourquoi-les-oeufs-ne-sont-jamais-conserves-au-frais-dans-les-supermarches-en-france-953124",
+      "pubDate": "Mon, 16 Mar 2026 17:45:45 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "En France, les œufs patientent à température ambiante en plein rayon, loin des frigos. Entre microbiologie et Bruxelles, la raison pourrait surprendre vos habitudes."
+    },
+    {
+      "title": "Oscars 2026 : où voir les films récompensés ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbTlHNW03M3JLcGMxN25qWjQxWWF4WmJzbUE2NDlvbjFaTzh4QUVnS2tDbnFhMDI1bFFfbUNRdG13cHBkNi16ZUVfOVdwNnRZYlRNc0tvN3h5RkRmVFZjMm5GcGx6M25icDJhWnh2MHhKWXBLUnpVVEtHcDJGbHhHZkFTc0taOXdk?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 17:37:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Oscars 2026 : où voir les films récompensés ?  ELLE"
+    },
+    {
+      "title": "Les chercheurs sont formels : cet écart d’âge dans le couple augmente de 95 % le risque de rupture",
+      "link": "https://www.psychologies.com/couple/vie-de-couple/chercheurs-formels-ecart-age-couple-augmente-risque-rupture-56143?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 17:34:11 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Comment la différence d'âge impacte-t-elle la solidité d'un couple ? Des chercheurs ont mené une étude sur le sujet."
+    },
+    {
+      "title": "Couple : toutes les vérités sont-elles bonnes à dire ? \"Pas n'importe comment\" précise notre psy",
+      "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/couple-relation-amoureuse-et-psychologie/faire-durer-son-couple/couple-toutes-les-verites-sont-elles-bonnes-a-dire-pas-nimporte-comment-precise-notre-psy-742940.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 17:30:41 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "L'honnêteté est le socle du couple, mais faut-il pour autant tout se dire au risque de blesser ? Entre désir de transparence et besoin de préserver son jardin secret, le psychologue Pascal Anger nous "
+    },
+    {
+      "title": "C’est mon histoire : « J’ai pardonné à mon agresseur » - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRVljM3M5UGlwZUhySUxiV0FQYVFwNy15SXdOTXY2UWVCcVlHSFZtUURWODcwbVFLSXZ1b2swYnlaOUhHakNUbFk5NUdJYXpQTm1scGxKSGVZSWIxcTlyM1lYcW5ZeFI2TlBZUi1ERlRnUHZHOEc4SUVGOVoxM016bmFkN0pPN2lJUnBpX0Y0aEkyQUpmU2h4YWE4SkZUdjgzNGp5YU1GR0I?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 17:30:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "C’est mon histoire : « J’ai pardonné à mon agresseur »  ELLE"
+    },
+    {
+      "title": "Il y a une eau meilleure que les autres pour la santé et pour éviter les microplastiques, selon 60 Millions de consommateurs",
+      "link": "https://www.topsante.com/ma_sante_au_quotidien/il-y-a-une-eau-meilleure-que-les-autres-pour-la-sante-et-pour-eviter-les-microplastiques-selon-60-millions-de-consommateurs-953120",
+      "pubDate": "Mon, 16 Mar 2026 17:17:41 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "En France, nous buvons chaque jour sans vraiment savoir quelle eau expose le moins notre corps aux microplastiques. Enquêtant sur robinet et bouteilles, 60 Millions de consommateurs remet en cause bie"
+    },
+    {
       "title": "Vous avez mal au genou ? Une experte dévoile 3 tests simples à réaliser à la maison pour savoir comment calmer la douleur",
       "link": "https://www.topsante.com/medecine/vous-avez-mal-au-genou-une-experte-devoile-3-tests-simples-a-realiser-a-la-maison-pour-identifier-dou-vient-votre-douleur-et-comment-la-calmer-953029",
       "pubDate": "Mon, 16 Mar 2026 17:00:50 +0000",
@@ -2132,6 +2262,18 @@
         "mariefrance.fr"
       ],
       "snippet": "La fête des mères n’a pas tout à fait ressemblé à ce qu’on imagine chez les Beckham. Selon plusieurs médias britanniques, Brooklyn Beckham a fait un geste qui n’est pas passé inaperçu."
+    },
+    {
+      "title": "Notre sélection des meilleurs et des pires looks des Oscars 2026 en images : Toujours sur Linternaute.com - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQMld1OWx3RGI1YXMxUjJYXzRKYnljWHVqRzJaUVNhcjFSandxaE9uX1p4aTZ5Sm9HdUIxQXhTQ1g4V1FBZFg4eTAzX2V6VXp2RHJOSC1XYzZvME54Mno2bFRjXzFlbmQzRTVYSWFxQUcwVnJsYmIyZk5Bd3IzYXFMMGpaUXBubm5xNEdXT0kyZ2NZYzlDdFVCT2Rsa2tsdWU0aEJ0aVk2ZTlhZzZ2T3VhOGxLX2VMVlFUbFJOelN2NVRDRExlU090X0F4Unl5UkhjODdrZzU1bw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 16:32:10 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Notre sélection des meilleurs et des pires looks des Oscars 2026 en images : Toujours sur Linternaute.com  Linternaute.com"
     },
     {
       "title": "Ancien mais très moderne, ce prénom d’origine grecque gagne du terrain en France",
@@ -2291,16 +2433,15 @@
       "snippet": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme  Femme Actuelle"
     },
     {
-      "title": "Il y a deux marques de pâtes feuilletées industrielles à ne pas acheter selon l’UFC-Que Choisir : les “pires” du supermarché",
-      "link": "https://www.topsante.com/nutrition_et_recettes/il-y-a-deux-marques-de-pates-feuilletees-industrielles-a-ne-pas-acheter-selon-lufc-que-choisir-les-pires-du-supermarche-953075",
-      "pubDate": "Mon, 16 Mar 2026 15:24:21 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
+      "title": "Aux Oscars, Sarah Pidgeon porte la robe Calvin Klein que Carolyn Bessette aurait adorée - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbWZwT1lKLUJkMmZ0cElfdi1UTG90ZmtOS2szRGdXdl9Va0NRMkQ0b25pLWx2dHh2ZnF5azVFVTVUaEFBTUM1Q0ZOZlpJVlFrNE9XVmlybzB5eDAta09hM2dpd0tKS2JPUng0dVhWTDRIb1h2Z0FZcUlOaU9oSy1CLVkxZ1dqRS1Rb0c3T2lhOEI3MTdCWV9Jb2QxNG1CZnkxNG5Xc3ZxTS05VGprcVN6TkVqaUYyeVpZeVJsZ2kzRG43VHlfX2J1TzBfSzhQb1NnMjRlZFdQeEFnNUtxNGZTQUNNazRlMGdXSTVWMQ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 15:27:55 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
       "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
+        "aufeminin.com"
       ],
-      "snippet": "Quinze pâtes feuilletées industrielles ont été passées au crible par l’UFC-Que Choisir, et deux d’entre elles s’imposent comme les pires du rayon. Quels risques se cachent derrière ces rouleaux si pra"
+      "snippet": "Aux Oscars, Sarah Pidgeon porte la robe Calvin Klein que Carolyn Bessette aurait adorée  Cosmopolitan.fr"
     },
     {
       "title": "Prix des carburants: le patron d'Intermarché appelle l'État à \"réduire sa marge\" - Notre Temps",
@@ -2347,29 +2488,6 @@
       "snippet": "Mediapart dans le vert pour la quinzième année d'affilée  Notre Temps"
     },
     {
-      "title": "Ce qui se passe dans votre corps quand vous mangez des algues pendant deux semaines",
-      "link": "https://www.topsante.com/medecine/maladies_chroniques/ce-qui-se-passe-dans-votre-corps-quand-vous-mangez-des-algues-pendant-2-semaines-energie-et-moral-plus-stable-peau-en-meilleure-sante-une-naturopathe-vous-recommande-dadopter-cet-aliment-riche-e-952906",
-      "pubDate": "Mon, 16 Mar 2026 15:00:59 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "En deux semaines, quelques feuilles d’algues suffisent à modifier l’apport en iode et à faire réagir la thyroïde. Entre regain d’énergie possible et risques d’excès, jusqu’où peut‑on aller sans se tro"
-    },
-    {
-      "title": "Argent de poche : pourquoi les filles reçoivent-elles 229 € de moins que les garçons selon l'étude Pixpay ?",
-      "link": "https://www.doctissimo.fr/famille/argent/argent-de-poche-pourquoi-les-filles-recoivent-elles-229-e-de-moins-que-les-garcons-selon-letude-pixpay-742809.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 15:00:09 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "À l'occasion de la Journée internationale des droits des femmes, le baromètre \"Argent de poche et inégalités\" du Teenage Lab by Pixpay révèle une réalité grinçante : l'écart de revenus entre les sexes"
-    },
-    {
       "title": "Une étude révèle les 3 métiers qui rendent vraiment heureux",
       "link": "https://www.psychologies.com/moi/se-connaitre/bonheur/etude-revele-metiers-rendent-vraiment-heureux-606759?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 14:59:25 +0000",
@@ -2401,29 +2519,6 @@
         "mariefrance.fr"
       ],
       "snippet": "La disparition de Bruno Salomone continue de susciter l’émotion : dans la ville où il vivait, le maire sortant Olivier Dosne envisage de lui rendre un hommage à la hauteur de son talent."
-    },
-    {
-      "title": "Carré en danger : cette coupe scandinave inspirée du mulet pourrait tout changer pour votre printemps 2026",
-      "link": "https://www.doctissimo.fr/beaute/cheveux/coiffure/carre-en-danger-cette-coupe-scandinave-inspiree-du-mulet-pourrait-tout-changer-pour-votre-printemps-2026-742761.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 14:34:18 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Venue des rues de Copenhague et d’Oslo, la Scandi frilla réinvente le mulet en version douce et portable. Entre carré sage et esprit rétro, cette coupe pourrait bien signer le printemps 2026."
-    },
-    {
-      "title": "La raison secrète pour laquelle les œufs et le lait se trouvent au fond du supermarché",
-      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/la-raison-secrete-pour-laquelle-les-oeufs-et-le-lait-se-trouvent-au-fond-du-supermarche-953031",
-      "pubDate": "Mon, 16 Mar 2026 14:32:20 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Pourquoi faut-il presque toujours traverser tout le supermarché pour trouver le lait ou les œufs ? Ce choix d’organisation répond à plusieurs logiques, stratégies et contraintes."
     },
     {
       "title": "Brigitte Bardot : après Alain Delon, BB grande oubliée des hommages lors de la cérémonie des Oscars",
@@ -2526,28 +2621,6 @@
       "snippet": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage  Femme Actuelle"
     },
     {
-      "title": "\"Excusez-moi, je peux vous poser une question ?\" : les personnes qui engagent facilement la conversation avec des inconnus partagent ces 3 traits de caractère, selon la psychologie",
-      "link": "https://www.psychologies.com/moi/se-connaitre/personnalite/excusez-moi-poser-question-personnes-facilement-conversation-inconnus-traits-caractere-613993?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 11:26:59 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
-    },
-    {
-      "title": "Les personnes qui ont l’impression de passer à côté de leur vie ressentent souvent ces 6 choses",
-      "link": "https://www.psychologies.com/moi/se-connaitre/personnes-limpression-vie-ressentent-choses-624781?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 11:01:34 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Chacun de nous peut se poser un jour cette question : Suis-je en train de passer à côté de ma vie ? Voici les six signes qui prouvent que cela peut être vrai, selon une psy."
-    },
-    {
       "title": "Tourte retour de Nice blettes et pommes pour 6 personnes - Recettes - ELLE",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYXhjN2U4X1lLa1NxbTc1U2xyTnFFSHcyUjF2UnZ1OGNsZ2ZiYlFSNmhGdFpydTNNbVdCSHVFcnozUWFnaUMwclFScVhUTGVteU9jWFZjU3RXOVpSS2FnTElOeVdSZ3ZYQkNkdXk3NkdwWk91UlRRYWlYQV9sdlhSRk5oMHJmcG1sMnB3NmZNc3hBQVpGd3BYU0pRZ3FlRGtXRnc?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:59:52 GMT",
@@ -2615,18 +2688,6 @@
       "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
     },
     {
-      "title": "Programme TV Cirque du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFJQUpjZE14aDN2ZzRDRlY2ZkpPRWw3T3ZFUElydnJONzYyM0pBUkRSdV9MTFlZNVFpLUR0cWlOeVhDWFhFZ2pkOFp3SWRuWVhkc0JRTi11ekUtT2JWNWZKVThyZDVJYUZCWVN0YzZSUDJsOXhXQXBhSEJ4RTFES0ppNW9sdVl0?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 09:01:34 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Cirque du dimanche 29 mars 2026  Linternaute.com"
-    },
-    {
       "title": "8 signes méconnus d'un déséquilibre de votre microbiote intestinal",
       "link": "https://www.medisite.fr/sante-8-signes-meconnus-dun-desequilibre-de-votre-microbiote-intestinal.5717304.917571.html",
       "pubDate": "Mon, 16 Mar 2026 10:00:00 +0100",
@@ -2636,28 +2697,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Vous le savez sans doute, votre microbiote est au cœur de votre santé. Mais comment savoir s’il se porte bien ? En restant attentif à ces alertes méconnues qui passent souvent invisibles. Les voici en"
-    },
-    {
-      "title": "Courir tous les jours : bonne ou mauvaise idée pour la santé ? - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTjIwM0wxTlhLaGVrTHp6QmFaekhDYWNHdTJNVVBYbGx0RE9sRk1qWTdfVldHUXZzNlk4RWJhVFVkald2Yk1zcWJ2Y1hmLUxtbUtxVk9tNHNEY1BXcUNCanIzaUhFbVJVSGtkMDhzbzRvZ05paldMeGFlRko3eTNGYUpqeVkwSk5QZ2hnVFVIUnlNQnZnc1hxYTB2c21CdFV6T3pXcnh0ZGRRdTZ3YVhiRnZUTnU?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 08:58:41 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Courir tous les jours : bonne ou mauvaise idée pour la santé ?  ELLE"
-    },
-    {
-      "title": "Cheveux moins denses : ces 5 signes qui doivent vous alerter - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSFYzUktHOHFxb1o4aHdQcDR6NWxKV2tnSXgxRTExX2dncnREVHB3Q3czZFdHY0lTMTlETGx6WHFCWkJOWTZKZ2pOZmE2MEtpdE1sY2FrWVBFMEY3TFdpWnh1Rl9MZWxpWVZ4U3hZQzY5LXlFaFUxLU9XMXJtZUd6Sk95dzRNemttQkRqQ2t6QVpWbUVIbE1XS0pUelVBTDBWOV9CZmlOOTRDYWt0SkE?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 08:31:39 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Cheveux moins denses : ces 5 signes qui doivent vous alerter  ELLE"
     },
     {
       "title": "Jeux paralympiques 2026 : le bilan plus que poussif de la délégation française - Linternaute.com",
@@ -2717,17 +2756,6 @@
       "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : battu et condamné à se retirer pour le second tour ?  Linternaute.com"
     },
     {
-      "title": "Oscars 2026 : « Une bataille après l’autre », « Sinners », voici les grands gagnants de la soirée - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZ25vSnM5a0RiT1ozMUYxV0pXbElGQ2FzT0xXNUU5MDJaaU1BbGc3MGxjVmtzR0laTTBYUTFXTU9FbXZrOWxzTTVxNGtmRGt2N1RNMGJGeXV2YndBMzFaRmE0WVBYczhxQnJubDVxTUpNZXlCMXdQMTBzZi1fOENZZGp6Q1lsaG9UZWlZZXRlVGdkdkti?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 05:20:39 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Oscars 2026 : « Une bataille après l’autre », « Sinners », voici les grands gagnants de la soirée  ELLE"
-    },
-    {
       "title": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026 - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQUFdNajB4UlpxaTQ3NWN5N194QnBIeEVFYWhjWmM3bTN6VVFDcm9mLWxuX1pJbVVMUnZESEY4aEt5bEMyRUxqa2ZPcmJVUjFTeW5pWmE2ejlQZG03dU43eVFsRXZHMmh3Q0V6YVFOR0N0UWc0dmhkSEEycW5Uc3pDT1kzQW9fTTZWWEptNGNPMUVlVlhJbnRHQkhiMTNuMjdqaVFDZTBMa3F4X0RCd2pnejVfVWF2SnhsVzNJbW1SMUM4NEpaWmVTc3c5TFRNOHNFY2p6enZR?oc=5",
       "pubDate": "Mon, 16 Mar 2026 05:00:00 GMT",
@@ -2737,6 +2765,18 @@
         "aufeminin.com"
       ],
       "snippet": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Romane Tardy - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tcVJMSUxlcUpSSGtZV3NiODlLdFhSNXRzZThOZ3JFZ1V0RVZ4Z2Z0a2xDcVlJRnN4RjhhZWoxTXp0WElsSGxZb3RIVU9CSGNXdFJIaGt5Q2xLa3N5UjhzbTZFMUQwdXlqVDNKdXIzUW0zX25w?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 04:44:06 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Romane Tardy  Linternaute.com"
     },
     {
       "title": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé? - Notre Temps",
@@ -2838,40 +2878,6 @@
         "mariefrance.fr"
       ],
       "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
-    },
-    {
-      "title": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcXdwQk1EeEtkME9vOUhjaG5xdld6elhtZ2UzMnJudFVWem1Cc2tEVXJTLW1qTk9lZ2N0NGlodkE3XzdaMzh0Q1BmSjlSYTdJQnY2U3dweFpFX01QYkFRWnktY1dkUmJRUEFyOFhMNUN4M3NZWno1NnJiZHR5ZGw3RkxITlVyNi1XT3FfVXhiSEEwSFpiejBmY0N0Z19oa3BSeEtzbzd4dVNNSmdVM3BqWkx1b0ozUFdzTThhd3ZEUUc2Rm9rMmF0UUdtd0hPVnVBMzhn?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 20:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu  Cosmopolitan.fr"
-    },
-    {
-      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcXdObGJnR05PbmhJdHNyRE9UWFB1akQ2Z2NXYVZhei1LUFBjWkZOWEw1N1ZyUzI3YloxaDRLRE1OTWZwSEphRVNDQi1meUUtNkFGRTU4V0VqNUpJS054WWdkTTUwZWdRaFY1VHlvanlXYlAyS21LTy1ZT0VrVEJibFBvMlRpejhyUHdqT3ZoaXdhM2Y0VFhCWTVQM2hFOERpNUo1SkZISUVpWEZVa0FaQmtuTnQyXzM1empkUjl6ZjZWc0dranBGR1hrMzZPSTc1dEM4el9HNDRpdXVK?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 19:22:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ?  Linternaute.com"
-    },
-    {
-      "title": "Oscars 2026 : le menu gastronomique servi par le chef Wolfgang Puck pour le gratin d’Hollywood - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONnFBdHdoalI0UXV4Wm5RdlMzX1VNbHdpaVpLQjZZZ1ZIbDlpMHRWRGFRdmVYamdDNFZWNmhaS3ltdmJBOWVyNmtzQTZ2X2ZRZUNkbXdDS1NnZUh0c1ZHTUl3aFgyb2h1N0cyTGRFVWMyRmNUNFhVSE9nMjZmTzRRV3I2SmRCckdPall5QVZZalp2VGNjVjZwc0NCV0VUdUQzemVieHAtSEw2dGVPZ2NHVEtpOTdhVmZxQ05OUGNSYzY2QlNXX3NCOE5IeFhRLTdFeFN6UWVkb2xUZ1hlY25yRTJrWXQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 18:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Oscars 2026 : le menu gastronomique servi par le chef Wolfgang Puck pour le gratin d’Hollywood  Cosmopolitan.fr"
     },
     {
       "title": "Selon la science, voici l’heure précise à laquelle vous devriez arrêter de manger pour protéger votre cœur et votre sommeil !",
