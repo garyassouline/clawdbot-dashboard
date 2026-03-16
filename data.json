@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T06:15:32.807Z",
+  "updatedAt": "2026-03-16T07:15:46.258Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -8,12 +8,12 @@
   },
   "systemStats": {
     "cpu": "14.3%",
-    "ram": "22%",
+    "ram": "20%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T06:15:32.806Z",
+      "ts": "2026-03-16T07:15:46.257Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1952,114 +1952,20 @@
     }
   ],
   "session": {
-    "model": "gemini-3-flash-preview",
-    "tokensIn": 92663,
-    "tokensOut": 473,
-    "cacheHit": 28,
-    "context": 84539,
-    "contextMax": 1048576
+    "model": "unknown",
+    "tokensIn": 0,
+    "tokensOut": 0,
+    "cacheHit": 0,
+    "context": 0,
+    "contextMax": 200000
   },
-  "modelBreakdown": [
-    {
-      "model": "gemini-3-flash-preview",
-      "tokensIn": 92663,
-      "tokensOut": 473,
-      "cacheRead": 33058,
-      "cacheWrite": 0,
-      "cost": 0.2950014
-    },
-    {
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 1111626,
-      "tokensOut": 15784,
-      "cacheRead": 873008,
-      "cacheWrite": 0,
-      "cost": 3.8335403999999995
-    },
-    {
-      "model": "claude-sonnet-4-6",
-      "tokensIn": 13,
-      "tokensOut": 4262,
-      "cacheRead": 220763,
-      "cacheWrite": 31042,
-      "cost": 0.24660539999999997
-    },
-    {
-      "model": "gemini-2.5-flash",
-      "tokensIn": 469041,
-      "tokensOut": 6279,
-      "cacheRead": 291997,
-      "cacheWrite": 0,
-      "cost": 0.0850734375
-    }
-  ],
-  "sessions": [
-    {
-      "key": "main",
-      "model": "gemini-3-flash-preview",
-      "tokensIn": 92663,
-      "tokensOut": 473
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 197764,
-      "tokensOut": 2581
-    },
-    {
-      "key": "cron:6d3047ba-911e-4e08-bd7f-2cef4837a3d8:run:22c097bd-169d-429a-b81d-7bddb323179a",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 86821,
-      "tokensOut": 823
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:0fe20a73-dd4a-4892-94fb-4d9aa87267df",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 189639,
-      "tokensOut": 3767
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:5193f5e4-0dec-4c4c-b679-7574c1f161d4",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 234202,
-      "tokensOut": 3403
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:7916267c-22cb-4b6c-b04b-da675692ab99",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 187025,
-      "tokensOut": 2006
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:b2b8a284-5524-4154-b0fb-060bd6178ce8",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 216175,
-      "tokensOut": 3204
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:0606da0d-6dd0-42dd-a3ee-15dd671d1be8",
-      "model": "claude-sonnet-4-6",
-      "tokensIn": 13,
-      "tokensOut": 4262
-    },
-    {
-      "key": "cron:2c9e47f6-6073-4025-92cc-a8bac840662f",
-      "model": "gemini-2.5-flash",
-      "tokensIn": 469041,
-      "tokensOut": 6279
-    }
-  ],
+  "modelBreakdown": [],
+  "sessions": [],
   "crons": [
     {
       "id": "c8544031-997d-40ec-871f-6853e493e097",
       "name": "Dashboard Update",
       "schedule": "Every 60min",
-      "enabled": true
-    },
-    {
-      "id": "2c9e47f6-6073-4025-92cc-a8bac840662f",
-      "name": "Agent: RSS-Distiller Daily",
-      "schedule": "0 8 * * *",
       "enabled": true
     },
     {
@@ -2087,6 +1993,12 @@
       "enabled": true
     },
     {
+      "id": "2c9e47f6-6073-4025-92cc-a8bac840662f",
+      "name": "Agent: RSS-Distiller Daily",
+      "schedule": "0 8 * * *",
+      "enabled": true
+    },
+    {
       "id": "8fc57595-1caa-4b4b-9a28-5526f359e3ac",
       "name": "Agent: SEO-Watcher Audit",
       "schedule": "Every 4320min",
@@ -2100,7 +2012,7 @@
     },
     {
       "date": "03/16",
-      "total": 439742
+      "total": 0
     }
   ],
   "alerts": [
@@ -2110,6 +2022,96 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Sylvie Tellier \"sous le choc\" : Antoni Calmon, chirurgien esthétique des stars, est mort à l’âge de 40 ans",
+      "link": "https://www.closermag.fr/people/sylvie-tellier-sous-le-choc-antoni-calmon-chirurgien-esthetique-des-stars-est-mort-a-lage-de-40-ans-3624029",
+      "pubDate": "Mon, 16 Mar 2026 07:05:11 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le monde des célébrités est en deuil. Le chirurgien esthétique des stars Antoni Calmon est mort à l’âge de 40 ans, provoquant une vive émotion chez plusieurs personnalités qui le connaissaient, dont S"
+    },
+    {
+      "title": "Si vous ne ressentez pas cette émotion dans votre couple, votre sécurité émotionnelle est en danger (et votre sommeil aussi), selon une étude",
+      "link": "https://www.psychologies.com/couple/vie-de-couple/au-quotidien/Si-vous-ne-ressentez-pas-cette-emotion-dans-votre-couple-votre-securite-emotionnelle-est-en-danger-et-votre-sommeil-aussi-selon-une-etude-624956?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 07:02:41 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Une nouvelle étude révèle qu’un sentiment bien précis au sein du couple ne protège pas seulement la relation, il influence aussi la santé mentale, le sommeil et même certains comportements à risque."
+    },
+    {
+      "title": "Astro love : les signes qui vont vivre une belle histoire d'amour en mars 2026 - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNck5kMHRySUFuTVpkWDhkSkgxYkZmbUJONFlkZVhZUC1iSGhEbG14X0ZUcHNSSWxPaDR0QzZ3elhqclhVbU82NEQ1RWkyR0Jybkc4SVlxSC1HZGwwZ1ptajFWTU9tRWR2SUV1RHlyWTV0d2Y4cmVBNnpLSUFKaHlYX1lLSVdtVzZxRHpCTEVvcFBvOE1jazZDZjVneFJ3VVkzYlVSYmtZbmFRREVaWVpaYmZqTElWMGJaSWE3bWZYNVZ0SU9VMFhyVlA5bXY2a0duRHY0bFZB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Astro love : les signes qui vont vivre une belle histoire d'amour en mars 2026  Cosmopolitan.fr"
+    },
+    {
+      "title": "Microbiote intestinal : pourquoi les légumes sont-ils bons pour l'humeur ?",
+      "link": "https://www.topsante.com/nutrition_et_recettes/microbiote-intestinal-pourquoi-les-legumes-sont-ils-bons-pour-lhumeur-952897",
+      "pubDate": "Mon, 16 Mar 2026 06:51:24 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Et si votre assiette de légumes parlait directement à votre cerveau ? Au cœur du microbiote intestinal, un discret jeu d’équilibre pourrait bien peser sur l’humeur."
+    },
+    {
+      "title": "Municipales 2026 : \"Oh la victimisation !\", Clémence Guetté \"insultée\" par Raphaël Glucksmann, tensions sur le plateau de TF1",
+      "link": "https://www.closermag.fr/politique/municipales-2026-oh-la-victimisation-clemence-guette-insultee-par-raphael-glucksmann-tensions-sur-le-plateau-de-tf1-3624025",
+      "pubDate": "Mon, 16 Mar 2026 06:37:04 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Au lendemain du premier tour des municipales, le débat s’est rapidement envenimé sur le plateau de TF1, notamment entre Clémence Guetté, Raphaël Glucksmann et Prisca Thevenot."
+    },
+    {
+      "title": "Beurre de cacahuète : attention aux pièges ! Quelques conseils des experts pour bien le choisir",
+      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/beurre-de-cacahuete-attention-aux-pieges-conseils-des-experts-pour-bien-le-choisir-334006.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 06:30:27 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Aliment tendance, le beurre de cacahuète est partout. Mais toutes les marques se valent-elles ? Comment choisir le meilleur beurre de cacahuète ? Des experts en nutrition nous aiguillent."
+    },
+    {
+      "title": "Valérie Lemercier et son appartement, Kate Middleton en rémission, Frédéric Lopez père attentif - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQlZIVU9lekxlLUJBUUhpd1p0b1hPekowd29xWWdfUlZiQTNuMUtIekVNeW01bjBUc0lheFpLNnJ6N3ZLWURMd0FmTGU4U2VBWndSV1luX3ZaOGdsdUk4aUQzZlVQMVd5SUtZalBuMGVQTnA0eTFwSzRPRkZwbklOVWF4RkdMYUZRX1ZvWUJ4M0NYbTdxWVM2UEtNcl9IU0Y4NXFITXVjbkpjbUxGdDNaamNpbFZyQ1pTZ21wc1NhT2dOLUt6UXM3dUVHQ1VxZw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 06:30:12 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Valérie Lemercier et son appartement, Kate Middleton en rémission, Frédéric Lopez père attentif  Cosmopolitan.fr"
+    },
+    {
+      "title": "D'après un cardiologue, cette habitude serait encore plus nocive que le stress et la malbouffe",
+      "link": "https://www.topsante.com/medecine/dapres-un-cardiologue-cette-habitude-serait-encore-plus-nocive-que-le-stress-et-la-malbouffe-952895",
+      "pubDate": "Mon, 16 Mar 2026 06:19:11 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Près de 400 Français meurent chaque jour d’une maladie cardiovasculaire, souvent attribuée au stress ou à la malbouffe. Un cardiologue pointe pourtant une routine assise, discrète mais redoutable pour"
+    },
     {
       "title": "Ces 4 micro-habitudes d’une thérapeute aident à construire une vie plus heureuse et plus saine",
       "link": "https://www.psychologies.com/moi/se-connaitre/bonheur/4-micro-habitudes-therapeute-aident-construire-vie-heureuse-saine-590731?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2211,6 +2213,18 @@
         "pleinevie.fr"
       ],
       "snippet": "Pendant 14 jours, une journaliste et des nutritionnistes ont remplacé le traditionnel petit-déjeuner sucré français par un petit déjeuner protéiné. Résultat : fringales, énergie et concentration ont c"
+    },
+    {
+      "title": "Romane Tardy - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tcVJMSUxlcUpSSGtZV3NiODlLdFhSNXRzZThOZ3JFZ1V0RVZ4Z2Z0a2xDcVlJRnN4RjhhZWoxTXp0WElsSGxZb3RIVU9CSGNXdFJIaGt5Q2xLa3N5UjhzbTZFMUQwdXlqVDNKdXIzUW0zX25w?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 04:44:06 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Romane Tardy  Linternaute.com"
     },
     {
       "title": "Loto : ces signes astrologiques qui peuvent rêver du jackpot ce lundi 16 mars",
@@ -2348,6 +2362,17 @@
       "snippet": "Sudoku gratuits - Force 1 - 16 mars 2026 Grille n°1456  Notre Temps"
     },
     {
+      "title": "Mots coupés gratuits - 16 mars 2026 Grille n°4006 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHlyQ3duazQtRnBZRzZwVWd5NGtlRlpQNGhQaTN4M2lrQnVtNHdENXpGZ3JWbXFQam9NaXVER29GWE5RVkdKZlpEdzE2UEx2RnFpdEctU3F4Zm53V1JqZW5CUVg0OGpXS3JlTmNTY1RJeW9IZFFiX244ZmJaZEhDbGtTalZuRjVZRzRQdXV1VHhzbUV0cWRDU2tBWmdwcmlPeC1mVGNB?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 02:06:17 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots coupés gratuits - 16 mars 2026 Grille n°4006  Notre Temps"
+    },
+    {
       "title": "ifléchés gratuits - Force 1 - 16 mars 2026 Grille n°1507 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFowT3hSWk1mV0xoTFJ2RktMa0d0VS1mWEpBUERPMEVHTmFndVJwNUxpQnNLcDgxajNnQmNsRTNDb3FVYWg0ZFctR3pfcmZQTTlSRUQ3dWtpTEMybHlaeG84Q2xoN0dveGYxRUYyNVJicS1SVEIzSVBLWlZrMVdkNEh4Y0VGX3hYcnNmQ04tUG5tX2RLS1hiUkJrUmNDYXhDN004VG9NRzJ2cm90cEQzbWZBNA?oc=5",
       "pubDate": "Mon, 16 Mar 2026 02:06:14 GMT",
@@ -2390,30 +2415,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Marseille: face au RN, Payan rejette la \"main tendue\" de LFI  Notre Temps"
-    },
-    {
-      "title": "Programme RMC Story du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNV1R5LWt6OVRzTWdvQmtoSEpWRkZEaVUwanoyR21rby12OFh1VEtuV3kxdzFfdHNWQm5naVdrUG5SOXczdnJvYVFxc2x2NWNkNDJXeHNEN21QZjdaLXpiQUEteGdIMTdVeWtoV2Y0ZVNfMkdUQ2JGdVk1aW1ucXB1R1Y4aUdvMjg0?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:45:20 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme RMC Story du dimanche 29 mars 2026  Linternaute.com"
-    },
-    {
-      "title": "Programme TV Proximus du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWHdISmtFSFpFdThnNUVRUGtJNDJncVNwcm41QzN6Qzd6eFl0NVcxeWtjZUZ6Z3hmY2RGWVFDTUUtSUlxSWY0dXlVZ0Zxd0FHSlZkV00yRUtWeHpIeHljRGVzbGFmRXN4ZExMN2JMV3FjYXkxUHAyV1hYTG03aXh3UF9zT1BSXzQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:36:39 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Proximus du dimanche 29 mars 2026  Linternaute.com"
     },
     {
       "title": "Wordle : Le Mot du jour gratuit - 16 mars 2026 - Notre Temps",
@@ -2518,18 +2519,6 @@
       "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
     },
     {
-      "title": "Voici l'enseigne de supermarché réellement la moins chère selon 60 M de consommateurs",
-      "link": "https://www.topsante.com/actualites/voici-lenseigne-de-supermarche-reellement-la-moins-chere-selon-60-m-de-consommateurs-952885",
-      "pubDate": "Sun, 15 Mar 2026 20:44:18 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "En pleine flambée des prix, 60 Millions de consommateurs a passé au crible les caisses de 90 supermarchés français. Une enseigne se détache nettement, avec des écarts qui pèsent sur chaque panier."
-    },
-    {
       "title": "Ces 4 comportements provoquent des conflits sans que vous vous en rendiez compte",
       "link": "https://www.doctissimo.fr/psychologie/vivre-avec-les-autres/disputes/4-comportements-qui-provoquent-conflits-sans-que-vous-vous-en-rendiez-compte-331654.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 20:30:49 +0000",
@@ -2552,18 +2541,6 @@
       "snippet": "Cette enquête amène un éclairage sur les pratiques sexuelles actuelles des Français et montre l'évolution du tabou qui les entourait."
     },
     {
-      "title": "Cette épice est parfaite faire baisser la tension et stimuler le métabolisme, selon une diététicienne",
-      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/decouvrez-lepice-qui-peut-diminuer-la-tension-et-nous-faire-bruler-plus-de-calories-880245",
-      "pubDate": "Sun, 15 Mar 2026 20:00:37 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Rouge ou vert, doux ou très piquant, le piment ne sert pas seulement à relever les plats. Selon la diététicienne Corinne Fernandez, cette épice renferme de nombreux nutriments et une substance active "
-    },
-    {
       "title": "Cette boisson à consommer le soir est l’allié minceur idéal, selon des diététiciens",
       "link": "https://www.doctissimo.fr/nutrition/aliments-et-boissons/cette-boisson-est-lallie-minceur-pour-la-fin-de-soiree-selon-des-dieteticiens-334850.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 20:00:00 +0000",
@@ -2573,6 +2550,17 @@
         "aufeminin.com"
       ],
       "snippet": "Découvrez pourquoi cette boisson est plébiscitée par les experts en nutrition comme breuvage idéal pour favoriser la perte de poids et améliorer la digestion en fin de journée."
+    },
+    {
+      "title": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcXdwQk1EeEtkME9vOUhjaG5xdld6elhtZ2UzMnJudFVWem1Cc2tEVXJTLW1qTk9lZ2N0NGlodkE3XzdaMzh0Q1BmSjlSYTdJQnY2U3dweFpFX01QYkFRWnktY1dkUmJRUEFyOFhMNUN4M3NZWno1NnJiZHR5ZGw3RkxITlVyNi1XT3FfVXhiSEEwSFpiejBmY0N0Z19oa3BSeEtzbzd4dVNNSmdVM3BqWkx1b0ozUFdzTThhd3ZEUUc2Rm9rMmF0UUdtd0hPVnVBMzhn?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 20:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu  Cosmopolitan.fr"
     },
     {
       "title": "Municipales 2026 : sur France 2, à 20 heures, Léa Salamé et Laurent Delahousse ont enchaîné les approximations",
@@ -2630,40 +2618,6 @@
       "snippet": "Municipales 2026 : Emmanuel et Brigitte Macron arrivent bras dessus bras dessous pour voter au Touquet  Femme Actuelle"
     },
     {
-      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcXdObGJnR05PbmhJdHNyRE9UWFB1akQ2Z2NXYVZhei1LUFBjWkZOWEw1N1ZyUzI3YloxaDRLRE1OTWZwSEphRVNDQi1meUUtNkFGRTU4V0VqNUpJS054WWdkTTUwZWdRaFY1VHlvanlXYlAyS21LTy1ZT0VrVEJibFBvMlRpejhyUHdqT3ZoaXdhM2Y0VFhCWTVQM2hFOERpNUo1SkZISUVpWEZVa0FaQmtuTnQyXzM1empkUjl6ZjZWc0dranBGR1hrMzZPSTc1dEM4el9HNDRpdXVK?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 19:22:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ?  Linternaute.com"
-    },
-    {
-      "title": "Prince William : pour la Fête des mères, il partage une tendre photo de lui enfant avec sa mère, la princesse Diana",
-      "link": "https://www.closermag.fr/royautes/prince-william-pour-la-fete-des-meres-il-partage-une-tendre-photo-de-lui-enfant-avec-sa-mere-la-princesse-diana-3624007",
-      "pubDate": "Sun, 15 Mar 2026 19:18:48 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Pour la fête des mères au Royaume-Uni, le prince William partage une rare photo de son enfance avec la princesse Diana. Un hommage émouvant qui a touché les internautes."
-    },
-    {
-      "title": "Tension artérielle : l'heure de votre dernier repas est aussi cruciale que le contenu de l'assiette pour le cœur",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/alimentation-et-maladies-cardiovasculaires/tension-arterielle-lheure-de-votre-dernier-repas-est-aussi-cruciale-que-le-contenu-de-lassiette-pour-le-coeur-741524.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 19:15:48 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Et si, pour un cœur en forme et un sommeil profond, la vraie question était à quelle heure arrêter de manger le soir ? Une nouvelle piste bouscule nos habitudes du soir."
-    },
-    {
       "title": "Selon une étude, un couple sur deux aimerait être davantage \"surpris\" par son partenaire",
       "link": "https://www.psychologies.com/couple/Selon-une-etude-un-couple-sur-deux-aimerait-etre-davantage-surpris-par-son-partenaire-624825?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 19:03:25 +0000",
@@ -2675,17 +2629,6 @@
       "snippet": "Derrière ce désir de surprise se cache un besoin simple : raviver la connexion émotionnelle dans un quotidien souvent trop prévisible."
     },
     {
-      "title": "Mort de Bruno Salomone : \"On le savait\", Valérie Bonneton sort du silence et évoque la longue maladie de son ami",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-on-le-savait-valerie-bonneton-sort-du-silence-et-evoque-la-longue-maladie-de-son-ami-3624005",
-      "pubDate": "Sun, 15 Mar 2026 18:37:40 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Après la mort de Bruno Salomone, Valérie Bonneton brise le silence. L’actrice de Fais pas ci, fais pas ça évoque la longue maladie de son partenaire et leur forte complicité."
-    },
-    {
       "title": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQR1I3OHVXSHRpaVJFT0hJMTZ3c2VMOWY5T0pqbG5tYWt5bXdDNjVyNjBJWlhxTGptemxoNzVrU1JBWVU1bWJ4WWxRWDlvWW5pYWtkWXYySFRVcjRyTW5ndzQwQzRfMXJQbi0zalRXTjRYbkFCdndqaWllLXNsaUxCMlBlNGVNSjRWTzNteDNxVktIaXA5emV1S2ljb0xlRWRXRFMzXzZpV01tWW01WDJ0Ul80QkE5LWdLWXdtOXNsdkFvUjM5OVB2UTFtZjB3eVFISTcw?oc=5",
       "pubDate": "Sun, 15 Mar 2026 18:03:00 GMT",
@@ -2695,17 +2638,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ?  ELLE"
-    },
-    {
-      "title": "Le bouboupisme séduit de nombreux couples : les secrets de cette pratique qui permet d’atteindre de nouveaux sommets de plaisir",
-      "link": "https://www.psychologies.com/Couple/Sexualite/bouboupisme-seduit-couples-secrets-pratique-atteindre-nouveaux-sommets-plaisir-411822?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 18:01:40 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Le bouboupisme est une pratique sexuelle très répandue mais dont on parle peu. Pourtant, elle permet d’augmenter le plaisir sexuel intensément. En êtes-vous déjà adepte sans le savoir ? Et comment vou"
     },
     {
       "title": "Oscars 2026 : le menu gastronomique servi par le chef Wolfgang Puck pour le gratin d’Hollywood - Cosmopolitan.fr",
@@ -2730,6 +2662,18 @@
       "snippet": "Vous voulez protéger votre coeur et votre sommeil ? Voici à quelle heure il faut dîner, et pas après selon la science. A la clé, une stabilité de la glycémie nocturne, un sommeil réparateur et une dim"
     },
     {
+      "title": "Ces 10 moments de malaise ont perturbé les Oscars - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbNIBpAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbA?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:51:17 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Ces 10 moments de malaise ont perturbé les Oscars  Linternaute.com"
+    },
+    {
       "title": "Prolongez l'hiver avec cette recette de frittata façon tartiflette (c'est rapide à faire !) - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3loNjRIaFdtTFdXNTg1dkpNNzZCZVFRYVlySnh1WmxfeEZ0S3pJTW9ucFRsWnc2cnBYQmsyME1XOHJmMEptbTRGNFZfMnc4UGwyODR4ZnJIekFwSV93ajNIX00tTU1DcHRVanlRd1BGUmNjWXVuQzlKUWktTlZ1N2sta0ZxbjBzU0h3UEZOMllVUVI1UTZwWjR2RzhNV2pLcDllYWY0OVRLand5VFVZNVdKTkZTOFhJbE1wc3dTN1FxTjhtMEdSd2dwUQ?oc=5",
       "pubDate": "Sun, 15 Mar 2026 16:49:00 GMT",
@@ -2752,6 +2696,18 @@
       "snippet": "Nagui, Jean Dujardin, Jean-Luc Reichmann… : ces célébrités rendent hommage à Bruno Salomone après l’annonce de sa disparition  Femme Actuelle"
     },
     {
+      "title": "Rania Tounekti - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMmdxY3hrMFMta1M0QUZsREYyZEdnQkFycmwxRHljd09USGw1YlliTkwwYnpXWElDSHBEU3RFMnFHT1ljVFZBd1ZycVVDNjF1UWdsMDlIU0txd0lZOW05eG45Y1lFbGdJdFFBMWZta2ZIUGk5?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:42:57 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Rania Tounekti  Linternaute.com"
+    },
+    {
       "title": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars - ELLE",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaW8tSUxTcERWZW05QnRxQVpLUDh3X08yZXpMZXFPWFFlOEhueGxqakFlU1o4d1RVLTNWY3prMm1lZktVaERRNjE2cER0NVVXYy1xSHBzYmw5dlFvS1Vtd2dSWDNGZV9KcDF6cUJFUF9uT3VPOVFfMmFCT3Y3VU9uZlRfRGpmeWU3Mm9JS19Tclk?oc=5",
       "pubDate": "Sun, 15 Mar 2026 16:15:00 GMT",
@@ -2761,17 +2717,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars  ELLE"
-    },
-    {
-      "title": "Si vous aimez les thrillers inspirés d’histoires vraies, ce film sur l’évasion d’Alcatraz est un incontournable - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPYkhueHhrU1U5a0tldlcyODVRYWdFSUdWRGdyd0RYLTBMcDlvNE5sTlRwdUhEeGVTc2VTWlJaQUI1aDJNSUwwa1pqeFVQTzIxTVdRYW1BVFA2U0VqaTliS1VYY0RjcjVxMUwzVTExU1lwVk1sZmRKS29YRGpmYzdreUJPQndDRXdGakFPUjNqTlY5TnQ4NlJKQjZPSmpGOHozQnhDTGxaT1dXejZoZkNwSDdOZ2xVSjlnaUFtLXlKTTltUXcy?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 15:13:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Si vous aimez les thrillers inspirés d’histoires vraies, ce film sur l’évasion d’Alcatraz est un incontournable  Cosmopolitan.fr"
     },
     {
       "title": "Noté 4/5 : le détail qui rend ce thriller psychologique complètement addictif - Cosmopolitan.fr",
@@ -2851,6 +2796,17 @@
       "snippet": "\"Je pense à ma mère, aujourd’hui et tous les jours\" : le prince William rend un hommage bouleversant à Lady Diana  Femme Actuelle"
     },
     {
+      "title": "Décès de Bruno Salomone : l'interprète de Denis Bouley dans « Fais pas ci, fais pas ça » en 5 rôles - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeHlhcXA5dHVjYmtUaENldG9laS1MNFJpclRTa2RfNjdVMjRNdFNaZW1IaVdlaF80VklfUmRnTkhlcU1YYllOd1pzMElpZ2VxdWZ0Q20tNzhfRUU5TlNrQ09KYXEwOXBWalFiMVNYTTFObUhiZGRSQmlTUVVSSHpDNi12ZmZPazd3VE5qYktqZGNDS0Jvd0JDTldYU0t3OGJiUnk3RU5HZzRhdmlaem9JaWpXalF3ano3NkFYdmxuSElYdlBxZTU1NTJvb2JLU1lnUFRWWQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 13:35:04 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Décès de Bruno Salomone : l'interprète de Denis Bouley dans « Fais pas ci, fais pas ça » en 5 rôles  ELLE"
+    },
+    {
       "title": "Disneyland Paris : on a testé l’attraction La Reine des Neiges en avant-première - ELLE",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdnRTcVJ2a3d4d1dsTVV2T2JTX3FFdTlGTjZweVJETFdRaGxlMktJaVRWZTAzR2Nhdzdqa3FHM3R0QVhuWkRvWVZNVTRTanVXN2ZIUGUwdGI5YVE2eWdNUnNldmw3YmZVaHcyRlZFTGxzWTl0bnpMMXBYLU9IMUt4eDVBMldXNEFWRWVPdHE5RFpwczUyWEF2MUZqS3dITmRuT1FoUTJKa3ZHUmwwUnJNTkFBN0RZSGVMSjI0?oc=5",
       "pubDate": "Sun, 15 Mar 2026 13:12:00 GMT",
@@ -2894,50 +2850,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Kate Middleton : ce délicat geste envers l’hôpital où elle a été soignée pour son cancer  ELLE"
-    },
-    {
-      "title": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMFZFa2p0ZW55M0FRSm4xZUoyX3RJdVoybVZORWVxb0I1NTVVRExYd2lVa0VkT0Q1Zk4zYS1Fc0FVdkRmVWtlUDVpNXJBMWFDVlZ4WHl2YW5iejdxc0owYWU2dnRaWWNnV0pJcEgwS19fakNjemltampWMzJsNDdxSTZyZzNjaFVaQU5OMzg5ZGJ0Zkd6SWYyU1YtbjBuQ3BJNkQza0pzOGY5U0JuNTBCZWhYS3BMVUd3Zms5QkFYTHU?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 07:06:10 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Covid long: marginale, la piste psychologique reste portée par certains chercheurs  Notre Temps"
-    },
-    {
-      "title": "Pourquoi les golden boys de Manhattan se mettent tous à porter le béret Kangol ? - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdUJSSVlVb2ZqdmVDSEZiOVR6SDQ1VzdvZEY0dlFHYm5ITGp0SVhLeTZsZlpNa1J6QUdvN0lXcDExMDJ1TURlV3FjMGFIUjBwa3VBTlpISldwcVBlNm5qUTNJeGtwUGZ4bUxYZ1MzbjgyTGI4YXl1TVFkaUU0SUt4NTByWTdUOUgxOGlzNy1VTU1LTVNOZEY5ck5aUjg3VjNUaVVaVmQ3aHg1VlZpVERVUVdmdjNyOXZMT2N6VHp1NW9DNURwTmtyTC01Yw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 07:01:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Pourquoi les golden boys de Manhattan se mettent tous à porter le béret Kangol ?  ELLE"
-    },
-    {
-      "title": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026 - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX05Rb3J0VFR2Nk4wS1JEUVF4VFpSREFOcC1OZUI1VGN5ZjhsdjAxWjYzUDJENzRCOWFyNUExVnJzcDZoLTJIY3JYRVBlTVFTb0lKSm5Qbkh0SnRSWG4tNWc1eWdIbVBhRWNQNHgyXzJfUFFpam9ZZjB1aWRscXduMnJEUFNJcnRIMnEyNUd3T0NpRUx4NVZXV0piQmV6YVBsektUZE5pLXV3NTU3dTZkcEctWHFtN2cxZTlmN3ZtOVFTOUE?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 07:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Cancer : des problèmes de couple au rendez-vous le 15 mars 2026  Cosmopolitan.fr"
-    },
-    {
-      "title": "Ben Attal fiancé à Thylane Blondeau, Frédéric Lopez trouve refuge, Meghan Markle et sa fille - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGZtWFBBd0dtZ1VSV2tCUE91d2hyTHZrV05WbWZPUFZwVU94MUI2WEFCZEJwQTNESGtwVnNFWkh4dl9NamdiUERxUjdncHNSbEExYVB0c3liQmYySDF5UFE3YVlGRVQ5S05sN2ctdzdocGlTQlBBaGdLMG11U0o5dGh6UzBOMEItSHcxM2c0QVV4V3QxQUc1QjhyeER5N0JtX2FZWHlrY0FlN05wYUNWZG9OQ3ZPUjBZbllFLVBTSkVWWExUSjRlN2lR?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 06:30:15 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Ben Attal fiancé à Thylane Blondeau, Frédéric Lopez trouve refuge, Meghan Markle et sa fille  Cosmopolitan.fr"
     },
     {
       "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
