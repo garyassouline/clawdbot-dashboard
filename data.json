@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T07:15:46.258Z",
+  "updatedAt": "2026-03-16T08:15:42.545Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "14.3%",
+    "cpu": "10.5%",
     "ram": "20%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T07:15:46.257Z",
+      "ts": "2026-03-16T08:15:42.544Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1969,12 +1969,6 @@
       "enabled": true
     },
     {
-      "id": "2c33efbf-bb1a-4775-a6e1-563f21204424",
-      "name": "ByteRover Knowledge Miner",
-      "schedule": "0 9 * * *",
-      "enabled": true
-    },
-    {
       "id": "2c6b3e6c-b5d3-4e36-80f1-2412159b9541",
       "name": "Agent: Revenue-Ops Weekly",
       "schedule": "0 10 * * 1",
@@ -1996,6 +1990,12 @@
       "id": "2c9e47f6-6073-4025-92cc-a8bac840662f",
       "name": "Agent: RSS-Distiller Daily",
       "schedule": "0 8 * * *",
+      "enabled": true
+    },
+    {
+      "id": "2c33efbf-bb1a-4775-a6e1-563f21204424",
+      "name": "ByteRover Knowledge Miner",
+      "schedule": "0 9 * * *",
       "enabled": true
     },
     {
@@ -2022,6 +2022,62 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Pour ne plus réagir à chaud face à une remarque blessante, utilisez la technique infaillible de cette psy",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/pas-reagir-chaud-remarque-blessante-technique-psy-604533?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 08:09:16 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Il suffit parfois d’un mot de travers pour provoquer des réactions émotionnelles fortes chez soi. Nos sentiments sont parfois tellement heurtés qu’il est difficile de trouver une manière intelligente "
+    },
+    {
+      "title": "Bruno Salomone \"parti tranquillement chez lui, avec sa femme\" : révélations sur les dernières heures du comédien mort à l’âge de 55 ans",
+      "link": "https://www.closermag.fr/people/bruno-salomone-parti-tranquillement-chez-lui-avec-sa-femme-revelations-sur-les-dernieres-heures-du-comedien-mort-a-lage-de-55-ans-3624033",
+      "pubDate": "Mon, 16 Mar 2026 07:57:00 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition de Bruno Salomone, mort à 55 ans après un cancer, a profondément bouleversé ses proches et le monde du spectacle. Dans les colonnes de Paris Match, sa partenaire de la série Fais pas ci"
+    },
+    {
+      "title": "Surprise ! Cette infection vaginale très courante serait en fait une IST (et vous devriez la traiter à deux)",
+      "link": "https://www.doctissimo.fr/sante/maladies/maladies-infectieuses/ist/surprise-cette-infection-vaginale-courante-serait-en-fait-une-ist-que-vous-devriez-traiter-a-deux-332870.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 07:30:39 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Selon une nouvelle étude, la vaginose bactérienne qui touche une femme sur trois dans le monde ne serait pas seulement un problème féminin, mais bien une maladie sexuellement transmissible. Une nouvea"
+    },
+    {
+      "title": "Il y a 5 fromages bons pour la ligne selon une nutritionniste anglaise : \"Il n'y a que l'embarras du choix\"",
+      "link": "https://www.topsante.com/minceur/il-y-a-5-fromages-bons-pour-la-ligne-selon-une-nutritionniste-anglaise-il-ny-a-que-lembarras-du-choix-952899",
+      "pubDate": "Mon, 16 Mar 2026 07:19:37 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Entre plaisir et silhouette, le fromage reste souvent accusé à tort. Guidée par la nutritionniste anglaise Rhiannon Lambert, une sélection de cinq fromages change la donne."
+    },
+    {
+      "title": "Mort de Bruno Salomone : \"Il ne pouvait plus écrire\", ce dernier projet sur lequel il travaillait",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-il-ne-pouvait-plus-ecrire-ce-dernier-projet-sur-lequel-il-travaillait-3624039",
+      "pubDate": "Mon, 16 Mar 2026 07:17:58 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition de Bruno Salomone à 55 ans a bouleversé le monde du spectacle et ses nombreux fans... Mais malgré la maladie, le comédien continuait de travailler sur un dernier projet, comme l’a révél"
+    },
     {
       "title": "Sylvie Tellier \"sous le choc\" : Antoni Calmon, chirurgien esthétique des stars, est mort à l’âge de 40 ans",
       "link": "https://www.closermag.fr/people/sylvie-tellier-sous-le-choc-antoni-calmon-chirurgien-esthetique-des-stars-est-mort-a-lage-de-40-ans-3624029",
@@ -2124,6 +2180,18 @@
       "snippet": "Et si le secret du bien-être résidait dans de petits gestes quotidiens ? Les micro-habitudes, faciles à adopter, peuvent transformer durablement notre qualité de vie sans effort colossal."
     },
     {
+      "title": "Programme TV Patinage du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWWVnUzBOeFQzREUyRkNSU3hnQjFZVG5RRXl3UXhJMjY1ZkdDLV85ekdVOTBrU2swX3Z1ZWpqZmpjbEEzbXM5d21kLWQzYXA4bzE1aDF4NHh2QzhvTEU4c0l6cl8xUkZGelN2WG00VFhBSHI0RzVkSjFQaTZfX1lxNlpHTGg2SXJlSWdJ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 06:04:14 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Patinage du dimanche 29 mars 2026  Linternaute.com"
+    },
+    {
       "title": "Mort de Bruno Salomone : \"Depuis septembre, il était condamné\", Isabelle Gélinas fait des révélations sur le cancer fatal au comédien",
       "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-depuis-septembre-il-etait-condamne-isabelle-gelinas-fait-des-revelations-sur-le-cancer-fatal-au-comedien-3624024",
       "pubDate": "Mon, 16 Mar 2026 06:00:37 +0000",
@@ -2213,18 +2281,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Pendant 14 jours, une journaliste et des nutritionnistes ont remplacé le traditionnel petit-déjeuner sucré français par un petit déjeuner protéiné. Résultat : fringales, énergie et concentration ont c"
-    },
-    {
-      "title": "Romane Tardy - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tcVJMSUxlcUpSSGtZV3NiODlLdFhSNXRzZThOZ3JFZ1V0RVZ4Z2Z0a2xDcVlJRnN4RjhhZWoxTXp0WElsSGxZb3RIVU9CSGNXdFJIaGt5Q2xLa3N5UjhzbTZFMUQwdXlqVDNKdXIzUW0zX25w?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 04:44:06 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Romane Tardy  Linternaute.com"
     },
     {
       "title": "Loto : ces signes astrologiques qui peuvent rêver du jackpot ce lundi 16 mars",
@@ -2417,6 +2473,18 @@
       "snippet": "Marseille: face au RN, Payan rejette la \"main tendue\" de LFI  Notre Temps"
     },
     {
+      "title": "Programme TV Proximus du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWHdISmtFSFpFdThnNUVRUGtJNDJncVNwcm41QzN6Qzd6eFl0NVcxeWtjZUZ6Z3hmY2RGWVFDTUUtSUlxSWY0dXlVZ0Zxd0FHSlZkV00yRUtWeHpIeHljRGVzbGFmRXN4ZExMN2JMV3FjYXkxUHAyV1hYTG03aXh3UF9zT1BSXzQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 23:36:39 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Proximus du dimanche 29 mars 2026  Linternaute.com"
+    },
+    {
       "title": "Wordle : Le Mot du jour gratuit - 16 mars 2026 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUjFwMHBmWHRIczJZc2k5UlZfV2JjMXhXRWJmbHFJRnJicWFPQkhlQkNGVzVwNExhTmhOUXpmLXl0Uld0ZDY5ZUZPRzBlTmc4Xy1xOG5RSGVfeFN1MzRYTmpfblRTM20zM2V3Rms4dmsxaG9wSWFOZnBmangwRlB0ZTZ6eHdBQjBLVXptRE9KaUhtMG83SGhzSmtpc3Bmb181Ym40d2dWSmk0RkRnaF95Y1k3SnY?oc=5",
       "pubDate": "Sun, 15 Mar 2026 23:00:00 GMT",
@@ -2483,18 +2551,6 @@
         "aufeminin.com"
       ],
       "snippet": "Pas facile de neutraliser un manipulateur. Il lui suffit parfois de vous poser une simple question pour vous déstabiliser."
-    },
-    {
-      "title": "Pendant des années je cachais mes addictions derrière mon métier d’infirmière… voici le déclic qui a changé ma vie",
-      "link": "https://www.topsante.com/medecine/addictions/temoignage-voici-comment-je-me-suis-enfin-liberee-de-toutes-mes-addictions-879492",
-      "pubDate": "Sun, 15 Mar 2026 21:00:51 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Alcool, cannabis, médicaments… Pendant des années, Sandra a mené une double vie. Infirmière irréprochable le jour, elle sombrait chaque soir dans ses addictions. Jusqu’au jour où un diagnostic médical"
     },
     {
       "title": "Ces 8 tue-l'amour éteignent toute forme d'intimité dans la chambre et sous la couette !",
@@ -2574,59 +2630,27 @@
       "snippet": "Municipales 2026 : sur France 2, Léa Salamé et Laurent Delahousse ont dû improviser en direct face au retard des résultats. Une séquence qui a marqué le JT de 20 heures."
     },
     {
-      "title": "Mort d’Hermine de Clermont-Tonnerre : son dernier compagnon, un célèbre chroniqueur, revient sur ses derniers jours",
-      "link": "https://www.closermag.fr/people/mort-dhermine-de-clermont-tonnerre-son-dernier-compagnon-un-celebre-chroniqueur-revient-sur-ses-derniers-jours-3624010",
-      "pubDate": "Sun, 15 Mar 2026 19:46:01 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ? - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcXdObGJnR05PbmhJdHNyRE9UWFB1akQ2Z2NXYVZhei1LUFBjWkZOWEw1N1ZyUzI3YloxaDRLRE1OTWZwSEphRVNDQi1meUUtNkFGRTU4V0VqNUpJS054WWdkTTUwZWdRaFY1VHlvanlXYlAyS21LTy1ZT0VrVEJibFBvMlRpejhyUHdqT3ZoaXdhM2Y0VFhCWTVQM2hFOERpNUo1SkZISUVpWEZVa0FaQmtuTnQyXzM1empkUjl6ZjZWc0dranBGR1hrMzZPSTc1dEM4el9HNDRpdXVK?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 19:22:00 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
       "competes": [
-        "mariefrance.fr"
+        "mariefrance.fr",
+        "pleinevie.fr"
       ],
-      "snippet": "A l’occasion de la sortie de son livre, Georges Fenech, le dernier compagnon d’Hermine de Clermont-Tonnerre s’est confié à Gala. Le chroniqueur de CNews est volontiers revenu sur ses derniers jours."
+      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ?  Linternaute.com"
     },
     {
-      "title": "Verre d'eau sur la table de nuit : le Dr Gérald Kierzek de Doctissimo alerte sur un risque pour votre santé",
-      "link": "https://www.doctissimo.fr/sante/sante-au-quotidien/il-ne-faut-jamais-laisser-un-verre-deau-a-cote-de-son-lit/1dcd11_ar.html?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 19:30:20 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Garder un verre d’eau à portée de main la nuit est une habitude courante, parfois instinctive, pour ne pas interrompre son sommeil en se levant à tâtons. Mais derrière ce geste anodin se cache un risq"
-    },
-    {
-      "title": "Stupéfait, Dany Boon face à un notable à côté de la plaque : \"Ça va pas fort avec Dieudonné\"",
-      "link": "https://www.closermag.fr/people/stupefait-dany-boon-face-a-un-notable-a-cote-de-la-plaque-ca-va-pas-fort-avec-dieudonne-3621826",
-      "pubDate": "Sun, 15 Mar 2026 19:30:11 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Acteur et cinéaste à succès, Danny Boon avait tourné son premier long-métrage en tant que réalisateur, baptisé La maison du bonheur, du côté de Maison-Laffitte. À l'époque, un moment improbable avait "
-    },
-    {
-      "title": "Municipales 2026 : Emmanuel et Brigitte Macron arrivent bras dessus bras dessous pour voter au Touquet - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQOGJ3cnpUUEN6MGM1aUJmUzRXUTVRSUtGSXVDWl9yOHppR196MnE1aXZIWTZ4ekNSNkdLNlpGbjV3TXAtandaS29EbmNXMGVuQ1MwZjRPcUxzVVhlRHJoY1JLQzdGY2JNcUItNFd3OWRWWFFfdUpWWDR5NlZVVDNTYmVTX0RaN3FoVmxXNS1ZV0tlVTFtUXhTN1NrZTdVWUllQWJ6SldyQzBpeDNjZldDMUQ0Zmwyb1prU2JsaU43NVcxVFdYekhVV0VJQmlEbUY0bVFNRGdLdjU1U1lHNHl6d3NvdU9IVVk?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 19:24:50 GMT",
+      "title": "\"Je me mettais beaucoup de pression\" : Charlène de Monaco revient sur sa carrière de nageuse - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUUNaTE9CNThScVJiajdQRUxQN2M1bENhRG1UOF9QdjU3eEFkYS1hajJYQWg5MFFRUktMMXh4XzE5UElpSWxYUThKV2dkTWxqQmRLR1dkNk1BV3lwLTVVa0d4ck16VWNMQTlmNnFHNW5ZOUlWMmRRd2k2c2U1bGtBeW1KX211OG1FOG1vdEkwZFJvMHVEQmxxM0xBdE9LMGktTmEyZ3lER2JkVDlBc2Q3dVZBRi16N2wwRzdibXR3ajhoRzJNcWdxcWMxU3g1UEhDMXpBZi1hTQ?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 18:04:24 GMT",
       "source": "femmeactuelle.fr",
       "icon": "👩",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Municipales 2026 : Emmanuel et Brigitte Macron arrivent bras dessus bras dessous pour voter au Touquet  Femme Actuelle"
-    },
-    {
-      "title": "Selon une étude, un couple sur deux aimerait être davantage \"surpris\" par son partenaire",
-      "link": "https://www.psychologies.com/couple/Selon-une-etude-un-couple-sur-deux-aimerait-etre-davantage-surpris-par-son-partenaire-624825?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 19:03:25 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Derrière ce désir de surprise se cache un besoin simple : raviver la connexion émotionnelle dans un quotidien souvent trop prévisible."
+      "snippet": "\"Je me mettais beaucoup de pression\" : Charlène de Monaco revient sur sa carrière de nageuse  Femme Actuelle"
     },
     {
       "title": "Crème solaire minérale ou chimique : quelle différence (et laquelle choisir selon sa peau) ? - ELLE",
@@ -2662,18 +2686,6 @@
       "snippet": "Vous voulez protéger votre coeur et votre sommeil ? Voici à quelle heure il faut dîner, et pas après selon la science. A la clé, une stabilité de la glycémie nocturne, un sommeil réparateur et une dim"
     },
     {
-      "title": "Ces 10 moments de malaise ont perturbé les Oscars - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbNIBpAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbA?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 16:51:17 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Ces 10 moments de malaise ont perturbé les Oscars  Linternaute.com"
-    },
-    {
       "title": "Prolongez l'hiver avec cette recette de frittata façon tartiflette (c'est rapide à faire !) - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3loNjRIaFdtTFdXNTg1dkpNNzZCZVFRYVlySnh1WmxfeEZ0S3pJTW9ucFRsWnc2cnBYQmsyME1XOHJmMEptbTRGNFZfMnc4UGwyODR4ZnJIekFwSV93ajNIX00tTU1DcHRVanlRd1BGUmNjWXVuQzlKUWktTlZ1N2sta0ZxbjBzU0h3UEZOMllVUVI1UTZwWjR2RzhNV2pLcDllYWY0OVRLand5VFVZNVdKTkZTOFhJbE1wc3dTN1FxTjhtMEdSd2dwUQ?oc=5",
       "pubDate": "Sun, 15 Mar 2026 16:49:00 GMT",
@@ -2694,18 +2706,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Nagui, Jean Dujardin, Jean-Luc Reichmann… : ces célébrités rendent hommage à Bruno Salomone après l’annonce de sa disparition  Femme Actuelle"
-    },
-    {
-      "title": "Rania Tounekti - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMmdxY3hrMFMta1M0QUZsREYyZEdnQkFycmwxRHljd09USGw1YlliTkwwYnpXWElDSHBEU3RFMnFHT1ljVFZBd1ZycVVDNjF1UWdsMDlIU0txd0lZOW05eG45Y1lFbGdJdFFBMWZta2ZIUGk5?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 16:42:57 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Rania Tounekti  Linternaute.com"
     },
     {
       "title": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars - ELLE",
