@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T14:15:43.950Z",
+  "updatedAt": "2026-03-16T15:15:43.259Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "10%",
-    "ram": "22%",
+    "cpu": "10.5%",
+    "ram": "21%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T14:15:43.950Z",
+      "ts": "2026-03-16T15:15:43.259Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2033,6 +2033,130 @@
   ],
   "competitorArticles": [
     {
+      "title": "Soldats français blessés en Irak : les secrets de leur rapatriement express dévoilés par un ancien médecin militaire",
+      "link": "https://www.doctissimo.fr/sante/lessentiel-de-la-sante/urgences-et-premiers-secours/soldats-francais-blesses-en-irak-les-secrets-de-leur-rapatriement-express-devoiles-par-un-ancien-medecin-militaire-742862.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 15:15:01 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Samedi, six soldats français blessés par une frappe de drone ont été évacués en urgence vers la France. Mais comment se déroule leur prise en charge médicale ? Un ancien médecin militaire nous dévoile"
+    },
+    {
+      "title": "Ce qui se passe dans votre corps quand vous mangez des algues pendant deux semaines",
+      "link": "https://www.topsante.com/medecine/maladies_chroniques/ce-qui-se-passe-dans-votre-corps-quand-vous-mangez-des-algues-pendant-2-semaines-energie-et-moral-plus-stable-peau-en-meilleure-sante-une-naturopathe-vous-recommande-dadopter-cet-aliment-riche-e-952906",
+      "pubDate": "Mon, 16 Mar 2026 15:00:59 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "En deux semaines, quelques feuilles d’algues suffisent à modifier l’apport en iode et à faire réagir la thyroïde. Entre regain d’énergie possible et risques d’excès, jusqu’où peut‑on aller sans se tro"
+    },
+    {
+      "title": "Argent de poche : pourquoi les filles reçoivent-elles 229 € de moins que les garçons selon l'étude Pixpay ?",
+      "link": "https://www.doctissimo.fr/famille/argent/argent-de-poche-pourquoi-les-filles-recoivent-elles-229-e-de-moins-que-les-garcons-selon-letude-pixpay-742809.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 15:00:09 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "À l'occasion de la Journée internationale des droits des femmes, le baromètre \"Argent de poche et inégalités\" du Teenage Lab by Pixpay révèle une réalité grinçante : l'écart de revenus entre les sexes"
+    },
+    {
+      "title": "Une étude révèle les 3 métiers qui rendent vraiment heureux",
+      "link": "https://www.psychologies.com/moi/se-connaitre/bonheur/etude-revele-metiers-rendent-vraiment-heureux-606759?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 14:59:25 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Et si le bonheur au travail n’était pas qu’une question de salaire ou de titre ? Selon la psychologie, certains métiers réunissent les conditions idéales pour préserver notre bien-être mental."
+    },
+    {
+      "title": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOaDJ1VVlCUmpFU2tRWmRtdTgzMThOOXJkdVBmLWlvTVptbVpKTjYxMkowLV9uejR3VURRTzhoeTJKZGxQNWNSbENkWE0ydHJ3M29JMF9GR0Z0U0JXWHpuMjR0NFBDeDRXNnFXUkxpckNpZVo4dVRhWHRWY0FqdXZmY0g5Ny1pcThmd2ozSTFwWlBqR3ZXWXFmOV9vRUlRTG5vN2poM0FNVjRSZnhJTm9hUG9VWnRYWUFpbU4zRFBZRGp3U3F3YUxteTlvc05hdw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 14:36:14 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Vaccins anti-Covid à ARNm: la sécurité encore confirmée, la surveillance évolue, selon l'ANSM  Notre Temps"
+    },
+    {
+      "title": "Mort de Bruno Salomone : la ville où il résidait envisage un grand hommage à sa mémoire",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-la-ville-ou-il-residait-envisage-un-grand-hommage-a-sa-memoire-3624208",
+      "pubDate": "Mon, 16 Mar 2026 14:34:30 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition de Bruno Salomone continue de susciter l’émotion : dans la ville où il vivait, le maire sortant Olivier Dosne envisage de lui rendre un hommage à la hauteur de son talent."
+    },
+    {
+      "title": "Carré en danger : cette coupe scandinave inspirée du mulet pourrait tout changer pour votre printemps 2026",
+      "link": "https://www.doctissimo.fr/beaute/cheveux/coiffure/carre-en-danger-cette-coupe-scandinave-inspiree-du-mulet-pourrait-tout-changer-pour-votre-printemps-2026-742761.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 14:34:18 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Venue des rues de Copenhague et d’Oslo, la Scandi frilla réinvente le mulet en version douce et portable. Entre carré sage et esprit rétro, cette coupe pourrait bien signer le printemps 2026."
+    },
+    {
+      "title": "La raison secrète pour laquelle les œufs et le lait se trouvent au fond du supermarché",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/la-raison-secrete-pour-laquelle-les-oeufs-et-le-lait-se-trouvent-au-fond-du-supermarche-953031",
+      "pubDate": "Mon, 16 Mar 2026 14:32:20 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Pourquoi faut-il presque toujours traverser tout le supermarché pour trouver le lait ou les œufs ? Ce choix d’organisation répond à plusieurs logiques, stratégies et contraintes."
+    },
+    {
+      "title": "Brigitte Bardot : après Alain Delon, BB grande oubliée des hommages lors de la cérémonie des Oscars",
+      "link": "https://www.closermag.fr/people/brigitte-bardot-apres-alain-delon-bb-grande-oubliee-des-hommages-lors-de-la-ceremonie-des-oscars-3624199",
+      "pubDate": "Mon, 16 Mar 2026 14:30:49 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Lors de la 98e cérémonie des Oscars, la séquence In Memoriam a provoqué l’incompréhension. Comme l’a relevé la presse internationale, Brigitte Bardot n’y figurait pas."
+    },
+    {
+      "title": "\"Ma vie privée reste dans le privé\" : voici ce que Florent Manaudou répond aux rumeurs de couple avec Elsa Bois - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNczJWTi1Vb1hnQnVSMVRsMmxhanBzMkpNY1g4aDBkck80YnZNYTE3ZFhnNURhWFUxNjd0QVE4ZWZoM29uYVZMMzlqdTJFWm5MOHhnclZQdWpYZEsxT3JsNVgySl9BOWtvLXBIMjJNUnZCTW03LVRXQTh3S3ZxMTctT1lDcTdEMVJWMDVEcldOaXRra0V4ZVFCMmM4dWVBR042TEZMb1Y5V1ZRSGxmLXZseU1hUkEzNUs5NGJUdUNIS0pJZm8xUjVfa0dEY1Z5VFMyNDIwdDNGNA?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 14:26:30 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "\"Ma vie privée reste dans le privé\" : voici ce que Florent Manaudou répond aux rumeurs de couple avec Elsa Bois  Cosmopolitan.fr"
+    },
+    {
+      "title": "Il y a un supermarché meilleur que les autres pour faire ses courses, selon 60 Millions de consommateurs : un meilleur rapport qualité-prix",
+      "link": "https://www.topsante.com/nutrition_et_recettes/il-y-a-un-supermarche-meilleur-que-les-autres-pour-faire-ses-courses-selon-60-millions-de-consommateurs-un-meilleur-rapport-qualite-prix-953049",
+      "pubDate": "Mon, 16 Mar 2026 14:21:26 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Entre inflation, MDD et additifs controversés, 60 Millions de consommateurs a passé au crible nos supermarchés. Une enseigne s’impose avec un rapport qualité-prix difficile à battre."
+    },
+    {
       "title": "Un appel à témoin lancé pour retrouver Savanah, une adolescente disparue près de Dijon depuis deux mois - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNkJVZFdkREdaN0ZPSi1PbUFadkFzX2RheldZRC1WbElXeDB6N3B6ajVNbFd4R2lRZTN2LVU0V1gxRkR4UmdZYUJhZWcyWER6bGVnQWFsTjNHb0x3bTlDV1VXYjh4TmYzRVdpclE4aUcxZVlfS0hkMjQ0SW5ISDhoTEt5bGttVVBIQ19zYmxLQWt4ZDFZYUFKVGg1R2IzcDZGb0hxMlBxUnkxclRLUWhEaTBDNUo1VmVCUFF1WHRqaVBxR1piN3VrZG9kN1o?oc=5",
       "pubDate": "Mon, 16 Mar 2026 14:11:18 GMT",
@@ -2066,6 +2190,17 @@
         "pleinevie.fr"
       ],
       "snippet": "Le sel caché dans certains produits courants du supermarché pourrait contribuer à une consommation élevée et augmenter le risque d’hypertension et de maladies cardiovasculaires."
+    },
+    {
+      "title": "Cette île cachée en plein cœur de l'Europe offre des vacances au calme sans aucun touriste - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQeDZCQ05pNkNoZ0xrVDNHV21BTi1hYTJhbWlUdEVHTkJRbnNvQVpTcTM4bmtia2pYcGtvZTFrdndOTF83TTRwZkZ5TjdlWlVvVzJRVE51YjNCUTZaUGhOY3hZeVVmQkczZGhJOXd0TWdOLXdYM0FEeDNGSmJwdXd2Y3dBREpXTDJNRUIwYzl1eEdrUTVvelMteERGajFLS3RRYnBVcm5CWkZ4SzhLcHlnSEZqcHNuVC1KN1FCQ3V0SUl4X0hWdlZ6d3NXMnBqdjN0MHhBWnJzX0hReGFjNGZBdkdrbnBZcF9kck1OYzlwRDdJYldLX1E?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 14:03:01 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Cette île cachée en plein cœur de l'Europe offre des vacances au calme sans aucun touriste  Cosmopolitan.fr"
     },
     {
       "title": "Le “quart d’heure pour soi” : l’habitude scientifiquement prouvée pour booster son moral durablement",
@@ -2280,52 +2415,6 @@
       "snippet": "Donné archi favori des municipales 2026, Jean‑Michel Aulas se heurte à un premier tour bien plus serré que prévu à Lyon. Entre sondages déjoués et alliance de gauche, le second tour s’annonce comme un"
     },
     {
-      "title": "Éric Ciotti candidat à Nice : quel score pour le député des Alpes-Maritimes aux municipales ?",
-      "link": "https://www.closermag.fr/politique/eric-ciotti-candidat-a-nice-quel-score-pour-le-depute-des-alpes-maritimes-aux-municipales-3624171",
-      "pubDate": "Mon, 16 Mar 2026 12:01:11 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Au premier tour des municipales 2026 à Nice, le duel Éric Ciotti–Christian Estrosi bouleverse la droite locale. Derrière un score inédit, se joue désormais le sort du second tour."
-    },
-    {
-      "title": "Penser au vin a déjà des effets sur le corps, même avant d'en boire, selon des chercheurs",
-      "link": "https://www.topsante.com/medecine/addictions/des-chercheurs-decouvrent-comment-lalcool-impacte-votre-mental-avant-meme-la-premiere-gorgee-952907",
-      "pubDate": "Mon, 16 Mar 2026 12:00:44 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Une étude menée auprès de 429 jeunes adultes montre que la simple pensée d'un verre de vin, de tequila ou de whisky, suffit à faire basculer l’état d’esprit. Que révèlent ces images mentales sur la fa"
-    },
-    {
-      "title": "Votre cerveau \"surchauffe\" sans eau : le Dr Kierzek explique pourquoi votre humeur dépend d'abord de votre hydratation",
-      "link": "https://www.doctissimo.fr/nutrition/eau/lhydratation-adaptee-a-chacun/votre-cerveau-surchauffe-sans-eau-le-dr-kierzek-explique-pourquoi-votre-humeur-depend-dabord-de-votre-hydratation-742855.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 11:56:53 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Vous vous sentez irritable, fatigué ou incapable de vous concentrer ? Avant de blâmer votre café ou votre nuit de sommeil, regardez votre verre d'eau. Une légère déshydratation suffit à brouiller vos "
-    },
-    {
-      "title": "Vous aimez la burrata ? Voici l'astuce facile du chef Yotam Ottolenghi pour la sublimer en 5 minutes",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/vous-aimez-la-burrata-voici-lastuce-facile-du-chef-yotam-ottolenghi-pour-la-sublimer-en-5-minutes-952982",
-      "pubDate": "Mon, 16 Mar 2026 11:51:30 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "À Londres, Yotam Ottolenghi sert une burrata twistée par des fruits et des épices qui affolent les papilles. En cinq minutes, cette astuce sucré salé transforme vos apéros."
-    },
-    {
       "title": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ? - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQVDFEeXRYLU5ydXF2QjFvYUpmY3ZQZFJIS243RDh4RzVWN3J6RGU3TkNUZDBNVW1hX0ZPczVOeUNnWTQ0cmtqUkJSTnpXUmNrT0R2RDZzamZMT0toa1ZzQ29vcGwxaHAxRnU1amI1MWU4eFp4eE5TRzNRMnlCZUFLaUtVRGtSUEZwWkhmby0wZmxES1BscXZISDJTTXlmUEE1R3o0TzUxMHdxZDVBR3Q2U2NndUt0WldPSUxkOUxvYm9DbjVac3d2QmFrdTFhWE56ZThheFpmWUk?oc=5",
       "pubDate": "Mon, 16 Mar 2026 11:47:00 GMT",
@@ -2335,17 +2424,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Cette brosse soufflante peut-elle vraiment remplacer votre sèche-cheveux selon nos tests ?  Femme Actuelle"
-    },
-    {
-      "title": "Sarah Knafo candidate à la mairie de Paris : quel score pour la proche d’Éric Zemmour aux municipales ?",
-      "link": "https://www.closermag.fr/politique/sarah-knafo-candidate-a-la-mairie-de-paris-quel-score-pour-la-proche-deric-zemmour-aux-municipales-3624160",
-      "pubDate": "Mon, 16 Mar 2026 11:45:46 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Aux municipales 2026 à Paris, Sarah Knafo franchit de justesse la barre des 10 % et se hisse au second tour face aux poids lourds. Mais ce 10,40 % rebat-il vraiment les cartes pour la droite parisienn"
     },
     {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
@@ -2370,17 +2448,6 @@
       "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
     },
     {
-      "title": "Ventre gonflé après les légumineuses ? L’astuce d’une nutritionniste pour profiter de leurs bienfaits sans ballonnements",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/ventre-gonfle-apres-les-legumineuses-lastuce-dune-nutritionniste-pour-profiter-de-leurs-bienfaits-sans-ballonnements-741541.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 11:15:52 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "En France, les recommandations officielles encouragent à manger plus de lentilles, de pois chiches et de haricots. Cependant, beaucoup redoutent encore les ballonnements... Que disent vraiment les exp"
-    },
-    {
       "title": "Les personnes qui ont l’impression de passer à côté de leur vie ressentent souvent ces 6 choses",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-limpression-vie-ressentent-choses-624781?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 11:01:34 +0000",
@@ -2390,29 +2457,6 @@
         "aufeminin.com"
       ],
       "snippet": "Chacun de nous peut se poser un jour cette question : Suis-je en train de passer à côté de ma vie ? Voici les six signes qui prouvent que cela peut être vrai, selon une psy."
-    },
-    {
-      "title": "Fraises : ce rappel inquiétant chez Grand Frais et Fresh évoque des pesticides, vos fruits sont-ils concernés ?",
-      "link": "https://www.doctissimo.fr/nutrition/rappels-de-produits/fraises-ce-rappel-inquietant-chez-grand-frais-et-fresh-evoque-des-pesticides-vos-fruits-sont-ils-concernes-742781.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 11:00:23 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Un nouveau rappel de fraises d’origine Espagne vise cette fois des fruits vendus en vrac chez Grand Frais et Fresh partout en France. Quels achats récents doivent vous alerter avant de savourer vos de"
-    },
-    {
-      "title": "A partir de combien de pets par jour votre santé est-elle considérée comme \"en danger\" ? Un médecin donne un nombre précis",
-      "link": "https://www.topsante.com/medecine/vous-petez-beaucoup-si-des-flatulences-excessives-saccompagnent-de-ces-symptomes-il-faut-consulter-alerte-une-experte-952903",
-      "pubDate": "Mon, 16 Mar 2026 11:00:04 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Vous pétez plus que d’habitude ? Découvrez pourquoi et à partir de quel stade il y a éventuellement matière à s'inquiéter."
     },
     {
       "title": "Tourte retour de Nice blettes et pommes pour 6 personnes - Recettes - ELLE",
@@ -2504,6 +2548,17 @@
       "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
     },
     {
+      "title": "Ces aliments peuvent soulager vos crampes d’estomac et prévenir les récidives - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQeE1ZOG03SDgxM1BRRjRRNjFBRU4xdFZja0tFWUlhN3hIbTVWVC1qXzB1elE0QUdMcHg5V21UZmhvZjJRdGNkQUxSbE4wbndCN2RxS2hJVWJKQkxJRGx2ZEp5RUhnQ0d6Y2ZEUDMzV0Q4ZHYxMjc3ZnNTVW9ISk42cUZHVDM1clFINlpTZk43ZWdub0VGT0VhY2xlaGVzNFF2dm15N1hwOGFsTnVnVnBUbERvTm5VbnFCdG00YzY3b2tJOU9XU25oNFExMURWenU5ZE5XQm5JRVMtWkI0dzNTRnl2bw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 09:46:00 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Ces aliments peuvent soulager vos crampes d’estomac et prévenir les récidives  Femme Actuelle"
+    },
+    {
       "title": "Combien de temps faut-il pour oublier son ex ? La science a tranché",
       "link": "https://www.psychologies.com/couple/crises-divorce/Combien-de-temps-faut-il-pour-oublier-son-ex-La-science-a-tranche-624991?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 09:02:16 +0000",
@@ -2513,18 +2568,6 @@
         "aufeminin.com"
       ],
       "snippet": "Après une rupture amoureuse, tourner la page peut prendre du temps. Mais combien exactement ? Une étude récente apporte enfin une réponse scientifique à cette question que beaucoup se posent."
-    },
-    {
-      "title": "Programme TV Cirque du dimanche 29 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNOXFJQUpjZE14aDN2ZzRDRlY2ZkpPRWw3T3ZFUElydnJONzYyM0pBUkRSdV9MTFlZNVFpLUR0cWlOeVhDWFhFZ2pkOFp3SWRuWVhkc0JRTi11ekUtT2JWNWZKVThyZDVJYUZCWVN0YzZSUDJsOXhXQXBhSEJ4RTFES0ppNW9sdVl0?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 09:01:34 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Cirque du dimanche 29 mars 2026  Linternaute.com"
     },
     {
       "title": "8 signes méconnus d'un déséquilibre de votre microbiote intestinal",
@@ -2570,17 +2613,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Jeux paralympiques 2026 : le bilan plus que poussif de la délégation française  Linternaute.com"
-    },
-    {
-      "title": "Pour ne plus réagir à chaud face à une remarque blessante, utilisez la technique infaillible de cette psy",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/pas-reagir-chaud-remarque-blessante-technique-psy-604533?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 08:09:16 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Il suffit parfois d’un mot de travers pour provoquer des réactions émotionnelles fortes chez soi. Nos sentiments sont parfois tellement heurtés qu’il est difficile de trouver une manière intelligente "
     },
     {
       "title": "Astro love : les signes qui vont vivre une belle histoire d'amour en mars 2026 - Cosmopolitan.fr",
@@ -2639,6 +2671,18 @@
       "snippet": "Dior, Prada, Vuitton : les plus belles tenues des stars pour les Oscars 2026  Cosmopolitan.fr"
     },
     {
+      "title": "Romane Tardy - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8tcVJMSUxlcUpSSGtZV3NiODlLdFhSNXRzZThOZ3JFZ1V0RVZ4Z2Z0a2xDcVlJRnN4RjhhZWoxTXp0WElsSGxZb3RIVU9CSGNXdFJIaGt5Q2xLa3N5UjhzbTZFMUQwdXlqVDNKdXIzUW0zX25w?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 04:44:06 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Romane Tardy  Linternaute.com"
+    },
+    {
       "title": "Comment atténuer rides, cernes ou poches et retrouver un regard parfaitement reposé? - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOWkxSTnZ2aHZPU1hDRzR0SFBZZ3pyMjFzUzUzelVTa3JKbmI3NG1UODgyMVcyRHVmRDdIZjVKeXo0aVlBRUtZR250cDlKMjNyX1RmWEpUaUJvdFp0MXdOOFlKWlBISXdxNmVUZjZCMVFNenhPUy16RWdOVFdSQUVUenE5WE1SNVV0NFlvb2lsTVB5a2xFOWdGUFZjRGsyVWpHSkFDdnRLWFJ5UDhCcG45Qkh3amJiWFNJMXVOZXIzdm84R3lnbnExSzRNMk90bUZHMGpfRC1n?oc=5",
       "pubDate": "Mon, 16 Mar 2026 04:36:04 GMT",
@@ -2681,17 +2725,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Une étude majeure de l&#039;Inserm publiée début mars révèle le rôle fondamental des tanycytes dans le risque accru d&#039;Alzheimer et ouvre la voie à des thérapies inédites."
-    },
-    {
-      "title": "ifléchés gratuits - Force 1 - 16 mars 2026 Grille n°1507 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFowT3hSWk1mV0xoTFJ2RktMa0d0VS1mWEpBUERPMEVHTmFndVJwNUxpQnNLcDgxajNnQmNsRTNDb3FVYWg0ZFctR3pfcmZQTTlSRUQ3dWtpTEMybHlaeG84Q2xoN0dveGYxRUYyNVJicS1SVEIzSVBLWlZrMVdkNEh4Y0VGX3hYcnNmQ04tUG5tX2RLS1hiUkJrUmNDYXhDN004VG9NRzJ2cm90cEQzbWZBNA?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:06:14 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "ifléchés gratuits - Force 1 - 16 mars 2026 Grille n°1507  Notre Temps"
     },
     {
       "title": "Mots fléchés gratuits - Force 4 - 16 mars 2026 Grille n°3886 - Notre Temps",
@@ -2773,41 +2806,6 @@
       "snippet": "\"Je n’ai que son sourire en tête\" : Valérie Bonneton rend un hommage bouleversant à Bruno Salomone  Femme Actuelle"
     },
     {
-      "title": "Résultat municipale 2026 à Saint-Hilaire-de-Riez (85270) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOU3J4bHp1RVMtQ3puWllXMkNQUnRoZmxTRnJIQTNTYjlTbHNIQU1TalM3SEVKU1k5NjNMc0g1OUI5dkdaZ0c5dG56dVhLZWloWkdfTlRpNF9RMFRrT1FmblhaVjhIa1M5dHVkbmx3c1dOWnNsQVBCTUphdUlnMWRla0ZGM1M3ZUZPMUlpeW44dEJtWkdvdmtlZFJ2aHB2bWNhRFY2NTBHYS1jRlFMU2hUWmtoTzNrTzFpdjFoQnZWM3FJOGY3UFVyemRYcV9kaVktLUI0OUk5czg5NHpJZjd6WnNmb29yYmRjUmF1bnZzcw?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 20:51:36 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat municipale 2026 à Saint-Hilaire-de-Riez (85270) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
-    },
-    {
-      "title": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcXdwQk1EeEtkME9vOUhjaG5xdld6elhtZ2UzMnJudFVWem1Cc2tEVXJTLW1qTk9lZ2N0NGlodkE3XzdaMzh0Q1BmSjlSYTdJQnY2U3dweFpFX01QYkFRWnktY1dkUmJRUEFyOFhMNUN4M3NZWno1NnJiZHR5ZGw3RkxITlVyNi1XT3FfVXhiSEEwSFpiejBmY0N0Z19oa3BSeEtzbzd4dVNNSmdVM3BqWkx1b0ozUFdzTThhd3ZEUUc2Rm9rMmF0UUdtd0hPVnVBMzhn?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 20:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu  Cosmopolitan.fr"
-    },
-    {
-      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcXdObGJnR05PbmhJdHNyRE9UWFB1akQ2Z2NXYVZhei1LUFBjWkZOWEw1N1ZyUzI3YloxaDRLRE1OTWZwSEphRVNDQi1meUUtNkFGRTU4V0VqNUpJS054WWdkTTUwZWdRaFY1VHlvanlXYlAyS21LTy1ZT0VrVEJibFBvMlRpejhyUHdqT3ZoaXdhM2Y0VFhCWTVQM2hFOERpNUo1SkZISUVpWEZVa0FaQmtuTnQyXzM1empkUjl6ZjZWc0dranBGR1hrMzZPSTc1dEM4el9HNDRpdXVK?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 19:22:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ?  Linternaute.com"
-    },
-    {
       "title": "Oscars 2026 : le menu gastronomique servi par le chef Wolfgang Puck pour le gratin d’Hollywood - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxONnFBdHdoalI0UXV4Wm5RdlMzX1VNbHdpaVpLQjZZZ1ZIbDlpMHRWRGFRdmVYamdDNFZWNmhaS3ltdmJBOWVyNmtzQTZ2X2ZRZUNkbXdDS1NnZUh0c1ZHTUl3aFgyb2h1N0cyTGRFVWMyRmNUNFhVSE9nMjZmTzRRV3I2SmRCckdPall5QVZZalp2VGNjVjZwc0NCV0VUdUQzemVieHAtSEw2dGVPZ2NHVEtpOTdhVmZxQ05OUGNSYzY2QlNXX3NCOE5IeFhRLTdFeFN6UWVkb2xUZ1hlY25yRTJrWXQ?oc=5",
       "pubDate": "Sun, 15 Mar 2026 18:00:00 GMT",
@@ -2830,6 +2828,18 @@
       "snippet": "Vous voulez protéger votre coeur et votre sommeil ? Voici à quelle heure il faut dîner, et pas après selon la science. A la clé, une stabilité de la glycémie nocturne, un sommeil réparateur et une dim"
     },
     {
+      "title": "Ces 10 moments de malaise ont perturbé les Oscars - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbNIBpAFBVV95cUxOdV9NcFNUS0N2b3ZEQXg1c0dDWGdKeHhOX3RsOEliTW9vSHFZZzJjV0F6WDBoRXRLWWk1R1FxLTJhbWpyQ1FHUXhRSmRsLUV3Q2w4V1lPaFN6elZiLXNKNEFlMElXdHE3a3pmS0xQa3U4UmlBRFlLaU03WGN3N3M0UkQ5dGdlMGh0RVB5UGVyN0JXLUljLVc4emRkNS1XenB1TnJUbA?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:51:17 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Ces 10 moments de malaise ont perturbé les Oscars  Linternaute.com"
+    },
+    {
       "title": "Prolongez l'hiver avec cette recette de frittata façon tartiflette (c'est rapide à faire !) - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQM3loNjRIaFdtTFdXNTg1dkpNNzZCZVFRYVlySnh1WmxfeEZ0S3pJTW9ucFRsWnc2cnBYQmsyME1XOHJmMEptbTRGNFZfMnc4UGwyODR4ZnJIekFwSV93ajNIX00tTU1DcHRVanlRd1BGUmNjWXVuQzlKUWktTlZ1N2sta0ZxbjBzU0h3UEZOMllVUVI1UTZwWjR2RzhNV2pLcDllYWY0OVRLand5VFVZNVdKTkZTOFhJbE1wc3dTN1FxTjhtMEdSd2dwUQ?oc=5",
       "pubDate": "Sun, 15 Mar 2026 16:49:00 GMT",
@@ -2839,6 +2849,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Prolongez l'hiver avec cette recette de frittata façon tartiflette (c'est rapide à faire !)  Femme Actuelle"
+    },
+    {
+      "title": "Rania Tounekti - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9NMmdxY3hrMFMta1M0QUZsREYyZEdnQkFycmwxRHljd09USGw1YlliTkwwYnpXWElDSHBEU3RFMnFHT1ljVFZBd1ZycVVDNjF1UWdsMDlIU0txd0lZOW05eG45Y1lFbGdJdFFBMWZta2ZIUGk5?oc=5",
+      "pubDate": "Sun, 15 Mar 2026 16:42:57 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Rania Tounekti  Linternaute.com"
     },
     {
       "title": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars - ELLE",
@@ -2852,17 +2874,6 @@
       "snippet": "Menu de la semaine : des idées recettes du lundi 16 au dimanche 22 mars  ELLE"
     },
     {
-      "title": "Noté 4/5 : le détail qui rend ce thriller psychologique complètement addictif - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNNlhlYm1Zak5KZlZXZG9pSnVHbDRGM3gwcU1OTzVnNlcyT3EweDlId0dqY3BOeDk1RW0wc3J0MnRETTcyTVZwLUZlbnlYa3ZMMlB6YWFENER5cG9PUF9yZHFpNFFqTkVsWklqdm94OEw3MTR0Z193LXc3dENmaFBPYTdvV0VQSUZQSm1LVmxqVUtkR2hqU0pLaUZKSXVOdWt0RDNBRHp0cFFLSzhBdWF5MXR4eGFobU1IWGZSb29PdWhwT0dsbTNpbXJ4OUxBTm1nYkZUMEtfaGFnUQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 15:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Noté 4/5 : le détail qui rend ce thriller psychologique complètement addictif  Cosmopolitan.fr"
-    },
-    {
       "title": "Ménopause et libido : 5 solutions naturelles validées pour retrouver le désir et le plaisir",
       "link": "https://www.medisite.fr/psycho-sexo-menopause-et-libido-5-solutions-naturelles-validees-pour-retrouver-le-desir-et-le-plaisir.5717303.862036.html",
       "pubDate": "Sun, 15 Mar 2026 16:00:00 +0100",
@@ -2872,17 +2883,6 @@
         "pleinevie.fr"
       ],
       "snippet": "La ménopause et la périménopause sont souvent synonymes de baisse de libido, un phénomène directement lié à la chute des œstrogènes et de la testostérone. Mais la flamme n&#039;est pas éteinte : nous "
-    },
-    {
-      "title": "\"C'est l'amour de ma vie\" : Didier (L'Amour est dans le pré) annonce être en couple avec une certaine Gisèle - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNYjFoSHRzeUEwOUpPa1Z4SEJvc3ZiazhCTHZpc0dYMmJvcUtXQ3F6VFJLTGVrNWFRMG5zbTFqaUxoS2NFUWJVQ0xaMHl1VmxCcHNKN09iejNlZzY1eEhCMnZUNFVManhKeW4wUHZIQi1lZW5pVk9uTXo1ck4zMGdJT3lfMjJzNW14UFhPZGkwRGRhSU9ETHcyNWdTNV90UGFtVHVlZTZrQjctMTJFZl9hM2dzY0F6cExLQ0dwbUlWM0xyNVdyamJRXzRqOWFUTzczMlFXblBqZGxvSTMteXFvdzk0Y1p3YlI5RHc?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 14:56:10 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"C'est l'amour de ma vie\" : Didier (L'Amour est dans le pré) annonce être en couple avec une certaine Gisèle  Femme Actuelle"
     },
     {
       "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
@@ -2905,17 +2905,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Laver les taies d’oreiller ne pose pas de problème, il suffit de les passer en machine. Mais les oreillers, comment faire ? Découvrez la méthode de nettoyage professionnelle, de la température idéale "
-    },
-    {
-      "title": "Stress, anxiété : ces 5 signaux corporels qui montrent que vous craquez sans le savoir",
-      "link": "https://www.medisite.fr/psycho-stress-anxiete-ces-5-signaux-corporels-qui-montrent-que-vous-craquez-sans-le-savoir.5717293.107.html",
-      "pubDate": "Sat, 14 Mar 2026 16:00:00 +0100",
-      "source": "medisite.fr",
-      "icon": "💉",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Le stress et l’anxiété sont souvent vicieux et nous épuisent sans que nous en ayons conscience. Mais notre corps exprime souvent ce que notre esprit tente d&#039;ignorer. Voici cinq micro-gestes incon"
     }
   ],
   "competitorFeedsMeta": [
