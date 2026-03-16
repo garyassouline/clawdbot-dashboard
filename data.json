@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T09:15:43.106Z",
+  "updatedAt": "2026-03-16T10:15:43.487Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "5.3%",
+    "cpu": "14.3%",
     "ram": "21%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T09:15:43.106Z",
+      "ts": "2026-03-16T10:15:43.487Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -183,6 +183,11 @@
   "veilleBriefs": [
     {
       "date": "trend-20260315",
+      "opportunities": [],
+      "context": {}
+    },
+    {
+      "date": "20260316",
       "opportunities": [],
       "context": {}
     },
@@ -2028,6 +2033,141 @@
   ],
   "competitorArticles": [
     {
+      "title": "“Un délire narcissique” : Trump est-il vraiment fou ? L’avis des psys sur sa santé mentale",
+      "link": "https://www.psychologies.com/actualites/societe/delire-narcissique-trump-fou-avis-psys-sante-mentale-620682?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 10:14:17 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Au fil des prises de décision politique et des sorties officielles, la stabilité mentale de Donald Trump laisse libre cours aux interprétations. Le président américain a-t-il vraiment perdu la tête ?"
+    },
+    {
+      "title": "Mort de Bruno Salomone : Frédérique Bel craque et lui rend un hommage poignant, \"Oh putain c’est dur !\"",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-le-message-de-frederique-bel-sur-instagram-ces-mots-quelle-naurait-jamais-voulu-ecrire-3624090",
+      "pubDate": "Mon, 16 Mar 2026 10:09:49 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le 15 mars 2026, la mort de Bruno Salomone à 55 ans frappe en plein cœur le monde du divertissement français. Sur Instagram, Frédérique Bel, sa partenaire de Fais pas ci, fais pas ça, laisse éclater u"
+    },
+    {
+      "title": "Selon un coiffeur, après 70 ans, la coupe \"trixie cut\" est la plus rajeunissante du printemps 2026",
+      "link": "https://www.topsante.com/beaute_soins/selon-un-coiffeur-apres-70-ans-la-coupe-trixie-cut-est-la-plus-rajeunissante-du-printemps-2026-952928",
+      "pubDate": "Mon, 16 Mar 2026 10:04:13 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Printemps 2026, un coiffeur affirme que la trixie cut serait la coupe courte la plus rajeunissante pour les femmes de plus de 70 ans. Comment ce nouveau pixie revisité change-t-il le volume, l’ovale d"
+    },
+    {
+      "title": "Aujourd'hui en rémission après son cancer, Kate Middleton a supprimé cette boisson de son quotidien",
+      "link": "https://www.topsante.com/nutrition_et_recettes/aujourdhui-en-remission-apres-son-cancer-kate-middleton-a-supprime-cette-boisson-de-son-quotidien-952909",
+      "pubDate": "Mon, 16 Mar 2026 10:00:46 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Depuis l’annonce de son cancer, Kate Middleton a revu en profondeur sa façon de manger et de boire. Sa nouvelle routine alimentaire intrigue autant qu’elle inspire."
+    },
+    {
+      "title": "Cantines des Hauts-de-France : ces pains et brioches servis aux enfants rappelés pour un détail inquiétant dans la mie",
+      "link": "https://www.doctissimo.fr/nutrition/rappels-de-produits/cantines-des-hauts-de-france-ces-pains-et-brioches-servis-aux-enfants-rappeles-pour-un-detail-inquietant-dans-la-mie-742779.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 10:00:23 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dans les cantines des Hauts-de-France, un rappel vise baguettes, pains et brioches livrés par ToufletBoulanger. Qui est concerné et comment réagir sans paniquer ?"
+    },
+    {
+      "title": "Mort de Bruno Salomone : où habitait l'acteur ?",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-ou-habitait-lacteur-3624096",
+      "pubDate": "Mon, 16 Mar 2026 09:54:31 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La disparition de Bruno Salomone à 55 ans a bouleversé de nombreux fans. L’acteur et humoriste, connu notamment pour ses rôles à la télévision et au cinéma, vivait depuis plusieurs années dans une com"
+    },
+    {
+      "title": "La Bourse de Paris reste prudente face au risque géopolitique - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZ3BWZVJCd0RiZzhRTVpHVTNZSlRWZWF4MV9KNjlPQ3NOc2twaWFxQVNnT0E2QW44V3JQRG9BenNmVUVsUkN0T2c5N2FiazBOUEd2WmEtbzM4bmFoRjVCR0x2UlN3d1hqRjZzamJScHBjOTNBcUZkZ1NPcWdXbkdXa3FsM0QyUk1IT1N6U3Y1cmMzZ3d4MktuUWcxeE5TTDkwYUZYUW5TOA?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 09:51:15 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "La Bourse de Paris reste prudente face au risque géopolitique  Notre Temps"
+    },
+    {
+      "title": "Louis Sarkozy : pari raté pour le fils de Nicolas Sarkozy à Menton",
+      "link": "https://www.closermag.fr/politique/louis-sarkozy-pari-rate-pour-le-fils-de-nicolas-sarkozy-a-menton-3624069",
+      "pubDate": "Mon, 16 Mar 2026 09:42:21 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Même pas un an après son installation dans la ville, Louis Sarkozy se voyait déjà en maire de Menton. Malheureusement pour lui, c'est un échec."
+    },
+    {
+      "title": "Mort de Bruno Salomone : Guillaume de Tonquédec lui rend hommage et adresse un message à sa veuve",
+      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-guillaume-de-tonquedec-lui-rend-hommage-et-adresse-un-message-a-sa-veuve-3624081",
+      "pubDate": "Mon, 16 Mar 2026 09:35:15 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Après l'annonce de la mort de Bruno Salomone, Guillaume de Tondéquec lui a rendu un vibrant hommage et a eu une pensée touchante pour sa veuve, Audrey."
+    },
+    {
+      "title": "Ces 4 signes montrent que votre partenaire s’attache à une autre personne",
+      "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/infidelite/4-signes-que-votre-partenaire-sattache-a-une-autre-personne-331663.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Mon, 16 Mar 2026 09:30:48 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Votre partenaire semble distant et moins investi dans votre relation ? Voici quatre indices qui pourraient indiquer qu'il ou elle développe des sentiments pour une autre personne."
+    },
+    {
+      "title": "Drôle de soirée pour Timothée Chalamet : l’acteur a payé cher sa remarque sur l’opéra lors de la cérémonie des Oscars",
+      "link": "https://www.closermag.fr/people/drole-de-soiree-pour-timothee-chalamet-lacteur-a-paye-cher-sa-remarque-sur-lopera-lors-de-la-ceremonie-des-oscars-3624054",
+      "pubDate": "Mon, 16 Mar 2026 09:30:09 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "La soirée des Oscars 2026 a été mouvementée pour Timothée Chalamet, visé par les moqueries du présentateur Conan O’Brien..."
+    },
+    {
+      "title": "Au rayon yaourts, il y en un considéré comme l'un des aliments les plus sains au monde : voici lequel",
+      "link": "https://www.topsante.com/nutrition_et_recettes/au-rayon-yaourts-il-y-en-un-considere-comme-lun-des-aliments-les-plus-sains-au-monde-voici-lequel-952912",
+      "pubDate": "Mon, 16 Mar 2026 09:20:10 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Parmi les dizaines de pots alignés en rayon, un yaourt se distingue par ses effets sur le poids, le cœur et le microbiote. Mais mal choisi, il bascule dans la catégorie des desserts ultra-transformés."
+    },
+    {
       "title": "Combien de temps faut-il pour oublier son ex ? La science a tranché",
       "link": "https://www.psychologies.com/couple/crises-divorce/Combien-de-temps-faut-il-pour-oublier-son-ex-La-science-a-tranche-624991?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 09:02:16 +0000",
@@ -2196,26 +2336,15 @@
       "snippet": "Entre plaisir et silhouette, le fromage reste souvent accusé à tort. Guidée par la nutritionniste anglaise Rhiannon Lambert, une sélection de cinq fromages change la donne."
     },
     {
-      "title": "Mort de Bruno Salomone : \"Il ne pouvait plus écrire\", ce dernier projet sur lequel il travaillait",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-il-ne-pouvait-plus-ecrire-ce-dernier-projet-sur-lequel-il-travaillait-3624039",
-      "pubDate": "Mon, 16 Mar 2026 07:17:58 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "“Il ne voulait pas que ça se sache” : Hélène de Fougerolles dévoile de quelle maladie souffrait le comédien Bruno Salomone - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaE9OSXJDaVdYNFRKSEp0dktKSy1mcHNPcUw2V2RIOFh4RGZvWHdwM3lzWkpvSjJyVXM2Q2hEU2xkdzNSQlhwTko5d1ZFQno4N3lNYlNmejRpZmhYSklscVBkUmNSWmZMR2xvQkpCampSbFBXbXg0TnZIaEpwWlFabnlNVXVfSTZYaWxsU2JSOVo3R19RZWpHRzNia0VkT1A4SkVvZ3FFeTJvam55SFhsa25fTGdvTEpiMUpSS2FXcVE1REJzdWticXRRaDcyeWlleGktUTNJa2JTRWlVVDQ0dmR0cXp2SHc4dm5abjRPemJhc0V5Mk1SQTlidl9LWGs?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:15:50 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "La disparition de Bruno Salomone à 55 ans a bouleversé le monde du spectacle et ses nombreux fans... Mais malgré la maladie, le comédien continuait de travailler sur un dernier projet, comme l’a révél"
-    },
-    {
-      "title": "Sylvie Tellier \"sous le choc\" : Antoni Calmon, chirurgien esthétique des stars, est mort à l’âge de 40 ans",
-      "link": "https://www.closermag.fr/people/sylvie-tellier-sous-le-choc-antoni-calmon-chirurgien-esthetique-des-stars-est-mort-a-lage-de-40-ans-3624029",
-      "pubDate": "Mon, 16 Mar 2026 07:05:11 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Le monde des célébrités est en deuil. Le chirurgien esthétique des stars Antoni Calmon est mort à l’âge de 40 ans, provoquant une vive émotion chez plusieurs personnalités qui le connaissaient, dont S"
+      "snippet": "“Il ne voulait pas que ça se sache” : Hélène de Fougerolles dévoile de quelle maladie souffrait le comédien Bruno Salomone  Femme Actuelle"
     },
     {
       "title": "Si vous ne ressentez pas cette émotion dans votre couple, votre sécurité émotionnelle est en danger (et votre sommeil aussi), selon une étude",
@@ -2250,17 +2379,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Et si votre assiette de légumes parlait directement à votre cerveau ? Au cœur du microbiote intestinal, un discret jeu d’équilibre pourrait bien peser sur l’humeur."
-    },
-    {
-      "title": "Municipales 2026 : \"Oh la victimisation !\", Clémence Guetté \"insultée\" par Raphaël Glucksmann, tensions sur le plateau de TF1",
-      "link": "https://www.closermag.fr/politique/municipales-2026-oh-la-victimisation-clemence-guette-insultee-par-raphael-glucksmann-tensions-sur-le-plateau-de-tf1-3624025",
-      "pubDate": "Mon, 16 Mar 2026 06:37:04 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Au lendemain du premier tour des municipales, le débat s’est rapidement envenimé sur le plateau de TF1, notamment entre Clémence Guetté, Raphaël Glucksmann et Prisca Thevenot."
     },
     {
       "title": "Beurre de cacahuète : attention aux pièges ! Quelques conseils des experts pour bien le choisir",
@@ -2320,15 +2438,16 @@
       "snippet": "Et si le secret du bien-être résidait dans de petits gestes quotidiens ? Les micro-habitudes, faciles à adopter, peuvent transformer durablement notre qualité de vie sans effort colossal."
     },
     {
-      "title": "Mort de Bruno Salomone : \"Depuis septembre, il était condamné\", Isabelle Gélinas fait des révélations sur le cancer fatal au comédien",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-depuis-septembre-il-etait-condamne-isabelle-gelinas-fait-des-revelations-sur-le-cancer-fatal-au-comedien-3624024",
-      "pubDate": "Mon, 16 Mar 2026 06:00:37 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
+      "title": "Programme TV Patinage du dimanche 29 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWWVnUzBOeFQzREUyRkNSU3hnQjFZVG5RRXl3UXhJMjY1ZkdDLV85ekdVOTBrU2swX3Z1ZWpqZmpjbEEzbXM5d21kLWQzYXA4bzE1aDF4NHh2QzhvTEU4c0l6cl8xUkZGelN2WG00VFhBSHI0RzVkSjFQaTZfX1lxNlpHTGg2SXJlSWdJ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 06:04:14 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
       "competes": [
-        "mariefrance.fr"
+        "mariefrance.fr",
+        "pleinevie.fr"
       ],
-      "snippet": "La disparition de Bruno Salomone a suscité une vive émotion dans le monde du spectacle. Emporté à l’âge de 55 ans, le comédien laisse derrière lui une carrière marquée par l’humour et des rôles cultes"
+      "snippet": "Programme TV Patinage du dimanche 29 mars 2026  Linternaute.com"
     },
     {
       "title": "Des études montrent que les psychopathes boivent leur café noir",
@@ -2343,17 +2462,6 @@
       "snippet": "Et si votre façon de boire le café en disait plus sur vous que vous ne l’imaginez ? Une étude d’Innsbruck interroge le lien entre goût amer et traits antisociaux."
     },
     {
-      "title": "Mort de Bruno Salomone : \"Je te pleure et je t’aime\", Jean Dujardin poste un message déchirant pour rendre hommage à son ami",
-      "link": "https://www.closermag.fr/people/mort-de-bruno-salomone-je-te-pleure-et-je-taime-jean-dujardin-poste-un-message-dechirant-pour-rendre-hommage-a-son-ami-3624018",
-      "pubDate": "Mon, 16 Mar 2026 05:38:55 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "La disparition de Bruno Salomone a suscité une vive émotion dans le monde du spectacle. Sur les réseaux sociaux, Jean Dujardin a partagé un message bouleversant pour rendre hommage à son ami et ancien"
-    },
-    {
       "title": "Ces profils sont les plus exposés au burn-out selon une experte : en faites-vous partie ?",
       "link": "https://www.doctissimo.fr/famille/travail/sante-et-travail/ces-profils-sont-les-plus-exposes-au-burn-out-selon-experte-faites-vous-partie-de-la-liste-335438.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 05:30:56 +0000",
@@ -2363,18 +2471,6 @@
         "aufeminin.com"
       ],
       "snippet": "Le burn-out, un mal insidieux qui touche de nombreux travailleurs, est souvent lié à certains traits de personnalité. Le Dr Claire Ashley, experte en la matière, dévoile les profils les plus à risque "
-    },
-    {
-      "title": "Il est peut-être temps de dire adieu à cette boisson : des experts l'accusent d'augmenter le risque d'AVC",
-      "link": "https://www.topsante.com/medecine/troubles_cardiovasculaires/avc/il-est-peut-etre-temps-de-dire-adieu-a-cette-boisson-des-experts-laccusent-daugmenter-le-risque-davc-952877",
-      "pubDate": "Mon, 16 Mar 2026 05:00:37 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Cette boisson courante (et qu'on pense être saine !) favoriserait la survenue d'un accident vasculaire cérébral hémorragique, affirment des chercheurs."
     },
     {
       "title": "Anne Hathaway en robe fleurie, Emma Stone sublime en blanc : les plus beaux looks des stars aux Oscars - Cosmopolitan.fr",
@@ -2399,16 +2495,16 @@
       "snippet": "Il y a de ces sujets de conversations qui traduisent un manque d'intelligence sans le savoir. On vous en dit plus."
     },
     {
-      "title": "Voici ce qui se passe dans votre corps si vous mangez un petit-déjeuner protéiné pendant 2 semaines",
-      "link": "https://www.topsante.com/nutrition_et_recettes/voici-ce-qui-se-passe-dans-votre-corps-si-vous-mangez-un-petit-dejeuner-proteine-pendant-2-semaines-952889",
-      "pubDate": "Mon, 16 Mar 2026 04:49:57 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
+      "title": "Programme OCS Max du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQU9OUXRBWUd5MzlmU2VxRFpVYkk2THZYdTZRMXVvcldCeThkeDN1TVprMWFpTk5ZLXVGRUFvckZ4QmdIXzA0aXhMaVV4V2JiZmdnWTM4MFMxbE9jZ21tTWlUS01KZzk4aGhodkhIX1ZPdXZPMXpnRy1iejV0UFN2RG9adndNZw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 04:46:28 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
       "competes": [
-        "aufeminin.com",
+        "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Pendant 14 jours, une journaliste et des nutritionnistes ont remplacé le traditionnel petit-déjeuner sucré français par un petit déjeuner protéiné. Résultat : fringales, énergie et concentration ont c"
+      "snippet": "Programme OCS Max du vendredi 27 mars 2026  Linternaute.com"
     },
     {
       "title": "Ballonnements, crampes, diarrhées... Et si c’étaient des vers intestinaux ? L'alerte d'un expert",
@@ -2455,29 +2551,6 @@
       "snippet": "Il y a de ces signes qui prouvent qu’une personne ne vous porte pas dans son cœur. On vous en dit plus."
     },
     {
-      "title": "Pour bien choisir son pain protéiné, il y a une règle (importante) à respecter, selon cette diététicienne",
-      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/decrypter_les_etiquettes/pour-bien-choisir-son-pain-proteine-il-y-a-une-regle-importante-a-respecter-selon-cette-dieteticienne-952874",
-      "pubDate": "Mon, 16 Mar 2026 04:00:41 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Les pains \"riches en protéines\" se multiplient dans les rayons des supermarchés. Mais attention, il y a du bon comme du mauvais : les conseils de la diététicienne pour bien choisir."
-    },
-    {
-      "title": "Attention ! Ce danger invisible se cache dans la machine à café de votre entreprise",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/cafe/cafe-et-sante/le-danger-invisible-qui-se-cache-dans-la-machine-a-cafe-de-votre-entreprise-373562.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Mon, 16 Mar 2026 03:30:59 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Et si votre pause-café quotidienne cachait un danger insoupçonné ? Une étude suédoise révèle que certaines machines à café d’entreprise libèrent des substances chimiques pouvant augmenter le cholestér"
-    },
-    {
       "title": "Programme TV Érotiques du dimanche 29 mars 2026 - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUnh0My1NMVV5X1NhUnhUNVlleVNicjVtMkU5VUNhR1dCOEhmbXJmMTNJVTR5UmQwY0FjNWoxYlRmTzJud0hEV0xwcmpvTEFMdHg3X2F1S0lnX0ZMZWtpNnpMZ1hzZmFWNUthQUNQUVFjM1JPenNUOFhqZzZLd1JvaldTZGdoSUFJaVpOX2pGcExYZw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 03:14:04 GMT",
@@ -2512,28 +2585,6 @@
       "snippet": "Mini fléchés gratuits - 16 mars 2026 Grille n°3284  Notre Temps"
     },
     {
-      "title": "Sudoku gratuits - Force 1 - 16 mars 2026 Grille n°1456 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQY3hTb1VNYVNFVVdEdDc5aWl1eVlDSzZibHc2NGNmRTRyRkZiYUFPZ3dvb1V4MERwelRzOTlsSzBJRWctd05lVGZmb1g0eDgxcGVTVkFOcHRlZTRjTlluQzVKaXkyemNlQjR5LWtSUUpEYlV5Z3p3Z0NMazNXaDNmLWJsT3JCaTFxNVR3Q3FYdjVKTXZwSUNjNkt5OW5LYXBGdVhQRU9NNkZocXJjbkE?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:06:19 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Sudoku gratuits - Force 1 - 16 mars 2026 Grille n°1456  Notre Temps"
-    },
-    {
-      "title": "Mots coupés gratuits - 16 mars 2026 Grille n°4006 - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUHlyQ3duazQtRnBZRzZwVWd5NGtlRlpQNGhQaTN4M2lrQnVtNHdENXpGZ3JWbXFQam9NaXVER29GWE5RVkdKZlpEdzE2UEx2RnFpdEctU3F4Zm53V1JqZW5CUVg0OGpXS3JlTmNTY1RJeW9IZFFiX244ZmJaZEhDbGtTalZuRjVZRzRQdXV1VHhzbUV0cWRDU2tBWmdwcmlPeC1mVGNB?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 02:06:17 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Mots coupés gratuits - 16 mars 2026 Grille n°4006  Notre Temps"
-    },
-    {
       "title": "ifléchés gratuits - Force 1 - 16 mars 2026 Grille n°1507 - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbFowT3hSWk1mV0xoTFJ2RktMa0d0VS1mWEpBUERPMEVHTmFndVJwNUxpQnNLcDgxajNnQmNsRTNDb3FVYWg0ZFctR3pfcmZQTTlSRUQ3dWtpTEMybHlaeG84Q2xoN0dveGYxRUYyNVJicS1SVEIzSVBLWlZrMVdkNEh4Y0VGX3hYcnNmQ04tUG5tX2RLS1hiUkJrUmNDYXhDN004VG9NRzJ2cm90cEQzbWZBNA?oc=5",
       "pubDate": "Mon, 16 Mar 2026 02:06:14 GMT",
@@ -2543,6 +2594,17 @@
         "pleinevie.fr"
       ],
       "snippet": "ifléchés gratuits - Force 1 - 16 mars 2026 Grille n°1507  Notre Temps"
+    },
+    {
+      "title": "Mots fléchés gratuits - Force 4 - 16 mars 2026 Grille n°3886 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTDBFSklnUEFBSVIzM19xcjd2SUw3UElPTlExVG1oNEYwWnZyaUxLRmVUaXZGUGs2emh1aU1Cc0ZnVE9rOERxVGhnVlFucV9GUkprU2ZJdDlVN2VhN3VXM29GQmJxZU5qM2tYZ2FqSkhlbjVOYTR5aVhRZW9CSU9VTXByQ2lZUHN6V2VHMkw4UWsxbFJIR1Y4aHo3aFc3cktoTjItMGg5Y1NCV2o4QzlTMDFmLUNQT2J3MW1sSnNn?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 02:06:13 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots fléchés gratuits - Force 4 - 16 mars 2026 Grille n°3886  Notre Temps"
     },
     {
       "title": "Mots fléchés gratuits - Force 3 - 16 mars 2026 Grille n°3885 - Notre Temps",
@@ -2600,18 +2662,6 @@
       "snippet": "Oscars 2026 : les plus beaux looks du tapis rouge  ELLE"
     },
     {
-      "title": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOcFVMOVJHX0lUMElTT1RPRTdtbnRwRnZMSlpvMEV0RUN2cG9BcElNTnZGSG9uOUJTdzdhLVVmYnJPN3BwdldhZENKcHo4SUlUSlNQQ2FsUm8tUHl2UGxSVXNlZExnTWhnQ0ZLNFVsbzdJbzZsVzFFNlRkcmtjdGttQmhlMzJWdGhkcW1mT2sxVHB6czMwdG9WTHMwVE9rd0dIZmlLYW1mb0J6c1RXUENpaFFuOHN0aDdKd3R4U1ZnWmY2dV85U2JkeGU2UGljaXE5a05HcGZuWHZmOUwxdVpOVTNic2VQSG1kSEdjVXg2QXdYYTdER2F2MHdMM09OaG8?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 22:32:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Laurence Ruffin à la municipale 2026 de Grenoble : quel score pour la candidate de l'union de la gauche ?  Linternaute.com"
-    },
-    {
       "title": "Voici la technique ultime pour déstabiliser quelqu'un qui dit : \"t’es trop bête pour comprendre\"",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/technique-ultime-destabiliser-te-dit-bete-comprendre-605426?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 15 Mar 2026 22:01:21 +0000",
@@ -2635,28 +2685,6 @@
       "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : pas de miracle au premier tour ?  Linternaute.com"
     },
     {
-      "title": "“Elle met mal à l'aise” : cette petite phrase est la préférée des manipulateurs pour semer la confusion en toute discrétion, selon une psy",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/petite-phrase-preferee-manipulateur-semer-confusion-discretion-psy-589514?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 21:04:02 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Pas facile de neutraliser un manipulateur. Il lui suffit parfois de vous poser une simple question pour vous déstabiliser."
-    },
-    {
-      "title": "Ces 8 tue-l'amour éteignent toute forme d'intimité dans la chambre et sous la couette !",
-      "link": "https://www.doctissimo.fr/sexualite/desir-et-plaisir-sexuel/ces-8-tue-lamour-atomisent-toute-forme-dintimite-dans-la-chambre-sous-la-couette-331671.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 15 Mar 2026 21:00:26 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Même quand elle est pleine de promesse, une nouvelle relation peut rapidement être stoppée par certains détails dans la chambre à coucher. Voici 8 \"icks\" à désamorcer d’urgence si vous souhaitez concr"
-    },
-    {
       "title": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcXdwQk1EeEtkME9vOUhjaG5xdld6elhtZ2UzMnJudFVWem1Cc2tEVXJTLW1qTk9lZ2N0NGlodkE3XzdaMzh0Q1BmSjlSYTdJQnY2U3dweFpFX01QYkFRWnktY1dkUmJRUEFyOFhMNUN4M3NZWno1NnJiZHR5ZGw3RkxITlVyNi1XT3FfVXhiSEEwSFpiejBmY0N0Z19oa3BSeEtzbzd4dVNNSmdVM3BqWkx1b0ozUFdzTThhd3ZEUUc2Rm9rMmF0UUdtd0hPVnVBMzhn?oc=5",
       "pubDate": "Sun, 15 Mar 2026 20:00:00 GMT",
@@ -2666,18 +2694,6 @@
         "aufeminin.com"
       ],
       "snippet": "Envie de pimper votre sexualité avec des acrobaties ? Tentez la position de l'arbre défendu  Cosmopolitan.fr"
-    },
-    {
-      "title": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ? - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOcXdObGJnR05PbmhJdHNyRE9UWFB1akQ2Z2NXYVZhei1LUFBjWkZOWEw1N1ZyUzI3YloxaDRLRE1OTWZwSEphRVNDQi1meUUtNkFGRTU4V0VqNUpJS054WWdkTTUwZWdRaFY1VHlvanlXYlAyS21LTy1ZT0VrVEJibFBvMlRpejhyUHdqT3ZoaXdhM2Y0VFhCWTVQM2hFOERpNUo1SkZISUVpWEZVa0FaQmtuTnQyXzM1empkUjl6ZjZWc0dranBGR1hrMzZPSTc1dEM4el9HNDRpdXVK?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 19:22:00 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat de Louis Sarkozy aux municipales 2026 à Menton : une déroute dès le premier tour ?  Linternaute.com"
     },
     {
       "title": "\"Je me mettais beaucoup de pression\" : Charlène de Monaco revient sur sa carrière de nageuse - Femme Actuelle",
@@ -2867,17 +2883,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Résultat de LFI aux municipales : un revers cuisant pour le parti de Mélenchon ?  Linternaute.com"
-    },
-    {
-      "title": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOdG5UOHlSd21MTHRidTFzTTZTSlIxbzZCazcxTkdmRUk4Y1QyRlZuU1QtU1lyQWFLeUVVWTBBMGFMaDB2ZVM5U0NrYzJJTFdmODRnRUM5SjNRcmJUMUVsaHhBQ0JCeC1RXzJGV2lxRjgtel9JYnZBazBqclR4U3FRM0xvVUJOT1BKd3JyUk5oUkZtRVVRMkpXSGtUcngtenlkSWVMcUE2Y3dZX3VYYndLam5WWjMwNURpQV9PX1M5U1VIaHRYczJ6aDhHRi0xVlZfcmFtV3FnM05NSExLU2R1OFEtRzdwRlpsOVVLUGFGQ1g?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 09:32:00 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Pâte à tartiner maison : Jimmy Mohamed partage sa recette, elle contient moitié moins de sucres  Femme Actuelle"
     },
     {
       "title": "Incontinence : une nouvelle technique révolutionnaire actuellement à l'essai",
