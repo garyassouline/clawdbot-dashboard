@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T00:15:45.760Z",
+  "updatedAt": "2026-03-17T01:15:45.766Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "23.8%",
-    "ram": "23%",
+    "cpu": "19%",
+    "ram": "22%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-17T00:15:45.759Z",
+      "ts": "2026-03-17T01:15:45.766Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2043,6 +2043,18 @@
   ],
   "competitorArticles": [
     {
+      "title": "Résultat municipale 2026 à Charvieu-Chavagneux (38230) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZG4tNFpvb2tPQ0tiSnJRZUhKeUs1LXVMXzZzczdLVGk0MFJYWVRXa21FREZkdWNtMjdaNHZEelRzZXd0MEIzeGwwWGhUNGotMnFEX3MtVGk5MDlsRkJxblg4S0NrM3p3V0h1dXpTd1Z5cDB1V1VIQUdIR29LU0s3Mk1vSlphb3ROM1pPRGgtRGdyUWpPQ0JUa2lhMEY0R0ZWWkFLX0ctX1pFdlVGSEZOLUJkazhyTlNyUjNBcGxpdEtCRXBIeUc5SEFrQjV2bVE?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 22:51:06 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat municipale 2026 à Charvieu-Chavagneux (38230) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
+    },
+    {
       "title": "“Une tendance croissante” : cette méthode surprenante améliore la qualité du sommeil selon la science",
       "link": "https://www.psychologies.com/bien-etre/sommeil/methode-surprenante-ameliore-qualite-sommeil-science-588714?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 22:03:06 +0000",
@@ -2254,17 +2266,6 @@
         "pleinevie.fr"
       ],
       "snippet": "On glisse épinards, viande hachée et pain au congélateur en pensant les sauver pour plus tard. Pourtant, ces trois produits supportent très mal les longues semaines de froid."
-    },
-    {
-      "title": "Aussi confortables que des pantoufles : ces mules minimalistes seront partout cette saison - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNV0F5RlZyT1duXzBzalliX2gyVW5UY3ZBUHRYeGpyZi05cTVZOTBUU1owODhJN0dNcUpVaE1JOU9FbmNrdWNiNWxQNDN6THFvbGpRZkhwb2hTUWFRb0JPR2RnMGQyNmNiZjJjYVhCRHM3czhwUy1uZU9za0l4TTJYWm9ISEE4NjJXTVV2Q0pFQVlMNU1TS2p2R1RWdnl4YXJNS2V4b2dJUVRLUElYOFVycUFnM1hpd1AzbFVMWFl5Mkt2X2VxYjgzMVA5MHU?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 19:32:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Aussi confortables que des pantoufles : ces mules minimalistes seront partout cette saison  ELLE"
     },
     {
       "title": "« Scarpetta » : la série avec Nicole Kidman aura-t-elle une saison 2 ? - ELLE",
@@ -2715,18 +2716,6 @@
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
     },
     {
-      "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdrT0lPdXRqUHZGNm5nc21jb2FuR3JUYmdGbzhVaGJaaWs1UWJ1bjZoMFRSVlZiekp4aTRoaU1uaVUxZm5kNksyQnZ2UDZjb3VFNE5zWVlibDk2eEJiU1JTUmV0c3RSUHhRVDFGM3pnQmlFVks4SkNRQV9tc1ZYLXoxdXBoZms?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 10:50:42 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Catch du vendredi 27 mars 2026  Linternaute.com"
-    },
-    {
       "title": "\"Elle s'y connaît...\" : le prince William taquine Kate Middleton lors de leur sortie publique - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUjRhdFAwV041c3o0ejRoUUEyamdRT1ltYzU1WDZCNktDSG1rT0FMZVR0TFJ2cUpOZXVRRm8wRUJtY1ZSbjBvMXJMQ2tGMHRzUUQ4SXdfdldhYnQycUlkbGNzMGVrOGd1Si11eEtELS15b2RRbTlKUzhPLWNja2pSY0JDcTczdGs4Rm9ZSUNUQ3hlV0pudTc5Qmhtckl0dWI2dDY1cUY3aHVFenBLeTRKYTF6NURtWTQ0S1dTTzFwbzhnSDhKbVJvb3NNcnkwMlQ0M2o0LXA5RnpIMzctcjlMSTd1Yw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:15:36 GMT",
@@ -2770,6 +2759,17 @@
         "pleinevie.fr"
       ],
       "snippet": "Jeux paralympiques 2026 : le bilan plus que poussif de la délégation française  Linternaute.com"
+    },
+    {
+      "title": "Robert Pattinson, Gracie Abrams, Timothée Chalamet… les plus beaux couples des Oscars 2026 - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNOTY5ZUdLQkkySVhUX2ZhVGhOUmpFdWM3bXltU25aQXhIc3RfeGNGaDdlNjlkV2FpQjRCV3NvbXhKb05UdFZvOXpwMU5BUU9vdklQV1hMMC1SUU96cXRZQ1lBWXVGM0ZXQ2pQeTNQWnFaTkNVQnpIWllVZ0VKMzY2WkVQR2FHdW5xcVplUnpsNnIyZDNKcTBmZHA0RUVramZtXzJzYVc4WUpST3N5NFZib2VuLWIxTUQ1ZWw2Q3FmNWk2eG1KREYyd0IzVFd4OTl3VUdv?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 07:46:31 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Robert Pattinson, Gracie Abrams, Timothée Chalamet… les plus beaux couples des Oscars 2026  ELLE"
     },
     {
       "title": "Un jihadiste jugé par défaut pour le génocide des Yazidis, une première en France - Notre Temps",
