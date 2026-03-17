@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-17T01:15:45.766Z",
+  "updatedAt": "2026-03-17T02:15:45.773Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -8,12 +8,12 @@
   },
   "systemStats": {
     "cpu": "19%",
-    "ram": "22%",
+    "ram": "23%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-17T01:15:45.766Z",
+      "ts": "2026-03-17T02:15:45.773Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1980,12 +1980,6 @@
       "enabled": true
     },
     {
-      "id": "305da3df-3470-469f-9015-21481ae2699b",
-      "name": "Agent: Discover-Pulse Check",
-      "schedule": "Every 240min",
-      "enabled": true
-    },
-    {
       "id": "cf3ef0e1-a732-47e5-8e3c-844a16dea052",
       "name": "Tentative Achat Alibaba Coding Plan (Nuit)",
       "enabled": true
@@ -1994,6 +1988,12 @@
       "id": "8de65975-e410-4d47-8d7a-953ef40198ae",
       "name": "System: Brain Backup",
       "schedule": "0 4 * * *",
+      "enabled": true
+    },
+    {
+      "id": "305da3df-3470-469f-9015-21481ae2699b",
+      "name": "Agent: Discover-Pulse Check",
+      "schedule": "Every 240min",
       "enabled": true
     },
     {
@@ -2042,18 +2042,6 @@
     }
   ],
   "competitorArticles": [
-    {
-      "title": "Résultat municipale 2026 à Charvieu-Chavagneux (38230) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZG4tNFpvb2tPQ0tiSnJRZUhKeUs1LXVMXzZzczdLVGk0MFJYWVRXa21FREZkdWNtMjdaNHZEelRzZXd0MEIzeGwwWGhUNGotMnFEX3MtVGk5MDlsRkJxblg4S0NrM3p3V0h1dXpTd1Z5cDB1V1VIQUdIR29LU0s3Mk1vSlphb3ROM1pPRGgtRGdyUWpPQ0JUa2lhMEY0R0ZWWkFLX0ctX1pFdlVGSEZOLUJkazhyTlNyUjNBcGxpdEtCRXBIeUc5SEFrQjV2bVE?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 22:51:06 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Résultat municipale 2026 à Charvieu-Chavagneux (38230) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
-    },
     {
       "title": "“Une tendance croissante” : cette méthode surprenante améliore la qualité du sommeil selon la science",
       "link": "https://www.psychologies.com/bien-etre/sommeil/methode-surprenante-ameliore-qualite-sommeil-science-588714?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2647,6 +2635,18 @@
         "pleinevie.fr"
       ],
       "snippet": "Résultat municipale 2026 à Champigny-sur-Marne (94500) – Résultats du 1er tour [DEFINITIF]  Linternaute.com"
+    },
+    {
+      "title": "Résultat municipale 2026 à Rodez (12000) – Résultats du 1er tour [PUBLIE] - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMFpWbjJpNFJGRW9pWWFqYUthNUtodWZ4ZndQZllfc2tWV0t1Z1dVeTBnSjBLR1l6QkN4VzVWdGhrand0M0hnYXh6UFFqSmVBbmZESlRNWXlGM3Q2S2NSOV9PUWpIdGE5NWhJMkx2UU5IUk9OcmN0c1ZwaV80YUlRa2RTT0JYXzVrYkFMMG5kYWxGdVpKVk9mcG1kY2x5UEhFQkJJSWdyRzY4Z0FuczQ0clpKazlNUHdRY2g0ZQ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 13:38:03 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Résultat municipale 2026 à Rodez (12000) – Résultats du 1er tour [PUBLIE]  Linternaute.com"
     },
     {
       "title": "Résultat municipale 2026 à Vichy (03200) – Résultats du 1er tour [DEFINITIF] - Linternaute.com",
