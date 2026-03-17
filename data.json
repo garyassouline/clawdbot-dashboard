@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-16T23:15:45.822Z",
+  "updatedAt": "2026-03-17T00:15:45.760Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "19%",
+    "cpu": "23.8%",
     "ram": "23%",
     "disk": "12%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-16T23:15:45.822Z",
+      "ts": "2026-03-17T00:15:45.759Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2029,6 +2029,10 @@
     {
       "date": "03/16",
       "total": 0
+    },
+    {
+      "date": "03/17",
+      "total": 0
     }
   ],
   "alerts": [
@@ -2397,17 +2401,6 @@
       "snippet": "Troisième cancer le plus fréquent chez l’homme, le cancer colorectal fait peur.  Mais bonne nouvelle : l’alimentation et l’hygiène de vie jouent un rôle majeur dans la prévention. Focus sur quatre gro"
     },
     {
-      "title": "Retrouvée momifiée il y a deux siècles, qui était la « Demoiselle de Strasbourg », au coeur du plus vieux cold case français - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxONXdjRzV4U0RjeGxVbktjNTk3OFJJT3JKRDlpMzh6LUZiVzNwbDBGRjY0X0xLdk8xS0JNRXdHOVZnYTdLUi1LUVJsaHdjWnNEZk1IUkVyLVFVR29UQzlhbG9kYi1XRl9GOWFkYl9MNjZlLWh0djY3VGcxdFlTd1pWYlg3QVRWX0xPam45dVJTcGROOGEwbXdsQ0FfQnJyaERLVlFiWE9KMFcwa2U2TkNkU2xkNGlVVDdiOUhibEVGLVNSaDRCQUlrcXJXcE1OSzduMVF4em5LRmFvY0xHeGZMU3d1cEVtLVUzc3BWUmhhbkNSNldFU2IxTGFvRzZoZklUTUpxbjhB?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 18:30:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Retrouvée momifiée il y a deux siècles, qui était la « Demoiselle de Strasbourg », au coeur du plus vieux cold case français  ELLE"
-    },
-    {
       "title": "La banane fait-elle grossir ou aide-t-elle à perdre du poids ? Claire Trommenschlager, diététicienne, tranche la question",
       "link": "https://www.doctissimo.fr/nutrition/fruits-et-legumes/la-banane-fait-elle-grossir-ou-aide-t-elle-a-perdre-du-poids-claire-trommenschlager-dieteticienne-tranche-la-question-743062.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Mon, 16 Mar 2026 18:15:05 +0000",
@@ -2439,17 +2432,6 @@
         "aufeminin.com"
       ],
       "snippet": "Votre démarche révèle de nombreuses informations sur votre personnalité, votre état d'esprit et même votre état émotionnel."
-    },
-    {
-      "title": "Antoni Calmon, médecin esthétique renommé et apprécié des célébrités, est décédé - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRjU2WnY5eFZvWnVzdDJ4dlBPSHhsNXlwWGpod3Nab1NvT1BJWC1jd2FOOHdaSHFkOU5FekdvYmxtY3VBenE3elAzVFg3QkYzM2NNVGp3dGtaVlpCMUdsd241M0VNaUxsbFI5SFNPTzhhell3WTVvUGMzMkJXWktMUTRxV2c4eXpFckplbTJzQ3N6aVVTdVB2d1B2aU4wbVQ2NjlzVXBMVG9hWUpNYUwzLW1GeUtHRmVRY0RTUGVTR0lvUlNGOWJxcFdB?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 18:02:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Antoni Calmon, médecin esthétique renommé et apprécié des célébrités, est décédé  ELLE"
     },
     {
       "title": "\"Je le recommande toujours à mes patients\" : des diététiciens tranchent enfin le débat entre pain complet et pain au seigle à privilégier",
@@ -2520,17 +2502,6 @@
       "snippet": "Violences sexuelles dans le périscolaire : quelles sont les écoles parisiennes les plus touchées  ELLE"
     },
     {
-      "title": "Dua Lipa : plus amoureuse que jamais au bras de Callum Turner aux Oscars 2026 - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZEw2d2hIak10cllPNXM5Vm9uSHZPaGVKbTBKTGVOWDhZd0J1NnltdTAtNTJPeEhFNjdiRFQwcEJIZ3RxTWZBNV93cC1mOWtlRTljMmRhNFh6dUxxbHBGb0NoZzFqTzZvV3Brb3RXNnVOMVd4N2N0WHM3UG9oTmhWcnB0SmdQSXhHdWZzdVZ1MUZDVnMxdnRtS1AzaUoxZzkza3BlZFpGYTRXcmxDeFFwM0VDZEpJYk5KVkNUcU1LbXZEaVU?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 17:01:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Dua Lipa : plus amoureuse que jamais au bras de Callum Turner aux Oscars 2026  ELLE"
-    },
-    {
       "title": "Hémorroïdes : 5 ingrédients cachés dans les lingettes qui les aggravent",
       "link": "https://www.medisite.fr/maladies-hemorroides-5-ingredients-caches-dans-les-lingettes-qui-les-aggravent.5717300.42.html",
       "pubDate": "Mon, 16 Mar 2026 18:00:00 +0100",
@@ -2587,6 +2558,17 @@
       "snippet": "Et si viser la perfection nous empêchait d’agir ? Sur TikTok, la tendance “vegan + bacon” propose une approche plus souple : changer progressivement, sans attendre d’être irréprochable."
     },
     {
+      "title": "Aux Oscars 2026, la robe de Kaia Gerber rappelle un look culte de Cindy Crawford - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxObFNHSDJLcmhkUHZJZGlmYlpZQkFrREhodXV1ZzVoejdDUWZnTU91NW9oLUU1TThWYWhBcks0WERSLVJJM0Q2UW9xM01YSjViVXhhblc1aGlJUzhqNU1zVEdkdXItV01ObjFmSTRzQ09oM3pSUW1yZTJnUmhKNWt0NFJ2ZTJlVHJsN25ENjF4TG5UeGNSekFLMG1kRFMxSy1hMFRUX3hKd2FwNW1CT3FrbHFUaGx6bHlQYzZZb0IwOW1UaVgyZzk2TjB3?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 16:00:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Aux Oscars 2026, la robe de Kaia Gerber rappelle un look culte de Cindy Crawford  ELLE"
+    },
+    {
       "title": "L'édito de Marie Auffret: Du \"22 à Asnières\" au téléphone portable, une histoire en partage! - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVUlQY29pS3VkT3o4ZC1QaVpiRWJDVlFxaGRjSEpkaGFLUjZHRUtIQnpzdWhUOVgyTmVQZUpjSm41eUlfLXdTOXRvemZYVV9jUkRvbGJVUnA5cjhaY2RSM0hUbTcwUW4zcVFTc3ZVSC10NUxEc0lWeExubVBPekJCeHVnYzhzOFJGd3RkelR2aDVJQ0pUSVp6WTdNb00?oc=5",
       "pubDate": "Mon, 16 Mar 2026 15:51:05 GMT",
@@ -2596,17 +2578,6 @@
         "pleinevie.fr"
       ],
       "snippet": "L'édito de Marie Auffret: Du \"22 à Asnières\" au téléphone portable, une histoire en partage!  Notre Temps"
-    },
-    {
-      "title": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0JnWmJzX3ZJVlNJWW56N1pfaHhSdExyNzQ0MzRCZVROemR5ZUFtLUlaODBnajN3YWY4YUNjZTFxT3JoRjBRaXB2aXBkSmJLTDRiVFJvd1pWeEpzbHV5S0hQTkRhWWtDVzlTNzNnX24tNVhISDUyVFlTZE4ybzBUeU1IbHVfUjhYUkhRdHNKTDFQRVlZQlB4VTVpd2Vid0MzREF4MndXcjZZLUJrRERTUEpR?oc=5",
-      "pubDate": "Mon, 16 Mar 2026 15:48:30 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Ce cabas COS inspiré du vintage pourrait bien devenir l'indispensable du printemps  Cosmopolitan.fr"
     },
     {
       "title": "\"C'est fondamental pour bien vieillir\" : voici l'entraînement auquel cet expert ne renoncera jamais pour rester en forme - Femme Actuelle",
@@ -2700,6 +2671,17 @@
       "snippet": "Christian Estrosi appelle au front républicain à Nice et à Marseille  Notre Temps"
     },
     {
+      "title": "Brooklyn Beckham : toujours en froid avec son clan, il fait sensation avec Nicola Peltz pour les Oscars - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSTRFSEdMdTVVcnBOR05oQ05ZeHktV1J0eEhCWUZLeDhjMDljclNpYWlPUXJtTlc3bWd5MmxXZGxweWEyTUxjZTNXOUFoY3pXSlhPSXBJWkhFbE5fOVFpdUl6STlfOVAxNVJwUmxDMWZPWkRBNW9aT1V0VUxJX1kyTkhSMENGUXo3Rl9LYjZkYUhFZ1l6T3lJbURYcXBZNkZMaWU1SEdRSXVIQUVJUE1qQThKd21ha3pZSXJmNXVvOXlIRzJYSTh2dHJ1VzA3QjVpSG5mTzJmREY1R0p6ZlpuVDhhWkU?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 11:49:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Brooklyn Beckham : toujours en froid avec son clan, il fait sensation avec Nicola Peltz pour les Oscars  ELLE"
+    },
+    {
       "title": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNNlFCb092QjVDVXRBM25CVUVFYkxvT0xBUFBQSFNqS3MzaXNTVFNwcmlWZVUzTTlOSXkyeUFFQ0l1UE52Q3NEMXlOTW1vT05nazI2NE1BdTVELWN5ajd2c21JODh4dXdwNXBYdXpCQzF3eUl1WllKbTU4SWVXWVhZdUdMWERRbkdtOXIzY1lha1lzRHE5SEd1RnF1eDlIQ2d4YzNxSGFtZ29sQXNJb0QwUDRhc1JHd2VKZ2V6UGlSakFOZkYzQjhCSlJHb3RuSnVxbmY3bTgzdDFnLS1iekVqWmNzODA0NGlIeHkwQ3hCN0l0bE42YUJpR2VaSjM3Z0NZdDd1S0l6MWdMeHNzd3VaUVV1U2RLRkpSN0Ew?oc=5",
       "pubDate": "Mon, 16 Mar 2026 11:27:04 GMT",
@@ -2711,6 +2693,17 @@
       "snippet": "“Je vais me marier et j’aimerais bien être naturelle” : Louane chez le coiffeur, voici ce qu’elle veut faire avec ses cheveux pour son mariage  Femme Actuelle"
     },
     {
+      "title": "Regard azur et smoky intense : Kim Kardashian hypnotise l’after-party des Oscars 2026 - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYm1xRmJDcGxhc0p5eUdTR2dBRjJORlR0c243VnZBSENGTmViYzN3d0phUnpPdmxDMEhSTVpWVENCNGJzbnoycVpGdkxLNXdlNWJCZFZFNmpBZDZ3XzRjUjZ6RzBTbTBacUZpYjJqSnprelRNNWdmOTJEWTdHdk1tSVZfeHkxaVItZDhsZW5PTGxqbkxFMTJsbFdmRFFXSmMtOV9yckRTUFZTRlYzWVptOEpnMGY3RGhJRzg1bl83dmVoU3pidVlEVnBMdzBDVnc5UDJjZ3ZoaktvVGxYX25FNWVPRQ?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 11:06:15 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Regard azur et smoky intense : Kim Kardashian hypnotise l’after-party des Oscars 2026  ELLE"
+    },
+    {
       "title": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNLUk3MU1uMFB0LUNNbzRITWJIOXNMcDJHMTAzbWJuMEJSeHhDUWlqS1BsUFpRZlZmQnVFOXUtOWdWZzJVZTVVZ3NIVXNNajNfMExhS2ttTVc2N2tGMDRFd0h1R1FlLS1QQV8tNWVZdWJjbHFBdGdfWWFfS1Z3WExWLW82S2RXa0RNZUtTS1ptR3hPLVR2ZHFEeUh2S1dtYTJsci1mMlhhaS1XaTVQSmNndVZrSnE1SHYwcTF3Zy1VUVdkRnNySnJDOS1GY0Y5WThCX0xYQTNPRXRiOS1mbm9sRw?oc=5",
       "pubDate": "Mon, 16 Mar 2026 10:55:49 GMT",
@@ -2720,6 +2713,29 @@
         "mariefrance.fr"
       ],
       "snippet": "Après 50 ans, combien de minutes faut-il marcher par jour pour perdre du poids ? Des coachs répondent  Femme Actuelle"
+    },
+    {
+      "title": "Programme TV Catch du vendredi 27 mars 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZzdrT0lPdXRqUHZGNm5nc21jb2FuR3JUYmdGbzhVaGJaaWs1UWJ1bjZoMFRSVlZiekp4aTRoaU1uaVUxZm5kNksyQnZ2UDZjb3VFNE5zWVlibDk2eEJiU1JTUmV0c3RSUHhRVDFGM3pnQmlFVks4SkNRQV9tc1ZYLXoxdXBoZms?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 10:50:42 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Catch du vendredi 27 mars 2026  Linternaute.com"
+    },
+    {
+      "title": "\"Elle s'y connaît...\" : le prince William taquine Kate Middleton lors de leur sortie publique - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNUjRhdFAwV041c3o0ejRoUUEyamdRT1ltYzU1WDZCNktDSG1rT0FMZVR0TFJ2cUpOZXVRRm8wRUJtY1ZSbjBvMXJMQ2tGMHRzUUQ4SXdfdldhYnQycUlkbGNzMGVrOGd1Si11eEtELS15b2RRbTlKUzhPLWNja2pSY0JDcTczdGs4Rm9ZSUNUQ3hlV0pudTc5Qmhtckl0dWI2dDY1cUY3aHVFenBLeTRKYTF6NURtWTQ0S1dTTzFwbzhnSDhKbVJvb3NNcnkwMlQ0M2o0LXA5RnpIMzctcjlMSTd1Yw?oc=5",
+      "pubDate": "Mon, 16 Mar 2026 10:15:36 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "\"Elle s'y connaît...\" : le prince William taquine Kate Middleton lors de leur sortie publique  Cosmopolitan.fr"
     },
     {
       "title": "La Bourse de Paris reste prudente face au risque géopolitique - Notre Temps",
@@ -2866,18 +2882,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Une étude majeure de l&#039;Inserm publiée début mars révèle le rôle fondamental des tanycytes dans le risque accru d&#039;Alzheimer et ouvre la voie à des thérapies inédites."
-    },
-    {
-      "title": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNV2gtRUNpaTMyb2NwdWl4R1dYUWVvS0l2WVowQnBRRU5TeE82UVVudHR1N0hxb1Z1eExndXJDS3BoQnQ0WWdyOFR0X1lRSEs1bVlMS2k4RFpkb1pWR1NQZ3BmdTZZUFZwN1JOaTZKdEJ5dUgyMnZja1lGU0IxYkJJNmlpOW85NUUzMmxqSFhBbEdKNEZ6OWpXMzRnaklnOGQ3SW41NVVsa3pfQVFfazQtS1pIVEpRdGtTVF9IMXgyZDdmMi1SeVdoLV93ZHItYTJIaXBDZU1RYWhuamhkY2ZkQ0Z1WC1wRkdUd2pMM1VhU1dabWJfNXBRMkhGVTJ5QQ?oc=5",
-      "pubDate": "Sun, 15 Mar 2026 23:28:01 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "\"Eric Ciotti alias Benito\" : la séquence polémique, Nathalie Saint-Cricq et France Info s'excusent à l'antenne  Linternaute.com"
     },
     {
       "title": "Selon la science, voici l’heure précise à laquelle vous devriez arrêter de manger pour protéger votre cœur et votre sommeil !",
