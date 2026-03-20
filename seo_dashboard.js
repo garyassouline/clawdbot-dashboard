@@ -138,7 +138,7 @@ function renderTrendsTable(tableId, data, inverseTrend = false) {
     if (tableBody && data) {
         tableBody.innerHTML = data.map(item => `
             <tr>
-                <td style="font-weight:600;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${item.name || item.query || item.url.split('/').pop()}</td>
+                <td style="font-weight:600;max-width:200px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${item.name || item.query || (item.url ? item.url.split('/').pop() : '—')}</td>
                 <td style="text-align:right;font-weight:600">${fmt(item.clicks)}</td>
                 <td style="text-align:right">${fmt(item.impressions)}</td>
                 <td style="text-align:right">${item.ctr.toFixed(2)}%</td>
@@ -251,3 +251,5 @@ function renderSEOTab() {
     console.log("SEO tab activated");
     loadSeoData();
 }
+
+window.renderSEOTab = renderSEOTab;
