@@ -362,7 +362,7 @@
       <span class="icon">📊</span> Dashboard
     </a>
     <span class="nav-section">Outils</span>
-    <a class="nav-item" onclick="showSection('seo', this); renderSEOTab();">
+    <a class="nav-item" onclick="showSection('seo', this); if(window.renderSEOTab) window.renderSEOTab();">
       <span class="icon">🔍</span> SEO
     </a>
     <a class="nav-item" onclick="showSection('discover', this)">
@@ -960,6 +960,7 @@
 </div>
 
 <!-- Toast copy -->
+<script src="seo_dashboard.js"></script>
 <script>
 let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst, discoverChartInst, discMainChart, discPieChart;
 let globalData = null;
@@ -1849,6 +1850,5 @@ function renderWikidata(d) {
 load();
 setInterval(load, 5 * 60 * 1000);
 </script>
-<script src="seo_dashboard.js"></script>
 </body>
 </html>
