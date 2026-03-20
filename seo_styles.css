@@ -1,0 +1,62 @@
+/* --- SEO Dashboard Specific Styles --- */
+
+/* Main SEO Section Layout */
+#section-seo {
+    padding: 20px;
+}
+
+/* SEO KPI Grid (similar to overview KPIs) */
+#seo-kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    margin-bottom: 24px;
+}
+
+/* Chart specific styling for SEO tab */
+#seo-clicks-impressions-chart, #seo-position-chart, #seo-ctr-chart {
+    height: 250px; /* Ensure charts have a consistent height */
+    width: 100%;
+}
+
+/* Tables for Top Pages/Queries and Trends */
+#seo-top-pages-table, #seo-top-queries-table, #seo-rising-queries-table, #seo-declining-queries-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#seo-top-pages-table th, #seo-top-queries-table th, #seo-rising-queries-table th, #seo-declining-queries-table th {
+    text-align: left;
+    font-size: 0.75rem;
+    color: var(--muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+#seo-top-pages-table td, #seo-top-queries-table td, #seo-rising-queries-table td, #seo-declining-queries-table td {
+    padding: 10px 10px;
+    font-size: 0.85rem;
+    border-bottom: 1px solid var(--border);
+    vertical-align: middle;
+}
+
+#seo-top-pages-table tr:last-child td, #seo-top-queries-table tr:last-child td, #seo-rising-queries-table tr:last-child td, #seo-declining-queries-table tr:last-child td {
+    border-bottom: none;
+}
+
+#seo-top-pages-table tr:hover td, #seo-top-queries-table tr:hover td, #seo-rising-queries-table tr:hover td, #seo-declining-queries-table tr:hover td {
+    background: var(--surface2);
+}
+
+/* Specific styling for trend indicators (up/down arrows) */
+.trend-up { color: var(--green); }
+.trend-down { color: var(--accent); }
+.trend-stable { color: var(--muted); }
+
+/* Site selection dropdown for multiple GSC properties (future) */
+#seo-site-selector {
+    margin-bottom: 16px;
+}

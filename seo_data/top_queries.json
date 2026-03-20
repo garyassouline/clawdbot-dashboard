@@ -1,0 +1,82 @@
+[
+  {
+    "query": "tendances mode automne hiver 2026",
+    "clicks": 80000,
+    "impressions": 4000000,
+    "ctr": 2.00,
+    "position": 2.5,
+    "positionTrend": {"value": 0.1, "direction": "down"}
+  },
+  {
+    "query": "meilleure creme anti age 50 ans",
+    "clicks": 75000,
+    "impressions": 3800000,
+    "ctr": 1.97,
+    "position": 3.0,
+    "positionTrend": {"value": 0.2, "direction": "up"}
+  },
+  {
+    "query": "couleur cheveux blonds 2026",
+    "clicks": 60000,
+    "impressions": 3200000,
+    "ctr": 1.88,
+    "position": 4.2,
+    "positionTrend": {"value": 0.3, "direction": "down"}
+  },
+  {
+    "query": "regime facile et rapide pour maigrir",
+    "clicks": 55000,
+    "impressions": 3000000,
+    "ctr": 1.83,
+    "position": 5.5,
+    "positionTrend": {"value": 0.4, "direction": "up"}
+  },
+  {
+    "query": "idee deco salon moderne",
+    "clicks": 48000,
+    "impressions": 2500000,
+    "ctr": 1.92,
+    "position": 6.0,
+    "positionTrend": {"value": 0.1, "direction": "stable"}
+  },
+  {
+    "query": "bienfaits alimentation mediterraneenne",
+    "clicks": 42000,
+    "impressions": 2300000,
+    "ctr": 1.83,
+    "position": 7.1,
+    "positionTrend": {"value": 0.2, "direction": "down"}
+  },
+  {
+    "query": "horoscope poisson 2026",
+    "clicks": 38000,
+    "impressions": 2000000,
+    "ctr": 1.90,
+    "position": 8.5,
+    "positionTrend": {"value": 0.1, "direction": "stable"}
+  },
+  {
+    "query": "recettes light faciles",
+    "clicks": 35000,
+    "impressions": 1900000,
+    "ctr": 1.84,
+    "position": 9.2,
+    "positionTrend": {"value": 0.3, "direction": "up"}
+  },
+  {
+    "query": "vetement grande taille femme chic",
+    "clicks": 32000,
+    "impressions": 1800000,
+    "ctr": 1.78,
+    "position": 10.0,
+    "positionTrend": {"value": 0.1, "direction": "down"}
+  },
+  {
+    "query": "coupe de cheveux femme 50 ans tendance",
+    "clicks": 30000,
+    "impressions": 1700000,
+    "ctr": 1.76,
+    "position": 10.8,
+    "positionTrend": {"value": 0.2, "direction": "up"}
+  }
+]

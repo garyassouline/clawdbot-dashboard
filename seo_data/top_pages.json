@@ -1,0 +1,82 @@
+[
+  {
+    "url": "https://www.mariefrance.fr/mode/tendances-mode-automne-hiver",
+    "clicks": 150000,
+    "impressions": 8000000,
+    "ctr": 1.88,
+    "position": 3.1,
+    "positionTrend": {"value": 0.2, "direction": "down"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/beaute/anti-age-cremes-efficaces",
+    "clicks": 120000,
+    "impressions": 6500000,
+    "ctr": 1.85,
+    "position": 4.5,
+    "positionTrend": {"value": 0.1, "direction": "up"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/cheveux/couleurs-cheveux-blondes",
+    "clicks": 95000,
+    "impressions": 5000000,
+    "ctr": 1.90,
+    "position": 5.2,
+    "positionTrend": {"value": 0.3, "direction": "down"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/minceur/regime-facile-rapide",
+    "clicks": 80000,
+    "impressions": 4500000,
+    "ctr": 1.78,
+    "position": 6.8,
+    "positionTrend": {"value": 0.5, "direction": "up"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/deco/idees-deco-salon",
+    "clicks": 70000,
+    "impressions": 3800000,
+    "ctr": 1.84,
+    "position": 7.1,
+    "positionTrend": {"value": 0.1, "direction": "stable"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/sante/bienfaits-alimentation-saine",
+    "clicks": 65000,
+    "impressions": 3500000,
+    "ctr": 1.86,
+    "position": 8.3,
+    "positionTrend": {"value": 0.2, "direction": "down"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/voyages/destinations-romantiques",
+    "clicks": 55000,
+    "impressions": 3000000,
+    "ctr": 1.83,
+    "position": 9.0,
+    "positionTrend": {"value": 0.4, "direction": "up"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/astrologie/horoscope-2026",
+    "clicks": 50000,
+    "impressions": 2800000,
+    "ctr": 1.79,
+    "position": 10.1,
+    "positionTrend": {"value": 0.1, "direction": "stable"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/couple/conseils-relation-amoureuse",
+    "clicks": 48000,
+    "impressions": 2700000,
+    "ctr": 1.78,
+    "position": 11.5,
+    "positionTrend": {"value": 0.3, "direction": "up"}
+  },
+  {
+    "url": "https://www.mariefrance.fr/cuisine/recettes-minceur",
+    "clicks": 45000,
+    "impressions": 2500000,
+    "ctr": 1.80,
+    "position": 12.0,
+    "positionTrend": {"value": 0.2, "direction": "down"}
+  }
+]
