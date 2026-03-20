@@ -1,0 +1,10 @@
+{
+  "totalClicks": 125430,
+  "totalImpressions": 4850200,
+  "averageCTR": 2.58,
+  "averagePosition": 8.4,
+  "clicksTrend": { "direction": "up", "value": 12.5 },
+  "impressionsTrend": { "direction": "up", "value": 8.2 },
+  "ctrTrend": { "direction": "up", "value": 4.1 },
+  "positionTrend": { "direction": "up", "value": 0.5 }
+}

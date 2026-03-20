@@ -1,0 +1,12 @@
+[
+  { "query": "retraite maman 2026", "clicks": 8500, "impressions": 120000, "ctr": 7.08, "position": 1.2, "positionTrend": { "direction": "up", "value": 0.3 } },
+  { "query": "robe lidl boheme 2026", "clicks": 7200, "impressions": 95000, "ctr": 7.58, "position": 1.5, "positionTrend": { "direction": "up", "value": 1.2 } },
+  { "query": "regime anti inflammatoire menu", "clicks": 5400, "impressions": 110000, "ctr": 4.91, "position": 2.8, "positionTrend": { "direction": "down", "value": 0.4 } },
+  { "query": "quand planter les tomates", "clicks": 4800, "impressions": 85000, "ctr": 5.65, "position": 2.1, "positionTrend": { "direction": "up", "value": 0.5 } },
+  { "query": "cheque energie 2026 envoi", "clicks": 4200, "impressions": 78000, "ctr": 5.38, "position": 3.2, "positionTrend": { "direction": "up", "value": 2.1 } },
+  { "query": "meilleure creme anti rides 60 ans", "clicks": 3800, "impressions": 92000, "ctr": 4.13, "position": 4.5, "positionTrend": { "direction": "down", "value": 0.3 } },
+  { "query": "homme amoureux signes secrets", "clicks": 3200, "impressions": 88000, "ctr": 3.64, "position": 5.1, "positionTrend": { "direction": "up", "value": 0.6 } },
+  { "query": "recette gateau yaourt grand mere", "clicks": 2800, "impressions": 75000, "ctr": 3.73, "position": 6.2, "positionTrend": { "direction": "down", "value": 0.2 } },
+  { "query": "horoscope avril 2026 chance", "clicks": 2500, "impressions": 68000, "ctr": 3.68, "position": 3.1, "positionTrend": { "direction": "up", "value": 3.5 } },
+  { "query": "prime rentree scolaire 2026", "clicks": 2100, "impressions": 62000, "ctr": 3.39, "position": 7.5, "positionTrend": { "direction": "up", "value": 1.1 } }
+]

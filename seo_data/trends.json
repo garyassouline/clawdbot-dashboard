@@ -1,0 +1,26 @@
+{
+  "risingQueries": [
+    { "query": "retraite maman 2026", "clicks": 8500, "impressions": 120000, "ctr": 7.08, "position": 1.2, "trend": { "direction": "up", "value": 150.5 } },
+    { "query": "robe lidl boheme", "clicks": 7200, "impressions": 95000, "ctr": 7.58, "position": 1.5, "trend": { "direction": "up", "value": 120.2 } },
+    { "query": "potager avril 2026", "clicks": 3400, "impressions": 45000, "ctr": 7.55, "position": 2.4, "trend": { "direction": "up", "value": 85.4 } },
+    { "query": "cheque energie date", "clicks": 4200, "impressions": 78000, "ctr": 5.38, "position": 3.2, "trend": { "direction": "up", "value": 62.1 } },
+    { "query": "horoscope chance", "clicks": 2500, "impressions": 68000, "ctr": 3.68, "position": 3.1, "trend": { "direction": "up", "value": 45.3 } }
+  ],
+  "decliningQueries": [
+    { "query": "solde hiver 2026", "clicks": 150, "impressions": 2000, "ctr": 7.50, "position": 1.8, "trend": { "direction": "down", "value": 95.2 } },
+    { "query": "menu noel facile", "clicks": 45, "impressions": 1200, "ctr": 3.75, "position": 5.4, "trend": { "direction": "down", "value": 92.1 } },
+    { "query": "cadeau saint valentin", "clicks": 280, "impressions": 5000, "ctr": 5.60, "position": 4.2, "trend": { "direction": "down", "value": 88.4 } },
+    { "query": "grippe symptomes 2025", "clicks": 1200, "impressions": 25000, "ctr": 4.80, "position": 6.1, "trend": { "direction": "down", "value": 75.3 } },
+    { "query": "destination ski famille", "clicks": 850, "impressions": 18000, "ctr": 4.72, "position": 8.5, "trend": { "direction": "down", "value": 62.4 } }
+  ],
+  "risingPages": [
+    { "url": "/bien-etre/retraite/reforme-calcul-maman-2026.html", "clicks": 12500, "impressions": 450000, "ctr": 2.78, "position": 2.4, "trend": { "direction": "up", "value": 185.2 } },
+    { "url": "/mode/tendances/robe-boheme-printemps-lidl.html", "clicks": 9800, "impressions": 380000, "ctr": 2.58, "position": 3.1, "trend": { "direction": "up", "value": 142.1 } },
+    { "url": "/maison/jardinage/quand-planter-tomates-2026.html", "clicks": 7200, "impressions": 280000, "ctr": 2.57, "position": 1.8, "trend": { "direction": "up", "value": 92.5 } }
+  ],
+  "decliningPages": [
+    { "url": "/mode/tendances/soldes-hiver-2026-dates.html", "clicks": 450, "impressions": 12000, "ctr": 3.75, "position": 4.5, "trend": { "direction": "down", "value": 94.2 } },
+    { "url": "/cuisine/menus/repas-reveillon-saint-sylvestre.html", "clicks": 120, "impressions": 3500, "ctr": 3.43, "position": 8.2, "trend": { "direction": "down", "value": 91.5 } },
+    { "url": "/voyage/montagne/meilleures-stations-ski-france.html", "clicks": 2100, "impressions": 45000, "ctr": 4.67, "position": 12.4, "trend": { "direction": "down", "value": 68.4 } }
+  ]
+}
