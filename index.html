@@ -347,7 +347,6 @@
       .actions-grid { grid-template-columns: 1fr 1fr; }
     }
   </style>
-  <link rel="stylesheet" href="seo_styles.css">
 </head>
 <body>
 <div class="layout">
@@ -362,7 +361,7 @@
       <span class="icon">📊</span> Dashboard
     </a>
     <span class="nav-section">Outils</span>
-    <a class="nav-item" onclick="showSection('seo', this); renderSEOTab();">
+    <a class="nav-item" onclick="showSection('seo', this)">
       <span class="icon">🔍</span> SEO
     </a>
     <a class="nav-item" onclick="showSection('discover', this)">
@@ -483,109 +482,25 @@
 
     <!-- ===== SEO ===== -->
     <div class="section" id="section-seo">
-      <div id="seo-alerts-container"></div>
-
+      <div class="alert info">💡 Lance un audit SEO depuis Telegram : <em>"Audite le SEO de [url]"</em></div>
       <div class="card mb16">
-        <div class="card-title"><span class="icon">🌐</span> Propriété GSC (Marie France)</div>
-        <div class="site-row">
+        <div class="card-title"><span class="icon">🔍</span> Sites suivis</div>
+        <div id="seo-sites-list">
+          <div class="site-row">
             <div class="site-info">
-              <div class="site-favicon">🇫🇷</div>
-              <div><div class="site-name">Marie France</div><div class="site-url">https://www.mariefrance.fr/</div></div>
+              <div class="site-favicon">🌐</div>
+              <div><div class="site-name">reworld.com</div><div class="site-url">Groupe Reworld Media</div></div>
             </div>
             <div style="display:flex;align-items:center;gap:10px">
-              <span class="badge green">Connecté</span>
+              <span class="badge gray">Aucun audit</span>
+              <button class="btn btn-ghost" onclick="copyCmd('Audite le SEO de reworld.com')">Auditer</button>
             </div>
           </div>
-      </div>
-
-      <div id="seo-kpi-grid" class="kpi-grid">
-        <div class="kpi red">
-          <div class="label">Clics Totaux</div>
-          <div class="value" id="seo-total-clicks">—</div>
-          <div class="sub" id="seo-clicks-trend">—</div>
-        </div>
-        <div class="kpi blue">
-          <div class="label">Impressions Totales</div>
-          <div class="value" id="seo-total-impressions">—</div>
-          <div class="sub" id="seo-impressions-trend">—</div>
-        </div>
-        <div class="kpi green">
-          <div class="label">CTR Moyen</div>
-          <div class="value" id="seo-avg-ctr">—</div>
-          <div class="sub" id="seo-ctr-trend">—</div>
-        </div>
-        <div class="kpi purple">
-          <div class="label">Position Moyenne</div>
-          <div class="value" id="seo-avg-position">—</div>
-          <div class="sub" id="seo-position-trend">—</div>
         </div>
       </div>
-
-      <div class="grid-2">
-        <div class="card">
-          <div class="card-title"><span class="icon">📈</span> Clics & Impressions (16 mois)</div>
-          <div class="chart-wrap"><canvas id="seo-clicks-impressions-chart"></canvas></div>
-        </div>
-        <div class="card">
-          <div class="card-title"><span class="icon">🎯</span> Position Moyenne (16 mois)</div>
-          <div class="chart-wrap"><canvas id="seo-position-chart"></canvas></div>
-        </div>
-      </div>
-
-      <div class="card mb16">
-        <div class="card-title"><span class="icon">📊</span> CTR Moyen (16 mois)</div>
-        <div class="chart-wrap"><canvas id="seo-ctr-chart"></canvas></div>
-      </div>
-
-      <div class="grid-2">
-        <div class="card">
-          <div class="card-title"><span class="icon">🏆</span> Top 10 Pages par Clics</div>
-          <table id="seo-top-pages-table">
-            <thead><tr><th>Page</th><th style="text-align:right">Clics</th><th style="text-align:right">Impressions</th><th style="text-align:right">CTR</th><th style="text-align:right">Position</th></tr></thead>
-            <tbody id="seo-top-pages-body"><tr><td colspan="5" class="empty">Chargement des données...</td></tr></tbody>
-          </table>
-        </div>
-        <div class="card">
-          <div class="card-title"><span class="icon">🔍</span> Top 10 Requêtes par Clics</div>
-          <table id="seo-top-queries-table">
-            <thead><tr><th>Requête</th><th style="text-align:right">Clics</th><th style="text-align:right">Impressions</th><th style="text-align:right">CTR</th><th style="text-align:right">Position</th></tr></thead>
-            <tbody id="seo-top-queries-body"><tr><td colspan="5" class="empty">Chargement des données...</td></tr></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="grid-2">
-        <div class="card">
-          <div class="card-title"><span class="icon">🚀</span> Requêtes en Croissance (Top 5)</div>
-          <table id="seo-rising-queries-table">
-            <thead><tr><th>Requête</th><th style="text-align:right">Clics</th><th style="text-align:right">Impressions</th><th style="text-align:right">CTR</th><th style="text-align:right">Position</th><th style="text-align:right">Tendance</th></tr></thead>
-            <tbody id="seo-rising-queries-body"><tr><td colspan="6" class="empty">Chargement des données...</td></tr></tbody>
-          </table>
-        </div>
-        <div class="card">
-          <div class="card-title"><span class="icon">📉</span> Requêtes en Déclin (Top 5)</div>
-          <table id="seo-declining-queries-table">
-            <thead><tr><th>Requête</th><th style="text-align:right">Clics</th><th style="text-align:right">Impressions</th><th style="text-align:right">CTR</th><th style="text-align:right">Position</th><th style="text-align:right">Tendance</th></tr></thead>
-            <tbody id="seo-declining-queries-body"><tr><td colspan="6" class="empty">Chargement des données...</td></tr></tbody>
-          </table>
-        </div>
-      </div>
-
-      <div class="grid-2">
-        <div class="card">
-          <div class="card-title"><span class="icon">📈</span> Pages en Croissance (Top 5)</div>
-          <table id="seo-rising-pages-table">
-            <thead><tr><th>Page</th><th style="text-align:right">Clics</th><th style="text-align:right">Impressions</th><th style="text-align:right">CTR</th><th style="text-align:right">Position</th><th style="text-align:right">Tendance</th></tr></thead>
-            <tbody id="seo-rising-pages-body"><tr><td colspan="6" class="empty">Chargement des données...</td></tr></tbody>
-          </table>
-        </div>
-        <div class="card">
-          <div class="card-title"><span class="icon">📉</span> Pages en Déclin (Top 5)</div>
-          <table id="seo-declining-pages-table">
-            <thead><tr><th>Page</th><th style="text-align:right">Clics</th><th style="text-align:right">Impressions</th><th style="text-align:right">CTR</th><th style="text-align:right">Position</th><th style="text-align:right">Tendance</th></tr></thead>
-            <tbody id="seo-declining-pages-body"><tr><td colspan="6" class="empty">Chargement des données...</td></tr></tbody>
-          </table>
-        </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">📋</span> Derniers audits</div>
+        <div id="seo-audits-list"><div class="empty">Aucun audit effectué pour le moment.<br>Lance ton premier audit via Telegram.</div></div>
       </div>
     </div>
 
@@ -1848,7 +1763,6 @@ function renderWikidata(d) {
 
 load();
 setInterval(load, 5 * 60 * 1000);
-  <script src="seo_dashboard.js"></script>
 </script>
 </body>
 </html>
