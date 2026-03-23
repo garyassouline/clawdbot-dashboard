@@ -108,7 +108,7 @@ def generate_month_ranges(start_date_str, end_date_str):
     return ranges
 
 
-def fetch_gsc_data(service, property_url, start_date, end_date, dimensions=None, data_type="web"):
+def fetch_gsc_data(service, property_url, start_date, end_date, dimensions=None, data_type="web", max_retries=3):
     if dimensions is None:
         dimensions = ["query", "page", "date", "country", "device"]
 
@@ -125,11 +125,23 @@ def fetch_gsc_data(service, property_url, start_date, end_date, dimensions=None,
             "type": data_type,
         }
 
-        response = service.searchanalytics().query(
-            siteUrl=property_url, body=request_body
-        ).execute()
+        rows = None
+        for attempt in range(max_retries):
+            try:
+                response = service.searchanalytics().query(
+                    siteUrl=property_url, body=request_body
+                ).execute()
+                rows = response.get("rows", [])
+                break
+            except Exception as e:
+                if attempt < max_retries - 1:
+                    wait = (attempt + 1) * 5
+                    console.print(f"  [yellow]Retry {attempt + 1}/{max_retries} after {type(e).__name__}. Waiting {wait}s...[/yellow]")
+                    time.sleep(wait)
+                else:
+                    console.print(f"  [red]Failed after {max_retries} retries: {e}[/red]")
+                    return all_rows
 
-        rows = response.get("rows", [])
         if not rows:
             break
 
@@ -139,9 +151,23 @@ def fetch_gsc_data(service, property_url, start_date, end_date, dimensions=None,
         if len(rows) < config.GSC_ROW_LIMIT:
             break
 
-        time.sleep(0.2)
+        time.sleep(0.3)
 
     return all_rows
+
+
+def _save_partial(all_data, property_url, start_date, end_date):
+    """Save current data to disk after each month (crash recovery)."""
+    output_file = os.path.join(config.RAW_DATA_DIR, "gsc_raw_data.json")
+    with open(output_file, "w") as f:
+        json.dump({
+            "property": property_url,
+            "start_date": start_date,
+            "end_date": end_date,
+            "extracted_at": datetime.now().isoformat(),
+            "total_rows": len(all_data),
+            "rows": all_data,
+        }, f)
 
 
 def extract_all_data():
@@ -185,6 +211,8 @@ def extract_all_data():
             progress.update(task, description=f"Fetching  {month_start} → {month_end}")
             rows = fetch_gsc_data(service, property_url, month_start, month_end)
             all_data.extend(rows)
+            # Save progress after each month
+            _save_partial(all_data, property_url, start_date, end_date)
             progress.advance(task)
             time.sleep(0.5)
 
