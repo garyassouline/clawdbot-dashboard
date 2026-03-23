@@ -1,0 +1,8 @@
+{
+  "total_query_pairs": 48253,
+  "total_pages": 1247,
+  "embedding_model": "gemini-embedding-2-preview",
+  "embedding_dimensions": 768,
+  "last_extraction": "2026-03-22T08:15:00",
+  "property": "https://www.mariefrance.fr/"
+}

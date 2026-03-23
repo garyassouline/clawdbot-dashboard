@@ -348,6 +348,8 @@
     }
   </style>
   <link rel="stylesheet" href="seo_styles.css">
+  <link rel="stylesheet" href="vectorai_styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 <div class="layout">
@@ -364,6 +366,9 @@
     <span class="nav-section">Outils</span>
     <a class="nav-item" onclick="showSection('seo', this); if(window.renderSEOTab) window.renderSEOTab();">
       <span class="icon">🔍</span> SEO
+    </a>
+    <a class="nav-item" onclick="showSection('vectorai', this); if(window.renderVectorAITab) window.renderVectorAITab();">
+      <span class="icon">🧠</span> Analyse IA
     </a>
     <a class="nav-item" onclick="showSection('discover', this)">
       <span class="icon">✨</span> Google Discover
@@ -586,6 +591,49 @@
             <tbody id="seo-declining-pages-body"><tr><td colspan="6" class="empty">Chargement des données...</td></tr></tbody>
           </table>
         </div>
+      </div>
+    </div>
+
+    <!-- ===== ANALYSE IA (vectordb-gsc) ===== -->
+    <div class="section" id="section-vectorai">
+      <div id="vectorai-alerts-container"></div>
+
+      <div class="kpi-grid">
+        <div class="kpi blue">
+          <div class="label">Paires Requête-Page</div>
+          <div class="value" id="vectorai-kpi-querypairs">—</div>
+          <div class="sub">dans ChromaDB</div>
+        </div>
+        <div class="kpi purple">
+          <div class="label">Pages indexées</div>
+          <div class="value" id="vectorai-kpi-pages">—</div>
+          <div class="sub">dans ChromaDB</div>
+        </div>
+        <div class="kpi green">
+          <div class="label">Dernier export</div>
+          <div class="value" style="font-size:1rem;padding-top:6px" id="vectorai-kpi-export">—</div>
+          <div class="sub">date de génération</div>
+        </div>
+        <div class="kpi red">
+          <div class="label">Provider IA</div>
+          <div class="value" style="font-size:1rem;padding-top:6px" id="vectorai-kpi-provider">—</div>
+          <div class="sub">modèle utilisé</div>
+        </div>
+      </div>
+
+      <!-- Analysis detail panel (hidden by default) -->
+      <div class="analysis-detail" id="vectorai-detail">
+        <div class="analysis-detail-header">
+          <h3 id="vectorai-detail-title">—</h3>
+          <button class="analysis-detail-close" onclick="closeAnalysisDetail()">✕ Fermer</button>
+        </div>
+        <div class="analysis-detail-meta" id="vectorai-detail-meta"></div>
+        <div class="md-content" id="vectorai-detail-content"></div>
+      </div>
+
+      <!-- Analysis cards grid -->
+      <div class="vectorai-grid" id="vectorai-analysis-grid">
+        <div class="vectorai-loading"><div class="spinner"></div> Cliquez sur l'onglet pour charger les analyses…</div>
       </div>
     </div>
 
@@ -961,6 +1009,7 @@
 
 <!-- Toast copy -->
 <script src="seo_dashboard.js"></script>
+<script src="vectorai_dashboard.js"></script>
 <script>
 let tokenChartInst, costChartInst, costTokenChartInst, costSplitChartInst, discoverChartInst, discMainChart, discPieChart;
 let globalData = null;

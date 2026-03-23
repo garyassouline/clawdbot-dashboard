@@ -1,0 +1,13 @@
+{
+  "title": "Requêtes en Déclin",
+  "key": "declining",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:32:00",
+  "summary": "83 requêtes en perte de vitesse détectées. Principalement dans les catégories People/Actu et certaines recettes saisonnières passées.",
+  "key_metrics": [
+    {"label": "Requêtes en déclin", "value": "83", "color": "red"},
+    {"label": "Perte estimée", "value": "-12K clics", "color": "red"},
+    {"label": "Catégorie principale", "value": "People", "color": "yellow"}
+  ],
+  "content_md": "## Requêtes en perte de vitesse\n\n**83 requêtes** montrent une baisse de clics >30% entre la première et la seconde moitié de la période analysée.\n\n### Catégories les plus touchées\n\n| Catégorie | Requêtes en déclin | Perte moyenne |\n|-----------|--------------------|---------------|\n| People & Actu | 31 | -45% |\n| Recettes (saisonnières) | 22 | -38% |\n| Mode (tendances passées) | 18 | -32% |\n| Santé (anciens articles) | 12 | -28% |\n\n### Requêtes les plus impactées\n\n1. **\"recette galette des rois\"** — -62% (post-saison)\n2. **\"tendance mode hiver 2025\"** — -58% (obsolète)\n3. **\"grippe symptomes 2025\"** — -54% (saisonnier)\n4. **\"cadeau noel femme 2025\"** — -51% (post-saison)\n5. **\"régime détox janvier\"** — -47% (post-saison)\n\n### Analyse\n\n- **~60% des déclins sont saisonniers** — attendus et normaux\n- **~25% sont liés à du contenu daté** — nécessitent une mise à jour\n- **~15% sont des pertes de positionnement réelles** — à investiguer\n\n### Actions\n\n1. **Mettre à jour les articles datés** — changer les dates, actualiser les infos\n2. **Créer les versions 2026** des contenus saisonniers récurrents\n3. **Investiguer les pertes de position** avec un audit technique page par page\n4. **Rediriger les contenus obsolètes** vers leurs versions actualisées"
+}

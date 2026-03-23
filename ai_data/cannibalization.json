@@ -1,0 +1,13 @@
+{
+  "title": "Cannibalisation de Mots-Clés",
+  "key": "cannibalization",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:34:00",
+  "summary": "7 cas de cannibalisation détectés où plusieurs pages se disputent les mêmes requêtes, diluant le positionnement global.",
+  "key_metrics": [
+    {"label": "Cas détectés", "value": "7", "color": "yellow"},
+    {"label": "Pages impactées", "value": "19", "color": "red"},
+    {"label": "Impressions concernées", "value": "62K", "color": "blue"}
+  ],
+  "content_md": "## Cannibalisation détectée\n\n**7 clusters de cannibalisation** identifiés où 2+ pages se disputent les mêmes requêtes dans les SERPs.\n\n### Cas critiques\n\n#### 1. \"symptomes ménopause\" — 3 pages en compétition\n\n| Page | Position | Clics | Impressions |\n|------|----------|-------|-------------|\n| /sante/menopause-symptomes/ | 6.2 | 420 | 12.3K |\n| /sante/premenopause-signes/ | 8.7 | 180 | 11.8K |\n| /bien-etre/menopause-naturel/ | 14.1 | 45 | 8.2K |\n\n**Impact :** Ces 3 pages totalisent 32.3K impressions mais aucune n'atteint le top 5. Une page consolidée pourrait viser la position 3-4.\n\n#### 2. \"recette healthy\" — 4 pages\n\n| Page | Position | Clics | Impressions |\n|------|----------|-------|-------------|\n| /cuisine/recettes-healthy/ | 7.8 | 310 | 9.5K |\n| /cuisine/repas-equilibre/ | 9.3 | 185 | 8.7K |\n| /minceur/recettes-legeres/ | 11.5 | 90 | 7.2K |\n| /bien-etre/alimentation-saine/ | 15.2 | 35 | 5.1K |\n\n#### 3. \"yoga débutant\" — 2 pages\n\n- /bien-etre/yoga-debutant/ (pos 8.1)\n- /sport/yoga-maison/ (pos 12.4)\n\n### Autres cas détectés\n\n4. **\"coiffure courte femme\"** — 2 pages\n5. **\"mal de dos exercices\"** — 3 pages\n6. **\"idée repas soir rapide\"** — 2 pages\n7. **\"routine beauté matin\"** — 2 pages\n\n### Solutions recommandées\n\n1. **Fusionner les contenus** — consolider en une page pilier autoritaire par cluster\n2. **Canonical tags** — pointer les pages secondaires vers la principale\n3. **Différencier l'intention** — si les pages ciblent des intentions différentes, ajuster les titles et H1 pour réduire le chevauchement\n4. **Maillage interne** — concentrer les liens internes sur la page pilier choisie\n5. **Redirections 301** — pour les pages à faible valeur ajoutée"
+}

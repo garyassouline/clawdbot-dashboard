@@ -1,0 +1,13 @@
+{
+  "title": "Opportunités SEO",
+  "key": "opportunities",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:31:00",
+  "summary": "42 requêtes à fort potentiel identifiées : haute visibilité mais CTR faible. Gains estimés : +35K clics/mois avec optimisation des titles.",
+  "key_metrics": [
+    {"label": "Opportunités", "value": "42", "color": "green"},
+    {"label": "Gain potentiel", "value": "+35K clics", "color": "green"},
+    {"label": "CTR moyen actuel", "value": "1.2%", "color": "red"}
+  ],
+  "content_md": "## Opportunités à fort impact\n\nCes requêtes ont un **volume d'impressions élevé** (>5 000/mois) mais un **CTR inférieur à 3%**, suggérant un problème de title/description ou de positionnement.\n\n### Top 10 opportunités\n\n| Requête | Impressions | CTR actuel | Position | Gain estimé |\n|---------|-------------|------------|----------|-------------|\n| symptomes grossesse | 45.2K | 0.8% | 8.3 | +4.5K clics |\n| recette gateau chocolat | 38.7K | 1.1% | 6.7 | +3.2K clics |\n| mal de dos remede | 32.1K | 0.9% | 9.1 | +2.8K clics |\n| coiffure mariage | 28.5K | 1.3% | 7.2 | +2.1K clics |\n| regime sans sucre | 25.8K | 1.0% | 8.5 | +2.0K clics |\n| ménopause symptomes | 24.3K | 1.4% | 5.8 | +1.9K clics |\n| idée repas soir | 22.1K | 1.2% | 7.9 | +1.7K clics |\n| yoga débutant | 19.8K | 0.7% | 11.2 | +1.5K clics |\n| coloration cheveux | 18.4K | 1.5% | 6.1 | +1.3K clics |\n| huile essentielle | 17.2K | 0.6% | 12.4 | +1.2K clics |\n\n### Actions recommandées\n\n1. **Optimiser les meta titles** — Ajouter des power words et l'année 2026\n2. **Enrichir les meta descriptions** — Inclure des chiffres et un call-to-action clair\n3. **Ajouter du schema markup** — FAQ, HowTo pour gagner en rich snippets\n4. **Positions 5-10** : remonter en page 1 avec du maillage interne ciblé\n5. **Positions 10-20** : créer du contenu complémentaire pour renforcer l'autorité topique"
+}

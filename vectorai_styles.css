@@ -1,0 +1,268 @@
+/* --- Vector AI Analysis Styles --- */
+
+#section-vectorai {
+    padding: 10px 0;
+}
+
+/* Analysis cards grid */
+.vectorai-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.analysis-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 20px;
+    border-left: 3px solid var(--accent2);
+    cursor: pointer;
+    transition: all 0.15s;
+    position: relative;
+}
+.analysis-card:hover {
+    border-color: var(--accent2);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.analysis-card.card-overview { border-left-color: var(--accent2); }
+.analysis-card.card-opportunities { border-left-color: var(--green); }
+.analysis-card.card-declining { border-left-color: var(--accent); }
+.analysis-card.card-content-gaps { border-left-color: var(--accent3); }
+.analysis-card.card-cannibalization { border-left-color: var(--yellow); }
+
+.analysis-card .card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+.analysis-card .card-label {
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.analysis-card .card-summary {
+    font-size: 0.78rem;
+    color: var(--muted);
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+.analysis-card .card-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+.analysis-card .metric-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    border-radius: 20px;
+    font-size: 0.68rem;
+    font-weight: 600;
+    background: rgba(59,130,246,0.1);
+    color: var(--accent2);
+}
+.analysis-card .metric-badge.green { background: rgba(34,197,94,0.12); color: var(--green); }
+.analysis-card .metric-badge.red { background: rgba(229,72,77,0.12); color: var(--accent); }
+.analysis-card .metric-badge.purple { background: rgba(139,92,246,0.12); color: var(--accent3); }
+.analysis-card .metric-badge.yellow { background: rgba(245,158,11,0.12); color: var(--yellow); }
+
+.analysis-card .card-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--accent2);
+}
+
+/* Detail panel */
+.analysis-detail {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 28px;
+    margin-bottom: 24px;
+    display: none;
+    animation: fadeIn 0.2s ease;
+}
+.analysis-detail.active {
+    display: block;
+}
+.analysis-detail-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--border);
+}
+.analysis-detail-header h3 {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.analysis-detail-close {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 12px;
+    font-size: 0.78rem;
+    cursor: pointer;
+    color: var(--text);
+    transition: all 0.15s;
+}
+.analysis-detail-close:hover {
+    background: var(--border);
+}
+.analysis-detail-meta {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.analysis-detail-meta span {
+    font-size: 0.72rem;
+    color: var(--muted);
+}
+
+/* Markdown rendered content */
+.md-content {
+    font-size: 0.85rem;
+    line-height: 1.7;
+    color: var(--text);
+}
+.md-content h1, .md-content h2 {
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 20px 0 10px;
+    padding-bottom: 6px;
+    border-bottom: 1px solid var(--border);
+}
+.md-content h3 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    margin: 16px 0 8px;
+}
+.md-content h4 {
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin: 12px 0 6px;
+}
+.md-content p {
+    margin-bottom: 10px;
+}
+.md-content ul, .md-content ol {
+    margin: 8px 0 12px 20px;
+}
+.md-content li {
+    margin-bottom: 4px;
+}
+.md-content strong {
+    font-weight: 700;
+}
+.md-content code {
+    background: var(--surface2);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-family: 'SF Mono', 'Fira Code', monospace;
+}
+.md-content pre {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+.md-content pre code {
+    background: none;
+    padding: 0;
+}
+.md-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 0.82rem;
+}
+.md-content table th {
+    text-align: left;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-bottom: 2px solid var(--border);
+    color: var(--text);
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: 0.82rem;
+}
+.md-content table td {
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+}
+.md-content blockquote {
+    border-left: 3px solid var(--accent2);
+    padding: 8px 16px;
+    margin: 10px 0;
+    color: var(--muted);
+    background: var(--surface2);
+    border-radius: 0 8px 8px 0;
+}
+.md-content hr {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 16px 0;
+}
+
+/* Provider badge */
+.provider-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+.provider-badge.gemini { background: rgba(59,130,246,0.12); color: #4285f4; }
+.provider-badge.grok { background: rgba(139,92,246,0.12); color: var(--accent3); }
+.provider-badge.claude { background: rgba(229,72,77,0.12); color: var(--accent); }
+
+/* Loading state */
+.vectorai-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px;
+    color: var(--muted);
+    font-size: 0.85rem;
+}
+.vectorai-loading .spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid var(--border);
+    border-top-color: var(--accent2);
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 900px) {
+    .vectorai-grid {
+        grid-template-columns: 1fr;
+    }
+}

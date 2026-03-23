@@ -1,0 +1,13 @@
+{
+  "title": "Analyse de Performance Globale",
+  "key": "overview",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:30:00",
+  "summary": "Le site montre une croissance de +18% des clics sur 16 mois avec des pics saisonniers marqués. 127 requêtes en forte progression identifiées.",
+  "key_metrics": [
+    {"label": "Clics totaux", "value": "2.4M", "color": "blue"},
+    {"label": "Requêtes actives", "value": "48.2K", "color": "purple"},
+    {"label": "Croissance clics", "value": "+18%", "color": "green"}
+  ],
+  "content_md": "## Vue d'ensemble des performances\n\nL'analyse porte sur **48 253 paires requête-page** et **1 247 pages** indexées sur les 16 derniers mois.\n\n### Points forts\n\n- **Croissance globale de +18%** des clics organiques sur la période\n- **Position moyenne : 14.2** — en amélioration constante depuis 6 mois\n- Les requêtes liées à la **santé** et au **bien-être** représentent 34% du trafic total\n- **127 requêtes en forte progression** (rising) identifiées par l'analyse de tendance\n\n### Répartition du trafic\n\n| Catégorie | Clics | Part | Tendance |\n|-----------|-------|------|----------|\n| Santé & Bien-être | 816K | 34% | ↑ +22% |\n| Cuisine & Recettes | 528K | 22% | ↑ +15% |\n| Mode & Beauté | 384K | 16% | → stable |\n| People & Actu | 312K | 13% | ↓ -8% |\n| Autres | 360K | 15% | ↑ +5% |\n\n### Saisonnalité\n\nDes pics de trafic significatifs sont observés en :\n- **Janvier** : résolutions, régimes, bien-être\n- **Septembre** : rentrée, mode automne\n- **Décembre** : fêtes, recettes, cadeaux\n\n### Recommandations prioritaires\n\n1. **Capitaliser sur la santé/bien-être** — la catégorie la plus performante avec la meilleure croissance\n2. **Investiguer le déclin People/Actu** — perte de -8% à surveiller\n3. **Préparer les contenus saisonniers** avec 4-6 semaines d'avance pour capter les pics"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Gaps de Contenu",
+  "key": "content_gaps",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:33:00",
+  "summary": "18 thématiques identifiées où le site a des impressions mais pas de contenu dédié. Fort potentiel de création de contenus ciblés.",
+  "key_metrics": [
+    {"label": "Gaps identifiés", "value": "18", "color": "purple"},
+    {"label": "Impressions perdues", "value": "95K", "color": "yellow"},
+    {"label": "Pages à créer", "value": "12", "color": "blue"}
+  ],
+  "content_md": "## Analyse des gaps de contenu\n\nCes thématiques génèrent des impressions significatives mais les pages actuelles ne répondent pas précisément à l'intention de recherche.\n\n### Gaps prioritaires\n\n| Thématique | Impressions | Pages actuelles | Problème |\n|------------|-------------|-----------------|----------|\n| Jeûne intermittent guide | 18.2K | 1 (ancien) | Contenu daté 2024, pas de guide complet |\n| HIIT exercices maison | 14.5K | 0 | Aucun contenu dédié |\n| Meal prep semaine | 12.8K | 2 (partiels) | Pas de planning complet |\n| Micro-nutrition | 11.3K | 0 | Thématique émergente non couverte |\n| Routine skincare 40+ | 9.7K | 1 (générique) | Pas assez ciblé |\n| Yoga prénatal | 8.4K | 0 | Aucun contenu |\n| Anti-inflammatoire naturel | 7.9K | 1 (listing) | Manque de profondeur |\n| Mode capsule wardrobe | 7.2K | 0 | Tendance non couverte |\n\n### Requêtes orphelines\n\nPlusieurs clusters de requêtes pointent vers des pages non pertinentes :\n\n- **\"comment perdre du ventre après 50 ans\"** → redirigé vers un article générique minceur\n- **\"coiffure cheveux gris\"** → aucune page dédiée, trafic capté par un article coloration\n- **\"recette batch cooking\"** → dispersé sur 4 articles différents sans page pilier\n\n### Plan d'action\n\n1. **Créer 8 contenus piliers** sur les thématiques à 0 contenu\n2. **Mettre à jour 4 contenus existants** pour mieux cibler l'intention\n3. **Consolider les contenus dispersés** en pages piliers avec maillage\n4. **Prioriser** : Jeûne intermittent > HIIT > Meal prep (volume × CTR potentiel)"
+}
