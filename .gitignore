@@ -1,0 +1,15 @@
+# Secrets
+.env
+service_account.json
+vectordb-gsc/.env
+vectordb-gsc/service_account.json
+
+# Python
+__pycache__/
+*.pyc
+chroma_db/
+raw_data/
+
+# OS
+.DS_Store
+Thumbs.db
