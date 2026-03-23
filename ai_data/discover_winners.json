@@ -1,0 +1,14 @@
+{
+  "title": "Discover Winners & Patterns",
+  "key": "discover_winners",
+  "source": "discover",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:36:00",
+  "summary": "Les recettes avec photos lifestyle et titles émotionnels affichent un CTR 2x supérieur. Le format liste (Top 10, 5 recettes...) surperforme.",
+  "key_metrics": [
+    {"label": "Pages CTR > 6%", "value": "142", "color": "green"},
+    {"label": "Format gagnant", "value": "Listes", "color": "purple"},
+    {"label": "CTR top 10%", "value": "7.2%", "color": "green"}
+  ],
+  "content_md": "## Patterns gagnants Discover — Marmiton\n\n### Ce qui fonctionne\n\n#### 1. Format des titles\n\nLes titles qui performent le mieux dans Discover :\n\n| Pattern | CTR moyen | Exemples |\n|---------|-----------|----------|\n| Question + réponse | 6.8% | \"Comment faire une pâte brisée parfaite ?\" |\n| Chiffres + superlatif | 6.5% | \"Les 10 recettes les plus faciles\" |\n| Saisonnier + urgence | 6.2% | \"Chandeleur 2026 : la recette de crêpes inratable\" |\n| Classique revisité | 5.9% | \"Gratin dauphinois : la recette de ma grand-mère\" |\n| Émotionnel/nostalgie | 5.7% | \"Le fondant au chocolat qui fait fondre tout le monde\" |\n\n#### 2. Images\n\n- **Photos en lumière naturelle** → CTR +35% vs photos studio\n- **Plats servis (pas en préparation)** → CTR +28%\n- **Format 16:9 ou 4:3** → meilleure présentation dans le feed\n- **Pas de texte sur l'image** → Discover préfère les visuels purs\n\n#### 3. Timing de publication\n\n- **Mardi et mercredi** = meilleurs jours pour publier\n- **8h-10h** = créneau optimal (préparation repas du soir)\n- **Publier 3 semaines avant** un événement saisonnier\n\n#### 4. Longueur de contenu\n\n- **800-1200 mots** = sweet spot pour Discover\n- Les recettes avec **étapes numérotées** performent +22%\n- Ajout de **variantes** et **astuces** = durée de vie Discover prolongée\n\n### Top winners (CTR > 7%)\n\n1. **Crêpes Suzette** — 7.8% CTR (saisonnier + nostalgie)\n2. **Bûche de Noël facile** — 7.5% CTR (saisonnier + accessible)\n3. **Risotto aux champignons** — 7.3% CTR (comfort food)\n4. **Bowl cake petit-déjeuner** — 7.2% CTR (tendance + rapide)\n5. **Soupe à l'oignon** — 7.1% CTR (classique français)\n\n### Actions à mener\n\n1. **Reformater les titles** des 50 top pages selon les patterns gagnants\n2. **Reshooting photos** des 20 recettes les plus vues avec style lifestyle\n3. **Créer une série \"Top 10\"** hebdomadaire (format qui surperforme)\n4. **Calendrier éditorial** aligné sur les pics saisonniers"
+}

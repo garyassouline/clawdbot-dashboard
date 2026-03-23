@@ -1,61 +1,72 @@
-// vectorai_dashboard.js - Logic for the AI Analysis tab
+// vectorai_dashboard.js - Marmiton HQ: Search + Discover AI Analysis
 
-const VECTORAI_DATA_PATH = './ai_data/';
+var VECTORAI_DATA_PATH = './ai_data/';
 
-let vectoraiMeta = null;
-let vectoraiStats = null;
-let vectoraiAnalyses = {};
+var vectoraiMeta = null;
+var vectoraiStats = null;
+var vectoraiAnalyses = {};
 
-const ANALYSIS_KEYS = ['overview', 'opportunities', 'declining', 'content_gaps', 'cannibalization'];
+var SEARCH_KEYS = ['overview', 'opportunities', 'declining', 'content_gaps', 'cannibalization'];
+var DISCOVER_KEYS = ['discover_overview', 'discover_winners', 'discover_declining'];
+var ALL_KEYS = SEARCH_KEYS.concat(DISCOVER_KEYS);
 
-const ANALYSIS_CONFIG = {
-    overview: { icon: '📊', label: 'Performance Overview', cardClass: 'card-overview' },
-    opportunities: { icon: '🎯', label: 'Opportunités SEO', cardClass: 'card-opportunities' },
-    declining: { icon: '📉', label: 'Requêtes en Déclin', cardClass: 'card-declining' },
-    content_gaps: { icon: '🧩', label: 'Gaps de Contenu', cardClass: 'card-content-gaps' },
-    cannibalization: { icon: '⚔️', label: 'Cannibalisation', cardClass: 'card-cannibalization' }
+var ANALYSIS_CONFIG = {
+    // Search analyses
+    overview: { icon: '📊', label: 'Performance Overview', cardClass: 'card-overview', source: 'search' },
+    opportunities: { icon: '🎯', label: 'Opportunités SEO', cardClass: 'card-opportunities', source: 'search' },
+    declining: { icon: '📉', label: 'Requêtes en Déclin', cardClass: 'card-declining', source: 'search' },
+    content_gaps: { icon: '🧩', label: 'Gaps de Contenu', cardClass: 'card-content-gaps', source: 'search' },
+    cannibalization: { icon: '⚔️', label: 'Cannibalisation', cardClass: 'card-cannibalization', source: 'search' },
+    // Discover analyses
+    discover_overview: { icon: '✨', label: 'Discover Overview', cardClass: 'card-discover-overview', source: 'discover' },
+    discover_winners: { icon: '🏆', label: 'Discover Winners', cardClass: 'card-discover-winners', source: 'discover' },
+    discover_declining: { icon: '📉', label: 'Discover en Déclin', cardClass: 'card-discover-declining', source: 'discover' }
 };
 
 async function loadVectorAIData() {
-    const container = document.getElementById('vectorai-alerts-container');
-    const gridEl = document.getElementById('vectorai-analysis-grid');
+    var container = document.getElementById('vectorai-alerts-container');
+    var searchGrid = document.getElementById('vectorai-search-grid');
+    var discoverGrid = document.getElementById('vectorai-discover-grid');
 
-    if (gridEl) gridEl.innerHTML = '<div class="vectorai-loading"><div class="spinner"></div> Chargement des analyses IA…</div>';
+    if (searchGrid) searchGrid.innerHTML = '<div class="vectorai-loading"><div class="spinner"></div> Chargement…</div>';
+    if (discoverGrid) discoverGrid.innerHTML = '<div class="vectorai-loading"><div class="spinner"></div> Chargement…</div>';
 
     try {
-        const cb = Date.now();
+        var cb = Date.now();
 
-        const [metaRes, statsRes] = await Promise.all([
+        var responses = await Promise.all([
             fetch(VECTORAI_DATA_PATH + 'meta.json?cb=' + cb),
             fetch(VECTORAI_DATA_PATH + 'stats.json?cb=' + cb),
         ]);
 
-        if (!metaRes.ok || !statsRes.ok) throw new Error('meta.json ou stats.json introuvable');
+        if (!responses[0].ok || !responses[1].ok) throw new Error('meta.json ou stats.json introuvable');
 
-        vectoraiMeta = await metaRes.json();
-        vectoraiStats = await statsRes.json();
+        vectoraiMeta = await responses[0].json();
+        vectoraiStats = await responses[1].json();
 
-        const analysisResults = await Promise.all(
-            ANALYSIS_KEYS.map(key =>
-                fetch(VECTORAI_DATA_PATH + key + '.json?cb=' + cb)
-                    .then(r => r.ok ? r.json() : null)
-                    .catch(() => null)
-            )
+        // Fetch all analyses in parallel
+        var analysisResults = await Promise.all(
+            ALL_KEYS.map(function(key) {
+                return fetch(VECTORAI_DATA_PATH + key + '.json?cb=' + cb)
+                    .then(function(r) { return r.ok ? r.json() : null; })
+                    .catch(function() { return null; });
+            })
         );
 
-        ANALYSIS_KEYS.forEach((key, i) => {
+        ALL_KEYS.forEach(function(key, i) {
             vectoraiAnalyses[key] = analysisResults[i];
         });
 
         renderVectorAITabContent();
 
     } catch (e) {
-        console.error('Error loading Vector AI data:', e);
+        console.error('Error loading Marmiton HQ data:', e);
         if (container) {
             container.innerHTML = '<div class="alert warn" style="background:rgba(229,72,77,0.08);border:1px solid var(--accent);border-radius:var(--radius);padding:14px 18px;margin-bottom:16px;font-size:0.82rem;color:var(--accent)">' +
-                '⚠️ Données d\'analyse IA non disponibles. Lancez <code>python main.py export</code> pour générer les analyses.</div>';
+                '⚠️ Données non disponibles. Lancez <code>python main.py export</code> pour générer les analyses Marmiton.</div>';
         }
-        if (gridEl) gridEl.innerHTML = '';
+        if (searchGrid) searchGrid.innerHTML = '';
+        if (discoverGrid) discoverGrid.innerHTML = '';
     }
 }
 
@@ -74,15 +85,18 @@ function renderVectorAITabContent() {
     }
 
     renderVectorAIKpis();
-    renderVectorAICards();
+    renderVectorAICards(SEARCH_KEYS, 'vectorai-search-grid');
+    renderVectorAICards(DISCOVER_KEYS, 'vectorai-discover-grid');
 }
 
 function renderVectorAIKpis() {
+    var fmtFn = typeof fmt !== 'undefined' ? fmt : function(v) { return v; };
+
     if (vectoraiStats) {
         var qp = document.getElementById('vectorai-kpi-querypairs');
-        var pg = document.getElementById('vectorai-kpi-pages');
-        if (qp) qp.textContent = typeof fmt !== 'undefined' ? fmt(vectoraiStats.total_query_pairs || 0) : (vectoraiStats.total_query_pairs || 0);
-        if (pg) pg.textContent = typeof fmt !== 'undefined' ? fmt(vectoraiStats.total_pages || 0) : (vectoraiStats.total_pages || 0);
+        var disc = document.getElementById('vectorai-kpi-discover');
+        if (qp) qp.textContent = fmtFn(vectoraiStats.total_query_pairs || 0);
+        if (disc) disc.textContent = fmtFn(vectoraiStats.total_discover_pages || 0);
     }
 
     if (vectoraiMeta) {
@@ -99,19 +113,19 @@ function renderVectorAIKpis() {
     }
 }
 
-function renderVectorAICards() {
-    var gridEl = document.getElementById('vectorai-analysis-grid');
+function renderVectorAICards(keys, gridId) {
+    var gridEl = document.getElementById(gridId);
     if (!gridEl) return;
 
     var html = '';
-    ANALYSIS_KEYS.forEach(function(key) {
-        var config = ANALYSIS_CONFIG[key];
+    keys.forEach(function(key) {
+        var cfg = ANALYSIS_CONFIG[key];
         var data = vectoraiAnalyses[key];
 
         if (!data) {
-            html += '<div class="analysis-card ' + config.cardClass + '" style="opacity:0.5">' +
-                '<div class="card-icon">' + config.icon + '</div>' +
-                '<div class="card-label">' + config.label + '</div>' +
+            html += '<div class="analysis-card ' + cfg.cardClass + '" style="opacity:0.5">' +
+                '<div class="card-icon">' + cfg.icon + '</div>' +
+                '<div class="card-label">' + cfg.label + '</div>' +
                 '<div class="card-summary">Analyse non disponible</div></div>';
             return;
         }
@@ -120,15 +134,19 @@ function renderVectorAICards() {
             return '<span class="metric-badge ' + (m.color || 'blue') + '">' + m.label + ': ' + m.value + '</span>';
         }).join('');
 
-        html += '<div class="analysis-card ' + config.cardClass + '" onclick="showAnalysisDetail(\'' + key + '\')">' +
-            '<div class="card-icon">' + config.icon + '</div>' +
-            '<div class="card-label">' + (data.title || config.label) + '</div>' +
+        var sourceBadge = cfg.source === 'discover'
+            ? '<span class="metric-badge purple">Discover</span>'
+            : '<span class="metric-badge blue">Search</span>';
+
+        html += '<div class="analysis-card ' + cfg.cardClass + '" onclick="showAnalysisDetail(\'' + key + '\')">' +
+            '<div class="card-icon">' + cfg.icon + '</div>' +
+            '<div class="card-label">' + (data.title || cfg.label) + '</div>' +
             '<div class="card-summary">' + (data.summary || 'Cliquez pour voir l\'analyse complète') + '</div>' +
-            '<div class="card-metrics">' + metricsHtml + '</div>' +
+            '<div class="card-metrics">' + sourceBadge + metricsHtml + '</div>' +
             '<div class="card-cta">Voir l\'analyse →</div></div>';
     });
 
-    gridEl.innerHTML = html;
+    gridEl.innerHTML = html || '<div class="empty" style="padding:20px;text-align:center;color:var(--muted)">Aucune analyse disponible</div>';
 }
 
 function showAnalysisDetail(key) {
@@ -139,7 +157,7 @@ function showAnalysisDetail(key) {
 
     if (!detailEl || !contentEl) return;
 
-    var config = ANALYSIS_CONFIG[key];
+    var cfg = ANALYSIS_CONFIG[key];
     var data = vectoraiAnalyses[key];
 
     if (!data || !data.content_md) {
@@ -147,13 +165,15 @@ function showAnalysisDetail(key) {
         return;
     }
 
-    if (titleEl) titleEl.innerHTML = config.icon + ' ' + (data.title || config.label);
+    if (titleEl) titleEl.innerHTML = cfg.icon + ' ' + (data.title || cfg.label);
 
     if (metaEl) {
         var providerName = { gemini: 'Gemini Flash', grok: 'Grok 4.1', claude: 'Claude Opus' };
         var provider = data.provider || (vectoraiMeta ? vectoraiMeta.provider : 'gemini');
         var date = data.generated_at ? new Date(data.generated_at).toLocaleString('fr-FR') : '—';
+        var sourceLabel = cfg.source === 'discover' ? 'Discover' : 'Search';
         metaEl.innerHTML = '<span class="provider-badge ' + provider + '">' + (providerName[provider] || provider) + '</span>' +
+            '<span class="badge ' + (cfg.source === 'discover' ? 'purple' : 'blue') + '">' + sourceLabel + '</span>' +
             '<span>Généré le ' + date + '</span>';
     }
 

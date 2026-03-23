@@ -368,7 +368,7 @@
       <span class="icon">🔍</span> SEO
     </a>
     <a class="nav-item" onclick="showSection('vectorai', this); if(window.renderVectorAITab) window.renderVectorAITab();">
-      <span class="icon">🧠</span> Analyse IA
+      <span class="icon">🍳</span> Marmiton HQ
     </a>
     <a class="nav-item" onclick="showSection('discover', this)">
       <span class="icon">✨</span> Google Discover
@@ -594,20 +594,38 @@
       </div>
     </div>
 
-    <!-- ===== ANALYSE IA (vectordb-gsc) ===== -->
+    <!-- ===== MARMITON HQ ===== -->
     <div class="section" id="section-vectorai">
       <div id="vectorai-alerts-container"></div>
 
+      <!-- Site header -->
+      <div class="card mb16">
+        <div class="card-title" style="justify-content:space-between">
+          <span><span class="icon">🍳</span> Marmiton — Tour de Contrôle</span>
+          <span class="badge purple">Search + Discover</span>
+        </div>
+        <div class="site-row">
+          <div class="site-info">
+            <div class="site-favicon">🇫🇷</div>
+            <div><div class="site-name">Marmiton</div><div class="site-url">https://www.marmiton.org/</div></div>
+          </div>
+          <div style="display:flex;align-items:center;gap:10px">
+            <span class="badge green" id="vectorai-status">Connecté</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPIs row -->
       <div class="kpi-grid">
         <div class="kpi blue">
           <div class="label">Paires Requête-Page</div>
           <div class="value" id="vectorai-kpi-querypairs">—</div>
-          <div class="sub">dans ChromaDB</div>
+          <div class="sub">Search (ChromaDB)</div>
         </div>
         <div class="kpi purple">
-          <div class="label">Pages indexées</div>
-          <div class="value" id="vectorai-kpi-pages">—</div>
-          <div class="sub">dans ChromaDB</div>
+          <div class="label">Pages Discover</div>
+          <div class="value" id="vectorai-kpi-discover">—</div>
+          <div class="sub">Discover (ChromaDB)</div>
         </div>
         <div class="kpi green">
           <div class="label">Dernier export</div>
@@ -631,10 +649,13 @@
         <div class="md-content" id="vectorai-detail-content"></div>
       </div>
 
-      <!-- Analysis cards grid -->
-      <div class="vectorai-grid" id="vectorai-analysis-grid">
-        <div class="vectorai-loading"><div class="spinner"></div> Cliquez sur l'onglet pour charger les analyses…</div>
-      </div>
+      <!-- Section: Search analyses -->
+      <div class="card-title" style="margin-bottom:12px;margin-top:8px"><span class="icon">🔍</span> Analyses Search</div>
+      <div class="vectorai-grid" id="vectorai-search-grid"></div>
+
+      <!-- Section: Discover analyses -->
+      <div class="card-title" style="margin-bottom:12px;margin-top:8px"><span class="icon">✨</span> Analyses Discover</div>
+      <div class="vectorai-grid" id="vectorai-discover-grid"></div>
     </div>
 
     <!-- ===== DISCOVER ===== -->

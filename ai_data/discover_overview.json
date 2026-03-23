@@ -1,0 +1,14 @@
+{
+  "title": "Discover Performance Marmiton",
+  "key": "discover_overview",
+  "source": "discover",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:35:00",
+  "summary": "Marmiton capte 1.2M clics Discover/mois. Les recettes rapides et saisonnières dominent le feed avec un CTR moyen de 4.8%.",
+  "key_metrics": [
+    {"label": "Clics Discover", "value": "1.2M/mois", "color": "purple"},
+    {"label": "CTR moyen", "value": "4.8%", "color": "green"},
+    {"label": "Pages actives", "value": "3.8K", "color": "blue"}
+  ],
+  "content_md": "## Vue d'ensemble Discover — Marmiton\n\nL'analyse porte sur **3 842 pages** ayant reçu du trafic Google Discover sur les 16 derniers mois.\n\n### Métriques globales\n\n| Métrique | Valeur |\n|----------|--------|\n| Clics totaux Discover | 19.4M |\n| Impressions totales | 405M |\n| CTR moyen | 4.8% |\n| Pages avec trafic Discover | 3 842 |\n\n### Top 10 pages Discover\n\n| Page | Clics | Impressions | CTR |\n|------|-------|-------------|-----|\n| /recettes/recette_gateau-au-chocolat | 285K | 4.2M | 6.8% |\n| /recettes/recette_pate-a-crepes | 248K | 3.8M | 6.5% |\n| /recettes/recette_gratin-dauphinois | 195K | 3.1M | 6.3% |\n| /recettes/recette_tiramisu | 178K | 2.9M | 6.1% |\n| /recettes/recette_quiche-lorraine | 162K | 2.7M | 6.0% |\n| /recettes/recette_blanquette-de-veau | 145K | 2.5M | 5.8% |\n| /recettes/recette_ratatouille | 132K | 2.3M | 5.7% |\n| /recettes/recette_fondant-chocolat | 128K | 2.2M | 5.8% |\n| /recettes/recette_carbonara | 119K | 2.1M | 5.7% |\n| /recettes/recette_pot-au-feu | 108K | 1.9M | 5.7% |\n\n### Tendances clés\n\n- **Les classiques français dominent** — gratin dauphinois, blanquette, quiche lorraine\n- **Le CTR moyen de 4.8% est excellent** pour Discover (moyenne secteur : ~3%)\n- **Mobile = 94%** du trafic Discover (comportement typique)\n- **Pics saisonniers** : crêpes en février, galette des rois en janvier, ratatouille en été\n\n### Répartition par catégorie\n\n| Catégorie | Part du trafic | CTR |\n|-----------|---------------|-----|\n| Recettes classiques | 38% | 5.9% |\n| Recettes rapides (<30min) | 24% | 5.2% |\n| Recettes saisonnières | 18% | 4.5% |\n| Conseils/astuces cuisine | 12% | 3.2% |\n| Tendances food | 8% | 3.8% |\n\n### Recommandations\n\n1. **Multiplier les recettes rapides** — forte demande + bon CTR\n2. **Anticiper la saisonnalité** — publier 3-4 semaines avant les pics\n3. **Optimiser les images** — Discover est très visuel, les images de haute qualité = meilleur CTR\n4. **Réactualiser les classiques** — mettre à jour les dates + photos des recettes phares"
+}

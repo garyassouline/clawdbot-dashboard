@@ -1,7 +1,9 @@
 {
   "generated_at": "2026-03-23T10:30:00",
   "provider": "gemini",
-  "duration_seconds": 142,
-  "analyses_count": 5,
-  "version": "1.0"
+  "duration_seconds": 210,
+  "analyses_count": 8,
+  "search_analyses": 5,
+  "discover_analyses": 3,
+  "version": "2.0"
 }

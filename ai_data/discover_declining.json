@@ -1,0 +1,14 @@
+{
+  "title": "Discover Pages en Déclin",
+  "key": "discover_declining",
+  "source": "discover",
+  "provider": "gemini",
+  "generated_at": "2026-03-23T10:37:00",
+  "summary": "312 pages en perte de visibilité Discover. Principalement des recettes datées (2024) et du contenu saisonnier non réactualisé.",
+  "key_metrics": [
+    {"label": "Pages en déclin", "value": "312", "color": "red"},
+    {"label": "Perte estimée", "value": "-85K clics/mois", "color": "red"},
+    {"label": "Cause principale", "value": "Fraîcheur", "color": "yellow"}
+  ],
+  "content_md": "## Pages Discover en déclin — Marmiton\n\n**312 pages** montrent une baisse significative de trafic Discover (>30% entre les deux moitiés de la période).\n\n### Causes identifiées\n\n#### 1. Contenu daté (45% des déclins)\n\n| Page | Perte | Raison |\n|------|-------|--------|\n| /recettes/galette-des-rois-2024 | -78% | Année dans l'URL |\n| /recettes/buche-noel-2024 | -72% | Contenu 2024 |\n| /recettes/menu-noel-2024 | -68% | Menu daté |\n| /tendances/food-trends-2024 | -65% | Tendances obsolètes |\n\n**Solution :** Créer des URLs evergreen (sans année) et rediriger les anciennes.\n\n#### 2. Saisonnalité naturelle (30% des déclins)\n\nCes baisses sont attendues et cycliques :\n- Recettes de raclette/fondue (pic hiver, creux été)\n- Soupes et potages (même pattern)\n- Recettes de barbecue (pic été, creux hiver)\n\n**Solution :** Pas d'action — ces pages remonteront naturellement à la prochaine saison.\n\n#### 3. Perte de visibilité réelle (25% des déclins)\n\nPages qui perdent du Discover sans raison saisonnière :\n\n| Page | CTR avant | CTR après | Hypothèse |\n|------|-----------|-----------|------------|\n| /recettes/recette_pizza-maison | 5.2% | 2.1% | Image de mauvaise qualité |\n| /recettes/recette_tarte-tatin | 4.8% | 1.9% | Title trop générique |\n| /recettes/recette_mousse-chocolat | 5.5% | 2.3% | Contenu trop court (400 mots) |\n| /recettes/recette_poulet-roti | 4.1% | 1.5% | Photo datée |\n\n### Plan de recovery\n\n1. **Urgence (cette semaine)** — Mettre à jour les 10 pages à plus fort volume qui déclinent\n2. **Court terme** — Reshooting des images pour les 25 pages avec CTR en chute\n3. **Moyen terme** — Réécrire les titles des 50 pages en déclin selon les patterns gagnants\n4. **Structure** — Migrer vers des URLs sans année pour tout le contenu saisonnier récurrent"
+}

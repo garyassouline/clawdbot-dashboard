@@ -32,6 +32,9 @@
 .analysis-card.card-declining { border-left-color: var(--accent); }
 .analysis-card.card-content-gaps { border-left-color: var(--accent3); }
 .analysis-card.card-cannibalization { border-left-color: var(--yellow); }
+.analysis-card.card-discover-overview { border-left-color: var(--accent3); }
+.analysis-card.card-discover-winners { border-left-color: var(--green); }
+.analysis-card.card-discover-declining { border-left-color: var(--accent); }
 
 .analysis-card .card-icon {
     font-size: 1.5rem;
