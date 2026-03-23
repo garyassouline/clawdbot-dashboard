@@ -170,6 +170,25 @@ def _save_partial(all_data, property_url, start_date, end_date):
         }, f)
 
 
+def _extract_top_pages_previous_year(service, property_url):
+    """Fetch top 50 pages by clicks from the previous year (page-level only, fast)."""
+    start_date, end_date = config.get_previous_year_range()
+
+    console.print(f"  [dim]Fetching top 50 pages from {start_date} to {end_date}...[/dim]")
+
+    rows = fetch_gsc_data(
+        service, property_url, start_date, end_date,
+        dimensions=["page"],
+    )
+
+    # Sort by clicks descending and keep top 50
+    rows.sort(key=lambda r: r.get("clicks", 0), reverse=True)
+    top_50 = rows[:50]
+
+    console.print(f"  [green]✓[/green] {len(rows):,} pages fetched, kept top 50")
+    return top_50, start_date, end_date
+
+
 def extract_all_data():
     service = authenticate()
     if service is None:
@@ -179,7 +198,8 @@ def extract_all_data():
     if not property_url:
         return None
 
-    start_date, end_date = config.get_date_range()
+    # Phase 1: Last 3 months (detailed: query + page + date + country + device)
+    start_date, end_date = config.get_date_range(months=3)
     month_ranges = generate_month_ranges(start_date, end_date)
 
     console.print()
@@ -187,8 +207,8 @@ def extract_all_data():
     info.add_column(style="bold white", no_wrap=True)
     info.add_column(style="cyan")
     info.add_row("Property:", property_url)
-    info.add_row("Date range:", f"{start_date}  to  {end_date}")
-    info.add_row("Months:", str(len(month_ranges)))
+    info.add_row("Recent range:", f"{start_date}  to  {end_date}  (3 months)")
+    info.add_row("+ Top 50:", f"Best pages from {datetime.now().year - 1}")
     console.print(Panel(info, title="[bold]Extraction Config[/bold]", border_style="blue", padding=(1, 3)))
     console.print()
 
@@ -211,10 +231,13 @@ def extract_all_data():
             progress.update(task, description=f"Fetching  {month_start} → {month_end}")
             rows = fetch_gsc_data(service, property_url, month_start, month_end)
             all_data.extend(rows)
-            # Save progress after each month
             _save_partial(all_data, property_url, start_date, end_date)
             progress.advance(task)
             time.sleep(0.5)
+
+    # Phase 2: Top 50 pages from previous year
+    console.print()
+    top_pages, yr_start, yr_end = _extract_top_pages_previous_year(service, property_url)
 
     output_file = os.path.join(config.RAW_DATA_DIR, "gsc_raw_data.json")
     with open(output_file, "w") as f:
@@ -226,14 +249,20 @@ def extract_all_data():
                 "extracted_at": datetime.now().isoformat(),
                 "total_rows": len(all_data),
                 "rows": all_data,
+                "top_pages_previous_year": {
+                    "year": datetime.now().year - 1,
+                    "start_date": yr_start,
+                    "end_date": yr_end,
+                    "count": len(top_pages),
+                    "pages": top_pages,
+                },
             },
             f,
-            indent=2,
         )
 
     console.print()
     console.print(Panel(
-        f"[bold green]{len(all_data):,}[/bold green] rows extracted\n"
+        f"[bold green]{len(all_data):,}[/bold green] rows (3 months) + [bold green]{len(top_pages)}[/bold green] top pages ({datetime.now().year - 1})\n"
         f"Saved to [cyan]{output_file}[/cyan]",
         title="[bold green]Extraction Complete[/bold green]",
         border_style="green",

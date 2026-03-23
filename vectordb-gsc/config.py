@@ -30,7 +30,16 @@ DISCOVER_COLLECTION = "gsc_discover"
 EMBEDDING_BATCH_SIZE = 50
 GSC_ROW_LIMIT = 25000
 
-def get_date_range():
+def get_date_range(months=3):
+    """Recent data range (default: last 3 months)."""
     end_date = datetime.now() - timedelta(days=3)
-    start_date = end_date - timedelta(days=16 * 30)
+    start_date = end_date - timedelta(days=months * 30)
     return start_date.strftime("%Y-%m-%d"), end_date.strftime("%Y-%m-%d")
+
+
+def get_previous_year_range():
+    """Full previous calendar year (for top articles)."""
+    now = datetime.now()
+    start = datetime(now.year - 1, 1, 1)
+    end = datetime(now.year - 1, 12, 31)
+    return start.strftime("%Y-%m-%d"), end.strftime("%Y-%m-%d")

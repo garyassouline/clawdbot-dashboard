@@ -188,7 +188,55 @@ def process_query_page_pairs(raw_data):
     console.print(summary)
     console.print()
 
+    # Process top pages from previous year if present
+    top_year_data = raw_data.get("top_pages_previous_year")
+    if top_year_data and top_year_data.get("pages"):
+        year = top_year_data.get("year", "prev")
+        top_pages_docs = _process_top_pages_year(top_year_data["pages"], year)
+        page_docs.extend(top_pages_docs)
+        console.print(f"  [green]✓[/green] Added [bold]{len(top_pages_docs)}[/bold] top pages from {year}")
+        console.print()
+
     return query_docs, page_docs
+
+
+def _process_top_pages_year(pages, year):
+    """Convert top pages from previous year into page documents."""
+    docs = []
+    for i, row in enumerate(pages):
+        keys = row.get("keys", [])
+        page = keys[0] if keys else row.get("page", "")
+        if not page:
+            continue
+
+        clicks = row.get("clicks", 0)
+        impressions = row.get("impressions", 0)
+        ctr = row.get("ctr", 0)
+        position = row.get("position", 0)
+        slug = page.rstrip("/").split("/")[-1] if "/" in page else page
+
+        text = (
+            f"Top Page {year} (#{i+1}): {page} | Slug: {slug} | "
+            f"Clicks: {clicks:,} | Impressions: {impressions:,} | "
+            f"CTR: {ctr:.2%} | Position: {position:.1f} | "
+            f"Source: best-of-{year}"
+        )
+
+        doc_id = f"top{year}_{hash(page) & 0xFFFFFFFF:08x}"
+        metadata = {
+            "page": page,
+            "clicks": clicks,
+            "impressions": impressions,
+            "ctr": round(ctr * 100, 2),
+            "position": round(position, 1),
+            "trend": "reference",
+            "source": f"top50-{year}",
+            "rank": i + 1,
+            "data_points": 1,
+        }
+        docs.append({"id": doc_id, "text": text, "metadata": metadata})
+
+    return docs
 
 
 def process_discover_pages(raw_data):
