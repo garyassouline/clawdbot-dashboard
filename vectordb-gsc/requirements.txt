@@ -1,0 +1,10 @@
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2
+chromadb
+google-genai
+anthropic
+openai
+parallel-web
+python-dotenv
+rich
