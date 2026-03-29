@@ -2,431 +2,517 @@
   {
     "name": "Julie Caron",
     "qid": "Q138572733",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Lahéla Bouaziz",
     "qid": "Q138572985",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Elodie Le Gall",
     "qid": "Q138573090",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Inès REAL",
     "qid": "Q138573496",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Maude Sebaihi",
     "qid": "Q138574282",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Louise Gonzalez",
     "qid": "Q138581517",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Joséphine De Rubercy",
     "qid": "Q138581575",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Laura Willinger",
     "qid": "Q138581646",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Anaïs Moine",
     "qid": "Q138581678",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Marie Rougeot",
     "qid": "Q138679191",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Mélissa Sekkal",
     "qid": "Q138679192",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Pierre-Guillaume LIGDAMIS",
     "qid": "Q138679193",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Marie Lacombe",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Jordane Guignon",
     "qid": "Q138679195",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Mathilde Campos",
     "qid": "Q138679196",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Justine LINET",
     "qid": "Q138679197",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Tiffany Szadek",
     "qid": "Q138679198",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Sanila Riffay",
     "qid": "Q138679199",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Laura D’Angelo",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Carla Biancarelli",
     "qid": "Q138679201",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "chloé maurin",
     "qid": "Q138679202",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Julie Lefebvre",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Allison Pujol",
     "qid": "Q138679204",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Elisabeth Sall",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Mathieu Bonis",
     "qid": "Q138679206",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Ava Skoupsky",
     "qid": "Q138679207",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Fostine Carracillo",
     "qid": "Q138679208",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Shanour Kargayan",
     "qid": "Q138679209",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Sally Jane Northcote",
     "qid": "Q138679210",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Alexandra Belooussova",
     "qid": "Q138679211",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "julie pacheco",
     "qid": "Q138679212",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Inès Aitlhaj",
     "qid": "Q138679213",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Maureen Peron",
     "qid": "Q138679214",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Elodie Charrière",
     "qid": "Q138679215",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Adrien Bariller",
     "qid": "Q138679216",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Maria Julia Garcia",
     "qid": "Q138679217",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Jean RAMIÈRE",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Céline Cossa",
     "qid": "Q138679220",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Roxane Mirambet",
     "qid": "Q138679221",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Arnaud Swiac",
     "qid": "Q138679222",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Aline Dizon",
     "qid": "Q138679223",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Loïc Droubaix",
     "qid": "Q138679224",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Rita SANTOURIAN",
     "qid": "Q138679225",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Tess Bodelot",
     "qid": "Q138679226",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Marie Hervichon",
     "qid": "Q138679227",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Doriane Kiniali",
     "qid": "Q138679228",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Natacha Rivalan",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Elisabeth Sall",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Enrica A",
     "qid": "Q138631799",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Shana Lyès",
     "qid": "Q138679232",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Simon Suzeau",
     "qid": "Q138679233",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Myriam Reynaud",
     "qid": "Q138679234",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Jean-Sebastien Champeau",
     "qid": "Q138679236",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Inès Guiza",
     "qid": "Q138679237",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Marion Ottaviani",
     "qid": "Q138679238",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Grib Borremans",
     "qid": "Q138679239",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Emmanuelle Devriese",
     "qid": "Q138679241",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Margot IODICE",
     "qid": "Q138679242",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Katherine Mabalay",
     "qid": "Q138679243",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Marie GODART",
     "qid": "Q138679244",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Jessica Ferret",
     "qid": "Q138679245",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Alexandre Brunet",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Gaston Cuny",
     "qid": "Q138679247",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Fiona Maherault",
     "qid": "Q138679248",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Alexandre Mathiot",
     "qid": "Q138679249",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Noémie Sadoun Uzan",
     "qid": "Q138679250",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Soraya Idbouja",
     "qid": "Q138679251",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Agathe de Fougerolles",
     "qid": "Q138679252",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Hugo Pellegrin",
     "qid": "Q138679253",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Solweig Ély",
     "qid": "Q138679254",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Pierre FOURNIER",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Celine GERBIER",
     "qid": "Q138679256",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Quentin Pannaud",
     "qid": "Q138679257",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Marie Lizak",
     "qid": "Q138679258",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Hugo Taupin",
     "qid": "Q138679259",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Hugo Quintal",
     "qid": "Q138679260",
-    "status": "✅ Validé"
+    "status": "✅ Validé",
+    "manual_done": true
   },
   {
     "name": "Natacha Rivalan",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Dubois M",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Duchemin M",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Dewet M",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Boucher F",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Berdah F",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "M F",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Binet F",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Carlesimo F",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   },
   {
     "name": "Hagopian F",
     "qid": null,
-    "status": "⏳ En attente"
+    "status": "⏳ En attente",
+    "manual_done": false
   }
 ]

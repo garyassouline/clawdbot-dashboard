@@ -848,10 +848,11 @@
                 <th>Nom du Journaliste</th>
                 <th>QID / Wikidata</th>
                 <th>Statut</th>
+                <th style="text-align:center">Suivi Manuel</th>
               </tr>
             </thead>
             <tbody id="wikidata-table-body">
-              <tr><td colspan="3" class="empty">Chargement des données Wikidata...</td></tr>
+              <tr><td colspan="4" class="empty">Chargement des données Wikidata...</td></tr>
             </tbody>
           </table>
         </div>
@@ -1890,10 +1891,17 @@ function renderWikidata(d) {
 
   let valid = 0;
   let pending = 0;
+  let doneCount = 0;
 
   tableBody.innerHTML = d.wikidataStatus.map(p => {
     const isValid = p.status.includes('Validé');
     if (isValid) valid++; else pending++;
+
+    // Manual Tracking (LocalStorage)
+    const storageKey = `wd_done_${p.name.replace(/\s+/g, '_')}`;
+    // If the JSON explicitly says it's done, respect that too
+    const isManualDone = localStorage.getItem(storageKey) === 'true' || p.manual_done === true;
+    if (isManualDone) doneCount++;
 
     return `
       <tr>
@@ -1904,9 +1912,15 @@ function renderWikidata(d) {
         <td>
           <span class="badge ${isValid ? 'green' : 'gray'}">${p.status}</span>
         </td>
+        <td style="text-align:center">
+          <label class="toggle" style="margin: 0 auto">
+            <input type="checkbox" onchange="toggleManualWd('${p.name}', this)" ${isManualDone ? 'checked' : ''}>
+            <span class="toggle-slider"></span>
+          </label>
+        </td>
       </tr>
     `;
-  }).join('') || '<tr><td colspan="3" class="empty">Aucune donnée Wikidata</td></tr>';
+  }).join('') || '<tr><td colspan="4" class="empty">Aucune donnée Wikidata</td></tr>';
 
   const vEl = document.getElementById('wd-kpi-valid');
   const pEl = document.getElementById('wd-kpi-pending');
@@ -1915,6 +1929,13 @@ function renderWikidata(d) {
   if (vEl) vEl.textContent = valid;
   if (pEl) pEl.textContent = pending;
   if (tEl) tEl.textContent = d.wikidataStatus.length;
+}
+
+function toggleManualWd(name, input) {
+  const storageKey = `wd_done_${name.replace(/\s+/g, '_')}`;
+  localStorage.setItem(storageKey, input.checked);
+  // Update UI stats locally for instant feedback if needed
+  load(); 
 }
 
 load();
