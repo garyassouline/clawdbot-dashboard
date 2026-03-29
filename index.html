@@ -747,12 +747,21 @@ function renderWikidata() {
 
     // Identification par nom nettoyé pour le storage
     const storageKey = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
-    let isManualDone = localStorage.getItem(storageKey) === 'true';
+    const localVal = localStorage.getItem(storageKey);
+    
+    // Priorité à l'action manuelle locale. Si vide, on prend la valeur serveur.
+    let isManualDone = false;
+    if (localVal === 'true') {
+        isManualDone = true;
+    } else if (localVal === 'false') {
+        isManualDone = false;
+    } else {
+        isManualDone = p.manual_done === true;
+    }
     
     // Auto-check si QID valide
     if (isValid) {
       isManualDone = true;
-      localStorage.setItem(storageKey, 'true');
     }
     
     if (isManualDone) manualDoneCount++;
@@ -778,11 +787,18 @@ function renderWikidata() {
     `;
   }).join('') || '<tr><td colspan="4" class="empty">Aucun résultat</td></tr>';
 
-  // Calcul des stats globales basées sur TOUS les journalistes (pas que les filtrés)
+  // Calcul des stats globales
   let totalManual = 0;
   d.wikidataStatus.forEach(p => {
       const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
-      if (localStorage.getItem(sk) === 'true' || p.status.includes('Validé')) totalManual++;
+      const lVal = localStorage.getItem(sk);
+      if (p.status.includes('Validé')) {
+          totalManual++;
+      } else if (lVal === 'true') {
+          totalManual++;
+      } else if (lVal !== 'false' && p.manual_done === true) {
+          totalManual++;
+      }
   });
 
   const pct = Math.round((totalManual / total) * 100);
@@ -817,7 +833,14 @@ function updateManualWd(name, value, selectElem, storageKey) {
     const total = globalData.wikidataStatus.length;
     globalData.wikidataStatus.forEach(p => {
         const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
-        if (localStorage.getItem(sk) === 'true' || p.status.includes('Validé')) totalManual++;
+        const lVal = localStorage.getItem(sk);
+        if (p.status.includes('Validé')) {
+            totalManual++;
+        } else if (lVal === 'true') {
+            totalManual++;
+        } else if (lVal !== 'false' && p.manual_done === true) {
+            totalManual++;
+        }
     });
     
     const pct = Math.round((totalManual / total) * 100);
