@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T14:35:22.565Z",
+  "updatedAt": "2026-03-29T16:28:43.211Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "5%",
+    "cpu": "4.8%",
     "ram": "13%",
     "disk": "17%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-29T14:35:22.564Z",
+      "ts": "2026-03-29T16:28:43.211Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1843,7 +1843,7 @@
       "name": "Jean RAMIÈRE",
       "qid": null,
       "status": "⏳ En attente",
-      "manual_done": false
+      "manual_done": true
     },
     {
       "name": "Céline Cossa",
@@ -1897,7 +1897,7 @@
       "name": "Doriane Kiniali",
       "qid": "Q138679228",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Natacha Rivalan",
@@ -1915,79 +1915,79 @@
       "name": "Enrica A",
       "qid": "Q138631799",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Shana Lyès",
       "qid": "Q138679232",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Simon Suzeau",
       "qid": "Q138679233",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Myriam Reynaud",
       "qid": "Q138679234",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Jean-Sebastien Champeau",
       "qid": "Q138679236",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Inès Guiza",
       "qid": "Q138679237",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Marion Ottaviani",
       "qid": "Q138679238",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Grib Borremans",
       "qid": "Q138679239",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Emmanuelle Devriese",
       "qid": "Q138679241",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Margot IODICE",
       "qid": "Q138679242",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Katherine Mabalay",
       "qid": "Q138679243",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Marie GODART",
       "qid": "Q138679244",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Jessica Ferret",
       "qid": "Q138679245",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Alexandre Brunet",
@@ -1999,49 +1999,49 @@
       "name": "Gaston Cuny",
       "qid": "Q138679247",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Fiona Maherault",
       "qid": "Q138679248",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Alexandre Mathiot",
       "qid": "Q138679249",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Noémie Sadoun Uzan",
       "qid": "Q138679250",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Soraya Idbouja",
       "qid": "Q138679251",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Agathe de Fougerolles",
       "qid": "Q138679252",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Hugo Pellegrin",
       "qid": "Q138679253",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Solweig Ély",
       "qid": "Q138679254",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Pierre FOURNIER",
@@ -2053,31 +2053,31 @@
       "name": "Celine GERBIER",
       "qid": "Q138679256",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Quentin Pannaud",
       "qid": "Q138679257",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Marie Lizak",
       "qid": "Q138679258",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Hugo Taupin",
       "qid": "Q138679259",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Hugo Quintal",
       "qid": "Q138679260",
       "status": "✅ Validé",
-      "manual_done": true
+      "manual_done": false
     },
     {
       "name": "Natacha Rivalan",
@@ -2142,20 +2142,20 @@
   ],
   "session": {
     "model": "gemini-3.1-pro-preview",
-    "tokensIn": 234485,
-    "tokensOut": 7626,
-    "cacheHit": 50,
-    "context": 202797,
+    "tokensIn": 201550,
+    "tokensOut": 41,
+    "cacheHit": 49,
+    "context": 201173,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3.1-pro-preview",
-      "tokensIn": 367963,
-      "tokensOut": 9367,
-      "cacheRead": 303598,
+      "tokensIn": 335028,
+      "tokensOut": 1782,
+      "cacheRead": 295352,
       "cacheWrite": 0,
-      "cost": 1.3354733999999997
+      "cost": 1.1204196
     },
     {
       "model": "gemini-3-flash-preview",
@@ -2178,8 +2178,8 @@
     {
       "key": "main",
       "model": "gemini-3.1-pro-preview",
-      "tokensIn": 234485,
-      "tokensOut": 7626
+      "tokensIn": 201550,
+      "tokensOut": 41
     },
     {
       "key": "cron:0f33b516-7d1d-43b9-84ac-89ae8b0c5734",
@@ -2283,7 +2283,7 @@
     },
     {
       "date": "03/29",
-      "total": 363565
+      "total": 361941
     }
   ],
   "alerts": [
@@ -2293,6 +2293,142 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Fromages industriels, attention à ces produits très répandus pointés du doigt par une diététicienne",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/fromages-industriels-les-conseils-dune-dieteticienne-879548",
+      "pubDate": "Sun, 29 Mar 2026 16:11:28 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Entre les grandes marques bien connues et leurs versions allégées ou transformées, difficile de s’y retrouver au rayon fromages. Une diététicienne livre des repères simples pour distinguer les bons pr"
+    },
+    {
+      "title": "7 signes qu’une personne pense plus à vous que vous ne l’imaginez",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/7-signes-quune-personne-pense-plus-a-vous-que-vous-ne-limaginez-626026?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 16:02:19 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Certains signes sont plus parlants que les mots. En voici 7 qui révèlent que vous occupez souvent l'esprit de quelqu'un."
+    },
+    {
+      "title": "60 % des utilisateurs se confient à l’IA : un psy analyse les dangers de ce refuge émotionnel",
+      "link": "https://www.doctissimo.fr/psychologie/therapies/60-des-utilisateurs-se-confient-a-lia-un-psy-analyse-les-dangers-de-ce-refuge-emotionnel-759706.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 16:00:27 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Dans le silence feutré des cabinets, un aveu revient de plus en plus souvent. Des patients racontent parler à une intelligence artificielle pour apaiser leurs angoisses ou mettre des mots sur leurs ém"
+    },
+    {
+      "title": "Les experts sont formels, cette méthode est la meilleure pour enlever les pesticides de vos asperges",
+      "link": "https://www.topsante.com/cuisiner-sainement-2/les-experts-sont-formels-cette-methode-est-la-meilleure-pour-enlever-les-pesticides-de-vos-asperges-955442",
+      "pubDate": "Sun, 29 Mar 2026 15:42:50 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "À l’heure où les bottes d’asperges envahissent les étals, les spécialistes alertent sur un réflexe de lavage trop rapide. Une méthode précise, validée par la science, change tout pour limiter les pest"
+    },
+    {
+      "title": "Jason Chicandier touché par une cirrhose et sobre depuis un an : ses confidences sur l’aide précieuse de sa fille",
+      "link": "https://www.closermag.fr/people/jason-chicandier-touche-par-une-cirrhose-et-sobre-depuis-un-an-ses-confidences-sur-laide-precieuse-de-sa-fille-3627077",
+      "pubDate": "Sun, 29 Mar 2026 15:41:52 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Le 29 mars, Jason Chicandier évoque son alcoolisme dans Quelle époque ! Touché par une cirrhose, il est sobre depuis un an grâce à sa fille."
+    },
+    {
+      "title": "Ce yaourt Lidl à moins de 2 euros recommandé par un médecin vous fera oublier le skyr : \"Un produit que je peux vraiment recommander chez Lidl\"",
+      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/ce-yaourt-lidl-a-moins-de-2-euros-recommande-par-un-medecin-vous-fera-oublier-le-skyr-un-produit-que-je-peux-vraiment-recommander-chez-lidl-955295",
+      "pubDate": "Sun, 29 Mar 2026 15:36:00 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Léger, protéiné et riche en calcium, le skyr a tout pour plaire. Mais une alternative existe pour les petits budgets et elle est tout aussi nourrissante. La preuve avec ce yaourt Lidl à moins de 2 eur"
+    },
+    {
+      "title": "Inspiré de la mythologie grecque, ce prénom féminin ancien connaît un nouvel élan en France",
+      "link": "https://www.doctissimo.fr/grossesse/choisir-un-prenom/prenoms-filles/inspire-de-la-mythologie-grecque-ce-prenom-feminin-ancien-connait-un-nouvel-elan-en-france-760071.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 15:30:34 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "À la croisée de la tradition et de la modernité, ce prénom féminin s’impose aujourd’hui comme un nom à forte identité, à la fois élégant, symbolique et résolument contemporain."
+    },
+    {
+      "title": "Léa Salamé bientôt sur la touche : la journaliste va devoir laisser sa place et on sait qui va la remplacer",
+      "link": "https://www.closermag.fr/people/lea-salame-bientot-sur-la-touche-la-journaliste-va-devoir-laisser-sa-place-et-on-sait-qui-va-la-remplacer-3627078",
+      "pubDate": "Sun, 29 Mar 2026 15:23:09 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Présentatrice titulaire du JT de 20h de France 2 depuis qu'elle a pris la succession d'Anne-Sophie Lapix le lundi 1er septembre 2026, Léa Salamé pourrait bientôt se mettre en retrait du journal télévi"
+    },
+    {
+      "title": "Ce baume à lèvres vendu toutes les 30 secondes dans le monde a été élu “meilleur baume à lèvres du monde”",
+      "link": "https://www.topsante.com/beaute_soins/ce-baume-a-levres-vendu-toutes-les-30-secondes-dans-le-monde-a-ete-elu-meilleur-baume-a-levres-du-monde-955440",
+      "pubDate": "Sun, 29 Mar 2026 15:14:41 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Lèvres qui brûlent, hiver qui pique et baumes inutiles : un simple tube beige affole pourtant les ventes, avec un exemplaire écoulé toutes les 30 secondes. Sacré meilleur baume à lèvres du monde et no"
+    },
+    {
+      "title": "Cette période de la vie des femmes est propice à la dépression (et c'est surprenant)",
+      "link": "https://www.psychologies.com/moi/problemes-psy/Cette-periode-de-la-vie-des-femmes-est-propice-a-la-depression-et-cest-surprenant-625941?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 15:07:15 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Entre bouleversements hormonaux et impacts sur le cerveau, cette période par laquelle passent toutes les femmes pourrait bien fragiliser leur équilibre psychique, au point de déclencher une dépression"
+    },
+    {
+      "title": "Les Mills arrive sur une appli de fitness IA : vos cours collectifs ne se passeront plus jamais comme avant",
+      "link": "https://www.doctissimo.fr/forme/faire-du-sport/fitness/les-mills-arrive-sur-une-appli-de-fitness-ia-vos-cours-collectifs-ne-se-passeront-plus-jamais-comme-avant-759979.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 14:58:14 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Les Mills fait entrer ses cours collectifs dans l’ère des coachs IA en s’alliant à l’app Zing Coach. Une nouvelle étape clé pour les pratiquants et les clubs."
+    },
+    {
+      "title": "Choisissez-vous bien votre poisson de saison au printemps ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX3NRWWRIeUZnQ2thaVlhU19aWENvcWtpRW1WRVE5LTh2aVJPVklqTnhpcWIzdGowM0ZrYjNHWklpWGh1QmlkUXZ5Zkx3TzQ3d1YySEZQQ3liZW1xcGp4ZXl2NV9Ya19XQnhKNGVYVjBmbS1rSzJLa3hfVjY4SjZGaVZTU3l4WEFlbkRJMUdvQkpLbGlSc1JBSHlXT2ZScFJfLVBGZjdhSUxEdlQ4dlZUNlV4R2tIc2t2M2JoMlZwbWhJN1F3RHRreVRHbGZwdWhqeW9GZjBmTGxqY3FvOHV0RDVR?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 14:36:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Choisissez-vous bien votre poisson de saison au printemps ?  ELLE"
+    },
     {
       "title": "HVLP 3.0 : ce modèle de salle de sport low cost quasi premium que les géants vont imposer en France",
       "link": "https://www.doctissimo.fr/forme/faire-du-sport/musculation/salle-de-sport/hvlp-3-0-ce-modele-de-salle-de-sport-low-cost-quasi-premium-que-les-geants-vont-imposer-en-france-758696.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2337,6 +2473,17 @@
         "aufeminin.com"
       ],
       "snippet": "Lorsque nous avons affaire à des profils narcissiques, nous avons du mal à trouver les comportements adéquats pour ne pas souffrir. Découvrez comment agir en jouant sur leur principale peur !"
+    },
+    {
+      "title": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFFNdXBjYzlwM0RjTlI3WG5HVkpBNUdCalRBNmRQTnpMeTY2ZjUySDFtNDBCc0RiVW02a1NLbld0WVFTakVBTzVCM2MzWXNMZEtlSzMybWI0dHQwSXpWakFUZ0FEX2FfOERNbS10XzVEMkYxLXFENktrRUplUElRT1JCbmI2TzgtazBZbzZOd1pZQUs2MHZDVFFGcjdIem9vZ29CR00waUZLSE1hUDczRXFOQmt3cmlfdVdza1NrOEVMYzY2cVZRRS1OMUk5Zw?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 14:00:00 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant  Cosmopolitan.fr"
     },
     {
       "title": "Taches brunes sur le visage et les mains : 3 actifs pour les estomper avant l'été",
@@ -2508,16 +2655,15 @@
       "snippet": "Cette zone du corps activerait nos élans de générosité. Lorsqu’elle est altérée, nous devenons égoïstes, révèle une étude de l’Université de Düsseldorf."
     },
     {
-      "title": "Poubelle de la cuisine : cette erreur (que nous sommes nombreux à faire) favorise le développement des bactéries",
-      "link": "https://www.topsante.com/ma_sante_au_quotidien/poubelle-de-la-cuisine-cette-erreur-que-nous-sommes-nombreux-a-faire-favorise-le-developpement-des-bacteries-955434",
-      "pubDate": "Sun, 29 Mar 2026 12:42:40 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
+      "title": "“Je vais m’en sortir, la tête est encore là” : Gérard Jugnot très ému, il révèle son dernier SMS avec Isabelle Mergault, morte à 67 ans - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNeHFaa2laWHZSVUxxdm1GejA2N3ZKQzlpZVBnZ1ZRRkhKOERhbEhzMlRqTFFDaDlJeGRvV2ZleFFxUFdMUi14NTJiUmZkQ1ZwUGM1bE51YU13RWt2OFNnWnctWUJvNDNnNzN0ajhKd1FXdWlfQ0NoTlgxMWhzUGUtQndsOEhHcHU1WjJwZEFUNEx6X0cwc3MtbWtVSi1xelRpTFpreUdrMXBOVFZKa19JS1M1anpQTmFwQkJhbWMzRkpzRVpoNWxyekNJenI2ZW1LUk53eDV4Tl9zVnZvd2J0YTVmQmZmbkVhUm91cTVkUUxCRHJHRlRIaDRsVmhEWEVrQnctX0NXMFg0cEE?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 12:39:14 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
       "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
+        "mariefrance.fr"
       ],
-      "snippet": "Star de la déco bohème, la poubelle de cuisine en bois cache un vrai problème d’hygiène, alerte un spécialiste français. Comment ce simple choix favorise les bactéries au cœur de votre cuisine ?"
+      "snippet": "“Je vais m’en sortir, la tête est encore là” : Gérard Jugnot très ému, il révèle son dernier SMS avec Isabelle Mergault, morte à 67 ans  Femme Actuelle"
     },
     {
       "title": "Obsèques de Brigitte Bardot : son ex-compagnon révèle \"un malentendu\" au sujet de la cérémonie",
@@ -2597,52 +2743,6 @@
       "snippet": "Les mules plates, 19 nouvelles reines du bitume  ELLE"
     },
     {
-      "title": "Laure Manaudou : cette différence fondamentale entre sa fille aînée Manon et ses deux derniers enfants",
-      "link": "https://www.closermag.fr/people/laure-manaudou-cette-difference-fondamentale-entre-sa-fille-ainee-manon-et-ses-deux-derniers-enfants-3627050",
-      "pubDate": "Sun, 29 Mar 2026 11:51:00 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Ancienne championne olympique de natation, Laure Manaudou a partagé la vie de plusieurs hommes. Mère célibataire depuis deux ans, l'ancienne candidate de Danse avec les stars s'est confiée sur la prin"
-    },
-    {
-      "title": "\"J'ai bu de l'eau tiède tous les jours pendant 14 jours comme Jennifer Aniston : voici ce qui s'est passé\"",
-      "link": "https://www.topsante.com/ma_sante_au_quotidien/jai-bu-de-leau-tiede-tous-les-jours-pendant-14-jours-comme-jennifer-aniston-voici-ce-qui-sest-passe-955272",
-      "pubDate": "Sun, 29 Mar 2026 11:51:00 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "La célébrité Jennifer Aniston estime que boire de l’eau tiède le matin apporte plusieurs bienfaits, mais l’expérience menée par la coach sportive Sam Hopes en révèle surtout des effets limités."
-    },
-    {
-      "title": "Quel est le rythme cardiaque considéré comme normal à 60 ans ? La réponse des experts",
-      "link": "https://www.topsante.com/sante-des-seniors/quel-est-le-rythme-cardiaque-considere-comme-normal-a-60-ans-la-reponse-des-experts-955430",
-      "pubDate": "Sun, 29 Mar 2026 11:42:22 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "À 60 ans, un même pouls peut être signe de pleine forme ou d’alerte silencieuse. Entre repos et effort, où se situe réellement la fréquence cardiaque normale ?"
-    },
-    {
-      "title": "Boire du jus de carotte chaque jour : les bienfaits scientifiquement prouvés et la dose idéale à respecter",
-      "link": "https://www.doctissimo.fr/nutrition/fruits-et-legumes/boire-du-jus-de-carotte-chaque-jour-les-bienfaits-scientifiquement-prouves-et-la-dose-ideale-a-respecter-759362.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 11:28:50 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Porté aux nues sur les réseaux, le jus de carotte promet meilleure vue, cœur protégé et immunité renforcée. Que change vraiment un petit verre régulier sur votre santé ?"
-    },
-    {
       "title": "Un appel à témoins lancé pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ1p3dmp0VnFjbm9KMmM3aUpFcmxKbmlodGptR3REUHpRbFF5YVlZdTRYVFY1a1VwSEdZRWRXSHR6RVBLa0RuWEJsLV9JYVVZZTJEbjlBS0phTTlsTG1ibHFmYjhxWUhGeHBoSlhZcGxzWmxSek1WbDdMOWxVYy1rZ3Z0eUdXeU9ST2FxYkpBaHRBazh2M3djdXM1V1doX1JyRVJlbXRzYWc1V3c4ZlkzRGE0bXd1Z09waGJVd1NmbWtFc0trcDhZd3luV2k0Tzkya1BubEVVNGZ3dEdwUDItQkhSaWFmMC1MaWZqbHVjSQ?oc=5",
       "pubDate": "Sun, 29 Mar 2026 11:28:21 GMT",
@@ -2652,17 +2752,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Un appel à témoins lancé pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie  Femme Actuelle"
-    },
-    {
-      "title": "Léa Salamé : blancs, moments de gêne… Face à Lulu Gainsbourg, elle a dû sortir les rames !",
-      "link": "https://www.closermag.fr/tv_tele_realite/lea-salame-blancs-moments-de-gene-face-a-lulu-gainsbourg-elle-a-du-sortir-les-rames-3627045",
-      "pubDate": "Sun, 29 Mar 2026 11:22:58 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Aux commandes d'un nouveau numéro de l'émission Quelle époque ! le samedi 28 mars 2026 sur l'antenne de France 2, Léa Salamé a rencontré quelques difficultés au moment de réaliser l'interview du fils "
     },
     {
       "title": "Écrire sa liste de courses sur papier : ce détail banal cache 7 traits psychologiques précis",
@@ -2676,17 +2765,6 @@
       "snippet": "Écrire ses listes de courses sur un simple bout de papier n’est pas une manie désuète. Selon la psychologie, ce geste en dit long sur votre personnalité et révèle des traits parfois insoupçonnés."
     },
     {
-      "title": "Pizza, chips, soda... cette étude révèle que les aliments ultra-transformés augmentent le risque d’AVC de 67 %.",
-      "link": "https://www.doctissimo.fr/nutrition/alimentation-et-sante/bien-manger-pour-etre-en-bonne-sante/alimentation-et-maladies-cardiovasculaires/pizza-chips-soda-cette-etude-revele-que-les-aliments-ultra-transformes-augmentent-le-risque-davc-de-67-758403.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 11:00:01 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Une grande étude américaine révèle qu’à chaque portion d’aliments ultra-transformés, le risque de crise cardiaque et d’AVC grimpe. Jusqu’où peuvent monter ces 5,1 % répétés au quotidien, et que cela c"
-    },
-    {
       "title": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ? - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGhiLUc3Sl85bkJ0LXFiWmxFSnhUdS1qNENqVXNRaWNGT0Jhajg3dlE0S3JQSWpGb1RBR041aVV1Sk83akFoYTA0c3dPVXM0RE9xcU04akVCblV6Zm1CdEFLTm1PWUt4UTNyMnpGQ0RCMWFSMWlDZmFPbDh6bF95ZlRBbWQyOUEtWjJYaWYwT0EwWEJ6TWtsZGZieXNrV0QzMVF5UDlzQXJ3dFJWRjJB?oc=5",
       "pubDate": "Sun, 29 Mar 2026 11:00:00 GMT",
@@ -2696,62 +2774,6 @@
         "aufeminin.com"
       ],
       "snippet": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ?  Cosmopolitan.fr"
-    },
-    {
-      "title": "Voici les 2 plantes essentielles à planter au jardin afin de repousser les fourmis",
-      "link": "https://www.topsante.com/maison_verte_1/voici-les-2-plantes-essentielles-a-planter-au-jardin-afin-de-repousser-les-fourmis-955422",
-      "pubDate": "Sun, 29 Mar 2026 10:42:16 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Envahi par les fourmis au potager dès les beaux jours, votre jardin perd vite la partie. Deux plantes pour repousser les fourmis promettent pourtant de renverser la situation, sans produit chimique."
-    },
-    {
-      "title": "Voici le réflexe à avoir face à une personne qui vous rabaisse, selon un expert",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/reflexe-avoir-face-personne-rabaisse-expert-613977?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 10:34:15 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Comment face à une personne qui nous rabaisse ? Selon un expert, il existe un hack bien particulier à adopter."
-    },
-    {
-      "title": "Aux États-Unis, malgré l'inflation, le budget bien-être explose en 2026… et voici sur quoi les ménages vont couper",
-      "link": "https://www.doctissimo.fr/forme/faire-du-sport/aux-etats-unis-malgre-linflation-le-budget-bien-etre-explose-en-2026-et-voici-sur-quoi-les-menages-vont-couper-759664.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 10:30:27 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Face à l’inflation, les ménages américains coupent dans les restos, les voyages et les abonnements, mais pas dans le bien‑être. Santé mentale, nutrition et self‑care deviennent le dernier poste intouc"
-    },
-    {
-      "title": "Sauvons les baignoires ! L'ordonnance feel good du Dr Aga - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZTV1NnlETUtYdzVJRVZtbDdhenV1MER6cWNObS1ZLTFsYkhsZEVGQnR5QzdncUNfemlSRWpyeVItRWozdnpMWmZDTkpERHkyb1hfSzN5cll6bkhYSjZuOU5ZcE56dVFIc3FfcHZ2WnkzdFU4amVJdnpYR1J2aGpEVUpBQ3Nlb3UydHVvZzdSaDI0S3BoYmxpNEVpck0?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 10:15:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Sauvons les baignoires ! L'ordonnance feel good du Dr Aga  ELLE"
-    },
-    {
-      "title": "Les personnes qui engagent facilement la conversation avec des inconnus partagent ce trait de personnalité particulier, selon la science",
-      "link": "https://www.psychologies.com/moi/se-connaitre/personnalite/personnes-engagent-facilement-conversation-inconnus-partagent-trait-personnalite-613993?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 10:06:59 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
     },
     {
       "title": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures - Femme Actuelle",
@@ -2807,6 +2829,17 @@
         "mariefrance.fr"
       ],
       "snippet": "Le printemps est là : 62 idées recettes de saison  Femme Actuelle"
+    },
+    {
+      "title": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMVpud01BVUl0RkVwb1B4TGtseVdpTjlzbE1ZdWNXdC0zaHZRaEIxVGd6b1RwY2djTml3RmxtQ0RQazhJQjZ4T1VUQTBkSDEzZ21VZUZvTWFrNkVub1RXSkl4SWdRUExqRURRV3RaeEpiOVhLSUt3anNCNXVVV2cyTjkwdGNFcm80Qkh1cHRIMVdBbTJGc00xYUk1N3pSRWc1MVJUWnFZcmpTc1NibjhiNHIzRGFTTEFWcmtQU09WZGc?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 06:06:18 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy  Notre Temps"
     },
     {
       "title": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault - Cosmopolitan.fr",
@@ -2944,16 +2977,38 @@
       "snippet": "Programme National Geographic Wild du samedi 11 avril 2026  Linternaute.com"
     },
     {
-      "title": "Programme TV Jeux vidéo du vendredi 10 avril 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTnN0S0xzVTlxbkdTbHZZQ1JiZG5sQUxUV2dqQ3BjckpZWm4zWWJhbGhuRlZCTk5LMWoxVzVER1dFam9Ma2RiUWYyWTdtTEZMR241d2YtTmxDOW9pZmNCMWRjeDRkWUt0TmY4cEdNUTZ4SGZ4T3Z2TzJmU1o3d0VCN2loSEJVaGJKVUhla09VTWQxTk4xaGc?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 21:45:33 GMT",
+      "title": "Wordle : Le Mot du jour gratuit - 29 mars 2026 - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQnNJZWVFd3dVZHJWRDNzZ1lCYmhZQXJBNXBUSk1kREZyaEQwQ2lmZ0J5a0JpaHVwbHR3S3dGc1ZJX0M0S0NUQzQ4aFk5RkQ4T3ZGZGhPT01lekVnbWN6VTdjTEZLcHB2RzUzV1AxMEhwMGRYTjh4Vk9JcnB1cnR2Qm5rQTg2cnRka2ZoakItZHhOYU9TZERPM3Q2SWFOZUVKTVN1ZDBUR1VzRjJESXlfdUNCSDg?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 23:00:00 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Wordle : Le Mot du jour gratuit - 29 mars 2026  Notre Temps"
+    },
+    {
+      "title": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObExZWDZmSjl3UWt3dWtxWnZLSURYOXVCMHZLNDh2ekF3UXVZZXRxZnhnV1NFdk5WeGVhN19SQ3hmZFg5Mmh0SEJITFN4MG5jUDZYNV9jWHJrUFRhZ1VxczlBWG1LdThRWl9lTUdoeEZNSTlxYjY5b24tT2x1R1lDekpVazZkaDR5THdhZ2ktNGxmWVBmTlIyZTJ4b3ZFZkhWckdIUEhlRQ?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 22:06:13 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées  Notre Temps"
+    },
+    {
+      "title": "Programme TV Rap / Techno du vendredi 10 avril 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFSNTJHbldXdDRfeFpua0xCaGZHY3lvNmlYMGZKS1llMUR6a0ROTXFRQXFZdGZ4V2pOZ3lXY2w1MEpickZwOFlOel9ITVpoQkpabnhmN2pPcjJ1RW5yYVdjOXQ1TFpoZUdpZGxHX1ZsSlpmTGpMYmMxN3BsQW1LNkx5VXZnSFRhRWZsQzg3aw?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 21:29:18 GMT",
       "source": "linternaute.com",
       "icon": "🌐",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Jeux vidéo du vendredi 10 avril 2026  Linternaute.com"
+      "snippet": "Programme TV Rap / Techno du vendredi 10 avril 2026  Linternaute.com"
     },
     {
       "title": "Virginia Woolf : cinq livres à dévorer pour découvrir son œuvre - ELLE",
@@ -3044,62 +3099,6 @@
       "snippet": "Heidi Klum face au body-bashing : cette liberté qui nous fait un bien fou  ELLE"
     },
     {
-      "title": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcXVDUmNxSFdRT1hIc1JGTWhwekxNYmJVcFYzZkR4amZfWEZhM0YwZmw5YURHLUVsNzVFVG41RFN0azZYNVRfUERmNnM1c0dKU2dwampLam9XTndGcHpISU9XVGhUbWZja1RsMlBzQW9sdjZwZGhUeG04UWdrR3hqTGJvWnU3Z3BnSDVUemtzRWxRLTc2Qk1WSFNyMUp5XzU0OVVPRlI2UQ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 16:21:16 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées  Notre Temps"
-    },
-    {
-      "title": "Cette qualité que partagent les personnes les plus gentilles, identifiée par des psys de l'université d'Oxford - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPU094aExBY1ZmVmJmckFuZElhOWY3a1pWcG5EdWt3UjhxZkQyNGZQQU85dGw3ZG9XVXpQUVFLV3lsbUdDX0FuUk5xT2EwVFljRTNMZkYtSTNtMmNsVEwzbDFpZG0taWt3SHVtUDZJbFNvR05WTGFzcS1xS2xpdS1qOHlnMjNwZ1hGN3NrWmotTUExV21WcmNUZU9xUGVXb3Y3emFza1BZVVFld05sc0xiNlZOY3Ayb1pubk9ja016bVpTYWFhS0dHTlNPU2d2UExTamd0REhyN2hBd0E1dEwwQlhaSQ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 16:00:54 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Cette qualité que partagent les personnes les plus gentilles, identifiée par des psys de l'université d'Oxford  Cosmopolitan.fr"
-    },
-    {
-      "title": "Au pied des terrils, les vestiges industriels de Charleroi attirent les fans d'\"urbex\" - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN0NQZ0J1OTE0aV9kcmtaSS15Nm1mQjFJNUJocWRrSXNndVlkRkFWZmJKeEhveHI0MS1qRDMyTE5OOXBWYzg1OVFzT1dwSUgtNHZFd2Z4bXVKWXhYOG04VlJoUDRLN3JVZEp2akttaUI5U0RKTGtWV21vX1otaDR0V2RkNDQzSk15XzBXc2xvVlhaWlIwUjJDa1kxVmZ3ZHI3Z004ZzJzX2tCX2NKWVRZa1BWN2o1RVRzNUYzOGRSUTZPYkEw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 15:51:08 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Au pied des terrils, les vestiges industriels de Charleroi attirent les fans d'\"urbex\"  Notre Temps"
-    },
-    {
-      "title": "Tiramisu de Pâques : le dessert qui en jette à faire dans un œuf en chocolat - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3d0NThHdjBWRmRfMmpsbEh5djVBel9uOFM2M2hrZGlnSmdZZ0FjbUN1NXlfQjN1aURsYmpLdVlIWHl3UU9iZTlEVzRrSDBRSWpPVmx0T0g5SGhYX09pN2x1dEJnSk94OGZ1enJ2QlprT0R3eW12eTZJVFdTcHlOLVdqal9qUlUzMFlwV0xKOUtNdVVkZHZQUjlvWHVMMmhhMmFDdWRkaGtTeC1VNHNhb2ZlTjVYdzZsNmJCVU5IY3ZNdzlfbGJN?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 15:34:00 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Tiramisu de Pâques : le dessert qui en jette à faire dans un œuf en chocolat  Femme Actuelle"
-    },
-    {
-      "title": "Gilberte ASION - Avis de recherche - Copains d'avant",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1SY0dfZWZJQnhpbzB5dHJLcDJHc28yWmNMdUNkd25Zc09QdVBMajFKZWh3czZ2WUdEY2hnSmp0XzF6V19zQ2pVM2V0LW5aUlJDTjFfVk1DSWxoR1VVOHBGdmlJVy01dGFNQ08tVlJBZzIweDFOQkJZZW04TU9DZw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 15:12:22 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Gilberte ASION - Avis de recherche  Copains d'avant"
-    },
-    {
       "title": "Douleurs articulaires : boswellia, curcuma ou gingembre, quel anti-inflammatoire naturel choisir ?",
       "link": "https://www.medisite.fr/sante-naturelle-douleurs-articulaires-boswellia-curcuma-ou-gingembre-quel-anti-inflammatoire-naturel-choisir.5717344.87.html",
       "pubDate": "Sat, 28 Mar 2026 16:00:00 +0100",
@@ -3109,29 +3108,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Vous souffrez des articulations, comme 8 Français sur 10 ? Des solutions naturelles et efficaces existent, mais il faut veiller à choisir la plus adaptée. Laquelle et comment ? On vous dit tout."
-    },
-    {
-      "title": "Programme TV Skateboard du jeudi 09 avril 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeW1CTFNtR0xjckEtcmhkekNnUVlGT1ZUQ3NCaGxYRFhqS3FsR0lXQldlQU5aQ0xyQ1ZaZ3k0SVBONmJMQ3MzaldTdGdfcDljejhGZ1JoOXBUV1J0T2RlZFh5UUNJSnROcXBLUGlURkJYWVVSZWlZSzFXSlNEWk95R2wzaw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 14:46:13 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Skateboard du jeudi 09 avril 2026  Linternaute.com"
-    },
-    {
-      "title": "Attentat déjoué à Paris devant la Bank of America - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZXNDdS1BMGhPTlYyNW5zY0pVYU5WMi14eVc3QlMwal9oWmpGSnJkejl1SGdaT2RKRWwzRDBKczNpMVVFWjM0NEdIOEw5TWswM1gzNzVacGxaVEloMmx1czdXSE0xMVI0b1M4Ny1mQWJPbEtqV0cwQlFRcmRNOE1nYXVrc0hMb1RieC1ucVZJeDdYVnBqVGhZ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 14:36:12 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Attentat déjoué à Paris devant la Bank of America  Notre Temps"
     },
     {
       "title": "Pamplemousse : 8 bonnes raisons d'en manger au printemps (et 8 recettes de saison)",
@@ -3156,6 +3132,30 @@
       "snippet": "Une récente étude alerte sur les niveaux inquiétants de plomb détectés dans les tee-shirts, notamment dans les modèles pour enfant de marque de fast fashion. Quels risques pour la santé ? Comment se p"
     },
     {
+      "title": "Programme TF1 Séries Films du vendredi 10 avril 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS2RXbWJLMlo4bWVBUk4yTGt6REE0eGNGZDJHN01QbzFKbENzZElxWTdpUXp2TzZRdC1UN1RXblhTS1hXSEZ5SXh6TWtDamYzWW5kM0g3YTVoOENXaTFZTTBiWlNzVjlTd1oxVHE2Vk1UUEdlMEJqbnV4SFFlRlExbUtOVTZTZHM3aU5nRFdMRDRtU0k?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 00:21:20 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TF1 Séries Films du vendredi 10 avril 2026  Linternaute.com"
+    },
+    {
+      "title": "Programme AB 1 du vendredi 10 avril 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFUyeXhmM0NYSjFIYTB1a1FVR1huai14Z3g1LVV3Yy10REJSbGVJVUc4VFR4TTVaRFhuX3BtNnQ3eGE3dEVFdDFUNGZ5RVdremRLX0wxNGthRGg1UHZidE4yb053a0dmOHViODFHNWphT0tqa2IxV3lTS2tXTkc4VWJR?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 00:07:11 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme AB 1 du vendredi 10 avril 2026  Linternaute.com"
+    },
+    {
       "title": "Programme TV5MONDE du vendredi 10 avril 2026 - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTGJlbGgyVEtGMDlURkVwbzc0UkZkT0VMcGcwVWllcGRMcG5kVGdTcUROM2ZENkF4Vk0xMjNXeGdZN2N4TVlpTlNtekx1Sl9UM2dmOTZTSl9ORUhMS1otYWo2cnNFQ0F0VGpsMC1OcnFRdGp3MGNrUmhCUDVLUzByQmRpOGg0M0Ew?oc=5",
       "pubDate": "Fri, 27 Mar 2026 23:45:13 GMT",
@@ -3166,17 +3166,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Programme TV5MONDE du vendredi 10 avril 2026  Linternaute.com"
-    },
-    {
-      "title": "Bambou, coton, microfibre ou terre de diatomée : quel tapis de bain choisir pour éviter verrue et mycose ?",
-      "link": "https://www.medisite.fr/sante-au-quotidien-bambou-coton-microfibre-ou-terre-de-diatomee-quel-tapis-de-bain-choisir-pour-eviter-verrue-et-mycose.5717343.112.html",
-      "pubDate": "Fri, 27 Mar 2026 16:00:00 +0100",
-      "source": "medisite.fr",
-      "icon": "💉",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "C’est une véritable éponge à bactéries qui trône au milieu de votre salle de bains ! Heureusement, en choisissant la bonne matière et en adoptant les bons gestes, vous pouvez éviter les contaminations"
     }
   ],
   "competitorFeedsMeta": [

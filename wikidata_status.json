@@ -219,7 +219,7 @@
     "name": "Jean RAMIÈRE",
     "qid": null,
     "status": "⏳ En attente",
-    "manual_done": false
+    "manual_done": true
   },
   {
     "name": "Céline Cossa",
@@ -273,7 +273,7 @@
     "name": "Doriane Kiniali",
     "qid": "Q138679228",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Natacha Rivalan",
@@ -291,79 +291,79 @@
     "name": "Enrica A",
     "qid": "Q138631799",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Shana Lyès",
     "qid": "Q138679232",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Simon Suzeau",
     "qid": "Q138679233",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Myriam Reynaud",
     "qid": "Q138679234",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Jean-Sebastien Champeau",
     "qid": "Q138679236",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Inès Guiza",
     "qid": "Q138679237",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Marion Ottaviani",
     "qid": "Q138679238",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Grib Borremans",
     "qid": "Q138679239",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Emmanuelle Devriese",
     "qid": "Q138679241",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Margot IODICE",
     "qid": "Q138679242",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Katherine Mabalay",
     "qid": "Q138679243",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Marie GODART",
     "qid": "Q138679244",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Jessica Ferret",
     "qid": "Q138679245",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Alexandre Brunet",
@@ -375,49 +375,49 @@
     "name": "Gaston Cuny",
     "qid": "Q138679247",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Fiona Maherault",
     "qid": "Q138679248",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Alexandre Mathiot",
     "qid": "Q138679249",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Noémie Sadoun Uzan",
     "qid": "Q138679250",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Soraya Idbouja",
     "qid": "Q138679251",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Agathe de Fougerolles",
     "qid": "Q138679252",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Hugo Pellegrin",
     "qid": "Q138679253",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Solweig Ély",
     "qid": "Q138679254",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Pierre FOURNIER",
@@ -429,31 +429,31 @@
     "name": "Celine GERBIER",
     "qid": "Q138679256",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Quentin Pannaud",
     "qid": "Q138679257",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Marie Lizak",
     "qid": "Q138679258",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Hugo Taupin",
     "qid": "Q138679259",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Hugo Quintal",
     "qid": "Q138679260",
     "status": "✅ Validé",
-    "manual_done": true
+    "manual_done": false
   },
   {
     "name": "Natacha Rivalan",
