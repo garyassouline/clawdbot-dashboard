@@ -745,23 +745,18 @@ function renderWikidata() {
     const isValid = p.status.includes('Validé');
     if (isValid) validCount++;
 
-    // Identification par nom nettoyé pour le storage
+    // Le statut local ('true' ou 'false') prend le dessus s'il existe
+    let isManualDone = false;
     const storageKey = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
     const localVal = localStorage.getItem(storageKey);
     
-    // Priorité à l'action manuelle locale. Si vide, on prend la valeur serveur.
-    let isManualDone = false;
     if (localVal === 'true') {
         isManualDone = true;
     } else if (localVal === 'false') {
         isManualDone = false;
     } else {
+        // Sinon, on prend le statut de la DB Serveur
         isManualDone = p.manual_done === true;
-    }
-    
-    // Auto-check si QID valide
-    if (isValid) {
-      isManualDone = true;
     }
     
     if (isManualDone) manualDoneCount++;
@@ -792,11 +787,12 @@ function renderWikidata() {
   d.wikidataStatus.forEach(p => {
       const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
       const lVal = localStorage.getItem(sk);
-      if (p.status.includes('Validé')) {
+      
+      if (lVal === 'true') {
           totalManual++;
-      } else if (lVal === 'true') {
-          totalManual++;
-      } else if (lVal !== 'false' && p.manual_done === true) {
+      } else if (lVal === 'false') {
+          // Explicitly pending
+      } else if (p.manual_done === true) {
           totalManual++;
       }
   });
@@ -834,11 +830,12 @@ function updateManualWd(name, value, selectElem, storageKey) {
     globalData.wikidataStatus.forEach(p => {
         const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
         const lVal = localStorage.getItem(sk);
-        if (p.status.includes('Validé')) {
+        
+        if (lVal === 'true') {
             totalManual++;
-        } else if (lVal === 'true') {
-            totalManual++;
-        } else if (lVal !== 'false' && p.manual_done === true) {
+        } else if (lVal === 'false') {
+            // Explicitly pending
+        } else if (p.manual_done === true) {
             totalManual++;
         }
     });
