@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T20:31:38.955Z",
+  "updatedAt": "2026-03-29T22:10:51.045Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "0%",
-    "ram": "13%",
-    "disk": "17%"
+    "cpu": "4.8%",
+    "ram": "20%",
+    "disk": "27%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-29T20:31:38.955Z",
+      "ts": "2026-03-29T22:10:51.044Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -2166,20 +2166,20 @@
   ],
   "session": {
     "model": "gemini-3-flash-preview",
-    "tokensIn": 218122,
-    "tokensOut": 189,
-    "cacheHit": 49,
-    "context": 212666,
+    "tokensIn": 36407,
+    "tokensOut": 945,
+    "cacheHit": 50,
+    "context": 397763,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3-flash-preview",
-      "tokensIn": 460213,
-      "tokensOut": 4262,
-      "cacheRead": 531652,
+      "tokensIn": 336316,
+      "tokensOut": 6289,
+      "cacheRead": 790842,
       "cacheWrite": 0,
-      "cost": 1.6040646
+      "cost": 1.3405356
     },
     {
       "model": "gemini-3.1-pro-preview",
@@ -2194,11 +2194,17 @@
     {
       "key": "main",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 218122,
-      "tokensOut": 189
+      "tokensIn": 36407,
+      "tokensOut": 945
     },
     {
       "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
+      "model": "gemini-3-flash-preview",
+      "tokensIn": 57818,
+      "tokensOut": 1271
+    },
+    {
+      "key": "cron:305da3df-3470-469f-9015-21481ae2699b:run:00c30d9b-8052-4a05-ac47-f9f4ff809f02",
       "model": "gemini-3-flash-preview",
       "tokensIn": 66909,
       "tokensOut": 2156
@@ -2272,6 +2278,12 @@
       "enabled": true
     },
     {
+      "id": "cd9c49f2-bbef-4314-b743-ca12b516b5af",
+      "name": "Rapport Matinal Marmiton SEO/Discover",
+      "schedule": "30 8 * * *",
+      "enabled": true
+    },
+    {
       "id": "2c33efbf-bb1a-4775-a6e1-563f21204424",
       "name": "ByteRover Knowledge Miner",
       "schedule": "0 9 * * *",
@@ -2299,7 +2311,7 @@
     },
     {
       "date": "03/29",
-      "total": 353875
+      "total": 561228
     }
   ],
   "alerts": [
@@ -2309,6 +2321,29 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Programme TV SFR du dimanche 12 avril 2026 - linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN1lqcl85Rk1CZXc3ZldWb3JadVdkNUhqTVd0dnB0NEs4Skc5TkQ1SDRQQ01RSEprYjVwRmNZRWYxM1V1NVVTSWRHUktXaHZ1bWVWMHpjeGxQZXFTVmlPVXlDb1dQUEQyRy1WNWhvbXdBM2ZubHhKZTRWekFSbWJLUFp3?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 22:05:54 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV SFR du dimanche 12 avril 2026  linternaute.com"
+    },
+    {
+      "title": "Ces 6 phrases sont des techniques classiques de manipulation à repérer au plus vite, alertent les psys",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/6-phrases-techniques-classiques-manipulation-reperer-vite-psys-609471?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 21:06:37 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Les techniques de manipulation sont souvent bien assez subtiles pour que vous ne vous en rendiez pas compte. Ces phrases vont vous aider à les repérer."
+    },
     {
       "title": "Ces chercheurs observent qu’une habitude fréquente peut augmenter le risque d’infidélité dans le couple",
       "link": "https://www.psychologies.com/couple/crises-divorce/checheurs-observent-habitude-frequente-augmenter-risque-infidelite-625833?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2356,7 +2391,7 @@
       "snippet": "Tout le monde a son avis sur le côté brillant ou mat du papier aluminium, censé changer la cuisson. Entre fabricants et scientifiques, la réalité réserve pourtant une surprise."
     },
     {
-      "title": "Agnès Varda : 8 films pour (re)découvrir la réalisatrice - elle.fr",
+      "title": "Agnès Varda : 8 films pour (re)découvrir la réalisatrice - ELLE",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFdXBaOEN4UDhMWFktcFhlTUhkR1Z2bWVNeHB3Rzg3ZEdXZWNQaVBTRmFYakliNXppSUVQVU41Ukx1LVdULTBNYzlFLVkyaU9pSE1najFvdnJJUWwtQVFRQzhSamp4cjltQmkzek5XdWJPWk5OdG4xYWNOQ1RDQQ?oc=5",
       "pubDate": "Sun, 29 Mar 2026 19:35:00 GMT",
       "source": "elle.fr",
@@ -2364,7 +2399,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Agnès Varda : 8 films pour (re)découvrir la réalisatrice  elle.fr"
+      "snippet": "Agnès Varda : 8 films pour (re)découvrir la réalisatrice  ELLE"
     },
     {
       "title": "Christophe Hondelatte \"capable de tuer\" : le journaliste jette un froid avec ses révélations",
@@ -2581,7 +2616,7 @@
       "snippet": "Votre smartphone fait désormais pleinement partie de vos habitudes. C'est donc en toute logique que votre façon de l'utiliser peut en dire long sur vous."
     },
     {
-      "title": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille - cosmopolitan.fr",
+      "title": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdmFjaG9SMFZpY1YyWU5nTzM0MkRIQ1QyYmVZSUowbVJhX0dpTndaNldISjFTUnl0S29KMXNXVThhUXk1T1JaRXI5SG8xQnNsTUhRejE3OVkweUttdXFYYmFNUVNiZ2lHcGo5dk1VVERaWGJLOF9fSlV4RVVPdVdUa2pvclhTaUU3c2hrdTFmSUFhSVJ0dG5nT09sR0Vuc3hMZ0tVZExnWGtTd0Z0UVh4NHMxbE9ndjNJSDhsWHdNd0hoZ2REeHdlZ2NpRmR4bEtOTmlRUWVEajlZdkNocjRyak9hRUlqQmJpRFE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 17:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2589,7 +2624,7 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille  cosmopolitan.fr"
+      "snippet": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille  Cosmopolitan.fr"
     },
     {
       "title": "Le chef Gordon Ramsay a un ingrédient secret pour des œufs au plat croustillants et fondants : vous l'avez forcément",
@@ -2604,7 +2639,7 @@
       "snippet": "Sur TikTok, le chef Gordon Ramsay affole les gourmands avec une façon d’obtenir des œufs au plat croustillants et fondants chez soi. Son ingrédient du frigo, ajouté au bon moment, change tout."
     },
     {
-      "title": "Voici cinq nouveaux romans à ne pas rater en avril 2026 - elle.fr",
+      "title": "Voici cinq nouveaux romans à ne pas rater en avril 2026 - ELLE",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGlVdjU2bktuLU1yUjBhZ0NsMlZWODlVQUUxRnJadWlvMFcweGZHUlNNQjRPZTVsRWljUnNiYW96cVhBeWQybkc2dnJPYXRhNklzeTZRQXduN0NzX1ZwOEtwbzN5MDlORjhiYWxYZEs0TEp2NjB3cEZPb0o1anI1OTMzT2JWZGlBNkFvUGV2akJNenlua3lKRFpHaw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 16:35:00 GMT",
       "source": "elle.fr",
@@ -2612,7 +2647,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Voici cinq nouveaux romans à ne pas rater en avril 2026  elle.fr"
+      "snippet": "Voici cinq nouveaux romans à ne pas rater en avril 2026  ELLE"
     },
     {
       "title": "Nicolas Sarkozy en colère : son fils Louis pas assez soutenu à Menton ? Il pousse un coup de gueule contre ce ténor de la droite",
@@ -2637,7 +2672,7 @@
       "snippet": "Entre les notifications incessantes et le défilement infini des réseaux sociaux, notre temps de concentration fond comme neige au soleil. Passée de 2,5 minutes en 2004 à seulement 47 secondes aujourd’"
     },
     {
-      "title": "Menu de la semaine : des idées recettes du lundi 30 mars au dimanche 5 avril - elle.fr",
+      "title": "Menu de la semaine : des idées recettes du lundi 30 mars au dimanche 5 avril - ELLE",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGRUZ0xkeE5lWDdpTFFlVW9TUzB2aWtJdWlZWGVrcXpSdTZaR1lkdUhoSktSSzdfbl84VlhtUHJ4ODdDOFhjeHVfSXktNkdXVC1ZdzJqakZEX3RJS3otRDNUNGRRRm1qM2ZoZGNwcDZuaWlTVlBVbnVrNzR6RjJPSVhyNTFTYVBPQ3NvdXBoQ09DYjQzaGk4?oc=5",
       "pubDate": "Sun, 29 Mar 2026 16:15:00 GMT",
       "source": "elle.fr",
@@ -2645,7 +2680,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Menu de la semaine : des idées recettes du lundi 30 mars au dimanche 5 avril  elle.fr"
+      "snippet": "Menu de la semaine : des idées recettes du lundi 30 mars au dimanche 5 avril  ELLE"
     },
     {
       "title": "7 signes qu’une personne pense plus à vous que vous ne l’imaginez",
@@ -2670,7 +2705,7 @@
       "snippet": "Le 29 mars, Jason Chicandier évoque son alcoolisme dans Quelle époque ! Touché par une cirrhose, il est sobre depuis un an grâce à sa fille."
     },
     {
-      "title": "Est-ce vraiment sale de ne pas se doucher tous les jours ? - elle.fr",
+      "title": "Est-ce vraiment sale de ne pas se doucher tous les jours ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVdfLUJoOEMzLVE4UTVqR0FfZ1Q5YTVYbjZYQVhYN2dEZWxybUZKaXd1TTRqSGZNTENuNWctZ1M5ZThWMGdPR1JXNjJfYXFCTzk3N1pqUWxtaTFsNTlvODI3am1BQ0ZvWDNnRTBuY2JEajQ0RUFnRjdOanBlSy1Kbkt0TDRhbDN6MEpPM2hnU0dBRU4yN2VkSl9DY3pscTFraWloT3lNcndlUGp2ZFE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 15:35:00 GMT",
       "source": "elle.fr",
@@ -2678,7 +2713,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Est-ce vraiment sale de ne pas se doucher tous les jours ?  elle.fr"
+      "snippet": "Est-ce vraiment sale de ne pas se doucher tous les jours ?  ELLE"
     },
     {
       "title": "Léa Salamé bientôt sur la touche : la journaliste va devoir laisser sa place et on sait qui va la remplacer",
@@ -2692,6 +2727,17 @@
       "snippet": "Présentatrice titulaire du JT de 20h de France 2 depuis qu'elle a pris la succession d'Anne-Sophie Lapix le lundi 1er septembre 2026, Léa Salamé pourrait bientôt se mettre en retrait du journal télévi"
     },
     {
+      "title": "Carré d'agneau pour Pâques : essayez ces 2 techniques de cuisson de grands chefs ! - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOEh1TnQ5bEprd3ZYV015YWNwM2Z3QTNnYlk2a3M3a1VLSGtsSUd6M0tTN1otNmo5anlCZEpLeXZaU01yR1UydXlHS1hqODYybnA5VUxmTnVPelo5YlUyR2NBWm41Uk9HN253TW5xZDBDaGNaUFN2NVpsMDAwRm83MDlxMUJMNC1QN010SzJMb2NuVXFfQlA0VDZJeTFFRDctcHRqVUpfaDJMUXpYMHNkSEhwckZnbERhMnB2aDRHY2NRZFFZRE13d3hEcktuM1oyZGl3Mm93NnE4TnM?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 15:15:00 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Carré d'agneau pour Pâques : essayez ces 2 techniques de cuisson de grands chefs !  Femme Actuelle"
+    },
+    {
       "title": "Cette période de la vie des femmes est propice à la dépression (et c'est surprenant)",
       "link": "https://www.psychologies.com/moi/problemes-psy/Cette-periode-de-la-vie-des-femmes-est-propice-a-la-depression-et-cest-surprenant-625941?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 15:07:15 +0000",
@@ -2703,7 +2749,7 @@
       "snippet": "Entre bouleversements hormonaux et impacts sur le cerveau, cette période par laquelle passent toutes les femmes pourrait bien fragiliser leur équilibre psychique, au point de déclencher une dépression"
     },
     {
-      "title": "Choisissez-vous bien votre poisson de saison au printemps ? - elle.fr",
+      "title": "Choisissez-vous bien votre poisson de saison au printemps ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX3NRWWRIeUZnQ2thaVlhU19aWENvcWtpRW1WRVE5LTh2aVJPVklqTnhpcWIzdGowM0ZrYjNHWklpWGh1QmlkUXZ5Zkx3TzQ3d1YySEZQQ3liZW1xcGp4ZXl2NV9Ya19XQnhKNGVYVjBmbS1rSzJLa3hfVjY4SjZGaVZTU3l4WEFlbkRJMUdvQkpLbGlSc1JBSHlXT2ZScFJfLVBGZjdhSUxEdlQ4dlZUNlV4R2tIc2t2M2JoMlZwbWhJN1F3RHRreVRHbGZwdWhqeW9GZjBmTGxqY3FvOHV0RDVR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 14:36:00 GMT",
       "source": "elle.fr",
@@ -2711,7 +2757,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Choisissez-vous bien votre poisson de saison au printemps ?  elle.fr"
+      "snippet": "Choisissez-vous bien votre poisson de saison au printemps ?  ELLE"
     },
     {
       "title": "Pour déstabiliser un narcissique et reprendre le contrôle, jouez sur cette peur profonde",
@@ -2725,7 +2771,7 @@
       "snippet": "Lorsque nous avons affaire à des profils narcissiques, nous avons du mal à trouver les comportements adéquats pour ne pas souffrir. Découvrez comment agir en jouant sur leur principale peur !"
     },
     {
-      "title": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant - cosmopolitan.fr",
+      "title": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFFNdXBjYzlwM0RjTlI3WG5HVkpBNUdCalRBNmRQTnpMeTY2ZjUySDFtNDBCc0RiVW02a1NLbld0WVFTakVBTzVCM2MzWXNMZEtlSzMybWI0dHQwSXpWakFUZ0FEX2FfOERNbS10XzVEMkYxLXFENktrRUplUElRT1JCbmI2TzgtazBZbzZOd1pZQUs2MHZDVFFGcjdIem9vZ29CR00waUZLSE1hUDczRXFOQmt3cmlfdVdza1NrOEVMYzY2cVZRRS1OMUk5Zw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 14:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2733,7 +2779,7 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant  cosmopolitan.fr"
+      "snippet": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant  Cosmopolitan.fr"
     },
     {
       "title": "Taches brunes sur le visage et les mains : 3 actifs pour les estomper avant l'été",
@@ -2758,7 +2804,7 @@
       "snippet": "\"Ils m’ont fait suer\" : pourquoi Christophe Hondelatte garde un goût amer de son expérience au JT de France 2  Femme Actuelle"
     },
     {
-      "title": "Horoscope : l’arrivée du mois d’avril est un nouveau souffle pour ces deux signes astrologiques - elle.fr",
+      "title": "Horoscope : l’arrivée du mois d’avril est un nouveau souffle pour ces deux signes astrologiques - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWnB4VFEyWEp1cTU1QzZpX0tqUEZXbi16aS00TEExSmhzR3N4bnRqc0RaSXdHMUJ5aWN2V0t2RE10NjZxNVN3ZV8ycFZwWEhqcUJGSl9MQkY3ZlQzRnBkcEV1WHZncWJURWd4MUVZdmxnQVBCekRrRUdkZVZTSEpyZkR5UEFkdXhNeTlYaGFVSzBfUVBmTlJtQlEwNVBRSjhoNG1nMVRPRU5SSUg4Z3JwNVZ3WTBtTjRjU3Yxci12RTFLTG1QZDdFODVGZHpBM0xsZllPMGtKSjlxNDNxekVN?oc=5",
       "pubDate": "Sun, 29 Mar 2026 13:15:00 GMT",
       "source": "elle.fr",
@@ -2766,21 +2812,10 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Horoscope : l’arrivée du mois d’avril est un nouveau souffle pour ces deux signes astrologiques  elle.fr"
+      "snippet": "Horoscope : l’arrivée du mois d’avril est un nouveau souffle pour ces deux signes astrologiques  ELLE"
     },
     {
-      "title": "Les mères dotées d’une grande intelligence émotionnelle prononcent régulièrement ces 3 phrases, d’après une psy",
-      "link": "https://www.psychologies.com/famille/enfants/mere-dotees-grande-intelligence-emotionnelle-prononcent-3-phrases-psy-592507?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 13:02:18 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Les émotions ont pris une place immense dans l’éducation actuelle. Pour bien appréhender celles de nos enfants, il faut d’abord questionner notre intelligence émotionnelle et apprendre à la développer"
-    },
-    {
-      "title": "Pourquoi ce nouveau thriller atypique sur la haine des femmes dérange autant - cosmopolitan.fr",
+      "title": "Pourquoi ce nouveau thriller atypique sur la haine des femmes dérange autant - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbEZPbVhWblZBVG1CRDd1Z2djXzg2RWVtUWViNG5JVUp3M3E1MXQ1NHB2MFNWVDJTSDk2WUZZdC1zU211aW9ObTloSU11dFo3QjhtMC1ONHRlTi1icnFyQ2dFRUJoaXZZZ0hZa3Y3dDFPQnY1YXhGa1Rpa1FaYU9Mck4zemxrOGRZbWdhV3JHWkRaR0kwVFdDNFp4V092dGFSTzJicmtiT1VMS1lLV3ljMjJMNlMxNUI2UWZ0bVdtT1BrU204ZEdBMVNFTk9oUzZwWmsxeFAtVnpJSF9XUTFXTDRR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 13:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2788,10 +2823,10 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Pourquoi ce nouveau thriller atypique sur la haine des femmes dérange autant  cosmopolitan.fr"
+      "snippet": "Pourquoi ce nouveau thriller atypique sur la haine des femmes dérange autant  Cosmopolitan.fr"
     },
     {
-      "title": "Programme TV Concerts / Festivals du samedi 11 avril 2026 - Linternaute.com",
+      "title": "Programme TV Concerts / Festivals du samedi 11 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUpkR2s5U202Y0dyT1g5MEpqQ0FIMjlSSFNRZHRBRmE4M1VTcXlxb3hYa1llVDJhMktscktxNXJsY29UNnpHaTlqMlVCTWtNaGU2aGRjOUVIMGZkaTc4TkdVdXlFak80azJfSTk2RUdvbFNrem1Sel8zQjJibGVNNlZHZGhIMjZYWlBLdmw5SEtITDB3?oc=5",
       "pubDate": "Sun, 29 Mar 2026 12:45:49 GMT",
       "source": "linternaute.com",
@@ -2800,7 +2835,7 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Concerts / Festivals du samedi 11 avril 2026  Linternaute.com"
+      "snippet": "Programme TV Concerts / Festivals du samedi 11 avril 2026  linternaute.com"
     },
     {
       "title": "“Je vais m’en sortir, la tête est encore là” : Gérard Jugnot très ému, il révèle son dernier SMS avec Isabelle Mergault, morte à 67 ans - Femme Actuelle",
@@ -2814,7 +2849,7 @@
       "snippet": "“Je vais m’en sortir, la tête est encore là” : Gérard Jugnot très ému, il révèle son dernier SMS avec Isabelle Mergault, morte à 67 ans  Femme Actuelle"
     },
     {
-      "title": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ? - elle.fr",
+      "title": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFJBNWRINFl4UFNSb3pEV292MlRLZS12eklUai05cGpTTUFWWEhha1NjSHhRY0YyZnpraE9zX0NLanRxVXV6UW1FM3VGMzNWWVVVNjdtS09ia2RuWHZGT2h0NHZwcmIxRENSc3U2MnRJNGRrWWZFbXFWcHVkdTZSenliWFZjSzBtdDhLZ0N3d0dwNUpTMEhkMTNUSHFJQ2wxamlnb3Qtc0t4WS0zQ2JIUC1mWGRSQy1mVlRRNkZvNWVhZ0FR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 12:31:00 GMT",
       "source": "elle.fr",
@@ -2822,7 +2857,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ?  elle.fr"
+      "snippet": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ?  ELLE"
     },
     {
       "title": "Un appel à témoins lancé pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie - Femme Actuelle",
@@ -2836,7 +2871,7 @@
       "snippet": "Un appel à témoins lancé pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie  Femme Actuelle"
     },
     {
-      "title": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ? - cosmopolitan.fr",
+      "title": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ? - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGhiLUc3Sl85bkJ0LXFiWmxFSnhUdS1qNENqVXNRaWNGT0Jhajg3dlE0S3JQSWpGb1RBR041aVV1Sk83akFoYTA0c3dPVXM0RE9xcU04akVCblV6Zm1CdEFLTm1PWUt4UTNyMnpGQ0RCMWFSMWlDZmFPbDh6bF95ZlRBbWQyOUEtWjJYaWYwT0EwWEJ6TWtsZGZieXNrV0QzMVF5UDlzQXJ3dFJWRjJB?oc=5",
       "pubDate": "Sun, 29 Mar 2026 11:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2844,18 +2879,7 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ?  cosmopolitan.fr"
-    },
-    {
-      "title": "\"Je n’ai pas du tout envie de leur en parler\" : pourquoi Hélène Perlant, la fille de François Bayrou et victime dans l'affaire Bétharram, n'a jamais évoqué son agression à sa famille - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPaFBILXZyLTc0X2ZTX3hOX041bjMtUDNaQTJEZXg0S2hhSzk5eEEtbHdjZFlEMC1Sa3hYYWdod193a3lsWXBQUy00UUhQMnpkaF84a3Bxb1RxMDBTR1VISngtQVMxazlXUFVuQUtIRFhySzBMX1lOQjd0TF9DQWFyTmNSM0VyTFNlRjZUUnJlX0h0bUdtaUpvSTYzVElqRnJldkhoU3hOMEJCbTNCdXhQSDA0UVd1bklweU9tMjdkdFRfSkF2RFpnNko4ZXhOTHJLeUprdW50R1VkcW8tVEJLOE9SRjlCYlEyWnBoNU5UcTY4aGY5MUlpVTBRU0NGLWtpZGJsN1JVVUNnS0cwZ0RwaFcyNG15d245WmtHYWM5S2ZZdkNXaWVjdkFjZFhmeGpNSlFrajc3dzJHV0N3bV9XU3lWUGpaTVNnQV9r?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 10:20:16 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "\"Je n’ai pas du tout envie de leur en parler\" : pourquoi Hélène Perlant, la fille de François Bayrou et victime dans l'affaire Bétharram, n'a jamais évoqué son agression à sa famille  Femme Actuelle"
+      "snippet": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ?  Cosmopolitan.fr"
     },
     {
       "title": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures - Femme Actuelle",
@@ -2869,7 +2893,7 @@
       "snippet": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures  Femme Actuelle"
     },
     {
-      "title": "La Réunion: reprise d'éruption au Piton de la Fournaise - Notre Temps",
+      "title": "La Réunion: reprise d'éruption au Piton de la Fournaise - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYnZ3YUUybVFzNFJHS3ZVUUFVcWE0Ums3TWh5UlZXc29MVkZMU2VJLXFYWkhjUjFya25Yandac1hNSlFrc1hqMHdqZXhJRTVZRUNiOFNqc3BjaU1GZ216aTdiVk5Ib3dnelUzMkVyZmk0cHlldkxoMHJ1cWt0Wl9xd2Z1TENVdzhjc3Zmd0k1Q2JqdW5XMWxOR3VBc0ZvZw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 08:21:11 GMT",
       "source": "notretemps.com",
@@ -2877,7 +2901,7 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "La Réunion: reprise d'éruption au Piton de la Fournaise  Notre Temps"
+      "snippet": "La Réunion: reprise d'éruption au Piton de la Fournaise  notretemps.com"
     },
     {
       "title": "\"Très inquiet\", Aram Ohanian, l'ex d'Adriana Karembeu, demande la garde exclusive de leur fille Nina - Femme Actuelle",
@@ -2902,7 +2926,7 @@
       "snippet": "\"Les tensions s’effacent\" : j'ai testé l'aqua sophro, la méthode douce pour déconnecter immédiatement  Femme Actuelle"
     },
     {
-      "title": "L'astuce \"magique\" de Julie Andrieu pour réaliser une mousse au chocolat absolument savoureuse - cosmopolitan.fr",
+      "title": "L'astuce \"magique\" de Julie Andrieu pour réaliser une mousse au chocolat absolument savoureuse - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX0xrTGlhZkdIc2syQmdNNF9qNEJjekQtTFJPLXRDZERXMFp0WW10Q094MzN6YndaSWZnU29LTjdJMXFZaHpzamlodE94QWhfNEt6bHQySW5mY094akpqSzgxam5aTGxpbXVIcFdLU1lSbmZreklkQkhMMWt0WTQxNjZwbU5FaWtpeklDeGp5YUVsYklWS29Jcm15VV91R2JrU1JFLW5jeFM1cnI4b0RVZTllVVlBdUZVekNjemVhWTVuLTNYbzA2Y1hEZU0?oc=5",
       "pubDate": "Sun, 29 Mar 2026 07:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2910,10 +2934,10 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "L'astuce \"magique\" de Julie Andrieu pour réaliser une mousse au chocolat absolument savoureuse  cosmopolitan.fr"
+      "snippet": "L'astuce \"magique\" de Julie Andrieu pour réaliser une mousse au chocolat absolument savoureuse  Cosmopolitan.fr"
     },
     {
-      "title": "Taylor Swift remet au goût du jour sa coiffure iconique de 2016 - elle.fr",
+      "title": "Taylor Swift remet au goût du jour sa coiffure iconique de 2016 - ELLE",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3BRMUtKc09qMUhidWJ5R2kyZ05MOG1hNkVTbUZEMHN0bmdmRkV4NDlBM0NBYUJrRW1nSGZPOGxQVUtRRmppTWFVTHY3T2pwNThkVEtHMzVuWUtJejRVWXBpRGhqT2RCVTdLcFhKbS1uZVBDZEozdFdwZF9Ea3pTVWtNaDRxaVlfdjRVelZFS3R4Y1NFMnZBNFY4a2ZJX3NUM0xVaHFPWWY5cVlHckNtSGdB?oc=5",
       "pubDate": "Sun, 29 Mar 2026 06:46:00 GMT",
       "source": "elle.fr",
@@ -2921,7 +2945,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Taylor Swift remet au goût du jour sa coiffure iconique de 2016  elle.fr"
+      "snippet": "Taylor Swift remet au goût du jour sa coiffure iconique de 2016  ELLE"
     },
     {
       "title": "Le printemps est là : 62 idées recettes de saison - Femme Actuelle",
@@ -2935,7 +2959,7 @@
       "snippet": "Le printemps est là : 62 idées recettes de saison  Femme Actuelle"
     },
     {
-      "title": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy - Notre Temps",
+      "title": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMVpud01BVUl0RkVwb1B4TGtseVdpTjlzbE1ZdWNXdC0zaHZRaEIxVGd6b1RwY2djTml3RmxtQ0RQazhJQjZ4T1VUQTBkSDEzZ21VZUZvTWFrNkVub1RXSkl4SWdRUExqRURRV3RaeEpiOVhLSUt3anNCNXVVV2cyTjkwdGNFcm80Qkh1cHRIMVdBbTJGc00xYUk1N3pSRWc1MVJUWnFZcmpTc1NibjhiNHIzRGFTTEFWcmtQU09WZGc?oc=5",
       "pubDate": "Sun, 29 Mar 2026 06:06:18 GMT",
       "source": "notretemps.com",
@@ -2943,10 +2967,10 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy  Notre Temps"
+      "snippet": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy  notretemps.com"
     },
     {
-      "title": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault - cosmopolitan.fr",
+      "title": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcmVZUkVvX21QWWtCMHJkVjdOcEhobXJfbmtobUl6WjRwbHdybVdoUnI0MTRFZ2pBaUo0RkNXdE9aMkx5LXpMdkcwbDc4bF91WkRvampJeF92UzBQQjlINi1pN0RremFOMXFiVXYwM0E1ZklWek5faEdST1QtcE5UeHFzNkJOcUpCb3hZT1lUN3M5cUNYWlhaSXVR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 05:30:13 GMT",
       "source": "cosmopolitan.fr",
@@ -2954,10 +2978,10 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault  cosmopolitan.fr"
+      "snippet": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault  Cosmopolitan.fr"
     },
     {
-      "title": "Horoscope du 29 mars 2026 : une journée économiquement difficile pour les natifs de ce signe astrologique - cosmopolitan.fr",
+      "title": "Horoscope du 29 mars 2026 : une journée économiquement difficile pour les natifs de ce signe astrologique - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeGE2bmRlNEVIY0poUVAxYjF6OE5aSHFDbkJOenRYSW1Xb2lqcXpmdFktQW1RUFlac1VZc25nb2Jsb3BmSjZaZDBMUC1MLXpHS3E4Qy14QjBybHJXTTIyV3VsMkVERUIxYzR5Q1Z4M1dyMWotYzNLa1FjZmVMS0VZRUUzVl9xdmczRUU3YnlWenBZUnQ0WW5UWE43elJlYzhfcHdDcDFhOWJGUFdRWnNVX0REOE93NkZyRnUxSVNhTVFieVk?oc=5",
       "pubDate": "Sun, 29 Mar 2026 05:00:00 GMT",
       "source": "cosmopolitan.fr",
@@ -2965,10 +2989,10 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Horoscope du 29 mars 2026 : une journée économiquement difficile pour les natifs de ce signe astrologique  cosmopolitan.fr"
+      "snippet": "Horoscope du 29 mars 2026 : une journée économiquement difficile pour les natifs de ce signe astrologique  Cosmopolitan.fr"
     },
     {
-      "title": "Luana Belmondo: La colombe pascale fait le printemps - Notre Temps",
+      "title": "Luana Belmondo: La colombe pascale fait le printemps - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNek9YekRnbDRRdXNBQkhmWUdKOWlxV0hNT2d2YTdkN2EtekhJX3lERVhtSFR2ZWlOYlUtQ1JhX0pxSjBNQzBJb29sRzd2VTJZVGRoM21vVjI2TmViTWRETFFyZVdYWS01cUtsQnVJLUx0UlFDQXR3bV9MR0NhaTNVeXBzck1CX0hiUFBBV3NmYUs1Z1BFU3gxbzBGT0JhX2lUOTdFb2RhWEJsZw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 04:01:06 GMT",
       "source": "notretemps.com",
@@ -2976,7 +3000,7 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Luana Belmondo: La colombe pascale fait le printemps  Notre Temps"
+      "snippet": "Luana Belmondo: La colombe pascale fait le printemps  notretemps.com"
     },
     {
       "title": "Acouphènes : ces deux aliments les font exploser d'après la science",
@@ -2990,7 +3014,7 @@
       "snippet": "Le bruit fort ambiant exacerbe les acouphènes. Mais d&#039;autres ennemis peuvent se cacher là où on ne les attend pas : notre assiette. Deux produits en particulier sont visés. Voici lesquels."
     },
     {
-      "title": "Comment revendre ses bijoux anciens et en tirer le meilleur prix - Notre Temps",
+      "title": "Comment revendre ses bijoux anciens et en tirer le meilleur prix - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU2JCQ1FKR3BMZGRGdFFpTGRDRExnWldnd3gxZHI2MXQwNU43QlhaT1FOSmZtekNXRm9MbV8ycWVXc1luMl9aMHVBV2xVTEJiZUU2dl9sV2dSbDJLTjJGQy1xSkZkLWxUQ2pEdlVOeXY0dFdESXV3dFpScW1FXzNfWGV3UTRDX1lYSmxkeU9pZENiNWRYeW96UElDNERsQjB5cVlmaGVRMXhZZUtOOV91SnMzZ2xOMHdxeUE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 03:36:04 GMT",
       "source": "notretemps.com",
@@ -2998,10 +3022,10 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Comment revendre ses bijoux anciens et en tirer le meilleur prix  Notre Temps"
+      "snippet": "Comment revendre ses bijoux anciens et en tirer le meilleur prix  notretemps.com"
     },
     {
-      "title": "Horoscope du dimanche 29 mars 2026 signe par signe - cosmopolitan.fr",
+      "title": "Horoscope du dimanche 29 mars 2026 signe par signe - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkJPRXVjTXRqdFJhdktJWFMtM1o2Ym5HMUVYRENOaHlJVV9qS1RSUXVEZm5RT3ZXRFpHQXNSSGZPWHBkYWpyMFpNaWpVU1FOZ3RfbkRNVWJSQmhsQ0UzYXl4akhFWk9YX1Z2dzBOeThuYUUyOUtMMXhySGJXUjNmYjBURVdmWHVZbmU2Ny1WWVB2YnMw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 03:30:00 GMT",
       "source": "cosmopolitan.fr",
@@ -3009,10 +3033,10 @@
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Horoscope du dimanche 29 mars 2026 signe par signe  cosmopolitan.fr"
+      "snippet": "Horoscope du dimanche 29 mars 2026 signe par signe  Cosmopolitan.fr"
     },
     {
-      "title": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville - Notre Temps",
+      "title": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTTJoeWZDVmVYcTRsQnl3ZzFKbklCUVZBMGgxVks3YXVNbHBJMjVKTWZBQzZrdGg1WDlQTGJVMjM4V2psV1RkSFp2QnVqUEwyRkY5ak5IWThRMWhYbGFadDlNQVFLOHR3VXA4dDJ5anI3TF91VjhDWWdqcjU5WGZKendDT0haOVkyUEp2dEtCc3o3RXBUbHNyUV9GX1haWVU4aEtDaWRSb0ZFdW8yT0NaMzl4MFRoRWJkM0E?oc=5",
       "pubDate": "Sun, 29 Mar 2026 02:21:12 GMT",
       "source": "notretemps.com",
@@ -3020,10 +3044,10 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville  Notre Temps"
+      "snippet": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville  notretemps.com"
     },
     {
-      "title": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville - Notre Temps",
+      "title": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVksweUdXSGhTWVlVZ2hoelMyTGd6b0JGRUpqbGpzU3ZtaDI2Tl9RVGNCMDBmME00RWN0Zl9hZ1RwSy1yUEtLWk5Ga1REaHFLS2pHZS0xdFFIaGk3bllKV0JFMHV0TEkxY3I2cElMTDRwMExkSGpqY21LZzVKbjRzbXBMODA5QXQ4SG1sVzBoUmx3OXA5LTR5ZWRfN3VVR3lfMFZzYUVfZ0N5bUZ0RFIyanc1TEJ1QVE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 02:21:12 GMT",
       "source": "notretemps.com",
@@ -3031,7 +3055,7 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville  Notre Temps"
+      "snippet": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville  notretemps.com"
     },
     {
       "title": "Prévention du cancer de l'estomac : ce nouveau médicament représente un immense espoir",
@@ -3045,7 +3069,18 @@
       "snippet": "Face à la résistance croissante de la bactérie Helicobacter pylori, responsable de la majorité des cancers gastriques, des chercheurs ont mis au point un dérivé antibiotique révolutionnaire, 70 fois p"
     },
     {
-      "title": "Programme AB 1 du samedi 11 avril 2026 - Linternaute.com",
+      "title": "Mots fléchés gratuits - Force 3 - 29 mars 2026 Grille n°3898 - notretemps.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODl1RVRLMGkwWmdGTTJLenRlSmVwNTNXRW5ieDlRTWtxaXdRaFZVYTJhN1lOc3NLd3YzMzJwM1owY2tpUVdwZmpwalVwZWkzNGJfVkhaUmprQjBKYURjdDkyLVdVSjRFNTRiT1NXeGU5UV9taGFyTFp2LUQ1d0VRRXZ4a2ZwZ192UXlCQUNFdGJMX2FNMkkxMnJ0cmJIZ296QURHbHpiMDI1N1pmcnlCTzJUcmxicUpWWTlobGNn?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 01:06:10 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Mots fléchés gratuits - Force 3 - 29 mars 2026 Grille n°3898  notretemps.com"
+    },
+    {
+      "title": "Programme AB 1 du samedi 11 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeW9NdnBZYW1CMUlDdnc2WUtJck9BWXhtTWlHbE1QbHNvdld0NUV0NHVRQ2tRSUVZTEJrTC1zbHAtNl9qQ0poa0NyUXEzTGlFSzhyUDlWUHRPMFBqM2NENHd2LWxIMW1xZGczWTV3LWpYX3JIWkVEMU11cWJZcGc?oc=5",
       "pubDate": "Sun, 29 Mar 2026 00:05:19 GMT",
       "source": "linternaute.com",
@@ -3054,10 +3089,10 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme AB 1 du samedi 11 avril 2026  Linternaute.com"
+      "snippet": "Programme AB 1 du samedi 11 avril 2026  linternaute.com"
     },
     {
-      "title": "Programme TV Hertz du samedi 11 avril 2026 après-midi - Linternaute.com",
+      "title": "Programme TV Hertz du samedi 11 avril 2026 après-midi - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0IyRnJKaWMwMTNpcjVJTnFRZUhJZHMxXzZja2JhN3ZBeF9RUGpkdzBSYjFFMExMUTRNTlBGTWMxNXktVW5vUjBXM1FEMjF0SHhRaWRUU3BkX3NGYUg0YXBRbE1OcjhxUExNTUxoZzVEWVBqdmhxYnRSMVJzZ3NqNmZzR05SZkNwNV96QUlLUXU?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:53:01 GMT",
       "source": "linternaute.com",
@@ -3066,10 +3101,10 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Hertz du samedi 11 avril 2026 après-midi  Linternaute.com"
+      "snippet": "Programme TV Hertz du samedi 11 avril 2026 après-midi  linternaute.com"
     },
     {
-      "title": "Programme National Geographic Wild du samedi 11 avril 2026 - Linternaute.com",
+      "title": "Programme National Geographic Wild du samedi 11 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY2dtVmxXNk5melc4STAwSloxUWQxaFdkQy1aQVYtenhZR18zSUFfaWJKNkF4ZDBmcVMzZGduZ29VRFQ0UzR3N3JhYm9YR1ExQlNEZG8zOHJzdlFkWjl3eVE4V0VjNEQta3hsZmxPd3dEZUZCMW5KV1FPMEtzbUg2NzJENWpLUWNrWEYxdHdHWFl3WDZJVW0wUFJ4aw?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:28:47 GMT",
       "source": "linternaute.com",
@@ -3078,10 +3113,10 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme National Geographic Wild du samedi 11 avril 2026  Linternaute.com"
+      "snippet": "Programme National Geographic Wild du samedi 11 avril 2026  linternaute.com"
     },
     {
-      "title": "Wordle : Le Mot du jour gratuit - 29 mars 2026 - Notre Temps",
+      "title": "Wordle : Le Mot du jour gratuit - 29 mars 2026 - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQnNJZWVFd3dVZHJWRDNzZ1lCYmhZQXJBNXBUSk1kREZyaEQwQ2lmZ0J5a0JpaHVwbHR3S3dGc1ZJX0M0S0NUQzQ4aFk5RkQ4T3ZGZGhPT01lekVnbWN6VTdjTEZLcHB2RzUzV1AxMEhwMGRYTjh4Vk9JcnB1cnR2Qm5rQTg2cnRka2ZoakItZHhOYU9TZERPM3Q2SWFOZUVKTVN1ZDBUR1VzRjJESXlfdUNCSDg?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:00:00 GMT",
       "source": "notretemps.com",
@@ -3089,30 +3124,7 @@
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Wordle : Le Mot du jour gratuit - 29 mars 2026  Notre Temps"
-    },
-    {
-      "title": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObExZWDZmSjl3UWt3dWtxWnZLSURYOXVCMHZLNDh2ekF3UXVZZXRxZnhnV1NFdk5WeGVhN19SQ3hmZFg5Mmh0SEJITFN4MG5jUDZYNV9jWHJrUFRhZ1VxczlBWG1LdThRWl9lTUdoeEZNSTlxYjY5b24tT2x1R1lDekpVazZkaDR5THdhZ2ktNGxmWVBmTlIyZTJ4b3ZFZkhWckdIUEhlRQ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 22:06:13 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées  Notre Temps"
-    },
-    {
-      "title": "Programme TV Jeux vidéo du vendredi 10 avril 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTnN0S0xzVTlxbkdTbHZZQ1JiZG5sQUxUV2dqQ3BjckpZWm4zWWJhbGhuRlZCTk5LMWoxVzVER1dFam9Ma2RiUWYyWTdtTEZMR241d2YtTmxDOW9pZmNCMWRjeDRkWUt0TmY4cEdNUTZ4SGZ4T3Z2TzJmU1o3d0VCN2loSEJVaGJKVUhla09VTWQxTk4xaGc?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 21:45:33 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Jeux vidéo du vendredi 10 avril 2026  Linternaute.com"
+      "snippet": "Wordle : Le Mot du jour gratuit - 29 mars 2026  notretemps.com"
     },
     {
       "title": "Douleurs articulaires : boswellia, curcuma ou gingembre, quel anti-inflammatoire naturel choisir ?",
@@ -3148,7 +3160,7 @@
       "snippet": "Une récente étude alerte sur les niveaux inquiétants de plomb détectés dans les tee-shirts, notamment dans les modèles pour enfant de marque de fast fashion. Quels risques pour la santé ? Comment se p"
     },
     {
-      "title": "Programme TF1 Séries Films du vendredi 10 avril 2026 - Linternaute.com",
+      "title": "Programme TF1 Séries Films du vendredi 10 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS2RXbWJLMlo4bWVBUk4yTGt6REE0eGNGZDJHN01QbzFKbENzZElxWTdpUXp2TzZRdC1UN1RXblhTS1hXSEZ5SXh6TWtDamYzWW5kM0g3YTVoOENXaTFZTTBiWlNzVjlTd1oxVHE2Vk1UUEdlMEJqbnV4SFFlRlExbUtOVTZTZHM3aU5nRFdMRDRtU0k?oc=5",
       "pubDate": "Sat, 28 Mar 2026 00:21:20 GMT",
       "source": "linternaute.com",
@@ -3157,10 +3169,10 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TF1 Séries Films du vendredi 10 avril 2026  Linternaute.com"
+      "snippet": "Programme TF1 Séries Films du vendredi 10 avril 2026  linternaute.com"
     },
     {
-      "title": "Programme AB 1 du vendredi 10 avril 2026 - Linternaute.com",
+      "title": "Programme AB 1 du vendredi 10 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFUyeXhmM0NYSjFIYTB1a1FVR1huai14Z3g1LVV3Yy10REJSbGVJVUc4VFR4TTVaRFhuX3BtNnQ3eGE3dEVFdDFUNGZ5RVdremRLX0wxNGthRGg1UHZidE4yb053a0dmOHViODFHNWphT0tqa2IxV3lTS2tXTkc4VWJR?oc=5",
       "pubDate": "Sat, 28 Mar 2026 00:07:11 GMT",
       "source": "linternaute.com",
@@ -3169,10 +3181,10 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme AB 1 du vendredi 10 avril 2026  Linternaute.com"
+      "snippet": "Programme AB 1 du vendredi 10 avril 2026  linternaute.com"
     },
     {
-      "title": "Programme TV5MONDE du vendredi 10 avril 2026 - Linternaute.com",
+      "title": "Programme TV5MONDE du vendredi 10 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTGJlbGgyVEtGMDlURkVwbzc0UkZkT0VMcGcwVWllcGRMcG5kVGdTcUROM2ZENkF4Vk0xMjNXeGdZN2N4TVlpTlNtekx1Sl9UM2dmOTZTSl9ORUhMS1otYWo2cnNFQ0F0VGpsMC1OcnFRdGp3MGNrUmhCUDVLUzByQmRpOGg0M0Ew?oc=5",
       "pubDate": "Fri, 27 Mar 2026 23:45:13 GMT",
       "source": "linternaute.com",
@@ -3181,7 +3193,7 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV5MONDE du vendredi 10 avril 2026  Linternaute.com"
+      "snippet": "Programme TV5MONDE du vendredi 10 avril 2026  linternaute.com"
     }
   ],
   "competitorFeedsMeta": [
