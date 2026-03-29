@@ -179,14 +179,6 @@
     .cost-model { display: flex; align-items: center; gap: 8px; }
     .cost-dot { width: 8px; height: 8px; border-radius: 50%; }
 
-    /* Toggle switch style */
-    .toggle { position: relative; width: 36px; height: 20px; }
-    .toggle input { display: none; }
-    .toggle-slider { position: absolute; inset: 0; background: var(--border); border-radius: 20px; cursor: pointer; transition: 0.2s; }
-    .toggle input:checked + .toggle-slider { background: var(--green); }
-    .toggle-slider::before { content: ''; position: absolute; width: 14px; height: 14px; border-radius: 50%; background: #fff; top: 3px; left: 3px; transition: 0.2s; }
-    .toggle input:checked + .toggle-slider::before { transform: translateX(16px); }
-
     /* Alert */
     .alert { padding: 12px 16px; border-radius: 8px; font-size: 0.82rem; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
     .alert.info { background: rgba(59,130,246,0.1); border: 1px solid rgba(59,130,246,0.2); color: #93c5fd; }
@@ -318,6 +310,11 @@
       .grid-2, .grid-3 { grid-template-columns: 1fr; }
       .mobile-menu-btn { display: block !important; }
     }
+    .sidebar-overlay {
+      display: none; position: fixed; inset: 0;
+      background: rgba(0,0,0,0.4); z-index: 9;
+    }
+    .sidebar.open ~ .sidebar-overlay { display: block; }
     .mobile-menu-btn {
       display: none;
       background: var(--surface);
@@ -337,9 +334,7 @@
 <body>
 <div class="layout">
 
-  <!-- Sidebar overlay (mobile) -->
   <div class="sidebar-overlay" onclick="toggleSidebar()"></div>
-  <!-- Sidebar -->
   <aside class="sidebar">
     <div class="logo">🦞 <span>ClawdBot</span></div>
     <span class="nav-section">Overview</span>
@@ -374,7 +369,6 @@
     </a>
   </aside>
 
-  <!-- Main -->
   <main class="main">
     <div class="topbar">
       <div style="display:flex;align-items:center;gap:12px">
@@ -475,7 +469,6 @@
         <div class="card"><div class="card-title">📈 Clics & Imps</div><div class="chart-wrap"><canvas id="seo-clicks-impressions-chart"></canvas></div></div>
         <div class="card"><div class="card-title">🎯 Position</div><div class="chart-wrap"><canvas id="seo-position-chart"></canvas></div></div>
       </div>
-      <!-- Add more SEO tables here as needed -->
     </div>
 
     <!-- ===== DISCOVER ===== -->
@@ -513,7 +506,7 @@
 
     <!-- ===== WIKIDATA ===== -->
     <div class="section" id="section-wikidata">
-      <div class="alert info">🗝️ Suivi des 86 journalistes. Les statuts sont sauvegardés localement (LocalStorage).</div>
+      <div class="alert info">🗝️ Suivi des 86 journalistes. Les statuts sont sauvegardés localement.</div>
       
       <div class="kpi-grid" style="grid-template-columns:repeat(4,1fr);margin-bottom:16px">
         <div class="kpi green">
@@ -542,7 +535,7 @@
         <div class="card-title" style="justify-content:space-between; flex-wrap: wrap; gap: 15px;">
           <div style="display:flex; align-items:center; gap:10px; flex: 1; min-width: 300px;">
             <span class="icon">🔍</span> 
-            <input type="text" id="wd-search" class="btn btn-ghost" style="width:100%; text-align:left; padding:10px;" placeholder="Rechercher un journaliste..." oninput="renderWikidata(globalData)">
+            <input type="text" id="wd-search" class="btn btn-ghost" style="width:100%; text-align:left; padding:10px;" placeholder="Rechercher un journaliste..." oninput="renderWikidata()">
           </div>
           <div style="display:flex;gap:10px; flex-wrap: wrap;">
             <button class="btn btn-ghost" style="border-left:4px solid var(--green)" onclick="bulkUpdateWd('done')">🟢 Tout 'Fait'</button>
@@ -562,7 +555,7 @@
               </tr>
             </thead>
             <tbody id="wikidata-table-body">
-              <tr><td colspan="4" class="empty">Chargement des données...</td></tr>
+              <tr><td colspan="4" class="empty">Chargement...</td></tr>
             </tbody>
           </table>
         </div>
@@ -573,7 +566,10 @@
     <div class="section" id="section-automations">
       <div class="card mb16">
         <div class="card-title">⚡ Crons actifs</div>
-        <table id="automations-table"></table>
+        <table>
+            <thead><tr><th>Nom</th><th>Schedule</th><th>Run</th><th>Statut</th></tr></thead>
+            <tbody id="automations-table"></tbody>
+        </table>
       </div>
     </div>
 
@@ -585,23 +581,33 @@
         <div class="kpi blue"><div class="label">Cache</div><div class="value" id="cost-kpi-cache">—</div></div>
         <div class="kpi purple"><div class="label">Économies</div><div class="value" id="cost-kpi-savings">—</div></div>
       </div>
-      <div class="grid-2">
-          <div class="card" id="gemini-breakdown"></div>
-          <div class="card" id="claude-breakdown"></div>
+      <div class="card mb16">
+          <div class="card-title">🖥️ Serveur Hostinger</div>
+          <div class="kpi-grid" style="grid-template-columns:repeat(3,1fr); border:none">
+              <div class="kpi blue" style="border:none">CPU <span id="sys-cpu">—</span></div>
+              <div class="kpi purple" style="border:none">RAM <span id="sys-ram">—</span></div>
+              <div class="kpi green" style="border:none">Disk <span id="sys-disk">—</span></div>
+          </div>
       </div>
     </div>
 
     <!-- ===== SESSIONS & LOGS ===== -->
     <div class="section" id="section-sessions">
-        <div class="card"><div class="card-title">🧵 Sessions</div><table id="sessions-full-table"></table></div>
-        <div class="card mt16" id="system-logs-container" style="background:#0d0f18; color:#eee; font-family:monospace; padding:15px; height:400px; overflow-y:auto;"></div>
+        <div class="card mb16">
+            <div class="card-title">🧵 Sessions</div>
+            <table id="sessions-full-table"></table>
+        </div>
+        <div class="card" style="background:#0d0f18; padding:15px; border-radius:10px;">
+            <div class="card-title" style="color:#eee">📜 Logs Système</div>
+            <div id="system-logs-container" style="color:#0f0; font-family:monospace; height:400px; overflow-y:auto; font-size:0.8rem"></div>
+        </div>
     </div>
 
   </main>
 </div>
 
 <div id="copy-toast" style="display:none;position:fixed;bottom:24px;left:50%;transform:translateX(-50%);padding:10px 20px;background:var(--surface);border:1px solid var(--green);border-radius:10px;font-size:0.82rem;color:var(--green);box-shadow:0 4px 20px rgba(0,0,0,0.2);z-index:999;">
-  🚀 Ouverture de Telegram…
+  🚀 Telegram…
 </div>
 
 <script src="seo_dashboard.js"></script>
@@ -629,17 +635,16 @@ function initThree() {
   animate();
 }
 
-function renderMissionControl(d) {
-    if (typeof THREE === 'undefined' || !scene) return;
-    officeGroup.clear();
-    // Simplified logic for agents visualization...
-}
-
 function showSection(id, el) {
   document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
   document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
   document.getElementById('section-' + id).classList.add('active');
   if (el) el.classList.add('active');
+  if (window.innerWidth <= 900) toggleSidebar();
+}
+
+function toggleSidebar() {
+  document.querySelector('.sidebar').classList.toggle('open');
 }
 
 function fmt(n) {
@@ -659,15 +664,45 @@ async function load() {
 
 function render(d) {
   if (!d) return;
-  const s = d.session || {};
+  const now = new Date();
+  document.getElementById('date-display').textContent = now.toLocaleDateString('fr-FR', {weekday:'long',day:'numeric',month:'long'});
   document.getElementById('updated-at').textContent = 'Mis à jour ' + new Date(d.updatedAt).toLocaleTimeString();
+  
+  const s = d.session || {};
   document.getElementById('kpi-tokens').textContent = fmt((s.tokensIn||0)+(s.tokensOut||0));
   document.getElementById('kpi-model').textContent = (s.model||'—').split('/').pop();
-  document.getElementById('kpi-cost').textContent = '$' + (d.modelBreakdown || []).reduce((a,b)=>a+(b.cost||0),0).toFixed(4);
   
-  renderWikidata(d);
+  const ctxVal = s.context||0, ctxMax = s.contextMax||1000000;
+  document.getElementById('kpi-context').textContent = 'Contexte ' + Math.round(ctxVal/1000) + 'k (' + Math.round(ctxVal/ctxMax*100) + '%)';
+  
+  const totalCost = (d.modelBreakdown || []).reduce((a,b)=>a+(b.cost||0),0);
+  document.getElementById('kpi-cost').textContent = '$' + totalCost.toFixed(4);
+
+  // System Stats
+  const sys = d.systemStats || {};
+  document.getElementById('sys-cpu').textContent = sys.cpu || '0%';
+  document.getElementById('sys-ram').textContent = sys.ram || '0%';
+  document.getElementById('sys-disk').textContent = sys.disk || '0%';
+
+  // Agents
+  const agentList = document.getElementById('agents-team-list');
+  if (d.crons) {
+    const agents = d.crons.filter(c => c.name && c.name.startsWith('Agent:'));
+    agentList.innerHTML = agents.map(c => `
+      <div class="site-row">
+        <div class="site-info"><div class="site-favicon">🤖</div><div>${c.name.replace('Agent: ', '')}</div></div>
+        <span class="badge ${c.enabled?'green':'gray'}">${c.enabled?'ON':'OFF'}</span>
+      </div>`).join('');
+  }
+
+  // Logs
+  const logsEl = document.getElementById('system-logs-container');
+  if (d.recentLogs) {
+      logsEl.innerHTML = d.recentLogs.map(l => `<div style="margin-bottom:4px; border-bottom:1px solid #222;">> ${l.msg}</div>`).join('');
+  }
+
+  renderWikidata();
   renderDiscoverChart(d);
-  // Add other render calls...
 }
 
 function renderDiscoverChart(d) {
@@ -689,11 +724,12 @@ function renderDiscoverChart(d) {
     });
 }
 
-// --- WIKIDATA LOGIC ---
+// --- WIKIDATA BULLETPROOF LOGIC ---
 
-function renderWikidata(d) {
+function renderWikidata() {
+  const d = globalData;
   const tableBody = document.getElementById('wikidata-table-body');
-  if (!tableBody || !d.wikidataStatus) return;
+  if (!tableBody || !d || !d.wikidataStatus) return;
 
   const searchTerm = (document.getElementById('wd-search')?.value || '').toLowerCase();
   let validCount = 0;
@@ -709,9 +745,11 @@ function renderWikidata(d) {
     const isValid = p.status.includes('Validé');
     if (isValid) validCount++;
 
+    // Identification par nom nettoyé pour le storage
     const storageKey = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
     let isManualDone = localStorage.getItem(storageKey) === 'true';
     
+    // Auto-check si QID valide
     if (isValid) {
       isManualDone = true;
       localStorage.setItem(storageKey, 'true');
@@ -719,15 +757,20 @@ function renderWikidata(d) {
     
     if (isManualDone) manualDoneCount++;
 
+    // On utilise JSON.stringify pour le nom pour éviter tout bug d'apostrophe ou caractère spécial
+    const safeName = JSON.stringify(p.name);
+
     return `
-      <tr style="${isManualDone ? 'opacity: 0.7' : ''}">
+      <tr style="${isManualDone ? 'opacity: 0.6' : ''}">
         <td style="color:var(--muted); font-size:0.7rem">${idx + 1}</td>
         <td style="font-weight: 700;">${p.name}</td>
         <td>
           ${p.qid ? `<a href="https://www.wikidata.org/wiki/${p.qid}" target="_blank" class="tg-link">${p.qid}</a>` : '<span style="color:var(--muted)">⏳ En attente</span>'}
         </td>
         <td style="text-align:center">
-          <select class="btn" style="font-size: 0.75rem; padding: 4px 10px; border-radius: 6px; background: var(--surface2); border: 1px solid var(--border); border-left: 5px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}; color: var(--text);" onchange="updateManualWd('${p.name.replace(/'/g, "\\'")}', this.value)">
+          <select class="btn" 
+            style="font-size: 0.75rem; padding: 6px 12px; border-radius: 6px; background: var(--surface2); border: 1px solid var(--border); border-left: 5px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}; color: var(--text); cursor: pointer;" 
+            onchange='updateManualWd(${safeName}, this.value)'>
             <option value="todo" ${!isManualDone ? 'selected' : ''}>🟠 À faire</option>
             <option value="done" ${isManualDone ? 'selected' : ''}>🟢 Fait</option>
           </select>
@@ -736,20 +779,29 @@ function renderWikidata(d) {
     `;
   }).join('') || '<tr><td colspan="4" class="empty">Aucun résultat</td></tr>';
 
-  // Stats
-  const pct = Math.round((manualDoneCount / total) * 100);
+  // Calcul des stats globales basées sur TOUS les journalistes (pas que les filtrés)
+  let totalManual = 0;
+  d.wikidataStatus.forEach(p => {
+      const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
+      if (localStorage.getItem(sk) === 'true' || p.status.includes('Validé')) totalManual++;
+  });
+
+  const pct = Math.round((totalManual / total) * 100);
   document.getElementById('wd-kpi-valid').textContent = validCount;
-  document.getElementById('wd-kpi-done').textContent = manualDoneCount;
-  document.getElementById('wd-kpi-pending').textContent = total - manualDoneCount;
+  document.getElementById('wd-kpi-done').textContent = totalManual;
+  document.getElementById('wd-kpi-pending').textContent = total - totalManual;
   document.getElementById('wd-kpi-percent').textContent = pct + '%';
   document.getElementById('wd-progress-bar').style.width = pct + '%';
 }
 
 function updateManualWd(name, value) {
+  console.log('Update Status:', name, value);
   const isDone = value === 'done';
   const storageKey = `wd_done_${name.replace(/[^a-z0-9]/gi, '_')}`;
   localStorage.setItem(storageKey, isDone ? 'true' : 'false');
-  if (globalData) renderWikidata(globalData);
+  
+  // On redessine uniquement la partie Wikidata pour la performance
+  renderWikidata();
 }
 
 function bulkUpdateWd(status) {
@@ -759,18 +811,19 @@ function bulkUpdateWd(status) {
     const storageKey = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
     localStorage.setItem(storageKey, isDone ? 'true' : 'false');
   });
-  renderWikidata(globalData);
+  renderWikidata();
 }
 
 function syncWdToBot() {
     const doneList = globalData.wikidataStatus
-        .filter(p => localStorage.getItem(`wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`) === 'true')
+        .filter(p => {
+            const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
+            return localStorage.getItem(sk) === 'true';
+        })
         .map(p => p.name);
     
-    const cmd = `Voici la liste des journalistes traités manuellement :\n${doneList.join('\n')}\n\nMet à jour wikidata_status.json avec manual_done: true pour ceux-là.`;
-    
-    const botUser = 'JJGary_ClawdBot';
-    const url = `tg://resolve?domain=${botUser}&text=${encodeURIComponent(cmd)}`;
+    const cmd = `Voici ma progression Wikidata :\n${doneList.join('\n')}\n\nEnregistre ces noms comme "manuellement faits".`;
+    const url = `tg://resolve?domain=JJGary_ClawdBot&text=${encodeURIComponent(cmd)}`;
     window.open(url, '_blank');
 }
 
