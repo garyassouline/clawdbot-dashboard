@@ -1913,10 +1913,10 @@ function renderWikidata(d) {
           <span class="badge ${isValid ? 'green' : 'gray'}">${p.status}</span>
         </td>
         <td style="text-align:center">
-          <label class="toggle" style="margin: 0 auto">
-            <input type="checkbox" onchange="toggleManualWd('${p.name}', this)" ${isManualDone ? 'checked' : ''}>
-            <span class="toggle-slider"></span>
-          </label>
+          <select class="btn btn-ghost" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 6px; border-left: 4px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}" onchange="updateManualWd('${p.name}', this)">
+            <option value="todo" ${!isManualDone ? 'selected' : ''}>🟠 À faire</option>
+            <option value="done" ${isManualDone ? 'selected' : ''}>🟢 Fait</option>
+          </select>
         </td>
       </tr>
     `;
@@ -1931,10 +1931,17 @@ function renderWikidata(d) {
   if (tEl) tEl.textContent = d.wikidataStatus.length;
 }
 
-function toggleManualWd(name, input) {
+function updateManualWd(name, select) {
+  const isDone = select.value === 'done';
   const storageKey = `wd_done_${name.replace(/\s+/g, '_')}`;
-  localStorage.setItem(storageKey, input.checked);
-  // Update UI stats locally for instant feedback if needed
+  
+  // Update style immediately
+  select.style.borderLeftColor = isDone ? 'var(--green)' : 'var(--yellow)';
+  
+  // Save
+  localStorage.setItem(storageKey, isDone);
+  
+  // Refresh to update KPIs
   load(); 
 }
 
