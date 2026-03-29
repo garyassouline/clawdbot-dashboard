@@ -1895,17 +1895,23 @@ function renderWikidata(d) {
 
   let valid = 0;
   let pending = 0;
-  let doneCount = 0;
+  let manualDoneCount = 0;
 
   tableBody.innerHTML = d.wikidataStatus.map(p => {
     const isValid = p.status.includes('Validé');
     if (isValid) valid++; else pending++;
 
-    // Manual Tracking (LocalStorage)
+    // Mémorisation manuelle (LocalStorage)
     const storageKey = `wd_done_${p.name.replace(/\s+/g, '_')}`;
-    // If the JSON explicitly says it's done, respect that too
-    const isManualDone = localStorage.getItem(storageKey) === 'true' || p.manual_done === true;
-    if (isManualDone) doneCount++;
+    let isManualDone = localStorage.getItem(storageKey) === 'true';
+    
+    // Si c'est officiellement validé, on force le "Fait"
+    if (isValid) {
+      isManualDone = true;
+      localStorage.setItem(storageKey, 'true');
+    }
+    
+    if (isManualDone) manualDoneCount++;
 
     return `
       <tr>
@@ -1917,7 +1923,7 @@ function renderWikidata(d) {
           <span class="badge ${isValid ? 'green' : 'gray'}">${p.status}</span>
         </td>
         <td style="text-align:center">
-          <select class="btn btn-ghost" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 6px; border-left: 4px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}" onchange="updateManualWd('${p.name}', this)">
+          <select class="btn btn-ghost" style="font-size: 0.75rem; padding: 4px 8px; border-radius: 6px; border-left: 4px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}" onchange="updateManualWd('${p.name}', this.value)">
             <option value="todo" ${!isManualDone ? 'selected' : ''}>🟠 À faire</option>
             <option value="done" ${isManualDone ? 'selected' : ''}>🟢 Fait</option>
           </select>
@@ -1926,27 +1932,24 @@ function renderWikidata(d) {
     `;
   }).join('') || '<tr><td colspan="4" class="empty">Aucune donnée Wikidata</td></tr>';
 
+  // Mise à jour des KPIs Wikidata
   const vEl = document.getElementById('wd-kpi-valid');
   const pEl = document.getElementById('wd-kpi-pending');
   const tEl = document.getElementById('wd-kpi-total');
 
-  if (vEl) vEl.textContent = valid;
-  if (pEl) pEl.textContent = pending;
+  if (vEl) vEl.textContent = valid; // Nombre de fiches officiellement OK
+  if (pEl) pEl.textContent = d.wikidataStatus.length - manualDoneCount; // Reste à faire (manuel)
   if (tEl) tEl.textContent = d.wikidataStatus.length;
 }
 
-function updateManualWd(name, select) {
-  const isDone = select.value === 'done';
+function updateManualWd(name, value) {
+  const isDone = value === 'done';
   const storageKey = `wd_done_${name.replace(/\s+/g, '_')}`;
   
-  // Update UI style
-  select.style.borderLeftColor = isDone ? 'var(--green)' : 'var(--yellow)';
+  // Sauvegarde forcée en string pour LocalStorage
+  localStorage.setItem(storageKey, isDone ? 'true' : 'false');
   
-  // Save to LocalStorage
-  localStorage.setItem(storageKey, isDone);
-  console.log(`Saved: ${name} -> ${isDone}`);
-
-  // Re-run render locally to update KPIs without full network reload
+  // Rafraîchissement UI immédiat
   if (globalData) render(globalData);
 }
 
@@ -1956,10 +1959,9 @@ function bulkUpdateWd(status) {
   
   globalData.wikidataStatus.forEach(p => {
     const storageKey = `wd_done_${p.name.replace(/\s+/g, '_')}`;
-    localStorage.setItem(storageKey, isDone);
+    localStorage.setItem(storageKey, isDone ? 'true' : 'false');
   });
 
-  console.log(`Bulk update: all to ${status}`);
   render(globalData);
 }
 
