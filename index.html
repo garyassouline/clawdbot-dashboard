@@ -757,9 +757,6 @@ function renderWikidata() {
     
     if (isManualDone) manualDoneCount++;
 
-    // On utilise JSON.stringify pour le nom pour éviter tout bug d'apostrophe ou caractère spécial
-    const safeName = JSON.stringify(p.name);
-
     return `
       <tr style="${isManualDone ? 'opacity: 0.6' : ''}">
         <td style="color:var(--muted); font-size:0.7rem">${idx + 1}</td>
@@ -769,8 +766,9 @@ function renderWikidata() {
         </td>
         <td style="text-align:center">
           <select class="btn" 
+            data-name="${p.name.replace(/"/g, '&quot;')}"
             style="font-size: 0.75rem; padding: 6px 12px; border-radius: 6px; background: var(--surface2); border: 1px solid var(--border); border-left: 5px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}; color: var(--text); cursor: pointer;" 
-            onchange='updateManualWd(${safeName}, this.value)'>
+            onchange="updateManualWd(this.getAttribute('data-name'), this.value)">
             <option value="todo" ${!isManualDone ? 'selected' : ''}>🟠 À faire</option>
             <option value="done" ${isManualDone ? 'selected' : ''}>🟢 Fait</option>
           </select>
