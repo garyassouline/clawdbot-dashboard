@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T13:16:26.929Z",
+  "updatedAt": "2026-03-29T14:10:14.833Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -8,12 +8,12 @@
   },
   "systemStats": {
     "cpu": "0%",
-    "ram": "14%",
-    "disk": "16%"
+    "ram": "13%",
+    "disk": "17%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-29T13:16:26.928Z",
+      "ts": "2026-03-29T14:10:14.833Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1699,7 +1699,7 @@
       "name": "Marie Lacombe",
       "qid": null,
       "status": "⏳ En attente",
-      "manual_done": false
+      "manual_done": true
     },
     {
       "name": "Jordane Guignon",
@@ -2141,45 +2141,63 @@
     }
   ],
   "session": {
-    "model": "gemini-3-flash-preview",
-    "tokensIn": 426876,
-    "tokensOut": 1126,
-    "cacheHit": 33,
-    "context": 119899,
+    "model": "gemini-3.1-pro-preview",
+    "tokensIn": 204770,
+    "tokensOut": 7880,
+    "cacheHit": 49,
+    "context": 196226,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
-      "model": "gemini-3-flash-preview",
-      "tokensIn": 569180,
-      "tokensOut": 1822,
-      "cacheRead": 163357,
+      "model": "gemini-3.1-pro-preview",
+      "tokensIn": 338248,
+      "tokensOut": 9621,
+      "cacheRead": 293754,
       "cacheWrite": 0,
-      "cost": 1.7838771000000002
+      "cost": 1.2471851999999999
+    },
+    {
+      "model": "gemini-3-flash-preview",
+      "tokensIn": 175182,
+      "tokensOut": 1917,
+      "cacheRead": 235346,
+      "cacheWrite": 0,
+      "cost": 0.6249048
     },
     {
       "model": "gemini-2.5-flash",
-      "tokensIn": 138320,
-      "tokensOut": 2089,
+      "tokensIn": 79794,
+      "tokensOut": 1212,
       "cacheRead": 38782,
       "cacheWrite": 0,
-      "cost": 0.023455724999999997
-    },
-    {
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 305709,
-      "tokensOut": 4476,
-      "cacheRead": 233483,
-      "cacheWrite": 0,
-      "cost": 1.0543119
+      "cost": 0.014150625
     }
   ],
   "sessions": [
     {
       "key": "main",
+      "model": "gemini-3.1-pro-preview",
+      "tokensIn": 204770,
+      "tokensOut": 7880
+    },
+    {
+      "key": "cron:0f33b516-7d1d-43b9-84ac-89ae8b0c5734",
       "model": "gemini-3-flash-preview",
-      "tokensIn": 426876,
-      "tokensOut": 1126
+      "tokensIn": 8677,
+      "tokensOut": 420
+    },
+    {
+      "key": "cron:82c7526c-2e82-409e-ba51-9ea97d8b17c2",
+      "model": "gemini-3-flash-preview",
+      "tokensIn": 24201,
+      "tokensOut": 801
+    },
+    {
+      "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
+      "model": "gemini-3.1-pro-preview",
+      "tokensIn": 133478,
+      "tokensOut": 1741
     },
     {
       "key": "cron:2c33efbf-bb1a-4775-a6e1-563f21204424",
@@ -2192,24 +2210,6 @@
       "model": "gemini-2.5-flash",
       "tokensIn": 79794,
       "tokensOut": 1212
-    },
-    {
-      "key": "cron:59b10f45-b293-42c2-ac40-ff9c6a2af288",
-      "model": "gemini-2.5-flash",
-      "tokensIn": 58526,
-      "tokensOut": 877
-    },
-    {
-      "key": "cron:305da3df-3470-469f-9015-21481ae2699b",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 197439,
-      "tokensOut": 3296
-    },
-    {
-      "key": "cron:8fc57595-1caa-4b4b-9a28-5526f359e3ac",
-      "model": "gemini-3.1-pro-preview",
-      "tokensIn": 108270,
-      "tokensOut": 1180
     }
   ],
   "crons": [
@@ -2283,7 +2283,7 @@
     },
     {
       "date": "03/29",
-      "total": 301411
+      "total": 356994
     }
   ],
   "alerts": [
@@ -2293,6 +2293,84 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "Pour déstabiliser un narcissique et reprendre le contrôle, jouez sur cette peur profonde",
+      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/destabiliser-narcissique-reprendre-controle-jouez-peur-profonde-590596?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 14:02:00 +0000",
+      "source": "psychologies.com",
+      "icon": "🧠",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Lorsque nous avons affaire à des profils narcissiques, nous avons du mal à trouver les comportements adéquats pour ne pas souffrir. Découvrez comment agir en jouant sur leur principale peur !"
+    },
+    {
+      "title": "Taches brunes sur le visage et les mains : 3 actifs pour les estomper avant l'été",
+      "link": "https://www.medisite.fr/bien-etre-et-beaute-taches-brunes-sur-le-visage-et-les-mains-3-actifs-pour-les-estomper-avant-lete.5717348.101.html",
+      "pubDate": "Sun, 29 Mar 2026 16:00:00 +0200",
+      "source": "medisite.fr",
+      "icon": "💉",
+      "competes": [
+        "pleinevie.fr"
+      ],
+      "snippet": "Les taches brunes, qui se logent sur les mains mais aussi sur le visage, sont un signe évident de vieillissement, accentuées par l&#039;exposition au soleil. Peut-on les atténuer ? Oui, en misant sur "
+    },
+    {
+      "title": "À la retraite, le vrai danger n’est pas l’ennui : voici le plus difficile à surmonter selon un psy",
+      "link": "https://www.topsante.com/medecine/sante_mentale/a-la-retraite-le-vrai-danger-nest-pas-lennui-voici-le-plus-difficile-a-surmonter-selon-un-psy-955270",
+      "pubDate": "Sun, 29 Mar 2026 13:58:03 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "On craint parfois de s'ennuyer à la retraite. Or, selon les psychologues, le véritable obstacle réside dans la perte de sentiment d'utilité, un enjeu crucial pour le bien-être des retraités."
+    },
+    {
+      "title": "Ces soins visage qui piquent cartonnent sur TikTok : ce que les vidéos oublient de dire sur votre peau",
+      "link": "https://www.doctissimo.fr/beaute/soins-du-visage/conseils-et-astuces-soins-du-visage/ces-soins-visage-qui-piquent-cartonnent-sur-tiktok-ce-que-les-videos-oublient-de-dire-sur-votre-peau-758860.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 13:32:18 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Les soins visage qui provoquent des picotements connaissent un succès fulgurant sur TikTok, mais sont-ils vraiment bénéfiques pour la peau ? Doctissimo explore les dessous de cette tendance et les pré"
+    },
+    {
+      "title": "Rihanna à Épinal : que faisait-elle dans les Vosges ?",
+      "link": "https://www.closermag.fr/people/rihanna-a-epinal-que-faisait-elle-dans-les-vosges-3627066",
+      "pubDate": "Sun, 29 Mar 2026 13:32:14 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Insolite, Rihanna a été vue à Épinal dans les Vosges. Mais que faisait la star internationale dans le Grand Est de la France ?"
+    },
+    {
+      "title": "Prince Philip atteint d’un cancer : un livre choc fait des révélations sur la santé du mari d’Elizabeth II lors de ses dernières années",
+      "link": "https://www.closermag.fr/royautes/prince-philip-atteint-dun-cancer-un-livre-choc-fait-des-revelations-sur-la-sante-du-mari-delizabeth-ii-lors-de-ses-dernieres-annees-3627062",
+      "pubDate": "Sun, 29 Mar 2026 13:30:49 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Avec la parution d’un livre choc, des révélations surprenantes émergent sur les derniers instants du prince Philip."
+    },
+    {
+      "title": "Jean-Paul Rouve : ses confidences terribles sur le harcèlement qu’il a connu, adolescent",
+      "link": "https://www.closermag.fr/people/jean-paul-rouve-ses-confidences-terribles-sur-le-harcelement-quil-a-connu-adolescent-3627070",
+      "pubDate": "Sun, 29 Mar 2026 13:28:32 +0000",
+      "source": "closermag.fr",
+      "icon": "⭐",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "De passage sur l'antenne de la station RTL le samedi 28 mars 2026, Jean-Paul Rouve a évoqué ses souvenirs d'enfance. Le comédien est notamment revenu sur sa passion pour le théâtre, qui fut à l'origin"
+    },
     {
       "title": "Un spécialiste de l'organisation révèle les 3 choses dont il faut absolument vous débarrasser",
       "link": "https://www.topsante.com/maison_verte_1/un-specialiste-de-lorganisation-revele-les-3-choses-dont-il-faut-absolument-vous-debarrasser-955436",
@@ -2405,6 +2483,17 @@
         "mariefrance.fr"
       ],
       "snippet": "L’ex-compagnon de Brigitte Bardot lève le voile sur les coulisses de ses obsèques et révèle une réalité surprenante."
+    },
+    {
+      "title": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFJBNWRINFl4UFNSb3pEV292MlRLZS12eklUai05cGpTTUFWWEhha1NjSHhRY0YyZnpraE9zX0NLanRxVXV6UW1FM3VGMzNWWVVVNjdtS09ia2RuWHZGT2h0NHZwcmIxRENSc3U2MnRJNGRrWWZFbXFWcHVkdTZSenliWFZjSzBtdDhLZ0N3d0dwNUpTMEhkMTNUSHFJQ2wxamlnb3Qtc0t4WS0zQ2JIUC1mWGRSQy1mVlRRNkZvNWVhZ0FR?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 12:31:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ?  ELLE"
     },
     {
       "title": "Les gens qui s’assoient à votre place dans le train ne sont pas simplement impolis : ce comportement révèle un trait de personnalité bien précis, selon une psy",
@@ -2586,28 +2675,6 @@
       "snippet": "Comment face à une personne qui nous rabaisse ? Selon un expert, il existe un hack bien particulier à adopter."
     },
     {
-      "title": "Charles III, Lilibet et Archie bientôt réunis ? Nouvelles révélations sur leurs retrouvailles tant attendues",
-      "link": "https://www.closermag.fr/royautes/charles-iii-lilibet-et-archie-bientot-reunis-nouvelles-revelations-sur-leurs-retrouvailles-tant-attendues-3627035",
-      "pubDate": "Sun, 29 Mar 2026 10:31:20 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Le prince Harry veut rendre visite à son père Charles III. Le prince a pour objectif d’y aller avec Archie et Lilibet pour des retrouvailles."
-    },
-    {
-      "title": "The Voice 2026 : règlement de comptes entre Amel Bent et Tayc lors des auditions à l’aveugle",
-      "link": "https://www.closermag.fr/tv_tele_realite/the-voice-2026-reglement-de-comptes-entre-amel-bent-et-tayc-lors-des-auditions-a-laveugle-3627032",
-      "pubDate": "Sun, 29 Mar 2026 10:30:54 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Dans cette saison 15 de The Voice, tensions et rivalités s’intensifient entre Amel Bent et Tayc, chacun prêt à tout pour séduire les talents."
-    },
-    {
       "title": "Aux États-Unis, malgré l'inflation, le budget bien-être explose en 2026… et voici sur quoi les ménages vont couper",
       "link": "https://www.doctissimo.fr/forme/faire-du-sport/aux-etats-unis-malgre-linflation-le-budget-bien-etre-explose-en-2026-et-voici-sur-quoi-les-menages-vont-couper-759664.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 10:30:27 +0000",
@@ -2653,17 +2720,6 @@
       "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
     },
     {
-      "title": "Selon une nouvelle étude, ces personnes vous font perdre plus de 9 mois de vie et sont à fuir immédiatement",
-      "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/nouvelle-etude-personnes-vie-fuir-625983?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 10:03:56 +0000",
-      "source": "psychologies.com",
-      "icon": "🧠",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Découvrez ces personnes qui pourraient accélérer votre vieillissement si vous les fréquentez trop."
-    },
-    {
       "title": "7 aliments riches en créatine pour booster vos performances, accélérer la récupération musculaire et stimuler le cerveau",
       "link": "https://www.doctissimo.fr/forme/sport-et-sante/alimentation-du-sportif/7-aliments-riches-en-creatine-pour-booster-vos-performances-accelerer-la-recuperation-musculaire-et-stimuler-le-cerveau-759214.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 10:02:04 +0000",
@@ -2673,40 +2729,6 @@
         "aufeminin.com"
       ],
       "snippet": "Athlètes, crossfiteurs ou simples actifs fatigués se tournent de plus en plus vers les aliments riches en créatine pour gagner en puissance et en clarté mentale. Mais combien votre assiette peut‑elle "
-    },
-    {
-      "title": "Peut-on congeler du saumon fumé ? Voici ce que disent les experts",
-      "link": "https://www.topsante.com/cuisiner-sainement-2/peut-on-congeler-du-saumon-fume-voici-ce-que-disent-les-experts-955420",
-      "pubDate": "Sun, 29 Mar 2026 09:49:31 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Restes de saumon fumé qui s'accumulent après un repas de fête ? Entre durée au congélateur, sécurité et saveur, les experts posent des limites parfois surprenantes."
-    },
-    {
-      "title": "Elie Semoun \"interdit de casinos\" : il se livre sur cette addiction qu’il a préférée tuer dans l’oeuf",
-      "link": "https://www.closermag.fr/people/elie-semoun-interdit-de-casinos-il-se-livre-sur-cette-addiction-quil-a-preferee-tuer-dans-loeuf-3627027",
-      "pubDate": "Sun, 29 Mar 2026 09:33:11 +0000",
-      "source": "closermag.fr",
-      "icon": "⭐",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Elie Semoun se livre sans langue de bois sur sa dépendance au jeu et raconte comment il a su se reprendre en main."
-    },
-    {
-      "title": "Fond de teint naturel et imperceptible : cette technique japonaise en 4 gestes corrige l'effet masque",
-      "link": "https://www.doctissimo.fr/beaute/maquillage/maquillage-du-teint/fond-de-teint-naturel-et-imperceptible-cette-technique-japonaise-en-4-gestes-corrige-leffet-masque-758531.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 09:30:11 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Découvrez comment une technique japonaise révolutionne l'application du fond de teint pour un résultat naturel et sans effet masque."
     },
     {
       "title": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures - Femme Actuelle",
@@ -2886,6 +2908,18 @@
       "snippet": "Face à la résistance croissante de la bactérie Helicobacter pylori, responsable de la majorité des cancers gastriques, des chercheurs ont mis au point un dérivé antibiotique révolutionnaire, 70 fois p"
     },
     {
+      "title": "Programme AB 1 du samedi 11 avril 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeW9NdnBZYW1CMUlDdnc2WUtJck9BWXhtTWlHbE1QbHNvdld0NUV0NHVRQ2tRSUVZTEJrTC1zbHAtNl9qQ0poa0NyUXEzTGlFSzhyUDlWUHRPMFBqM2NENHd2LWxIMW1xZGczWTV3LWpYX3JIWkVEMU11cWJZcGc?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 00:05:19 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme AB 1 du samedi 11 avril 2026  Linternaute.com"
+    },
+    {
       "title": "Programme TV Hertz du samedi 11 avril 2026 après-midi - Linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0IyRnJKaWMwMTNpcjVJTnFRZUhJZHMxXzZja2JhN3ZBeF9RUGpkdzBSYjFFMExMUTRNTlBGTWMxNXktVW5vUjBXM1FEMjF0SHhRaWRUU3BkX3NGYUg0YXBRbE1OcjhxUExNTUxoZzVEWVBqdmhxYnRSMVJzZ3NqNmZzR05SZkNwNV96QUlLUXU?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:53:01 GMT",
@@ -2942,6 +2976,17 @@
         "aufeminin.com"
       ],
       "snippet": "Endométriose : ces examens qui facilitent et accélèrent le diagnostic de la maladie  Cosmopolitan.fr"
+    },
+    {
+      "title": "Dernières actualités de Adriana Karembeu - Femme Actuelle",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12R3hKTjZna25tdzduanF6WjZCVnhxX1haTzRyOWlVWUt0Yzd6dlRuRXlYTjJwQ3FpSjdFcGpjOVhxWEx4bTVHTHRNZkxsakVpcEQwSWhKRmhKZHFuVTNjN05qODFCNkxWbHhFTlVn?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 19:31:00 GMT",
+      "source": "femmeactuelle.fr",
+      "icon": "👩",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "Dernières actualités de Adriana Karembeu  Femme Actuelle"
     },
     {
       "title": "“Je n'ai jamais été seule” : Laure Manaudou fière d’être célibataire, elle explique ne pas vouloir être en couple - Femme Actuelle",
@@ -3010,6 +3055,17 @@
       "snippet": "Carburant: la CPME réclame \"l'élargissement\" des mesures ciblées  Notre Temps"
     },
     {
+      "title": "Cette qualité que partagent les personnes les plus gentilles, identifiée par des psys de l'université d'Oxford - Cosmopolitan.fr",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPU094aExBY1ZmVmJmckFuZElhOWY3a1pWcG5EdWt3UjhxZkQyNGZQQU85dGw3ZG9XVXpQUVFLV3lsbUdDX0FuUk5xT2EwVFljRTNMZkYtSTNtMmNsVEwzbDFpZG0taWt3SHVtUDZJbFNvR05WTGFzcS1xS2xpdS1qOHlnMjNwZ1hGN3NrWmotTUExV21WcmNUZU9xUGVXb3Y3emFza1BZVVFld05sc0xiNlZOY3Ayb1pubk9ja016bVpTYWFhS0dHTlNPU2d2UExTamd0REhyN2hBd0E1dEwwQlhaSQ?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 16:00:54 GMT",
+      "source": "cosmopolitan.fr",
+      "icon": "💄",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Cette qualité que partagent les personnes les plus gentilles, identifiée par des psys de l'université d'Oxford  Cosmopolitan.fr"
+    },
+    {
       "title": "Au pied des terrils, les vestiges industriels de Charleroi attirent les fans d'\"urbex\" - Notre Temps",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPN0NQZ0J1OTE0aV9kcmtaSS15Nm1mQjFJNUJocWRrSXNndVlkRkFWZmJKeEhveHI0MS1qRDMyTE5OOXBWYzg1OVFzT1dwSUgtNHZFd2Z4bXVKWXhYOG04VlJoUDRLN3JVZEp2akttaUI5U0RKTGtWV21vX1otaDR0V2RkNDQzSk15XzBXc2xvVlhaWlIwUjJDa1kxVmZ3ZHI3Z004ZzJzX2tCX2NKWVRZa1BWN2o1RVRzNUYzOGRSUTZPYkEw?oc=5",
       "pubDate": "Sat, 28 Mar 2026 15:51:08 GMT",
@@ -3019,17 +3075,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Au pied des terrils, les vestiges industriels de Charleroi attirent les fans d'\"urbex\"  Notre Temps"
-    },
-    {
-      "title": "“Je ne suis pas énervé...” : l’Étoile mystérieuse dévoilée, mais Cyprien (12 coups de midi) ne peut toujours pas la remporter ! Avez-vous reconnu cette célèbre actrice - Femme Actuelle",
-      "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPYkpaVHdHQmEtUVhUT09uSGNobjZCbWs0ZnJhcTlvNWo4alpCQV9iQ1EwMnhxN2JqNHRtejJGVUhoN1NpQTRjSzM5ZjhSN1pLM3dKRE9PYVM2TGswd1pTSzVhNGZfWkR5MW5PTWtSNFFZZ3pSRXRuMW9HZzhCQU03aHBRRjVaak5rZnFmcHRZTWNndUxBV052RTZvV1NoUkFjVnp4VUxROWdvdHg4aFd1MWxWMU9mcXVxTVlBQzJBLXVLR2N0eWtsbzZvNFJuOTJtRG16TzlfSGpXV1FnSzFOdzBwc2h0WDlPakQ4TTJmVTlZREdRQmFWMGZLdG1NaGpweVB1ZjZUNmlRbTlNOWFFZl9pc3dRQWU5T3NPczVsQWk4MU1mWDh1MWZRcnN1NzQ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 15:38:30 GMT",
-      "source": "femmeactuelle.fr",
-      "icon": "👩",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "“Je ne suis pas énervé...” : l’Étoile mystérieuse dévoilée, mais Cyprien (12 coups de midi) ne peut toujours pas la remporter ! Avez-vous reconnu cette célèbre actrice  Femme Actuelle"
     },
     {
       "title": "Tiramisu de Pâques : le dessert qui en jette à faire dans un œuf en chocolat - Femme Actuelle",
@@ -3087,40 +3132,6 @@
         "pleinevie.fr"
       ],
       "snippet": "Attentat déjoué à Paris devant la Bank of America  Notre Temps"
-    },
-    {
-      "title": "Pourquoi ce thriller psychologique touche autant les lectrices, fascinée par ce roman glaçant - Cosmopolitan.fr",
-      "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQRjlLWWNVa2pRdnJXempRaElNQ2haT0EzcDRHZmtQcWpObENJblJnUW5icmxXT0dSdE1aY3U0QUY0UWZUQVJQcnNsQW1fZEtLcHZKSDFMMFJmay1NbkZoUU9xeXl0Q0xDU3dpYlVyc1VCM1BxaDFaT09RT0tvM2ZoRXhZd1AyMG45QWJwTjVSNWEyOHk5QjU4c1M3R25yS0NQS3JZM2FMa0J5VnAzTEhjNks5dGhBTDVRY2pHQ0FuRDktakhvcmxBbldlRVBoSmpaa2ZwaXNVYWJTemRvR3dMalpFcFdzTEh6Ulg0?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 14:00:00 GMT",
-      "source": "cosmopolitan.fr",
-      "icon": "💄",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Pourquoi ce thriller psychologique touche autant les lectrices, fascinée par ce roman glaçant  Cosmopolitan.fr"
-    },
-    {
-      "title": "Emmanuel Macron - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBpdFRXQU9aaUt1NWNnSmloeG14ck1TNmozMVRyVmFyVVo4TTUwbEM0SDBaOUlOMnFSQ1plUm84TWh1OHMtWDIwaWh0S1V6Y29zVnFudjY1TQ?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 13:44:38 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Emmanuel Macron  Linternaute.com"
-    },
-    {
-      "title": "Sarah Ferguson : nouveau coup dur, elle perd un titre suite à l'affaire Epstein - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPZzludTgwdXZBeXJZUGQ5dFhDclZPb3BhZjkwNGlORmpOUVI0RFphSGZQUjhDTFBSdGhVc2RsdTVYaFNtdWNTYzkxbHNJYmV3LUJRVjg3YXhnT2JHM3gxd0kzS1dITE5kNktCUThPNFRKMnJlUFE1SEJNUmg2YmFxaFJWVkFLemhTZlYwZkVCXzZ5TVI5dlJqVGx4NFhDanoxMWVia0RPSmdzX21SRmM1cjBrcHh2VWFnUVhiWFlIdU1WOVhyaXRnZVBjV2JUUGM?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 13:43:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
-      "competes": [
-        "mariefrance.fr"
-      ],
-      "snippet": "Sarah Ferguson : nouveau coup dur, elle perd un titre suite à l'affaire Epstein  ELLE"
     },
     {
       "title": "Pamplemousse : 8 bonnes raisons d'en manger au printemps (et 8 recettes de saison)",
