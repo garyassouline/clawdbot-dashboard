@@ -839,7 +839,11 @@
       <div class="card">
         <div class="card-title" style="justify-content:space-between">
           <span><span class="icon">📋</span> État de soumission des fiches (Batch 86)</span>
-          <button class="btn btn-ghost" onclick="load()">Mettre à jour</button>
+          <div style="display:flex;gap:10px">
+            <button class="btn btn-ghost" style="border-left:4px solid var(--green)" onclick="bulkUpdateWd('done')">🟢 Tout marquer 'Fait'</button>
+            <button class="btn btn-ghost" style="border-left:4px solid var(--yellow)" onclick="bulkUpdateWd('todo')">🟠 Tout marquer 'À faire'</button>
+            <button class="btn btn-ghost" onclick="load()">↻ Actualiser</button>
+          </div>
         </div>
         <div id="wikidata-status-container">
           <table>
@@ -1935,14 +1939,28 @@ function updateManualWd(name, select) {
   const isDone = select.value === 'done';
   const storageKey = `wd_done_${name.replace(/\s+/g, '_')}`;
   
-  // Update style immediately
+  // Update UI style
   select.style.borderLeftColor = isDone ? 'var(--green)' : 'var(--yellow)';
   
-  // Save
+  // Save to LocalStorage
   localStorage.setItem(storageKey, isDone);
+  console.log(`Saved: ${name} -> ${isDone}`);
+
+  // Re-run render locally to update KPIs without full network reload
+  if (globalData) render(globalData);
+}
+
+function bulkUpdateWd(status) {
+  if (!globalData || !globalData.wikidataStatus) return;
+  const isDone = status === 'done';
   
-  // Refresh to update KPIs
-  load(); 
+  globalData.wikidataStatus.forEach(p => {
+    const storageKey = `wd_done_${p.name.replace(/\s+/g, '_')}`;
+    localStorage.setItem(storageKey, isDone);
+  });
+
+  console.log(`Bulk update: all to ${status}`);
+  render(globalData);
 }
 
 load();
