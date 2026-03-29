@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T14:10:14.833Z",
+  "updatedAt": "2026-03-29T14:35:22.565Z",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -7,13 +7,13 @@
     "modesettravaux.fr": 6.17
   },
   "systemStats": {
-    "cpu": "0%",
+    "cpu": "5%",
     "ram": "13%",
     "disk": "17%"
   },
   "recentLogs": [
     {
-      "ts": "2026-03-29T14:10:14.833Z",
+      "ts": "2026-03-29T14:35:22.564Z",
       "msg": "Pas de logs dispos",
       "type": "info"
     }
@@ -1735,7 +1735,7 @@
       "name": "Laura D’Angelo",
       "qid": null,
       "status": "⏳ En attente",
-      "manual_done": false
+      "manual_done": true
     },
     {
       "name": "Carla Biancarelli",
@@ -1753,7 +1753,7 @@
       "name": "Julie Lefebvre",
       "qid": null,
       "status": "⏳ En attente",
-      "manual_done": false
+      "manual_done": true
     },
     {
       "name": "Allison Pujol",
@@ -2142,20 +2142,20 @@
   ],
   "session": {
     "model": "gemini-3.1-pro-preview",
-    "tokensIn": 204770,
-    "tokensOut": 7880,
-    "cacheHit": 49,
-    "context": 196226,
+    "tokensIn": 234485,
+    "tokensOut": 7626,
+    "cacheHit": 50,
+    "context": 202797,
     "contextMax": 1048576
   },
   "modelBreakdown": [
     {
       "model": "gemini-3.1-pro-preview",
-      "tokensIn": 338248,
-      "tokensOut": 9621,
-      "cacheRead": 293754,
+      "tokensIn": 367963,
+      "tokensOut": 9367,
+      "cacheRead": 303598,
       "cacheWrite": 0,
-      "cost": 1.2471851999999999
+      "cost": 1.3354733999999997
     },
     {
       "model": "gemini-3-flash-preview",
@@ -2178,8 +2178,8 @@
     {
       "key": "main",
       "model": "gemini-3.1-pro-preview",
-      "tokensIn": 204770,
-      "tokensOut": 7880
+      "tokensIn": 234485,
+      "tokensOut": 7626
     },
     {
       "key": "cron:0f33b516-7d1d-43b9-84ac-89ae8b0c5734",
@@ -2283,7 +2283,7 @@
     },
     {
       "date": "03/29",
-      "total": 356994
+      "total": 363565
     }
   ],
   "alerts": [
@@ -2293,6 +2293,40 @@
     }
   ],
   "competitorArticles": [
+    {
+      "title": "HVLP 3.0 : ce modèle de salle de sport low cost quasi premium que les géants vont imposer en France",
+      "link": "https://www.doctissimo.fr/forme/faire-du-sport/musculation/salle-de-sport/hvlp-3-0-ce-modele-de-salle-de-sport-low-cost-quasi-premium-que-les-geants-vont-imposer-en-france-758696.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
+      "pubDate": "Sun, 29 Mar 2026 14:33:26 +0000",
+      "source": "doctissimo.fr",
+      "icon": "🏥",
+      "competes": [
+        "aufeminin.com"
+      ],
+      "snippet": "Longtemps basées sur des prix cassés et des services limités, les salles de sport \"low cost\" amorcent une transformation majeure. Aux Etats-Unis, porté par des géants comme Planet Fitness, Crunch ou P"
+    },
+    {
+      "title": "L'horloge, un accessoire déco de nouveau tendance ? - ELLE",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdS0tSHpiRG1xdXBWWEFoUHVxSExEYnN5YW5BYm9NYzZuMmxyc090YjZ3NXhONTdxUEhxdmtXX0l5Qno3cDdCQW9YQVRXdHNsV2xsdTRpV0c0ekxHX1FYMndNdTB4dDdaaGpJUjRHV09yOG9rVXdpZU91X0k2NW94endVNEZ5NmlGYVFOWkJKdnBBN3czd01kYUdxSmY?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 14:16:00 GMT",
+      "source": "elle.fr",
+      "icon": "👗",
+      "competes": [
+        "mariefrance.fr"
+      ],
+      "snippet": "L'horloge, un accessoire déco de nouveau tendance ?  ELLE"
+    },
+    {
+      "title": "Paupières tombantes : l’astuce de cette dermatologue \"peut totalement transformer le regard\"",
+      "link": "https://www.topsante.com/beaute_soins/paupieres-tombantes-lastuce-de-cette-dermatologue-peut-totalement-transformer-le-regard-955438",
+      "pubDate": "Sun, 29 Mar 2026 14:14:19 +0000",
+      "source": "topsante.com",
+      "icon": "💊",
+      "competes": [
+        "aufeminin.com",
+        "pleinevie.fr"
+      ],
+      "snippet": "Passé 50 ans, beaucoup voient leur eyeliner accentuer leurs paupières tombantes au lieu d’ouvrir le regard. Une dermatologue détaille un geste ciblé qui change tout, sans chirurgie."
+    },
     {
       "title": "Pour déstabiliser un narcissique et reprendre le contrôle, jouez sur cette peur profonde",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/destabiliser-narcissique-reprendre-controle-jouez-peur-profonde-590596?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
@@ -2449,6 +2483,18 @@
         "mariefrance.fr"
       ],
       "snippet": "Ce 29 mars, Gilbert Montagné a évoqué sa vie familiale atypique. En effet, le fils du chanteur est marié à la fille de sa femme Nikole."
+    },
+    {
+      "title": "Programme TV Concerts / Festivals du samedi 11 avril 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUpkR2s5U202Y0dyT1g5MEpqQ0FIMjlSSFNRZHRBRmE4M1VTcXlxb3hYa1llVDJhMktscktxNXJsY29UNnpHaTlqMlVCTWtNaGU2aGRjOUVIMGZkaTc4TkdVdXlFak80azJfSTk2RUdvbFNrem1Sel8zQjJibGVNNlZHZGhIMjZYWlBLdmw5SEtITDB3?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 12:45:49 GMT",
+      "source": "linternaute.com",
+      "icon": "🌐",
+      "competes": [
+        "mariefrance.fr",
+        "pleinevie.fr"
+      ],
+      "snippet": "Programme TV Concerts / Festivals du samedi 11 avril 2026  Linternaute.com"
     },
     {
       "title": "Des chercheurs allemands ont découvert un signe physique commun à toutes les personnes égoïstes",
@@ -2697,18 +2743,6 @@
       "snippet": "Sauvons les baignoires ! L'ordonnance feel good du Dr Aga  ELLE"
     },
     {
-      "title": "Les noix peuvent freiner le vieillissement et réduire le cholestérol : combien faut-il en manger chaque jour ?",
-      "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/les-noix-peuvent-freiner-le-vieillissement-et-reduire-le-cholesterol-combien-faut-il-en-manger-chaque-jour-955252",
-      "pubDate": "Sun, 29 Mar 2026 10:09:44 +0000",
-      "source": "topsante.com",
-      "icon": "💊",
-      "competes": [
-        "aufeminin.com",
-        "pleinevie.fr"
-      ],
-      "snippet": "Riches en nutriments et en antioxydants, les noix font l’objet de plusieurs études soulignant leurs potentiels effets protecteurs sur l’organisme."
-    },
-    {
       "title": "Les personnes qui engagent facilement la conversation avec des inconnus partagent ce trait de personnalité particulier, selon la science",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnalite/personnes-engagent-facilement-conversation-inconnus-partagent-trait-personnalite-613993?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 10:06:59 +0000",
@@ -2720,17 +2754,6 @@
       "snippet": "Parler à un inconnu, ce n’est pas seulement être sociable : Ce comportement anodin en dit long sur votre personnalité."
     },
     {
-      "title": "7 aliments riches en créatine pour booster vos performances, accélérer la récupération musculaire et stimuler le cerveau",
-      "link": "https://www.doctissimo.fr/forme/sport-et-sante/alimentation-du-sportif/7-aliments-riches-en-creatine-pour-booster-vos-performances-accelerer-la-recuperation-musculaire-et-stimuler-le-cerveau-759214.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
-      "pubDate": "Sun, 29 Mar 2026 10:02:04 +0000",
-      "source": "doctissimo.fr",
-      "icon": "🏥",
-      "competes": [
-        "aufeminin.com"
-      ],
-      "snippet": "Athlètes, crossfiteurs ou simples actifs fatigués se tournent de plus en plus vers les aliments riches en créatine pour gagner en puissance et en clarté mentale. Mais combien votre assiette peut‑elle "
-    },
-    {
       "title": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUkMtMklGZEJ0TmlKRGt0dVgzbkZqb2pFSXJMZUZQd1M0a003Y2R6ZGxaVWtWYlZPRzdQZzB6dFZLdWsxZmZGV21GeWxEdks5YkU0Vk5Ha1lNVTZvYTNTU3h4U1gxZW5XVF8yaGIyNmZvbDVxdjRyUUNkbGZPUXVacDJmT3M4UUtxZHVyVllpeXdwR3JQS2h1LUdxek15UFE4UTN4RlRLVXBWX09CSTBxVnRuYW1tSUU5SHR4dEEwUmwxNl9ZZ3NNV2F4VUlOVWRKa3lkdmlKR05kNDlXbkVOVTNTZDdqWHJDT3pTV3VrUlZiVWxPX0l0RGNYNHZuVGJPYV9EV2JxUi1WZXBGb0Jz?oc=5",
       "pubDate": "Sun, 29 Mar 2026 09:17:45 GMT",
@@ -2740,18 +2763,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures  Femme Actuelle"
-    },
-    {
-      "title": "Programme TV Sport du samedi 11 avril 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMWdIRlRnUl9IR2p2WlBtTF9TcHV3YVgtc3hzYmx1TXgtNk9NcnN3VjN4QkpwRnJLaF9zNUJyRjNyX3lhTFJhR2luVjYxTmIycDdnZUtneGpvOTRkTm0xVWRzZk55eEViUWhKdGFPWkFWVk5tb19oMXgtempyU1laWmtmTE9MYzh4TTE3NUF2dnNfd0d6dFNpcEt3?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 09:01:32 GMT",
-      "source": "linternaute.com",
-      "icon": "🌐",
-      "competes": [
-        "mariefrance.fr",
-        "pleinevie.fr"
-      ],
-      "snippet": "Programme TV Sport du samedi 11 avril 2026  Linternaute.com"
     },
     {
       "title": "\"Très inquiet\", Aram Ohanian, l'ex d'Adriana Karembeu, demande la garde exclusive de leur fille Nina - Femme Actuelle",
@@ -2796,17 +2807,6 @@
         "mariefrance.fr"
       ],
       "snippet": "Le printemps est là : 62 idées recettes de saison  Femme Actuelle"
-    },
-    {
-      "title": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy - Notre Temps",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMVpud01BVUl0RkVwb1B4TGtseVdpTjlzbE1ZdWNXdC0zaHZRaEIxVGd6b1RwY2djTml3RmxtQ0RQazhJQjZ4T1VUQTBkSDEzZ21VZUZvTWFrNkVub1RXSkl4SWdRUExqRURRV3RaeEpiOVhLSUt3anNCNXVVV2cyTjkwdGNFcm80Qkh1cHRIMVdBbTJGc00xYUk1N3pSRWc1MVJUWnFZcmpTc1NibjhiNHIzRGFTTEFWcmtQU09WZGc?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 06:06:18 GMT",
-      "source": "notretemps.com",
-      "icon": "🕰️",
-      "competes": [
-        "pleinevie.fr"
-      ],
-      "snippet": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy  Notre Temps"
     },
     {
       "title": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault - Cosmopolitan.fr",
@@ -2875,15 +2875,15 @@
       "snippet": "Horoscope du dimanche 29 mars 2026 signe par signe  Cosmopolitan.fr"
     },
     {
-      "title": "Horoscope du dimanche 29 mars 2026 pour tous les signes astrologiques - ELLE",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNamU1SFdsVkxNRjZXdVJtdHR0c19TbnRVZEU5MFFSMzhhRWstUkVWS0pMN1FlNTNKWEJIYlJtTjh2UTB5UmNYeGRvdVczdGREODlsc2txeHh3VnZFV0RoaDhkSGtXZDZHWGRCSmlFZzNiQzZJVG40ejFhN2cxSzdyR0pMZEtjVTd5dm4tcjJqaDJTSE9TZkpLYVc0Z09CSW1uYzJsYVlHRGIwWHNyTEFNVUd1R3lYQmxLWG1wMS10SQ?oc=5",
-      "pubDate": "Sun, 29 Mar 2026 03:05:00 GMT",
-      "source": "elle.fr",
-      "icon": "👗",
+      "title": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville - Notre Temps",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTTJoeWZDVmVYcTRsQnl3ZzFKbklCUVZBMGgxVks3YXVNbHBJMjVKTWZBQzZrdGg1WDlQTGJVMjM4V2psV1RkSFp2QnVqUEwyRkY5ak5IWThRMWhYbGFadDlNQVFLOHR3VXA4dDJ5anI3TF91VjhDWWdqcjU5WGZKendDT0haOVkyUEp2dEtCc3o3RXBUbHNyUV9GX1haWVU4aEtDaWRSb0ZFdW8yT0NaMzl4MFRoRWJkM0E?oc=5",
+      "pubDate": "Sun, 29 Mar 2026 02:21:12 GMT",
+      "source": "notretemps.com",
+      "icon": "🕰️",
       "competes": [
-        "mariefrance.fr"
+        "pleinevie.fr"
       ],
-      "snippet": "Horoscope du dimanche 29 mars 2026 pour tous les signes astrologiques  ELLE"
+      "snippet": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville  Notre Temps"
     },
     {
       "title": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville - Notre Temps",
@@ -2944,16 +2944,16 @@
       "snippet": "Programme National Geographic Wild du samedi 11 avril 2026  Linternaute.com"
     },
     {
-      "title": "Programme TV Rap / Techno du vendredi 10 avril 2026 - Linternaute.com",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlFSNTJHbldXdDRfeFpua0xCaGZHY3lvNmlYMGZKS1llMUR6a0ROTXFRQXFZdGZ4V2pOZ3lXY2w1MEpickZwOFlOel9ITVpoQkpabnhmN2pPcjJ1RW5yYVdjOXQ1TFpoZUdpZGxHX1ZsSlpmTGpMYmMxN3BsQW1LNkx5VXZnSFRhRWZsQzg3aw?oc=5",
-      "pubDate": "Sat, 28 Mar 2026 21:29:18 GMT",
+      "title": "Programme TV Jeux vidéo du vendredi 10 avril 2026 - Linternaute.com",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTnN0S0xzVTlxbkdTbHZZQ1JiZG5sQUxUV2dqQ3BjckpZWm4zWWJhbGhuRlZCTk5LMWoxVzVER1dFam9Ma2RiUWYyWTdtTEZMR241d2YtTmxDOW9pZmNCMWRjeDRkWUt0TmY4cEdNUTZ4SGZ4T3Z2TzJmU1o3d0VCN2loSEJVaGJKVUhla09VTWQxTk4xaGc?oc=5",
+      "pubDate": "Sat, 28 Mar 2026 21:45:33 GMT",
       "source": "linternaute.com",
       "icon": "🌐",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Rap / Techno du vendredi 10 avril 2026  Linternaute.com"
+      "snippet": "Programme TV Jeux vidéo du vendredi 10 avril 2026  Linternaute.com"
     },
     {
       "title": "Virginia Woolf : cinq livres à dévorer pour découvrir son œuvre - ELLE",

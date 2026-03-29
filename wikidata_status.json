@@ -111,7 +111,7 @@
     "name": "Laura D’Angelo",
     "qid": null,
     "status": "⏳ En attente",
-    "manual_done": false
+    "manual_done": true
   },
   {
     "name": "Carla Biancarelli",
@@ -129,7 +129,7 @@
     "name": "Julie Lefebvre",
     "qid": null,
     "status": "⏳ En attente",
-    "manual_done": false
+    "manual_done": true
   },
   {
     "name": "Allison Pujol",
