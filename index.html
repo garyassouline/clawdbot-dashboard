@@ -758,7 +758,7 @@ function renderWikidata() {
     if (isManualDone) manualDoneCount++;
 
     return `
-      <tr style="${isManualDone ? 'opacity: 0.6' : ''}">
+      <tr style="${isManualDone ? 'opacity: 0.6' : ''}" id="row_${storageKey}">
         <td style="color:var(--muted); font-size:0.7rem">${idx + 1}</td>
         <td style="font-weight: 700;">${p.name}</td>
         <td>
@@ -767,8 +767,9 @@ function renderWikidata() {
         <td style="text-align:center">
           <select class="btn" 
             data-name="${p.name.replace(/"/g, '&quot;')}"
+            data-key="${storageKey}"
             style="font-size: 0.75rem; padding: 6px 12px; border-radius: 6px; background: var(--surface2); border: 1px solid var(--border); border-left: 5px solid ${isManualDone ? 'var(--green)' : 'var(--yellow)'}; color: var(--text); cursor: pointer;" 
-            onchange="updateManualWd(this.getAttribute('data-name'), this.value)">
+            onchange="updateManualWd(this.getAttribute('data-name'), this.value, this, this.getAttribute('data-key'))">
             <option value="todo" ${!isManualDone ? 'selected' : ''}>🟠 À faire</option>
             <option value="done" ${isManualDone ? 'selected' : ''}>🟢 Fait</option>
           </select>
@@ -792,22 +793,40 @@ function renderWikidata() {
   document.getElementById('wd-progress-bar').style.width = pct + '%';
 }
 
-function updateManualWd(name, value) {
-  console.log('Update Status:', name, value);
+function updateManualWd(name, value, selectElem, storageKey) {
   const isDone = value === 'done';
-  const storageKey = `wd_done_${name.replace(/[^a-z0-9]/gi, '_')}`;
   localStorage.setItem(storageKey, isDone ? 'true' : 'false');
   
-  // On redessine uniquement la partie Wikidata pour la performance
-  renderWikidata();
+  // Modification visuelle directe (sans recharger la page pour éviter de casser le menu)
+  selectElem.style.borderLeftColor = isDone ? 'var(--green)' : 'var(--yellow)';
+  
+  const row = document.getElementById('row_' + storageKey);
+  if (row) row.style.opacity = isDone ? '0.6' : '1';
+
+  // Recalcul des KPIs silencieux
+  if (!globalData || !globalData.wikidataStatus) return;
+  let totalManual = 0;
+  const total = globalData.wikidataStatus.length;
+  globalData.wikidataStatus.forEach(p => {
+      const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
+      if (localStorage.getItem(sk) === 'true' || p.status.includes('Validé')) totalManual++;
+  });
+  
+  const pct = Math.round((totalManual / total) * 100);
+  document.getElementById('wd-kpi-done').textContent = totalManual;
+  document.getElementById('wd-kpi-pending').textContent = total - totalManual;
+  document.getElementById('wd-kpi-percent').textContent = pct + '%';
+  document.getElementById('wd-progress-bar').style.width = pct + '%';
 }
 
 function bulkUpdateWd(status) {
   if (!globalData || !globalData.wikidataStatus) return;
   const isDone = status === 'done';
   globalData.wikidataStatus.forEach(p => {
-    const storageKey = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
-    localStorage.setItem(storageKey, isDone ? 'true' : 'false');
+    if (!p.status.includes('Validé')) {
+        const storageKey = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
+        localStorage.setItem(storageKey, isDone ? 'true' : 'false');
+    }
   });
   renderWikidata();
 }
