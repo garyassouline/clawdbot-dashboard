@@ -794,29 +794,75 @@ function renderWikidata() {
 }
 
 function updateManualWd(name, value, selectElem, storageKey) {
-  const isDone = value === 'done';
-  localStorage.setItem(storageKey, isDone ? 'true' : 'false');
-  
-  // Modification visuelle directe (sans recharger la page pour éviter de casser le menu)
-  selectElem.style.borderLeftColor = isDone ? 'var(--green)' : 'var(--yellow)';
-  
-  const row = document.getElementById('row_' + storageKey);
-  if (row) row.style.opacity = isDone ? '0.6' : '1';
+  try {
+    const isDone = value === 'done';
+    localStorage.setItem(storageKey, isDone ? 'true' : 'false');
+    
+    // Modification visuelle directe
+    if (selectElem) {
+      selectElem.style.borderLeftColor = isDone ? 'var(--green)' : 'var(--yellow)';
+    }
+    
+    const row = document.getElementById('row_' + storageKey);
+    if (row) {
+      row.style.opacity = isDone ? '0.6' : '1';
+    }
 
-  // Recalcul des KPIs silencieux
-  if (!globalData || !globalData.wikidataStatus) return;
-  let totalManual = 0;
-  const total = globalData.wikidataStatus.length;
-  globalData.wikidataStatus.forEach(p => {
-      const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
-      if (localStorage.getItem(sk) === 'true' || p.status.includes('Validé')) totalManual++;
-  });
+    // Afficher une petite notif de succès "Sauvegardé"
+    showToast(`✅ ${name} sauvegardé en local !`);
+
+    // Recalcul des KPIs silencieux
+    if (!globalData || !globalData.wikidataStatus) return;
+    let totalManual = 0;
+    const total = globalData.wikidataStatus.length;
+    globalData.wikidataStatus.forEach(p => {
+        const sk = `wd_done_${p.name.replace(/[^a-z0-9]/gi, '_')}`;
+        if (localStorage.getItem(sk) === 'true' || p.status.includes('Validé')) totalManual++;
+    });
+    
+    const pct = Math.round((totalManual / total) * 100);
+    const kpiDone = document.getElementById('wd-kpi-done');
+    const kpiPending = document.getElementById('wd-kpi-pending');
+    const kpiPercent = document.getElementById('wd-kpi-percent');
+    const progressBar = document.getElementById('wd-progress-bar');
+    
+    if(kpiDone) kpiDone.textContent = totalManual;
+    if(kpiPending) kpiPending.textContent = total - totalManual;
+    if(kpiPercent) kpiPercent.textContent = pct + '%';
+    if(progressBar) progressBar.style.width = pct + '%';
+    
+  } catch (err) {
+    console.error("Erreur de sauvegarde:", err);
+    showToast("❌ Erreur de sauvegarde : " + err.message);
+  }
+}
+
+function showToast(msg) {
+  let toast = document.getElementById('wd-toast');
+  if (!toast) {
+    toast = document.createElement('div');
+    toast.id = 'wd-toast';
+    toast.style.position = 'fixed';
+    toast.style.bottom = '24px';
+    toast.style.right = '24px';
+    toast.style.background = 'var(--surface)';
+    toast.style.border = '1px solid var(--border)';
+    toast.style.borderLeft = '4px solid var(--green)';
+    toast.style.padding = '12px 20px';
+    toast.style.borderRadius = '8px';
+    toast.style.boxShadow = '0 4px 12px rgba(0,0,0,0.1)';
+    toast.style.zIndex = '9999';
+    toast.style.transition = 'opacity 0.3s';
+    toast.style.fontSize = '0.85rem';
+    toast.style.fontWeight = '600';
+    document.body.appendChild(toast);
+  }
+  toast.textContent = msg;
+  toast.style.opacity = '1';
   
-  const pct = Math.round((totalManual / total) * 100);
-  document.getElementById('wd-kpi-done').textContent = totalManual;
-  document.getElementById('wd-kpi-pending').textContent = total - totalManual;
-  document.getElementById('wd-kpi-percent').textContent = pct + '%';
-  document.getElementById('wd-progress-bar').style.width = pct + '%';
+  // Reset timeout
+  if(window.toastTimeout) clearTimeout(window.toastTimeout);
+  window.toastTimeout = setTimeout(() => { toast.style.opacity = '0'; }, 3000);
 }
 
 function bulkUpdateWd(status) {
