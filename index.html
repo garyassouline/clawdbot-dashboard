@@ -357,6 +357,9 @@
     <a class="nav-item" onclick="showSection('automations', this)">
       <span class="icon">⚡</span> Automatisations
     </a>
+    <a class="nav-item" onclick="showSection('paperclip', this)">
+      <span class="icon">📎</span> Paperclip
+    </a>
     <a class="nav-item" onclick="showSection('wikidata', this)">
       <span class="icon">🗝️</span> Wikidata
     </a>
@@ -563,6 +566,23 @@
     </div>
 
     <!-- ===== AUTOMATISATIONS ===== -->
+    <!-- ===== PAPERCLIP ===== -->
+    <div class="section" id="section-paperclip">
+      <div class="kpi-grid">
+        <div class="kpi blue"><div class="label">Ouverts</div><div class="value" id="pc-kpi-open">—</div></div>
+        <div class="kpi purple"><div class="label">En cours</div><div class="value" id="pc-kpi-progress">—</div></div>
+        <div class="kpi green"><div class="label">Terminés</div><div class="value" id="pc-kpi-done">—</div></div>
+        <div class="kpi red"><div class="label">Bloqués</div><div class="value" id="pc-kpi-blocked">—</div></div>
+      </div>
+      <div class="card">
+        <div class="card-title"><span class="icon">📋</span> Derniers Tickets</div>
+        <table>
+          <thead><tr><th>ID</th><th>Titre</th><th>Prio</th><th>Status</th></tr></thead>
+          <tbody id="pc-tickets-table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
     <div class="section" id="section-automations">
       <div class="card mb16">
         <div class="card-title">⚡ Crons actifs</div>
@@ -703,6 +723,30 @@ function render(d) {
 
   renderWikidata();
   renderDiscoverChart(d);
+  renderPaperclip(d);
+}
+
+function renderPaperclip(d) {
+  if (!d || !d.paperclip) return;
+  const pc = d.paperclip;
+  if (document.getElementById('pc-kpi-open')) document.getElementById('pc-kpi-open').textContent = pc.tasks?.open || 0;
+  if (document.getElementById('pc-kpi-progress')) document.getElementById('pc-kpi-progress').textContent = pc.tasks?.inProgress || 0;
+  if (document.getElementById('pc-kpi-done')) document.getElementById('pc-kpi-done').textContent = pc.tasks?.done || 0;
+  if (document.getElementById('pc-kpi-blocked')) document.getElementById('pc-kpi-blocked').textContent = pc.tasks?.blocked || 0;
+  const body = document.getElementById('pc-tickets-table-body');
+  if (body && pc.issues) {
+    body.innerHTML = pc.issues.map(i => {
+      const pColor = (i.priority === 'high' || i.priority === 'urgent') ? 'red' : 'blue';
+      const sColor = i.status === 'done' ? 'green' : (i.status === 'in_progress' ? 'purple' : 'gray');
+      return `
+      <tr>
+        <td style="color:var(--accent2);font-weight:700">${i.identifier}</td>
+        <td><div style="font-weight:600">${i.title}</div></td>
+        <td><span class="badge ${pColor}">${i.priority}</span></td>
+        <td><span class="badge ${sColor}">${i.status}</span></td>
+      </tr>`;
+    }).join('') || '<tr><td colspan="4" class="empty">Aucun ticket</td></tr>';
+  }
 }
 
 function renderDiscoverChart(d) {
