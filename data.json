@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-30T10:20:13.314364",
+  "updatedAt": "2026-03-30T10:29:02.283715",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -3279,87 +3279,8 @@
     }
   ],
   "paperclip": {
-    "tasks": {
-      "open": 1,
-      "inProgress": 1,
-      "blocked": 0,
-      "done": 1
-    },
-    "agents": {
-      "active": 1,
-      "running": 0,
-      "paused": 0,
-      "error": 1
-    },
-    "issues": [
-      {
-        "id": "34e63cda-2eef-4167-8a18-80f88853275b",
-        "companyId": "4564eeb8-e000-430a-abc1-c30df69d18c0",
-        "projectId": "78c45c46-c545-4a5a-b729-6594d1a5df90",
-        "goalId": null,
-        "parentId": null,
-        "title": "Brief Article Pouvoir dAchat Avril",
-        "description": "G\u00e9n\u00e9rer un brief complet sur les revalorisations daides et le ch\u00e8que \u00e9nergie du 1er avril 2026. Cible : Seniors 45-65. Angle : Argent/Pouvoir dachat.",
-        "status": "done",
-        "priority": "high",
-        "assigneeAgentId": "fad6d805-6995-4f0e-b1d9-584a125b0a57",
-        "assigneeUserId": null,
-        "checkoutRunId": null,
-        "executionRunId": null,
-        "executionAgentNameKey": null,
-        "executionLockedAt": null,
-        "createdByAgentId": null,
-        "createdByUserId": "local-board",
-        "issueNumber": 2,
-        "identifier": "REW-2",
-        "requestDepth": 0,
-        "billingCode": null,
-        "assigneeAdapterOverrides": null,
-        "executionWorkspaceSettings": null,
-        "startedAt": "2026-03-30T05:31:59.362Z",
-        "completedAt": "2026-03-30T05:32:42.660Z",
-        "cancelledAt": null,
-        "hiddenAt": null,
-        "createdAt": "2026-03-30T05:31:54.735Z",
-        "updatedAt": "2026-03-30T05:32:42.673Z",
-        "labels": [],
-        "labelIds": [],
-        "activeRun": null
-      },
-      {
-        "id": "6c32c341-5b9f-420f-a588-6b4d8184a615",
-        "companyId": "4564eeb8-e000-430a-abc1-c30df69d18c0",
-        "projectId": "78c45c46-c545-4a5a-b729-6594d1a5df90",
-        "goalId": null,
-        "parentId": null,
-        "title": "Brief Article Retraite MICO",
-        "description": "G\u00e9n\u00e9rer un brief complet pour un article sur la revalorisation du MICO (Minimum Contributif) en mars 2026. Cible : Femmes seniors. Objectif : Discover.",
-        "status": "in_progress",
-        "priority": "high",
-        "assigneeAgentId": "fad6d805-6995-4f0e-b1d9-584a125b0a57",
-        "assigneeUserId": null,
-        "checkoutRunId": null,
-        "executionRunId": null,
-        "executionAgentNameKey": null,
-        "executionLockedAt": null,
-        "createdByAgentId": null,
-        "createdByUserId": "local-board",
-        "issueNumber": 1,
-        "identifier": "REW-1",
-        "requestDepth": 0,
-        "billingCode": null,
-        "assigneeAdapterOverrides": null,
-        "executionWorkspaceSettings": null,
-        "startedAt": "2026-03-30T05:08:44.028Z",
-        "completedAt": null,
-        "cancelledAt": null,
-        "hiddenAt": null,
-        "createdAt": "2026-03-30T05:08:35.631Z",
-        "updatedAt": "2026-03-30T05:08:44.095Z",
-        "labels": [],
-        "labelIds": [],
-        "activeRun": null
-      }
-    ]
+    "tasks": {},
+    "agents": {},
+    "issues": []
   }
 }
