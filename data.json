@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-29T22:10:51.045Z",
+  "updatedAt": "2026-03-30T07:30:39.913192",
   "rpmRates": {
     "mariefrance.fr": 6.62,
     "pleinevie.fr": 7.13,
@@ -21,9 +21,9 @@
   "discoverSuggestions": [
     {
       "site": "mariefrance.fr",
-      "parent": "Livret A / Fonds défense",
-      "title": "Livret A à 1,5% : les 5 alternatives concrètes pour protéger votre épargne dès le 1er avril 2026",
-      "hook": "Surf sur la baisse des taux et la recherche de rendement sécurisé.",
+      "parent": "Livret A / Fonds d\u00e9fense",
+      "title": "Livret A \u00e0 1,5% : les 5 alternatives concr\u00e8tes pour prot\u00e9ger votre \u00e9pargne d\u00e8s le 1er avril 2026",
+      "hook": "Surf sur la baisse des taux et la recherche de rendement s\u00e9curis\u00e9.",
       "sources": [
         {
           "url": "https://placement.meilleurtaux.com/bourse/actualites/2026-janvier/quelles-sont-alternatives-interessantes-livret-a-2026.html",
@@ -37,9 +37,9 @@
     },
     {
       "site": "mariefrance.fr",
-      "parent": "Impôts case 1PB",
-      "title": "Impôts 2026 : l'oubli de la case 'T' peut vous coûter une demi-part fiscale, vérifiez bien votre déclaration",
-      "hook": "Alerte pratique pour les parents isolés, gain fiscal immédiat.",
+      "parent": "Imp\u00f4ts case 1PB",
+      "title": "Imp\u00f4ts 2026 : l'oubli de la case 'T' peut vous co\u00fbter une demi-part fiscale, v\u00e9rifiez bien votre d\u00e9claration",
+      "hook": "Alerte pratique pour les parents isol\u00e9s, gain fiscal imm\u00e9diat.",
       "sources": [
         {
           "url": "https://paroledemamans.com/pratique/impots-2026-maman-solo-ne-validez-surtout-pas-votre-declaration-sans-avoir-verifie-la-case-t",
@@ -53,9 +53,9 @@
     },
     {
       "site": "mariefrance.fr",
-      "parent": "Nivea crème bleue",
-      "title": "Crème Nivea et Marc de Café : pourquoi ce mélange DIY est devenu viral pour lisser les rides en 15 minutes",
-      "hook": "Tendance TikTok/beauté utilisant une marque pilier de Marie France.",
+      "parent": "Nivea cr\u00e8me bleue",
+      "title": "Cr\u00e8me Nivea et Marc de Caf\u00e9 : pourquoi ce m\u00e9lange DIY est devenu viral pour lisser les rides en 15 minutes",
+      "hook": "Tendance TikTok/beaut\u00e9 utilisant une marque pilier de Marie France.",
       "sources": [
         {
           "url": "https://www.mariefrance.fr/beaute/creme-nivea-marc-cafe-personne-sait-recette-anti-rides-lisse-peau-15-minutes-1084540.html",
@@ -69,9 +69,9 @@
     },
     {
       "site": "mariefrance.fr",
-      "parent": "Pièce sûre attaque",
-      "title": "Sécurité : ces 5 plantes de jardin qui peuvent désormais vous coûter jusqu'à 150 000€ d'amende",
-      "hook": "Anxiété réglementaire et environnementale, fort potentiel de clics.",
+      "parent": "Pi\u00e8ce s\u00fbre attaque",
+      "title": "S\u00e9curit\u00e9 : ces 5 plantes de jardin qui peuvent d\u00e9sormais vous co\u00fbter jusqu'\u00e0 150 000\u20ac d'amende",
+      "hook": "Anxi\u00e9t\u00e9 r\u00e9glementaire et environnementale, fort potentiel de clics.",
       "sources": [
         {
           "url": "https://maisonbaleti.fr/risque-damende-de-150000-euros-si-vous-avez-ces-plantes-dans-votre-jardin/",
@@ -86,7 +86,7 @@
     {
       "site": "mariefrance.fr",
       "parent": "Haies thuyas",
-      "title": "Jardinage 2026 : après le thuya, pourquoi le Buddleia est désormais strictement interdit de plantation",
+      "title": "Jardinage 2026 : apr\u00e8s le thuya, pourquoi le Buddleia est d\u00e9sormais strictement interdit de plantation",
       "hook": "Rebond sur le jardinage saisonnier et les nouvelles interdictions.",
       "sources": [
         {
@@ -101,9 +101,9 @@
     },
     {
       "site": "pleinevie.fr",
-      "parent": "Retraité 1600 euros solidarité",
-      "title": "Petites retraites : pourquoi votre virement de mars ou avril 2026 pourrait augmenter jusqu'à 100 euros",
-      "hook": "Argent et pouvoir d'achat, thématique reine chez Pleine Vie.",
+      "parent": "Retrait\u00e9 1600 euros solidarit\u00e9",
+      "title": "Petites retraites : pourquoi votre virement de mars ou avril 2026 pourrait augmenter jusqu'\u00e0 100 euros",
+      "hook": "Argent et pouvoir d'achat, th\u00e9matique reine chez Pleine Vie.",
       "sources": [
         {
           "url": "https://www.caf.fr/allocataires/caf-du-nord/actualites-departementales/le-calendrier-2026-des-paiements",
@@ -117,8 +117,8 @@
     },
     {
       "site": "pleinevie.fr",
-      "parent": "Impôts cases 7WJ 7WI",
-      "title": "Impôts seniors 2026 : les nouveaux seuils d'exonération de la CSG qui vont augmenter votre pension nette",
+      "parent": "Imp\u00f4ts cases 7WJ 7WI",
+      "title": "Imp\u00f4ts seniors 2026 : les nouveaux seuils d'exon\u00e9ration de la CSG qui vont augmenter votre pension nette",
       "hook": "Optimisation fiscale senior et revalorisation des pensions.",
       "sources": [
         {
@@ -134,8 +134,8 @@
     {
       "site": "pleinevie.fr",
       "parent": "Volets roulants astuce",
-      "title": "Nettoyage des vitres : l'astuce de la pomme de terre pour éliminer la buée et la saleté sans laisser de traces",
-      "hook": "Astuce de grand-mère insolite et efficace.",
+      "title": "Nettoyage des vitres : l'astuce de la pomme de terre pour \u00e9liminer la bu\u00e9e et la salet\u00e9 sans laisser de traces",
+      "hook": "Astuce de grand-m\u00e8re insolite et efficace.",
       "sources": [
         {
           "url": "https://www.linternaute.com/bricolage/entretien-de-la-maison/1764698-dites-enfin-stop-a-la-condensation-et-la-buee-a-la-maison-les-solutions/1764734-oignon-et-pomme-de-terre",
@@ -150,8 +150,8 @@
     {
       "site": "pleinevie.fr",
       "parent": "Rappel charcuterie",
-      "title": "Rappel produit : plusieurs marques d'eau en bouteille retirées des rayons pour défaut de fabrication, ne les buvez pas",
-      "hook": "Sécurité alimentaire et santé publique.",
+      "title": "Rappel produit : plusieurs marques d'eau en bouteille retir\u00e9es des rayons pour d\u00e9faut de fabrication, ne les buvez pas",
+      "hook": "S\u00e9curit\u00e9 alimentaire et sant\u00e9 publique.",
       "sources": [
         {
           "url": "https://www.topsante.com/nutrition_et_recettes/risques_sante/urgent-des-bouteilles-deau-rappelees-partout-en-france-pour-defaut-de-fabrication-4-marques-concernees-936125",
@@ -166,8 +166,8 @@
     {
       "site": "pleinevie.fr",
       "parent": "Succession 2026",
-      "title": "Succession 2026 : comment donner jusqu'à 152 500€ à ses enfants sans impôts grâce à cette règle temporaire",
-      "hook": "Opportunité fiscale rare pour la transmission de patrimoine.",
+      "title": "Succession 2026 : comment donner jusqu'\u00e0 152 500\u20ac \u00e0 ses enfants sans imp\u00f4ts gr\u00e2ce \u00e0 cette r\u00e8gle temporaire",
+      "hook": "Opportunit\u00e9 fiscale rare pour la transmission de patrimoine.",
       "sources": [
         {
           "url": "https://www.gold.fr/news/2026/01/06/frais-de-succession-ce-que-la-reforme-votee-en-2025-change-concretement-en-2026/",
@@ -185,7 +185,7 @@
       "date": "trends-20260323",
       "opportunities": [
         {
-          "topic": "Retraite et impôts",
+          "topic": "Retraite et imp\u00f4ts",
           "competitors": [],
           "sites": [],
           "sources": []
@@ -208,7 +208,7 @@
     {
       "date": "trend",
       "opportunities": [],
-      "context": "Un nouveau calcul des retraites est en cours. La revalorisation n'est pas automatique. Les retraités doivent vérifier leur dossier avant le 31 mars 2026, sous peine de perdre jusqu'à 200€ par mois. Sujet très chaud chez les concurrents (notretemps, modesettravaux) avec un énorme potentiel d'engagement lié à l'urgence et à la perte financière."
+      "context": "Un nouveau calcul des retraites est en cours. La revalorisation n'est pas automatique. Les retrait\u00e9s doivent v\u00e9rifier leur dossier avant le 31 mars 2026, sous peine de perdre jusqu'\u00e0 200\u20ac par mois. Sujet tr\u00e8s chaud chez les concurrents (notretemps, modesettravaux) avec un \u00e9norme potentiel d'engagement li\u00e9 \u00e0 l'urgence et \u00e0 la perte financi\u00e8re."
     },
     {
       "date": "trend-20260315",
@@ -224,19 +224,19 @@
       "date": "20260323",
       "opportunities": [
         {
-          "topic": "Retraite des femmes : le nouveau calcul sur les 24 meilleures années pour les mères",
+          "topic": "Retraite des femmes : le nouveau calcul sur les 24 meilleures ann\u00e9es pour les m\u00e8res",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "L'obstacle caché des 1 803 € pour valider un trimestre de retraite en 2026",
+          "topic": "L'obstacle cach\u00e9 des 1 803 \u20ac pour valider un trimestre de retraite en 2026",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Santé : Les infirmiers peuvent désormais prescrire et initier des soins sans ordonnance",
+          "topic": "Sant\u00e9 : Les infirmiers peuvent d\u00e9sormais prescrire et initier des soins sans ordonnance",
           "competitors": [],
           "sites": [],
           "sources": []
@@ -264,13 +264,13 @@
           "sources": []
         },
         {
-          "topic": "Changement d'heure et santé des seniors",
+          "topic": "Changement d'heure et sant\u00e9 des seniors",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Revalorisation différenciée +120€ pour les plus de 70 ans",
+          "topic": "Revalorisation diff\u00e9renci\u00e9e +120\u20ac pour les plus de 70 ans",
           "competitors": [],
           "sites": [],
           "sources": []
@@ -297,25 +297,25 @@
       "date": "2026-03-16",
       "opportunities": [
         {
-          "topic": "Baisse des pensions de retraite en mars 2026 (Mise à jour CSG)",
+          "topic": "Baisse des pensions de retraite en mars 2026 (Mise \u00e0 jour CSG)",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Nouvelles règles de retraite pour la génération 1961-1971",
+          "topic": "Nouvelles r\u00e8gles de retraite pour la g\u00e9n\u00e9ration 1961-1971",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Nouvelle taxe sur les petits colis importés",
+          "topic": "Nouvelle taxe sur les petits colis import\u00e9s",
           "competitors": [],
           "sites": [],
           "sources": []
         },
         {
-          "topic": "Symptômes atypiques de crise cardiaque chez la femme",
+          "topic": "Sympt\u00f4mes atypiques de crise cardiaque chez la femme",
           "competitors": [],
           "sites": [],
           "sources": []
@@ -328,10 +328,10 @@
       "opportunities": [
         {
           "rank": 1,
-          "score": "🔥🔥🔥 MAJEUR",
-          "topic": "Isotrétinoïne / acné affiner le nez",
-          "summary": "Rumeur virale sur les réseaux (Kendall Jenner) : le médicament anti-acné (Roaccutane/isotrétinoïne) affinerait le nez. L'ANSM a réagi avec une alerte officielle. Psychologies.com ET notretemps.com y sont déjà. Très fort potentiel Discover : beauté + santé + buzz réseaux + alerte officielle = signal triple.",
-          "angle": "aufeminin.com / mariefrance.fr — article démystification + risques + dermatologue. Titre type : \"Ce médicament contre l'acné pour 'affiner le nez' : l'ANSM tire la sonnette d'alarme\"",
+          "score": "\ud83d\udd25\ud83d\udd25\ud83d\udd25 MAJEUR",
+          "topic": "Isotr\u00e9tino\u00efne / acn\u00e9 affiner le nez",
+          "summary": "Rumeur virale sur les r\u00e9seaux (Kendall Jenner) : le m\u00e9dicament anti-acn\u00e9 (Roaccutane/isotr\u00e9tino\u00efne) affinerait le nez. L'ANSM a r\u00e9agi avec une alerte officielle. Psychologies.com ET notretemps.com y sont d\u00e9j\u00e0. Tr\u00e8s fort potentiel Discover : beaut\u00e9 + sant\u00e9 + buzz r\u00e9seaux + alerte officielle = signal triple.",
+          "angle": "aufeminin.com / mariefrance.fr \u2014 article d\u00e9mystification + risques + dermatologue. Titre type : \"Ce m\u00e9dicament contre l'acn\u00e9 pour 'affiner le nez' : l'ANSM tire la sonnette d'alarme\"",
           "competitors": [
             "psychologies.com",
             "notretemps.com",
@@ -350,10 +350,10 @@
         },
         {
           "rank": 2,
-          "score": "🔥🔥 FORT",
+          "score": "\ud83d\udd25\ud83d\udd25 FORT",
           "topic": "Goutte froide en mars 2026 (x2 sur la France)",
-          "summary": "Journaldesfemmes.fr (concurrent direct) déjà bien positionné avec 'Le phénomène de la goutte froide va s'abattre 2 fois sur la France en mars'. La météo extrême = signal Discover historiquement très fort. Window courte.",
-          "angle": "pleinevie.fr / aufeminin.com — météo pratique + ce qu'il faut savoir/préparer. Titre type : \"Goutte froide en mars : 2 épisodes prévus en France, ce que ça signifie vraiment\"",
+          "summary": "Journaldesfemmes.fr (concurrent direct) d\u00e9j\u00e0 bien positionn\u00e9 avec 'Le ph\u00e9nom\u00e8ne de la goutte froide va s'abattre 2 fois sur la France en mars'. La m\u00e9t\u00e9o extr\u00eame = signal Discover historiquement tr\u00e8s fort. Window courte.",
+          "angle": "pleinevie.fr / aufeminin.com \u2014 m\u00e9t\u00e9o pratique + ce qu'il faut savoir/pr\u00e9parer. Titre type : \"Goutte froide en mars : 2 \u00e9pisodes pr\u00e9vus en France, ce que \u00e7a signifie vraiment\"",
           "competitors": [
             "journaldesfemmes.fr"
           ],
@@ -368,10 +368,10 @@
         },
         {
           "rank": 3,
-          "score": "🔥 MODÉRÉ",
-          "topic": "Maigrir après 50 ans sans régime strict — habitude simple des nutritionnistes",
-          "summary": "Journaldesfemmes.fr en tête avec article fort : 'Après 50 ans, cette habitude simple des nutritionnistes fait perdre du ventre durablement'. Correspond pile au lectorat pleinevie.fr. Tendance santé/nutrition senior persistante.",
-          "angle": "pleinevie.fr — alimentation senior, ventre plat, méthode douce. Titre type : \"Cette habitude quotidienne des nutritionnistes pour perdre du ventre après 50 ans (sans régime)\"",
+          "score": "\ud83d\udd25 MOD\u00c9R\u00c9",
+          "topic": "Maigrir apr\u00e8s 50 ans sans r\u00e9gime strict \u2014 habitude simple des nutritionnistes",
+          "summary": "Journaldesfemmes.fr en t\u00eate avec article fort : 'Apr\u00e8s 50 ans, cette habitude simple des nutritionnistes fait perdre du ventre durablement'. Correspond pile au lectorat pleinevie.fr. Tendance sant\u00e9/nutrition senior persistante.",
+          "angle": "pleinevie.fr \u2014 alimentation senior, ventre plat, m\u00e9thode douce. Titre type : \"Cette habitude quotidienne des nutritionnistes pour perdre du ventre apr\u00e8s 50 ans (sans r\u00e9gime)\"",
           "competitors": [
             "journaldesfemmes.fr"
           ],
@@ -383,10 +383,10 @@
         },
         {
           "rank": 4,
-          "score": "🔥 MODÉRÉ",
-          "topic": "Dépenses oubliées / budget ménager",
-          "summary": "Journaldesfemmes.fr : '40% des Français paient pour rien chaque mois'. Type de contenu très fort sur Discover (pratique, chiffre accrocheur, universel).",
-          "angle": "aufeminin.com / pleinevie.fr — budget, finances pratiques. Titre type : \"Ces abonnements que vous payez sans le savoir : comment économiser des centaines d'euros\"",
+          "score": "\ud83d\udd25 MOD\u00c9R\u00c9",
+          "topic": "D\u00e9penses oubli\u00e9es / budget m\u00e9nager",
+          "summary": "Journaldesfemmes.fr : '40% des Fran\u00e7ais paient pour rien chaque mois'. Type de contenu tr\u00e8s fort sur Discover (pratique, chiffre accrocheur, universel).",
+          "angle": "aufeminin.com / pleinevie.fr \u2014 budget, finances pratiques. Titre type : \"Ces abonnements que vous payez sans le savoir : comment \u00e9conomiser des centaines d'euros\"",
           "competitors": [
             "journaldesfemmes.fr"
           ],
@@ -399,9 +399,9 @@
         }
       ],
       "context": {
-        "elections_municipales": "Premier tour aujourd'hui — angle potentiel pour sites généralistes mais pas prioritaire pour Reworld Media (audience féminine/lifestyle).",
-        "top_chef_2026": "Closermag.fr actif sur sujet — opportunité celeb/people pour mariefrance ou closermag si Reworld y est.",
-        "aid_el_fitr": "Fin du Ramadan approche — contenu cuisine/famille potentiel sur aufeminin.com"
+        "elections_municipales": "Premier tour aujourd'hui \u2014 angle potentiel pour sites g\u00e9n\u00e9ralistes mais pas prioritaire pour Reworld Media (audience f\u00e9minine/lifestyle).",
+        "top_chef_2026": "Closermag.fr actif sur sujet \u2014 opportunit\u00e9 celeb/people pour mariefrance ou closermag si Reworld y est.",
+        "aid_el_fitr": "Fin du Ramadan approche \u2014 contenu cuisine/famille potentiel sur aufeminin.com"
       }
     }
   ],
@@ -1633,15 +1633,15 @@
   "seoAudits": [
     {
       "site": "https://reworldmedia.com",
-      "score": "—",
+      "score": "\u2014",
       "issues": 0
     },
     {
-      "score": "—",
+      "score": "\u2014",
       "issues": 0
     },
     {
-      "score": "—",
+      "score": "\u2014",
       "issues": 0
     }
   ],
@@ -1650,517 +1650,517 @@
     {
       "name": "Julie Caron",
       "qid": "Q138572733",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Lahéla Bouaziz",
+      "name": "Lah\u00e9la Bouaziz",
       "qid": "Q138572985",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Elodie Le Gall",
       "qid": "Q138573090",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Inès REAL",
+      "name": "In\u00e8s REAL",
       "qid": "Q138573496",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Maude Sebaihi",
       "qid": "Q138574282",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Louise Gonzalez",
       "qid": "Q138581517",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Joséphine De Rubercy",
+      "name": "Jos\u00e9phine De Rubercy",
       "qid": "Q138581575",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Laura Willinger",
       "qid": "Q138581646",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Anaïs Moine",
+      "name": "Ana\u00efs Moine",
       "qid": "Q138581678",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Marie Rougeot",
       "qid": "Q138679191",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Mélissa Sekkal",
+      "name": "M\u00e9lissa Sekkal",
       "qid": "Q138679192",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Pierre-Guillaume LIGDAMIS",
       "qid": "Q138679193",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Marie Lacombe",
       "qid": "Q138679194",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Jordane Guignon",
       "qid": "Q138679195",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Mathilde Campos",
       "qid": "Q138679196",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Justine LINET",
       "qid": "Q138679197",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Tiffany Szadek",
       "qid": "Q138679198",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Sanila Riffay",
       "qid": "Q138679199",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Laura D’Angelo",
+      "name": "Laura D\u2019Angelo",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": true
     },
     {
       "name": "Carla Biancarelli",
       "qid": "Q138679201",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "chloé maurin",
+      "name": "chlo\u00e9 maurin",
       "qid": "Q138679202",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Julie Lefebvre",
       "qid": "Q138679203",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Allison Pujol",
       "qid": "Q138679204",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Elisabeth Sall",
       "qid": "Q138679317",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Mathieu Bonis",
       "qid": "Q138679206",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Ava Skoupsky",
       "qid": "Q138679207",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Fostine Carracillo",
       "qid": "Q138679208",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Shanour Kargayan",
       "qid": "Q138679209",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Sally Jane Northcote",
       "qid": "Q138679210",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Alexandra Belooussova",
       "qid": "Q138679211",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "julie pacheco",
       "qid": "Q138679212",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Inès Aitlhaj",
+      "name": "In\u00e8s Aitlhaj",
       "qid": "Q138679213",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Maureen Peron",
       "qid": "Q138679214",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Elodie Charrière",
+      "name": "Elodie Charri\u00e8re",
       "qid": "Q138679215",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Adrien Bariller",
       "qid": "Q138679216",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Maria Julia Garcia",
       "qid": "Q138679217",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Jean RAMIÈRE",
+      "name": "Jean RAMI\u00c8RE",
       "qid": "Q138679219",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Céline Cossa",
+      "name": "C\u00e9line Cossa",
       "qid": "Q138679220",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Roxane Mirambet",
       "qid": "Q138679221",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Arnaud Swiac",
       "qid": "Q138679222",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Aline Dizon",
       "qid": "Q138679223",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Loïc Droubaix",
+      "name": "Lo\u00efc Droubaix",
       "qid": "Q138679224",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Rita SANTOURIAN",
       "qid": "Q138679225",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Tess Bodelot",
       "qid": "Q138679226",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Marie Hervichon",
       "qid": "Q138679227",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Doriane Kiniali",
       "qid": "Q138679228",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Natacha Rivalan",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Elisabeth Sall",
       "qid": "Q138679317",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Enrica A",
       "qid": "Q138631799",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Shana Lyès",
+      "name": "Shana Ly\u00e8s",
       "qid": "Q138679232",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Simon Suzeau",
       "qid": "Q138679233",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Myriam Reynaud",
       "qid": "Q138679234",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Jean-Sebastien Champeau",
       "qid": "Q138679236",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Inès Guiza",
+      "name": "In\u00e8s Guiza",
       "qid": "Q138679237",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Marion Ottaviani",
       "qid": "Q138679238",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Grib Borremans",
       "qid": "Q138679239",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Emmanuelle Devriese",
       "qid": "Q138679241",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Margot IODICE",
       "qid": "Q138679242",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Katherine Mabalay",
       "qid": "Q138679243",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Marie GODART",
       "qid": "Q138679244",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Jessica Ferret",
       "qid": "Q138679245",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Alexandre Brunet",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Gaston Cuny",
       "qid": "Q138679247",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Fiona Maherault",
       "qid": "Q138679248",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Alexandre Mathiot",
       "qid": "Q138679249",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Noémie Sadoun Uzan",
+      "name": "No\u00e9mie Sadoun Uzan",
       "qid": "Q138679250",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Soraya Idbouja",
       "qid": "Q138679251",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Agathe de Fougerolles",
       "qid": "Q138679252",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Hugo Pellegrin",
       "qid": "Q138679253",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
-      "name": "Solweig Ély",
+      "name": "Solweig \u00c9ly",
       "qid": "Q138679254",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Pierre FOURNIER",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Celine GERBIER",
       "qid": "Q138679256",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Quentin Pannaud",
       "qid": "Q138679257",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Marie Lizak",
       "qid": "Q138679258",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Hugo Taupin",
       "qid": "Q138679259",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Hugo Quintal",
       "qid": "Q138679260",
-      "status": "✅ Validé",
+      "status": "\u2705 Valid\u00e9",
       "manual_done": true
     },
     {
       "name": "Natacha Rivalan",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Dubois M",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Duchemin M",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Dewet M",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Boucher F",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Berdah F",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "M F",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Binet F",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Carlesimo F",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     },
     {
       "name": "Hagopian F",
       "qid": null,
-      "status": "⏳ En attente",
+      "status": "\u23f3 En attente",
       "manual_done": false
     }
   ],
@@ -2267,13 +2267,13 @@
     },
     {
       "id": "59b10f45-b293-42c2-ac40-ff9c6a2af288",
-      "name": "Clawdbot: Newsletter financière quotidienne",
+      "name": "Clawdbot: Newsletter financi\u00e8re quotidienne",
       "schedule": "0 7 * * *",
       "enabled": true
     },
     {
       "id": "5ca8350d-286d-4d4e-97c3-aaab0c59a77d",
-      "name": "Clawdbot: Newsletter médias & tech quotidienne",
+      "name": "Clawdbot: Newsletter m\u00e9dias & tech quotidienne",
       "schedule": "0 8 * * *",
       "enabled": true
     },
@@ -2317,7 +2317,7 @@
   "alerts": [
     {
       "type": "info",
-      "message": "Certaines automatisations n'ont pas encore tourné."
+      "message": "Certaines automatisations n'ont pas encore tourn\u00e9."
     }
   ],
   "competitorArticles": [
@@ -2326,874 +2326,874 @@
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN1lqcl85Rk1CZXc3ZldWb3JadVdkNUhqTVd0dnB0NEs4Skc5TkQ1SDRQQ01RSEprYjVwRmNZRWYxM1V1NVVTSWRHUktXaHZ1bWVWMHpjeGxQZXFTVmlPVXlDb1dQUEQyRy1WNWhvbXdBM2ZubHhKZTRWekFSbWJLUFp3?oc=5",
       "pubDate": "Sun, 29 Mar 2026 22:05:54 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV SFR du dimanche 12 avril 2026  linternaute.com"
+      "snippet": "Programme TV SFR du dimanche 12 avril 2026\u00a0\u00a0linternaute.com"
     },
     {
-      "title": "Ces 6 phrases sont des techniques classiques de manipulation à repérer au plus vite, alertent les psys",
+      "title": "Ces 6 phrases sont des techniques classiques de manipulation \u00e0 rep\u00e9rer au plus vite, alertent les psys",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/6-phrases-techniques-classiques-manipulation-reperer-vite-psys-609471?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 21:06:37 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Les techniques de manipulation sont souvent bien assez subtiles pour que vous ne vous en rendiez pas compte. Ces phrases vont vous aider à les repérer."
+      "snippet": "Les techniques de manipulation sont souvent bien assez subtiles pour que vous ne vous en rendiez pas compte. Ces phrases vont vous aider \u00e0 les rep\u00e9rer."
     },
     {
-      "title": "Ces chercheurs observent qu’une habitude fréquente peut augmenter le risque d’infidélité dans le couple",
+      "title": "Ces chercheurs observent qu\u2019une habitude fr\u00e9quente peut augmenter le risque d\u2019infid\u00e9lit\u00e9 dans le couple",
       "link": "https://www.psychologies.com/couple/crises-divorce/checheurs-observent-habitude-frequente-augmenter-risque-infidelite-625833?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 20:09:01 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Une étude révèle qu'une habitude jugée anodine par de nombreux partenaires peuvent mener tout droit à l'infidélité."
+      "snippet": "Une \u00e9tude r\u00e9v\u00e8le qu'une habitude jug\u00e9e anodine par de nombreux partenaires peuvent mener tout droit \u00e0 l'infid\u00e9lit\u00e9."
     },
     {
-      "title": "30% des hommes sont complexés par la durée de leurs rapports sexuels. À tort ou à raison ?",
+      "title": "30% des hommes sont complex\u00e9s par la dur\u00e9e de leurs rapports sexuels. \u00c0 tort ou \u00e0 raison ?",
       "link": "https://www.doctissimo.fr/sexualite/sexualite-masculine/30-des-hommes-sont-complexes-par-la-duree-de-rapports-sexuels-a-tort-ou-a-raison-323214.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 20:00:21 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Selon une information du Parisien, un tiers des hommes se penserait bien trop \"rapide\" au moment de l’acte sexuel, entraînant un complexe parfois tenace. Mais 30% des hommes sont-ils vraiment \"précoce"
+      "snippet": "Selon une information du Parisien, un tiers des hommes se penserait bien trop \"rapide\" au moment de l\u2019acte sexuel, entra\u00eenant un complexe parfois tenace. Mais 30% des hommes sont-ils vraiment \"pr\u00e9coce"
     },
     {
-      "title": "Repas de Pâques : cette verrine au chocolat à 4 ingrédients se prépare la veille et vous sauve le dessert",
+      "title": "Repas de P\u00e2ques : cette verrine au chocolat \u00e0 4 ingr\u00e9dients se pr\u00e9pare la veille et vous sauve le dessert",
       "link": "https://www.topsante.com/cuisiner-sainement-2/repas-de-paques-cette-verrine-au-chocolat-a-4-ingredients-se-prepare-la-veille-et-vous-sauve-le-dessert-955300",
       "pubDate": "Sun, 29 Mar 2026 19:52:34 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "À Pâques, quand le repas s’éternise et que les invités saturent, cette verrine au chocolat en portion individuelle promet un final léger et chic. En quatre ingrédients, elle devient le dessert idéal e"
+      "snippet": "\u00c0 P\u00e2ques, quand le repas s\u2019\u00e9ternise et que les invit\u00e9s saturent, cette verrine au chocolat en portion individuelle promet un final l\u00e9ger et chic. En quatre ingr\u00e9dients, elle devient le dessert id\u00e9al e"
     },
     {
-      "title": "Papier aluminium : faut-il utiliser le côté brillant ou le côté mat ? La réponse risque bien de vous surprendre !",
+      "title": "Papier aluminium : faut-il utiliser le c\u00f4t\u00e9 brillant ou le c\u00f4t\u00e9 mat ? La r\u00e9ponse risque bien de vous surprendre !",
       "link": "https://www.topsante.com/cuisiner-sainement-2/papier-aluminium-faut-il-utiliser-le-cote-brillant-ou-le-cote-mat-la-reponse-risque-bien-de-vous-surprendre-955452",
       "pubDate": "Sun, 29 Mar 2026 19:44:44 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "Tout le monde a son avis sur le côté brillant ou mat du papier aluminium, censé changer la cuisson. Entre fabricants et scientifiques, la réalité réserve pourtant une surprise."
+      "snippet": "Tout le monde a son avis sur le c\u00f4t\u00e9 brillant ou mat du papier aluminium, cens\u00e9 changer la cuisson. Entre fabricants et scientifiques, la r\u00e9alit\u00e9 r\u00e9serve pourtant une surprise."
     },
     {
-      "title": "Agnès Varda : 8 films pour (re)découvrir la réalisatrice - ELLE",
+      "title": "Agn\u00e8s Varda : 8 films pour (re)d\u00e9couvrir la r\u00e9alisatrice - ELLE",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBFdXBaOEN4UDhMWFktcFhlTUhkR1Z2bWVNeHB3Rzg3ZEdXZWNQaVBTRmFYakliNXppSUVQVU41Ukx1LVdULTBNYzlFLVkyaU9pSE1najFvdnJJUWwtQVFRQzhSamp4cjltQmkzek5XdWJPWk5OdG4xYWNOQ1RDQQ?oc=5",
       "pubDate": "Sun, 29 Mar 2026 19:35:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Agnès Varda : 8 films pour (re)découvrir la réalisatrice  ELLE"
+      "snippet": "Agn\u00e8s Varda : 8 films pour (re)d\u00e9couvrir la r\u00e9alisatrice\u00a0\u00a0ELLE"
     },
     {
-      "title": "Christophe Hondelatte \"capable de tuer\" : le journaliste jette un froid avec ses révélations",
+      "title": "Christophe Hondelatte \"capable de tuer\" : le journaliste jette un froid avec ses r\u00e9v\u00e9lations",
       "link": "https://www.closermag.fr/people/christophe-hondelatte-capable-de-tuer-le-journaliste-jette-un-froid-avec-ses-revelations-3627090",
       "pubDate": "Sun, 29 Mar 2026 19:30:47 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Ancien présentateur du JT de 13h de France 2, et de l'émission culte Faites entrer l'accusé, Christophe Hondelatte incarne aujourd'hui un podcast consacré aux affaires criminelles. Lors de son passage"
+      "snippet": "Ancien pr\u00e9sentateur du JT de 13h de France 2, et de l'\u00e9mission culte Faites entrer l'accus\u00e9, Christophe Hondelatte incarne aujourd'hui un podcast consacr\u00e9 aux affaires criminelles. Lors de son passage"
     },
     {
-      "title": "4 phrases qui prouvent que vous êtes plus solide émotionnellement que vous ne le pensez",
+      "title": "4 phrases qui prouvent que vous \u00eates plus solide \u00e9motionnellement que vous ne le pensez",
       "link": "https://www.doctissimo.fr/psychologie/mieux-se-connaitre/confiance-en-soi/4-phrases-prouvent-que-vous-etes-plus-solide-emotionnellement-que-vous-ne-le-pensez-334655.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 19:30:08 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Certaines phrases que l’on se dit indiquent que nous avons grandi en développant un style d’attachement sécurisant. Voici 4 signes que vous êtes plus solide que vous le pensez selon une neuropsycholog"
+      "snippet": "Certaines phrases que l\u2019on se dit indiquent que nous avons grandi en d\u00e9veloppant un style d\u2019attachement s\u00e9curisant. Voici 4 signes que vous \u00eates plus solide que vous le pensez selon une neuropsycholog"
     },
     {
-      "title": "Voici l'âge précis où l'on se sent \"perdu dans sa vie\", selon un psychiatre",
+      "title": "Voici l'\u00e2ge pr\u00e9cis o\u00f9 l'on se sent \"perdu dans sa vie\", selon un psychiatre",
       "link": "https://www.psychologies.com/Moi/Se-connaitre/age-preci-sent-perdu-vie-psychiatre-84795?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 19:09:09 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "\"Oui, j’ai une belle maison, un couple qui va bien… mais je me réveille le matin avec un sentiment de vide, d’angoisse\". Le psychiatre Christophe Fauré décrypte cet âge de transition que chacun peut t"
+      "snippet": "\"Oui, j\u2019ai une belle maison, un couple qui va bien\u2026 mais je me r\u00e9veille le matin avec un sentiment de vide, d\u2019angoisse\". Le psychiatre Christophe Faur\u00e9 d\u00e9crypte cet \u00e2ge de transition que chacun peut t"
     },
     {
-      "title": "Repas de Pâques : \"Je n'aime pas cuisiner alors chaque année ces 4 surgelés Picard me sauvent la mise\"",
+      "title": "Repas de P\u00e2ques : \"Je n'aime pas cuisiner alors chaque ann\u00e9e ces 4 surgel\u00e9s Picard me sauvent la mise\"",
       "link": "https://www.topsante.com/nutrition_et_recettes/repas-de-paques-je-naime-pas-cuisiner-alors-chaque-annee-ces-4-surgeles-picard-me-sauvent-la-mise-955301",
       "pubDate": "Sun, 29 Mar 2026 19:03:47 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "Le long week-end de Pâques approche et vous devez improviser un repas de famille. Le problème : la cuisine n'est pas votre domaine d'excellence. Pas de panique, vous n'êtes pas seule ! Ces cinq produi"
+      "snippet": "Le long week-end de P\u00e2ques approche et vous devez improviser un repas de famille. Le probl\u00e8me : la cuisine n'est pas votre domaine d'excellence. Pas de panique, vous n'\u00eates pas seule ! Ces cinq produi"
     },
     {
-      "title": "Calculs rénaux : pourquoi boire de l’eau ne suffit plus pour éviter une récidive douloureuse selon la science",
+      "title": "Calculs r\u00e9naux : pourquoi boire de l\u2019eau ne suffit plus pour \u00e9viter une r\u00e9cidive douloureuse selon la science",
       "link": "https://www.doctissimo.fr/sante/maladies/maladies-des-reins-et-insuffisance-renale/calculs-renaux-pourquoi-boire-de-leau-ne-suffit-plus-pour-eviter-une-recidive-douloureuse-selon-la-science-758945.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 19:00:21 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Une nouvelle étude révèle que l'adoption de certaines habitudes alimentaires et l'utilisation de médicaments spécifiques peuvent significativement diminuer le risque de récidive des calculs rénaux. Ce"
+      "snippet": "Une nouvelle \u00e9tude r\u00e9v\u00e8le que l'adoption de certaines habitudes alimentaires et l'utilisation de m\u00e9dicaments sp\u00e9cifiques peuvent significativement diminuer le risque de r\u00e9cidive des calculs r\u00e9naux. Ce"
     },
     {
-      "title": "Le beurre de cacahuète est-il vraiment une bonne source de protéines ? Ces experts répondent enfin à la question !",
+      "title": "Le beurre de cacahu\u00e8te est-il vraiment une bonne source de prot\u00e9ines ? Ces experts r\u00e9pondent enfin \u00e0 la question !",
       "link": "https://www.topsante.com/nutrition_et_recettes/le-beurre-de-cacahuete-est-il-vraiment-une-bonne-source-de-proteines-ces-experts-repondent-enfin-a-la-question-955450",
       "pubDate": "Sun, 29 Mar 2026 18:45:35 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "Encensé par les sportifs et les réseaux sociaux, le beurre de cacahuète est présenté comme une bombe de protéines. Des nutritionnistes dévoilent des chiffres qui bousculent cette réputation très gourm"
+      "snippet": "Encens\u00e9 par les sportifs et les r\u00e9seaux sociaux, le beurre de cacahu\u00e8te est pr\u00e9sent\u00e9 comme une bombe de prot\u00e9ines. Des nutritionnistes d\u00e9voilent des chiffres qui bousculent cette r\u00e9putation tr\u00e8s gourm"
     },
     {
-      "title": "Ce fromage pourrait être meilleur pour votre cœur qu’on ne le pensait, selon une nouvelle étude",
+      "title": "Ce fromage pourrait \u00eatre meilleur pour votre c\u0153ur qu\u2019on ne le pensait, selon une nouvelle \u00e9tude",
       "link": "https://www.doctissimo.fr/nutrition/aliments-et-boissons/lait-et-produits-laitiers/ce-fromage-pourrait-etre-meilleur-pour-votre-coeur-quon-ne-le-pensait-selon-une-nouvelle-etude-759260.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 18:30:17 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Une étude récente révèle qu'un type de fromage pourrait avoir des effets bénéfiques sur le cholestérol et la santé cardiovasculaire. Souvent critiqué pour ses graisses saturées, il pourrait en réalité"
+      "snippet": "Une \u00e9tude r\u00e9cente r\u00e9v\u00e8le qu'un type de fromage pourrait avoir des effets b\u00e9n\u00e9fiques sur le cholest\u00e9rol et la sant\u00e9 cardiovasculaire. Souvent critiqu\u00e9 pour ses graisses satur\u00e9es, il pourrait en r\u00e9alit\u00e9"
     },
     {
-      "title": "Virginie Efira au Festival de Cannes, un politique s'étrangle, \"elle a coûté 60 000 euros\"",
+      "title": "Virginie Efira au Festival de Cannes, un politique s'\u00e9trangle, \"elle a co\u00fbt\u00e9 60 000 euros\"",
       "link": "https://www.closermag.fr/people/virginie-efira-au-festival-de-cannes-un-politique-setrangle-elle-a-coute-60-000-euros-3625039",
       "pubDate": "Sun, 29 Mar 2026 18:29:28 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Tête d'affiche du cinéma français, Virginie Efira était animatrice TV avant de se lancer dans la comédie. Un métier avec lequel elle a renoué en 2022 lorsqu'elle a présenté les cérémonies d'ouverture "
+      "snippet": "T\u00eate d'affiche du cin\u00e9ma fran\u00e7ais, Virginie Efira \u00e9tait animatrice TV avant de se lancer dans la com\u00e9die. Un m\u00e9tier avec lequel elle a renou\u00e9 en 2022 lorsqu'elle a pr\u00e9sent\u00e9 les c\u00e9r\u00e9monies d'ouverture "
     },
     {
-      "title": "Les psys alertent sur les \"hobosexuels\", ces partenaires qui confondent amour et hébergement",
+      "title": "Les psys alertent sur les \"hobosexuels\", ces partenaires qui confondent amour et h\u00e9bergement",
       "link": "https://www.psychologies.com/couple/seduction/rencontres/Les-psys-alertent-sur-les-hobosexuels-ces-partenaires-qui-confondent-amour-et-hebergement-625996?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 18:03:18 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Derrière ce phénomène en hausse se cachent des dynamiques de dépendance, de manipulation et parfois de violence économique."
+      "snippet": "Derri\u00e8re ce ph\u00e9nom\u00e8ne en hausse se cachent des dynamiques de d\u00e9pendance, de manipulation et parfois de violence \u00e9conomique."
     },
     {
-      "title": "Ce chocolat a un effet inattendu sur le cerveau selon un médecin",
+      "title": "Ce chocolat a un effet inattendu sur le cerveau selon un m\u00e9decin",
       "link": "https://www.topsante.com/nutrition_et_recettes/bien_choisir_ses_aliments/ce-chocolat-a-un-effet-inattendu-sur-le-cerveau-selon-un-medecin-955147",
       "pubDate": "Sun, 29 Mar 2026 18:01:24 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "Le chocolat, riche en polyphénols, pourrait booster vos performances cérébrales… à condition de choisir le bon et de limiter les sucres ajoutés. Un médecin expert en neuroscience fait le point."
+      "snippet": "Le chocolat, riche en polyph\u00e9nols, pourrait booster vos performances c\u00e9r\u00e9brales\u2026 \u00e0 condition de choisir le bon et de limiter les sucres ajout\u00e9s. Un m\u00e9decin expert en neuroscience fait le point."
     },
     {
-      "title": "\"Une extension de ma personnalité\" : Jules Koundé révèle son rituel beauté qu'il a adopté depuis des années",
+      "title": "\"Une extension de ma personnalit\u00e9\" : Jules Kound\u00e9 r\u00e9v\u00e8le son rituel beaut\u00e9 qu'il a adopt\u00e9 depuis des ann\u00e9es",
       "link": "https://www.closermag.fr/people/une-extension-de-ma-personnalite-jules-kounde-revele-son-rituel-beaute-quil-a-adopte-depuis-des-annees-3627025",
       "pubDate": "Sun, 29 Mar 2026 18:00:56 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Jules Koundé, défenseur du FC Barcelone et de l'Équipe de France, prend soin de lui. Le footballeur a dévoilé sa routine beauté imparable."
+      "snippet": "Jules Kound\u00e9, d\u00e9fenseur du FC Barcelone et de l'\u00c9quipe de France, prend soin de lui. Le footballeur a d\u00e9voil\u00e9 sa routine beaut\u00e9 imparable."
     },
     {
-      "title": "Cancer d'origine génétique : un outil en ligne vous aide à partager les résultats de vos tests génétiques avec votre famille",
+      "title": "Cancer d'origine g\u00e9n\u00e9tique : un outil en ligne vous aide \u00e0 partager les r\u00e9sultats de vos tests g\u00e9n\u00e9tiques avec votre famille",
       "link": "https://www.doctissimo.fr/sante/maladies/cancer-maladies/prevention-du-cancer/cancer-dorigine-genetique-un-outil-en-ligne-vous-aide-a-partager-les-resultats-de-vos-tests-genetiques-avec-votre-famille-759439.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 18:00:32 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Porter un gène qui augmente le risque de cancer soulève une question délicate : comment en parler à sa famille et ainsi les aider se tester eux-aussi. Développée par des chercheurs américains, une pla"
+      "snippet": "Porter un g\u00e8ne qui augmente le risque de cancer soul\u00e8ve une question d\u00e9licate : comment en parler \u00e0 sa famille et ainsi les aider se tester eux-aussi. D\u00e9velopp\u00e9e par des chercheurs am\u00e9ricains, une pla"
     },
     {
-      "title": "Grégoire Margotton : qui est son épouse ?",
+      "title": "Gr\u00e9goire Margotton : qui est son \u00e9pouse ?",
       "link": "https://www.closermag.fr/people/gregoire-margotton-qui-est-son-epouse-3626790",
       "pubDate": "Sun, 29 Mar 2026 18:00:21 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Discret sur sa vie privée, Grégoire Margotton partage pourtant sa vie avec une femme loin des projecteurs. Qui est vraiment son épouse Aurélie ? Voici ce que l’on sait."
+      "snippet": "Discret sur sa vie priv\u00e9e, Gr\u00e9goire Margotton partage pourtant sa vie avec une femme loin des projecteurs. Qui est vraiment son \u00e9pouse Aur\u00e9lie ? Voici ce que l\u2019on sait."
     },
     {
-      "title": "Voici l'aliment que vous devriez consommer en conserve plutôt que frais, surtout en ce moment !",
+      "title": "Voici l'aliment que vous devriez consommer en conserve plut\u00f4t que frais, surtout en ce moment !",
       "link": "https://www.topsante.com/nutrition_et_recettes/voici-laliment-que-vous-devriez-consommer-en-conserve-plutot-que-frais-surtout-en-ce-moment-955448",
       "pubDate": "Sun, 29 Mar 2026 17:44:06 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "Au moment où les beaux jours reviennent, un médecin bouscule nos réflexes en cuisine. Ses explications sur les tomates en conserve pourraient bien changer vos achats."
+      "snippet": "Au moment o\u00f9 les beaux jours reviennent, un m\u00e9decin bouscule nos r\u00e9flexes en cuisine. Ses explications sur les tomates en conserve pourraient bien changer vos achats."
     },
     {
-      "title": "Bixente Lizarazu : combien coûte un repas dans son restaurant préféré où il se sent \"comme chez lui\" ?",
+      "title": "Bixente Lizarazu : combien co\u00fbte un repas dans son restaurant pr\u00e9f\u00e9r\u00e9 o\u00f9 il se sent \"comme chez lui\" ?",
       "link": "https://www.closermag.fr/people/bixente-lizarazu-combien-coute-un-repas-dans-son-restaurant-prefere-ou-il-se-sent-comme-chez-lui-3625055",
       "pubDate": "Sun, 29 Mar 2026 17:30:48 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Consultant sportif vedette de TF1 où il commente les matchs de football depuis de nombreuses années, Bixente Lizarazu vit au quotidien dans le Sud Ouest de la France. Dans une interview datant de 2012"
+      "snippet": "Consultant sportif vedette de TF1 o\u00f9 il commente les matchs de football depuis de nombreuses ann\u00e9es, Bixente Lizarazu vit au quotidien dans le Sud Ouest de la France. Dans une interview datant de 2012"
     },
     {
       "title": "Le danger du \"Et si\" dans le couple...",
       "link": "https://www.doctissimo.fr/psychologie/relation-amoureuse-et-psychologie/jalousie/le-danger-du-et-si-dans-le-couple-760234.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 17:30:39 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "La jalousie dans le couple ne commence pas toujours par une trahison, un mensonge ou une infidélité. Elle s’installe souvent de manière beaucoup plus insidieuse, presque invisible, à travers deux mots"
+      "snippet": "La jalousie dans le couple ne commence pas toujours par une trahison, un mensonge ou une infid\u00e9lit\u00e9. Elle s\u2019installe souvent de mani\u00e8re beaucoup plus insidieuse, presque invisible, \u00e0 travers deux mots"
     },
     {
-      "title": "Ils ne cherchent plus l’amour : la révolution des \"délibataires\"",
+      "title": "Ils ne cherchent plus l\u2019amour : la r\u00e9volution des \"d\u00e9libataires\"",
       "link": "https://www.doctissimo.fr/psychologie/rencontre-amoureuse/celibataire/ils-ne-cherchent-plus-lamour-la-revolution-des-delibataires-760169.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 17:04:50 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Non, être célibataire n’est pas un échec ! Le concept de \"délibataire\" vient bousculer les idées reçues et redonner du pouvoir à celles et ceux qui choisissent d’être seuls."
+      "snippet": "Non, \u00eatre c\u00e9libataire n\u2019est pas un \u00e9chec ! Le concept de \"d\u00e9libataire\" vient bousculer les id\u00e9es re\u00e7ues et redonner du pouvoir \u00e0 celles et ceux qui choisissent d\u2019\u00eatre seuls."
     },
     {
-      "title": "Ces 3 secrets du bonheur révélés par un psychologue finlandais intriguent jusque dans le pays le plus heureux du monde",
+      "title": "Ces 3 secrets du bonheur r\u00e9v\u00e9l\u00e9s par un psychologue finlandais intriguent jusque dans le pays le plus heureux du monde",
       "link": "https://www.topsante.com/forme_bien_etre/bien_dans_sa_peau/un-psy-finlandais-revele-les-3-secrets-du-bonheur-880375",
       "pubDate": "Sun, 29 Mar 2026 17:03:00 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "On pense souvent que le bonheur dépend de grandes décisions ou de changements radicaux. En réalité, un psychologue finlandais met en avant trois réflexes très simples, souvent négligés, qui peuvent vr"
+      "snippet": "On pense souvent que le bonheur d\u00e9pend de grandes d\u00e9cisions ou de changements radicaux. En r\u00e9alit\u00e9, un psychologue finlandais met en avant trois r\u00e9flexes tr\u00e8s simples, souvent n\u00e9glig\u00e9s, qui peuvent vr"
     },
     {
-      "title": "Les personnes qui utilisent un seul doigt pour écrire leurs SMS partagent ces 3 traits de personnalité",
+      "title": "Les personnes qui utilisent un seul doigt pour \u00e9crire leurs SMS partagent ces 3 traits de personnalit\u00e9",
       "link": "https://www.psychologies.com/moi/se-connaitre/personnes-utilisent-un-doigt-ecrire-sms-3-traits-personnalite-608719?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 17:01:47 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Votre smartphone fait désormais pleinement partie de vos habitudes. C'est donc en toute logique que votre façon de l'utiliser peut en dire long sur vous."
+      "snippet": "Votre smartphone fait d\u00e9sormais pleinement partie de vos habitudes. C'est donc en toute logique que votre fa\u00e7on de l'utiliser peut en dire long sur vous."
     },
     {
       "title": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdmFjaG9SMFZpY1YyWU5nTzM0MkRIQ1QyYmVZSUowbVJhX0dpTndaNldISjFTUnl0S29KMXNXVThhUXk1T1JaRXI5SG8xQnNsTUhRejE3OVkweUttdXFYYmFNUVNiZ2lHcGo5dk1VVERaWGJLOF9fSlV4RVVPdVdUa2pvclhTaUU3c2hrdTFmSUFhSVJ0dG5nT09sR0Vuc3hMZ0tVZExnWGtTd0Z0UVh4NHMxbE9ndjNJSDhsWHdNd0hoZ2REeHdlZ2NpRmR4bEtOTmlRUWVEajlZdkNocjRyak9hRUlqQmJpRFE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 17:00:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille  Cosmopolitan.fr"
+      "snippet": "Adriana Karembeu en guerre contre son ex : il demande la garde exclusive de leur fille\u00a0\u00a0Cosmopolitan.fr"
     },
     {
-      "title": "Le chef Gordon Ramsay a un ingrédient secret pour des œufs au plat croustillants et fondants : vous l'avez forcément",
+      "title": "Le chef Gordon Ramsay a un ingr\u00e9dient secret pour des \u0153ufs au plat croustillants et fondants : vous l'avez forc\u00e9ment",
       "link": "https://www.topsante.com/cuisiner-sainement-2/le-chef-gordon-ramsay-a-un-ingredient-secret-pour-des-oeufs-au-plat-croustillants-et-fondants-vous-lavez-forcement-955446",
       "pubDate": "Sun, 29 Mar 2026 16:43:48 +0000",
       "source": "topsante.com",
-      "icon": "💊",
+      "icon": "\ud83d\udc8a",
       "competes": [
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "snippet": "Sur TikTok, le chef Gordon Ramsay affole les gourmands avec une façon d’obtenir des œufs au plat croustillants et fondants chez soi. Son ingrédient du frigo, ajouté au bon moment, change tout."
+      "snippet": "Sur TikTok, le chef Gordon Ramsay affole les gourmands avec une fa\u00e7on d\u2019obtenir des \u0153ufs au plat croustillants et fondants chez soi. Son ingr\u00e9dient du frigo, ajout\u00e9 au bon moment, change tout."
     },
     {
-      "title": "Voici cinq nouveaux romans à ne pas rater en avril 2026 - ELLE",
+      "title": "Voici cinq nouveaux romans \u00e0 ne pas rater en avril 2026 - ELLE",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGlVdjU2bktuLU1yUjBhZ0NsMlZWODlVQUUxRnJadWlvMFcweGZHUlNNQjRPZTVsRWljUnNiYW96cVhBeWQybkc2dnJPYXRhNklzeTZRQXduN0NzX1ZwOEtwbzN5MDlORjhiYWxYZEs0TEp2NjB3cEZPb0o1anI1OTMzT2JWZGlBNkFvUGV2akJNenlua3lKRFpHaw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 16:35:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Voici cinq nouveaux romans à ne pas rater en avril 2026  ELLE"
+      "snippet": "Voici cinq nouveaux romans \u00e0 ne pas rater en avril 2026\u00a0\u00a0ELLE"
     },
     {
-      "title": "Nicolas Sarkozy en colère : son fils Louis pas assez soutenu à Menton ? Il pousse un coup de gueule contre ce ténor de la droite",
+      "title": "Nicolas Sarkozy en col\u00e8re : son fils Louis pas assez soutenu \u00e0 Menton ? Il pousse un coup de gueule contre ce t\u00e9nor de la droite",
       "link": "https://www.closermag.fr/politique/nicolas-sarkozy-en-colere-son-fils-louis-pas-assez-soutenu-a-menton-il-pousse-un-coup-de-gueule-contre-ce-tenor-de-la-droite-3627086",
       "pubDate": "Sun, 29 Mar 2026 16:31:22 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Candidat aux élections municipales du côté de Menton, Louis Sarkozy n'a pas su convaincre les électeurs. Suite à cette défaite, Nicolas Sarkozy se serait montré assez contrarié par le fait qu'un ténor"
+      "snippet": "Candidat aux \u00e9lections municipales du c\u00f4t\u00e9 de Menton, Louis Sarkozy n'a pas su convaincre les \u00e9lecteurs. Suite \u00e0 cette d\u00e9faite, Nicolas Sarkozy se serait montr\u00e9 assez contrari\u00e9 par le fait qu'un t\u00e9nor"
     },
     {
-      "title": "Capacité d’attention : comment muscler votre cerveau face à l’invasion des écrans ?",
+      "title": "Capacit\u00e9 d\u2019attention : comment muscler votre cerveau face \u00e0 l\u2019invasion des \u00e9crans ?",
       "link": "https://www.doctissimo.fr/sante/maladies/maladies-neurologiques/fonctionnement-du-cerveau/capacite-dattention-comment-muscler-votre-cerveau-face-a-linvasion-des-ecrans-760167.htm?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 16:30:52 +0000",
       "source": "doctissimo.fr",
-      "icon": "🏥",
+      "icon": "\ud83c\udfe5",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Entre les notifications incessantes et le défilement infini des réseaux sociaux, notre temps de concentration fond comme neige au soleil. Passée de 2,5 minutes en 2004 à seulement 47 secondes aujourd’"
+      "snippet": "Entre les notifications incessantes et le d\u00e9filement infini des r\u00e9seaux sociaux, notre temps de concentration fond comme neige au soleil. Pass\u00e9e de 2,5 minutes en 2004 \u00e0 seulement 47 secondes aujourd\u2019"
     },
     {
-      "title": "Menu de la semaine : des idées recettes du lundi 30 mars au dimanche 5 avril - ELLE",
+      "title": "Menu de la semaine : des id\u00e9es recettes du lundi 30 mars au dimanche 5 avril - ELLE",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORGRUZ0xkeE5lWDdpTFFlVW9TUzB2aWtJdWlZWGVrcXpSdTZaR1lkdUhoSktSSzdfbl84VlhtUHJ4ODdDOFhjeHVfSXktNkdXVC1ZdzJqakZEX3RJS3otRDNUNGRRRm1qM2ZoZGNwcDZuaWlTVlBVbnVrNzR6RjJPSVhyNTFTYVBPQ3NvdXBoQ09DYjQzaGk4?oc=5",
       "pubDate": "Sun, 29 Mar 2026 16:15:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Menu de la semaine : des idées recettes du lundi 30 mars au dimanche 5 avril  ELLE"
+      "snippet": "Menu de la semaine : des id\u00e9es recettes du lundi 30 mars au dimanche 5 avril\u00a0\u00a0ELLE"
     },
     {
-      "title": "7 signes qu’une personne pense plus à vous que vous ne l’imaginez",
+      "title": "7 signes qu\u2019une personne pense plus \u00e0 vous que vous ne l\u2019imaginez",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/7-signes-quune-personne-pense-plus-a-vous-que-vous-ne-limaginez-626026?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 16:02:19 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Certains signes sont plus parlants que les mots. En voici 7 qui révèlent que vous occupez souvent l'esprit de quelqu'un."
+      "snippet": "Certains signes sont plus parlants que les mots. En voici 7 qui r\u00e9v\u00e8lent que vous occupez souvent l'esprit de quelqu'un."
     },
     {
-      "title": "Jason Chicandier touché par une cirrhose et sobre depuis un an : ses confidences sur l’aide précieuse de sa fille",
+      "title": "Jason Chicandier touch\u00e9 par une cirrhose et sobre depuis un an : ses confidences sur l\u2019aide pr\u00e9cieuse de sa fille",
       "link": "https://www.closermag.fr/people/jason-chicandier-touche-par-une-cirrhose-et-sobre-depuis-un-an-ses-confidences-sur-laide-precieuse-de-sa-fille-3627077",
       "pubDate": "Sun, 29 Mar 2026 15:41:52 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Le 29 mars, Jason Chicandier évoque son alcoolisme dans Quelle époque ! Touché par une cirrhose, il est sobre depuis un an grâce à sa fille."
+      "snippet": "Le 29 mars, Jason Chicandier \u00e9voque son alcoolisme dans Quelle \u00e9poque ! Touch\u00e9 par une cirrhose, il est sobre depuis un an gr\u00e2ce \u00e0 sa fille."
     },
     {
       "title": "Est-ce vraiment sale de ne pas se doucher tous les jours ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxObVdfLUJoOEMzLVE4UTVqR0FfZ1Q5YTVYbjZYQVhYN2dEZWxybUZKaXd1TTRqSGZNTENuNWctZ1M5ZThWMGdPR1JXNjJfYXFCTzk3N1pqUWxtaTFsNTlvODI3am1BQ0ZvWDNnRTBuY2JEajQ0RUFnRjdOanBlSy1Kbkt0TDRhbDN6MEpPM2hnU0dBRU4yN2VkSl9DY3pscTFraWloT3lNcndlUGp2ZFE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 15:35:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Est-ce vraiment sale de ne pas se doucher tous les jours ?  ELLE"
+      "snippet": "Est-ce vraiment sale de ne pas se doucher tous les jours ?\u00a0\u00a0ELLE"
     },
     {
-      "title": "Léa Salamé bientôt sur la touche : la journaliste va devoir laisser sa place et on sait qui va la remplacer",
+      "title": "L\u00e9a Salam\u00e9 bient\u00f4t sur la touche : la journaliste va devoir laisser sa place et on sait qui va la remplacer",
       "link": "https://www.closermag.fr/people/lea-salame-bientot-sur-la-touche-la-journaliste-va-devoir-laisser-sa-place-et-on-sait-qui-va-la-remplacer-3627078",
       "pubDate": "Sun, 29 Mar 2026 15:23:09 +0000",
       "source": "closermag.fr",
-      "icon": "⭐",
+      "icon": "\u2b50",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Présentatrice titulaire du JT de 20h de France 2 depuis qu'elle a pris la succession d'Anne-Sophie Lapix le lundi 1er septembre 2026, Léa Salamé pourrait bientôt se mettre en retrait du journal télévi"
+      "snippet": "Pr\u00e9sentatrice titulaire du JT de 20h de France 2 depuis qu'elle a pris la succession d'Anne-Sophie Lapix le lundi 1er septembre 2026, L\u00e9a Salam\u00e9 pourrait bient\u00f4t se mettre en retrait du journal t\u00e9l\u00e9vi"
     },
     {
-      "title": "Carré d'agneau pour Pâques : essayez ces 2 techniques de cuisson de grands chefs ! - Femme Actuelle",
+      "title": "Carr\u00e9 d'agneau pour P\u00e2ques : essayez ces 2 techniques de cuisson de grands chefs ! - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOOEh1TnQ5bEprd3ZYV015YWNwM2Z3QTNnYlk2a3M3a1VLSGtsSUd6M0tTN1otNmo5anlCZEpLeXZaU01yR1UydXlHS1hqODYybnA5VUxmTnVPelo5YlUyR2NBWm41Uk9HN253TW5xZDBDaGNaUFN2NVpsMDAwRm83MDlxMUJMNC1QN010SzJMb2NuVXFfQlA0VDZJeTFFRDctcHRqVUpfaDJMUXpYMHNkSEhwckZnbERhMnB2aDRHY2NRZFFZRE13d3hEcktuM1oyZGl3Mm93NnE4TnM?oc=5",
       "pubDate": "Sun, 29 Mar 2026 15:15:00 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Carré d'agneau pour Pâques : essayez ces 2 techniques de cuisson de grands chefs !  Femme Actuelle"
+      "snippet": "Carr\u00e9 d'agneau pour P\u00e2ques : essayez ces 2 techniques de cuisson de grands chefs !\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "Cette période de la vie des femmes est propice à la dépression (et c'est surprenant)",
+      "title": "Cette p\u00e9riode de la vie des femmes est propice \u00e0 la d\u00e9pression (et c'est surprenant)",
       "link": "https://www.psychologies.com/moi/problemes-psy/Cette-periode-de-la-vie-des-femmes-est-propice-a-la-depression-et-cest-surprenant-625941?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 15:07:15 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Entre bouleversements hormonaux et impacts sur le cerveau, cette période par laquelle passent toutes les femmes pourrait bien fragiliser leur équilibre psychique, au point de déclencher une dépression"
+      "snippet": "Entre bouleversements hormonaux et impacts sur le cerveau, cette p\u00e9riode par laquelle passent toutes les femmes pourrait bien fragiliser leur \u00e9quilibre psychique, au point de d\u00e9clencher une d\u00e9pression"
     },
     {
       "title": "Choisissez-vous bien votre poisson de saison au printemps ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOX3NRWWRIeUZnQ2thaVlhU19aWENvcWtpRW1WRVE5LTh2aVJPVklqTnhpcWIzdGowM0ZrYjNHWklpWGh1QmlkUXZ5Zkx3TzQ3d1YySEZQQ3liZW1xcGp4ZXl2NV9Ya19XQnhKNGVYVjBmbS1rSzJLa3hfVjY4SjZGaVZTU3l4WEFlbkRJMUdvQkpLbGlSc1JBSHlXT2ZScFJfLVBGZjdhSUxEdlQ4dlZUNlV4R2tIc2t2M2JoMlZwbWhJN1F3RHRreVRHbGZwdWhqeW9GZjBmTGxqY3FvOHV0RDVR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 14:36:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Choisissez-vous bien votre poisson de saison au printemps ?  ELLE"
+      "snippet": "Choisissez-vous bien votre poisson de saison au printemps ?\u00a0\u00a0ELLE"
     },
     {
-      "title": "Pour déstabiliser un narcissique et reprendre le contrôle, jouez sur cette peur profonde",
+      "title": "Pour d\u00e9stabiliser un narcissique et reprendre le contr\u00f4le, jouez sur cette peur profonde",
       "link": "https://www.psychologies.com/moi/moi-et-les-autres-moi/destabiliser-narcissique-reprendre-controle-jouez-peur-profonde-590596?utm_source=rss_feed&utm_medium=link&utm_campaign=unknown",
       "pubDate": "Sun, 29 Mar 2026 14:02:00 +0000",
       "source": "psychologies.com",
-      "icon": "🧠",
+      "icon": "\ud83e\udde0",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Lorsque nous avons affaire à des profils narcissiques, nous avons du mal à trouver les comportements adéquats pour ne pas souffrir. Découvrez comment agir en jouant sur leur principale peur !"
+      "snippet": "Lorsque nous avons affaire \u00e0 des profils narcissiques, nous avons du mal \u00e0 trouver les comportements ad\u00e9quats pour ne pas souffrir. D\u00e9couvrez comment agir en jouant sur leur principale peur !"
     },
     {
-      "title": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant - Cosmopolitan.fr",
+      "title": "Pourquoi les lectrices sont traumatis\u00e9es apr\u00e8s la lecture de ce thriller gla\u00e7ant - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFFNdXBjYzlwM0RjTlI3WG5HVkpBNUdCalRBNmRQTnpMeTY2ZjUySDFtNDBCc0RiVW02a1NLbld0WVFTakVBTzVCM2MzWXNMZEtlSzMybWI0dHQwSXpWakFUZ0FEX2FfOERNbS10XzVEMkYxLXFENktrRUplUElRT1JCbmI2TzgtazBZbzZOd1pZQUs2MHZDVFFGcjdIem9vZ29CR00waUZLSE1hUDczRXFOQmt3cmlfdVdza1NrOEVMYzY2cVZRRS1OMUk5Zw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 14:00:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Pourquoi les lectrices sont traumatisées après la lecture de ce thriller glaçant  Cosmopolitan.fr"
+      "snippet": "Pourquoi les lectrices sont traumatis\u00e9es apr\u00e8s la lecture de ce thriller gla\u00e7ant\u00a0\u00a0Cosmopolitan.fr"
     },
     {
-      "title": "Taches brunes sur le visage et les mains : 3 actifs pour les estomper avant l'été",
+      "title": "Taches brunes sur le visage et les mains : 3 actifs pour les estomper avant l'\u00e9t\u00e9",
       "link": "https://www.medisite.fr/bien-etre-et-beaute-taches-brunes-sur-le-visage-et-les-mains-3-actifs-pour-les-estomper-avant-lete.5717348.101.html",
       "pubDate": "Sun, 29 Mar 2026 16:00:00 +0200",
       "source": "medisite.fr",
-      "icon": "💉",
+      "icon": "\ud83d\udc89",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Les taches brunes, qui se logent sur les mains mais aussi sur le visage, sont un signe évident de vieillissement, accentuées par l&#039;exposition au soleil. Peut-on les atténuer ? Oui, en misant sur "
+      "snippet": "Les taches brunes, qui se logent sur les mains mais aussi sur le visage, sont un signe \u00e9vident de vieillissement, accentu\u00e9es par l&#039;exposition au soleil. Peut-on les att\u00e9nuer ? Oui, en misant sur "
     },
     {
-      "title": "\"Ils m’ont fait suer\" : pourquoi Christophe Hondelatte garde un goût amer de son expérience au JT de France 2 - Femme Actuelle",
+      "title": "\"Ils m\u2019ont fait suer\" : pourquoi Christophe Hondelatte garde un go\u00fbt amer de son exp\u00e9rience au JT de France 2 - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPNDRDaVlTMjZGVEZlc0xLNXk0UVR4alVYcU9CdjBOalFHTk5hd1VUZlgxLUpzaDExYUNEOEo2UENaRVVxaW5TOEdtU1JtOGVtOFdoSVh0LVFFbnNDQXRLblZyemtCNDZua1k1T2R0R1RVVENITmpNd1dRbXcxYWVwbFg3Skk4bjNPZEFwV1B0RGdhb2dwQWtEcUIwVEV1VV84X3NkLW56M3c4S0lMYmppQzBqTTF1Zy1lMG5NMXdNUXRuWUJrSkdTaTB1RWNwMkFsaEhrWWw3b0tmQzRSNDd3bXRZRjREVWlfMHc5Yw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 13:20:33 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "\"Ils m’ont fait suer\" : pourquoi Christophe Hondelatte garde un goût amer de son expérience au JT de France 2  Femme Actuelle"
+      "snippet": "\"Ils m\u2019ont fait suer\" : pourquoi Christophe Hondelatte garde un go\u00fbt amer de son exp\u00e9rience au JT de France 2\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "Horoscope : l’arrivée du mois d’avril est un nouveau souffle pour ces deux signes astrologiques - ELLE",
+      "title": "Horoscope : l\u2019arriv\u00e9e du mois d\u2019avril est un nouveau souffle pour ces deux signes astrologiques - ELLE",
       "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQWnB4VFEyWEp1cTU1QzZpX0tqUEZXbi16aS00TEExSmhzR3N4bnRqc0RaSXdHMUJ5aWN2V0t2RE10NjZxNVN3ZV8ycFZwWEhqcUJGSl9MQkY3ZlQzRnBkcEV1WHZncWJURWd4MUVZdmxnQVBCekRrRUdkZVZTSEpyZkR5UEFkdXhNeTlYaGFVSzBfUVBmTlJtQlEwNVBRSjhoNG1nMVRPRU5SSUg4Z3JwNVZ3WTBtTjRjU3Yxci12RTFLTG1QZDdFODVGZHpBM0xsZllPMGtKSjlxNDNxekVN?oc=5",
       "pubDate": "Sun, 29 Mar 2026 13:15:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Horoscope : l’arrivée du mois d’avril est un nouveau souffle pour ces deux signes astrologiques  ELLE"
+      "snippet": "Horoscope : l\u2019arriv\u00e9e du mois d\u2019avril est un nouveau souffle pour ces deux signes astrologiques\u00a0\u00a0ELLE"
     },
     {
-      "title": "Pourquoi ce nouveau thriller atypique sur la haine des femmes dérange autant - Cosmopolitan.fr",
+      "title": "Pourquoi ce nouveau thriller atypique sur la haine des femmes d\u00e9range autant - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbEZPbVhWblZBVG1CRDd1Z2djXzg2RWVtUWViNG5JVUp3M3E1MXQ1NHB2MFNWVDJTSDk2WUZZdC1zU211aW9ObTloSU11dFo3QjhtMC1ONHRlTi1icnFyQ2dFRUJoaXZZZ0hZa3Y3dDFPQnY1YXhGa1Rpa1FaYU9Mck4zemxrOGRZbWdhV3JHWkRaR0kwVFdDNFp4V092dGFSTzJicmtiT1VMS1lLV3ljMjJMNlMxNUI2UWZ0bVdtT1BrU204ZEdBMVNFTk9oUzZwWmsxeFAtVnpJSF9XUTFXTDRR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 13:00:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Pourquoi ce nouveau thriller atypique sur la haine des femmes dérange autant  Cosmopolitan.fr"
+      "snippet": "Pourquoi ce nouveau thriller atypique sur la haine des femmes d\u00e9range autant\u00a0\u00a0Cosmopolitan.fr"
     },
     {
       "title": "Programme TV Concerts / Festivals du samedi 11 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYUpkR2s5U202Y0dyT1g5MEpqQ0FIMjlSSFNRZHRBRmE4M1VTcXlxb3hYa1llVDJhMktscktxNXJsY29UNnpHaTlqMlVCTWtNaGU2aGRjOUVIMGZkaTc4TkdVdXlFak80azJfSTk2RUdvbFNrem1Sel8zQjJibGVNNlZHZGhIMjZYWlBLdmw5SEtITDB3?oc=5",
       "pubDate": "Sun, 29 Mar 2026 12:45:49 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Concerts / Festivals du samedi 11 avril 2026  linternaute.com"
+      "snippet": "Programme TV Concerts / Festivals du samedi 11 avril 2026\u00a0\u00a0linternaute.com"
     },
     {
-      "title": "“Je vais m’en sortir, la tête est encore là” : Gérard Jugnot très ému, il révèle son dernier SMS avec Isabelle Mergault, morte à 67 ans - Femme Actuelle",
+      "title": "\u201cJe vais m\u2019en sortir, la t\u00eate est encore l\u00e0\u201d : G\u00e9rard Jugnot tr\u00e8s \u00e9mu, il r\u00e9v\u00e8le son dernier SMS avec Isabelle Mergault, morte \u00e0 67 ans - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNeHFaa2laWHZSVUxxdm1GejA2N3ZKQzlpZVBnZ1ZRRkhKOERhbEhzMlRqTFFDaDlJeGRvV2ZleFFxUFdMUi14NTJiUmZkQ1ZwUGM1bE51YU13RWt2OFNnWnctWUJvNDNnNzN0ajhKd1FXdWlfQ0NoTlgxMWhzUGUtQndsOEhHcHU1WjJwZEFUNEx6X0cwc3MtbWtVSi1xelRpTFpreUdrMXBOVFZKa19JS1M1anpQTmFwQkJhbWMzRkpzRVpoNWxyekNJenI2ZW1LUk53eDV4Tl9zVnZvd2J0YTVmQmZmbkVhUm91cTVkUUxCRHJHRlRIaDRsVmhEWEVrQnctX0NXMFg0cEE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 12:39:14 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "“Je vais m’en sortir, la tête est encore là” : Gérard Jugnot très ému, il révèle son dernier SMS avec Isabelle Mergault, morte à 67 ans  Femme Actuelle"
+      "snippet": "\u201cJe vais m\u2019en sortir, la t\u00eate est encore l\u00e0\u201d : G\u00e9rard Jugnot tr\u00e8s \u00e9mu, il r\u00e9v\u00e8le son dernier SMS avec Isabelle Mergault, morte \u00e0 67 ans\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ? - ELLE",
+      "title": "Charles III : des retrouvailles avec Archie et Lilibet pr\u00e9vues cet \u00e9t\u00e9 ? - ELLE",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSFJBNWRINFl4UFNSb3pEV292MlRLZS12eklUai05cGpTTUFWWEhha1NjSHhRY0YyZnpraE9zX0NLanRxVXV6UW1FM3VGMzNWWVVVNjdtS09ia2RuWHZGT2h0NHZwcmIxRENSc3U2MnRJNGRrWWZFbXFWcHVkdTZSenliWFZjSzBtdDhLZ0N3d0dwNUpTMEhkMTNUSHFJQ2wxamlnb3Qtc0t4WS0zQ2JIUC1mWGRSQy1mVlRRNkZvNWVhZ0FR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 12:31:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Charles III : des retrouvailles avec Archie et Lilibet prévues cet été ?  ELLE"
+      "snippet": "Charles III : des retrouvailles avec Archie et Lilibet pr\u00e9vues cet \u00e9t\u00e9 ?\u00a0\u00a0ELLE"
     },
     {
-      "title": "Un appel à témoins lancé pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie - Femme Actuelle",
+      "title": "Un appel \u00e0 t\u00e9moins lanc\u00e9 pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOQ1p3dmp0VnFjbm9KMmM3aUpFcmxKbmlodGptR3REUHpRbFF5YVlZdTRYVFY1a1VwSEdZRWRXSHR6RVBLa0RuWEJsLV9JYVVZZTJEbjlBS0phTTlsTG1ibHFmYjhxWUhGeHBoSlhZcGxzWmxSek1WbDdMOWxVYy1rZ3Z0eUdXeU9ST2FxYkpBaHRBazh2M3djdXM1V1doX1JyRVJlbXRzYWc1V3c4ZlkzRGE0bXd1Z09waGJVd1NmbWtFc0trcDhZd3luV2k0Tzkya1BubEVVNGZ3dEdwUDItQkhSaWFmMC1MaWZqbHVjSQ?oc=5",
       "pubDate": "Sun, 29 Mar 2026 11:28:21 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Un appel à témoins lancé pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie  Femme Actuelle"
+      "snippet": "Un appel \u00e0 t\u00e9moins lanc\u00e9 pour retrouver un adolescent de 14 ans, disparu depuis une semaine en Haute-Savoie\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ? - Cosmopolitan.fr",
+      "title": "Fun\u00e9railles de Loana : quelles sont les derni\u00e8res volont\u00e9s de l\u2019ic\u00f4ne de t\u00e9l\u00e9-r\u00e9alit\u00e9 ? - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZGhiLUc3Sl85bkJ0LXFiWmxFSnhUdS1qNENqVXNRaWNGT0Jhajg3dlE0S3JQSWpGb1RBR041aVV1Sk83akFoYTA0c3dPVXM0RE9xcU04akVCblV6Zm1CdEFLTm1PWUt4UTNyMnpGQ0RCMWFSMWlDZmFPbDh6bF95ZlRBbWQyOUEtWjJYaWYwT0EwWEJ6TWtsZGZieXNrV0QzMVF5UDlzQXJ3dFJWRjJB?oc=5",
       "pubDate": "Sun, 29 Mar 2026 11:00:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Funérailles de Loana : quelles sont les dernières volontés de l’icône de télé-réalité ?  Cosmopolitan.fr"
+      "snippet": "Fun\u00e9railles de Loana : quelles sont les derni\u00e8res volont\u00e9s de l\u2019ic\u00f4ne de t\u00e9l\u00e9-r\u00e9alit\u00e9 ?\u00a0\u00a0Cosmopolitan.fr"
     },
     {
-      "title": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures - Femme Actuelle",
+      "title": "Dans l'Aube, une association fait la d\u00e9couverte d'une vert\u00e8bre de l'un des \"plus grands pr\u00e9dateurs marins\" de l'\u00e9poque des dinosaures - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNUkMtMklGZEJ0TmlKRGt0dVgzbkZqb2pFSXJMZUZQd1M0a003Y2R6ZGxaVWtWYlZPRzdQZzB6dFZLdWsxZmZGV21GeWxEdks5YkU0Vk5Ha1lNVTZvYTNTU3h4U1gxZW5XVF8yaGIyNmZvbDVxdjRyUUNkbGZPUXVacDJmT3M4UUtxZHVyVllpeXdwR3JQS2h1LUdxek15UFE4UTN4RlRLVXBWX09CSTBxVnRuYW1tSUU5SHR4dEEwUmwxNl9ZZ3NNV2F4VUlOVWRKa3lkdmlKR05kNDlXbkVOVTNTZDdqWHJDT3pTV3VrUlZiVWxPX0l0RGNYNHZuVGJPYV9EV2JxUi1WZXBGb0Jz?oc=5",
       "pubDate": "Sun, 29 Mar 2026 09:17:45 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Dans l'Aube, une association fait la découverte d'une vertèbre de l'un des \"plus grands prédateurs marins\" de l'époque des dinosaures  Femme Actuelle"
+      "snippet": "Dans l'Aube, une association fait la d\u00e9couverte d'une vert\u00e8bre de l'un des \"plus grands pr\u00e9dateurs marins\" de l'\u00e9poque des dinosaures\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "La Réunion: reprise d'éruption au Piton de la Fournaise - notretemps.com",
+      "title": "La R\u00e9union: reprise d'\u00e9ruption au Piton de la Fournaise - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOYnZ3YUUybVFzNFJHS3ZVUUFVcWE0Ums3TWh5UlZXc29MVkZMU2VJLXFYWkhjUjFya25Yandac1hNSlFrc1hqMHdqZXhJRTVZRUNiOFNqc3BjaU1GZ216aTdiVk5Ib3dnelUzMkVyZmk0cHlldkxoMHJ1cWt0Wl9xd2Z1TENVdzhjc3Zmd0k1Q2JqdW5XMWxOR3VBc0ZvZw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 08:21:11 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "La Réunion: reprise d'éruption au Piton de la Fournaise  notretemps.com"
+      "snippet": "La R\u00e9union: reprise d'\u00e9ruption au Piton de la Fournaise\u00a0\u00a0notretemps.com"
     },
     {
-      "title": "\"Très inquiet\", Aram Ohanian, l'ex d'Adriana Karembeu, demande la garde exclusive de leur fille Nina - Femme Actuelle",
+      "title": "\"Tr\u00e8s inquiet\", Aram Ohanian, l'ex d'Adriana Karembeu, demande la garde exclusive de leur fille Nina - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQdjVWRU9xS3p3QkFPOXhpSGh0T0dxOW1QbGZzY240TndHRndadGdjWXgwNmh6a1Njdkw4YkVRd3A2WmpKWVROSC1Qajl3cmJSLUF1ZzVRSVdRazZzZGl3SDREUEJOUTJwa1VBUmE5bTNlc21saTNKTVQybDdxM3VPbWljTTR4el9qcVFBTDBnc0NpdldtNW9KMElkOVlrcUswQk9VVjlJSGtKV2dtd1BFckNVOW9IYWxOLTUwMVY2bklGNk5NcWdkWnFOeEo3Tkpza0FsdzhrX2pLdDNrektXNA?oc=5",
       "pubDate": "Sun, 29 Mar 2026 08:09:57 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "\"Très inquiet\", Aram Ohanian, l'ex d'Adriana Karembeu, demande la garde exclusive de leur fille Nina  Femme Actuelle"
+      "snippet": "\"Tr\u00e8s inquiet\", Aram Ohanian, l'ex d'Adriana Karembeu, demande la garde exclusive de leur fille Nina\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "\"Les tensions s’effacent\" : j'ai testé l'aqua sophro, la méthode douce pour déconnecter immédiatement - Femme Actuelle",
+      "title": "\"Les tensions s\u2019effacent\" : j'ai test\u00e9 l'aqua sophro, la m\u00e9thode douce pour d\u00e9connecter imm\u00e9diatement - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTEw4N3RpbzZOX2ZTY3hvUEVNcEtzSVo2dHZOUnhZd1VPVTFSY2NsLTlBdmVSdUZtc0d6Q2QtU21QX2hLZm9RMTFYMG9nVy1MeHBYRU1QdXlIWDdfYnROdHkzZDBmV0N0T2dycHBjWWxnem1ha3l3R2JZTV96dlgtVFFsU19vV3B3S3FkdHdGRFgyUGtUSjlma1JYNUVHMGx6eHNQakZqTVB6bV85WUpNMnZDZEpwVU1PWGpF?oc=5",
       "pubDate": "Sun, 29 Mar 2026 07:52:00 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "\"Les tensions s’effacent\" : j'ai testé l'aqua sophro, la méthode douce pour déconnecter immédiatement  Femme Actuelle"
+      "snippet": "\"Les tensions s\u2019effacent\" : j'ai test\u00e9 l'aqua sophro, la m\u00e9thode douce pour d\u00e9connecter imm\u00e9diatement\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "L'astuce \"magique\" de Julie Andrieu pour réaliser une mousse au chocolat absolument savoureuse - Cosmopolitan.fr",
+      "title": "L'astuce \"magique\" de Julie Andrieu pour r\u00e9aliser une mousse au chocolat absolument savoureuse - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPX0xrTGlhZkdIc2syQmdNNF9qNEJjekQtTFJPLXRDZERXMFp0WW10Q094MzN6YndaSWZnU29LTjdJMXFZaHpzamlodE94QWhfNEt6bHQySW5mY094akpqSzgxam5aTGxpbXVIcFdLU1lSbmZreklkQkhMMWt0WTQxNjZwbU5FaWtpeklDeGp5YUVsYklWS29Jcm15VV91R2JrU1JFLW5jeFM1cnI4b0RVZTllVVlBdUZVekNjemVhWTVuLTNYbzA2Y1hEZU0?oc=5",
       "pubDate": "Sun, 29 Mar 2026 07:00:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "L'astuce \"magique\" de Julie Andrieu pour réaliser une mousse au chocolat absolument savoureuse  Cosmopolitan.fr"
+      "snippet": "L'astuce \"magique\" de Julie Andrieu pour r\u00e9aliser une mousse au chocolat absolument savoureuse\u00a0\u00a0Cosmopolitan.fr"
     },
     {
-      "title": "Taylor Swift remet au goût du jour sa coiffure iconique de 2016 - ELLE",
+      "title": "Taylor Swift remet au go\u00fbt du jour sa coiffure iconique de 2016 - ELLE",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNc3BRMUtKc09qMUhidWJ5R2kyZ05MOG1hNkVTbUZEMHN0bmdmRkV4NDlBM0NBYUJrRW1nSGZPOGxQVUtRRmppTWFVTHY3T2pwNThkVEtHMzVuWUtJejRVWXBpRGhqT2RCVTdLcFhKbS1uZVBDZEozdFdwZF9Ea3pTVWtNaDRxaVlfdjRVelZFS3R4Y1NFMnZBNFY4a2ZJX3NUM0xVaHFPWWY5cVlHckNtSGdB?oc=5",
       "pubDate": "Sun, 29 Mar 2026 06:46:00 GMT",
       "source": "elle.fr",
-      "icon": "👗",
+      "icon": "\ud83d\udc57",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Taylor Swift remet au goût du jour sa coiffure iconique de 2016  ELLE"
+      "snippet": "Taylor Swift remet au go\u00fbt du jour sa coiffure iconique de 2016\u00a0\u00a0ELLE"
     },
     {
-      "title": "Le printemps est là : 62 idées recettes de saison - Femme Actuelle",
+      "title": "Le printemps est l\u00e0 : 62 id\u00e9es recettes de saison - Femme Actuelle",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWlIwcXR0bXRNVTV0bktHcjhRSHNzdWdBaWZxWGRSQ3Zobzllc21WTl91b1dBeUo4SDJ1bGRXY1VKS09JMG0wZ1B2S2xxa2Fqd2lPLWtibVNvaGF0dV9SQWw2U3RmemdsRS12VWZFekgxOGE3Q3AwNmJLN3hEa3k3NHA1QTVfUEtXdVRBNmxYQkVKMVBvZ0tzZHhKTFdXU2JtRl9NZnoyeG1nYVVnRkE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 06:30:00 GMT",
       "source": "femmeactuelle.fr",
-      "icon": "👩",
+      "icon": "\ud83d\udc69",
       "competes": [
         "mariefrance.fr"
       ],
-      "snippet": "Le printemps est là : 62 idées recettes de saison  Femme Actuelle"
+      "snippet": "Le printemps est l\u00e0 : 62 id\u00e9es recettes de saison\u00a0\u00a0Femme Actuelle"
     },
     {
-      "title": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy - notretemps.com",
+      "title": "La r\u00e9industrialisation de la France ralentit en 2025, selon le barom\u00e8tre de Bercy - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMVpud01BVUl0RkVwb1B4TGtseVdpTjlzbE1ZdWNXdC0zaHZRaEIxVGd6b1RwY2djTml3RmxtQ0RQazhJQjZ4T1VUQTBkSDEzZ21VZUZvTWFrNkVub1RXSkl4SWdRUExqRURRV3RaeEpiOVhLSUt3anNCNXVVV2cyTjkwdGNFcm80Qkh1cHRIMVdBbTJGc00xYUk1N3pSRWc1MVJUWnFZcmpTc1NibjhiNHIzRGFTTEFWcmtQU09WZGc?oc=5",
       "pubDate": "Sun, 29 Mar 2026 06:06:18 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "La réindustrialisation de la France ralentit en 2025, selon le baromètre de Bercy  notretemps.com"
+      "snippet": "La r\u00e9industrialisation de la France ralentit en 2025, selon le barom\u00e8tre de Bercy\u00a0\u00a0notretemps.com"
     },
     {
-      "title": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault - Cosmopolitan.fr",
+      "title": "Loana et Sophie, Patrick Bruel accus\u00e9, Isabelle Mergault - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcmVZUkVvX21QWWtCMHJkVjdOcEhobXJfbmtobUl6WjRwbHdybVdoUnI0MTRFZ2pBaUo0RkNXdE9aMkx5LXpMdkcwbDc4bF91WkRvampJeF92UzBQQjlINi1pN0RremFOMXFiVXYwM0E1ZklWek5faEdST1QtcE5UeHFzNkJOcUpCb3hZT1lUN3M5cUNYWlhaSXVR?oc=5",
       "pubDate": "Sun, 29 Mar 2026 05:30:13 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Loana et Sophie, Patrick Bruel accusé, Isabelle Mergault  Cosmopolitan.fr"
+      "snippet": "Loana et Sophie, Patrick Bruel accus\u00e9, Isabelle Mergault\u00a0\u00a0Cosmopolitan.fr"
     },
     {
-      "title": "Horoscope du 29 mars 2026 : une journée économiquement difficile pour les natifs de ce signe astrologique - Cosmopolitan.fr",
+      "title": "Horoscope du 29 mars 2026 : une journ\u00e9e \u00e9conomiquement difficile pour les natifs de ce signe astrologique - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeGE2bmRlNEVIY0poUVAxYjF6OE5aSHFDbkJOenRYSW1Xb2lqcXpmdFktQW1RUFlac1VZc25nb2Jsb3BmSjZaZDBMUC1MLXpHS3E4Qy14QjBybHJXTTIyV3VsMkVERUIxYzR5Q1Z4M1dyMWotYzNLa1FjZmVMS0VZRUUzVl9xdmczRUU3YnlWenBZUnQ0WW5UWE43elJlYzhfcHdDcDFhOWJGUFdRWnNVX0REOE93NkZyRnUxSVNhTVFieVk?oc=5",
       "pubDate": "Sun, 29 Mar 2026 05:00:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Horoscope du 29 mars 2026 : une journée économiquement difficile pour les natifs de ce signe astrologique  Cosmopolitan.fr"
+      "snippet": "Horoscope du 29 mars 2026 : une journ\u00e9e \u00e9conomiquement difficile pour les natifs de ce signe astrologique\u00a0\u00a0Cosmopolitan.fr"
     },
     {
       "title": "Luana Belmondo: La colombe pascale fait le printemps - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNek9YekRnbDRRdXNBQkhmWUdKOWlxV0hNT2d2YTdkN2EtekhJX3lERVhtSFR2ZWlOYlUtQ1JhX0pxSjBNQzBJb29sRzd2VTJZVGRoM21vVjI2TmViTWRETFFyZVdYWS01cUtsQnVJLUx0UlFDQXR3bV9MR0NhaTNVeXBzck1CX0hiUFBBV3NmYUs1Z1BFU3gxbzBGT0JhX2lUOTdFb2RhWEJsZw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 04:01:06 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Luana Belmondo: La colombe pascale fait le printemps  notretemps.com"
+      "snippet": "Luana Belmondo: La colombe pascale fait le printemps\u00a0\u00a0notretemps.com"
     },
     {
-      "title": "Acouphènes : ces deux aliments les font exploser d'après la science",
+      "title": "Acouph\u00e8nes : ces deux aliments les font exploser d'apr\u00e8s la science",
       "link": "https://www.medisite.fr/sante-au-quotidien-acouphenes-ces-deux-aliments-les-font-exploser-dapres-la-science.5717352.112.html",
       "pubDate": "Sun, 29 Mar 2026 06:00:00 +0200",
       "source": "medisite.fr",
-      "icon": "💉",
+      "icon": "\ud83d\udc89",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Le bruit fort ambiant exacerbe les acouphènes. Mais d&#039;autres ennemis peuvent se cacher là où on ne les attend pas : notre assiette. Deux produits en particulier sont visés. Voici lesquels."
+      "snippet": "Le bruit fort ambiant exacerbe les acouph\u00e8nes. Mais d&#039;autres ennemis peuvent se cacher l\u00e0 o\u00f9 on ne les attend pas : notre assiette. Deux produits en particulier sont vis\u00e9s. Voici lesquels."
     },
     {
       "title": "Comment revendre ses bijoux anciens et en tirer le meilleur prix - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNU2JCQ1FKR3BMZGRGdFFpTGRDRExnWldnd3gxZHI2MXQwNU43QlhaT1FOSmZtekNXRm9MbV8ycWVXc1luMl9aMHVBV2xVTEJiZUU2dl9sV2dSbDJLTjJGQy1xSkZkLWxUQ2pEdlVOeXY0dFdESXV3dFpScW1FXzNfWGV3UTRDX1lYSmxkeU9pZENiNWRYeW96UElDNERsQjB5cVlmaGVRMXhZZUtOOV91SnMzZ2xOMHdxeUE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 03:36:04 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Comment revendre ses bijoux anciens et en tirer le meilleur prix  notretemps.com"
+      "snippet": "Comment revendre ses bijoux anciens et en tirer le meilleur prix\u00a0\u00a0notretemps.com"
     },
     {
       "title": "Horoscope du dimanche 29 mars 2026 signe par signe - Cosmopolitan.fr",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNdkJPRXVjTXRqdFJhdktJWFMtM1o2Ym5HMUVYRENOaHlJVV9qS1RSUXVEZm5RT3ZXRFpHQXNSSGZPWHBkYWpyMFpNaWpVU1FOZ3RfbkRNVWJSQmhsQ0UzYXl4akhFWk9YX1Z2dzBOeThuYUUyOUtMMXhySGJXUjNmYjBURVdmWHVZbmU2Ny1WWVB2YnMw?oc=5",
       "pubDate": "Sun, 29 Mar 2026 03:30:00 GMT",
       "source": "cosmopolitan.fr",
-      "icon": "💄",
+      "icon": "\ud83d\udc84",
       "competes": [
         "aufeminin.com"
       ],
-      "snippet": "Horoscope du dimanche 29 mars 2026 signe par signe  Cosmopolitan.fr"
+      "snippet": "Horoscope du dimanche 29 mars 2026 signe par signe\u00a0\u00a0Cosmopolitan.fr"
     },
     {
-      "title": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville - notretemps.com",
+      "title": "A Paris, Emmanuel Gr\u00e9goire prend le relais d'Anne Hidalgo \u00e0 l'H\u00f4tel de ville - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTTJoeWZDVmVYcTRsQnl3ZzFKbklCUVZBMGgxVks3YXVNbHBJMjVKTWZBQzZrdGg1WDlQTGJVMjM4V2psV1RkSFp2QnVqUEwyRkY5ak5IWThRMWhYbGFadDlNQVFLOHR3VXA4dDJ5anI3TF91VjhDWWdqcjU5WGZKendDT0haOVkyUEp2dEtCc3o3RXBUbHNyUV9GX1haWVU4aEtDaWRSb0ZFdW8yT0NaMzl4MFRoRWJkM0E?oc=5",
       "pubDate": "Sun, 29 Mar 2026 02:21:12 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "A Paris, Emmanuel Grégoire prend le relais d'Anne Hidalgo à l'Hôtel de ville  notretemps.com"
+      "snippet": "A Paris, Emmanuel Gr\u00e9goire prend le relais d'Anne Hidalgo \u00e0 l'H\u00f4tel de ville\u00a0\u00a0notretemps.com"
     },
     {
-      "title": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville - notretemps.com",
+      "title": "Apr\u00e8s sa victoire \u00e0 Paris, Emmanuel Gr\u00e9goire s'installe \u00e0 l'H\u00f4tel de ville - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPVksweUdXSGhTWVlVZ2hoelMyTGd6b0JGRUpqbGpzU3ZtaDI2Tl9RVGNCMDBmME00RWN0Zl9hZ1RwSy1yUEtLWk5Ga1REaHFLS2pHZS0xdFFIaGk3bllKV0JFMHV0TEkxY3I2cElMTDRwMExkSGpqY21LZzVKbjRzbXBMODA5QXQ4SG1sVzBoUmx3OXA5LTR5ZWRfN3VVR3lfMFZzYUVfZ0N5bUZ0RFIyanc1TEJ1QVE?oc=5",
       "pubDate": "Sun, 29 Mar 2026 02:21:12 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Après sa victoire à Paris, Emmanuel Grégoire s'installe à l'Hôtel de ville  notretemps.com"
+      "snippet": "Apr\u00e8s sa victoire \u00e0 Paris, Emmanuel Gr\u00e9goire s'installe \u00e0 l'H\u00f4tel de ville\u00a0\u00a0notretemps.com"
     },
     {
-      "title": "Prévention du cancer de l'estomac : ce nouveau médicament représente un immense espoir",
+      "title": "Pr\u00e9vention du cancer de l'estomac : ce nouveau m\u00e9dicament repr\u00e9sente un immense espoir",
       "link": "https://www.medisite.fr/cancer-prevention-du-cancer-de-lestomac-ce-nouveau-medicament-represente-un-immense-espoir.5717351.46.html",
       "pubDate": "Sun, 29 Mar 2026 04:00:00 +0200",
       "source": "medisite.fr",
-      "icon": "💉",
+      "icon": "\ud83d\udc89",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Face à la résistance croissante de la bactérie Helicobacter pylori, responsable de la majorité des cancers gastriques, des chercheurs ont mis au point un dérivé antibiotique révolutionnaire, 70 fois p"
+      "snippet": "Face \u00e0 la r\u00e9sistance croissante de la bact\u00e9rie Helicobacter pylori, responsable de la majorit\u00e9 des cancers gastriques, des chercheurs ont mis au point un d\u00e9riv\u00e9 antibiotique r\u00e9volutionnaire, 70 fois p"
     },
     {
-      "title": "Mots fléchés gratuits - Force 3 - 29 mars 2026 Grille n°3898 - notretemps.com",
+      "title": "Mots fl\u00e9ch\u00e9s gratuits - Force 3 - 29 mars 2026 Grille n\u00b03898 - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODl1RVRLMGkwWmdGTTJLenRlSmVwNTNXRW5ieDlRTWtxaXdRaFZVYTJhN1lOc3NLd3YzMzJwM1owY2tpUVdwZmpwalVwZWkzNGJfVkhaUmprQjBKYURjdDkyLVdVSjRFNTRiT1NXeGU5UV9taGFyTFp2LUQ1d0VRRXZ4a2ZwZ192UXlCQUNFdGJMX2FNMkkxMnJ0cmJIZ296QURHbHpiMDI1N1pmcnlCTzJUcmxicUpWWTlobGNn?oc=5",
       "pubDate": "Sun, 29 Mar 2026 01:06:10 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Mots fléchés gratuits - Force 3 - 29 mars 2026 Grille n°3898  notretemps.com"
+      "snippet": "Mots fl\u00e9ch\u00e9s gratuits - Force 3 - 29 mars 2026 Grille n\u00b03898\u00a0\u00a0notretemps.com"
     },
     {
       "title": "Programme AB 1 du samedi 11 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAxeW9NdnBZYW1CMUlDdnc2WUtJck9BWXhtTWlHbE1QbHNvdld0NUV0NHVRQ2tRSUVZTEJrTC1zbHAtNl9qQ0poa0NyUXEzTGlFSzhyUDlWUHRPMFBqM2NENHd2LWxIMW1xZGczWTV3LWpYX3JIWkVEMU11cWJZcGc?oc=5",
       "pubDate": "Sun, 29 Mar 2026 00:05:19 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme AB 1 du samedi 11 avril 2026  linternaute.com"
+      "snippet": "Programme AB 1 du samedi 11 avril 2026\u00a0\u00a0linternaute.com"
     },
     {
-      "title": "Programme TV Hertz du samedi 11 avril 2026 après-midi - linternaute.com",
+      "title": "Programme TV Hertz du samedi 11 avril 2026 apr\u00e8s-midi - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU0IyRnJKaWMwMTNpcjVJTnFRZUhJZHMxXzZja2JhN3ZBeF9RUGpkdzBSYjFFMExMUTRNTlBGTWMxNXktVW5vUjBXM1FEMjF0SHhRaWRUU3BkX3NGYUg0YXBRbE1OcjhxUExNTUxoZzVEWVBqdmhxYnRSMVJzZ3NqNmZzR05SZkNwNV96QUlLUXU?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:53:01 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV Hertz du samedi 11 avril 2026 après-midi  linternaute.com"
+      "snippet": "Programme TV Hertz du samedi 11 avril 2026 apr\u00e8s-midi\u00a0\u00a0linternaute.com"
     },
     {
       "title": "Programme National Geographic Wild du samedi 11 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNY2dtVmxXNk5melc4STAwSloxUWQxaFdkQy1aQVYtenhZR18zSUFfaWJKNkF4ZDBmcVMzZGduZ29VRFQ0UzR3N3JhYm9YR1ExQlNEZG8zOHJzdlFkWjl3eVE4V0VjNEQta3hsZmxPd3dEZUZCMW5KV1FPMEtzbUg2NzJENWpLUWNrWEYxdHdHWFl3WDZJVW0wUFJ4aw?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:28:47 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme National Geographic Wild du samedi 11 avril 2026  linternaute.com"
+      "snippet": "Programme National Geographic Wild du samedi 11 avril 2026\u00a0\u00a0linternaute.com"
     },
     {
       "title": "Wordle : Le Mot du jour gratuit - 29 mars 2026 - notretemps.com",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQnNJZWVFd3dVZHJWRDNzZ1lCYmhZQXJBNXBUSk1kREZyaEQwQ2lmZ0J5a0JpaHVwbHR3S3dGc1ZJX0M0S0NUQzQ4aFk5RkQ4T3ZGZGhPT01lekVnbWN6VTdjTEZLcHB2RzUzV1AxMEhwMGRYTjh4Vk9JcnB1cnR2Qm5rQTg2cnRka2ZoakItZHhOYU9TZERPM3Q2SWFOZUVKTVN1ZDBUR1VzRjJESXlfdUNCSDg?oc=5",
       "pubDate": "Sat, 28 Mar 2026 23:00:00 GMT",
       "source": "notretemps.com",
-      "icon": "🕰️",
+      "icon": "\ud83d\udd70\ufe0f",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Wordle : Le Mot du jour gratuit - 29 mars 2026  notretemps.com"
+      "snippet": "Wordle : Le Mot du jour gratuit - 29 mars 2026\u00a0\u00a0notretemps.com"
     },
     {
       "title": "Douleurs articulaires : boswellia, curcuma ou gingembre, quel anti-inflammatoire naturel choisir ?",
       "link": "https://www.medisite.fr/sante-naturelle-douleurs-articulaires-boswellia-curcuma-ou-gingembre-quel-anti-inflammatoire-naturel-choisir.5717344.87.html",
       "pubDate": "Sat, 28 Mar 2026 16:00:00 +0100",
       "source": "medisite.fr",
-      "icon": "💉",
+      "icon": "\ud83d\udc89",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Vous souffrez des articulations, comme 8 Français sur 10 ? Des solutions naturelles et efficaces existent, mais il faut veiller à choisir la plus adaptée. Laquelle et comment ? On vous dit tout."
+      "snippet": "Vous souffrez des articulations, comme 8 Fran\u00e7ais sur 10 ? Des solutions naturelles et efficaces existent, mais il faut veiller \u00e0 choisir la plus adapt\u00e9e. Laquelle et comment ? On vous dit tout."
     },
     {
       "title": "Pamplemousse : 8 bonnes raisons d'en manger au printemps (et 8 recettes de saison)",
       "link": "https://www.medisite.fr/sante-au-quotidien-pamplemousse-8-bonnes-raisons-den-manger-au-printemps-et-8-recettes-de-saison.5717350.112.html",
       "pubDate": "Sat, 28 Mar 2026 10:00:00 +0100",
       "source": "medisite.fr",
-      "icon": "💉",
+      "icon": "\ud83d\udc89",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Au sortir de l&#039;hiver, le corps réclame vitalité et nutriments pour accompagner le renouveau printanier. Un aliment à suggérer ? Le pamplemousse ! Riche en vitamine C, en fibres et en antioxydants"
+      "snippet": "Au sortir de l&#039;hiver, le corps r\u00e9clame vitalit\u00e9 et nutriments pour accompagner le renouveau printanier. Un aliment \u00e0 sugg\u00e9rer ? Le pamplemousse ! Riche en vitamine C, en fibres et en antioxydants"
     },
     {
-      "title": "Du plomb retrouvé dans les vêtements neufs : quels effets sur la santé ?",
+      "title": "Du plomb retrouv\u00e9 dans les v\u00eatements neufs : quels effets sur la sant\u00e9 ?",
       "link": "https://www.medisite.fr/actualites-du-plomb-retrouve-dans-les-vetements-neufs-quels-effets-sur-la-sante.5717347.2071.html",
       "pubDate": "Sat, 28 Mar 2026 04:00:00 +0100",
       "source": "medisite.fr",
-      "icon": "💉",
+      "icon": "\ud83d\udc89",
       "competes": [
         "pleinevie.fr"
       ],
-      "snippet": "Une récente étude alerte sur les niveaux inquiétants de plomb détectés dans les tee-shirts, notamment dans les modèles pour enfant de marque de fast fashion. Quels risques pour la santé ? Comment se p"
+      "snippet": "Une r\u00e9cente \u00e9tude alerte sur les niveaux inqui\u00e9tants de plomb d\u00e9tect\u00e9s dans les tee-shirts, notamment dans les mod\u00e8les pour enfant de marque de fast fashion. Quels risques pour la sant\u00e9 ? Comment se p"
     },
     {
-      "title": "Programme TF1 Séries Films du vendredi 10 avril 2026 - linternaute.com",
+      "title": "Programme TF1 S\u00e9ries Films du vendredi 10 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPS2RXbWJLMlo4bWVBUk4yTGt6REE0eGNGZDJHN01QbzFKbENzZElxWTdpUXp2TzZRdC1UN1RXblhTS1hXSEZ5SXh6TWtDamYzWW5kM0g3YTVoOENXaTFZTTBiWlNzVjlTd1oxVHE2Vk1UUEdlMEJqbnV4SFFlRlExbUtOVTZTZHM3aU5nRFdMRDRtU0k?oc=5",
       "pubDate": "Sat, 28 Mar 2026 00:21:20 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TF1 Séries Films du vendredi 10 avril 2026  linternaute.com"
+      "snippet": "Programme TF1 S\u00e9ries Films du vendredi 10 avril 2026\u00a0\u00a0linternaute.com"
     },
     {
       "title": "Programme AB 1 du vendredi 10 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNMFUyeXhmM0NYSjFIYTB1a1FVR1huai14Z3g1LVV3Yy10REJSbGVJVUc4VFR4TTVaRFhuX3BtNnQ3eGE3dEVFdDFUNGZ5RVdremRLX0wxNGthRGg1UHZidE4yb053a0dmOHViODFHNWphT0tqa2IxV3lTS2tXTkc4VWJR?oc=5",
       "pubDate": "Sat, 28 Mar 2026 00:07:11 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme AB 1 du vendredi 10 avril 2026  linternaute.com"
+      "snippet": "Programme AB 1 du vendredi 10 avril 2026\u00a0\u00a0linternaute.com"
     },
     {
       "title": "Programme TV5MONDE du vendredi 10 avril 2026 - linternaute.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPTGJlbGgyVEtGMDlURkVwbzc0UkZkT0VMcGcwVWllcGRMcG5kVGdTcUROM2ZENkF4Vk0xMjNXeGdZN2N4TVlpTlNtekx1Sl9UM2dmOTZTSl9ORUhMS1otYWo2cnNFQ0F0VGpsMC1OcnFRdGp3MGNrUmhCUDVLUzByQmRpOGg0M0Ew?oc=5",
       "pubDate": "Fri, 27 Mar 2026 23:45:13 GMT",
       "source": "linternaute.com",
-      "icon": "🌐",
+      "icon": "\ud83c\udf10",
       "competes": [
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "snippet": "Programme TV5MONDE du vendredi 10 avril 2026  linternaute.com"
+      "snippet": "Programme TV5MONDE du vendredi 10 avril 2026\u00a0\u00a0linternaute.com"
     }
   ],
   "competitorFeedsMeta": [
@@ -3202,7 +3202,7 @@
       "competes": [
         "mariefrance.fr"
       ],
-      "icon": "👩"
+      "icon": "\ud83d\udc69"
     },
     {
       "site": "journaldesfemmes.fr",
@@ -3210,35 +3210,35 @@
         "mariefrance.fr",
         "aufeminin.com"
       ],
-      "icon": "📰"
+      "icon": "\ud83d\udcf0"
     },
     {
       "site": "closermag.fr",
       "competes": [
         "mariefrance.fr"
       ],
-      "icon": "⭐"
+      "icon": "\u2b50"
     },
     {
       "site": "elle.fr",
       "competes": [
         "mariefrance.fr"
       ],
-      "icon": "👗"
+      "icon": "\ud83d\udc57"
     },
     {
       "site": "doctissimo.fr",
       "competes": [
         "aufeminin.com"
       ],
-      "icon": "🏥"
+      "icon": "\ud83c\udfe5"
     },
     {
       "site": "psychologies.com",
       "competes": [
         "aufeminin.com"
       ],
-      "icon": "🧠"
+      "icon": "\ud83e\udde0"
     },
     {
       "site": "topsante.com",
@@ -3246,28 +3246,28 @@
         "aufeminin.com",
         "pleinevie.fr"
       ],
-      "icon": "💊"
+      "icon": "\ud83d\udc8a"
     },
     {
       "site": "cosmopolitan.fr",
       "competes": [
         "aufeminin.com"
       ],
-      "icon": "💄"
+      "icon": "\ud83d\udc84"
     },
     {
       "site": "notretemps.com",
       "competes": [
         "pleinevie.fr"
       ],
-      "icon": "🕰️"
+      "icon": "\ud83d\udd70\ufe0f"
     },
     {
       "site": "medisite.fr",
       "competes": [
         "pleinevie.fr"
       ],
-      "icon": "💉"
+      "icon": "\ud83d\udc89"
     },
     {
       "site": "linternaute.com",
@@ -3275,7 +3275,57 @@
         "mariefrance.fr",
         "pleinevie.fr"
       ],
-      "icon": "🌐"
+      "icon": "\ud83c\udf10"
     }
-  ]
+  ],
+  "paperclip": {
+    "tasks": {
+      "open": 1,
+      "inProgress": 1,
+      "blocked": 0,
+      "done": 0
+    },
+    "agents": {
+      "active": 1,
+      "running": 0,
+      "paused": 0,
+      "error": 1
+    },
+    "issues": [
+      {
+        "id": "6c32c341-5b9f-420f-a588-6b4d8184a615",
+        "companyId": "4564eeb8-e000-430a-abc1-c30df69d18c0",
+        "projectId": "78c45c46-c545-4a5a-b729-6594d1a5df90",
+        "goalId": null,
+        "parentId": null,
+        "title": "Brief Article Retraite MICO",
+        "description": "G\u00e9n\u00e9rer un brief complet pour un article sur la revalorisation du MICO (Minimum Contributif) en mars 2026. Cible : Femmes seniors. Objectif : Discover.",
+        "status": "in_progress",
+        "priority": "high",
+        "assigneeAgentId": "fad6d805-6995-4f0e-b1d9-584a125b0a57",
+        "assigneeUserId": null,
+        "checkoutRunId": null,
+        "executionRunId": null,
+        "executionAgentNameKey": null,
+        "executionLockedAt": null,
+        "createdByAgentId": null,
+        "createdByUserId": "local-board",
+        "issueNumber": 1,
+        "identifier": "REW-1",
+        "requestDepth": 0,
+        "billingCode": null,
+        "assigneeAdapterOverrides": null,
+        "executionWorkspaceSettings": null,
+        "startedAt": "2026-03-30T05:08:44.028Z",
+        "completedAt": null,
+        "cancelledAt": null,
+        "hiddenAt": null,
+        "createdAt": "2026-03-30T05:08:35.631Z",
+        "updatedAt": "2026-03-30T05:08:44.095Z",
+        "labels": [],
+        "labelIds": [],
+        "activeRun": null
+      }
+    ]
+  }
 }
